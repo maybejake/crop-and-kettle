@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:item_frame",
+      "components": {
+        "minecraft:item_model": "cnk:chorus_wine"
+      }
+    },
+    "title": {"translate":"advancement.cnk.drink_chorus_wine_far.name","fallback":"Long-haul Flight"},
+    "description": {"translate":"advancement.cnk.drink_chorus_wine_far.desc","fallback":"Drink chorus wine that has been aged for at least 50 years"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "parent": "cnk:visible/basin",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

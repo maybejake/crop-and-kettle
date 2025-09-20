@@ -1,0 +1,1 @@
+$effect give @s minecraft:fire_resistance $(duration) 0 false

@@ -1,0 +1,102 @@
+{
+  "parent": "cnk:cookbook/root",
+  "criteria": {
+    "cnk:pork_cutlets": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items":"minecraft:poisonous_potato","predicates":{"minecraft:custom_data": {"cnk":{"ingredient":{"type":"pork_cutlets"}}}}}
+        ]
+      }
+    },
+    "cnk:beef_cutlets": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items":"minecraft:poisonous_potato","predicates":{"minecraft:custom_data": {"cnk":{"ingredient":{"type":"beef_cutlets"}}}}}
+        ]
+      }
+    },
+    "cnk:chicken_cutlets": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items":"minecraft:poisonous_potato","predicates":{"minecraft:custom_data": {"cnk":{"ingredient":{"type":"chicken_cutlets"}}}}}
+        ]
+      }
+    },
+    "cnk:mutton_cutlets": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items":"minecraft:poisonous_potato","predicates":{"minecraft:custom_data": {"cnk":{"ingredient":{"type":"mutton_cutlets"}}}}}
+        ]
+      }
+    },
+    "cnk:rabbit_cutlets": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items":"minecraft:poisonous_potato","predicates":{"minecraft:custom_data": {"cnk":{"ingredient":{"type":"rabbit_cutlets"}}}}}
+        ]
+      }
+    },
+    "minecraft:porkchop": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:porkchop"}
+        ]
+      }
+    },
+    "minecraft:beef": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:beef"}
+        ]
+      }
+    },
+    "minecraft:chicken": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:chicken"}
+        ]
+      }
+    },
+    "minecraft:mutton": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:mutton"}
+        ]
+      }
+    },
+    "minecraft:rabbit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:rabbit"}
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cnk:pork_cutlets",
+      "cnk:beef_cutlets",
+      "cnk:chicken_cutlets",
+      "cnk:mutton_cutlets",
+      "cnk:rabbit_cutlets",
+      "minecraft:porkchop",
+      "minecraft:beef",
+      "minecraft:chicken",
+      "minecraft:mutton",
+      "minecraft:rabbit"
+    ]
+  ],
+  "rewards": {
+    "function": "cnk:cookbook/grant/any_meat"
+  }
+}

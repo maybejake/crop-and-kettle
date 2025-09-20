@@ -1,0 +1,18 @@
+{
+  "parent": "cnk:cookbook/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { 
+            "items": "minecraft:yellow_dye"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "cnk:cookbook/grant/yellow_dye"
+  }
+}

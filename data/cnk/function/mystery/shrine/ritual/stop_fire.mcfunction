@@ -1,0 +1,1 @@
+execute at @e[type=minecraft:item,tag=cnk.meat_guide_ritual] run fill ~-5 ~-5 ~-5 ~5 ~5 ~5 minecraft:air replace minecraft:fire

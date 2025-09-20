@@ -1,0 +1,6 @@
+execute if entity @s[predicate=cnk:scythe/mainhand,predicate=cnk:junk/false] run return run item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_data","tag":{"cnk":{"junk":1b}}}
+execute if entity @s[predicate=cnk:scythe/offhand,predicate=cnk:junk/false] run return run item modify entity @s weapon.offhand {"function":"minecraft:set_custom_data","tag":{"cnk":{"junk":1b}}}
+execute if entity @s[predicate=cnk:scythe/mainhand,predicate=cnk:junk/true] run return run item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_data","tag":{"cnk":{"junk":0b}}}
+execute if entity @s[predicate=cnk:scythe/offhand,predicate=cnk:junk/true] run return run item modify entity @s weapon.offhand {"function":"minecraft:set_custom_data","tag":{"cnk":{"junk":0b}}}
+execute if entity @s[predicate=cnk:scythe/mainhand] run return run item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_data","tag":{"cnk":{"junk":0b}}}
+execute if entity @s[predicate=cnk:scythe/offhand] run return run item modify entity @s weapon.offhand {"function":"minecraft:set_custom_data","tag":{"cnk":{"junk":0b}}}

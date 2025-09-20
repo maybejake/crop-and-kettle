@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cnk:item/averys_freezer_burnt_sundae"
+  }
+}

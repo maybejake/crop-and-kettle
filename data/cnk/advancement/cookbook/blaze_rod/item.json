@@ -1,0 +1,18 @@
+{
+  "parent": "cnk:cookbook/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { 
+            "items": "minecraft:blaze_rod"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "cnk:cookbook/grant/blaze_rod"
+  }
+}

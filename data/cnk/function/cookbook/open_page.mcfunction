@@ -1,0 +1,1 @@
+$function $(dialog_function) with storage cnk:temp cookbook.data

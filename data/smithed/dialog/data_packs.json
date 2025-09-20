@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:dialog_list",
+  "external_title": {
+    "translate": "menu.smithed.data_packs",
+    "fallback": "%s...",
+    "with": [
+      {
+        "translate": "selectWorld.dataPacks"
+      }
+    ]
+  },
+  "title": {
+    "translate": "menu.smithed.data_packs.title",
+    "fallback": "%s",
+    "with": [
+      {
+        "translate": "selectWorld.dataPacks"
+      }
+    ]
+  },
+  "dialogs": "#smithed:data_packs",
+  "exit_action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 200
+  }
+}

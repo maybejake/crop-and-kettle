@@ -1,0 +1,30 @@
+{
+  "values": [
+    "cnk:cookbook/pages/bibimbap/register",
+    "cnk:cookbook/pages/blt/register",
+    "cnk:cookbook/pages/breakfast_bagel/register",
+    "cnk:cookbook/pages/buffalo_wings/register",
+    "cnk:cookbook/pages/burrito/register",
+    "cnk:cookbook/pages/butter_chicken/register",
+    "cnk:cookbook/pages/cheeseburger/register",
+    "cnk:cookbook/pages/chili/register",
+    "cnk:cookbook/pages/chips_and_dip/register",
+    "cnk:cookbook/pages/classic_breakfast/register",
+    "cnk:cookbook/pages/full_irish/register",
+    "cnk:cookbook/pages/grazing_board/register",
+    "cnk:cookbook/pages/grilled_cheese/register",
+    "cnk:cookbook/pages/hamburger/register",
+    "cnk:cookbook/pages/hotdog/register",
+    "cnk:cookbook/pages/lasagna/register",
+    "cnk:cookbook/pages/pizza/register",
+    "cnk:cookbook/pages/ratatouille/register",
+    "cnk:cookbook/pages/roast_dinner/register",
+    "cnk:cookbook/pages/shepherds_pie/register",
+    "cnk:cookbook/pages/spaghetti/register",
+    "cnk:cookbook/pages/steak_and_ale_pie/register",
+    "cnk:cookbook/pages/stew/register",
+    "cnk:cookbook/pages/surf_n_turf/register",
+    "cnk:cookbook/pages/taco/register",
+    "cnk:cookbook/pages/vegetable_soup/register"
+  ]
+}

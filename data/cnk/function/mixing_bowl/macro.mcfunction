@@ -1,0 +1,5 @@
+$execute align xyz run summon item_display ~0.5 ~0.5 ~0.5 {Tags:["cnk.mixing_bowl","cnk.block","smithed.block","smithed.entity","smithed.strict"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[1.01f,1.01f,1.01f],translation:[0.0f,0.0f,0.0f]},item:{id:"minecraft:barrier",count:1,components:{"minecraft:item_model":"cnk:mixing_bowl"}},Rotation:[$(rotation),0.0],Passengers:\
+    [\
+        {id:"minecraft:interaction",Tags:["cnk.mixing_bowl_interaction","smithed.block","smithed.entity","smithed.strict"],height:-0.5625,width:1.01,response:true},\
+        {id:"minecraft:item_display",Tags:["cnk.mixing_bowl_spoon","smithed.block","smithed.entity","smithed.strict"],transformation:{left_rotation:[-0.2f,0f,0f,1f],right_rotation:[0f,0f,2f,1f],scale:[0.7f,0.7f,0.7f],translation:[0.0f,-0.1f,-0.3f]},item:{id:"minecraft:wooden_shovel",count:1,components:{"minecraft:item_model":"cnk:mixing_bowl_spoon"}},Rotation:[$(rotation),0.0],interpolation_duration:2,teleport_duration:2}\
+    ]}

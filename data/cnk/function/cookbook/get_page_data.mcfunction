@@ -1,0 +1,1 @@
+$data modify storage cnk:temp cookbook.current_page_data set from storage cnk:cookbook pages.$(current_page)

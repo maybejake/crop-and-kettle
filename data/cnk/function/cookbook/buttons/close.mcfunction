@@ -1,0 +1,1 @@
+dialog clear @s

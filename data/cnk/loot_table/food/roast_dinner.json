@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.roast_dinner","fallback":"Roast Dinner"},
+                "minecraft:item_model": "cnk:roast_dinner",
+                "minecraft:food": {
+                  "nutrition": 11,
+                  "saturation": 14.3
+                },
+                "minecraft:consumable": {},
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"roast_dinner"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

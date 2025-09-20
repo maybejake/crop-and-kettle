@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.floofys_pink_parfait","fallback":"Floofy's Pink Parfait"},
+                "minecraft:item_model": "cnk:floofys_pink_parfait",
+                "minecraft:food": {
+                  "nutrition": 6,
+                  "saturation": 4.2
+                },
+                "minecraft:consumable": {},
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"floofys_pink_parfait"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

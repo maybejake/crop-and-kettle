@@ -1,0 +1,11 @@
+{
+  "values": [
+    "cnk:cookbook/sections/front/register",
+    "cnk:cookbook/sections/staple/register",
+    "cnk:cookbook/sections/snacks/register",
+    "cnk:cookbook/sections/light/register",
+    "cnk:cookbook/sections/hearty/register",
+    "cnk:cookbook/sections/feasts/register",
+    "cnk:cookbook/sections/desserts/register"
+   ] 
+}

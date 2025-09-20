@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:item_frame",
+      "components": {
+        "minecraft:item_model": "cnk:cooking_pot_item"
+      }
+    },
+    "title": "Crop & Kettle",
+    "description": "Crops and cooking!",
+    "background": "minecraft:block/farmland_moist",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

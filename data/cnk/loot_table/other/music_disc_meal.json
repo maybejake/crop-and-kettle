@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.music_disc_meal","fallback":"Music Disc"},
+                "minecraft:item_model": "cnk:music_disc_meal",
+                "minecraft:custom_data": {"cnk":{"disc":{"type":"meal"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                "minecraft:rarity": "uncommon",
+                "minecraft:jukebox_playable": "cnk:meal",
+                "!minecraft:consumable": {},
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

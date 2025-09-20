@@ -1,0 +1,21 @@
+{
+  "parent": "cnk:cookbook/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:item_frame",
+            "components": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"lettuce_seeds"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "cnk:cookbook/grant/lettuce_seeds"
+  }
+}

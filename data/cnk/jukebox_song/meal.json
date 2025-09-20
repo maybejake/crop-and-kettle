@@ -1,0 +1,9 @@
+{
+  "description": {
+    "translate": "item.cnk.music_disc_meal.desc",
+    "fallback": "Marius Chamberlin - A Meal With Friends"
+  },
+  "comparator_output": 15,
+  "length_in_seconds": 68,
+  "sound_event": {"sound_id":"cnk:music_disc.meal"}
+}

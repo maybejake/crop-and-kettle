@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ww ",
+    "ww ",
+    "ss "
+  ],
+  "key": {
+    "w": [
+      "minecraft:white_wool"
+    ],
+    "s": [
+      "minecraft:string"
+    ]
+  },
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {"translate":"item.cnk.chef_hat","fallback":"Chef Hat"},
+      "minecraft:item_model": "cnk:chef_hat",
+      "minecraft:custom_data": {"cnk":{"chef_hat":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+      "minecraft:max_stack_size": 1,
+      "minecraft:equippable": {"slot":"head"},
+      "!minecraft:consumable": {}
+    }
+  }
+}

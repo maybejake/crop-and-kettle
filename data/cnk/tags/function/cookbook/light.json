@@ -1,0 +1,24 @@
+{
+  "values": [
+    "cnk:cookbook/pages/cereal/register",
+    "cnk:cookbook/pages/chicken_fillet_roll/register",
+    "cnk:cookbook/pages/egg_fried_rice/register",
+    "cnk:cookbook/pages/fried_chicken/register",
+    "cnk:cookbook/pages/fried_fish/register",
+    "cnk:cookbook/pages/gyro/register",
+    "cnk:cookbook/pages/kebab/register",
+    "cnk:cookbook/pages/kebab_sword/register",
+    "cnk:cookbook/pages/lettuce_wrap/register",
+    "cnk:cookbook/pages/mac_and_cheese/register",
+    "cnk:cookbook/pages/mushroom_risotto/register",
+    "cnk:cookbook/pages/music_disc_dinner/register",
+    "cnk:cookbook/pages/music_disc_meal/register",
+    "cnk:cookbook/pages/music_disc_saute/register",
+    "cnk:cookbook/pages/quesadilla/register",
+    "cnk:cookbook/pages/sausage_roll/register",
+    "cnk:cookbook/pages/stock/register",
+    "cnk:cookbook/pages/stone_soup/register",
+    "cnk:cookbook/pages/sushi/register",
+    "cnk:cookbook/pages/tomato_soup/register"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "parent": "cnk:cookbook/root",
+  "criteria": {
+    "cnk:grapes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items":"minecraft:poisonous_potato","predicates":{"minecraft:custom_data": {"cnk":{"ingredient":{"type":"grapes"}}}}}
+        ]
+      }
+    },
+    "minecraft:apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:apple"}
+        ]
+      }
+    },
+    "minecraft:sweet_berries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:sweet_berries"}
+        ]
+      }
+    },
+    "minecraft:melon_slice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:melon_slice"}
+        ]
+      }
+    },
+    "minecraft:glow_berries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:glow_berries"}
+        ]
+      }
+    },
+    "minecraft:chorus_fruit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:chorus_fruit"}
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cnk:grapes",
+      "minecraft:apple",
+      "minecraft:sweet_berries",
+      "minecraft:melon_slice",
+      "minecraft:glow_berries",
+      "minecraft:chorus_fruit"
+    ]
+  ],
+  "rewards": {
+    "function": "cnk:cookbook/grant/any_fruit"
+  }
+}

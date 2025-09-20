@@ -1,0 +1,21 @@
+{
+  "parent": "cnk:cookbook/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_sword",
+            "components": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"kebab_sword"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "cnk:cookbook/grant/kebab_sword"
+  }
+}

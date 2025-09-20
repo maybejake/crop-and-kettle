@@ -1,0 +1,32 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "when": [
+          "firstperson_lefthand",
+          "firstperson_righthand"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cnk:item/soaring_recipe"
+        }
+      },
+      {
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "thirdperson_righthand",
+          "thirdperson_lefthand",
+          "none"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cnk:item/recipe_item"
+        }
+      }
+    ],
+    "property": "minecraft:display_context"
+  }
+}

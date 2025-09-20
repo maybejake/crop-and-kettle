@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.frozen_delight","fallback":"Frozen Delight"},
+                "minecraft:item_model": "cnk:frozen_delight",
+                "minecraft:food": {
+                  "nutrition": 9,
+                  "saturation": 2.7
+                },
+                "minecraft:consumable": {},
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"frozen_delight"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

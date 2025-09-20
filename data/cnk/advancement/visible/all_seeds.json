@@ -1,0 +1,110 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:item_frame",
+      "components": {
+        "minecraft:item_model": "cnk:grape_seeds"
+      }
+    },
+    "title": {"translate":"advancement.cnk.all_seeds.name","fallback":"The Root Of It All"},
+    "description": {"translate":"advancement.cnk.all_seeds.desc","fallback":"Obtain every seed in Crop & Kettle"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "parent": "cnk:visible/root",
+  "criteria": {
+    "cnk:corn_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:item_frame",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"corn_seeds"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:lettuce_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:item_frame",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"lettuce_seeds"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:rice_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:item_frame",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"rice_seeds"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:tomato_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:item_frame",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"tomato_seeds"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:coffee_cherries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:item_frame",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"coffee_cherries"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:chili_pepper_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:item_frame",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"chili_pepper_seeds"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:grape_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:item_frame",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"grape_seeds"}}}
+            }
+          }
+        ]
+      }
+    }
+  }
+}

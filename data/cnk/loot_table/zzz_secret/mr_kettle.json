@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.mr_kettle","fallback":"Mr. Kettle"},
+                "minecraft:item_model": "cnk:mr_kettle",
+                "minecraft:custom_data": {"cnk":{"mr_kettle":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                "minecraft:entity_data": {"id":"minecraft:item_frame","Tags":["cnk.mr_kettle_setup"],"Silent":true,"Invisible":true},
+                "minecraft:max_stack_size": 1,
+                "minecraft:tooltip_style": "cnk:cnk",
+                "minecraft:equippable": {
+                  "slot": "head"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

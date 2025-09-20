@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:item_frame",
+      "components": {
+        "minecraft:item_model": "cnk:distiller_item"
+      }
+    },
+    "title": {"translate":"advancement.cnk.distiller.name","fallback":"Cheers to Brew"},
+    "description": {"translate":"advancement.cnk.distiller.desc","fallback":"Start brewing new beverages by crafting a distiller"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cnk:visible/distiller_book",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+            {
+            "items": "minecraft:item_frame",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"distiller":true}}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "cnk:basin",
+      "cnk:calendar",
+      "cnk:wine_rack"
+    ]
+  }
+}

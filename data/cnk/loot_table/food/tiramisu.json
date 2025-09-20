@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.tiramisu","fallback":"Tiramisu"},
+                "minecraft:item_model": "cnk:tiramisu",
+                "minecraft:food": {
+                  "nutrition": 11,
+                  "saturation": 8.8
+                },
+                "minecraft:consumable": {
+                  "on_consume_effects": [
+                    {"type": "minecraft:apply_effects", "effects": [
+                      {"id": "minecraft:speed", "amplifier": 0, "duration": 600, "show_particles": false},
+                      {"id": "minecraft:haste", "amplifier": 0, "duration": 600, "show_particles": false}
+                    ]}
+                  ]
+                },
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"tiramisu"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

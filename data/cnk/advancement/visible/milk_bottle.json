@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "cnk:milk_bottle"
+      }
+    },
+    "title": {"translate":"advancement.cnk.milk_bottle.name","fallback":"Legendairy"},
+    "description": {"translate":"advancement.cnk.milk_bottle.desc","fallback":"Portion your milk by crafting milk bottles"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cnk:visible/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "cnk:milk_bottle"
+      }
+    }
+  }
+}

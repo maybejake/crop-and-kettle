@@ -1,0 +1,18 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.offhand": {
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "enchantments": "minecraft:unbreaking",
+              "levels": 3
+            }
+          ]
+        }
+      }
+    }
+  }
+}

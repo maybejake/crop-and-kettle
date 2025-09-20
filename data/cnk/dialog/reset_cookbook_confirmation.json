@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:confirmation",
+    "title": {
+    "translate": "cnk.dialog.reset_cookbook"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {"translate":"cnk.dialog.cookbook.confirmation"},
+      "width": 300
+    }
+  ],
+  "yes": {
+    "label": {"translate": "gui.yes"},
+    "action": {
+      "type": "run_command",
+      "command": "trigger cnk.settings set 4"
+    }
+  },
+  "no": {
+    "label": {"translate": "gui.no"},
+    "action": {
+      "type": "run_command",
+      "command": "trigger cnk.settings set 1"
+    }
+  },
+  "can_close_with_escape": false,
+  "after_action": "wait_for_response"
+}

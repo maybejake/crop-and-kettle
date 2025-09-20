@@ -1,0 +1,1 @@
+$execute as @e[tag=!smithed.entity,tag=!smithed.block,tag=!smithed.strict,tag=!cnk.glow_berry_wine,distance=..$(range)] run effect give @s minecraft:glowing 60 0 true 

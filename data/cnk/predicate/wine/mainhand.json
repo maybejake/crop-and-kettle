@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": "minecraft:poisonous_potato",
+        "predicates": {
+          "minecraft:custom_data": {"cnk":{"wine":{}}}
+        }
+      }
+    }
+  }
+}

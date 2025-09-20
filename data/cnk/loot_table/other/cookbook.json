@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.cookbook","fallback":"The Craft of Cooking"},
+                "minecraft:item_model": "cnk.book:cookbook",
+                "minecraft:custom_data": {"cnk":{"cookbook":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:enchantment_glint_override": false,
+                "!written_book_content": {},
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:written_book_content"
+                  ]
+                },
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                "minecraft:max_stack_size": 1,
+                "minecraft:tooltip_style": "cnk:cnk"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

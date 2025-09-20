@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:item_frame",
+      "components": {
+        "minecraft:item_model": "cnk:cutting_board_item"
+      }
+    },
+    "title": {"translate":"advancement.cnk.cutting_board.name","fallback":"Chopping Block"},
+    "description": {"translate":"advancement.cnk.cutting_board.desc","fallback":"Craft a cutting board"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cnk:visible/cookbook",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+            {
+            "items": "minecraft:item_frame",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"cutting_board":true}}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "cnk:knife"
+    ]
+  }
+}

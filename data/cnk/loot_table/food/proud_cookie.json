@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.proud_cookie","fallback":"Proud Cookie"},
+                "minecraft:item_model": "cnk:proud_cookie",
+                "minecraft:food": {
+                  "nutrition": 7,
+                  "saturation": 1.4
+                },
+                "minecraft:consumable": {},
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"proud_cookie"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

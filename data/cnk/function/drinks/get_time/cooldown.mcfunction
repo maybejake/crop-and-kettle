@@ -1,0 +1,2 @@
+execute store result score #reset cnk.wine_time_cooldown run time query gametime
+execute as @a if score @s cnk.wine_time_cooldown = #reset cnk.wine_time_cooldown run advancement revoke @s only cnk:wine/get_time

@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:multi_action",
+    "title": {
+    "translate": "cnk.source"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {"translate":"cnk.dialog.description"},
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate":"cnk.dialog.info",
+        "color": "gray"
+      },
+      "width": 300
+    }
+  ],
+  "actions": [
+    {
+      "label": {"translate":"cnk.dialog.website"},
+      "action": {
+        "type": "open_url",
+        "url": "https://modrinth.com/project/crop-and-kettle"
+      }
+    },
+    {
+      "label": {"translate":"cnk.dialog.issues"},
+      "action": {
+        "type": "open_url",
+        "url": "https://github.com/maybejake/crop-and-kettle/issues"
+      }
+    },
+    {
+      "label": {"translate":"cnk.dialog.settings"},
+      "width": 150,
+      "action": {
+        "type": "run_command",
+        "command": "trigger cnk.settings set 1"
+      }
+    }
+  ],
+  "exit_action": {
+    "action": {
+      "type": "show_dialog",
+      "dialog": "smithed:data_packs"
+    },
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 200
+  },
+  "after_action": "wait_for_response"
+}

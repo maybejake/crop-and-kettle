@@ -1,0 +1,33 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "when": [
+          "head"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cnk:item/chef_hat"
+        }
+      },
+      {
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "thirdperson_righthand",
+          "thirdperson_lefthand",
+          "none"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cnk:item/chef_hat_item"
+        }
+      }
+    ],
+    "property": "minecraft:display_context"
+  }
+}

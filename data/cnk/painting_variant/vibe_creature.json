@@ -1,0 +1,7 @@
+{
+  "asset_id": "cnk:vibe_creature",
+  "width": 3,
+  "height": 3,
+  "title": {"translate":"painting.cnk.vibe_creature", "fallback": "Vibe Creature","color":"yellow"},
+  "author": {"translate":"painting.cnk.vibe_creature.author", "fallback": "Crisp","color":"gray"}
+}

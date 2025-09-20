@@ -1,0 +1,29 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:mangrove_propagule",
+          "state": {
+            "stage": "0",
+            "waterlogged": "true"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 1,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:light",
+          "state": {
+            "level": "0"
+          }
+        }
+      } 
+    }
+  ]
+}

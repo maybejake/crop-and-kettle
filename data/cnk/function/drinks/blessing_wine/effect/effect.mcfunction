@@ -1,0 +1,1 @@
+$effect give @s minecraft:luck $(duration) $(potency) false

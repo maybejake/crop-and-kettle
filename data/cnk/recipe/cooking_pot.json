@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      "minecraft:cauldron"
+    ],
+    [
+      "minecraft:campfire"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:item_frame",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {"translate":"item.cnk.cooking_pot","fallback":"Cooking Pot"},
+      "minecraft:item_model": "cnk:cooking_pot_item",
+      "minecraft:custom_data": {"cnk":{"cooking_pot":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:entity_data": {"id":"minecraft:item_frame","Tags":["cnk.cooking_pot_setup"],"Silent":true,"Invisible":true},
+      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+    }
+  }
+}

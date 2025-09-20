@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cnk:item/psys_explosive_apple_pie"
+  }
+}

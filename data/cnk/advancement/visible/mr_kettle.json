@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:item_frame",
+      "components": {
+        "minecraft:item_model": "cnk:mr_kettle"
+      }
+    },
+    "title": {"translate":"advancement.cnk.mr_kettle.name","fallback":"Little Chef"},
+    "description": {"translate":"advancement.cnk.mr_kettle.desc","fallback":"Assist in the summoning of Mr. Kettle"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "parent": "cnk:visible/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+            {
+            "items": "minecraft:item_frame",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"mr_kettle":true}}
+            }
+          }
+        ]
+      }
+    }
+  }
+}

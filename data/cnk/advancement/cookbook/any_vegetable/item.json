@@ -1,0 +1,120 @@
+{
+  "parent": "cnk:cookbook/root",
+  "criteria": {
+    "cnk:tomato": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items":"minecraft:poisonous_potato","predicates":{"minecraft:custom_data": {"cnk":{"ingredient":{"type":"tomato"}}}}}
+        ]
+      }
+    },
+    "cnk:corn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items":"minecraft:poisonous_potato","predicates":{"minecraft:custom_data": {"cnk":{"ingredient":{"type":"corn"}}}}}
+        ]
+      }
+    },
+    "cnk:lettuce": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items":"minecraft:poisonous_potato","predicates":{"minecraft:custom_data": {"cnk":{"ingredient":{"type":"lettuce"}}}}}
+        ]
+      }
+    },
+    "cnk:chili_pepper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items":"minecraft:poisonous_potato","predicates":{"minecraft:custom_data": {"cnk":{"ingredient":{"type":"chili_pepper"}}}}}
+        ]
+      }
+    },
+    "minecraft:beetroot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:beetroot"}
+        ]
+      }
+    },
+    "minecraft:carrot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:carrot"}
+        ]
+      }
+    },
+    "minecraft:potato": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:potato"}
+        ]
+      }
+    },
+    "minecraft:dried_kelp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:dried_kelp"}
+        ]
+      }
+    },
+    "minecraft:red_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:red_mushroom"}
+        ]
+      }
+    },
+    "minecraft:brown_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:brown_mushroom"}
+        ]
+      }
+    },
+    "minecraft:pumpkin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:pumpkin"}
+        ]
+      }
+    },
+    "minecraft:sea_pickle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:sea_pickle"}
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cnk:tomato",
+      "cnk:corn",
+      "cnk:lettuce",
+      "cnk:chili_pepper",
+      "minecraft:beetroot",
+      "minecraft:carrot",
+      "minecraft:potato",
+      "minecraft:dried_kelp",
+      "minecraft:red_mushroom",
+      "minecraft:brown_mushroom",
+      "minecraft:pumpkin",
+      "minecraft:sea_pickle"
+    ]
+  ],
+  "rewards": {
+    "function": "cnk:cookbook/grant/any_vegetable"
+  }
+}

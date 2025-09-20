@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_data": {"cnk":{"cookbook":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "cnk:cookbook/update/main"
+  }
+}

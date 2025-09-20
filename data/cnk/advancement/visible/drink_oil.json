@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "cnk:cooking_oil"
+      }
+    },
+    "title": {"translate":"advancement.cnk.drink_oil.name","fallback":"A Bad Idea"},
+    "description": {"translate":"advancement.cnk.drink_oil.desc","fallback":"Drink cooking oil"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "cnk:visible/cooking_pot",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"cnk":{"ingredient":{"type":"cooking_oil"}}}
+          }
+        }
+      }
+    }
+  }
+}

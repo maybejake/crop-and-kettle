@@ -1,0 +1,17 @@
+{
+    "providers": [
+        {"type":"bitmap","file":"cnk.book:advancement/toast.png","ascent":25,"height":32,"chars":["abcdefghijklmnopqrst"]},
+        {
+          "type": "space",
+          "advances": {
+            "\ua028": -10,
+            "\ua029": -5,
+            "\ua040": 10,
+            "\ua041": 5,
+            "\ua0a0": -30,
+            "\ua0a1": -123,
+            "\ua022": -1
+          }
+        }
+    ]
+}

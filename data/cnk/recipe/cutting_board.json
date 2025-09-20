@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ll"
+  ],
+  "key": {
+    "l": [
+      "minecraft:stripped_oak_log",
+      "minecraft:stripped_spruce_log",
+      "minecraft:stripped_birch_log",
+      "minecraft:stripped_jungle_log",
+      "minecraft:stripped_acacia_log",
+      "minecraft:stripped_dark_oak_log",
+      "minecraft:stripped_mangrove_log",
+      "minecraft:stripped_cherry_log",
+      "minecraft:stripped_pale_oak_log",
+      "minecraft:stripped_crimson_stem",
+      "minecraft:stripped_warped_stem"
+    ]
+  },
+  "result": {
+    "id": "minecraft:item_frame",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {"translate":"item.cnk.cutting_board","fallback":"Cutting Board"},
+      "minecraft:item_model": "cnk:cutting_board_item",
+      "minecraft:custom_data": {"cnk":{"cutting_board":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:entity_data": {"id":"minecraft:item_frame","Tags":["cnk.cutting_board_setup"],"Silent":true,"Invisible":true},
+      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+    }
+  }
+}

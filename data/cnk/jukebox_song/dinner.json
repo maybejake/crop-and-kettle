@@ -1,0 +1,9 @@
+{
+  "description": {
+    "translate": "item.cnk.music_disc_dinner.desc",
+    "fallback": "Marius Chamberlin - In Time For Dinner"
+  },
+  "comparator_output": 15,
+  "length_in_seconds": 83,
+  "sound_event": {"sound_id":"cnk:music_disc.dinner"}
+}

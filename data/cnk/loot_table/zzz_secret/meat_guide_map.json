@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "destination": "cnk:meat_guide",
+              "function": "minecraft:exploration_map",
+              "search_radius": 300,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "cnk:meat_guide",
+                "minecraft:custom_data": {"cnk":{"meat_guide":{"state":"setup"}}}
+              }
+            }
+          ],
+          "name": "minecraft:map"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+$particle minecraft:item{item:{id:"$(id)"}} ~ ~-0.3 ~ 0.12 0.1 0.12 0.02 1 force

@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "location": {
+      "biomes": [
+        "minecraft:lukewarm_ocean",
+        "minecraft:deep_lukewarm_ocean"
+      ]
+    }
+  }
+}

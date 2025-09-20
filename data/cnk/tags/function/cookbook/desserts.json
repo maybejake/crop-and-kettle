@@ -1,0 +1,25 @@
+{
+  "values": [
+    "cnk:cookbook/pages/apple_pie/register",
+    "cnk:cookbook/pages/buttered_apple/register",
+    "cnk:cookbook/pages/carrot_cake/register",
+    "cnk:cookbook/pages/cheesecake/register",
+    "cnk:cookbook/pages/chocolate_cake/register",
+    "cnk:cookbook/pages/chorus_cupcake/register",
+    "cnk:cookbook/pages/cupcake/register",
+    "cnk:cookbook/pages/frozen_delight/register",
+    "cnk:cookbook/pages/glazed_donut/register",
+    "cnk:cookbook/pages/halloween_donut/register",
+    "cnk:cookbook/pages/honey_bun/register",
+    "cnk:cookbook/pages/ice_cream/register",
+    "cnk:cookbook/pages/infernal_cupcake/register",
+    "cnk:cookbook/pages/jam_donut/register",
+    "cnk:cookbook/pages/jelly/register",
+    "cnk:cookbook/pages/pink_donut/register",
+    "cnk:cookbook/pages/proud_cookie/register",
+    "cnk:cookbook/pages/raisin_cookie/register",
+    "cnk:cookbook/pages/sundae/register",
+    "cnk:cookbook/pages/tiramisu/register",
+    "cnk:cookbook/pages/worldly_cupcake/register"
+  ]
+}

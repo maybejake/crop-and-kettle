@@ -1,0 +1,1 @@
+$summon minecraft:item ^-0.7 ^-0.32 ^ {Item:$(item),Motion:$(motion)}

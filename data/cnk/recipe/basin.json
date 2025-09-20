@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i i",
+    "iii",
+    "w w"
+  ],
+  "key": {
+    "i": [
+      "minecraft:iron_ingot"
+    ],
+    "w": "#minecraft:planks"
+  },
+  "result": {
+    "id": "minecraft:item_frame",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {"translate":"item.cnk.basin","fallback":"Basin"},
+      "minecraft:item_model": "cnk:basin_item",
+      "minecraft:custom_data": {"cnk":{"basin":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:entity_data": {"id":"minecraft:item_frame","Tags":["cnk.basin_setup"],"Silent":true,"Invisible":true},
+      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+    }
+  }
+}

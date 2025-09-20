@@ -1,0 +1,1 @@
+loot give @s loot cnk:food/beer

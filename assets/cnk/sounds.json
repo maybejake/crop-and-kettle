@@ -1,0 +1,230 @@
+{
+  "block.cooking_pot.idling": {
+    "sounds": [
+      {
+        "name": "cnk:cooking_pot/idling",
+        "stream": true,
+        "attenuation_distance": 6
+      }
+    ],
+    "subtitle": "subtitles.cnk.block.cooking_pot.idling"
+  },
+  "block.cooking_pot.cooking": {
+    "sounds": [
+      {
+        "name": "cnk:cooking_pot/cooking",
+        "stream": true,
+        "attenuation_distance": 6
+      }
+    ],
+    "subtitle": "subtitles.cnk.block.cooking_pot.cooking"
+  },
+  "block.cooking_pot.finished": {
+    "sounds": [
+      {
+        "name": "cnk:cooking_pot/finished",
+        "stream": true,
+        "attenuation_distance": 6
+      }
+    ],
+    "subtitle": "subtitles.cnk.block.cooking_pot.finished"
+  },
+  "block.cutting_board.chop": {
+    "sounds": [
+      {
+        "name": "cnk:cutting_board/chop1",
+        "attenuation_distance": 6,
+        "volume": 0.4
+      },
+      {
+        "name": "cnk:cutting_board/chop2",
+        "attenuation_distance": 6,
+        "volume": 0.4
+      },
+      {
+        "name": "cnk:cutting_board/chop3",
+        "attenuation_distance": 6,
+        "volume": 0.4
+      },
+      {
+        "name": "cnk:cutting_board/chop4",
+        "attenuation_distance": 6,
+        "volume": 0.4
+      },
+      {
+        "name": "cnk:cutting_board/chop5",
+        "attenuation_distance": 6,
+        "volume": 0.4
+      }
+    ],
+    "subtitle": "subtitles.cnk.block.cutting_board.chop"
+  },
+  "block.mixing_bowl.stir": {
+    "sounds": [
+      {
+        "name": "cnk:mixing_bowl/stir1",
+        "attenuation_distance": 6,
+        "volume": 0.8
+      },
+      {
+        "name": "cnk:mixing_bowl/stir2",
+        "attenuation_distance": 6,
+        "volume": 0.8
+      },
+      {
+        "name": "cnk:mixing_bowl/stir3",
+        "attenuation_distance": 6,
+        "volume": 0.8
+      },
+      {
+        "name": "cnk:mixing_bowl/stir4",
+        "attenuation_distance": 6,
+        "volume": 0.8
+      },
+      {
+        "name": "cnk:mixing_bowl/stir5",
+        "attenuation_distance": 6,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.cnk.block.mixing_bowl.stir"
+  },
+  "block.faucet.on": {
+    "sounds": [
+      {
+        "name": "cnk:faucet/on",
+        "attenuation_distance": 6,
+        "volume": 0.1
+      }
+    ],
+    "subtitle": "subtitles.cnk.block.faucet.on"
+  },
+  "block.faucet.off": {
+    "sounds": [
+      {
+        "name": "cnk:faucet/off",
+        "attenuation_distance": 6,
+        "volume": 0.1
+      }
+    ],
+    "subtitle": "subtitles.cnk.block.faucet.off"
+  },
+  "block.distiller.distill": {
+    "sounds": [
+      {
+        "name": "cnk:distiller/distill",
+        "stream": true,
+        "attenuation_distance": 6
+      }
+    ],
+    "subtitle": "subtitles.cnk.block.distiller.distill"
+  },
+  "block.distiller.finish": {
+    "sounds": [
+      {
+        "name": "cnk:distiller/finish",
+        "stream": true,
+        "attenuation_distance": 6
+      }
+    ],
+    "subtitle": "subtitles.cnk.block.distiller.finish"
+  },
+  "music_disc.dinner": {
+    "sounds": [
+      {
+        "name": "cnk:music_disc/dinner",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.meal": {
+    "sounds": [
+      {
+        "name": "cnk:music_disc/meal",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.saute": {
+    "sounds": [
+      {
+        "name": "cnk:music_disc/saute",
+        "stream": true
+      }
+    ]
+  },
+  "item.cookbook.section_flip": {
+    "sounds": [
+      {
+        "name": "cnk:cookbook/section_flip",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.cnk.item.cookbook.section_flip"
+  },
+  "ambient.shrine.chimes": {
+    "sounds": [
+      {
+        "name": "cnk:shrine/chimes",
+        "stream": true,
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.cnk.ambient.shrine.chimes"
+  },
+  "ambient.shrine.meat_1": {
+    "sounds": [
+      {
+        "name": "cnk:shrine/meat_1",
+        "stream": true,
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.cnk.ambient.shrine.meat_1"
+  },
+  "ambient.shrine.meat_2": {
+    "sounds": [
+      {
+        "name": "cnk:shrine/meat_2",
+        "stream": true,
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.cnk.ambient.shrine.meat_2"
+  },
+  "ambient.shrine.meat_3": {
+    "sounds": [
+      {
+        "name": "cnk:shrine/meat_3",
+        "stream": true,
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.cnk.ambient.shrine.meat_3"
+  },
+  "item.mr_kettle.squeak": {
+    "sounds": [
+      {
+        "name": "cnk:mr_kettle/squeak1",
+        "volume": 0.5
+      },
+      {
+        "name": "cnk:mr_kettle/squeak2",
+        "volume": 0.5
+      },
+      {
+        "name": "cnk:mr_kettle/squeak3",
+        "volume": 0.5
+      },
+      {
+        "name": "cnk:mr_kettle/squeak4",
+        "volume": 0.5
+      },
+      {
+        "name": "cnk:mr_kettle/squeak5",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.cnk.item.cookbook.squeak"
+  }
+}

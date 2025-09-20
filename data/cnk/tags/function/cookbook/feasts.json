@@ -1,0 +1,18 @@
+{
+  "values": [
+    "cnk:cookbook/pages/arancini/register",
+    "cnk:cookbook/pages/bento_box/register",
+    "cnk:cookbook/pages/burrito_box/register",
+    "cnk:cookbook/pages/chicken_sandwich/register",
+    "cnk:cookbook/pages/chili_cheese_dog/register",
+    "cnk:cookbook/pages/combo_meal/register",
+    "cnk:cookbook/pages/fish_and_chips/register",
+    "cnk:cookbook/pages/italian_dinner/register",
+    "cnk:cookbook/pages/nachos/register",
+    "cnk:cookbook/pages/poutine/register",
+    "cnk:cookbook/pages/pub_meal/register",
+    "cnk:cookbook/pages/rainy_day_lunch/register",
+    "cnk:cookbook/pages/ramen/register",
+    "cnk:cookbook/pages/thankful_meal/register"
+  ]
+}

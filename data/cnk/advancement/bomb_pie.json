@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"cnk":{"ingredient":{"type":"psys_explosive_apple_pie"}}}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cnk:mystery/effects/explode/main"
+  }
+}

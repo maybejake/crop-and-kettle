@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "cnk:proud_cookie"
+      }
+    },
+    "title": {"translate":"advancement.cnk.proud_cookie.name","fallback":"Here to Stay"},
+    "description": {"translate":"advancement.cnk.proud_cookie.desc","fallback":"Bake a proud cookie"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cnk:visible/cooking_pot",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "components": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"proud_cookie"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+            }
+          }
+        ]
+      }
+    }
+  }
+}

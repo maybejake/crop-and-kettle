@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/nether_bridge"
+      }
+    }
+  },
+  "rewards": {
+    "function": "cnk:seeds/chili_pepper/loot/main"
+  }
+}

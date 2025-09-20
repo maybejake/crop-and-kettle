@@ -1,0 +1,12 @@
+{
+  "values": [
+    "cnk:loaded",
+    "cnk:tick_2",
+    "cnk:tick_5",
+    "cnk:tick_20",
+    "cnk:tick_100",
+    "cnk:mystery/shrine/sounds/main",
+    "cnk:cookbook/register_pages",
+    "cnk:distiller_book/register_pages"
+   ] 
+}

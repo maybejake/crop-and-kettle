@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/jungle_temple"
+      }
+    }
+  },
+  "rewards": {
+    "function": "cnk:seeds/coffee/loot/main"
+  }
+}

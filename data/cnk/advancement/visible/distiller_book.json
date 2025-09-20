@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobblestone",
+      "components": {
+        "minecraft:item_model": "cnk:distiller_book"
+      }
+    },
+    "title": {"translate":"advancement.cnk.distiller_book.name","fallback":"Guided by Spirits"},
+    "description": {"translate":"advancement.cnk.distiller_book.desc","fallback":"Find the brewer's digest in a shipwreck"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cnk:visible/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:written_book",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"distiller_book":true}}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "cnk:distiller"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.promised_cupcake","fallback":"Promised Cupcake"},
+                "minecraft:item_model": "cnk:promised_cupcake",
+                "minecraft:food": {
+                  "nutrition": 8,
+                  "saturation": 4.8
+                },
+                "minecraft:consumable": {
+                  "on_consume_effects": [
+                    {"type": "minecraft:apply_effects", "effects": [
+                      {"id": "minecraft:levitation", "amplifier": 0, "duration": 200, "show_particles": false}
+                    ]}
+                  ]
+                },
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"promised_cupcake"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

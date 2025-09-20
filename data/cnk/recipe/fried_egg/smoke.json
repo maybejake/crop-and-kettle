@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": [
+    "minecraft:egg",
+    "minecraft:blue_egg",
+    "minecraft:brown_egg",
+    "minecraft:turtle_egg",
+    "minecraft:sniffer_egg"
+  ],
+  "result": {
+    "id": "minecraft:baked_potato",
+    "components": {
+      "minecraft:item_name": {"translate":"item.cnk.fried_egg","fallback":"Fried Egg"},
+      "minecraft:item_model": "cnk:fried_egg",
+      "minecraft:custom_data": {"cnk":{"ingredient":{"type":"fried_egg"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+    }
+  },
+  "experience": 0.35
+}

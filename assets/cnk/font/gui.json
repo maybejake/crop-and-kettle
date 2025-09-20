@@ -1,0 +1,17 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+          "\u0020":4,
+          "\u200c": 0,
+          "\ua001": -177,
+          "\ua002": 13,
+          "\u0001": 1000,
+          "\u0003": 1
+      }
+    },
+    {"type":"bitmap","file":"cnk:gui/cooking_pot.png","ascent":5,"height":29,"chars":["\ua000"]},
+    {"type":"bitmap","file":"cnk:gui/distiller.png","ascent":7,"height":37,"chars":["\ua010"]}
+  ]
+}

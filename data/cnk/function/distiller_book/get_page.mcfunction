@@ -1,0 +1,1 @@
+$data modify storage cnk:temp distiller_book.current_page set from storage cnk:distiller_book pages.$(current_page)

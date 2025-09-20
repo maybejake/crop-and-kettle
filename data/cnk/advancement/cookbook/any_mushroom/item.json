@@ -1,0 +1,30 @@
+{
+  "parent": "cnk:cookbook/root",
+  "criteria": {
+    "minecraft:red_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:red_mushroom"}
+        ]
+      }
+    },
+    "minecraft:brown_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:brown_mushroom"}
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:red_mushroom",
+      "minecraft:brown_mushroom"
+    ]
+  ],
+  "rewards": {
+    "function": "cnk:cookbook/grant/any_mushroom"
+  }
+}

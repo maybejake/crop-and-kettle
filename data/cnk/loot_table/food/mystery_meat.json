@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.mystery_meat","fallback":"Mystery Meat"},
+                "minecraft:item_model": "cnk:mystery_meat",
+                "minecraft:consumable": {"consume_seconds":0, "animation": "none", "sound": "intentionally_empty", "has_consume_particles": false},
+                "!minecraft:food": {},
+                "minecraft:use_cooldown": {"seconds":30, "cooldown_group": "cnk:speak"},
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"mystery_meat"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                "minecraft:tooltip_style": "cnk:mystery",
+                "minecraft:use_remainder": {
+                  "id": "minecraft:poisonous_potato",
+                  "components": {
+                    "minecraft:item_name": {"translate":"item.cnk.mystery_meat","fallback":"Mystery Meat"},
+                    "minecraft:item_model": "cnk:mystery_meat",
+                    "minecraft:consumable": {"consume_seconds":0, "animation": "none", "sound": "intentionally_empty", "has_consume_particles": false},
+                    "!minecraft:food": {},
+                    "minecraft:use_cooldown": {"seconds":30, "cooldown_group": "cnk:speak"},
+                    "minecraft:custom_data": {"cnk":{"ingredient":{"type":"mystery_meat"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                    "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                    "minecraft:tooltip_style": "cnk:mystery"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

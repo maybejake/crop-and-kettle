@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "www",
+    "fff",
+    "www"
+  ],
+  "key": {
+    "w": "#minecraft:planks",
+    "f": "#minecraft:fences"
+  },
+  "result": {
+    "id": "minecraft:item_frame",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {"translate":"item.cnk.wine_rack","fallback":"Wine Rack"},
+      "minecraft:item_model": "cnk:wine_rack/empty",
+      "minecraft:custom_data": {"cnk":{"wine_rack":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:entity_data": {"id":"minecraft:item_frame","Tags":["cnk.wine_rack_setup"],"Silent":true,"Invisible":true},
+      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+    }
+  }
+}

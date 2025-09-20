@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobblestone",
+      "components": {
+        "minecraft:item_model": "cnk:rotten_tomato"
+      }
+    },
+    "title": {"translate":"advancement.cnk.rotten_tomato.name","fallback":"Tough Crowd"},
+    "description": {"translate":"advancement.cnk.rotten_tomato.desc","fallback":"Throw a rotten tomato"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cnk:visible/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

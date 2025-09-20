@@ -1,0 +1,3 @@
+scoreboard players set @s cnk.drop_food 0
+execute anchored eyes at @s positioned ^ ^ ^ as @n[type=minecraft:item,tag=!cnk.give_life,nbt={Item:{id:"minecraft:poisonous_potato",components:{"minecraft:custom_data":{cnk:{ingredient:{type:"dead_meat"}}}}}},distance=..0.5] run tag @s add cnk.give_life
+execute anchored eyes at @s positioned ^ ^ ^ as @n[type=minecraft:item,tag=!cnk.give_life,nbt={Item:{id:"minecraft:poisonous_potato",components:{"minecraft:custom_data":{cnk:{meat_guide:{state:"active"}}}}}},distance=..0.5] run tag @s add cnk.meat_guide

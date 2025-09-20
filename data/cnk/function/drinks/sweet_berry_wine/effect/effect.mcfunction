@@ -1,0 +1,1 @@
+$effect give @s minecraft:regeneration $(duration) 0 false

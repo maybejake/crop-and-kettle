@@ -1,0 +1,9 @@
+execute if entity @s[tag=cnk.cooking_pot] run function cnk:cooking_pot/tick
+execute if entity @s[tag=cnk.cutting_board] run function cnk:cutting_board/tick
+execute if entity @s[tag=cnk.mixing_bowl] run function cnk:mixing_bowl/tick
+execute if entity @s[tag=cnk.faucet] run function cnk:faucet/tick
+execute if entity @s[tag=cnk.distiller] run function cnk:distiller/tick
+execute if entity @s[tag=cnk.basin] run function cnk:basin/tick
+execute if entity @s[tag=cnk.calendar] run function cnk:calendar/tick
+execute if entity @s[tag=cnk.mr_kettle] run function cnk:mr_kettle/tick
+execute if entity @s[tag=cnk.wine_rack] rotated as @s positioned ^ ^ ^-0.51 run function cnk:wine_rack/tick

@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.distiller_book","fallback":"Brewer's Digest"},
+                "minecraft:item_model": "cnk:distiller_book",
+                "minecraft:custom_data": {"cnk":{"distiller_book":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                "minecraft:enchantment_glint_override": false,
+                "!minecraft:written_book_content": {},
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:written_book_content"
+                  ]
+                },
+                "minecraft:max_stack_size": 1,
+                "minecraft:tooltip_style": "cnk:cnk"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

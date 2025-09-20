@@ -1,0 +1,9 @@
+{
+  "description": {
+    "translate": "item.cnk.music_disc_saute.desc",
+    "fallback": "Marius Chamberlin - Sauté"
+  },
+  "comparator_output": 15,
+  "length_in_seconds": 60,
+  "sound_event": {"sound_id":"cnk:music_disc.saute"}
+}

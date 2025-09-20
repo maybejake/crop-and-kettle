@@ -1,0 +1,7 @@
+{
+  "asset_id": "cnk:lost",
+  "width": 2,
+  "height": 1,
+  "title": {"translate":"painting.cnk.lost", "fallback": "Lost","color":"yellow"},
+  "author": {"translate":"painting.cnk.lost.author", "fallback": "Crisp","color":"gray"}
+}

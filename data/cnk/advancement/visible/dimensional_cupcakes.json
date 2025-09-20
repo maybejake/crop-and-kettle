@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:item_frame",
+      "components": {
+        "minecraft:item_model": "cnk:worldly_cupcake"
+      }
+    },
+    "title": {"translate":"advancement.cnk.dimensional_cupcakes.name","fallback":"Dimensional Delights"},
+    "description": {"translate":"advancement.cnk.dimensional_cupcakes.desc","fallback":"Eat every dimensional cupcake"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "parent": "cnk:visible/cooking_pot",
+  "criteria": {
+    "cnk:worldly_cupcake": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"cnk":{"ingredient":{"type":"worldly_cupcake"}}}
+          }
+        }
+      }
+    },
+    "cnk:infernal_cupcake": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"cnk":{"ingredient":{"type":"infernal_cupcake"}}}
+          }
+        }
+      }
+    },
+    "cnk:promised_cupcake": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"cnk":{"ingredient":{"type":"promised_cupcake"}}}
+          }
+        }
+      }
+    },
+    "cnk:chorus_cupcake": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"cnk":{"ingredient":{"type":"chorus_cupcake"}}}
+          }
+        }
+      }
+    }
+  }
+}

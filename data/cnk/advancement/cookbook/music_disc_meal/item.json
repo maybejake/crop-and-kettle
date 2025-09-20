@@ -1,0 +1,21 @@
+{
+  "parent": "cnk:cookbook/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "components": {
+              "minecraft:custom_data": {"cnk":{"disc":{"type":"meal"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "cnk:cookbook/grant/music_disc_meal"
+  }
+}

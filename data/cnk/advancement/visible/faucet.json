@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:item_frame",
+      "components": {
+        "minecraft:item_model": "cnk:faucet_item"
+      }
+    },
+    "title": {"translate":"advancement.cnk.faucet.name","fallback":"Tapped Out"},
+    "description": {"translate":"advancement.cnk.faucet.desc","fallback":"Craft a faucet to fill up your cauldrons"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cnk:visible/cookbook",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+            {
+            "items": "minecraft:item_frame",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"faucet":true}}
+            }
+          }
+        ]
+      }
+    }
+  }
+}

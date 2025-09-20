@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:item_display,tag=cnk.crop,predicate=cnk:passenger] at @s run function cnk:dev/found_update

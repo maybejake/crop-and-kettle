@@ -1,0 +1,1 @@
+execute if predicate cnk:scythe/either run function cnk:scythe/effect

@@ -1,0 +1,2 @@
+execute if entity @s[predicate=cnk:meat_guide/mainhand] run return run function cnk:mystery/guide/mainhand/main
+execute if entity @s[predicate=cnk:meat_guide/offhand] run return run function cnk:mystery/guide/offhand/main

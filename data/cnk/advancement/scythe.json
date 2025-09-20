@@ -1,0 +1,17 @@
+{
+  "criteria": {
+      "requirement": {
+          "trigger": "minecraft:using_item",
+          "conditions": {
+              "item": {
+                  "predicates": {
+                      "minecraft:custom_data": {"cnk":{"scythe":true}}
+                  }
+              }
+          }
+      }
+  },
+  "rewards": {
+      "function": "cnk:scythe/check"
+  }
+}

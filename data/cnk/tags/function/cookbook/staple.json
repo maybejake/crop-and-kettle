@@ -1,0 +1,17 @@
+{
+  "values": [
+    "cnk:cookbook/pages/beef_cutlets/register",
+    "cnk:cookbook/pages/bread/register",
+    "cnk:cookbook/pages/butter/register",
+    "cnk:cookbook/pages/cheese/register",
+    "cnk:cookbook/pages/chicken_cutlets/register",
+    "cnk:cookbook/pages/cod_fillets/register",
+    "cnk:cookbook/pages/cooking_oil/register",
+    "cnk:cookbook/pages/dough/register",
+    "cnk:cookbook/pages/mutton_cutlets/register",
+    "cnk:cookbook/pages/noodles/register",
+    "cnk:cookbook/pages/pork_cutlets/register",
+    "cnk:cookbook/pages/rabbit_cutlets/register",
+    "cnk:cookbook/pages/salmon_fillets/register"
+  ]
+}

@@ -1,0 +1,1 @@
+$effect give @s minecraft:resistance $(duration) 0 false

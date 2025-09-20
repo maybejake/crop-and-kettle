@@ -1,0 +1,11 @@
+{
+   "pack":{
+      "pack_format":64,
+      "description":"New crops and food!",
+      "supported_formats": {
+         "max_inclusive": 64,
+         "min_inclusive": 55
+      }
+   },
+  "id": "crop-&-kettle"
+}

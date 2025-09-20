@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword",
+      "components": {
+        "minecraft:item_model": "cnk:kebab_sword"
+      }
+    },
+    "title": {"translate":"advancement.cnk.kebab_sword.name","fallback":"Scrumptious But Deadly"},
+    "description": {"translate":"advancement.cnk.kebab_sword.desc","fallback":"Cook the kebab sword"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true,
+    "frame": "goal"
+  },
+  "parent": "cnk:visible/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:item_frame",
+            "components": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"kebab_sword"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+            }
+          }
+        ]
+      }
+    }
+  }
+}

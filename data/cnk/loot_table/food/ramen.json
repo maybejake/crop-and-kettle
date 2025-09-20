@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.ramen","fallback":"Ramen"},
+                "minecraft:item_model": "cnk:ramen",
+                "minecraft:food": {
+                  "nutrition": 14,
+                  "saturation": 20
+                },
+                "minecraft:consumable": {
+                  "on_consume_effects": [
+                    {"type": "minecraft:apply_effects", "effects": [
+                      {"id": "minecraft:saturation", "amplifier": 0, "duration": 1800, "show_particles": false}
+                    ]}
+                  ]
+                },
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"ramen"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

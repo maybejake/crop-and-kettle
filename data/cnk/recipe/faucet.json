@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " c ",
+    "iiw",
+    "i  "
+  ],
+  "key": {
+    "i": [
+      "minecraft:iron_ingot"
+    ],
+    "w": [
+      "minecraft:water_bucket"
+    ],
+    "c": [
+      "minecraft:copper_ingot"
+    ]
+  },
+  "result": {
+    "id": "minecraft:item_frame",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {"translate":"item.cnk.faucet","fallback":"Faucet"},
+      "minecraft:item_model": "cnk:faucet_item",
+      "minecraft:custom_data": {"cnk":{"faucet":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:entity_data": {"id":"minecraft:item_frame","Tags":["cnk.faucet_setup"],"Silent":true,"Invisible":true},
+      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+    }
+  }
+}

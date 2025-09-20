@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.faucet","fallback":"Faucet"},
+                "minecraft:item_model": "cnk:faucet_item",
+                "minecraft:custom_data": {"cnk":{"faucet":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                "minecraft:entity_data": {"id":"minecraft:item_frame","Tags":["cnk.faucet_setup"],"Silent":true,"Invisible":true}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

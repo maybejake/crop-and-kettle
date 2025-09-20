@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.mystery_meat","fallback":"Mystery Meat"},
+                "minecraft:item_model": "cnk:dead_meat",
+                "minecraft:food": {
+                  "nutrition": 6,
+                  "saturation": 1.6
+                },
+                "minecraft:consumable": {},
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                },
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"dead_meat"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                "minecraft:tooltip_style": "cnk:mystery"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

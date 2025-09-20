@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:item_model": "cnk:iron_scythe"
+      }
+    },
+    "title": {"translate":"advancement.cnk.iron_scythe.name","fallback":"Grim Work"},
+    "description": {"translate":"advancement.cnk.iron_scythe.desc","fallback":"Make harvesting your crops a breeze by crafting an iron scythe"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cnk:visible/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+            {
+            "items": "minecraft:iron_sword",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"scythe":true,"iron":true}}
+            }
+          }
+        ]
+      }
+    }
+  }
+}

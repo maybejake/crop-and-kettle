@@ -1,0 +1,28 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "cnk:item/wine_rack/empty",
+    "tints": [
+      {
+        "type": "custom_model_data",
+        "default": [1.0, 1.0, 1.0],
+        "index": 0
+      },
+      {
+        "type": "custom_model_data",
+        "default": [1.0, 1.0, 1.0],
+        "index": 1
+      },
+      {
+        "type": "custom_model_data",
+        "default": [1.0, 1.0, 1.0],
+        "index": 2
+      },
+      {
+        "type": "custom_model_data",
+        "default": [1.0, 1.0, 1.0],
+        "index": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:item_frame",
+      "components": {
+        "minecraft:item_model": "cnk:basin_item"
+      }
+    },
+    "title": {"translate":"advancement.cnk.basin.name","fallback":"Liquid Assets"},
+    "description": {"translate":"advancement.cnk.basin.desc","fallback":"Craft a basin to hold liquids from your distiller"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cnk:visible/distiller",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+            {
+            "items": "minecraft:item_frame",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"basin":true}}
+            }
+          }
+        ]
+      }
+    }
+  }
+}

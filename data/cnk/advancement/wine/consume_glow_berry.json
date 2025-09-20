@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"cnk":{"ingredient":{"type":"glow_berry_wine"}}}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cnk:drinks/glow_berry_wine/effect/main"
+  }
+}

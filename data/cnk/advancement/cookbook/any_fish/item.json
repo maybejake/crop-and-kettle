@@ -1,0 +1,48 @@
+{
+  "parent": "cnk:cookbook/root",
+  "criteria": {
+    "cnk:salmon_fillets": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items":"minecraft:poisonous_potato","predicates":{"minecraft:custom_data": {"cnk":{"ingredient":{"type":"salmon_fillets"}}}}}
+        ]
+      }
+    },
+    "cnk:cod_fillets": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items":"minecraft:poisonous_potato","predicates":{"minecraft:custom_data": {"cnk":{"ingredient":{"type":"cod_fillets"}}}}}
+        ]
+      }
+    },
+    "minecraft:salmon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:salmon"}
+        ]
+      }
+    },
+    "minecraft:cod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:cod"}
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cnk:salmon_fillets",
+      "cnk:cod_fillets",
+      "minecraft:salmon",
+      "minecraft:cod"
+    ]
+  ],
+  "rewards": {
+    "function": "cnk:cookbook/grant/any_fish"
+  }
+}

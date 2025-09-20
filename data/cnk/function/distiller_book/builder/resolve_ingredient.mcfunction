@@ -1,0 +1,1 @@
+$data modify storage cnk:temp distiller_book.ingredient.output set value "{'translate':book.cnk.ingredient_template,with:[{'translate':book.$(flag),'font':'$(font)'}],'hover_event':{'action':'show_text','value':[{'translate':$(flag)}]}},"

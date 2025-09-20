@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobblestone",
+      "components": {
+        "minecraft:item_model": "cnk.book:cookbook"
+      }
+    },
+    "title": {"translate":"advancement.cnk.cookbook.name","fallback":"Anybody Can Cook"},
+    "description": {"translate":"advancement.cnk.cookbook.desc","fallback":"Craft a cookbook"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cnk:visible/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+            {
+            "items": "minecraft:written_book",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"cookbook":true}}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "cnk:cooking_pot",
+      "cnk:mixing_bowl",
+      "cnk:cutting_board",
+      "cnk:faucet"
+    ]
+  }
+}

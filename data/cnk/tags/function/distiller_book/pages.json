@@ -1,0 +1,22 @@
+{
+  "values": [
+    "cnk:distiller_book/pages/front/register",
+    "cnk:distiller_book/pages/distiller_recipe/register",
+    "cnk:distiller_book/pages/distilling/register",
+    "cnk:distiller_book/pages/aging/register",
+    "cnk:distiller_book/pages/basin_recipe/register",
+    "cnk:distiller_book/pages/grape_wine/register",
+    "cnk:distiller_book/pages/creeping_wine/register",
+    "cnk:distiller_book/pages/sweet_berry_wine/register",
+    "cnk:distiller_book/pages/heroic_wine/register",
+    "cnk:distiller_book/pages/glow_berry_wine/register",
+    "cnk:distiller_book/pages/diving_wine/register",
+    "cnk:distiller_book/pages/blazing_wine/register",
+    "cnk:distiller_book/pages/beer/register",
+    "cnk:distiller_book/pages/blessing_wine/register",
+    "cnk:distiller_book/pages/gleaming_wine/register",
+    "cnk:distiller_book/pages/breezing_wine/register",
+    "cnk:distiller_book/pages/chorus_wine/register",
+    "cnk:distiller_book/pages/prospecting_wine/register"
+  ]
+}

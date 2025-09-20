@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "cnk:music_disc_meal"
+      }
+    },
+    "title": {"translate":"advancement.cnk.music_disc.name","fallback":"Fresh Beat"},
+    "description": {"translate":"advancement.cnk.music_disc.desc","fallback":"Cook up some new music"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cnk:visible/cooking_pot",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"disc":{}}}
+            }
+          }
+        ]
+      }
+    }
+  }
+}

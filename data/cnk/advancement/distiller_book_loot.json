@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/shipwreck_treasure"
+      }
+    }
+  },
+  "rewards": {
+    "function": "cnk:distiller_book/loot/main"
+  }
+}

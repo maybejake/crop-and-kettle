@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "cnk:beef_cutlets"
+      }
+    },
+    "title": {"translate":"advancement.cnk.meat_portion.name","fallback":"Cutting Room Floor"},
+    "description": {"translate":"advancement.cnk.meat_portion.desc","fallback":"Make meat go further by cutting it into portions"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cnk:visible/knife",
+  "criteria": {
+    "cnk:pork_cutlets": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items":"minecraft:poisonous_potato","predicates":{"minecraft:custom_data": {"cnk":{"ingredient":{"type":"pork_cutlets"}}}}}
+        ]
+      }
+    },
+    "cnk:beef_cutlets": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items":"minecraft:poisonous_potato","predicates":{"minecraft:custom_data": {"cnk":{"ingredient":{"type":"beef_cutlets"}}}}}
+        ]
+      }
+    },
+    "cnk:chicken_cutlets": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items":"minecraft:poisonous_potato","predicates":{"minecraft:custom_data": {"cnk":{"ingredient":{"type":"chicken_cutlets"}}}}}
+        ]
+      }
+    },
+    "cnk:mutton_cutlets": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items":"minecraft:poisonous_potato","predicates":{"minecraft:custom_data": {"cnk":{"ingredient":{"type":"mutton_cutlets"}}}}}
+        ]
+      }
+    },
+    "cnk:rabbit_cutlets": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items":"minecraft:poisonous_potato","predicates":{"minecraft:custom_data": {"cnk":{"ingredient":{"type":"rabbit_cutlets"}}}}}
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cnk:pork_cutlets",
+      "cnk:beef_cutlets",
+      "cnk:chicken_cutlets",
+      "cnk:mutton_cutlets",
+      "cnk:rabbit_cutlets"
+    ]
+  ]
+}

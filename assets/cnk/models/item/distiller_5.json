@@ -1,0 +1,6 @@
+{
+  "parent":"cnk:item/distiller_base",
+  "textures": {
+    "2": "cnk:item/distiller_dial_5"
+  }
+}

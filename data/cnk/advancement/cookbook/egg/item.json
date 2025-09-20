@@ -1,0 +1,67 @@
+{
+  "parent": "cnk:cookbook/root",
+  "criteria": {
+    "minecraft:egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { 
+            "items": "minecraft:egg"
+          }
+        ]
+      }
+    },
+    "minecraft:blue_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { 
+            "items": "minecraft:blue_egg"
+          }
+        ]
+      }
+    },
+    "minecraft:brown_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { 
+            "items": "minecraft:brown_egg"
+          }
+        ]
+      }
+    },
+    "minecraft:turtle_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { 
+            "items": "minecraft:turtle_egg"
+          }
+        ]
+      }
+    },
+    "minecraft:sniffer_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { 
+            "items": "minecraft:sniffer_egg"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:egg",
+      "minecraft:blue_egg",
+      "minecraft:brown_egg",
+      "minecraft:turtle_egg",
+      "minecraft:sniffer_egg"
+    ]
+  ],
+  "rewards": {
+    "function": "cnk:cookbook/grant/egg"
+  }
+}

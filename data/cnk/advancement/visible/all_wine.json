@@ -1,0 +1,153 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:item_frame",
+      "components": {
+        "minecraft:item_model": "cnk:wine"
+      }
+    },
+    "title": {"translate":"advancement.cnk.all_wine.name","fallback":"Sommelier"},
+    "description": {"translate":"advancement.cnk.all_wine.desc","fallback":"Drink every wine in Crop & Kettle"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "parent": "cnk:visible/basin",
+  "criteria": {
+    "cnk:creeping_wine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+            {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"creeping_wine"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:blazing_wine": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"cnk":{"ingredient":{"type":"blazing_wine"}}}
+          }
+        }
+      }
+    },
+    "cnk:gleaming_wine": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"cnk":{"ingredient":{"type":"gleaming_wine"}}}
+          }
+        }
+      }
+    },
+    "cnk:grape_wine": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"cnk":{"ingredient":{"type":"grape_wine"}}}
+          }
+        }
+      }
+    },
+    "cnk:breezing_wine": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"cnk":{"ingredient":{"type":"breezing_wine"}}}
+          }
+        }
+      }
+    },
+    "cnk:heroic_wine": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"cnk":{"ingredient":{"type":"heroic_wine"}}}
+          }
+        }
+      }
+    },
+    "cnk:diving_wine": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"cnk":{"ingredient":{"type":"diving_wine"}}}
+          }
+        }
+      }
+    },
+    "cnk:glow_berry_wine": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"cnk":{"ingredient":{"type":"glow_berry_wine"}}}
+          }
+        }
+      }
+    },
+    "cnk:prospecting_wine": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"cnk":{"ingredient":{"type":"prospecting_wine"}}}
+          }
+        }
+      }
+    },
+    "cnk:blessing_wine": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"cnk":{"ingredient":{"type":"blessing_wine"}}}
+          }
+        }
+      }
+    },
+    "cnk:chorus_wine": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"cnk":{"ingredient":{"type":"chorus_wine"}}}
+          }
+        }
+      }
+    },
+    "cnk:sweet_berry_wine": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"cnk":{"ingredient":{"type":"sweet_berry_wine"}}}
+          }
+        }
+      }
+    }
+  }
+}

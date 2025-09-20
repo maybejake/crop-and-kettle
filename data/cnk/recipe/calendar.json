@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      "minecraft:paper"
+    ],
+    [
+      "minecraft:red_dye"
+    ],
+    "#minecraft:hanging_signs"
+  ],
+  "result": {
+    "id": "minecraft:item_frame",
+    "components": {
+      "minecraft:item_name": {"translate":"item.cnk.calendar","fallback":"Calendar"},
+      "minecraft:item_model": "cnk:calendar_item",
+      "minecraft:custom_data": {"cnk":{"calendar":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:entity_data": {"id":"minecraft:item_frame","Tags":["cnk.calendar_setup"],"Silent":true,"Invisible":true},
+      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+    }
+  }
+}

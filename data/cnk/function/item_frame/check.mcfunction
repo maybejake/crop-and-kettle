@@ -1,0 +1,10 @@
+execute if entity @s[tag=cnk.crop_setup] run return run function cnk:seeds/place
+execute if entity @s[tag=cnk.cooking_pot_setup] run return run function cnk:cooking_pot/place
+execute if entity @s[tag=cnk.cutting_board_setup] run return run function cnk:cutting_board/place
+execute if entity @s[tag=cnk.mixing_bowl_setup] run return run function cnk:mixing_bowl/place
+execute if entity @s[tag=cnk.distiller_setup] run return run function cnk:distiller/place
+execute if entity @s[tag=cnk.faucet_setup] run return run function cnk:faucet/place
+execute if entity @s[tag=cnk.basin_setup] run return run function cnk:basin/place
+execute if entity @s[tag=cnk.calendar_setup] run return run function cnk:calendar/place
+execute if entity @s[tag=cnk.wine_rack_setup] run return run function cnk:wine_rack/place
+execute if entity @s[tag=cnk.mr_kettle_setup] run return run function cnk:mr_kettle/place

@@ -1,0 +1,1 @@
+$return run data modify storage cnk:temp database.player_data set from storage cnk:cookbook database.$(uid)

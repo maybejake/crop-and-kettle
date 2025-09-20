@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.chef_hat","fallback":"Chef Hat"},
+                "minecraft:item_model": "cnk:chef_hat",
+                "minecraft:custom_data": {"cnk":{"chef_hat":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                "minecraft:max_stack_size": 1,
+                "minecraft:equippable": {"slot":"head"},
+                "!minecraft:consumable": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

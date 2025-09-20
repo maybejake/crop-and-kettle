@@ -1,0 +1,1 @@
+$data modify storage cnk:cookbook database.$(uid) set value {}

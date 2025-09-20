@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "location": {
+      "biomes": [
+        "minecraft:frozen_river",
+        "minecraft:frozen_ocean",
+        "minecraft:deep_frozen_ocean"
+      ]
+    }
+  }
+}

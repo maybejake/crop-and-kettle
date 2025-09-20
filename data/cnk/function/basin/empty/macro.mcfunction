@@ -1,0 +1,1 @@
+$execute as @p[tag=cnk.interact_basin] run function $(callback)

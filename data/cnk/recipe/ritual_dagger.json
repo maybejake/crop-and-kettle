@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " o",
+    "b "
+  ],
+  "key": {
+    "o": [
+      "minecraft:obsidian"
+    ],
+    "b": [
+      "minecraft:bone"
+    ]
+  },
+  "result": {
+    "id": "minecraft:iron_sword",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {"translate":"item.cnk.ritual_dagger","fallback":"Ritual Dagger"},
+      "minecraft:item_model": "cnk:ritual_dagger",
+      "minecraft:custom_data": {"cnk":{"knife":true,"ritual_dagger":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+      "minecraft:max_damage": 1561,
+      "minecraft:tooltip_style": "cnk:mystery",
+      "minecraft:attribute_modifiers":[
+        {
+          "type":"minecraft:attack_damage",
+          "id":"cnk:knife",
+          "amount":3,
+          "operation":"add_value",
+          "slot":"mainhand",
+          "display": {
+            "type": "override",
+            "value": {"translate":"item.cnk.knife.attack_damage","fallback":"4 Attack Damage","color":"dark_green"}
+          }
+        },
+        {
+          "type":"minecraft:attack_speed",
+          "id":"cnk:knife",
+          "amount":-1.5,
+          "operation":"add_value",
+          "slot":"mainhand",
+          "display": {
+            "type": "override",
+            "value": {"translate":"item.cnk.knife.attack_speed","fallback":"2.5 Attack Speed","color":"dark_green"}
+          }
+        }
+      ]
+    }
+  }
+}

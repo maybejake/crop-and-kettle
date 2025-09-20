@@ -1,0 +1,17 @@
+{
+  "criteria": {
+      "requirement": {
+          "trigger": "minecraft:consume_item",
+          "conditions": {
+              "item": {
+                  "predicates": {
+                      "minecraft:custom_data": {"cnk":{"ingredient":{"type":"mystery_meat"}}}
+                  }
+              }
+          }
+      }
+  },
+  "rewards": {
+      "function": "cnk:mystery/speak/main"
+  }
+}
