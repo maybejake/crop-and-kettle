@@ -10,7 +10,7 @@ execute if score @s cnk.age matches 2 run particle minecraft:item{item:{id:"mine
 execute if score @s cnk.age matches 3.. run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:lettuce_crop_3"}}} ~ ~-0.4 ~ 0.28 0.5 0.28 0.07 70 force
 
 execute if score @s cnk.age matches ..2 run function cnk:seeds/lettuce/summon {count:1}
-execute if score @s cnk.age matches 3.. run function cnk:crops/lettuce/reward with storage cnk:temp
+execute if score @s cnk.age matches 3.. run function cnk:crops/lettuce/reward
 
 execute positioned ~ ~-0.5625 ~ run kill @n[type=minecraft:interaction,tag=cnk.crop_interaction,distance=..0.1]
 kill @s

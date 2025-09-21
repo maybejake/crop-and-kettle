@@ -1,2 +1,4 @@
 advancement revoke @s only cnk:distiller_book_loot
-function cnk:distiller_book/loot/ray/start
+
+tag @s add cnk.distiller_book_loot
+schedule function cnk:distiller_book/loot/delay 1t

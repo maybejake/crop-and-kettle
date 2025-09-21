@@ -1,0 +1,1 @@
+execute as @a[tag=cnk.chili_pepper_loot] at @s run function cnk:seeds/chili_pepper/loot/ray/start

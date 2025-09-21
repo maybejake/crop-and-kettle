@@ -1,3 +1,5 @@
+tag @s remove cnk.chili_pepper_loot
+
 scoreboard players set $distance cnk.dummy 0
 
 #store reach

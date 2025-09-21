@@ -6,7 +6,7 @@ data modify storage cnk:temp register.recipe_icon_font set value "cnk.book:icons
 data modify storage cnk:temp register.ingredients set value [ \
     {key:"item.cnk.fried_chicken", font:"cnk.book:icons"}, \
     {key:"item.minecraft.bread", font:"cnk.book:icons"}, \
-    {key:"item.cnk.sea_pickle", font:"cnk.book:icons"}, \
+    {key:"block.minecraft.sea_pickle", font:"cnk.book:icons"}, \
 ]
 
 data modify storage cnk:temp register.source set value {key:"cnk.source", font:"cnk.book:base"}

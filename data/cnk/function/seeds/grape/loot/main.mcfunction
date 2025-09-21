@@ -1,2 +1,4 @@
 advancement revoke @s only cnk:grape_loot
-function cnk:seeds/grape/loot/ray/start
+
+tag @s add cnk.grape_loot
+schedule function cnk:seeds/grape/loot/delay 1t

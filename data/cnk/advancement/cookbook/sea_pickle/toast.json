@@ -3,8 +3,7 @@
   "display": {
     "title": [{"translate":"book.cnk.toast.background","font":"cnk.book:advancement"},{"translate":"book.cnk.toast.unlock.ingredient","font":"cnk.book:advancement_text","color":"#7b613a"}],
     "icon": {
-      "id": "minecraft:poisonous_potato",
-      "components": {"minecraft:item_model": "cnk:sea_pickle"}
+      "id": "minecraft:sea_pickle"
     },
     "description": "",
     "announce_to_chat": false

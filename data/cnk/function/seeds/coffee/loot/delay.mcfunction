@@ -1,0 +1,1 @@
+execute as @a[tag=cnk.coffee_loot] at @s run function cnk:seeds/coffee/loot/ray/start

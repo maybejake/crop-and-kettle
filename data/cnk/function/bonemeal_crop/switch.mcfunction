@@ -1,4 +1,4 @@
-execute if score @s[tag=!cnk.tomato_crop,tag=!cnk.coffee_crop,tag=!cnk.grape_crop,tag=!cnk.chili_pepper_crop] cnk.age >= @s cnk.max_age run return fail
+execute if score @s[tag=!cnk.tomato_crop,tag=!cnk.coffee_crop,tag=!cnk.grape_crop,tag=!cnk.chili_pepper_crop] cnk.age >= @s cnk.max_age run return run scoreboard players set $bonemeal_crop_check cnk.dummy 0
 
 function cnk:bonemeal_crop/particle/main
 playsound minecraft:item.bone_meal.use block @a ~ ~ ~ 1 1

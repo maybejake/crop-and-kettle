@@ -103,7 +103,6 @@
   "item.cnk.salmon_fillets": "Salmon Fillets",
   "item.cnk.salsa": "Salsa",
   "item.cnk.sausage_roll": "Sausage Roll",
-  "item.cnk.sea_pickle": "Sea Pickle",
   "item.cnk.shepherds_pie": "Shepherds Pie",
   "item.cnk.spaghetti": "Spaghetti",
   "item.cnk.steak_and_ale_pie": "Steak & Ale Pie",
@@ -243,7 +242,7 @@
   "cnk.tooltip": "\ua001\ub001Crop & Kettle",
   
   "cnk.dialog.description": "A cozy cooking datapack that adds new food, drinks and more!",
-  "cnk.dialog.info": "v1.0.6\nBy maybejake",
+  "cnk.dialog.info": "v1.0.9\nBy maybejake",
   "cnk.dialog.website": "Website",
   "cnk.dialog.issues": "Issues",
   "cnk.dialog.settings": "Settings",

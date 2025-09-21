@@ -29,7 +29,7 @@ execute \
 execute \
         if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"fried_chicken"}}}}}] \
         if data storage cnk:temp cooking_pot.Items[{id:"minecraft:bread"}] \
-        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"sea_pickle"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:sea_pickle"}] \
         if function cnk:cooking_pot/crafting/lock \
         run return run function cnk:recipes/cooking_pot/chicken_sandwich
 

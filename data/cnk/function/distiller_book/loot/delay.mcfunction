@@ -1,0 +1,1 @@
+execute as @a[tag=cnk.distiller_book_loot] at @s run function cnk:distiller_book/loot/ray/start

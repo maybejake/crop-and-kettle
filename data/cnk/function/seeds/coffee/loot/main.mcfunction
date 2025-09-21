@@ -1,2 +1,4 @@
 advancement revoke @s only cnk:coffee_loot
-function cnk:seeds/coffee/loot/ray/start
+
+tag @s add cnk.coffee_loot
+schedule function cnk:seeds/coffee/loot/delay 1t

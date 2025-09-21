@@ -1,4 +1,4 @@
-execute if block ~ ~ ~ #minecraft:crops align xyz positioned ~0.5 ~0.5 ~0.5 run return run function cnk:scythe/ray/hit
+execute if block ~ ~ ~ #cnk:crops align xyz positioned ~0.5 ~0.5 ~0.5 run return run function cnk:scythe/ray/hit
 execute unless block ~ ~ ~ #cnk:blocks run return fail
 scoreboard players add $raycast_distance cnk.dummy 1
 

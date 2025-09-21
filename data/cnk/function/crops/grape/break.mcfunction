@@ -13,7 +13,7 @@ execute if score @s cnk.age matches 5..6 run particle minecraft:item{item:{id:"m
 execute if score @s cnk.age matches 7 run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:grape_crop_6"}}} ~ ~-0.4 ~ 0.28 0.7 0.28 0.07 70 force
 
 execute if score @s cnk.age matches ..6 run function cnk:seeds/grape/summon {count:1}
-execute if score @s cnk.age matches 7.. run function cnk:crops/grape/reward with storage cnk:temp
+execute if score @s cnk.age matches 7.. run function cnk:crops/grape/reward
 
 
 execute positioned ~ ~-0.5625 ~ run kill @n[type=minecraft:interaction,tag=cnk.crop_interaction,distance=..0.1]

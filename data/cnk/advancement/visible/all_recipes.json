@@ -774,7 +774,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:poisonous_potato",
+            "items": "minecraft:iron_sword",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"kebab_sword"}}}
             }

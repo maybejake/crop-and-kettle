@@ -1,2 +1,4 @@
 advancement revoke @s only cnk:chili_pepper_loot
-function cnk:seeds/chili_pepper/loot/ray/start
+
+tag @s add cnk.chili_pepper_loot
+schedule function cnk:seeds/chili_pepper/loot/delay 1t

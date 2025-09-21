@@ -6,10 +6,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:poisonous_potato",
-            "components": {
-              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"sea_pickle"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}
-            }
+            "items": "minecraft:sea_pickle"
           }
         ]
       }
