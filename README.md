@@ -10,7 +10,7 @@
 - New interactive cooking blocks to let you chop, mix and cook your way to culinary excellence
 - A wine aging system, with unique effects that increase in potency the longer a wine is aged
 - An advancement tab to help guide you through the pack
-- A fully data-driven backend, allowing other datapacks to easily add their own recipes and cookbook pages!
+- A fully [data-driven backend](https://github.com/maybejake/crop-and-kettle/wiki/Addons), allowing other datapacks to easily add their own recipes and cookbook pages!
 - New music, new tools, _secrets_, and so much more!
 
 Crop & Kettle is designed to be figured out by playing it, using the advancement tab and cookbook to figure out recipes and what to do next! But if you're stuck, or just want more detail on what the pack offers, then checkout the [wiki](https://github.com/maybejake/crop-and-kettle/wiki)!
