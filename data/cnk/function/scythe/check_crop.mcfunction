@@ -8,8 +8,8 @@ execute if block ~ ~ ~ minecraft:beetroots[age=3] run scoreboard players add $sc
 execute if block ~ ~ ~ minecraft:carrots[age=7] run scoreboard players add $scythe_block_check cnk.dummy 1
 execute if block ~ ~ ~ minecraft:potatoes[age=7] run scoreboard players add $scythe_block_check cnk.dummy 1
 execute if block ~ ~ ~ minecraft:wheat[age=7] run scoreboard players add $scythe_block_check cnk.dummy 1
-execute if block ~ ~ ~ minecraft:melon_stem[age=7] run scoreboard players add $scythe_block_check cnk.dummy 1
-execute if block ~ ~ ~ minecraft:pumpkin_stem[age=7] run scoreboard players add $scythe_block_check cnk.dummy 1
+execute if block ~ ~ ~ minecraft:melon run scoreboard players add $scythe_block_check cnk.dummy 1
+execute if block ~ ~ ~ minecraft:pumpkin run scoreboard players add $scythe_block_check cnk.dummy 1
 execute if block ~ ~ ~ minecraft:torchflower_crop[age=1] run scoreboard players add $scythe_block_check cnk.dummy 1
 execute if block ~ ~ ~ minecraft:pitcher_crop[age=4] run scoreboard players add $scythe_block_check cnk.dummy 1
 
@@ -22,8 +22,8 @@ execute if block ~ ~ ~ minecraft:beetroots[age=3] run setblock ~ ~ ~ minecraft:b
 execute if block ~ ~ ~ minecraft:carrots[age=7] run setblock ~ ~ ~ minecraft:carrots[age=0] destroy
 execute if block ~ ~ ~ minecraft:potatoes[age=7] run setblock ~ ~ ~ minecraft:potatoes[age=0] destroy
 execute if block ~ ~ ~ minecraft:wheat[age=7] run setblock ~ ~ ~ minecraft:wheat[age=0] destroy
-execute if block ~ ~ ~ minecraft:melon_stem[age=7] run setblock ~ ~ ~ minecraft:melon_stem[age=0] destroy
-execute if block ~ ~ ~ minecraft:pumpkin_stem[age=7] run setblock ~ ~ ~ minecraft:pumpkin_stem[age=0] destroy
+execute if block ~ ~ ~ minecraft:melon run setblock ~ ~ ~ minecraft:air destroy
+execute if block ~ ~ ~ minecraft:pumpkin run setblock ~ ~ ~ minecraft:air destroy
 execute if block ~ ~ ~ minecraft:torchflower_crop[age=1] run setblock ~ ~ ~ minecraft:torchflower_crop[age=0] destroy
 execute if block ~ ~ ~ minecraft:pitcher_crop[age=4] run setblock ~ ~ ~ minecraft:pitcher_crop[age=0] destroy
 execute if score $tile_drops cnk.dummy matches 1 run gamerule doTileDrops true

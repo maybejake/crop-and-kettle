@@ -13,10 +13,15 @@
                 "minecraft:item_name": {"translate":"item.cnk.cooking_oil","fallback":"Cooking Oil"},
                 "minecraft:item_model": "cnk:cooking_oil",
                 "minecraft:food": {
-                  "nutrition": 3,
-                  "saturation": 3.6
+                  "nutrition": 2,
+                  "saturation": 1.6,
+                  "can_always_eat": true
                 },
-                "minecraft:consumable": {},
+                "minecraft:consumable": {
+                  "animation":"drink",
+                  "sound":"minecraft:item.honey_bottle.drink",
+                  "has_consume_particles":false
+                },
                 "minecraft:custom_data": {"cnk":{"ingredient":{"type":"cooking_oil"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
                 "minecraft:use_remainder": {"id":"minecraft:glass_bottle","count":1}

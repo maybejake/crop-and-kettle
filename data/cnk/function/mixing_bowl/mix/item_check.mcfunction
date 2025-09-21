@@ -1,2 +1,3 @@
-execute if data entity @s {item:{components:{"minecraft:custom_data":{smithed:{ignore:{crafting:true}}}}}} unless data entity @s {item:{components:{"minecraft:custom_data":{cnk:{ingredient:{}}}}}} run return run data modify storage cnk:temp mixing_bowl.Items append value {id:"ignore"}
-data modify storage cnk:temp mixing_bowl.Items append from entity @s item
+data modify storage cnk:temp mixing_bowl.temp_item set from entity @s item
+execute if data storage cnk:temp mixing_bowl.temp_item.components."minecraft:custom_data" run data modify storage cnk:temp mixing_bowl.temp_item.id set value "ignore"
+data modify storage cnk:temp mixing_bowl.Items append from storage cnk:temp mixing_bowl.temp_item

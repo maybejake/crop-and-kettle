@@ -1,9 +1,6 @@
 scoreboard players set $cut_check cnk.dummy 0
 data modify storage cnk:temp cutting_board.item set from entity @s item
-
-execute if data storage cnk:temp cutting_board.item{components:{"minecraft:custom_data":{smithed:{ignore:{crafting:true}}}}} \
-    unless data storage cnk:temp cutting_board.item{components:{"minecraft:custom_data":{cnk:{ingredient:{}}}}} \
-    run return run function cnk:cutting_board/item/remove
+execute if data storage cnk:temp cutting_board.item.components."minecraft:custom_data" run data modify storage cnk:temp cutting_board.item.id set value "ignore"
 
 function #cnk:recipes/cutting_board
 
