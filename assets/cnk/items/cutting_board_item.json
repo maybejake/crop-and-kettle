@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "cnk:item/cutting_board_item"
+    "model": "cnk:item/cutting_board"
   }
 }

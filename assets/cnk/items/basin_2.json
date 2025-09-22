@@ -1,7 +1,7 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "cnk:item/basin_2",
+    "model": "cnk:block/basin_2",
     "tints": [
       {
         "type": "custom_model_data",

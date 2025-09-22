@@ -59,3 +59,5 @@ scoreboard objectives add cnk.distiller_book_current_page dummy
 scoreboard objectives add cnk.settings trigger
 
 scoreboard objectives add cnk.foodie_book_buttons trigger
+
+scoreboard players set $installed cnk.dummy 1

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "cnk:item/distiller_0"
+    "model": "cnk:block/distiller_0"
   }
 }

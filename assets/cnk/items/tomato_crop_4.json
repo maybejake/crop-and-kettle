@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "cnk:item/tomato_crop_4"
+    "model": "cnk:block/tomato/4"
   }
 }

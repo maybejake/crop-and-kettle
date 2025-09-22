@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "cnk:item/coffee_crop_7"
+    "model": "cnk:block/coffee/7"
   }
 }

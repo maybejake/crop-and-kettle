@@ -1,7 +1,7 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "cnk:item/faucet_open",
+    "model": "cnk:block/faucet_open",
     "tints": [
       {
         "type": "custom_model_data",

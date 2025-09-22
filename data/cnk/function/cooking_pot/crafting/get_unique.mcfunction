@@ -1,5 +1,4 @@
 data remove storage cnk:temp unique_items_check[].count
-data remove storage cnk:temp unique_items_check[{components:{"minecraft:custom_data":{}}}].id
 
 data modify storage cnk:temp unique_items set value {1:false, 2:false, 3:false, 4:false, 5:false}
 

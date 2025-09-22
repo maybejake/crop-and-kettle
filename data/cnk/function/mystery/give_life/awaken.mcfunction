@@ -11,6 +11,9 @@ playsound minecraft:block.fire.extinguish block @a ~ ~ ~ 1 1
 playsound minecraft:block.trial_spawner.ambient_ominous block @a ~ ~ ~ 1 2
 
 data modify entity @s Fire set value 0s
+
+data modify storage cnk:temp give_life.count set from entity @s Item.count
 loot replace entity @s contents loot cnk:food/mystery_meat
+data modify entity @s Item.count set from storage cnk:temp give_life.count
 
 # snooping as usual i see

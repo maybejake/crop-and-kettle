@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "cnk:item/faucet_closed"
+    "model": "cnk:block/faucet_closed"
   }
 }

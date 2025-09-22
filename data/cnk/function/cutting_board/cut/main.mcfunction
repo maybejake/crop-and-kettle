@@ -1,6 +1,13 @@
 scoreboard players set $cut_check cnk.dummy 0
 data modify storage cnk:temp cutting_board.item set from entity @s item
-execute if data storage cnk:temp cutting_board.item.components."minecraft:custom_data" run data modify storage cnk:temp cutting_board.item.id set value "ignore"
+
+# fathoms compat
+execute if data storage cnk:temp cutting_board.item.components."minecraft:custom_data"{fathoms:{id:"cod"}} run data modify storage cnk:temp cutting_board.item.id set value "minecraft:cod"
+execute if data storage cnk:temp cutting_board.item.components."minecraft:custom_data"{fathoms:{id:"cod"}} run data remove storage cnk:temp cutting_board.item.components."minecraft:custom_data"
+execute if data storage cnk:temp cutting_board.item.components."minecraft:custom_data"{fathoms:{id:"salmon"}} run data modify storage cnk:temp cutting_board.item.id set value "minecraft:salmon"
+execute if data storage cnk:temp cutting_board.item.components."minecraft:custom_data"{fathoms:{id:"salmon"}} run data remove storage cnk:temp cutting_board.item.components."minecraft:custom_data"
+
+execute if data storage cnk:temp cutting_board.item.components."minecraft:custom_data" run data remove storage cnk:temp cutting_board.item.id
 
 function #cnk:recipes/cutting_board
 

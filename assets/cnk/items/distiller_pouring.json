@@ -1,7 +1,7 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "cnk:item/distiller_pouring",
+    "model": "cnk:block/distiller_pouring",
     "tints": [
       {
         "type": "custom_model_data",

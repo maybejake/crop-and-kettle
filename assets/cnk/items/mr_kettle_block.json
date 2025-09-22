@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "cnk:item/mr_kettle"
+    "model": "cnk:block/mr_kettle"
   }
 }

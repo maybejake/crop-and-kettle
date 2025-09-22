@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "cnk:item/basin_item"
+    "model": "cnk:item/basin"
   }
 }

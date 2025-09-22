@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "cnk:item/mixing_bowl"
+    "model": "cnk:block/mixing_bowl"
   }
 }

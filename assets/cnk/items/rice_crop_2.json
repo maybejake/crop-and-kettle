@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "cnk:item/rice_crop_2"
+    "model": "cnk:block/rice/2"
   }
 }

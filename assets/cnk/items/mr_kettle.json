@@ -12,7 +12,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cnk:item/mr_kettle"
+          "model": "cnk:block/mr_kettle"
         }
       },
       {
@@ -24,7 +24,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cnk:item/mr_kettle_item"
+          "model": "cnk:item/mr_kettle"
         }
       }
     ],

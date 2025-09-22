@@ -1,37 +1,6 @@
 {
-	"format_version": "1.21.6",
-	"credit": "Made with Blockbench",
-	"texture_size": [32, 32],
-	"textures": {
-		"0": "cnk:item/calendar",
-		"particle": "cnk:item/calendar"
-	},
-	"elements": [
-		{
-			"from": [5.5, 12, 15.5],
-			"to": [10.5, 15, 15.5],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 12, 15.5]},
-			"faces": {
-				"north": {"uv": [7.5, 1, 10, 2.5], "texture": "#0"},
-				"east": {"uv": [0, 0, 0, 1.5], "texture": "#0"},
-				"south": {"uv": [7.5, 1, 10, 2.5], "texture": "#0"},
-				"west": {"uv": [0, 0, 0, 1.5], "texture": "#0"},
-				"up": {"uv": [2.5, 0, 0, 0], "texture": "#0"},
-				"down": {"uv": [2.5, 0, 0, 0], "texture": "#0"}
-			}
-		},
-		{
-			"from": [0.5, 2, 15],
-			"to": [15.5, 12, 16],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 2, 15]},
-			"faces": {
-				"north": {"uv": [0, 0, 7.5, 5], "texture": "#0"},
-				"east": {"uv": [7.5, 4, 8, 9], "texture": "#0"},
-				"south": {"uv": [0, 5, 7.5, 10], "texture": "#0"},
-				"west": {"uv": [8, 4, 8.5, 9], "texture": "#0"},
-				"up": {"uv": [15, 0.5, 7.5, 0], "texture": "#0"},
-				"down": {"uv": [15, 0.5, 7.5, 1], "texture": "#0"}
-			}
-		}
-	]
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cnk:item/calendar"
+  }
 }

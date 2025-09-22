@@ -1,7 +1,7 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "cnk:item/wine_rack/top_right",
+    "model": "cnk:block/wine_rack/top_right",
     "tints": [
       {
         "type": "custom_model_data",

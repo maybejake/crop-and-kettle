@@ -1,8 +1,0 @@
-{
-  "parent":"cnk:item/2_block_crop",
-  "textures": {
-    "crop": "cnk:item/tomato_crop_0",
-    "particle": "cnk:item/tomato_crop_0"
-
-  }
-}
