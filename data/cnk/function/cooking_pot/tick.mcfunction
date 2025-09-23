@@ -14,12 +14,8 @@ execute store result score $filled_slots cnk.dummy run data get storage cnk:temp
 execute if score $filled_slots cnk.dummy matches 0 if score @s cnk.cook_time matches 1.. run return run function cnk:cooking_pot/stop
 execute if score $filled_slots cnk.dummy matches 0 run return fail
 
-# fathoms compat
-execute if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{fathoms:{id:"cod"}}}}] run data modify storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{fathoms:{id:"cod"}}}}].id set value "minecraft:cod"
-execute if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{fathoms:{id:"cod"}}}}] run data remove storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{fathoms:{id:"cod"}}}}].components."minecraft:custom_data"
-execute if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{fathoms:{id:"salmon"}}}}] run data modify storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{fathoms:{id:"salmon"}}}}].id set value "minecraft:salmon"
-execute if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{fathoms:{id:"salmon"}}}}] run data remove storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{fathoms:{id:"salmon"}}}}].components."minecraft:custom_data"
-
+# sanitise data
+execute if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{fathoms:{}}}}] run function cnk:cooking_pot/fathoms
 data remove storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{}}}].id
 
 data modify storage cnk:temp unique_items_check set value []

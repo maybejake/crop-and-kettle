@@ -54,7 +54,7 @@ execute \
 
 execute \
         if function cnk:cooking_pot/crafting/generic/egg if score $egg_count cnk.dummy matches 1 \
-        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"milk_bottle"}}}}}] \
+        if function cnk:cooking_pot/crafting/generic/milk if score $milk_count cnk.dummy matches 1 \
         if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"chili_pepper"}}}}}] \
         if data storage cnk:temp cooking_pot.Items[{id:"minecraft:wheat"}] \
         if data storage cnk:temp cooking_pot.Items[{id:"minecraft:blaze_rod"}] \
@@ -117,7 +117,7 @@ execute \
 
 execute \
         if function cnk:cooking_pot/crafting/generic/egg if score $egg_count cnk.dummy matches 1 \
-        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"milk_bottle"}}}}}] \
+        if function cnk:cooking_pot/crafting/generic/milk if score $milk_count cnk.dummy matches 1 \
         if data storage cnk:temp cooking_pot.Items[{id:"minecraft:sugar"}] \
         if data storage cnk:temp cooking_pot.Items[{id:"minecraft:wheat"}] \
         if data storage cnk:temp cooking_pot.Items[{id:"minecraft:grass_block"}] \

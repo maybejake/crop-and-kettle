@@ -1,4 +1,4 @@
-$loot give @s loot { \
+$loot $(give_or_spawn) loot { \
   "pools": [ \
     { \
       "rolls": 1, \

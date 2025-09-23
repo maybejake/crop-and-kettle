@@ -2,4 +2,4 @@ data modify entity @s item.components."minecraft:item_model" set value "cnk:toma
 scoreboard players set @s cnk.age 5
 
 execute at @s run playsound minecraft:block.crop.break block @a ~ ~ ~ 1 1
-execute at @s positioned ~ ~0.5 ~ run function cnk:crops/tomato/reward with storage cnk:temp
+execute at @s positioned ~ ~0.5 ~ run function cnk:crops/tomato/reward

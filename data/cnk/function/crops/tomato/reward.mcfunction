@@ -1,5 +1,5 @@
-execute store result storage cnk:temp count double 1 run random value 1..4
-function cnk:seeds/tomato/summon with storage cnk:temp
+execute unless score $interact_reward cnk.dummy matches 1 store result storage cnk:temp count double 1 run random value 1..4
+execute unless score $interact_reward cnk.dummy matches 1 run function cnk:seeds/tomato/summon with storage cnk:temp
 
 execute store result storage cnk:temp count double 1 run random value 2..3
 function cnk:produce/tomato/summon with storage cnk:temp

@@ -32,6 +32,38 @@
           {"items": "minecraft:cod"}
         ]
       }
+    },
+    "fathoms:fish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items":"minecraft:tropical_fish","predicates":{"minecraft:custom_data":{"fathoms":{"fish":{}}}}}
+        ]
+      }
+    },
+    "fathoms:cod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+            {"predicates":{"minecraft:custom_data":{"fathoms":{"id":"cod"}}}}
+        ]
+      }
+    },
+    "fathoms:salmon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+            {"predicates":{"minecraft:custom_data":{"fathoms":{"id":"salmon"}}}}
+        ]
+      }
+    },
+    "tcc:swordfish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"predicates":{"minecraft:custom_data":{"tcc":{"id":"swordfish"}}}}
+        ]
+      }
     }
   },
   "requirements": [
@@ -39,7 +71,11 @@
       "cnk:salmon_fillets",
       "cnk:cod_fillets",
       "minecraft:salmon",
-      "minecraft:cod"
+      "minecraft:cod",
+      "fathoms:fish",
+      "tcc:swordfish",
+      "fathoms:salmon",
+      "fathoms:cod"
     ]
   ],
   "rewards": {

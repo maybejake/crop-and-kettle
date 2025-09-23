@@ -7,6 +7,10 @@ execute if score @s cnk.level matches 3 run data modify entity @s item.component
 
 item modify entity @p[tag=cnk.interact_basin] weapon.mainhand {"function":"minecraft:set_count","count":-1,"add":true}
 
+# store inventory state
+data modify storage cnk:temp time.give_or_spawn set value "give @s"
+execute if entity @p[tag=cnk.interact_basin,predicate=cnk:inventory_full] run data modify storage cnk:temp time.give_or_spawn set value "spawn ~ ~ ~"
+
 data modify storage cnk:temp time.color set from entity @s item.components."minecraft:custom_model_data".colors[0]
 function cnk:basin/empty/macro with entity @s item.components."minecraft:custom_data".cnk.basin
 

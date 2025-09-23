@@ -1,7 +1,7 @@
 {
   "parent": "cnk:cookbook/root",
   "criteria": {
-    "requirement": {
+    "minecraft:cod": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -10,8 +10,22 @@
           }
         ]
       }
+    },
+    "fathoms:cod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+            {"predicates":{"minecraft:custom_data":{"fathoms":{"id":"cod"}}}}
+        ]
+      }
     }
   },
+  "requirements": [
+    [
+      "minecraft:cod",
+      "fathoms:cod"
+    ]
+  ],
   "rewards": {
     "function": "cnk:cookbook/grant/cod"
   }

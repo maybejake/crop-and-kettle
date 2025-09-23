@@ -3,10 +3,7 @@ execute if score @s[tag=!cnk.tomato_crop,tag=!cnk.coffee_crop,tag=!cnk.grape_cro
 function cnk:bonemeal_crop/particle/main
 playsound minecraft:item.bone_meal.use block @a ~ ~ ~ 1 1
 
-execute if score @s[tag=cnk.tomato_crop] cnk.age >= @s cnk.max_age run return run function cnk:interact_crop/tomato
-execute if score @s[tag=cnk.coffee_crop] cnk.age >= @s cnk.max_age run return run function cnk:interact_crop/coffee
-execute if score @s[tag=cnk.chili_pepper_crop] cnk.age >= @s cnk.max_age run return run function cnk:interact_crop/chili_pepper
-execute if score @s[tag=cnk.grape_crop] cnk.age >= @s cnk.max_age run return run function cnk:interact_crop/grape
+execute unless entity @s[tag=!cnk.tomato_crop,tag=!cnk.coffee_crop,tag=!cnk.chili_pepper_crop,tag=!cnk.grape_crop] if score @s cnk.age >= @s cnk.max_age run return run function cnk:interact_crop/switch
 
 execute if entity @s[tag=cnk.chili_pepper_crop] run setblock ~ ~ ~ minecraft:pumpkin_stem[age=1] replace
 execute if entity @s[tag=cnk.chili_pepper_crop] run return run function cnk:crops/chili_pepper/tick

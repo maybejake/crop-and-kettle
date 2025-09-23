@@ -1,7 +1,7 @@
 {
   "parent": "cnk:cookbook/root",
   "criteria": {
-    "requirement": {
+    "minecraft:salmon": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -10,8 +10,22 @@
           }
         ]
       }
+    },
+    "fathoms:salmon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+            {"predicates":{"minecraft:custom_data":{"fathoms":{"id":"salmon"}}}}
+        ]
+      }
     }
   },
+  "requirements": [
+    [
+      "minecraft:salmon",
+      "fathoms:salmon"
+    ]
+  ],
   "rewards": {
     "function": "cnk:cookbook/grant/salmon"
   }
