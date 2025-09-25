@@ -29,6 +29,7 @@ The script has arguments for overriding the default input and output folders, if
 
 ### Things to remember:
 - While this script generates advancements for you, you do need to add the data the advancement should check for yourself. Sorry!
+- You may also need to change the translation key in your advancement, depending on whether the thing being unlocked is a recipe or an ingredient. Simply change `book.cnk.toast.unlock.ingredient` to `book.cnk.toast.unlock.recipe` if needed
 - This script generates everything in your chosen namespace. If you're using it to generate stuff for vanilla items, be sure to change the namespace to `minecraft`. It can handle multiple namespaces in the input folder!
 
 I might turn this into a beet library eventually, who knows
