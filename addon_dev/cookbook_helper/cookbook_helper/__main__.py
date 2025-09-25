@@ -4,7 +4,7 @@ import os
 import shutil
 from pathlib import Path
 from PIL import Image
-from .templates import *
+from .templates import advancement, toast, grant_flag, character, ingredient_translation, lang, font
 
 images = {}
 
