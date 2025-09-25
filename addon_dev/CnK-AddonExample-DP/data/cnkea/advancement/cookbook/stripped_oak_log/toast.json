@@ -1,0 +1,16 @@
+{
+  "parent": "cnk:cookbook/toasts",
+  "display": {
+    "title": [{"translate":"book.cnk.toast.background","font":"cnk.book:advancement"},{"translate":"book.cnk.toast.unlock.recipe","font":"cnk.book:advancement_text","color":"#7b613a"}],
+    "icon": {
+      "id": "minecraft:stripped_oak_log"
+    },
+    "description": "",
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

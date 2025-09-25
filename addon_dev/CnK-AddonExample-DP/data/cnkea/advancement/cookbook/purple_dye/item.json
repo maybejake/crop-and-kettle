@@ -1,0 +1,18 @@
+{
+  "parent": "cnk:cookbook/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:purple_dye"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "cnkea:cookbook/grant/purple_dye"
+  }
+}

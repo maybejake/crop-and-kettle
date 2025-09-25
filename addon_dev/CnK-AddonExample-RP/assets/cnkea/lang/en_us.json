@@ -1,0 +1,14 @@
+{
+  "book.item.minecraft.pumpkin_pie": "\ud001",
+  "book.item.minecraft.glistering_melon_slice": "\ud002",
+  "book.item.minecraft.nether_wart": "\ud003",
+  "book.block.minecraft.oak_log": "\ud004",
+  "book.item.minecraft.purple_dye": "\ud005",
+  "book.block.minecraft.stripped_oak_log": "\ud006",
+  "book.item.minecraft.healing_potion": "\ud007",
+
+  "cnkea.source": "Crop & Kettle Example Addon",
+  "item.minecraft.healing_potion": "Healing Potion",
+  
+  "book.cnkea.source": "\ue001"
+}

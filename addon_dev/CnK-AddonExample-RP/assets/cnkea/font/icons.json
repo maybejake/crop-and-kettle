@@ -1,0 +1,13 @@
+{
+    "providers": [
+        {"type":"bitmap","file":"cnkea:icon/item/pumpkin_pie.png","ascent":15,"height":16,"chars":["\ud001"]},
+        {"type":"bitmap","file":"cnkea:icon/item/glistering_melon_slice.png","ascent":15,"height":16,"chars":["\ud002"]},
+        {"type":"bitmap","file":"cnkea:icon/item/nether_wart.png","ascent":15,"height":16,"chars":["\ud003"]},
+        {"type":"bitmap","file":"cnkea:icon/item/oak_log.png","ascent":15,"height":16,"chars":["\ud004"]},
+        {"type":"bitmap","file":"cnkea:icon/item/purple_dye.png","ascent":15,"height":16,"chars":["\ud005"]},
+        {"type":"bitmap","file":"cnkea:icon/item/stripped_oak_log.png","ascent":15,"height":16,"chars":["\ud006"]},
+        {"type":"bitmap","file":"cnkea:icon/item/healing_potion.png","ascent":15,"height":16,"chars":["\ud007"]},
+
+        {"type":"bitmap","file":"cnkea:icon/misc/cnkea_indicator.png","ascent":6,"height":8,"chars":["\ue001"]}
+    ]
+}
