@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.feast.name","fallback":"Fit For a King"},
-    "description": {"translate":"advancement.cnk.feast.desc","fallback":"Feel replenished after eating a feast"},
+    "description": [{"translate":"advancement.cnk.feast.desc","fallback":"Feel replenished after eating a feast"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

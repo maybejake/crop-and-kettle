@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.mr_kettle.name","fallback":"Little Chef"},
-    "description": {"translate":"advancement.cnk.mr_kettle.desc","fallback":"Assist in the summoning of Mr. Kettle"},
+    "description": [{"translate":"advancement.cnk.mr_kettle.desc","fallback":"Assist in the summoning of Mr. Kettle"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false,

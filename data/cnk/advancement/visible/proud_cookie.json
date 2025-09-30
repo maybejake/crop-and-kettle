@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.proud_cookie.name","fallback":"Here to Stay"},
-    "description": {"translate":"advancement.cnk.proud_cookie.desc","fallback":"Bake a proud cookie"},
+    "description": [{"translate":"advancement.cnk.proud_cookie.desc","fallback":"Bake a proud cookie"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

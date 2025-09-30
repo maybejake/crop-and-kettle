@@ -6,8 +6,8 @@
         "minecraft:item_model": "cnk:cooking_pot_item"
       }
     },
-    "title": "Crop & Kettle",
-    "description": "Crops and cooking!",
+    "title": {"translate":"advancement.cnk.root.name","fallback":"Culinary"},
+    "description": [{"translate":"advancement.cnk.root.desc","fallback":"The taste of adventure"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "background": "minecraft:block/farmland_moist",
     "show_toast": false,
     "announce_to_chat": false

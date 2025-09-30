@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.distiller.name","fallback":"Cheers to Brew"},
-    "description": {"translate":"advancement.cnk.distiller.desc","fallback":"Start brewing new beverages by crafting a distiller"},
+    "description": [{"translate":"advancement.cnk.distiller.desc","fallback":"Start brewing new beverages by crafting a distiller"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

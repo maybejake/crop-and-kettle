@@ -1,7 +1,7 @@
 kill @s
 execute unless block ~ ~-1 ~ minecraft:dirt run return run function cnk:seeds/rice/summon {count:1}
 execute unless block ~ ~ ~ minecraft:water run return run function cnk:seeds/rice/summon {count:1}
-execute unless block ~ ~1 ~ #minecraft:air unless block ~ ~1 ~ minecraft:light run return run function cnk:seeds/rice/summon {count:1}
+execute unless block ~ ~1 ~ #cnk:air unless block ~ ~1 ~ minecraft:light run return run function cnk:seeds/rice/summon {count:1}
 
 setblock ~ ~ ~ minecraft:mangrove_propagule[stage=0,waterlogged=true] replace
 setblock ~ ~1 ~ minecraft:light[level=0] replace

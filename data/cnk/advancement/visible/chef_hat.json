@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.chef_hat.name","fallback":"Yes, Chef!"},
-    "description": {"translate":"advancement.cnk.chef_hat.desc","fallback":"Craft a chef hat"},
+    "description": [{"translate":"advancement.cnk.chef_hat.desc","fallback":"Craft a chef hat"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

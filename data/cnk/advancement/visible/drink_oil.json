@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.drink_oil.name","fallback":"A Bad Idea"},
-    "description": {"translate":"advancement.cnk.drink_oil.desc","fallback":"Drink cooking oil"},
+    "description": [{"translate":"advancement.cnk.drink_oil.desc","fallback":"Drink cooking oil"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true

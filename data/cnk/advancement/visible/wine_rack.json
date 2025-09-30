@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.wine_rack.name","fallback":"Cellar Dweller"},
-    "description": {"translate":"advancement.cnk.wine_rack.desc","fallback":"Safely store your wines by crafting a wine rack"},
+    "description": [{"translate":"advancement.cnk.wine_rack.desc","fallback":"Safely store your wines by crafting a wine rack"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

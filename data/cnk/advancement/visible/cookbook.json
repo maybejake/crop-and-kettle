@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.cookbook.name","fallback":"Anybody Can Cook"},
-    "description": {"translate":"advancement.cnk.cookbook.desc","fallback":"Craft a cookbook"},
+    "description": [{"translate":"advancement.cnk.cookbook.desc","fallback":"Craft a cookbook"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.milk_bottle.name","fallback":"Legendairy"},
-    "description": {"translate":"advancement.cnk.milk_bottle.desc","fallback":"Portion your milk by crafting milk bottles"},
+    "description": [{"translate":"advancement.cnk.milk_bottle.desc","fallback":"Portion your milk by crafting milk bottles"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

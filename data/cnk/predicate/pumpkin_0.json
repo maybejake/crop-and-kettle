@@ -17,7 +17,7 @@
       "offsetY": 1,
       "predicate": {
         "block": {
-          "blocks": "minecraft:air"
+          "blocks": "#cnk:air"
         }
       } 
     }

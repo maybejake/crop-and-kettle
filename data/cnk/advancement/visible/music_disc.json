@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.music_disc.name","fallback":"Fresh Beat"},
-    "description": {"translate":"advancement.cnk.music_disc.desc","fallback":"Cook up some new music"},
+    "description": [{"translate":"advancement.cnk.music_disc.desc","fallback":"Cook up some new music"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

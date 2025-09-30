@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.cutting_board.name","fallback":"Chopping Block"},
-    "description": {"translate":"advancement.cnk.cutting_board.desc","fallback":"Craft a cutting board"},
+    "description": [{"translate":"advancement.cnk.cutting_board.desc","fallback":"Craft a cutting board"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

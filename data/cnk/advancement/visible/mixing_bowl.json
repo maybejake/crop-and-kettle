@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.mixing_bowl.name","fallback":"Pick n' Mix"},
-    "description": {"translate":"advancement.cnk.mixing_bowl.desc","fallback":"Craft a mixing bowl"},
+    "description": [{"translate":"advancement.cnk.mixing_bowl.desc","fallback":"Craft a mixing bowl"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.distiller_book.name","fallback":"Guided by Spirits"},
-    "description": {"translate":"advancement.cnk.distiller_book.desc","fallback":"Find the brewer's digest in a shipwreck"},
+    "description": [{"translate":"advancement.cnk.distiller_book.desc","fallback":"Find the brewer's digest in a shipwreck"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.rotten_tomato.name","fallback":"Tough Crowd"},
-    "description": {"translate":"advancement.cnk.rotten_tomato.desc","fallback":"Throw a rotten tomato"},
+    "description": [{"translate":"advancement.cnk.rotten_tomato.desc","fallback":"Throw a rotten tomato"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

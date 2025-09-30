@@ -242,7 +242,7 @@
   "cnk.tooltip": "\ua001\ub001Crop & Kettle",
   
   "cnk.dialog.description": "A cozy cooking datapack that adds new food, drinks and more!",
-  "cnk.dialog.info": "v1.0.12\nBy maybejake",
+  "cnk.dialog.info": "v1.0.13\nBy maybejake",
   "cnk.dialog.website": "Website",
   "cnk.dialog.issues": "Issues",
   "cnk.dialog.settings": "Settings",
@@ -318,5 +318,7 @@
   "advancement.cnk.secret_recipe.name":"Trade Secret",
   "advancement.cnk.secret_recipe.desc":"Experience peculiar effects after eating a secret recipe",
   "advancement.cnk.mr_kettle.name":"Little Chef",
-  "advancement.cnk.mr_kettle.desc":"Assist in the summoning of Mr. Kettle"
+  "advancement.cnk.mr_kettle.desc":"Assist in the summoning of Mr. Kettle",
+  "advancement.cnk.root.name":"Culinary",
+  "advancement.cnk.root.desc":"The taste of adventure"
 }

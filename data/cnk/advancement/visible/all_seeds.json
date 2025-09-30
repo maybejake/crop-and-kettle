@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.all_seeds.name","fallback":"The Root Of It All"},
-    "description": {"translate":"advancement.cnk.all_seeds.desc","fallback":"Obtain every seed in Crop & Kettle"},
+    "description": [{"translate":"advancement.cnk.all_seeds.desc","fallback":"Obtain every seed in Crop & Kettle"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false,

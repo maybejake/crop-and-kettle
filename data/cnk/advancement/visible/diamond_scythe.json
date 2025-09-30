@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.diamond_scythe.name","fallback":"Field Tested"},
-    "description": {"translate":"advancement.cnk.diamond_scythe.desc","fallback":"Craft a diamond scythe"},
+    "description": [{"translate":"advancement.cnk.diamond_scythe.desc","fallback":"Craft a diamond scythe"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

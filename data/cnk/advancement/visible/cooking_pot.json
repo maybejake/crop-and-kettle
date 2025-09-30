@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.cooking_pot.name","fallback":"Toil and Trouble"},
-    "description": {"translate":"advancement.cnk.cooking_pot.desc","fallback":"Craft a cooking pot"},
+    "description": [{"translate":"advancement.cnk.cooking_pot.desc","fallback":"Craft a cooking pot"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

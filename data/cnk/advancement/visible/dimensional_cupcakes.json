@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.dimensional_cupcakes.name","fallback":"Dimensional Delights"},
-    "description": {"translate":"advancement.cnk.dimensional_cupcakes.desc","fallback":"Eat every dimensional cupcake"},
+    "description": [{"translate":"advancement.cnk.dimensional_cupcakes.desc","fallback":"Eat every dimensional cupcake"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false,

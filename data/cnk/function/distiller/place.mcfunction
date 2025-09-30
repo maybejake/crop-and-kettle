@@ -2,7 +2,7 @@ kill @s
 
 playsound minecraft:block.iron.place block @a ~ ~ ~ 1 1
 
-execute unless block ~ ~ ~ #minecraft:air run return run loot spawn ~ ~ ~ loot cnk:tools/distiller
+execute unless block ~ ~ ~ #cnk:air run return run loot spawn ~ ~ ~ loot cnk:tools/distiller
 execute align xyz positioned ~0.5 ~0.5 ~0.5 as @n[tag=smithed.block,distance=..0.1] at @s run return run loot spawn ~ ~ ~ loot cnk:tools/distiller
 
 setblock ~ ~ ~ minecraft:hopper[facing=down,enabled=false]{CustomName:{translate:gui.cnk.distiller,font:"cnk:gui",color:"white"},TransferCooldown:1000} replace

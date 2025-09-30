@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.100_year_wine.name","fallback":"Antique Appetite"},
-    "description": {"translate":"advancement.cnk.100_year_wine.desc","fallback":"Drink a wine that has been aged for at least 100 years"},
+    "description": [{"translate":"advancement.cnk.100_year_wine.desc","fallback":"Drink a wine that has been aged for at least 100 years"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false,

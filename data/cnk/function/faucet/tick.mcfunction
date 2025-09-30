@@ -1,6 +1,6 @@
 execute if score @s cnk.hit_count matches 1.. run function cnk:faucet/break/check
-execute if block ^ ^ ^-1 #minecraft:air run function cnk:faucet/break/break
-execute unless block ~ ~ ~ #minecraft:air run function cnk:faucet/break/break
+execute if block ^ ^ ^-1 #cnk:air run function cnk:faucet/break/break
+execute unless block ~ ~ ~ #cnk:air run function cnk:faucet/break/break
 
 execute if entity @s[tag=cnk.faucet_open] unless block ~ ~-1 ~ #cnk:cauldron run function cnk:faucet/close
 execute if entity @s[tag=cnk.faucet_open] if block ~ ~-1 ~ minecraft:water_cauldron[level=3] run function cnk:faucet/close

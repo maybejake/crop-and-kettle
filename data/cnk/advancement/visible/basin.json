@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.basin.name","fallback":"Liquid Assets"},
-    "description": {"translate":"advancement.cnk.basin.desc","fallback":"Craft a basin to hold liquids from your distiller"},
+    "description": [{"translate":"advancement.cnk.basin.desc","fallback":"Craft a basin to hold liquids from your distiller"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.all_recipes.name","fallback":"Seasoned"},
-    "description": {"translate":"advancement.cnk.all_recipes.desc","fallback":"Cook every Crop & Kettle recipe in the cookbook"},
+    "description": [{"translate":"advancement.cnk.all_recipes.desc","fallback":"Cook every Crop & Kettle recipe in the cookbook"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false,

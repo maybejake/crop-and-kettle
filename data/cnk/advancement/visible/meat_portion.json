@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.meat_portion.name","fallback":"Cutting Room Floor"},
-    "description": {"translate":"advancement.cnk.meat_portion.desc","fallback":"Make meat go further by cutting it into portions"},
+    "description": [{"translate":"advancement.cnk.meat_portion.desc","fallback":"Make meat go further by cutting it into portions"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

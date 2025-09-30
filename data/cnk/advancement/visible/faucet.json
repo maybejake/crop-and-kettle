@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.faucet.name","fallback":"Tapped Out"},
-    "description": {"translate":"advancement.cnk.faucet.desc","fallback":"Craft a faucet to fill up your cauldrons"},
+    "description": [{"translate":"advancement.cnk.faucet.desc","fallback":"Craft a faucet to fill up your cauldrons"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

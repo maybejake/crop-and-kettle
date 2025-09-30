@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.calendar.name","fallback":"What year is it?"},
-    "description": {"translate":"advancement.cnk.calendar.desc","fallback":"Craft a calendar and figure out the date"},
+    "description": [{"translate":"advancement.cnk.calendar.desc","fallback":"Craft a calendar and figure out the date"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

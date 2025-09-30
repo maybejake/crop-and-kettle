@@ -1,6 +1,6 @@
 kill @s
 execute unless block ~ ~-1 ~ minecraft:farmland run return run function cnk:seeds/lettuce/summon {count:1}
-execute unless block ~ ~ ~ #minecraft:air run return run function cnk:seeds/lettuce/summon {count:1}
+execute unless block ~ ~ ~ #cnk:air run return run function cnk:seeds/lettuce/summon {count:1}
 
 setblock ~ ~ ~ minecraft:pumpkin_stem[age=0] replace
 playsound minecraft:item.crop.plant block @a ~ ~ ~ 1 1

@@ -2,7 +2,7 @@ kill @s
 
 playsound minecraft:block.wood.place block @a ~ ~ ~ 1 1
 
-execute unless block ~ ~ ~ #minecraft:air run return run loot spawn ~ ~ ~ loot cnk:tools/wine_rack
+execute unless block ~ ~ ~ #cnk:air run return run loot spawn ~ ~ ~ loot cnk:tools/wine_rack
 execute align xyz positioned ~0.5 ~0.5 ~0.5 as @n[tag=smithed.block,distance=..0.1] at @s run return run loot spawn ~ ~ ~ loot cnk:tools/wine_rack
 
 setblock ~ ~ ~ minecraft:crafter[orientation=up_north]{CustomName:{text:"\u0001",font:"cnk:gui"},lock:{items:"minecraft:barrier",components:{"minecraft:custom_data":{cnk:{lock:true}}}},components:{"minecraft:custom_data":{"cnk":{"wine_rack":true}}}} replace

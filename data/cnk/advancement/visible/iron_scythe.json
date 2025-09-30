@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.iron_scythe.name","fallback":"Grim Work"},
-    "description": {"translate":"advancement.cnk.iron_scythe.desc","fallback":"Make harvesting your crops a breeze by crafting an iron scythe"},
+    "description": [{"translate":"advancement.cnk.iron_scythe.desc","fallback":"Make harvesting your crops a breeze by crafting an iron scythe"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.kebab_sword.name","fallback":"Scrumptious But Deadly"},
-    "description": {"translate":"advancement.cnk.kebab_sword.desc","fallback":"Cook the kebab sword"},
+    "description": [{"translate":"advancement.cnk.kebab_sword.desc","fallback":"Cook the kebab sword"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true,

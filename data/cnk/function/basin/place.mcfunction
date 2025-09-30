@@ -2,7 +2,7 @@ kill @s
 
 playsound minecraft:block.iron.place block @a ~ ~ ~ 1 2
 
-execute unless block ~ ~ ~ #minecraft:air run return run loot spawn ~ ~ ~ loot cnk:tools/basin
+execute unless block ~ ~ ~ #cnk:air run return run loot spawn ~ ~ ~ loot cnk:tools/basin
 execute align xyz positioned ~0.5 ~0.5 ~0.5 as @n[tag=smithed.block,distance=..0.1] at @s run return run loot spawn ~ ~ ~ loot cnk:tools/basin
 
 setblock ~ ~ ~ minecraft:barrier replace

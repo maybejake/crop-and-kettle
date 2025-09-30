@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.coffee.name","fallback":"Caffeinated"},
-    "description": {"translate":"advancement.cnk.coffee.desc","fallback":"Get a boost after drinking coffee"},
+    "description": [{"translate":"advancement.cnk.coffee.desc","fallback":"Get a boost after drinking coffee"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

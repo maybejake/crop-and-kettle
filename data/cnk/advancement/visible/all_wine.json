@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.all_wine.name","fallback":"Sommelier"},
-    "description": {"translate":"advancement.cnk.all_wine.desc","fallback":"Drink every wine in Crop & Kettle"},
+    "description": [{"translate":"advancement.cnk.all_wine.desc","fallback":"Drink every wine in Crop & Kettle"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false,

@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.knife.name","fallback":"Short n' Sharp"},
-    "description": {"translate":"advancement.cnk.knife.desc","fallback":"Craft a knife"},
+    "description": [{"translate":"advancement.cnk.knife.desc","fallback":"Craft a knife"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
