@@ -1,11 +1,13 @@
 {
-   "pack":{
-      "pack_format":64,
-      "description":"New crops and food!",
-      "supported_formats": {
-         "max_inclusive": 64,
-         "min_inclusive": 55
-      }
-   },
-  "id": "crop-and-kettle"
+  "id": "crop-and-kettle",
+  "pack":{
+    "pack_format":69,
+    "max_format": 69,
+    "min_format": 63,
+    "description":"Crops and cooking!",
+    "supported_formats": {
+      "max_inclusive": 69,
+      "min_inclusive": 63
+    }
+  }
 }

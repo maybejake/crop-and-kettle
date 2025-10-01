@@ -242,7 +242,7 @@
 "cnk.tooltip": "\ua001\ub001Crop & Kettle",
   
 "cnk.dialog.description": "一个温馨的烹饪数据包，添加了新食物、饮品等！",
-"cnk.dialog.info": "v1.0.13\n作者: maybejake",
+"cnk.dialog.info": "%1$s\n作者: maybejake",
 "cnk.dialog.website": "网站",
 "cnk.dialog.issues": "问题反馈",
 "cnk.dialog.settings": "设置",

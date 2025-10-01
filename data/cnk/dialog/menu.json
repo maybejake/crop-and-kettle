@@ -13,7 +13,8 @@
       "type": "minecraft:plain_message",
       "contents": {
         "translate":"cnk.dialog.info",
-        "color": "gray"
+        "color": "gray",
+        "with": [{"translate": "cnk.version"}]
       },
       "width": 300
     }

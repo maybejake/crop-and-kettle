@@ -242,7 +242,8 @@
   "cnk.tooltip": "\ua001\ub001Crop & Kettle",
   
   "cnk.dialog.description": "A cozy cooking datapack that adds new food, drinks and more!",
-  "cnk.dialog.info": "v1.0.13\nBy maybejake",
+  "cnk.dialog.info": "%1$s\nBy maybejake",
+  "cnk.version": "v1.0.14",
   "cnk.dialog.website": "Website",
   "cnk.dialog.issues": "Issues",
   "cnk.dialog.settings": "Settings",

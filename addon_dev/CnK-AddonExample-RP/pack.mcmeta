@@ -1,10 +1,12 @@
 {
    "pack":{
-      "pack_format":64,
-      "description":"An example addon for Crop and Kettle!",
-      "supported_formats": {
-         "max_inclusive": 64,
-         "min_inclusive": 55
-      }
-   }
+    "pack_format":69,
+    "max_format": 69,
+    "min_format": 63,
+    "description":"An example addon for Crop and Kettle!",
+    "supported_formats": {
+      "max_inclusive": 69,
+      "min_inclusive": 63
+    }
+  }
 }
