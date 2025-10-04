@@ -49,12 +49,12 @@
   "book.tab.cnk.feast.active": "\ua047",
   "book.tab.cnk.dessert.active": "\ua043",
 
-  "book.cnk.section.front": "Front Page",
-  "book.cnk.section.staple": "Staple Foods",
-  "book.cnk.section.snack": "Drinks & Snacks",
-  "book.cnk.section.light": "Light Dishes",
-  "book.cnk.section.hearty": "Hearty Dishes",
-  "book.cnk.section.feast": "Feasts",
+  "book.cnk.section.front": "Titelseite",
+  "book.cnk.section.staple": "Grundnahrungsmittel",
+  "book.cnk.section.snack": "Getränke & Snacks",
+  "book.cnk.section.light": "Leichte Gerichte",
+  "book.cnk.section.hearty": "Herzhafte Gerichte",
+  "book.cnk.section.feast": "Festessen",
   "book.cnk.section.dessert": "Desserts",
 
   "book.cnk.header": "\ua058\ub026\ua032\ub026\n\n\n\ub013%3$s\n\n\ub020\ua036\ub021%4$s\n%1$s\n\ub013%5$s\n\n\ub013%6$s\n\n\ub013%7$s\n\n\ub013%8$s\n\n\ub013%9$s\n%2$s\n%10$s\n%11$s",
@@ -273,15 +273,15 @@
   "book.cnk.mixing_bowl": "\uc998",
   
   "book.cnk.crop_seeds": "\ua058\ub026\ua032\ub026\n\ua000\n%1$s\n\ub013%9$s\n\n\ub034\ub032%2$s\ub031%3$s\ub035%10$s\n\ua023\ua057\ub033\n\ub013%11$s\n\ub032%4$s\ub031%5$s\n\ub013%12$s\n\n\ub036\ua024\ub030\ua025\ub030\ua026\ub037%13$s\n\n\ub013%14$s\n\n\ub038%6$s\ub029%7$s\ub029%8$s\ub039%15$s\n\n%16$s\n%17$s",
-  "book.cnk.crop_seeds.title": "Seeds",
+  "book.cnk.crop_seeds.title": "Saatgut",
 
   "book.cnk.hyperlink": "    \ua017",
 
-  "book.cnk.toast.unlock.seed": "Seed unlocked!",
-  "book.cnk.toast.unlock.ingredient": "Ingredient unlocked!",
-  "book.cnk.toast.unlock.recipe": "Recipe unlocked!",
-  "book.cnk.toast.unlock.ritual": "Ritual unlocked!",
-  "book.cnk.toast.unlock.weapon": "Weapon forged!",
+  "book.cnk.toast.unlock.seed": "Saatgut freigeschaltet!",
+  "book.cnk.toast.unlock.ingredient": "Zutat freigeschaltet!",
+  "book.cnk.toast.unlock.recipe": "Rezept freigeschaltet!",
+  "book.cnk.toast.unlock.ritual": "Ritual freigeschaltet!",
+  "book.cnk.toast.unlock.weapon": "Waffe geschmiedet!",
   
   "book.cnk.bottom_line": "\ub050%1$s",
   "book.cnk.navigation": "%1$s\ub047%2$s\ub047%3$s\ub046",
@@ -295,8 +295,8 @@
   
   "book.cnk.previous_page": "\ua027",
   "book.cnk.next_page": "\ua028",
-  "book.cnk.previous_page.hover": "Previous page",
-  "book.cnk.next_page.hover": "Next page",
+  "book.cnk.previous_page.hover": "Vorherige Seite",
+  "book.cnk.next_page.hover": "Nächste Seite",
   
   "book.note.item.cnk.dough": "\ua020",
   "book.note.item.cnk.unknown": "\ua021",
