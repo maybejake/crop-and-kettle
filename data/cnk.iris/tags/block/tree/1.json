@@ -1,0 +1,100 @@
+{
+    "values": [
+        {
+            "id": "minecraft:bamboo_sapling",
+            "required": false
+        },
+        {
+            "id": "minecraft:beetroots",
+            "required": false
+        },
+        {
+            "id": "minecraft:bell",
+            "required": false
+        },
+        {
+            "id": "minecraft:big_dripleaf",
+            "required": false
+        },
+        {
+            "id": "minecraft:big_dripleaf_stem",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/black_bed",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/black_candle",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/black_candle_cake",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/black_carpet",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/black_stained_glass_pane",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/black_wall_banner",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/brain_coral",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/brain_coral_fan",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/brain_coral_wall_fan",
+            "required": false
+        },
+        {
+            "id": "minecraft:brewing_stand",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/brown_mushroom",
+            "required": false
+        },
+        {
+            "id": "minecraft:bush",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/cactus",
+            "required": false
+        },
+        {
+            "id": "minecraft:cactus_flower",
+            "required": false
+        },
+        {
+            "id": "minecraft:cake",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/calibrated_sculk_sensor",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/campfire",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/carrots",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/cauldron",
+            "required": false
+        }
+    ]
+}

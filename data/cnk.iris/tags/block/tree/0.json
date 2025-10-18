@@ -1,0 +1,100 @@
+{
+    "values": [
+        {
+            "id": "#cnk.iris:shape_groups/acacia_button",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/acacia_door",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/acacia_fence",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/acacia_fence_gate",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/acacia_hanging_sign",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/acacia_leaves",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/acacia_pressure_plate",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/acacia_sapling",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/acacia_shelf",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/acacia_sign",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/acacia_slab",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/acacia_stairs",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/acacia_trapdoor",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/acacia_wall_hanging_sign",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/acacia_wall_sign",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/activator_rail",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/air",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/allium",
+            "required": false
+        },
+        {
+            "id": "minecraft:amethyst_cluster",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/andesite_wall",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/anvil",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/attached_melon_stem",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/azalea",
+            "required": false
+        },
+        {
+            "id": "minecraft:bamboo",
+            "required": false
+        }
+    ]
+}

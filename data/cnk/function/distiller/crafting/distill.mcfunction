@@ -122,3 +122,12 @@ execute \
         if function cnk:distiller/crafting/liquid_check/fine_wine \
         if function cnk:distiller/crafting/lock \
         run return run function cnk:recipes/distiller/fine_wine
+
+execute \
+        if score $unique_items cnk.dummy matches 3 \
+        if function cnk:distiller/crafting/generic/water if score $water_count cnk.dummy matches 1 \
+        if data storage cnk:temp distiller.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"cinnamon"}}}}}] \
+        if data storage cnk:temp distiller.Items[{id:"minecraft:apple"}] \
+        if function cnk:distiller/crafting/liquid_check/apple_cider \
+        if function cnk:distiller/crafting/lock \
+        run return run function cnk:recipes/distiller/apple_cider

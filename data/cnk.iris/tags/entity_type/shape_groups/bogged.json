@@ -1,0 +1,16 @@
+{
+    "values": [
+        {
+            "id": "minecraft:bogged",
+            "required": false
+        },
+        {
+            "id": "minecraft:skeleton",
+            "required": false
+        },
+        {
+            "id": "minecraft:stray",
+            "required": false
+        }
+    ]
+}

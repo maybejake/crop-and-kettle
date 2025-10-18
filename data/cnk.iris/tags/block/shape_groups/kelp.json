@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "minecraft:kelp",
+            "required": false
+        },
+        {
+            "id": "minecraft:stonecutter",
+            "required": false
+        }
+    ]
+}

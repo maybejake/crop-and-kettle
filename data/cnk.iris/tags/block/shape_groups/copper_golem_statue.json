@@ -1,0 +1,36 @@
+{
+    "values": [
+        {
+            "id": "minecraft:copper_golem_statue",
+            "required": false
+        },
+        {
+            "id": "minecraft:exposed_copper_golem_statue",
+            "required": false
+        },
+        {
+            "id": "minecraft:oxidized_copper_golem_statue",
+            "required": false
+        },
+        {
+            "id": "minecraft:waxed_copper_golem_statue",
+            "required": false
+        },
+        {
+            "id": "minecraft:waxed_exposed_copper_golem_statue",
+            "required": false
+        },
+        {
+            "id": "minecraft:waxed_oxidized_copper_golem_statue",
+            "required": false
+        },
+        {
+            "id": "minecraft:waxed_weathered_copper_golem_statue",
+            "required": false
+        },
+        {
+            "id": "minecraft:weathered_copper_golem_statue",
+            "required": false
+        }
+    ]
+}

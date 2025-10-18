@@ -1,0 +1,17 @@
+{
+  "criteria": {
+      "requirement": {
+          "trigger": "minecraft:consume_item",
+          "conditions": {
+              "item": {
+                  "predicates": {
+                      "minecraft:custom_data": {"cnk":{"treat_basket":true}}
+                  }
+              }
+          }
+      }
+  },
+  "rewards": {
+      "function": "cnk:treat_basket/effect"
+  }
+}

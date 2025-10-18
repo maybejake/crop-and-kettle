@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "minecraft:heavy_weighted_pressure_plate",
+            "required": false
+        },
+        {
+            "id": "minecraft:light_weighted_pressure_plate",
+            "required": false
+        }
+    ]
+}

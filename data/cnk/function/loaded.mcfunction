@@ -27,6 +27,8 @@ scoreboard objectives add cnk.uid dummy
 scoreboard objectives add cnk.brew_time dummy
 
 scoreboard objectives add cnk.timer dummy
+scoreboard objectives add cnk.hurt_timer dummy
+scoreboard objectives add cnk.spin_timer dummy
 
 scoreboard objectives add cnk.scythe_cooldown dummy
 
@@ -59,5 +61,16 @@ scoreboard objectives add cnk.distiller_book_current_page dummy
 scoreboard objectives add cnk.settings trigger
 
 scoreboard objectives add cnk.foodie_book_buttons trigger
+
+scoreboard objectives add cnk.seed_cooldown dummy
+
+scoreboard objectives add cnk.bottle_count dummy
+scoreboard objectives add cnk.attack_count dummy
+
+scoreboard objectives add cnk.crop_version dummy
+
+scoreboard objectives add cnk.candy_count dummy
+
+scoreboard objectives add cnk.treat_basket_timer dummy
 
 scoreboard players set $installed cnk.dummy 1

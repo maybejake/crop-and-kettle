@@ -1,0 +1,26 @@
+{
+  "book.cnk.distilling_page.title": "Дистилляция",
+  "book.cnk.aging_page.title": "Выдержка вина",
+
+  "book.cnk.section.front": "Обложка",
+  "book.cnk.section.staple": "Основные блюда",
+  "book.cnk.section.snack": "Напитки и закуски",
+  "book.cnk.section.light": "Лёгкие блюда",
+  "book.cnk.section.hearty": "Сытные блюда",
+  "book.cnk.section.feast": "Праздничные блюда",
+  "book.cnk.section.dessert": "Десерты",
+  
+  "book.cnk.distiller_front_page": "\ua985\ub026\ua986\ub026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ua064\n\n%1$s",
+  "book.cnk.front_page": "\ua058\ub026\ua032\ub026\n\n\n\ub013%1$s\n\n\ub064%2$s\n\n\ub013%3$s\n\n\ub013%4$s\n\n\ub013%5$s\n\n\ub013%6$s\n\n\ub013%7$s\n\ua063   \n%8$s\n%9$s",
+
+  "book.cnk.crop_seeds.title": "Семена культур",
+
+  "book.cnk.toast.unlock.seed": "Семечко разблокировано!",
+  "book.cnk.toast.unlock.ingredient": "Ингредиент разблокирован!",
+  "book.cnk.toast.unlock.recipe": "Рецепт разблокирован!",
+  "book.cnk.toast.unlock.ritual": "Ритуал разблокирован!",
+  "book.cnk.toast.unlock.weapon": "Оружие сковано!",
+  
+  "book.cnk.previous_page.hover": "Предыдущая страница",
+  "book.cnk.next_page.hover": "Следующая страница"
+}

@@ -1,0 +1,1 @@
+$execute store result entity @s item.components."minecraft:custom_data".candy.$(color) int 1 run scoreboard players get $count cnk.dummy

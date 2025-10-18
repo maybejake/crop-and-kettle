@@ -167,6 +167,17 @@
           }
         }
       }
+    },
+    "cnk:trail_mix": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"cnk":{"ingredient":{"type":"trail_mix"}}}
+          }
+        }
+      }
     }
   },
   "requirements": [
@@ -184,7 +195,8 @@
       "cnk:pub_meal",
       "cnk:rainy_day_lunch",
       "cnk:ramen",
-      "cnk:thankful_meal"
+      "cnk:thankful_meal",
+      "cnk:trail_mix"
     ]
   ]
 }

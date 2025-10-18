@@ -1,0 +1,6 @@
+execute if block ~ ~ ~ #cnk.iris:shape_groups/activator_rail[shape=north_south] run data modify storage cnk.iris:data Shape set value [{min: [0.0, 0.0, 0.0], max: [1.0, 0.125, 1.0]}]
+execute if block ~ ~ ~ #cnk.iris:shape_groups/activator_rail[shape=east_west] run data modify storage cnk.iris:data Shape set value [{min: [0.0, 0.0, 0.0], max: [1.0, 0.125, 1.0]}]
+execute if block ~ ~ ~ #cnk.iris:shape_groups/activator_rail[shape=ascending_east] run data modify storage cnk.iris:data Shape set value [{min: [0.0, 0.0, 0.0], max: [1.0, 0.5, 1.0]}]
+execute if block ~ ~ ~ #cnk.iris:shape_groups/activator_rail[shape=ascending_west] run data modify storage cnk.iris:data Shape set value [{min: [0.0, 0.0, 0.0], max: [1.0, 0.5, 1.0]}]
+execute if block ~ ~ ~ #cnk.iris:shape_groups/activator_rail[shape=ascending_north] run data modify storage cnk.iris:data Shape set value [{min: [0.0, 0.0, 0.0], max: [1.0, 0.5, 1.0]}]
+execute if block ~ ~ ~ #cnk.iris:shape_groups/activator_rail[shape=ascending_south] run data modify storage cnk.iris:data Shape set value [{min: [0.0, 0.0, 0.0], max: [1.0, 0.5, 1.0]}]

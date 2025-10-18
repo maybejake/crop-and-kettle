@@ -9,14 +9,17 @@
     ]
   ],
   "result": {
-    "id": "minecraft:item_frame",
+    "id": "minecraft:player_head",
     "count": 1,
     "components": {
       "minecraft:item_name": {"translate":"item.cnk.cooking_pot","fallback":"Cooking Pot"},
       "minecraft:item_model": "cnk:cooking_pot_item",
-      "minecraft:custom_data": {"cnk":{"cooking_pot":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-      "minecraft:entity_data": {"id":"minecraft:item_frame","Tags":["cnk.cooking_pot_setup"],"Silent":true,"Invisible":true},
-      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+      "minecraft:custom_data": {"cnk":{"block":{"type":"cooking_pot"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+      "minecraft:profile": {"texture":"cnk:block/transparent_head"},
+      "tooltip_display": {"hidden_components":["minecraft:profile"]},
+      "minecraft:rarity":"common",
+      "!minecraft:equippable": {}
     }
   }
 }

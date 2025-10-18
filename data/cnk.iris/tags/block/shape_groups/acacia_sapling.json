@@ -1,0 +1,40 @@
+{
+    "values": [
+        {
+            "id": "minecraft:acacia_sapling",
+            "required": false
+        },
+        {
+            "id": "minecraft:birch_sapling",
+            "required": false
+        },
+        {
+            "id": "minecraft:cherry_sapling",
+            "required": false
+        },
+        {
+            "id": "minecraft:dark_oak_sapling",
+            "required": false
+        },
+        {
+            "id": "minecraft:jungle_sapling",
+            "required": false
+        },
+        {
+            "id": "minecraft:oak_sapling",
+            "required": false
+        },
+        {
+            "id": "minecraft:pale_oak_sapling",
+            "required": false
+        },
+        {
+            "id": "minecraft:seagrass",
+            "required": false
+        },
+        {
+            "id": "minecraft:spruce_sapling",
+            "required": false
+        }
+    ]
+}

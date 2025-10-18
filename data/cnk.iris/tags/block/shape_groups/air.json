@@ -1,0 +1,36 @@
+{
+    "values": [
+        {
+            "id": "minecraft:air",
+            "required": false
+        },
+        {
+            "id": "minecraft:bubble_column",
+            "required": false
+        },
+        {
+            "id": "minecraft:cave_air",
+            "required": false
+        },
+        {
+            "id": "minecraft:lava",
+            "required": false
+        },
+        {
+            "id": "minecraft:light",
+            "required": false
+        },
+        {
+            "id": "minecraft:moving_piston",
+            "required": false
+        },
+        {
+            "id": "minecraft:void_air",
+            "required": false
+        },
+        {
+            "id": "minecraft:water",
+            "required": false
+        }
+    ]
+}

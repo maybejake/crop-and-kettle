@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.leaf_garland","fallback":"Leaf Garland"},
+                "minecraft:item_model": "cnk:leaf_garland",
+                "minecraft:custom_data": {"cnk":{"leaf_garland":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                "minecraft:max_stack_size": 1,
+                "minecraft:equippable": {"slot":"head"},
+                "!minecraft:consumable": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

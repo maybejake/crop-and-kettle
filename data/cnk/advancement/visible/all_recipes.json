@@ -197,6 +197,71 @@
         ]
       }
     },
+    "cnk:candy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"candy"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:candy_corn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"candy_corn"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:caramel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"caramel"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:caramel_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"caramel_apple"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:caramel_popcorn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"caramel_popcorn"}}}
+            }
+          }
+        ]
+      }
+    },
     "cnk:carrot_cake": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -340,6 +405,19 @@
         ]
       }
     },
+    "cnk:chocolate_bar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"chocolate_bar"}}}
+            }
+          }
+        ]
+      }
+    },
     "cnk:chocolate_cake": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -361,6 +439,32 @@
             "items": "minecraft:poisonous_potato",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"chorus_cupcake"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:cinnamon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"cinnamon"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:cinnamon_roll": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"cinnamon_roll"}}}
             }
           }
         ]
@@ -587,6 +691,19 @@
         ]
       }
     },
+    "cnk:golden_oldie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"golden_oldie"}}}
+            }
+          }
+        ]
+      }
+    },
     "cnk:grazing_board": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -673,6 +790,19 @@
             "items": "minecraft:poisonous_potato",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"hotdog"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:hot_chocolate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"hot_chocolate"}}}
             }
           }
         ]
@@ -774,7 +904,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_sword",
+            "items": "minecraft:poisonous_potato",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"kebab_sword"}}}
             }
@@ -841,7 +971,7 @@
           {
             "items": "minecraft:poisonous_potato",
             "predicates": {
-              "minecraft:custom_data": {"cnk":{"disc":{"type":"dinner"}}}
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"music_disc_dinner"}}}
             }
           }
         ]
@@ -854,7 +984,7 @@
           {
             "items": "minecraft:poisonous_potato",
             "predicates": {
-              "minecraft:custom_data": {"cnk":{"disc":{"type":"meal"}}}
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"music_disc_meal"}}}
             }
           }
         ]
@@ -867,7 +997,7 @@
           {
             "items": "minecraft:poisonous_potato",
             "predicates": {
-              "minecraft:custom_data": {"cnk":{"disc":{"type":"saute"}}}
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"music_disc_saute"}}}
             }
           }
         ]
@@ -1003,6 +1133,32 @@
         ]
       }
     },
+    "cnk:pumpkin_latte": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"pumpkin_latte"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:pumpkin_roll": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"pumpkin_roll"}}}
+            }
+          }
+        ]
+      }
+    },
     "cnk:quesadilla": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -1089,6 +1245,19 @@
             "items": "minecraft:poisonous_potato",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"ratatouille"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:roasted_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"roasted_seeds"}}}
             }
           }
         ]
@@ -1224,6 +1393,19 @@
         ]
       }
     },
+    "cnk:stuffed_pumpkin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"stuffed_pumpkin"}}}
+            }
+          }
+        ]
+      }
+    },
     "cnk:sundae": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -1349,6 +1531,19 @@
             "items": "minecraft:poisonous_potato",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"tortilla_chips"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:trail_mix": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"trail_mix"}}}
             }
           }
         ]

@@ -18,3 +18,5 @@ execute if score @s cnk.distiller_book_buttons matches 1.. run function cnk:dist
 execute if score @s cnk.foodie_book_buttons matches 1.. run function cnk:foodie_book/close
 
 execute if score @s cnk.settings matches 1.. run function cnk:settings/switch
+
+execute if entity @s[tag=cnk.treat_basket_effect] run function cnk:treat_basket/tick

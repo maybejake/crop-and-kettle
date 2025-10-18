@@ -14,7 +14,10 @@
       "contents": {
         "translate":"cnk.dialog.info",
         "color": "gray",
-        "with": [{"translate": "cnk.version"}]
+        "with": [
+          {"translate": "cnk.version"},
+          {"translate": "cnk.update", "color":"gold"}
+        ]
       },
       "width": 300
     }

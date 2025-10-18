@@ -5,16 +5,19 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:item_frame",
+          "name": "minecraft:player_head",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.mixing_bowl","fallback":"Mixing Bowl"},
                 "minecraft:item_model": "cnk:mixing_bowl_item",
-                "minecraft:custom_data": {"cnk":{"mixing_bowl":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:custom_data": {"cnk":{"block":{"type":"mixing_bowl"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
-                "minecraft:entity_data": {"id":"minecraft:item_frame","Tags":["cnk.mixing_bowl_setup"],"Silent":true,"Invisible":true}
+                "minecraft:profile": {"texture":"cnk:block/transparent_head"},
+                "tooltip_display": {"hidden_components":["minecraft:profile"]},
+                "minecraft:rarity":"common",
+                "!minecraft:equippable": {}
               }
             }
           ]

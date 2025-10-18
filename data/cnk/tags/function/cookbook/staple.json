@@ -5,6 +5,7 @@
     "cnk:cookbook/pages/butter/register",
     "cnk:cookbook/pages/cheese/register",
     "cnk:cookbook/pages/chicken_cutlets/register",
+    "cnk:cookbook/pages/cinnamon/register",
     "cnk:cookbook/pages/cod_fillets/register",
     "cnk:cookbook/pages/cooking_oil/register",
     "cnk:cookbook/pages/dough/register",

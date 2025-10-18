@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:item_model": "cnk:dino_nugget_trex"
+      }
+    },
+    "title": {"translate":"advancement.cnk.dino_nugget.name","fallback":"Paleo Diet"},
+    "description": [{"translate":"advancement.cnk.dino_nugget.desc","fallback":"Uncover an ancient snack in the middle of the desert"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "parent": "cnk:visible/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+            {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"dino_nugget"}}}
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -29,7 +29,8 @@
                     "minecraft:use_cooldown": {"seconds":30, "cooldown_group": "cnk:speak"},
                     "minecraft:custom_data": {"cnk":{"ingredient":{"type":"mystery_meat"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                     "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
-                    "minecraft:tooltip_style": "cnk:mystery"
+                    "minecraft:tooltip_style": "cnk:mystery",
+                    "minecraft:max_stack_size": 1
                   }
                 }
               }

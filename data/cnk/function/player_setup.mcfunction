@@ -4,6 +4,8 @@ recipe give @s cnk:cookbook
 recipe give @s cnk:iron_scythe
 recipe give @s cnk:diamond_scythe
 recipe give @s cnk:chef_hat
+recipe give @s cnk:leaf_garland
+recipe give @s cnk:cornucopia
 
 #enable triggers
 scoreboard players enable @a cnk.settings

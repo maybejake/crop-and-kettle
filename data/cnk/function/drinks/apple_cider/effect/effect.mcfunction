@@ -1,0 +1,1 @@
+$effect give @s minecraft:health_boost $(duration) $(potency) false

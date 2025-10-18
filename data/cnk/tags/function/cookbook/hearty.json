@@ -23,6 +23,7 @@
     "cnk:cookbook/pages/spaghetti/register",
     "cnk:cookbook/pages/steak_and_ale_pie/register",
     "cnk:cookbook/pages/stew/register",
+    "cnk:cookbook/pages/stuffed_pumpkin/register",
     "cnk:cookbook/pages/surf_n_turf/register",
     "cnk:cookbook/pages/taco/register",
     "cnk:cookbook/pages/vegetable_soup/register"

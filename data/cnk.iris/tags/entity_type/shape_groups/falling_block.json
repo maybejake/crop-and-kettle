@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "minecraft:falling_block",
+            "required": false
+        },
+        {
+            "id": "minecraft:tnt",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "values": [
+        {
+            "id": "minecraft:end_crystal",
+            "required": false
+        },
+        {
+            "id": "minecraft:ender_dragon",
+            "required": false
+        },
+        {
+            "id": "minecraft:enderman",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/endermite",
+            "required": false
+        },
+        {
+            "id": "minecraft:evoker_fangs",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/falling_block",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/ghast",
+            "required": false
+        },
+        {
+            "id": "minecraft:giant",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/glow_squid",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/goat",
+            "required": false
+        },
+        {
+            "id": "minecraft:guardian",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/hoglin",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/horse",
+            "required": false
+        },
+        {
+            "id": "minecraft:iron_golem",
+            "required": false
+        }
+    ]
+}

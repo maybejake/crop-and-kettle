@@ -1,0 +1,17 @@
+{
+  "criteria": {
+      "requirement": {
+          "trigger": "minecraft:using_item",
+          "conditions": {
+              "item": {
+                  "predicates": {
+                      "minecraft:custom_data": {"cnk":{"seed":true}}
+                  }
+              }
+          }
+      }
+  },
+  "rewards": {
+      "function": "cnk:seeds/check"
+  }
+}

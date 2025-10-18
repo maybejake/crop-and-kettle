@@ -1,0 +1,16 @@
+{
+    "values": [
+        {
+            "id": "minecraft:glow_lichen",
+            "required": false
+        },
+        {
+            "id": "minecraft:resin_clump",
+            "required": false
+        },
+        {
+            "id": "minecraft:sculk_vein",
+            "required": false
+        }
+    ]
+}

@@ -19,7 +19,10 @@
                 "minecraft:tooltip_style": "cnk:cnk",
                 "minecraft:equippable": {
                   "slot": "head"
-                }
+                },
+                "minecraft:profile": {"texture":"cnk:block/transparent_head"},
+                "tooltip_display": {"hidden_components":["minecraft:profile"]},
+                "minecraft:rarity":"common"
               }
             }
           ]

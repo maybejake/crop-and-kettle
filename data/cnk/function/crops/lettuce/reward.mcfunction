@@ -1,4 +1,5 @@
-execute store result storage cnk:temp count double 1 run random value 1..4
-function cnk:seeds/lettuce/summon with storage cnk:temp
+execute store result score $count cnk.dummy run random value 1..4
+loot spawn ~ ~ ~ loot cnk:drops/lettuce_seeds
 
-function cnk:produce/lettuce/summon {count:1}
+scoreboard players set $count cnk.dummy 1
+loot spawn ~ ~ ~ loot cnk:drops/lettuce

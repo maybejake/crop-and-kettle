@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "minecraft:blaze",
+            "required": false
+        },
+        {
+            "id": "minecraft:mannequin",
+            "required": false
+        }
+    ]
+}

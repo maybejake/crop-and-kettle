@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "cnk:straw_hat"
+      }
+    },
+    "title": {"translate":"advancement.cnk.straw_hat.name","fallback":"Hats Off"},
+    "description": [{"translate":"advancement.cnk.straw_hat.desc","fallback":"Relieve a scarecrow of their straw hat"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "parent": "cnk:visible/scarecrow",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+            {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"straw_hat":true}}
+            }
+          }
+        ]
+      }
+    }
+  }
+}

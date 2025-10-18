@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "minecraft:pink_petals",
+            "required": false
+        },
+        {
+            "id": "minecraft:wildflowers",
+            "required": false
+        }
+    ]
+}

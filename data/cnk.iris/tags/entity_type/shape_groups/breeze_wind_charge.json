@@ -1,0 +1,24 @@
+{
+    "values": [
+        {
+            "id": "minecraft:breeze_wind_charge",
+            "required": false
+        },
+        {
+            "id": "minecraft:shulker_bullet",
+            "required": false
+        },
+        {
+            "id": "minecraft:small_fireball",
+            "required": false
+        },
+        {
+            "id": "minecraft:wind_charge",
+            "required": false
+        },
+        {
+            "id": "minecraft:wither_skull",
+            "required": false
+        }
+    ]
+}

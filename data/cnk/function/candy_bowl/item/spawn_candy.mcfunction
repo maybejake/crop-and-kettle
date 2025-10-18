@@ -1,0 +1,1 @@
+$loot spawn ~ ~-0.3 ~ loot cnk:food/candy/$(color)

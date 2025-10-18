@@ -1,5 +1,4 @@
-$execute align xyz run summon item_display ~0.5 ~0.5 ~0.5 {Tags:["cnk.basin","cnk.block","smithed.block","smithed.entity","smithed.strict"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[1.01f,1.01f,1.01f],translation:[0.0f,0.0f,0.0f]},item:{id:"minecraft:barrier",count:1,components:{"minecraft:item_model":"cnk:basin","minecraft:custom_data":{"cnk":{"basin":{"liquid":"","callback":""}}}}},Rotation:[$(rotation),0.0],Passengers:\
+$execute align xyz run summon item_display ~0.5 ~ ~0.5 {Tags:["cnk.basin","cnk.block","smithed.block","smithed.entity","smithed.strict"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[1.01f,1.01f,1.01f],translation:[0.0f,0.5f,0.0f]},item:{id:"minecraft:barrier",count:1,components:{"minecraft:item_model":"cnk:basin","minecraft:custom_data":{"cnk":{"basin":{"liquid":"","callback":""}}}}},Rotation:[$(rotation),0.0],Passengers:\
     [\
-        {id:"minecraft:interaction",Tags:["cnk.basin_interaction","smithed.block","smithed.entity","smithed.strict"],height:-0.501,width:1.01,response:true},\
-        {id:"minecraft:interaction",Tags:["cnk.basin_interaction","smithed.block","smithed.entity","smithed.strict"],height:0.501,width:1.01,response:true}\
+        {id:"minecraft:interaction",Tags:["cnk.basin_interaction","smithed.block","smithed.entity","smithed.strict"],height:1.01,width:1.01,response:true}\
     ]}

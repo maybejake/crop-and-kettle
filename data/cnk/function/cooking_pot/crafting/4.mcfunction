@@ -111,6 +111,14 @@ execute \
         run return run function cnk:recipes/cooking_pot/pink_donut
 
 execute \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"dough"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:pumpkin"}] \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:sugar"}] \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"cinnamon"}}}}}] \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/pumpkin_roll
+
+execute \
         if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"tomato"}}}}}] \
         if data storage cnk:temp cooking_pot.Items[{id:"minecraft:beetroot"}] \
         if data storage cnk:temp cooking_pot.Items[{id:"minecraft:carrot"}] \

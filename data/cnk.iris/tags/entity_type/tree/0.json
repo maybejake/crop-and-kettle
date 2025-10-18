@@ -1,0 +1,60 @@
+{
+    "values": [
+        {
+            "id": "#cnk.iris:shape_groups/acacia_boat",
+            "required": false
+        },
+        {
+            "id": "minecraft:allay",
+            "required": false
+        },
+        {
+            "id": "minecraft:area_effect_cloud",
+            "required": false
+        },
+        {
+            "id": "minecraft:armadillo",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/arrow",
+            "required": false
+        },
+        {
+            "id": "minecraft:axolotl",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/bat",
+            "required": false
+        },
+        {
+            "id": "minecraft:bee",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/blaze",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/bogged",
+            "required": false
+        },
+        {
+            "id": "minecraft:breeze",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/breeze_wind_charge",
+            "required": false
+        },
+        {
+            "id": "minecraft:camel",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/cat",
+            "required": false
+        }
+    ]
+}

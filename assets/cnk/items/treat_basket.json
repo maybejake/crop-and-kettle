@@ -1,0 +1,32 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "none"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cnk:item/treat_basket"
+        }
+      },
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "thirdperson_righthand",
+          "thirdperson_lefthand"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cnk:item/treat_basket_hand"
+        }
+      }
+    ],
+    "property": "minecraft:display_context"
+  }
+}

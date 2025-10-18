@@ -1,0 +1,1 @@
+$summon minecraft:mannequin ~ ~ ~ {Tags:["cnk.doppelganger"],profile:$(name),CustomNameVisible:true,immovable:true,CustomName:"$(name)",hide_description:true}

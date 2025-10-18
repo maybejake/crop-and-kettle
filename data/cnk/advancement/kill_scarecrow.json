@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"cnk.scarecrow_enemy\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "cnk:scarecrow/entity/death/main"
+  }
+}

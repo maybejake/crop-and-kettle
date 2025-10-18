@@ -17,14 +17,17 @@
     ]
   },
   "result": {
-    "id": "minecraft:item_frame",
+    "id": "minecraft:player_head",
     "count": 1,
     "components": {
-      "minecraft:item_name": {"translate":"item.cnk.faucet","fallback":"Faucet"},
-      "minecraft:item_model": "cnk:faucet_item",
-      "minecraft:custom_data": {"cnk":{"faucet":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-      "minecraft:entity_data": {"id":"minecraft:item_frame","Tags":["cnk.faucet_setup"],"Silent":true,"Invisible":true},
-      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+    "minecraft:item_name": {"translate":"item.cnk.faucet","fallback":"Faucet"},
+    "minecraft:item_model": "cnk:faucet_item",
+    "minecraft:custom_data": {"cnk":{"block":{"type":"faucet"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+    "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+    "minecraft:profile": {"texture":"cnk:block/transparent_head"},
+    "tooltip_display": {"hidden_components":["minecraft:profile"]},
+    "minecraft:rarity":"common",
+    "!minecraft:equippable": {}
     }
   }
 }

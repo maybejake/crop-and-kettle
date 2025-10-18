@@ -6,9 +6,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:item_frame",
-            "components": {
-              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"chili_pepper_seeds"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+            "items": "minecraft:dried_kelp",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"chili_pepper_seeds"}}}
             }
           }
         ]

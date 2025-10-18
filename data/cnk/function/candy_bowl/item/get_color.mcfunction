@@ -1,0 +1,1 @@
+$data modify storage cnk:temp candy_bowl.color set from storage cnk:temp candy_bowl.items[$(index)]

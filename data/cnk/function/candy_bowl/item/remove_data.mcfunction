@@ -1,0 +1,1 @@
+$data remove entity @s item.components."minecraft:custom_data".candy.$(color)

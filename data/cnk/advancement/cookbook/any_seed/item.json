@@ -1,0 +1,66 @@
+{
+  "parent": "cnk:cookbook/root",
+  "criteria": {
+    "minecraft:wheat_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:wheat_seeds"}
+        ]
+      }
+    },
+    "minecraft:pumpkin_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:pumpkin_seeds"}
+        ]
+      }
+    },
+    "minecraft:melon_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:melon_seeds"}
+        ]
+      }
+    },
+    "minecraft:beetroot_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:beetroot_seeds"}
+        ]
+      }
+    },
+    "minecraft:torchflower_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:torchflower_seeds"}
+        ]
+      }
+    },
+    "cnk:seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"predicates":{"minecraft:custom_data":{"cnk":{"seed":true}}}}
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:wheat_seeds",
+      "minecraft:pumpkin_seeds",
+      "minecraft:melon_seeds",
+      "minecraft:beetroot_seeds",
+      "minecraft:torchflower_seeds",
+      "cnk:seeds"
+    ]
+  ],
+  "rewards": {
+    "function": "cnk:cookbook/grant/any_seed"
+  }
+}

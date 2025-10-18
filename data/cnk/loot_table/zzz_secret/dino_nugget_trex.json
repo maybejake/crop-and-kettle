@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.dino_nugget","fallback":"Dinosaur Nugget"},
+                "minecraft:item_model": "cnk:dino_nugget_trex",
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"dino_nugget"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                "minecraft:consumable": {},
+                "minecraft:food": {
+                  "nutrition": 6,
+                  "saturation": 7.2
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -238,11 +238,9 @@
 
 "cnk.meat_guide.hint": "高举我，世界将匍匐而来……路尽时，将我置祭坛，万物俯首沉默。",
 "cnk.shrine.1": "道路已开……血肉为门，思绪为门……皆可屈，皆可破。它不来，它已至。",
-
-"cnk.tooltip": "\ua001\ub001Crop & Kettle",
   
 "cnk.dialog.description": "一个温馨的烹饪数据包，添加了新食物、饮品等！",
-"cnk.dialog.info": "%1$s\n作者: maybejake",
+"cnk.dialog.info": "%1$s - %2$s\n作者: maybejake",
 "cnk.dialog.website": "网站",
 "cnk.dialog.issues": "问题反馈",
 "cnk.dialog.settings": "设置",

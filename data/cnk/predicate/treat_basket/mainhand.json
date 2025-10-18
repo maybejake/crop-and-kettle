@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "predicates": {
+          "minecraft:custom_data": {"cnk":{"treat_basket":true}}
+        }
+      }
+    }
+  }
+}

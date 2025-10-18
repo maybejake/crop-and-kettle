@@ -9,14 +9,17 @@
     "s": "minecraft:wooden_shovel"
   },
   "result": {
-    "id": "minecraft:item_frame",
+    "id": "minecraft:player_head",
     "count": 1,
     "components": {
       "minecraft:item_name": {"translate":"item.cnk.mixing_bowl","fallback":"Mixing Bowl"},
       "minecraft:item_model": "cnk:mixing_bowl_item",
-      "minecraft:custom_data": {"cnk":{"mixing_bowl":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-      "minecraft:entity_data": {"id":"minecraft:item_frame","Tags":["cnk.mixing_bowl_setup"],"Silent":true,"Invisible":true},
-      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+      "minecraft:custom_data": {"cnk":{"block":{"type":"mixing_bowl"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+      "minecraft:profile": {"texture":"cnk:block/transparent_head"},
+      "tooltip_display": {"hidden_components":["minecraft:profile"]},
+      "minecraft:rarity":"common",
+      "!minecraft:equippable": {}
     }
   }
 }

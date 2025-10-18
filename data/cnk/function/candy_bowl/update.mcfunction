@@ -1,0 +1,8 @@
+execute if score @s cnk.candy_count matches 0 run return run data modify entity @s item.components."minecraft:item_model" set value "cnk:candy_bowl/0"
+execute if score @s cnk.candy_count matches 1..9 run return run data modify entity @s item.components."minecraft:item_model" set value "cnk:candy_bowl/1"
+execute if score @s cnk.candy_count matches 10..18 run return run data modify entity @s item.components."minecraft:item_model" set value "cnk:candy_bowl/2"
+execute if score @s cnk.candy_count matches 19..27 run return run data modify entity @s item.components."minecraft:item_model" set value "cnk:candy_bowl/3"
+execute if score @s cnk.candy_count matches 28..36 run return run data modify entity @s item.components."minecraft:item_model" set value "cnk:candy_bowl/4"
+execute if score @s cnk.candy_count matches 37..45 run return run data modify entity @s item.components."minecraft:item_model" set value "cnk:candy_bowl/5"
+execute if score @s cnk.candy_count matches 46..54 run return run data modify entity @s item.components."minecraft:item_model" set value "cnk:candy_bowl/6"
+execute if score @s cnk.candy_count matches 55..64 run return run data modify entity @s item.components."minecraft:item_model" set value "cnk:candy_bowl/7"

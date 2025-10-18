@@ -1,0 +1,16 @@
+{
+    "values": [
+        {
+            "id": "minecraft:endermite",
+            "required": false
+        },
+        {
+            "id": "minecraft:silverfish",
+            "required": false
+        },
+        {
+            "id": "minecraft:tadpole",
+            "required": false
+        }
+    ]
+}

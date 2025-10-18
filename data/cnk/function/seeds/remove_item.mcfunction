@@ -1,0 +1,1 @@
+$item modify entity @s weapon.$(hand) {"function":"minecraft:set_count","count":-1,"add":true}

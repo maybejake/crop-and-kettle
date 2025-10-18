@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "predicates": {
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"coffee_cherries"}}}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "cnk:seeds/coffee/seed"
+  }
+}

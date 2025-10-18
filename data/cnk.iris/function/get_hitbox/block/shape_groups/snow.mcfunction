@@ -1,0 +1,8 @@
+execute if block ~ ~ ~ minecraft:snow[layers=1] run data modify storage cnk.iris:data Shape set value [{min: [0.0, 0.0, 0.0], max: [1.0, 0.125, 1.0]}]
+execute if block ~ ~ ~ minecraft:snow[layers=2] run data modify storage cnk.iris:data Shape set value [{min: [0.0, 0.0, 0.0], max: [1.0, 0.25, 1.0]}]
+execute if block ~ ~ ~ minecraft:snow[layers=3] run data modify storage cnk.iris:data Shape set value [{min: [0.0, 0.0, 0.0], max: [1.0, 0.375, 1.0]}]
+execute if block ~ ~ ~ minecraft:snow[layers=4] run data modify storage cnk.iris:data Shape set value [{min: [0.0, 0.0, 0.0], max: [1.0, 0.5, 1.0]}]
+execute if block ~ ~ ~ minecraft:snow[layers=5] run data modify storage cnk.iris:data Shape set value [{min: [0.0, 0.0, 0.0], max: [1.0, 0.625, 1.0]}]
+execute if block ~ ~ ~ minecraft:snow[layers=6] run data modify storage cnk.iris:data Shape set value [{min: [0.0, 0.0, 0.0], max: [1.0, 0.75, 1.0]}]
+execute if block ~ ~ ~ minecraft:snow[layers=7] run data modify storage cnk.iris:data Shape set value [{min: [0.0, 0.0, 0.0], max: [1.0, 0.875, 1.0]}]
+execute if block ~ ~ ~ minecraft:snow[layers=8] run data modify storage cnk.iris:data Shape set value [{min: [0.0, 0.0, 0.0], max: [1.0, 1.0, 1.0]}]

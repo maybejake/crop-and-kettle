@@ -23,8 +23,7 @@ $loot $(give_or_spawn) loot { \
                   ] \
                 }, \
                 "minecraft:lore": [{"translate":"item.cnk.calendar.format","with":["$(year)","$(day)"],"color":"blue","italic":false},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}], \
-                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"creeping_wine"},"wine":{"time":$(gametime),"color":$(color)}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}, \
-                "minecraft:use_remainder": {"id":"minecraft:glass_bottle","count":1} \
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"creeping_wine"},"wine":{"time":$(gametime),"color":$(color)}},"smithed":{"ignore":{"functionality":true,"crafting":true}}} \
               } \
             } \
           ] \

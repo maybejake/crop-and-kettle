@@ -59,6 +59,8 @@
         {"type":"bitmap","file":"cnk.book:icon/misc/no_indicator.png","ascent":6,"height":8,"chars":["\ua060"]},
         {"type":"bitmap","file":"cnk.book:icon/misc/arrow_slight_curve_down_right.png","ascent":15,"height":16,"chars":["\ua061"]},
         {"type":"bitmap","file":"cnk.book:icon/misc/cookbook_front_page.png","ascent":130,"height":140,"chars":["\ua062"]},
+        {"type":"bitmap","file":"cnk.book:icon/misc/cookbook_front_page_ru.png","ascent":130,"height":140,"chars":["\ua063"]},
+        {"type":"bitmap","file":"cnk.book:icon/misc/distiller_book_front_page_ru.png","ascent":132,"height":142,"chars":["\ua064"]},
         {"type":"bitmap","file":"cnk.book:icon/misc/black_square.png","ascent":15,"height":16,"chars":["\ua999"]},
 
         {"type":"bitmap","file":"cnk.book:icon/misc/foodie_book_sketch.png","ascent":55,"height":60,"chars":["\uc978"]},

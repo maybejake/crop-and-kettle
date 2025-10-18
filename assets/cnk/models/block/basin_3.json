@@ -4,7 +4,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "cnk:block/basin",
-		"1": "block/water_still",
+		"1": "minecraft:block/water_still",
 		"particle": "cnk:block/basin"
 	},
 	"elements": [

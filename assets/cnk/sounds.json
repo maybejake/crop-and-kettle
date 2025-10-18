@@ -153,6 +153,22 @@
       }
     ]
   },
+  "music_disc.scarecrow": {
+    "sounds": [
+      {
+        "name": "cnk:music_disc/scarecrow",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.trick": {
+    "sounds": [
+      {
+        "name": "cnk:music_disc/trick",
+        "stream": true
+      }
+    ]
+  },
   "item.cookbook.section_flip": {
     "sounds": [
       {
@@ -226,5 +242,15 @@
       }
     ],
     "subtitle": "subtitles.cnk.item.mr_kettle.squeak"
+  },
+  "block.candy_bowl.laugh": {
+    "sounds": [
+      {
+        "name": "cnk:candy_bowl/laugh",
+        "volume": 1,
+        "pitch": 1.5
+      }
+    ],
+    "subtitle": "subtitles.cnk.block.candy_bowl.laugh"
   }
 }

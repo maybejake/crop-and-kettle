@@ -1,13 +1,17 @@
 {
   "values": [
     "cnk:cookbook/pages/builders_tea/register",
+    "cnk:cookbook/pages/caramel_popcorn/register",
     "cnk:cookbook/pages/coffee/register",
     "cnk:cookbook/pages/coffee_beans/register",
     "cnk:cookbook/pages/cornbread/register",
     "cnk:cookbook/pages/fries/register",
+    "cnk:cookbook/pages/hot_chocolate/register",
     "cnk:cookbook/pages/iced_coffee/register",
     "cnk:cookbook/pages/popcorn/register",
+    "cnk:cookbook/pages/pumpkin_latte/register",
     "cnk:cookbook/pages/raisins/register",
+    "cnk:cookbook/pages/roasted_seeds/register",
     "cnk:cookbook/pages/salsa/register",
     "cnk:cookbook/pages/tea/register",
     "cnk:cookbook/pages/tortilla/register",

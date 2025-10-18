@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "per",
+    " c ",
+    " f "
+  ],
+  "key": {
+    "p": "minecraft:carved_pumpkin",
+    "e": "minecraft:spider_eye",
+    "r": "minecraft:rotten_flesh",
+    "c": "minecraft:cauldron",
+    "f": "minecraft:campfire"
+  },
+  "result": {
+    "id": "minecraft:player_head",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {"translate":"item.cnk.witch_cauldron","fallback":"Witch Cauldron"},
+      "minecraft:item_model": "cnk:witch_cauldron_item",
+      "minecraft:custom_data": {"cnk":{"block":{"type":"cooking_pot","witch_cauldron":true}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+      "minecraft:profile": {"texture":"cnk:block/transparent_head"},
+      "tooltip_display": {"hidden_components":["minecraft:profile"]},
+      "minecraft:rarity":"common",
+      "!minecraft:equippable": {}
+    }
+  }
+}

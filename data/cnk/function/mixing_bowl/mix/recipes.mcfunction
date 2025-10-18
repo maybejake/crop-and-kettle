@@ -69,3 +69,17 @@ execute if score $mixing_bowl_item_count cnk.dummy matches 4 \
         if data storage cnk:temp mixing_bowl.Items[{id:"minecraft:pink_dye"}] \
         if function cnk:mixing_bowl/mix/lock \
         run return run data modify entity @s item.components."minecraft:custom_data".cnk.mix_callback set value "cnk:recipes/mixing_bowl/floofys_pink_parfait"
+
+execute if score $mixing_bowl_item_count cnk.dummy matches 4 \
+        if data storage cnk:temp mixing_bowl.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"raisins"}}}}}] \
+        if data storage cnk:temp mixing_bowl.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"popcorn"}}}}}] \
+        if function cnk:mixing_bowl/mix/generic/seed if score $seed_count cnk.dummy matches 1 \
+        if data storage cnk:temp mixing_bowl.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"chocolate_bar"}}}}}] \
+        if function cnk:mixing_bowl/mix/lock \
+        run return run data modify entity @s item.components."minecraft:custom_data".cnk.mix_callback set value "cnk:recipes/mixing_bowl/trail_mix"
+
+execute if score $mixing_bowl_item_count cnk.dummy matches 4 \
+        if function cnk:mixing_bowl/mix/generic/flesh if score $flesh_count cnk.dummy matches 3 \
+        if data storage cnk:temp mixing_bowl.Items[{id:"minecraft:hay_block"}] \
+        if function cnk:mixing_bowl/mix/lock \
+        run return run data modify entity @s item.components."minecraft:custom_data".cnk.mix_callback set value "cnk:recipes/mixing_bowl/hay_brain"

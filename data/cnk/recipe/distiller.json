@@ -21,14 +21,17 @@
     ]
   },
   "result": {
-    "id": "minecraft:item_frame",
+    "id": "minecraft:player_head",
     "count": 1,
     "components": {
       "minecraft:item_name": {"translate":"item.cnk.distiller","fallback":"Distiller"},
       "minecraft:item_model": "cnk:distiller_item",
-      "minecraft:custom_data": {"cnk":{"distiller":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-      "minecraft:entity_data": {"id":"minecraft:item_frame","Tags":["cnk.distiller_setup"],"Silent":true,"Invisible":true},
-      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+      "minecraft:custom_data": {"cnk":{"block":{"type":"distiller"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+      "minecraft:profile": {"texture":"cnk:block/transparent_head"},
+      "tooltip_display": {"hidden_components":["minecraft:profile"]},
+      "minecraft:rarity":"common",
+      "!minecraft:equippable": {}
     }
   }
 }

@@ -1,0 +1,16 @@
+{
+    "values": [
+        {
+            "id": "minecraft:activator_rail",
+            "required": false
+        },
+        {
+            "id": "minecraft:detector_rail",
+            "required": false
+        },
+        {
+            "id": "minecraft:powered_rail",
+            "required": false
+        }
+    ]
+}

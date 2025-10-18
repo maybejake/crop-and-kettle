@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.bubbling_recipe","fallback":"Bubbling Recipe"},
+                "minecraft:item_model": "cnk:bubbling_recipe",
+                "minecraft:custom_data": {"cnk":{"recipe":{"type":"bubbling"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                "!minecraft:consumable": {},
+                "minecraft:rarity":"uncommon",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -5,16 +5,19 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:item_frame",
+          "name": "minecraft:player_head",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.wine_rack","fallback":"Wine Rack"},
                 "minecraft:item_model": "cnk:wine_rack/empty",
-                "minecraft:custom_data": {"cnk":{"wine_rack":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:custom_data": {"cnk":{"block":{"type":"wine_rack"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
-                "minecraft:entity_data": {"id":"minecraft:item_frame","Tags":["cnk.wine_rack_setup"],"Silent":true,"Invisible":true}
+                "minecraft:profile": {"texture":"cnk:block/transparent_head"},
+                "tooltip_display": {"hidden_components":["minecraft:profile"]},
+                "minecraft:rarity":"common",
+                "!minecraft:equippable": {}
               }
             }
           ]

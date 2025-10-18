@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.caramel_apple","fallback":"Caramel Apple"},
+                "minecraft:item_model": "cnk:caramel_apple",
+                "minecraft:food": {
+                  "nutrition": 11,
+                  "saturation": 9.9
+                },
+                "minecraft:consumable": {},
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"caramel_apple"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

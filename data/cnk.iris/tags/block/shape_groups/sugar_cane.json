@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "minecraft:sugar_cane",
+            "required": false
+        },
+        {
+            "id": "minecraft:tall_seagrass",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+execute as @e[tag=cnk.doppelganger] run kill @s

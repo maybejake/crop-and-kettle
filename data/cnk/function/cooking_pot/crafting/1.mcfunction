@@ -17,3 +17,9 @@ execute \
         if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"dough"}}}}}] \
         if function cnk:cooking_pot/crafting/lock \
         run return run function cnk:recipes/cooking_pot/bread
+
+execute \
+        if entity @s[tag=cnk.witch_cauldron] \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{disc:{type:"scarecrow"}}}}}] \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/music_disc_trick

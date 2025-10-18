@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.hay_brain","fallback":"Hay Brain"},
+                "minecraft:item_model": "cnk:hay_brain",
+                "!minecraft:consumable": {},
+                "minecraft:custom_data": {"cnk":{"hay_brain":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

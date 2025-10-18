@@ -17,6 +17,24 @@ execute \
         run return run function cnk:recipes/cooking_pot/buttered_apple
 
 execute \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:sugar"}] \
+        if function cnk:cooking_pot/crafting/generic/dye if score $dye_count cnk.dummy matches 1 \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/candy/main
+
+execute \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"corn_seeds"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:sugar"}] \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/candy_corn
+
+execute \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"popcorn"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"caramel"}}}}}] \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/caramel_popcorn
+
+execute \
         if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"tortilla_chips"}}}}}] \
         if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"salsa"}}}}}] \
         if function cnk:cooking_pot/crafting/lock \
@@ -47,6 +65,12 @@ execute \
         run return run function cnk:recipes/cooking_pot/fries
 
 execute \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"caramel"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:sugar"}] \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/golden_oldie
+
+execute \
         if data storage cnk:temp cooking_pot.Items[{id:"minecraft:bread"}] \
         if function cnk:cooking_pot/crafting/generic/pork if score $pork_count cnk.dummy matches 1 \
         if function cnk:cooking_pot/crafting/lock \
@@ -69,6 +93,12 @@ execute \
         if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"tomato_soup"}}}}}] \
         if function cnk:cooking_pot/crafting/lock \
         run return run function cnk:recipes/cooking_pot/rainy_day_lunch
+
+execute \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:pumpkin_seeds"}] \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"cooking_oil"}}}}}] \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/roasted_seeds
 
 execute \
         if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"tomato"}}}}}] \

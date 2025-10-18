@@ -1,0 +1,46 @@
+{
+  "description": "cnk.technical.booze",
+  "supported_items": "minecraft:cobblestone",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "chest"
+  ],
+  "effects": {
+    "minecraft:damage_immunity": [
+      {
+        "effect": {},
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "id": "cnk:booze_immunity",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "cnk:booze/damaged"
+        },
+        "enchanted": "victim",
+        "affected": "victim"
+      }
+    ]
+  }
+}

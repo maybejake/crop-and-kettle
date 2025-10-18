@@ -1,0 +1,16 @@
+{
+    "values": [
+        {
+            "id": "minecraft:dragon_fireball",
+            "required": false
+        },
+        {
+            "id": "minecraft:fireball",
+            "required": false
+        },
+        {
+            "id": "minecraft:shulker",
+            "required": false
+        }
+    ]
+}

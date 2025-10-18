@@ -1,0 +1,12 @@
+summon minecraft:wandering_trader ~ ~ ~ {Tags:["cnk.booze","cnk.booze_part"],attributes:[{base:60.0d,id:"minecraft:max_health"},{id:"minecraft:movement_speed",base:0.85d}],Health:60.0f,DeathTime:19s,drop_chances:{mainhand:0.0f,offhand:0.0f,head:0.0f,chest:0.0f,legs:0.0f,feet:0.0f},equipment:{chest:{id:"minecraft:cobblestone",components:{"minecraft:enchantments":{"cnk:technical/booze":1}}}},Offers:{Recipes:[]},active_effects:[{id:"minecraft:invisibility",duration:-1,amplifier:0b,show_particles:0b}],Silent:1b,Passengers: \
+    [ \
+        {"id":"minecraft:item_display",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[1.0f,1.0f,1.0f],translation:[0.0f,0.0f,0.0f]},item:{id:"minecraft:dispenser",count:1},Tags:["cnk.booze_body","cnk.booze_part","cnk.iris.ignore"],interpolation_duration:2,teleport_duration:2,Passengers: \
+            [ \
+                {"id":"minecraft:item_display",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.5f,0.5f,0.5f],translation:[1.0f,0.0f,0.0f]},Rotation:[0,0],item:{id:"minecraft:cobblestone",count:1},Tags:["cnk.booze_bottle","cnk.booze_part","cnk.iris.ignore"],interpolation_duration:20,teleport_duration:2}, \
+                {"id":"minecraft:item_display",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.5f,0.5f,0.5f],translation:[1.0f,0.0f,0.0f]},Rotation:[90,0],item:{id:"minecraft:cobblestone",count:1},Tags:["cnk.booze_bottle","cnk.booze_part","cnk.iris.ignore"],interpolation_duration:20,teleport_duration:2}, \
+                {"id":"minecraft:item_display",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.5f,0.5f,0.5f],translation:[1.0f,0.0f,0.0f]},Rotation:[180,0],item:{id:"minecraft:cobblestone",count:1},Tags:["cnk.booze_bottle","cnk.booze_part","cnk.iris.ignore"],interpolation_duration:20,teleport_duration:2}, \
+                {"id":"minecraft:item_display",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.5f,0.5f,0.5f],translation:[1.0f,0.0f,0.0f]},Rotation:[-90,0],item:{id:"minecraft:cobblestone",count:1},Tags:["cnk.booze_bottle","cnk.booze_part","cnk.iris.ignore"],interpolation_duration:20,teleport_duration:2} \
+            ] \
+        } \
+    ] \
+}

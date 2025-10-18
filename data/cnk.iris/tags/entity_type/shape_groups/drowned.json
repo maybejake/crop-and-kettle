@@ -1,0 +1,60 @@
+{
+    "values": [
+        {
+            "id": "minecraft:drowned",
+            "required": false
+        },
+        {
+            "id": "minecraft:evoker",
+            "required": false
+        },
+        {
+            "id": "minecraft:husk",
+            "required": false
+        },
+        {
+            "id": "minecraft:illusioner",
+            "required": false
+        },
+        {
+            "id": "minecraft:piglin",
+            "required": false
+        },
+        {
+            "id": "minecraft:piglin_brute",
+            "required": false
+        },
+        {
+            "id": "minecraft:pillager",
+            "required": false
+        },
+        {
+            "id": "minecraft:villager",
+            "required": false
+        },
+        {
+            "id": "minecraft:vindicator",
+            "required": false
+        },
+        {
+            "id": "minecraft:wandering_trader",
+            "required": false
+        },
+        {
+            "id": "minecraft:witch",
+            "required": false
+        },
+        {
+            "id": "minecraft:zombie",
+            "required": false
+        },
+        {
+            "id": "minecraft:zombie_villager",
+            "required": false
+        },
+        {
+            "id": "minecraft:zombified_piglin",
+            "required": false
+        }
+    ]
+}

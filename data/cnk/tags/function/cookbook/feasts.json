@@ -13,6 +13,7 @@
     "cnk:cookbook/pages/pub_meal/register",
     "cnk:cookbook/pages/rainy_day_lunch/register",
     "cnk:cookbook/pages/ramen/register",
-    "cnk:cookbook/pages/thankful_meal/register"
+    "cnk:cookbook/pages/thankful_meal/register",
+    "cnk:cookbook/pages/trail_mix/register"
   ]
 }

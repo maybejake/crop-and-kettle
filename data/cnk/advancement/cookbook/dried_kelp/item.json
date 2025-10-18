@@ -5,7 +5,7 @@
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
-          { 
+          {
             "items": "minecraft:dried_kelp"
           }
         ]

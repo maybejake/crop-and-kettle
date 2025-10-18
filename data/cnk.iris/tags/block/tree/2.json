@@ -1,0 +1,100 @@
+{
+    "values": [
+        {
+            "id": "#cnk.iris:shape_groups/chest",
+            "required": false
+        },
+        {
+            "id": "minecraft:chorus_plant",
+            "required": false
+        },
+        {
+            "id": "minecraft:cocoa",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/comparator",
+            "required": false
+        },
+        {
+            "id": "minecraft:composter",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/conduit",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/copper_golem_statue",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/copper_torch",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/copper_wall_torch",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/creeper_head",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/creeper_wall_head",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/crimson_fungus",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/crimson_roots",
+            "required": false
+        },
+        {
+            "id": "minecraft:daylight_detector",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/dirt_path",
+            "required": false
+        },
+        {
+            "id": "minecraft:dried_ghast",
+            "required": false
+        },
+        {
+            "id": "minecraft:enchanting_table",
+            "required": false
+        },
+        {
+            "id": "minecraft:end_portal",
+            "required": false
+        },
+        {
+            "id": "minecraft:end_portal_frame",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/end_rod",
+            "required": false
+        },
+        {
+            "id": "minecraft:ender_chest",
+            "required": false
+        },
+        {
+            "id": "minecraft:fire",
+            "required": false
+        },
+        {
+            "id": "minecraft:frogspawn",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/glow_lichen",
+            "required": false
+        }
+    ]
+}

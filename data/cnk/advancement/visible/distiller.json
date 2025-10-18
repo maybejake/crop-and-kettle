@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:item_frame",
+      "id": "minecraft:player_head",
       "components": {
         "minecraft:item_model": "cnk:distiller_item"
       }
@@ -19,9 +19,9 @@
       "conditions": {
         "items": [
             {
-            "items": "minecraft:item_frame",
+            "items": "minecraft:player_head",
             "predicates": {
-              "minecraft:custom_data": {"cnk":{"distiller":true}}
+              "minecraft:custom_data": {"cnk":{"block":{"type":"distiller"}}}
             }
           }
         ]

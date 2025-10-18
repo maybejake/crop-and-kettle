@@ -1,0 +1,88 @@
+{
+    "values": [
+        {
+            "id": "minecraft:acacia_door",
+            "required": false
+        },
+        {
+            "id": "minecraft:bamboo_door",
+            "required": false
+        },
+        {
+            "id": "minecraft:birch_door",
+            "required": false
+        },
+        {
+            "id": "minecraft:cherry_door",
+            "required": false
+        },
+        {
+            "id": "minecraft:copper_door",
+            "required": false
+        },
+        {
+            "id": "minecraft:crimson_door",
+            "required": false
+        },
+        {
+            "id": "minecraft:dark_oak_door",
+            "required": false
+        },
+        {
+            "id": "minecraft:exposed_copper_door",
+            "required": false
+        },
+        {
+            "id": "minecraft:iron_door",
+            "required": false
+        },
+        {
+            "id": "minecraft:jungle_door",
+            "required": false
+        },
+        {
+            "id": "minecraft:mangrove_door",
+            "required": false
+        },
+        {
+            "id": "minecraft:oak_door",
+            "required": false
+        },
+        {
+            "id": "minecraft:oxidized_copper_door",
+            "required": false
+        },
+        {
+            "id": "minecraft:pale_oak_door",
+            "required": false
+        },
+        {
+            "id": "minecraft:spruce_door",
+            "required": false
+        },
+        {
+            "id": "minecraft:warped_door",
+            "required": false
+        },
+        {
+            "id": "minecraft:waxed_copper_door",
+            "required": false
+        },
+        {
+            "id": "minecraft:waxed_exposed_copper_door",
+            "required": false
+        },
+        {
+            "id": "minecraft:waxed_oxidized_copper_door",
+            "required": false
+        },
+        {
+            "id": "minecraft:waxed_weathered_copper_door",
+            "required": false
+        },
+        {
+            "id": "minecraft:weathered_copper_door",
+            "required": false
+        }
+    ]
+}

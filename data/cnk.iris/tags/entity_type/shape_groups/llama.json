@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "minecraft:llama",
+            "required": false
+        },
+        {
+            "id": "minecraft:trader_llama",
+            "required": false
+        }
+    ]
+}

@@ -44,6 +44,15 @@ execute \
         run return run function cnk:recipes/cooking_pot/chorus_cupcake
 
 execute \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"dough"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:sugar"}] \
+        if function cnk:cooking_pot/crafting/generic/milk if score $milk_count cnk.dummy matches 1 \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"cinnamon"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"butter"}}}}}] \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/cinnamon_roll
+
+execute \
         if function cnk:cooking_pot/crafting/generic/pork if score $pork_count cnk.dummy matches 1 \
         if function cnk:cooking_pot/crafting/generic/egg if score $egg_count cnk.dummy matches 1 \
         if data storage cnk:temp cooking_pot.Items[{id:"minecraft:bread"}] \
@@ -89,6 +98,15 @@ execute \
         run return run function cnk:recipes/cooking_pot/proud_cookie
 
 execute \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"coffee"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:pumpkin"}] \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"cinnamon"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:sugar"}] \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"milk_bottle"}}}}}] \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/pumpkin_latte
+
+execute \
         if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"noodles"}}}}}] \
         if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"stock"}}}}}] \
         if function cnk:cooking_pot/crafting/generic/meat if score $meat_count cnk.dummy matches 1 \
@@ -96,6 +114,15 @@ execute \
         if data storage cnk:temp cooking_pot.Items[{id:"minecraft:dried_kelp"}] \
         if function cnk:cooking_pot/crafting/lock \
         run return run function cnk:recipes/cooking_pot/ramen
+
+execute \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:pumpkin"}] \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"stock"}}}}}] \
+        if function cnk:cooking_pot/crafting/generic/meat if score $meat_count cnk.dummy matches 1 \
+        if function cnk:cooking_pot/crafting/generic/vegetable if score $vegetable_count cnk.dummy matches 1 \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:sweet_berries"}] \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/stuffed_pumpkin
 
 execute \
         if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"tortilla"}}}}}] \

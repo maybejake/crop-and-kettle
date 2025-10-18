@@ -1,0 +1,14 @@
+execute if entity @s[type=#cnk.iris:shape_groups/acacia_boat] run function cnk.iris:get_hitbox/entity/shape_groups/acacia_boat
+execute if entity @s[type=minecraft:allay] run function cnk.iris:get_hitbox/entity/shape_groups/allay
+execute if entity @s[type=minecraft:area_effect_cloud] run function cnk.iris:get_hitbox/entity/shape_groups/area_effect_cloud
+execute if entity @s[type=minecraft:armadillo] run function cnk.iris:get_hitbox/entity/shape_groups/armadillo
+execute if entity @s[type=#cnk.iris:shape_groups/arrow] run function cnk.iris:get_hitbox/entity/shape_groups/arrow
+execute if entity @s[type=minecraft:axolotl] run function cnk.iris:get_hitbox/entity/shape_groups/axolotl
+execute if entity @s[type=#cnk.iris:shape_groups/bat] run function cnk.iris:get_hitbox/entity/shape_groups/bat
+execute if entity @s[type=minecraft:bee] run function cnk.iris:get_hitbox/entity/shape_groups/bee
+execute if entity @s[type=#cnk.iris:shape_groups/blaze] run function cnk.iris:get_hitbox/entity/shape_groups/blaze
+execute if entity @s[type=#cnk.iris:shape_groups/bogged] run function cnk.iris:get_hitbox/entity/shape_groups/bogged
+execute if entity @s[type=minecraft:breeze] run function cnk.iris:get_hitbox/entity/shape_groups/breeze
+execute if entity @s[type=#cnk.iris:shape_groups/breeze_wind_charge] run function cnk.iris:get_hitbox/entity/shape_groups/breeze_wind_charge
+execute if entity @s[type=minecraft:camel] run function cnk.iris:get_hitbox/entity/shape_groups/camel
+execute if entity @s[type=#cnk.iris:shape_groups/cat] run function cnk.iris:get_hitbox/entity/shape_groups/cat

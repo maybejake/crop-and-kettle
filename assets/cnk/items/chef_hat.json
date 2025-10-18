@@ -8,26 +8,26 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cnk:item/chef_hat"
-        }
-      },
-      {
-        "when": [
-          "gui",
-          "ground",
-          "fixed",
-          "firstperson_righthand",
-          "firstperson_lefthand",
-          "thirdperson_righthand",
-          "thirdperson_lefthand",
-          "none"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "cnk:item/chef_hat_item"
+          "model": "cnk:item/chef_hat",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -1
+            }
+          ]
         }
       }
     ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "cnk:item/chef_hat_item",
+      "tints": [
+        {
+          "type": "minecraft:dye",
+          "default": -1
+        }
+      ]
+    },
     "property": "minecraft:display_context"
   }
 }

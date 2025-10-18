@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "minecraft:conduit",
+            "required": false
+        },
+        {
+            "id": "minecraft:structure_void",
+            "required": false
+        }
+    ]
+}

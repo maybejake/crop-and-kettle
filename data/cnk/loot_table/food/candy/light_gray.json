@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:food/candy/base",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {"cnk":{"candy":{"color":"light_gray"}}}
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "cnk:candy/light_gray"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -20,6 +20,13 @@
           "blocks": "#cnk:air"
         }
       } 
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "cnk.crop_version": 1
+      }
     }
   ]
 }

@@ -10,6 +10,7 @@ data modify entity @s item.components."minecraft:custom_model_data".colors appen
 stopsound @a[distance=..6] block cnk:block.distiller.distill
 
 execute positioned ^1 ^ ^ as @n[type=minecraft:item_display,tag=cnk.basin,distance=..0.1] run function cnk:basin/fill
+execute positioned ^1 ^-0.5 ^ as @n[type=minecraft:item_display,tag=cnk.basin,distance=..0.1] run function cnk:basin/fill
 
 particle white_smoke ^0.72 ^0.6 ^ 0 0 0 0 10
 playsound cnk:block.distiller.finish block @a ~ ~ ~ 1 2

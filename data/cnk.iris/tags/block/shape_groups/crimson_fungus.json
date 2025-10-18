@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "minecraft:crimson_fungus",
+            "required": false
+        },
+        {
+            "id": "minecraft:warped_fungus",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+kill @s
+execute align xyz run summon minecraft:area_effect_cloud ~0.5 ~ ~0.5 {potion_contents:{custom_color:11742819,custom_effects:[{id:"minecraft:nausea",amplifier:4,duration:200},{id:"minecraft:instant_damage"}]},Radius:4,RadiusOnUse:0,RadiusPerTick:0,Duration:400,WaitTime:0,ReapplicationDelay:10}

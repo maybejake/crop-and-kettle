@@ -1,0 +1,100 @@
+{
+    "values": [
+        {
+            "id": "minecraft:grindstone",
+            "required": false
+        },
+        {
+            "id": "minecraft:hanging_roots",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/heavy_weighted_pressure_plate",
+            "required": false
+        },
+        {
+            "id": "minecraft:hopper",
+            "required": false
+        },
+        {
+            "id": "minecraft:iron_chain",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/kelp",
+            "required": false
+        },
+        {
+            "id": "minecraft:ladder",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/lantern",
+            "required": false
+        },
+        {
+            "id": "minecraft:large_amethyst_bud",
+            "required": false
+        },
+        {
+            "id": "minecraft:leaf_litter",
+            "required": false
+        },
+        {
+            "id": "minecraft:lectern",
+            "required": false
+        },
+        {
+            "id": "minecraft:lever",
+            "required": false
+        },
+        {
+            "id": "minecraft:lily_pad",
+            "required": false
+        },
+        {
+            "id": "minecraft:mangrove_propagule",
+            "required": false
+        },
+        {
+            "id": "minecraft:medium_amethyst_bud",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/melon_stem",
+            "required": false
+        },
+        {
+            "id": "minecraft:nether_portal",
+            "required": false
+        },
+        {
+            "id": "minecraft:nether_sprouts",
+            "required": false
+        },
+        {
+            "id": "minecraft:nether_wart",
+            "required": false
+        },
+        {
+            "id": "minecraft:pale_hanging_moss",
+            "required": false
+        },
+        {
+            "id": "minecraft:pale_moss_carpet",
+            "required": false
+        },
+        {
+            "id": "minecraft:piglin_head",
+            "required": false
+        },
+        {
+            "id": "minecraft:piglin_wall_head",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/pink_petals",
+            "required": false
+        }
+    ]
+}

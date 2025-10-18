@@ -1,0 +1,60 @@
+{
+    "values": [
+        {
+            "id": "minecraft:cave_spider",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/chest_minecart",
+            "required": false
+        },
+        {
+            "id": "minecraft:chicken",
+            "required": false
+        },
+        {
+            "id": "minecraft:cod",
+            "required": false
+        },
+        {
+            "id": "minecraft:copper_golem",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/cow",
+            "required": false
+        },
+        {
+            "id": "minecraft:creaking",
+            "required": false
+        },
+        {
+            "id": "minecraft:creeper",
+            "required": false
+        },
+        {
+            "id": "minecraft:dolphin",
+            "required": false
+        },
+        {
+            "id": "minecraft:donkey",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/dragon_fireball",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/drowned",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/egg",
+            "required": false
+        },
+        {
+            "id": "minecraft:elder_guardian",
+            "required": false
+        }
+    ]
+}

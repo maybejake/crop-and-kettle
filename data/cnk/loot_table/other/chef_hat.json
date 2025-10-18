@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:poisonous_potato",
+          "name": "minecraft:leather_helmet",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -15,8 +15,8 @@
                 "minecraft:custom_data": {"cnk":{"chef_hat":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
                 "minecraft:max_stack_size": 1,
-                "minecraft:equippable": {"slot":"head"},
-                "!minecraft:consumable": {}
+                "minecraft:repairable": {"items":"minecraft:string"},
+                "minecraft:equippable": {"slot":"head"}
               }
             }
           ]

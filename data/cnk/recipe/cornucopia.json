@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      "minecraft:pumpkin"
+    ],
+    [
+      "minecraft:hay_block"
+    ],
+    [
+      "minecraft:leaf_litter"
+    ],
+    [
+      "minecraft:apple"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:player_head",
+    "components": {
+      "minecraft:item_name": {"translate":"item.cnk.cornucopia","fallback":"Cornucopia"},
+      "minecraft:item_model": "cnk:cornucopia_item",
+      "minecraft:custom_data": {"cnk":{"block":{"type":"cornucopia"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+      "minecraft:profile": {"texture":"cnk:block/transparent_head"},
+      "tooltip_display": {"hidden_components":["minecraft:profile"]},
+      "minecraft:rarity":"common",
+      "!minecraft:equippable": {}
+    }
+  }
+}

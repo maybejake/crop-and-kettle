@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "minecraft:goat",
+            "required": false
+        },
+        {
+            "id": "minecraft:sheep",
+            "required": false
+        }
+    ]
+}

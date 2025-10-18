@@ -1,0 +1,8 @@
+execute if block ~ ~ ~ #cnk.iris:shape_groups/carrots[age=0] run data modify storage cnk.iris:data Shape set value [{min: [0.0, 0.0, 0.0], max: [1.0, 0.125, 1.0]}]
+execute if block ~ ~ ~ #cnk.iris:shape_groups/carrots[age=1] run data modify storage cnk.iris:data Shape set value [{min: [0.0, 0.0, 0.0], max: [1.0, 0.1875, 1.0]}]
+execute if block ~ ~ ~ #cnk.iris:shape_groups/carrots[age=2] run data modify storage cnk.iris:data Shape set value [{min: [0.0, 0.0, 0.0], max: [1.0, 0.25, 1.0]}]
+execute if block ~ ~ ~ #cnk.iris:shape_groups/carrots[age=3] run data modify storage cnk.iris:data Shape set value [{min: [0.0, 0.0, 0.0], max: [1.0, 0.3125, 1.0]}]
+execute if block ~ ~ ~ #cnk.iris:shape_groups/carrots[age=4] run data modify storage cnk.iris:data Shape set value [{min: [0.0, 0.0, 0.0], max: [1.0, 0.375, 1.0]}]
+execute if block ~ ~ ~ #cnk.iris:shape_groups/carrots[age=5] run data modify storage cnk.iris:data Shape set value [{min: [0.0, 0.0, 0.0], max: [1.0, 0.4375, 1.0]}]
+execute if block ~ ~ ~ #cnk.iris:shape_groups/carrots[age=6] run data modify storage cnk.iris:data Shape set value [{min: [0.0, 0.0, 0.0], max: [1.0, 0.5, 1.0]}]
+execute if block ~ ~ ~ #cnk.iris:shape_groups/carrots[age=7] run data modify storage cnk.iris:data Shape set value [{min: [0.0, 0.0, 0.0], max: [1.0, 0.5625, 1.0]}]

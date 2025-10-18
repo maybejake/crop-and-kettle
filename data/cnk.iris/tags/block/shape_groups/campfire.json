@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "minecraft:campfire",
+            "required": false
+        },
+        {
+            "id": "minecraft:soul_campfire",
+            "required": false
+        }
+    ]
+}

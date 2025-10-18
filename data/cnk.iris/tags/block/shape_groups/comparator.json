@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "minecraft:comparator",
+            "required": false
+        },
+        {
+            "id": "minecraft:repeater",
+            "required": false
+        }
+    ]
+}

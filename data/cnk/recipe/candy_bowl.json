@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "pjp",
+    "ppp"
+  ],
+  "key": {
+    "p": "#minecraft:planks",
+    "j": "minecraft:carved_pumpkin"
+  },
+  "result": {
+    "id": "minecraft:player_head",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {"translate":"item.cnk.candy_bowl","fallback":"Candy Bowl"},
+      "minecraft:item_model": "cnk:candy_bowl",
+      "minecraft:custom_data": {"cnk":{"block":{"type":"candy_bowl"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+      "minecraft:profile": {"texture":"cnk:block/transparent_head"},
+      "tooltip_display": {"hidden_components":["minecraft:profile"]},
+      "minecraft:rarity":"common",
+      "!minecraft:equippable": {}
+    }
+  }
+}

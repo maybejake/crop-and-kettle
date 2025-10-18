@@ -1,0 +1,1 @@
+$execute store result storage cnk:temp candy_bowl.index int 1 run random value 1..$(item_count)

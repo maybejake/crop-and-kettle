@@ -1,0 +1,44 @@
+{
+    "values": [
+        {
+            "id": "minecraft:vex",
+            "required": false
+        },
+        {
+            "id": "minecraft:warden",
+            "required": false
+        },
+        {
+            "id": "minecraft:wither",
+            "required": false
+        },
+        {
+            "id": "minecraft:wither_skeleton",
+            "required": false
+        },
+        {
+            "id": "minecraft:wolf",
+            "required": false
+        },
+        {
+            "id": "minecraft:armor_stand",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/magma_cube",
+            "required": false
+        },
+        {
+            "id": "minecraft:phantom",
+            "required": false
+        },
+        {
+            "id": "minecraft:player",
+            "required": false
+        },
+        {
+            "id": "minecraft:pufferfish",
+            "required": false
+        }
+    ]
+}

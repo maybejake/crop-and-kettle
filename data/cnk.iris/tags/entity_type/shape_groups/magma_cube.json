@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "minecraft:magma_cube",
+            "required": false
+        },
+        {
+            "id": "minecraft:slime",
+            "required": false
+        }
+    ]
+}

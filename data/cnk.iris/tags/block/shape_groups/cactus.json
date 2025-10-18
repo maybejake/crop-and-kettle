@@ -1,0 +1,32 @@
+{
+    "values": [
+        {
+            "id": "minecraft:cactus",
+            "required": false
+        },
+        {
+            "id": "minecraft:cave_vines",
+            "required": false
+        },
+        {
+            "id": "minecraft:cave_vines_plant",
+            "required": false
+        },
+        {
+            "id": "minecraft:decorated_pot",
+            "required": false
+        },
+        {
+            "id": "minecraft:dragon_egg",
+            "required": false
+        },
+        {
+            "id": "minecraft:tall_dry_grass",
+            "required": false
+        },
+        {
+            "id": "minecraft:weeping_vines_plant",
+            "required": false
+        }
+    ]
+}

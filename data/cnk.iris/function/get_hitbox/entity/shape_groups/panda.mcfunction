@@ -1,0 +1,2 @@
+scoreboard players set $entity_width cnk.iris 1300000
+scoreboard players set $entity_height cnk.iris 1250000

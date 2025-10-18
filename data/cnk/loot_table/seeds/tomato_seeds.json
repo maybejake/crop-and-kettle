@@ -5,16 +5,17 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:item_frame",
+          "name": "minecraft:dried_kelp",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.tomato_seeds","fallback":"Tomato Seeds"},
+                "minecraft:consumable":{"consume_seconds":2147483648},
+                "minecraft:food":{"nutrition":0,"saturation":0,"can_always_eat": true},
                 "minecraft:item_model": "cnk:tomato_seeds",
-                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"tomato_seeds"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
-                "minecraft:entity_data": {"id":"minecraft:item_frame","Tags":["cnk.crop_setup","cnk.crop_setup_tomato"],"Silent":true,"Invisible":true}
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"tomato_seeds"},"seed":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
               }
             }
           ]

@@ -1,0 +1,18 @@
+{
+  "parent": "cnk:cookbook/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { 
+            "items": "minecraft:pumpkin_seeds"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "cnk:cookbook/grant/pumpkin_seeds"
+  }
+}

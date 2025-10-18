@@ -1,2 +1,3 @@
 data remove storage cnk:temp distiller.basin
-execute positioned ^1 ^ ^ as @n[type=minecraft:item_display,tag=cnk.basin,distance=..0.1] if score @s cnk.level matches ..2 run data modify storage cnk:temp distiller.basin set from entity @s item.components."minecraft:custom_data".cnk.basin
+execute positioned ^1 ^-0.5 ^ as @n[type=minecraft:item_display,tag=cnk.basin,distance=..0.1] if score @s cnk.level matches ..2 run return run data modify storage cnk:temp distiller.basin set from entity @s item.components."minecraft:custom_data".cnk.basin
+execute positioned ^1 ^ ^ as @n[type=minecraft:item_display,tag=cnk.basin,distance=..0.1] if score @s cnk.level matches ..2 run return run data modify storage cnk:temp distiller.basin set from entity @s item.components."minecraft:custom_data".cnk.basin

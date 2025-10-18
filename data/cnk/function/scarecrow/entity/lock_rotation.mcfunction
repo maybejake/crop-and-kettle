@@ -1,0 +1,1 @@
+$tp @s ~ ~ ~ $(rotation_0) $(rotation_1)

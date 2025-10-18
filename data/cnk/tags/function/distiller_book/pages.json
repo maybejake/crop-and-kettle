@@ -13,6 +13,7 @@
     "cnk:distiller_book/pages/diving_wine/register",
     "cnk:distiller_book/pages/blazing_wine/register",
     "cnk:distiller_book/pages/beer/register",
+    "cnk:distiller_book/pages/apple_cider/register",
     "cnk:distiller_book/pages/blessing_wine/register",
     "cnk:distiller_book/pages/gleaming_wine/register",
     "cnk:distiller_book/pages/breezing_wine/register",

@@ -1,0 +1,60 @@
+{
+    "values": [
+        {
+            "id": "minecraft:leash_knot",
+            "required": false
+        },
+        {
+            "id": "#cnk.iris:shape_groups/llama",
+            "required": false
+        },
+        {
+            "id": "minecraft:panda",
+            "required": false
+        },
+        {
+            "id": "minecraft:pig",
+            "required": false
+        },
+        {
+            "id": "minecraft:polar_bear",
+            "required": false
+        },
+        {
+            "id": "minecraft:rabbit",
+            "required": false
+        },
+        {
+            "id": "minecraft:ravager",
+            "required": false
+        },
+        {
+            "id": "minecraft:salmon",
+            "required": false
+        },
+        {
+            "id": "minecraft:sniffer",
+            "required": false
+        },
+        {
+            "id": "minecraft:snow_golem",
+            "required": false
+        },
+        {
+            "id": "minecraft:spider",
+            "required": false
+        },
+        {
+            "id": "minecraft:strider",
+            "required": false
+        },
+        {
+            "id": "minecraft:tropical_fish",
+            "required": false
+        },
+        {
+            "id": "minecraft:turtle",
+            "required": false
+        }
+    ]
+}

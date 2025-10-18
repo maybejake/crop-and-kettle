@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "cnk:skull",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 8,
+    "salt": 66008400
+  }
+}

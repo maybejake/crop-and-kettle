@@ -1,0 +1,52 @@
+{
+    "values": [
+        {
+            "id": "minecraft:egg",
+            "required": false
+        },
+        {
+            "id": "minecraft:ender_pearl",
+            "required": false
+        },
+        {
+            "id": "minecraft:experience_bottle",
+            "required": false
+        },
+        {
+            "id": "minecraft:eye_of_ender",
+            "required": false
+        },
+        {
+            "id": "minecraft:firework_rocket",
+            "required": false
+        },
+        {
+            "id": "minecraft:fishing_bobber",
+            "required": false
+        },
+        {
+            "id": "minecraft:item",
+            "required": false
+        },
+        {
+            "id": "minecraft:lingering_potion",
+            "required": false
+        },
+        {
+            "id": "minecraft:llama_spit",
+            "required": false
+        },
+        {
+            "id": "minecraft:ominous_item_spawner",
+            "required": false
+        },
+        {
+            "id": "minecraft:snowball",
+            "required": false
+        },
+        {
+            "id": "minecraft:splash_potion",
+            "required": false
+        }
+    ]
+}

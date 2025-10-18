@@ -3,4 +3,4 @@ execute if score $bonemeal_crop_check cnk.dummy matches 1 run return run data re
 execute on target if entity @s[tag=cnk.bonemeal_crop] run scoreboard players set $bonemeal_crop_check cnk.dummy 1
 
 data remove entity @s interaction
-execute if score $bonemeal_crop_check cnk.dummy matches 1 positioned ~ ~0.5625 ~ as @n[type=minecraft:item_display,tag=cnk.crop,distance=..0.1] at @s run function cnk:bonemeal_crop/switch
+execute if score $bonemeal_crop_check cnk.dummy matches 1 on vehicle if entity @n[type=minecraft:item_display,tag=cnk.crop] at @s run function cnk:bonemeal_crop/switch

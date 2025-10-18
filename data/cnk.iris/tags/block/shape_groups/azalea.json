@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "minecraft:azalea",
+            "required": false
+        },
+        {
+            "id": "minecraft:flowering_azalea",
+            "required": false
+        }
+    ]
+}
