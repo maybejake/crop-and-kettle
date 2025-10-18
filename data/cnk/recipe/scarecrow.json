@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      "minecraft:carved_pumpkin"
+    ],
+    [
+      "minecraft:armor_stand"
+    ],
+    [
+      "minecraft:hay_block"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:player_head",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {"translate":"item.cnk.scarecrow","fallback":"Scarecrow"},
+      "minecraft:item_model": "cnk:scarecrow_item",
+      "minecraft:custom_data": {"cnk":{"block":{"type":"scarecrow"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+      "minecraft:profile": {"texture":"cnk:block/transparent_head"},
+      "tooltip_display": {"hidden_components":["minecraft:profile"]},
+      "minecraft:rarity":"common",
+      "!minecraft:equippable": {}
+    }
+  }
+}
