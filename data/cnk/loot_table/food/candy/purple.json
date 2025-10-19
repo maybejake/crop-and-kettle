@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_custom_data",
-              "tag": {"cnk":{"candy":{"color":"purple"}}}
+              "tag": {"cnk":{"candy":{"color":"purple","generic":true}}}
             },
             {
               "function": "minecraft:set_components",

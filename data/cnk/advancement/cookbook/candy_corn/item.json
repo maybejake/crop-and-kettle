@@ -7,7 +7,7 @@
         "items": [
           {
             "items": "minecraft:poisonous_potato",
-            "components": {
+            "predicates": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"candy_corn"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}
             }
           }

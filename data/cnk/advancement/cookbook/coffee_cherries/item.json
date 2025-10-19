@@ -6,7 +6,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:dried_kelp",
+            "items": "minecraft:baked_potato",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"coffee_cherries"}}}
             }

@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:dried_kelp",
+          "name": "minecraft:baked_potato",
           "functions": [
             {
               "function": "minecraft:set_components",

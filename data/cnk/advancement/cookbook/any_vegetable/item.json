@@ -57,6 +57,14 @@
         ]
       }
     },
+    "minecraft:dried_kelp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:dried_kelp"}
+        ]
+      }
+    },
     "minecraft:red_mushroom": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -99,6 +107,7 @@
       "minecraft:beetroot",
       "minecraft:carrot",
       "minecraft:potato",
+      "minecraft:dried_kelp",
       "minecraft:red_mushroom",
       "minecraft:brown_mushroom",
       "minecraft:pumpkin",
