@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:item_frame",
+      "id": "minecraft:baked_potato",
       "components": {
         "minecraft:item_model": "cnk:grape_seeds"
       }
@@ -20,7 +20,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:item_frame",
+            "items": "minecraft:baked_potato",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"corn_seeds"}}}
             }
@@ -33,7 +33,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:item_frame",
+            "items": "minecraft:baked_potato",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"lettuce_seeds"}}}
             }
@@ -46,7 +46,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:item_frame",
+            "items": "minecraft:baked_potato",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"rice_seeds"}}}
             }
@@ -59,7 +59,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:item_frame",
+            "items": "minecraft:baked_potato",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"tomato_seeds"}}}
             }
@@ -72,7 +72,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:item_frame",
+            "items": "minecraft:baked_potato",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"coffee_cherries"}}}
             }
@@ -85,7 +85,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:item_frame",
+            "items": "minecraft:baked_potato",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"chili_pepper_seeds"}}}
             }
@@ -98,7 +98,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:item_frame",
+            "items": "minecraft:baked_potato",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"grape_seeds"}}}
             }
