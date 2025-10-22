@@ -65,6 +65,7 @@
   "item.cnk.frozen_delight": "Frozen Delight",
   "item.cnk.full_irish": "Full Irish",
   "item.cnk.glazed_donut": "Glazed Donut",
+  "item.cnk.golden_oldie": "Golden Oldie",
   "item.cnk.grapes": "Grapes",
   "item.cnk.grape_seeds": "Grape Seeds",
   "item.cnk.grazing_board": "Grazing Board",
@@ -93,6 +94,7 @@
   "item.cnk.mutton_cutlets": "Mutton Cutlets",
   "item.cnk.nachos": "Nachos",
   "item.cnk.noodles": "Noodles",
+  "item.cnk.pastel_de_nata": "Pastel De Nata",
   "item.cnk.pink_donut": "Pink Donut",
   "item.cnk.pizza": "Pizza",
   "item.cnk.popcorn": "Popcorn",
@@ -144,7 +146,6 @@
   "item.cnk.dino_nugget": "Dinosaur Nugget",
   "item.cnk.treat_basket": "Treat Basket",
   "item.cnk.candy_bowl": "Candy Bowl",
-  "item.cnk.golden_oldie": "Golden Oldie",
 
   "item.cnk.fried_egg": "Fried Egg",
   "item.minecraft.water": "Water",
@@ -163,6 +164,7 @@
   "item.cnk.jakes_uplifting_lunch": "Jake's Uplifting Lunch",
   "item.cnk.averys_freezer_burnt_sundae": "Avery's Freezer Burnt Sundae",
   "item.cnk.floofys_pink_parfait": "Floofy's Pink Parfait",
+  "item.cnk.crs_fireball_pasta": "Crs' Fireball Pasta",
   
   "item.cnk.unknown": "?????????",
   
@@ -202,6 +204,7 @@
   "item.cnk.soaring_recipe": "Soaring Recipe",
   "item.cnk.thoughtful_recipe": "Thoughtful Recipe",
   "item.cnk.bubbling_recipe": "Bubbling Recipe",
+  "item.cnk.flaming_recipe": "Flaming Recipe",
   "item.cnk.mr_kettle": "Mr. Kettle",
   "item.cnk.chef_hat": "Chef Hat",
   "item.cnk.straw_hat": "Straw Hat",
@@ -278,7 +281,7 @@
   
   "cnk.dialog.description": "A cozy cooking datapack that adds new food, drinks and more!",
   "cnk.dialog.info": "%1$s - %2$s\nBy maybejake",
-  "cnk.version": "v1.1.3",
+  "cnk.version": "v1.1.4",
   "cnk.update": "Harvest Season",
   "cnk.dialog.website": "Website",
   "cnk.dialog.issues": "Issues",

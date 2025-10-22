@@ -80,6 +80,15 @@ execute \
         run return run function cnk:recipes/cooking_pot/nachos
 
 execute \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"dough"}}}}}] \
+        if function cnk:cooking_pot/crafting/generic/milk if score $milk_count cnk.dummy matches 1 \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:sugar"}] \
+        if function cnk:cooking_pot/crafting/generic/egg if score $egg_count cnk.dummy matches 1 \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"cinnamon"}}}}}] \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/pastel_de_nata
+
+execute \
         if function cnk:cooking_pot/crafting/generic/egg if score $egg_count cnk.dummy matches 1 \
         if function cnk:cooking_pot/crafting/generic/water if score $water_count cnk.dummy matches 1 \
         if data storage cnk:temp cooking_pot.Items[{id:"minecraft:sugar"}] \
@@ -175,3 +184,12 @@ execute \
         if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"fine_wine"}}}}}] \
         if function cnk:cooking_pot/crafting/lock \
         run return run function cnk:recipes/cooking_pot/foodie_feast
+
+execute \
+        if function cnk:cooking_pot/crafting/generic/pork if score $pork_count cnk.dummy matches 1 \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"tomato"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"noodles"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"cheese"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:blaze_powder"}] \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/crs_fireball_pasta

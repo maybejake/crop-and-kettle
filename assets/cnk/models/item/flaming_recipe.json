@@ -1,0 +1,7 @@
+{
+  "parent":"cnk:item/recipe",
+  "textures": {
+    "0": "cnk:item/flaming_recipe",
+    "particle": "cnk:item/flaming_recipe"
+  }
+}

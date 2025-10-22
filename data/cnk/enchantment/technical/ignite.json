@@ -1,0 +1,28 @@
+{
+  "description": "cnk.technical.ignite",
+  "supported_items": "minecraft:saddle",
+  "weight": 100,
+  "max_level": 1,
+  "min_cost": {
+    "base": 99,
+    "per_level_above_first": 99
+  },
+  "max_cost": {
+    "base": 99,
+    "per_level_above_first": 99
+  },
+  "anvil_cost": 99,
+  "slots": [
+    "saddle"
+  ],
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:ignite",
+          "duration": 10
+        }
+      }
+    ]
+  }
+}

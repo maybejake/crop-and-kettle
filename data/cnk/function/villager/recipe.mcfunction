@@ -2,7 +2,7 @@
 execute store result score $chance cnk.dummy run random value 0..2
 execute if score $chance cnk.dummy matches 0 run return fail
 
-execute store result score $recipe cnk.dummy run random value 1..8
+execute store result score $recipe cnk.dummy run random value 1..9
 execute if score $recipe cnk.dummy matches 1 run data modify storage cnk:temp recipe.sell set value { \
     "id": "minecraft:poisonous_potato", \
     "components": { \
@@ -93,6 +93,18 @@ execute if score $recipe cnk.dummy matches 8 run data modify storage cnk:temp re
         "minecraft:item_name": {"translate":"item.cnk.bubbling_recipe","fallback":"Bubbling Recipe"}, \
         "minecraft:item_model": "cnk:bubbling_recipe", \
         "minecraft:custom_data": {"cnk":{"recipe":{"type":"bubbling"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}, \
+        "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}], \
+        "!minecraft:consumable": {}, \
+        "minecraft:rarity":"uncommon", \
+        "minecraft:max_stack_size": 1 \
+    } \
+}
+execute if score $recipe cnk.dummy matches 9 run data modify storage cnk:temp recipe.sell set value { \
+    "id": "minecraft:poisonous_potato", \
+    "components": { \
+        "minecraft:item_name": {"translate":"item.cnk.flaming_recipe","fallback":"Bubbling Recipe"}, \
+        "minecraft:item_model": "cnk:flaming_recipe", \
+        "minecraft:custom_data": {"cnk":{"recipe":{"type":"flaming"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}, \
         "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}], \
         "!minecraft:consumable": {}, \
         "minecraft:rarity":"uncommon", \

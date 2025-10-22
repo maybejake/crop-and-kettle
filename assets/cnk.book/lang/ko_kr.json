@@ -1,0 +1,23 @@
+{
+  "book.cnk.distilling_page.title": "증류",
+  "book.cnk.aging_page.title": "와인 숙성",
+
+  "book.cnk.section.front": "첫 페이지",
+  "book.cnk.section.staple": "주요 식량",
+  "book.cnk.section.snack": "음료 & 간식",
+  "book.cnk.section.light": "가벼운 요리",
+  "book.cnk.section.hearty": "푸짐한 요리",
+  "book.cnk.section.feast": "축제",
+  "book.cnk.section.dessert": "디저트",
+
+  "book.cnk.crop_seeds.title": "씨앗",
+
+  "book.cnk.toast.unlock.seed": "씨앗이 해제되었습니다!",
+  "book.cnk.toast.unlock.ingredient": "재료가 해금됐습니다!",
+  "book.cnk.toast.unlock.recipe": "레시피가 해금되었습니다!",
+  "book.cnk.toast.unlock.ritual": "의식이 해제되었습니다!",
+  "book.cnk.toast.unlock.weapon": "무기가 제작되었습니다!",
+
+  "book.cnk.previous_page.hover": "이전 페이지",
+  "book.cnk.next_page.hover": "다음 페이지"
+}

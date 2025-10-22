@@ -1042,6 +1042,19 @@
         ]
       }
     },
+    "cnk:pastel_de_nata": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"pastel_de_nata"}}}
+            }
+          }
+        ]
+      }
+    },
     "cnk:pink_donut": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
