@@ -27,5 +27,7 @@ data modify storage cnk:temp register.source set value {key:"cnkea.source", font
 # like with the cookbook, you can define a custom dialog function if needed:
 # data modify storage cnk:temp register.dialog_function set value "..."
 
+# also like the cookbook, fonts in here are managed automatically, so no conflicts!
+
 # register the page
 function cnk:distiller_book/pages/register
