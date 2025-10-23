@@ -12,4 +12,4 @@ data modify storage cnk:temp register.ingredients set value [ \
 
 data modify storage cnk:temp register.dialog_function set value "cnk:cookbook/pages/crop_seeds/page"
 
-function cnk:cookbook/pages/register with storage cnk:temp register
+function cnk:cookbook/pages/register

@@ -12,4 +12,4 @@ data modify storage cnk:temp register.source set value {key:"cnk.source", font:"
 
 data modify storage cnk:temp register.dialog_function set value "cnk:cookbook/pages/dough/page"
 
-function cnk:cookbook/pages/register with storage cnk:temp register
+function cnk:cookbook/pages/register

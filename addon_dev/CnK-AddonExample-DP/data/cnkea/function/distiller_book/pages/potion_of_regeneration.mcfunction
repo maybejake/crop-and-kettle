@@ -28,4 +28,4 @@ data modify storage cnk:temp register.source set value {key:"cnkea.source", font
 # data modify storage cnk:temp register.dialog_function set value "..."
 
 # register the page
-function cnk:distiller_book/pages/register with storage cnk:temp register
+function cnk:distiller_book/pages/register

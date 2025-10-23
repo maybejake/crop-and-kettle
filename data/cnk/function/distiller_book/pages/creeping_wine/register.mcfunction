@@ -11,4 +11,4 @@ data modify storage cnk:temp register.source set value {key:"cnk.source", font:"
 
 data modify storage cnk:temp register.dialog_function set value "cnk:distiller_book/pages/creeping_wine/page"
 
-function cnk:distiller_book/pages/register with storage cnk:temp register
+function cnk:distiller_book/pages/register

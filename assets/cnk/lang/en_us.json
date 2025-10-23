@@ -212,6 +212,7 @@
   "item.cnk.leaf_garland": "Leaf Garland",
   "item.cnk.witch_cauldron": "Witch Cauldron",
   "item.cnk.cornucopia": "Cornucopia",
+  "item.cnk.scarecrow": "Scarecrow",
   
   "item.cnk.calendar.format": "Year %1$s, day %2$s",
   "item.cnk.calendar.delta.format.base": "This bottle has been aged for %1$s",
@@ -281,7 +282,7 @@
   
   "cnk.dialog.description": "A cozy cooking datapack that adds new food, drinks and more!",
   "cnk.dialog.info": "%1$s - %2$s\nBy maybejake",
-  "cnk.version": "v1.1.4",
+  "cnk.version": "v1.1.5",
   "cnk.update": "Harvest Season",
   "cnk.dialog.website": "Website",
   "cnk.dialog.issues": "Issues",

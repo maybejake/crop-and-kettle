@@ -62,8 +62,16 @@ data modify storage cnk:temp register.source set value {key:"cnkea.source", font
 # - cnk:cookbook/pages/kebab_sword/page
 # - cnk:cookbook/pages/crop_seeds/page
 
+# as of version 1.1.5, Crop & Kettle has an automatic font management system in the backend, to avoid any compatibility issues when multiple packs are adding the same items in different fonts
+# the general rule is that; the font used by the first registration of a key is automatically applied to all subsequent uses of that same key
+# for example:
+#   - addon1 adds "block.minecraft.cobblestone" to their font; "addon1:icons"
+#   - addon2 is loaded after addon1 and adds the same key to their font; "addon2:icons"
+#   - addon2 will have its font for that key automatically overwritten with "addon1:icons" to avoid breaking other pages
+# you generally don't need to worry about this, but it is cool!
+
 # all your values have been set, register the page! this MUST be present otherwise the page will not be registered
-function cnk:cookbook/pages/register with storage cnk:temp register
+function cnk:cookbook/pages/register
 
 # your recipe will always be inserted at the BACK of a section, after cnk recipes. if multiple addons are loaded, the order of those addon's recipes depend on the order in which those datapacks are loaded
 # cnk recipes are ordered alphabetically in their internal tag, and i haven't figured out a good way to dynamically order all recipes alphabetically yet :)

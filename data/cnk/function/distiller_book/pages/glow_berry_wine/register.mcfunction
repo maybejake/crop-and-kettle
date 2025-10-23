@@ -8,4 +8,4 @@ data modify storage cnk:temp register.ingredients set value [ \
 
 data modify storage cnk:temp register.source set value {key:"cnk.source", font:"cnk.book:base"}
 
-function cnk:distiller_book/pages/register with storage cnk:temp register
+function cnk:distiller_book/pages/register

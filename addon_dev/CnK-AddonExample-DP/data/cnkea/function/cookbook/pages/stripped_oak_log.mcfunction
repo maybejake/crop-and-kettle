@@ -11,4 +11,4 @@ data modify storage cnk:temp register.ingredients set value [ \
 
 data modify storage cnk:temp register.source set value {key:"cnkea.source", font:"cnkea:icons"}
 
-function cnk:cookbook/pages/register with storage cnk:temp register
+function cnk:cookbook/pages/register
