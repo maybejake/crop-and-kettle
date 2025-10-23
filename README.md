@@ -40,3 +40,10 @@ This is a datapack that has been packaged as a mod for convenience of installati
 # Thanks
 - Special thanks to Marius Chamberlin for handling all sound-related stuff! If you love the music tracks he made for this pack then checkout his work [here](https://mariuschamberlin.bandcamp.com/album/crop-kettle)!
 - Thanks to [Smithed](https://smithed.net/) for being an awesome community for datapack developers!
+- Thanks to [crsdf5](https://modrinth.com/user/crsdf5) for extra textures!
+
+### Translations
+- Chinese: [ZeroIcceBear](https://github.com/ZeroIcceBear)
+- Russian: [ooliiverwicked](https://github.com/ooliiverwicked)
+- German: [CaptainGummiball](https://github.com/CptGummiball)
+- Korean: [Hu-Myo](https://github.com/Hu-Myo)
