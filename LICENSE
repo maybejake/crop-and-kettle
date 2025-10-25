@@ -1,0 +1,61 @@
+A. Introduction
+
+  This license describes how you, the user, may use Crop & Kettle (henceforth referred to as "CNK") and related assets. This license is subject to change by maybejake, the owner, at any time.
+
+  Last Edited: October 25, 2025
+
+
+B. Allowed Uses
+
+  1. You may play with CNK in any form on any singleplayer or multiplayer server you choose.
+
+  2. You may edit CNK and its assets for your own personal use, so long as you do not redistribute said edited content publicly. This does not apply to edited content that is sufficiently distinguishable as original and distinct from CNK content and that does not break any of the rest of this license.
+
+    For example:
+    - You are allowed to create an edited version without all features you dislike for personal use. You are not allowed to redistribute it.
+    - You are allowed to use a personal edited version on your own private server.
+    - You are allowed to create a "CNK but I made every food texture look inedible" addon resource pack and redistribute it.
+
+  3. You may create and share your own CNK-related content, such as videos, fanart, and images so long as you do not charge for said content and it does not redistribute CNK or any of its assets.
+
+    For example:
+    - You are allowed to create a video series of your gameplay.
+    - You are not allowed to create CNK merchandise and charge for it.
+	
+  4. You may create and publish your own CNK addon using the provided addon systems to add new recipes. Provided that it does not break any of the rest of this license.
+  
+  5. You may include CNK in a public modpack or datapack compilation without explicit permission from the owner. However, credit must be given in some form.
+  
+	For example:
+	- You are allowed to use CNK in a fabric or neoforge modpack.
+	- You are allowed to use CNK in a compilation of multiple datapacks. 
+	- You are not allowed to fuse CNK with multiple other datapacks to create a single, giant, public datapack.
+
+
+C. Denied Uses
+
+  1. You may not redistribute CNK or any of its assets. This does not apply to simple mcfunction concepts. You are free to read CNK code and use it to learn.
+
+    i. You may not use any of CNK's resource pack assets, models or music for your own projects.
+
+      For example:
+      - You are not allowed to take CNK's scythe texture and create your own scythe data pack using it.
+      - You are not allowed to use CNK's cookbook assets for your own project.
+	  - You are not allowed to take any part of CNK's soundtrack for your own project.
+      - You are not allowed to make CNK NFTs.
+
+    ii. You may not use CNK's mcfunction code for your own projects. However, as noted above, this does not apply to simple, sufficiently generic mcfunction concepts.
+
+      For example:
+      - You may use simple concepts such as block placement or randomization techniques and use them in your own data pack.
+      - You may not take all of the code for the cookbook or distiller book and redistribute it in your own data pack.
+
+  2. You may not pass off CNK or its assets as your own. Give proper credit where it is due.
+
+
+D. Exceptions 
+
+  1. It should be clear that all members of CNK's development team are exempt from any part of the above license at any time, for any reason, given their ownership of the content in question.
+
+  
+Copyright (c) 2025 maybejake
