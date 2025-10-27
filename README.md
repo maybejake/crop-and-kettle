@@ -13,7 +13,7 @@
 - A fully [data-driven backend](https://github.com/maybejake/crop-and-kettle/wiki/Addons), allowing other datapacks to easily add their own recipes and cookbook pages!
 - New music, new tools, _secrets_, and so much more!
 
-Crop & Kettle is designed to be figured out by playing it, using the advancement tab and cookbook to figure out recipes and what to do next! But if you're stuck, or just want more detail on what the pack offers, then checkout the [wiki](https://github.com/maybejake/crop-and-kettle/wiki)!
+Crop & Kettle is designed to be figured out by playing it, using the advancement tab and cookbook to figure out recipes and what to do next! But if you're stuck, or just want more detail on what the pack offers, then checkout the [wiki](https://github.com/maybejake/crop-and-kettle/wiki) or join the [discord](https://discord.gg/qSFUNCpt8V)!
 
 # FAQ
 ### Where is the resource pack?
@@ -47,3 +47,4 @@ This is a datapack that has been packaged as a mod for convenience of installati
 - Russian: [ooliiverwicked](https://github.com/ooliiverwicked)
 - German: [CaptainGummiball](https://github.com/CptGummiball)
 - Korean: [Hu-Myo](https://github.com/Hu-Myo)
+- Vietnamese: [Bush](https://modrinth.com/user/BushMoss)
