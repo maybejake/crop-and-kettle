@@ -1,4 +1,4 @@
-function cnk:recipes/remove_generic/chicken
+function cnk:recipes/remove_generic/pork
 
 function cnk:recipes/remove_generic/egg
 

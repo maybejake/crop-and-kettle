@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.cnk.drink_chorus_wine_far.name","fallback":"Long-haul Flight"},
-    "description": [{"translate":"advancement.cnk.drink_chorus_wine_far.desc","fallback":"Drink chorus wine that has been aged for at least 50 years"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+    "description": [{"translate":"advancement.cnk.drink_chorus_wine_far.desc","fallback":"Drink chorus wine that has been aged for at least 30 years"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false,

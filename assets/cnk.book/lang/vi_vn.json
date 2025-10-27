@@ -1,0 +1,23 @@
+{
+  "book.cnk.distilling_page.title": "Chưng cất",
+  "book.cnk.aging_page.title": "Ủ rượu",
+
+  "book.cnk.section.front": "Trang đầu",
+  "book.cnk.section.staple": "Thực phẩm thiết yếu",
+  "book.cnk.section.snack": "Đồ uống & Đồ ăn vặt",
+  "book.cnk.section.light": "Món ăn nhẹ",
+  "book.cnk.section.hearty": "Món ăn thịnh soạn",
+  "book.cnk.section.feast": "Các bữa tiệc",
+  "book.cnk.section.dessert": "Tráng miệng",
+
+  "book.cnk.crop_seeds.title": "Hạt giống",
+
+  "book.cnk.toast.unlock.seed": "Đã mở khóa hạt giống!",
+  "book.cnk.toast.unlock.ingredient": "Đã mở khóa nguyên liệu!",
+  "book.cnk.toast.unlock.recipe": "Đã mở khóa công thức!",
+  "book.cnk.toast.unlock.ritual": "Đã mở khóa nghi lễ!",
+  "book.cnk.toast.unlock.weapon": "Vũ khí đã được rèn!",
+  
+  "book.cnk.previous_page.hover": "Trang trước",
+  "book.cnk.next_page.hover": "Trang sau"
+}

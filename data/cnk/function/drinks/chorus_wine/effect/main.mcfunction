@@ -2,9 +2,9 @@ advancement revoke @s only cnk:wine/consume_chorus
 
 function cnk:drinks/year_delta/main
 
-execute if score $year cnk.dummy matches 100.. run advancement grant @s only cnk:visible/100_year_wine
+execute if score $year cnk.dummy matches 50.. run advancement grant @s only cnk:visible/50_year_wine
 
-execute if score $year cnk.dummy matches 50.. run advancement grant @s only cnk:visible/drink_chorus_wine_far
+execute if score $year cnk.dummy matches 30.. run advancement grant @s only cnk:visible/drink_chorus_wine_far
 
 scoreboard players set $max_distance cnk.dummy 32
 scoreboard players operation $max_distance cnk.dummy *= $year cnk.dummy

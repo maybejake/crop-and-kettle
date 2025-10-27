@@ -19,7 +19,7 @@
       "conditions": {
         "items": [
             {
-            "items": "minecraft:poisonous_potato",
+            "items": "minecraft:leather_helmet",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"chef_hat":true}}
             }

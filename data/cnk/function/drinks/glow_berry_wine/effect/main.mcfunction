@@ -2,7 +2,7 @@ advancement revoke @s only cnk:wine/consume_glow_berry
 
 function cnk:drinks/year_delta/main
 
-execute if score $year cnk.dummy matches 100.. run advancement grant @s only cnk:visible/100_year_wine
+execute if score $year cnk.dummy matches 50.. run advancement grant @s only cnk:visible/50_year_wine
 
 scoreboard players set $range cnk.dummy 2
 scoreboard players operation $range cnk.dummy *= $year cnk.dummy
