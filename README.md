@@ -48,3 +48,4 @@ This is a datapack that has been packaged as a mod for convenience of installati
 - German: [CaptainGummiball](https://github.com/CptGummiball)
 - Korean: [Hu-Myo](https://github.com/Hu-Myo)
 - Vietnamese: [Bush](https://modrinth.com/user/BushMoss)
+- French: [Stoupy](https://github.com/Stoupy51)
