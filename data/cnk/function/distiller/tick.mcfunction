@@ -9,13 +9,13 @@ execute if score @s cnk.cook_cooldown matches 1.. run particle white_smoke ^0.72
 execute if score @s cnk.cook_cooldown matches 1.. run return run scoreboard players remove @s cnk.cook_cooldown 1
 
 function cnk:distiller/check_basin
-execute unless data storage cnk:temp distiller.basin if score @s cnk.cook_time matches 1.. run return run function cnk:distiller/stop
+execute unless data storage cnk:temp distiller.basin if score @s cnk.distill_goal matches 1.. run return run function cnk:distiller/stop
 execute unless data storage cnk:temp distiller.basin run return fail
 
 data modify storage cnk:temp distiller.Items set from block ~ ~ ~ Items
 
 execute store result score $filled_slots cnk.dummy run data get storage cnk:temp distiller.Items
-execute if score $filled_slots cnk.dummy matches 0 if score @s cnk.cook_time matches 1.. run return run function cnk:distiller/stop
+execute if score $filled_slots cnk.dummy matches 0 if score @s cnk.distill_goal matches 1.. run return run function cnk:distiller/stop
 execute if score $filled_slots cnk.dummy matches 0 run return fail
 
 # sanitise data
@@ -29,4 +29,4 @@ function cnk:cooking_pot/crafting/get_unique
 scoreboard players set $distiller_lock cnk.dummy 0
 function #cnk:recipes/distiller
 
-execute if score $distiller_lock cnk.dummy matches 0 if score @s cnk.cook_time matches 1.. run function cnk:distiller/stop
+execute if score $distiller_lock cnk.dummy matches 0 if score @s cnk.distill_goal matches 1.. run function cnk:distiller/stop

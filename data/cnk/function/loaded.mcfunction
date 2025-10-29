@@ -35,6 +35,7 @@ scoreboard objectives add cnk.scythe_cooldown dummy
 scoreboard objectives add cnk.level dummy
 
 scoreboard objectives add cnk.distill_timer dummy
+scoreboard objectives add cnk.distill_goal dummy
 
 scoreboard objectives add cnk.wine_time_cooldown dummy
 

@@ -1,4 +1,3 @@
-scoreboard players set @s cnk.cook_time 0
 scoreboard players set @s cnk.cook_cooldown 30
 scoreboard players reset @s cnk.distill_timer
 
@@ -15,3 +14,5 @@ execute positioned ^1 ^-0.5 ^ as @n[type=minecraft:item_display,tag=cnk.basin,di
 particle white_smoke ^0.72 ^0.6 ^ 0 0 0 0 10
 playsound cnk:block.distiller.finish block @a ~ ~ ~ 1 2
 playsound minecraft:block.water.ambient block @a ~ ~ ~ 1 1.8
+
+scoreboard players operation @s cnk.distill_goal += $distill_time cnk.dummy
