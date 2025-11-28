@@ -6,6 +6,7 @@
     "cnk:cookbook/pages/chicken_sandwich/register",
     "cnk:cookbook/pages/chili_cheese_dog/register",
     "cnk:cookbook/pages/combo_meal/register",
+    "cnk:cookbook/pages/festive_meal/register",
     "cnk:cookbook/pages/fish_and_chips/register",
     "cnk:cookbook/pages/italian_dinner/register",
     "cnk:cookbook/pages/nachos/register",

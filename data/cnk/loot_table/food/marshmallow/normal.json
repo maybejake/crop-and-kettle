@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:food/marshmallow/base",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {"cnk":{"marshmallow":{"type":"normal"}}}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

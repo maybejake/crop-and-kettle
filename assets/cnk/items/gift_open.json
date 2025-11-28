@@ -1,0 +1,18 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "cnk:block/gift/open",
+    "tints": [
+      {
+        "type": "custom_model_data",
+        "default": [1.0, 1.0, 1.0],
+        "index": 0
+      },
+      {
+        "type": "custom_model_data",
+        "default": [1.0, 1.0, 1.0],
+        "index": 1
+      }
+    ]
+  }
+}

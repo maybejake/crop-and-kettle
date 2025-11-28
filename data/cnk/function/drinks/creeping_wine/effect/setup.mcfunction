@@ -1,6 +1,6 @@
 execute on passengers if entity @s run return fail
 
-summon minecraft:marker ~ ~ ~ {Tags:["cnk.creeping_wine_marker","cnk.projectile"]}
+summon minecraft:marker ~ ~ ~ {Tags:["cnk.creeping_wine_marker","cnk.projectile","cnk.entity"]}
 ride @n[type=minecraft:marker,tag=cnk.creeping_wine_marker,distance=..0.1] mount @s
 
 execute store result score @n[type=minecraft:marker,tag=cnk.creeping_wine_marker,distance=..0.1] cnk.wine_time run data get entity @s Item.components."minecraft:custom_data".cnk.wine.time

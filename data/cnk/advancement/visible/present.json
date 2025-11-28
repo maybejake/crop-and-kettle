@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "cnk:gift_box_item",
+        "minecraft:dyed_color": 11546150,
+        "minecraft:custom_model_data": {"colors": [16701501]}
+      }
+    },
+    "title": {"translate":"advancement.cnk.present.name","fallback":"Gift of Giving"},
+    "description": [{"translate":"advancement.cnk.present.desc","fallback":"Wrap up an item from your offhand in a gift box"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cnk:visible/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

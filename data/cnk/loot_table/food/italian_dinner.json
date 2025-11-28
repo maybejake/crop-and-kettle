@@ -23,8 +23,8 @@
                     ]}
                   ]
                 },
-                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"italian_dinner"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"italian_dinner"},"placeable":{"model":"cnk:placeable/italian_dinner"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"text":"Plateable","color":"gray","italic":false},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
               }
             }
           ]

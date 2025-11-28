@@ -1,4 +1,4 @@
-data modify storage cnk:temp cooking_pot.slot set from storage cnk:temp cooking_pot.Items[{id:"minecraft:slime_ball"}].Slot
+data modify storage cnk:temp cooking_pot.slot set from storage cnk:temp cooking_pot.Items[{id:"minecraft:bone_meal"}].Slot
 function cnk:recipes/remove with storage cnk:temp cooking_pot
 
 data modify storage cnk:temp cooking_pot.slot set from storage cnk:temp cooking_pot.Items[{id:"minecraft:sugar"}].Slot

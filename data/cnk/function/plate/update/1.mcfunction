@@ -1,0 +1,1 @@
+execute on passengers if entity @s[tag=cnk.plate_1] at @s run data merge entity @s {transformation:[-0.4829629131f,0.1294095226f,0f,0f,0f,0f,-0.5f,0.07f,-0.1294095226f,-0.4829629131f,0f,0f,0f,0f,0f,1f]}

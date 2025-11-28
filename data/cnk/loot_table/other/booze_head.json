@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.booze_head","fallback":"Booze Head"},
+                "minecraft:item_model": "cnk:booze_head",
+                "minecraft:custom_data": {"cnk":{"booze_head":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                "minecraft:max_stack_size": 1,
+                "minecraft:repairable": {"items":"minecraft:string"},
+                "minecraft:equippable": {"slot":"head"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "on_false": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "cnk:entity/booze_head"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "cnk:entity/booze_eyes"
+            }
+          ]
+        },
+        "on_true": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "cnk:entity/booze_head_hurt"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "cnk:entity/booze_eyes_hurt"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

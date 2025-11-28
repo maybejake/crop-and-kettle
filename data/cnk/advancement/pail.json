@@ -1,0 +1,18 @@
+{
+  "parent": "cnk:cooldown",
+  "criteria": {
+      "requirement": {
+          "trigger": "minecraft:using_item",
+          "conditions": {
+              "item": {
+                  "predicates": {
+                      "minecraft:custom_data": {"cnk":{"block":{"type":"pail"}}}
+                  }
+              }
+          }
+      }
+  },
+  "rewards": {
+      "function": "cnk:pail/use/main"
+  }
+}

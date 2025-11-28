@@ -61,7 +61,13 @@
         {"type":"bitmap","file":"cnk.book:icon/misc/cookbook_front_page.png","ascent":130,"height":140,"chars":["\ua062"]},
         {"type":"bitmap","file":"cnk.book:icon/misc/cookbook_front_page_ru.png","ascent":130,"height":140,"chars":["\ua063"]},
         {"type":"bitmap","file":"cnk.book:icon/misc/distiller_book_front_page_ru.png","ascent":132,"height":142,"chars":["\ua064"]},
-        {"type":"bitmap","file":"cnk.book:icon/misc/black_square.png","ascent":15,"height":16,"chars":["\ua999"]},
+        {"type":"bitmap","file":"cnk.book:icon/misc/booze_hint.png","ascent":60,"height":64,"chars":["\ua065"]},
+        {"type":"bitmap","file":"cnk.book:icon/misc/plateable_stamp.png","ascent":21,"height":32,"chars":["\ua066"]},
+        {"type":"bitmap","file":"cnk.book:icon/misc/no_stamp.png","ascent":21,"height":32,"chars":["\ua067"]},
+        {"type":"bitmap","file":"cnk.book:icon/misc/return_active.png","ascent":19,"height":32,"chars":["\ua068"]},
+        {"type":"bitmap","file":"cnk.book:icon/misc/return_inactive.png","ascent":19,"height":32,"chars":["\ua069"]},
+        {"type":"bitmap","file":"cnk.book:icon/misc/foraging_page.png","ascent":84,"height":103,"chars":["\ua070"]},
+        {"type":"bitmap","file":"cnk.book:icon/misc/black_square.png","ascent":29,"height":31,"chars":["\ua999"]},
 
         {"type":"bitmap","file":"cnk.book:icon/misc/foodie_book_sketch.png","ascent":55,"height":60,"chars":["\uc978"]},
 
@@ -94,7 +100,7 @@
         {"type":"bitmap","file":"cnk.book:icon/item/mixing_bowl.png","ascent":62,"height":64,"chars":["\uc998"]},
         {"type":"bitmap","file":"cnk.book:icon/item/unknown.png","ascent":15,"height":16,"chars":["\uc999"]},
 
-        {"type":"space","advances":{"\u0020":1,"\ua997":-25,"\ua998":-19,"\ub001":24,"\ub002":26,"\ub003":27,"\ub004":23,"\ub005":61,"\ub006":84,"\ub007":67,"\ub008":4,"\ub009":9,"\ub010":46,"\ub011":45,"\ub012":0,"\ub013":162,"\ub014":88,"\ub015":56,"\ub016":47,"\ub017":13,"\ub018":50,"\ub019":18,"\ub020":47,"\ub021":15,"\ub022":77,"\ub023":45,"\ub024":79,"\ub025":47,"\ub026":25,"\ub027":91,"\ub028":59,"\ub029":20,"\ub030":7,"\ub031":4,"\ub032":54,"\ub033":46,"\ub034":50,"\ub035":18,"\ub036":41,"\ub037":9,"\ub038":50,"\ub039":18,"\ub040":26,"\ub041":54,"\ub042":49,"\ub043":-50,"\ub044":85,"\ub045":88,"\ub046":2,"\ub047":30,"\ub048":-17,"\ub049":44,"\ub050":84,"\ub051":42,"\ub052":78,"\ub053":84,"\ub054":88,"\ub055":68,"\ub056":52,"\ub057":23,"\ub058":40,"\ub059":24,"\ub060":24,"\ub061":44,"\ub062":21,"\ub063":50,"\ub064":162}
+        {"type":"space","advances":{"\u0020":1,"\ua997":-25,"\ua998":-19,"\ub001":24,"\ub002":26,"\ub003":27,"\ub004":23,"\ub005":61,"\ub006":84,"\ub007":67,"\ub008":4,"\ub009":9,"\ub010":46,"\ub011":45,"\ub012":0,"\ub013":162,"\ub014":88,"\ub015":56,"\ub016":47,"\ub017":13,"\ub018":50,"\ub019":18,"\ub020":47,"\ub021":15,"\ub022":77,"\ub023":45,"\ub024":79,"\ub025":47,"\ub026":25,"\ub027":91,"\ub028":59,"\ub029":20,"\ub030":7,"\ub031":4,"\ub032":54,"\ub033":46,"\ub034":50,"\ub035":18,"\ub036":41,"\ub037":9,"\ub038":50,"\ub039":18,"\ub040":26,"\ub041":54,"\ub042":49,"\ub043":-50,"\ub044":85,"\ub045":88,"\ub046":2,"\ub047":30,"\ub048":-17,"\ub049":44,"\ub050":84,"\ub051":42,"\ub052":78,"\ub053":84,"\ub054":88,"\ub055":68,"\ub056":52,"\ub057":23,"\ub058":40,"\ub059":24,"\ub060":24,"\ub061":44,"\ub062":21,"\ub063":50,"\ub064":162,"\ub065":16,"\ub066":44,"\ub067":14,"\ub068":48}
     }
     ]
 }

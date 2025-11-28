@@ -9,6 +9,10 @@ execute at @s run playsound item.book.page_turn neutral @s ~ ~ ~ 1 1
 #make sure current page is set to something
 execute unless score @s cnk.distiller_book_current_page matches 1.. run scoreboard players set @s cnk.distiller_book_current_page 1
 
+#min max
+execute if score @s cnk.distiller_book_current_page matches ..0 run scoreboard players set @s cnk.distiller_book_current_page 1
+execute if score @s cnk.distiller_book_current_page > $global_distiller_book_page cnk.dummy run scoreboard players operation @s cnk.distiller_book_current_page = $global_distiller_book_page cnk.dummy
+
 #store number length for alignment
 execute if score @s cnk.distiller_book_current_page matches 1..9 run data modify storage cnk:temp distiller_book.data.page_number_width set value "single"
 execute if score @s cnk.distiller_book_current_page matches 10..99 run data modify storage cnk:temp distiller_book.data.page_number_width set value "double"

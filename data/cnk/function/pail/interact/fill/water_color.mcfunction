@@ -1,0 +1,9 @@
+execute if predicate cnk:water/617b64 run data modify storage cnk:temp pail.color set value 6388580
+execute if predicate cnk:water/45adf2 run data modify storage cnk:temp pail.color set value 4566514
+execute if predicate cnk:water/43d5ee run data modify storage cnk:temp pail.color set value 4445678
+execute if predicate cnk:water/3d57d6 run data modify storage cnk:temp pail.color set value 4020182
+execute if predicate cnk:water/3938c9 run data modify storage cnk:temp pail.color set value 3750089
+execute if predicate cnk:water/0e4ecf run data modify storage cnk:temp pail.color set value 937679
+execute if predicate cnk:water/3a7a6a run data modify storage cnk:temp pail.color set value 3832426
+execute if predicate cnk:water/5db7ef run data modify storage cnk:temp pail.color set value 6141935
+execute if predicate cnk:water/76889d run data modify storage cnk:temp pail.color set value 7768221

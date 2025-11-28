@@ -24,6 +24,10 @@ data remove storage cnk:temp distiller.Items[{components:{"minecraft:custom_data
 
 data modify storage cnk:temp unique_items_check set value []
 data modify storage cnk:temp unique_items_check set from storage cnk:temp distiller.Items
+
+# sanitise for pails
+data remove storage cnk:temp unique_items_check[{components:{"minecraft:custom_data":{cnk:{pail:{}}}}}].components."minecraft:custom_data".cnk.pail.quantity
+
 function cnk:cooking_pot/crafting/get_unique
 
 scoreboard players set $distiller_lock cnk.dummy 0

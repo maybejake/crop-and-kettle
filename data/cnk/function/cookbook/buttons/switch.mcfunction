@@ -13,6 +13,7 @@
 # 9925 = hearty bookmark
 # 9926 = feast bookmark
 # 9927 = dessert bookmark
+# 9931 = return
 # 9991 = close dialog
 
 execute if score @s cnk.cookbook_buttons matches 9901 run function cnk:cookbook/buttons/previous_page
@@ -31,6 +32,8 @@ execute if score @s cnk.cookbook_buttons matches 9924 run function cnk:cookbook/
 execute if score @s cnk.cookbook_buttons matches 9925 run function cnk:cookbook/buttons/hearty_bookmark
 execute if score @s cnk.cookbook_buttons matches 9926 run function cnk:cookbook/buttons/feast_bookmark
 execute if score @s cnk.cookbook_buttons matches 9927 run function cnk:cookbook/buttons/dessert_bookmark
+
+execute if score @s cnk.cookbook_buttons matches 9931 run function cnk:cookbook/buttons/return
 
 execute if score @s cnk.cookbook_buttons matches 9991 run function cnk:cookbook/buttons/close
 

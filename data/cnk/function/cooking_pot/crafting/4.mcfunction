@@ -71,6 +71,22 @@ execute \
         run return run function cnk:recipes/cooking_pot/cupcake
 
 execute \
+        if function cnk:cooking_pot/crafting/generic/dye if score $dye_count cnk.dummy matches 1 \
+        if function cnk:cooking_pot/crafting/generic/milk if score $milk_count cnk.dummy matches 1 \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"dough"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:sugar"}] \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/festive_cookie/main
+
+execute \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"dough"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:sugar"}] \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"raisins"}}}}}] \
+        if function cnk:cooking_pot/crafting/generic/fruit if score $fruit_count cnk.dummy matches 1 \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/fruitcake
+
+execute \
         if data storage cnk:temp cooking_pot.Items[{id:"minecraft:bread"}] \
         if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"cheese"}}}}}] \
         if function cnk:cooking_pot/crafting/generic/meat if score $meat_count cnk.dummy matches 1 \

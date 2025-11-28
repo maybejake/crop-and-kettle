@@ -1,0 +1,29 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "cnk:item/gift_box",
+        "tints": [
+          {
+            "type": "custom_model_data",
+            "default": [1.0, 1.0, 1.0],
+            "index": 0
+          }
+        ]
+      },
+      {
+        "type": "minecraft:model",
+        "model": "cnk:item/gift_box_bow",
+        "tints": [
+          {
+            "type": "custom_model_data",
+            "default": [1.0, 1.0, 1.0],
+            "index": 1
+          }
+        ]
+      }
+    ]
+  }
+}

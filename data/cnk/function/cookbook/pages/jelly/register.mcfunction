@@ -4,7 +4,7 @@ data modify storage cnk:temp register.tool set value "cnk.cooking_pot"
 data modify storage cnk:temp register.page_name set value "item.cnk.jelly"
 data modify storage cnk:temp register.recipe_icon_font set value "cnk.book:icons"
 data modify storage cnk:temp register.ingredients set value [ \
-    {key:"item.minecraft.slime_ball", font:"cnk.book:icons"}, \
+    {key:"item.minecraft.bone_meal", font:"cnk.book:icons"}, \
     {key:"item.minecraft.sugar", font:"cnk.book:icons"}, \
     {key:"item.minecraft.sweet_berries", font:"cnk.book:icons"}, \
 ]

@@ -14,20 +14,12 @@
           "type": "minecraft:model",
           "model": "cnk:block/mr_kettle"
         }
-      },
-      {
-        "when": [
-          "gui",
-          "ground",
-          "fixed",
-          "none"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "cnk:item/mr_kettle"
-        }
       }
     ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "cnk:item/mr_kettle"
+    },
     "property": "minecraft:display_context"
   }
 }

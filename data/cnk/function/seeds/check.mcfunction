@@ -1,7 +1,4 @@
-#cooldown
-execute store result score @s cnk.seed_cooldown run time query gametime
-scoreboard players add @s cnk.seed_cooldown 5
-schedule function cnk:seeds/cooldown 5t append
+scoreboard players set @s cnk.use_cooldown 3
 
 data remove storage cnk.iris:settings Callback
 data merge storage cnk.iris:settings {TargetEntities:false,Whitelist:"minecraft:farmland",MaxRecursionDepth:16,Blacklist:"#cnk:cropcast"}

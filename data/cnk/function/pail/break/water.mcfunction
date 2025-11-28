@@ -1,0 +1,27 @@
+$loot spawn ~ ~ ~ loot { \
+  "pools": [ \
+    { \
+      "rolls": 1, \
+      "entries": [ \
+        { \
+          "type": "minecraft:loot_table", \
+          "value": "cnk:other/water_pail", \
+          "functions": [ \
+            { \
+              "function": "minecraft:set_custom_data", \
+              "tag": {"cnk":{"pail":{"quantity":$(quantity),"color":$(color)}}} \
+            }, \
+            { \
+              "function": "minecraft:set_lore", \
+              "lore": [ \
+                {"translate": "tooltip.cnk.pail.quantity","with":["$(quantity)", "$(max_quantity)"],"color":"gray","italic":false} \
+              ], \
+              "mode":"insert", \
+              "offset":0 \
+            } \
+          ] \
+        } \
+      ] \ 
+    } \
+  ] \
+}

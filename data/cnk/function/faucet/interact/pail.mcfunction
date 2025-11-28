@@ -1,0 +1,3 @@
+execute as @n[type=minecraft:item_display,tag=cnk.pail,distance=..0.1] if data entity @s item.components."minecraft:custom_data".cnk.pail{liquid:"water"} unless data entity @s item.components."minecraft:custom_model_data"{floats:[32.0f]} run return 1
+execute as @n[type=minecraft:item_display,tag=cnk.pail,distance=..0.1] unless data entity @s item.components."minecraft:custom_data".cnk.pail run return 1
+return fail

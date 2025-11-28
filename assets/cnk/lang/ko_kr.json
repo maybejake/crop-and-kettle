@@ -238,9 +238,6 @@
     "subtitles.cnk.item.mr_kettle.squeak": "미스터 주전자가 삑삑거림",
     "subtitles.cnk.block.candy_bowl.laugh": "사탕 그릇이 웃음",
 
-    "gui.cnk.cooking_pot": "\ua002\ua000",
-    "gui.cnk.distiller": "\u0003\ua010",
-
     "item.cnk.music_disc_dinner": "음반",
     "item.cnk.music_disc_dinner.desc": "Marius Chamberlin - 저녁 식사 시간에 맞춰",
     "item.cnk.music_disc_meal": "음반",
@@ -278,12 +275,8 @@
     "cnk.meat_guide.hint": "나를 높이 들어라, 그러면 세상이 너를 만나러 기어올 것이다... 그러나 길이 다하면, 나를 제단에 눕혀라, 그러면 모두가 침묵 속에 절할 것이다.",
     "cnk.shrine.1": "길이 열렸다... 살의 문, 생각의 문... 모든 것이 무너지고, 모든 것이 풀어진다. 그것은 오지 않는다. 그것은 도달한다.",
 
-    "cnk.tooltip": "\ua001\ub001Crop & Kettle",
-
     "cnk.dialog.description": "새로운 음식, 음료 등을 추가하는 아늑한 요리 데이터팩입니다!",
     "cnk.dialog.info": "%1$s - %2$s\n제작: maybejake",
-    "cnk.version": "v1.1.4",
-    "cnk.update": "수확의 계절",
     "cnk.dialog.website": "웹사이트",
     "cnk.dialog.issues": "문제",
     "cnk.dialog.settings": "설정",

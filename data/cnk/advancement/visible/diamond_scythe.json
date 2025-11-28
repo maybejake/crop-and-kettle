@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:warped_fungus_on_a_stick",
+      "id": "minecraft:stone_sword",
       "components": {
         "minecraft:item_model": "cnk:diamond_scythe"
       }
@@ -19,7 +19,7 @@
       "conditions": {
         "items": [
             {
-            "items": "minecraft:iron_sword",
+            "items": "minecraft:stone_sword",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"scythe":true,"diamond":true}}
             }

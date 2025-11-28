@@ -210,6 +210,19 @@
         ]
       }
     },
+    "cnk:candy_cane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"candy_cane"}}}
+            }
+          }
+        ]
+      }
+    },
     "cnk:candy_corn": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -600,6 +613,45 @@
         ]
       }
     },
+    "cnk:festive_cookie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"festive_cookie"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:festive_meal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"festive_meal"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:festive_pudding": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"festive_pudding"}}}
+            }
+          }
+        ]
+      }
+    },
     "cnk:fish_and_chips": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -665,6 +717,19 @@
         ]
       }
     },
+    "cnk:fruitcake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"fruitcake"}}}
+            }
+          }
+        ]
+      }
+    },
     "cnk:full_irish": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -673,6 +738,45 @@
             "items": "minecraft:poisonous_potato",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"full_irish"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:ginger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"ginger"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:gingerbread": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"gingerbread"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:ginger_chicken": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"ginger_chicken"}}}
             }
           }
         ]
@@ -769,6 +873,19 @@
         ]
       }
     },
+    "cnk:honey-glazed_ham": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"honey-glazed_ham"}}}
+            }
+          }
+        ]
+      }
+    },
     "cnk:honey_bun": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -860,6 +977,19 @@
         ]
       }
     },
+    "cnk:music_disc_greetings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"music_disc_greetings"}}}
+            }
+          }
+        ]
+      }
+    },
     "cnk:jam_donut": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -946,6 +1076,19 @@
             "items": "minecraft:poisonous_potato",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"mac_and_cheese"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:marshmallow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"marshmallow"}}}
             }
           }
         ]
@@ -1050,6 +1193,19 @@
             "items": "minecraft:poisonous_potato",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"pastel_de_nata"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:peppermint_bark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"peppermint_bark"}}}
             }
           }
         ]
@@ -1336,6 +1492,19 @@
             "items": "minecraft:poisonous_potato",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"shepherds_pie"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:snow_cream": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"snow_cream"}}}
             }
           }
         ]

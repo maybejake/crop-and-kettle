@@ -1,0 +1,27 @@
+{
+    "parent": "cnk:recipe/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "cnk:gift_box/white",
+            "cnk:gift_box/light_gray",
+            "cnk:gift_box/gray",
+            "cnk:gift_box/black",
+            "cnk:gift_box/brown",
+            "cnk:gift_box/red",
+            "cnk:gift_box/orange",
+            "cnk:gift_box/yellow",
+            "cnk:gift_box/lime",
+            "cnk:gift_box/green",
+            "cnk:gift_box/cyan",
+            "cnk:gift_box/light_blue",
+            "cnk:gift_box/blue",
+            "cnk:gift_box/magenta",
+            "cnk:gift_box/pink"
+        ]
+    }
+}

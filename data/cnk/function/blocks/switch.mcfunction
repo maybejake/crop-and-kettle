@@ -11,3 +11,7 @@ execute if data block ~ ~ ~ components."minecraft:custom_data".cnk.block{type:"w
 execute if data block ~ ~ ~ components."minecraft:custom_data".cnk.block{type:"candy_bowl"} run return run function cnk:candy_bowl/place
 execute if data block ~ ~ ~ components."minecraft:custom_data".cnk.block{type:"scarecrow"} run return run function cnk:scarecrow/place
 execute if data block ~ ~ ~ components."minecraft:custom_data".cnk.block{type:"cornucopia"} run return run function cnk:cornucopia/place
+execute if data block ~ ~ ~ components."minecraft:custom_data".cnk.block{type:"pail"} run return run function cnk:pail/place
+execute if data block ~ ~ ~ components."minecraft:custom_data".cnk.block{type:"plate"} run return run function cnk:plate/place
+execute if data block ~ ~ ~ components."minecraft:custom_data".cnk.block{type:"wreath"} run return run function cnk:wreath/place
+execute if data block ~ ~ ~ components."minecraft:custom_data".cnk.block{type:"gift"} run return run function cnk:gift/place

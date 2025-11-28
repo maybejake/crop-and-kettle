@@ -53,6 +53,24 @@ execute \
         run return run function cnk:recipes/cooking_pot/cinnamon_roll
 
 execute \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"honey-glazed_ham"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:potato"}] \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:carrot"}] \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:sweet_berries"}] \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"stock"}}}}}] \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/festive_meal
+
+execute \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"dough"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:sugar"}] \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"cinnamon"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"ginger"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:sweet_berries"}] \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/festive_pudding
+
+execute \
         if function cnk:cooking_pot/crafting/generic/pork if score $pork_count cnk.dummy matches 1 \
         if function cnk:cooking_pot/crafting/generic/egg if score $egg_count cnk.dummy matches 1 \
         if data storage cnk:temp cooking_pot.Items[{id:"minecraft:bread"}] \
@@ -60,6 +78,24 @@ execute \
         if data storage cnk:temp cooking_pot.Items[{id:"minecraft:potato"}] \
         if function cnk:cooking_pot/crafting/lock \
         run return run function cnk:recipes/cooking_pot/full_irish
+
+execute \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"ginger"}}}}}] \
+        if function cnk:cooking_pot/crafting/generic/chicken if score $chicken_count cnk.dummy matches 1 \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"rice"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"chili_pepper"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:honey_bottle"}] \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/ginger_chicken
+
+execute \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"dough"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:sugar"}] \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"ginger"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"cinnamon"}}}}}] \
+        if function cnk:cooking_pot/crafting/generic/milk if score $milk_count cnk.dummy matches 1 \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/gingerbread
 
 execute \
         if function cnk:cooking_pot/crafting/generic/egg if score $egg_count cnk.dummy matches 1 \

@@ -1,0 +1,23 @@
+{
+  "book.cnk.distilling_page.title": "Destilagem",
+  "book.cnk.aging_page.title": "Envelhecimento de Vinhos",
+
+  "book.cnk.section.front": "Capa",
+  "book.cnk.section.staple": "Alimentos Básicos",
+  "book.cnk.section.snack": "Bebidas & Lanches",
+  "book.cnk.section.light": "Pratos Leves",
+  "book.cnk.section.hearty": "Pratos Recheados",
+  "book.cnk.section.feast": "Banquetes",
+  "book.cnk.section.dessert": "Sobremesas",
+
+  "book.cnk.crop_seeds.title": "Sementes",
+
+  "book.cnk.toast.unlock.seed": "Semente desbloqueada!",
+  "book.cnk.toast.unlock.ingredient": "Ingrediente desbloqueado!",
+  "book.cnk.toast.unlock.recipe": "Receita desbloqueada!",
+  "book.cnk.toast.unlock.ritual": "Ritual desbloqueado!",
+  "book.cnk.toast.unlock.weapon": "Arma forjada!",
+  
+  "book.cnk.previous_page.hover": "Página anterior",
+  "book.cnk.next_page.hover": "Página seguinte"
+}

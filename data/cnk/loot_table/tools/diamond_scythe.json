@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:stone_sword",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -16,7 +16,8 @@
                 "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
                 "minecraft:max_damage": 2030,
                 "minecraft:enchantable": {"value": 10},
-                "minecraft:consumable":{"consume_seconds":2147483648},
+                "minecraft:consumable":{"consume_seconds":2147483648,"animation":"none","sound":"intentionally_empty","has_consume_particles":false},
+                "minecraft:repairable": {"items": "minecraft:diamond"},
                 "minecraft:attribute_modifiers":[
                   {
                     "type":"minecraft:attack_damage",
@@ -26,7 +27,7 @@
                     "slot":"mainhand",
                     "display": {
                       "type": "override",
-                      "value": {"translate":"item.cnk.diamond_scythe.attack_damage","fallback":"8 Attack Damage","color":"dark_green"}
+                      "value": {"translate":"item.cnk.diamond_scythe.attack_damage","fallback":" 8 Attack Damage","color":"dark_green"}
                     }
                   },
                   {
@@ -37,7 +38,7 @@
                     "slot":"mainhand",
                     "display": {
                       "type": "override",
-                      "value": {"translate":"item.cnk.scythe.attack_speed","fallback":"1.1 Attack Speed","color":"dark_green"}
+                      "value": {"translate":"item.cnk.scythe.attack_speed","fallback":" 1.1 Attack Speed","color":"dark_green"}
                     }
                   }
                 ]

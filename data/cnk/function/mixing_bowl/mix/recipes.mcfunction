@@ -36,6 +36,13 @@ execute if score $mixing_bowl_item_count cnk.dummy matches 3 \
         if function cnk:mixing_bowl/mix/lock \
         run return run data modify entity @s item.components."minecraft:custom_data".cnk.mix_callback set value "cnk:recipes/mixing_bowl/ice_cream"
 
+execute if score $mixing_bowl_item_count cnk.dummy matches 3 \
+        if data storage cnk:temp mixing_bowl.Items[{id:"minecraft:snowball"}] \
+        if function cnk:mixing_bowl/mix/generic/milk if score $milk_count cnk.dummy matches 1 \
+        if data storage cnk:temp mixing_bowl.Items[{id:"minecraft:sugar"}] \
+        if function cnk:mixing_bowl/mix/lock \
+        run return run data modify entity @s item.components."minecraft:custom_data".cnk.mix_callback set value "cnk:recipes/mixing_bowl/snow_cream"
+
 execute if score $mixing_bowl_item_count cnk.dummy matches 4 \
         if data storage cnk:temp mixing_bowl.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"ice_cream"}}}}}] \
         if function cnk:mixing_bowl/mix/generic/ice if score $ice_count cnk.dummy matches 1 \

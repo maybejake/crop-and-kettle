@@ -71,6 +71,12 @@ execute \
         run return run function cnk:recipes/cooking_pot/golden_oldie
 
 execute \
+        if function cnk:cooking_pot/crafting/generic/pork if score $pork_count cnk.dummy matches 1 \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:honey_bottle"}] \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/honey-glazed_ham
+
+execute \
         if data storage cnk:temp cooking_pot.Items[{id:"minecraft:bread"}] \
         if function cnk:cooking_pot/crafting/generic/pork if score $pork_count cnk.dummy matches 1 \
         if function cnk:cooking_pot/crafting/lock \
@@ -81,6 +87,18 @@ execute \
         if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"cheese"}}}}}] \
         if function cnk:cooking_pot/crafting/lock \
         run return run function cnk:recipes/cooking_pot/mac_and_cheese
+
+execute \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:bone_meal"}] \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:sugar"}] \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/marshmallow
+
+execute \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"candy_cane"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"chocolate_bar"}}}}}] \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/peppermint_bark
 
 execute \
         if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"tortilla"}}}}}] \
@@ -177,6 +195,12 @@ execute \
         if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"spaghetti"}}}}}] \
         if function cnk:cooking_pot/crafting/lock \
         run return run function cnk:recipes/cooking_pot/music_disc_dinner
+
+execute \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"any_disc"}}}}}] \
+        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"festive_meal"}}}}}] \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/music_disc_greetings
 
 execute \
         if function cnk:cooking_pot/crafting/generic/disc if score $disc_count cnk.dummy matches 1 \

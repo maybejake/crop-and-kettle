@@ -238,9 +238,6 @@
   "subtitles.cnk.item.mr_kettle.squeak": "M. Bouilloire grince",
   "subtitles.cnk.block.candy_bowl.laugh": "Le bol de bonbons rit",
 
-  "gui.cnk.cooking_pot": "\ua002\ua000",
-  "gui.cnk.distiller": "\u0003\ua010",
-
   "item.cnk.music_disc_dinner": "Disque de musique",
   "item.cnk.music_disc_dinner.desc": "Marius Chamberlin - In Time For Dinner",
   "item.cnk.music_disc_meal": "Disque de musique",
@@ -277,13 +274,9 @@
   
   "cnk.meat_guide.hint": "Élève-moi haut, et le monde rampera à ta rencontre... mais quand le chemin est épuisé, pose-moi sur l'autel, et tous s'inclineront en silence.",
   "cnk.shrine.1": "Le chemin est ouvert... une porte de chair, une porte de pensée... tout cède, tout se défait. Il ne vient pas. Il arrive.",
-
-  "cnk.tooltip": "\ua001\ub001Crop & Kettle",
   
   "cnk.dialog.description": "Un datapack de cuisine chaleureux qui ajoute de nouveaux aliments, boissons et plus encore !",
   "cnk.dialog.info": "%1$s - %2$s\nPar maybejake",
-  "cnk.version": "v1.1.6",
-  "cnk.update": "Saison des récoltes",
   "cnk.dialog.website": "Site web",
   "cnk.dialog.issues": "Problèmes",
   "cnk.dialog.settings": "Paramètres",

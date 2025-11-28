@@ -1,5 +1,6 @@
 {
   "values": [
-    "cnk:cookbook/pages/crop_seeds/register"
+    "cnk:cookbook/pages/crop_seeds/register",
+    "cnk:cookbook/pages/foraging/register"
    ] 
 }

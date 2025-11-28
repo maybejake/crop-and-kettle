@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:stone_sword",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -16,6 +16,7 @@
                 "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
                 "minecraft:max_damage": 1561,
                 "minecraft:tooltip_style": "cnk:mystery",
+                "minecraft:repairable": {"items": "minecraft:obsidian"},
                 "minecraft:attribute_modifiers":[
                   {
                     "type":"minecraft:attack_damage",

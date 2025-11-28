@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "block": {
+      "blocks": [
+        "minecraft:campfire",
+        "minecraft:soul_campfire"
+      ],
+      "state": {
+        "lit": "true"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "cnk:cooldown",
+  "criteria": {
+      "requirement": {
+          "trigger": "minecraft:using_item",
+          "conditions": {
+              "player": {
+                  "flags": {
+                      "is_sneaking": true
+                  }
+              },
+              "item": {
+                  "predicates": {
+                      "minecraft:custom_data": {"cnk":{"spirit_sprite":true}}
+                  }
+              }
+          }
+      }
+  },
+  "rewards": {
+      "function": "cnk:spirit_sprite/use/main"
+  }
+}

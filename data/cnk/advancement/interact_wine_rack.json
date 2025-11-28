@@ -20,6 +20,6 @@
     }
   },
   "rewards": {
-    "function": "cnk:wine_rack/interact/stop_sound"
+    "function": "cnk:wine_rack/interact/block"
   }
 }

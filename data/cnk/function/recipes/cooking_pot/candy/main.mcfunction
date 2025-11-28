@@ -1,4 +1,4 @@
-function cnk:recipes/remove_generic/dye_candy
+function cnk:recipes/remove_generic/dye_color
 
 data modify storage cnk:temp cooking_pot.slot set from storage cnk:temp cooking_pot.Items[{id:"minecraft:sugar"}].Slot
 function cnk:recipes/remove with storage cnk:temp cooking_pot

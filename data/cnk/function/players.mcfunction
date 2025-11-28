@@ -20,3 +20,5 @@ execute if score @s cnk.foodie_book_buttons matches 1.. run function cnk:foodie_
 execute if score @s cnk.settings matches 1.. run function cnk:settings/switch
 
 execute if entity @s[tag=cnk.treat_basket_effect] run function cnk:treat_basket/tick
+
+execute if score @s cnk.use_cooldown matches 1.. run function cnk:cooldown

@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "cnk:entity/booze_bottle"
+        },
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "cnk:entity/booze_bottle_hurt"
+        }
+      }
+    ]
+  }
+}

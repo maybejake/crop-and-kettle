@@ -1,0 +1,9 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "cnk_entity",
+      "prefix": "entity/"
+    }
+  ]
+}

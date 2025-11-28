@@ -1,5 +1,4 @@
-advancement = """
-{
+advancement = """{
   \"parent\": \"cnk:cookbook/root\",
   \"criteria\": {
     \"requirement\": {
@@ -22,8 +21,7 @@ advancement = """
 }
 """
 
-toast = """
-{
+toast = """{
   \"parent\": \"cnk:cookbook/toasts\",
   \"display\": {
     \"title\": [{\"translate\":\"book.cnk.toast.background\",\"font\":\"cnk.book:advancement\"},{\"translate\":\"book.cnk.toast.unlock.ingredient\",\"font\":\"cnk.book:advancement_text\",\"color\":\"#7b613a\"}],
@@ -42,11 +40,10 @@ toast = """
 }
 """
 
-grant_flag = """
-advancement grant @s[tag=!cnk.cookbook_unlock,tag=!cnk.no_toasts] only %(namespace)s:cookbook/%(name)s/toast
+grant_flag = """function cnk:cookbook/database/set/main {flag:"%(type)s.%(namespace)s.%(name)s"}
+execute if score $set_success cnk.dummy matches 0 run return run advancement revoke @s only cnk:cookbook/%(name)s/item
 
-function cnk:cookbook/database/set/main {flag:\"%(type)s.%(namespace)s.%(name)s\"}
-"""
+advancement grant @s[tag=!cnk.cookbook_unlock,tag=!cnk.no_toasts] only cnk:cookbook/%(name)s/toast"""
 
 font = "{\n    \"providers\": [\n%(characters)s    ]\n}"
 

@@ -1,6 +1,5 @@
 item modify entity @s weapon.mainhand {"function":"set_custom_data","tag":{fix:"idk why this works but it does"}}
 data modify entity @s DespawnDelay set value 2147483647
-data remove entity @s Offers.Recipes
 
 execute unless entity @p[distance=..24,gamemode=!spectator,gamemode=!creative] run return fail
 data modify storage cnk:temp scarecrow.target set from entity @p[distance=..24,gamemode=!spectator,gamemode=!creative] Pos

@@ -31,16 +31,6 @@
           }
         }
       }
-    ],
-    "minecraft:post_attack": [
-      {
-        "effect": {
-          "type": "minecraft:run_function",
-          "function": "cnk:booze/damaged"
-        },
-        "enchanted": "victim",
-        "affected": "victim"
-      }
     ]
   }
 }

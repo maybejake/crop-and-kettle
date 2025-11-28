@@ -1,0 +1,2 @@
+execute if entity @s[tag=cnk.wreath_open] if block ^ ^ ^-1 #minecraft:doors[open=false] run function cnk:wreath/update/back/close
+execute if entity @s[tag=!cnk.wreath_open] if block ~ ~ ~ #minecraft:doors[open=true] run function cnk:wreath/update/back/open

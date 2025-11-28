@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:food/festive_cookie/base",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {"cnk":{"festive_cookie":{"color":"brown"}}}
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "cnk:festive_cookie/brown"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

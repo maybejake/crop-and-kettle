@@ -148,6 +148,17 @@
           }
         }
       }
+    },
+    "cnk:mulled_wine": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"cnk":{"ingredient":{"type":"mulled_wine"}}}
+          }
+        }
+      }
     }
   }
 }
