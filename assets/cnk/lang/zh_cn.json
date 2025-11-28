@@ -237,9 +237,6 @@
   "subtitles.cnk.item.mr_kettle.squeak": "水壶先生发出吱吱声",
   "subtitles.cnk.block.candy_bowl.laugh": "糖果碗笑了",
 
-  "gui.cnk.cooking_pot": "\ua002\ua000",
-  "gui.cnk.distiller": "\u0003\ua010",
-
   "item.cnk.music_disc_dinner": "音乐唱片",
   "item.cnk.music_disc_dinner.desc": "Marius Chamberlin - 晚餐时光",
   "item.cnk.music_disc_meal": "音乐唱片",
@@ -277,12 +274,8 @@
   "cnk.meat_guide.hint": "高举我，世界将匍匐而来……路尽时，将我置祭坛，万物俯首沉默。",
   "cnk.shrine.1": "道路已开……血肉为门，思绪铸门……皆可屈，皆可破。它不来，它已至。",
 
-  "cnk.tooltip": "\ua001\ub001Crop & Kettle",
-
   "cnk.dialog.description": "一个温馨的烹饪数据包，增加新的食物、饮品及更多！",
   "cnk.dialog.info": "%1$s - %2$s\n作者：maybejake",
-  "cnk.version": "v1.1.4",
-  "cnk.update": "丰收季节",
   "cnk.dialog.website": "官网",
   "cnk.dialog.issues": "问题反馈",
   "cnk.dialog.settings": "设置",

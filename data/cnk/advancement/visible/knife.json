@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:iron_sword",
+      "id": "minecraft:stone_sword",
       "components": {
         "minecraft:item_model": "cnk:knife"
       }
@@ -19,7 +19,7 @@
       "conditions": {
         "items": [
             {
-            "items": "minecraft:iron_sword",
+            "items": "minecraft:stone_sword",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"knife":true}}
             }

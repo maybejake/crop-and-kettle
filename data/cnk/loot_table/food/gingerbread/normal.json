@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:food/gingerbread/base",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {"cnk":{"gingerbread":{"type":"normal"}}}
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "cnk:gingerbread/normal"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

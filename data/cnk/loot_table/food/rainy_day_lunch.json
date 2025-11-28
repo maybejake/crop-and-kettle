@@ -23,7 +23,7 @@
                     ]}
                   ]
                 },
-                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"rainy_day_lunch"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"rainy_day_lunch"},"placeable":{"model":"cnk:placeable/rainy_day_lunch"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
               }
             }

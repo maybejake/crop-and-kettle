@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:item,tag=!smithed.entity] if items entity @s contents *[minecraft:custom_data~{cnk:{death_item:true}}] at @s run function cnk:booze/death/effect

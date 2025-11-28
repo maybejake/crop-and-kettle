@@ -10,7 +10,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cnk:zzz_secret/dino_nugget_stego",
+          "value": "cnk:zzz_secret/dino_nugget_trex",
           "weight": 1
         },
         {

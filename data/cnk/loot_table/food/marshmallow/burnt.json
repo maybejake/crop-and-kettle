@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:food/marshmallow/base",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {"cnk":{"marshmallow":{"type":"burnt"}}}
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.burnt_marshmallow","fallback":"Burnt Marshmallow"},
+                "minecraft:item_model": "cnk:marshmallow/burnt",
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 0.3
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

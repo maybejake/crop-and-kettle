@@ -1,6 +1,8 @@
 data remove storage cnk:temp candy_bowl.color
 data modify storage cnk:temp candy_bowl.color set from entity @p[tag=cnk.interact_candy_bowl] SelectedItem.components."minecraft:custom_data".cnk.candy.color
 
+execute if data storage cnk:temp candy_bowl{color:"cane"} run advancement grant @p[tag=cnk.interact_candy_bowl] only cnk:visible/synergy
+
 execute unless data storage cnk:temp candy_bowl.color run return fail
 
 function cnk:candy_bowl/item/get_count with storage cnk:temp candy_bowl

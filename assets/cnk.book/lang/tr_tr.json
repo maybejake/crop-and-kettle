@@ -1,0 +1,23 @@
+{
+  "book.cnk.distilling_page.title": "Damıtılıyor",
+  "book.cnk.aging_page.title": "Yıllanıyor",
+
+  "book.cnk.section.front": "Kapak",
+  "book.cnk.section.staple": "Temel Yiyecekler",
+  "book.cnk.section.snack": "İçecekler ve Atıştırmalıklar",
+  "book.cnk.section.light": "Hafif Yemekler",
+  "book.cnk.section.hearty": "Doyurucu Yemekler",
+  "book.cnk.section.feast": "Ziyafetler",
+  "book.cnk.section.dessert": "Tatlılar",
+
+  "book.cnk.crop_seeds.title": "Tohumlar",
+
+  "book.cnk.toast.unlock.seed": "Tohum açıldı!",
+  "book.cnk.toast.unlock.ingredient": "Malzeme açıldı!",
+  "book.cnk.toast.unlock.recipe": "Tarif açıldı!",
+  "book.cnk.toast.unlock.ritual": "Ritüel açıldı!",
+  "book.cnk.toast.unlock.weapon": "Silah dövüldü!",
+
+  "book.cnk.previous_page.hover": "Önceki sayfa",
+  "book.cnk.next_page.hover": "Sonraki sayfa"
+}

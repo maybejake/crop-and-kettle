@@ -1,7 +1,4 @@
-#cooldown
-execute store result score @s cnk.scythe_cooldown run time query gametime
-scoreboard players add @s cnk.scythe_cooldown 5
-schedule function cnk:scythe/cooldown 5t append
+scoreboard players set @s cnk.use_cooldown 5
 
 execute if predicate cnk:scythe/offhand run tag @s add cnk.scythe_offhand
 execute if predicate cnk:scythe/mainhand run tag @s add cnk.scythe_mainhand

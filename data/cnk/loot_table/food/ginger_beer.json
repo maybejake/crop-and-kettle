@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.ginger_beer","fallback":"Ginger Beer"},
+                "minecraft:item_model": "cnk:ginger_beer",
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "saturation": 2,
+                  "can_always_eat": true
+                },
+                "minecraft:consumable": {
+                  "animation":"drink",
+                  "sound":"minecraft:entity.generic.drink",
+                  "has_consume_particles":false
+                },
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"ginger_beer"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                "minecraft:use_remainder": {"id":"minecraft:glass_bottle","count":1}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "cnk:block/pail/base"
+      },
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/1", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 1
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/2", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 2
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/3", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 3
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/4", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 4
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/5", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 5
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/6", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 6
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/7", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 7
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/8", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 8
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/9", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 9
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/10", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 10
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/11", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 11
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/12", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 12
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/13", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 13
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/14", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 14
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/15", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 15
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/16", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 16
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/17", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 17
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/18", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 18
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/19", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 19
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/20", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 20
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/21", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 21
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/22", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 22
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/23", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 23
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/24", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 24
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/25", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 25
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/26", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 26
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/27", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 27
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/28", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 28
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/29", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 29
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/30", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 30
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/31", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 31
+          },
+          {
+            "model": {"type":"minecraft:model", "model":"cnk:block/pail/32", "tints":[{"type":"custom_model_data", "default":[0.25, 0.46, 0.89]}]},
+            "threshold": 32
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      }
+    ]
+  }
+}

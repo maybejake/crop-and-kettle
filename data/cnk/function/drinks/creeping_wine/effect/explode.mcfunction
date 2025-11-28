@@ -24,4 +24,7 @@ scoreboard players set @s cnk.wine_time_cooldown 1
 tag @s add cnk.creeping_wine_marker_second
 
 execute store result score $time cnk.dummy run time query gametime
-execute if score @s cnk.wine_time >= $time cnk.dummy run kill @s
+execute if score @s cnk.wine_time >= $time cnk.dummy run return run kill @s
+
+#loop
+function cnk:drinks/creeping_wine/effect/explode

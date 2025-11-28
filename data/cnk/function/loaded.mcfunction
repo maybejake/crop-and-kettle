@@ -54,6 +54,7 @@ scoreboard objectives add cnk.use_lectern minecraft.custom:minecraft.interact_wi
 scoreboard objectives add cnk.cookbook_buttons trigger
 
 scoreboard objectives add cnk.cookbook_current_page dummy
+scoreboard objectives add cnk.cookbook_previous_page dummy
 
 scoreboard objectives add cnk.distiller_book_buttons trigger
 
@@ -66,12 +67,15 @@ scoreboard objectives add cnk.foodie_book_buttons trigger
 scoreboard objectives add cnk.seed_cooldown dummy
 
 scoreboard objectives add cnk.bottle_count dummy
-scoreboard objectives add cnk.attack_count dummy
 
 scoreboard objectives add cnk.crop_version dummy
 
 scoreboard objectives add cnk.candy_count dummy
 
 scoreboard objectives add cnk.treat_basket_timer dummy
+
+scoreboard objectives add cnk.use_cooldown dummy
+
+scoreboard objectives add cnk.max_quantity dummy
 
 scoreboard players set $installed cnk.dummy 1

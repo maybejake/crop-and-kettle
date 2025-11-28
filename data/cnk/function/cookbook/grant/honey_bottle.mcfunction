@@ -1,3 +1,4 @@
-advancement grant @s[tag=!cnk.cookbook_unlock,tag=!cnk.no_toasts] only cnk:cookbook/honey_bottle/toast
-
 function cnk:cookbook/database/set/main {flag:"item.minecraft.honey_bottle"}
+execute unless score $set_success cnk.dummy matches 1 run return run advancement revoke @s only cnk:cookbook/honey_bottle/item
+
+advancement grant @s[tag=!cnk.cookbook_unlock,tag=!cnk.no_toasts] only cnk:cookbook/honey_bottle/toast

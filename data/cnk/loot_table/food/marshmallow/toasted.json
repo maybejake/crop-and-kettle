@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:food/marshmallow/base",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {"cnk":{"marshmallow":{"type":"toasted"}}}
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.toasted_marshmallow","fallback":"Toasted Marshmallow"},
+                "minecraft:item_model": "cnk:marshmallow/toasted",
+                "minecraft:food": {
+                  "nutrition": 5,
+                  "saturation": 1.3
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

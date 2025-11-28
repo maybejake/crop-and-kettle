@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "cnk:spirit_sprite"
+      }
+    },
+    "title": {"translate":"advancement.cnk.spirit_sprite.name","fallback":"Full-Bodied Apparition"},
+    "description": [{"translate":"advancement.cnk.spirit_sprite.desc","fallback":"Magically age wine by using a spirit sprite on a wine rack"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "parent": "cnk:visible/wine_rack",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

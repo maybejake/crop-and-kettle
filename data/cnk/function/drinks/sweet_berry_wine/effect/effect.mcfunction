@@ -1,1 +1,1 @@
-$effect give @s minecraft:regeneration $(duration) 0 false
+$effect give @s minecraft:strength $(duration) 0 false

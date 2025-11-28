@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "cbc",
+    "c c"
+  ],
+  "key": {
+    "c": [
+      "minecraft:copper_ingot"
+    ],
+    "b": [
+      "minecraft:bucket"
+    ]
+  },
+  "result": {
+    "id": "minecraft:copper_helmet",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {"translate":"item.cnk.pail_helmet","fallback":"Pail Helmet"},
+      "minecraft:item_model": "cnk:pail_helmet",
+      "minecraft:custom_data": {"cnk":{"pail_helmet":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+      "minecraft:equippable": {"camera_overlay":"cnk:misc/pailblur", "slot":"head"}
+    }
+  }
+}

@@ -15,9 +15,16 @@
   "parent": "cnk:visible/root",
   "criteria": {
     "": {
-      "trigger": "minecraft:recipe_crafted",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "recipe_id": "cnk:milk_bottle"
+        "items": [
+            {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"milk_bottle"}}}
+            }
+          }
+        ]
       }
     }
   }

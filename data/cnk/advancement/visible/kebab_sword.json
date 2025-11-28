@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:iron_sword",
+      "id": "minecraft:stone_sword",
       "components": {
         "minecraft:item_model": "cnk:kebab_sword"
       }
@@ -13,14 +13,14 @@
     "hidden": true,
     "frame": "goal"
   },
-  "parent": "cnk:visible/root",
+  "parent": "cnk:visible/cooking_pot",
   "criteria": {
     "": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_sword",
+            "items": "minecraft:stone_sword",
             "components": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"kebab_sword"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}
             }

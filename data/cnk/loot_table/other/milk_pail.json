@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.milk_pail","fallback":"Milk Pail"},
+                "minecraft:item_model": "cnk:milk_pail_item",
+                "minecraft:custom_data": {"cnk":{"block":{"type":"pail"},"pail":{"liquid":"milk","quantity":0}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                "minecraft:profile": {"texture":"cnk:block/transparent_head"},
+                "tooltip_display": {"hidden_components":["minecraft:profile"]},
+                "minecraft:rarity":"common",
+                "!minecraft:equippable": {},
+                "minecraft:max_stack_size": 1,
+                "minecraft:consumable":{"consume_seconds":2147483648,"animation":"none","sound":"intentionally_empty","has_consume_particles":false}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

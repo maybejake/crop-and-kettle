@@ -17,6 +17,7 @@ execute if data entity @s item.components."minecraft:custom_data".candy.magenta 
 execute if data entity @s item.components."minecraft:custom_data".candy.pink run data modify storage cnk:temp candy_bowl.items append value "pink"
 execute if data entity @s item.components."minecraft:custom_data".candy.corn run data modify storage cnk:temp candy_bowl.items append value "corn"
 execute if data entity @s item.components."minecraft:custom_data".candy.caramel run data modify storage cnk:temp candy_bowl.items append value "caramel"
+execute if data entity @s item.components."minecraft:custom_data".candy.cane run data modify storage cnk:temp candy_bowl.items append value "cane"
 
 execute store result storage cnk:temp candy_bowl.item_count int 1 run data get storage cnk:temp candy_bowl.items
 function cnk:candy_bowl/item/pick_index with storage cnk:temp candy_bowl

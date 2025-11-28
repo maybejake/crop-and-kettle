@@ -1,27 +1,30 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "cnk:block/wine_rack/top_bottom",
-    "tints": [
+    "type": "minecraft:composite",
+    "models": [
       {
-        "type": "custom_model_data",
-        "default": [1.0, 1.0, 1.0],
-        "index": 0
+        "type": "minecraft:model",
+        "model": "cnk:block/wine_rack/block"
       },
       {
-        "type": "custom_model_data",
-        "default": [1.0, 1.0, 1.0],
-        "index": 1
+        "type": "minecraft:model",
+        "model": "cnk:block/wine_rack/wine_top",
+        "tints": [
+          {"type":"custom_model_data","default":[1.0, 1.0, 1.0],"index":0},
+          {"type":"custom_model_data","default":[1.0, 1.0, 1.0],"index":1},
+          {"type":"custom_model_data","default":[1.0, 1.0, 1.0],"index":2},
+          {"type":"custom_model_data","default":[1.0, 1.0, 1.0],"index":3}
+        ]
       },
       {
-        "type": "custom_model_data",
-        "default": [1.0, 1.0, 1.0],
-        "index": 2
-      },
-      {
-        "type": "custom_model_data",
-        "default": [1.0, 1.0, 1.0],
-        "index": 3
+        "type": "minecraft:model",
+        "model": "cnk:block/wine_rack/wine_bottom",
+        "tints": [
+          {"type":"custom_model_data","default":[1.0, 1.0, 1.0],"index":0},
+          {"type":"custom_model_data","default":[1.0, 1.0, 1.0],"index":1},
+          {"type":"custom_model_data","default":[1.0, 1.0, 1.0],"index":2},
+          {"type":"custom_model_data","default":[1.0, 1.0, 1.0],"index":3}
+        ]
       }
     ]
   }

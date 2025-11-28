@@ -10,24 +10,12 @@
           "type": "minecraft:model",
           "model": "cnk:item/leaf_garland"
         }
-      },
-      {
-        "when": [
-          "gui",
-          "ground",
-          "fixed",
-          "firstperson_righthand",
-          "firstperson_lefthand",
-          "thirdperson_righthand",
-          "thirdperson_lefthand",
-          "none"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "cnk:item/leaf_garland_item"
-        }
       }
     ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "cnk:item/leaf_garland_item"
+    },
     "property": "minecraft:display_context"
   }
 }

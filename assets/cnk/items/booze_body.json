@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "cnk:entity/booze_body"
+        },
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "cnk:entity/booze_body_hurt"
+        }
+      }
+    ]
+  }
+}

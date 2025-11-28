@@ -1,0 +1,6 @@
+{
+  "parent":"cnk:entity/spirit_sprite",
+  "textures": {
+    "0": "cnk:entity/spirit_sprite_hurt"
+  }
+}

@@ -4,7 +4,6 @@ $item modify entity @s weapon.mainhand {"function":"minecraft:set_components","c
         "components": { \
             "minecraft:item_name": {"translate":"item.cnk.treat_basket","fallback":"Treat Basket"}, \
             "minecraft:consumable": {"consume_seconds":0, "animation": "none", "sound": "intentionally_empty", "has_consume_particles": false}, \
-            "minecraft:use_effects": {"can_sprint":true, "speed_multiplier":1, "interact_vibrations":true}, \
             "!minecraft:food": {}, \
             "minecraft:item_model": "cnk:treat_basket", \
             "minecraft:use_cooldown": {"seconds":30, "cooldown_group": "cnk:treat_basket"}, \

@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:item_model": "cnk:plate_item"
+      }
+    },
+    "title": {"translate":"advancement.cnk.plate.name","fallback":"Serving Suggestion"},
+    "description": [{"translate":"advancement.cnk.plate.desc","fallback":"Elegantly display your food by placing it on a plate"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cnk:visible/cooking_pot",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

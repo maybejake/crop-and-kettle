@@ -50,6 +50,15 @@ execute \
 execute \
         if score $unique_items cnk.dummy matches 3 \
         if function cnk:distiller/crafting/generic/water if score $water_count cnk.dummy matches 1 \
+        if data storage cnk:temp distiller.Items[{id:"minecraft:wheat"}] \
+        if data storage cnk:temp distiller.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"ginger"}}}}}] \
+        if function cnk:distiller/crafting/liquid_check/ginger_beer \
+        if function cnk:distiller/crafting/short_lock \
+        run return run function cnk:recipes/distiller/ginger_beer
+
+execute \
+        if score $unique_items cnk.dummy matches 3 \
+        if function cnk:distiller/crafting/generic/water if score $water_count cnk.dummy matches 1 \
         if function cnk:distiller/crafting/generic/fruit if score $fruit_count cnk.dummy matches 1 \
         if data storage cnk:temp distiller.Items[{id:"minecraft:blaze_powder"}] \
         if function cnk:distiller/crafting/liquid_check/blazing_wine \
@@ -131,3 +140,22 @@ execute \
         if function cnk:distiller/crafting/liquid_check/apple_cider \
         if function cnk:distiller/crafting/lock \
         run return run function cnk:recipes/distiller/apple_cider
+
+execute \
+        if score $unique_items cnk.dummy matches 5 \
+        if function cnk:distiller/crafting/generic/water if score $water_count cnk.dummy matches 1 \
+        if data storage cnk:temp distiller.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"cinnamon"}}}}}] \
+        if data storage cnk:temp distiller.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"grapes"}}}}}] \
+        if data storage cnk:temp distiller.Items[{id:"minecraft:sweet_berries"}] \
+        if data storage cnk:temp distiller.Items[{id:"minecraft:honey_bottle"}] \
+        if function cnk:distiller/crafting/liquid_check/mulled_wine \
+        if function cnk:distiller/crafting/lock \
+        run return run function cnk:recipes/distiller/mulled_wine
+
+execute \
+        if score $unique_items cnk.dummy matches 2 \
+        if data storage cnk:temp distiller.Items[{id:"minecraft:ominous_bottle"}] \
+        if data storage cnk:temp distiller.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"grapes"}}}}}] \
+        if function cnk:distiller/crafting/liquid_check/booze_wine \
+        if function cnk:distiller/crafting/lock \
+        run return run function cnk:recipes/distiller/booze_wine

@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "cnk:candy_cane"
+      }
+    },
+    "title": {"translate":"advancement.cnk.synergy.name","fallback":"Seasonal Synergy"},
+    "description": [{"translate":"advancement.cnk.synergy.desc","fallback":"Settle an ancient feud by placing a candy cane in a candy bowl"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true,
+    "frame": "challenge"
+  },
+  "parent": "cnk:visible/candy_bowl",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

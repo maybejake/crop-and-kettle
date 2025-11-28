@@ -1,0 +1,2 @@
+execute if entity @s[tag=cnk.give_life,predicate=cnk:soul_fire] at @s run return run function cnk:mystery/give_life/awaken
+execute if entity @s[tag=cnk.marshmallow,predicate=cnk:campfire] at @s run return run function cnk:marshmallow/cook

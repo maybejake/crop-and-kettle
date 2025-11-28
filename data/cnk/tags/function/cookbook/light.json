@@ -12,6 +12,7 @@
     "cnk:cookbook/pages/mac_and_cheese/register",
     "cnk:cookbook/pages/mushroom_risotto/register",
     "cnk:cookbook/pages/music_disc_dinner/register",
+    "cnk:cookbook/pages/music_disc_greetings/register",
     "cnk:cookbook/pages/music_disc_meal/register",
     "cnk:cookbook/pages/music_disc_saute/register",
     "cnk:cookbook/pages/quesadilla/register",

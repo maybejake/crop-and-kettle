@@ -1,0 +1,4 @@
+execute positioned ~ ~ ~-0.51 as @e[type=minecraft:item_display,tag=cnk.wine_rack,distance=..0.1] at @s run return run function cnk:wine_rack/interact/sprite/on_wine_rack
+execute positioned ~ ~ ~0.51 as @e[type=minecraft:item_display,tag=cnk.wine_rack,distance=..0.1] at @s run return run function cnk:wine_rack/interact/sprite/on_wine_rack
+execute positioned ~-0.51 ~ ~ as @e[type=minecraft:item_display,tag=cnk.wine_rack,distance=..0.1] at @s run return run function cnk:wine_rack/interact/sprite/on_wine_rack
+execute positioned ~0.51 ~ ~ as @e[type=minecraft:item_display,tag=cnk.wine_rack,distance=..0.1] at @s run return run function cnk:wine_rack/interact/sprite/on_wine_rack

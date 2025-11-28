@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.pail_helmet","fallback":"Pail Helmet"},
+                "minecraft:item_model": "cnk:pail_helmet",
+                "minecraft:custom_data": {"cnk":{"pail_helmet":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                "minecraft:equippable": {"camera_overlay":"cnk:misc/pailblur", "slot":"head"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

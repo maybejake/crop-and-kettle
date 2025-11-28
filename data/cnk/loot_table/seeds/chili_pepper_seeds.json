@@ -11,8 +11,8 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.chili_pepper_seeds","fallback":"Chili Pepper Seeds"},
-                "minecraft:consumable":{"consume_seconds":2147483648},
                 "minecraft:use_effects": {"can_sprint":true, "speed_multiplier":1, "interact_vibrations":true},
+                "minecraft:consumable":{"consume_seconds":2147483648,"animation":"none","sound":"intentionally_empty","has_consume_particles":false},
                 "minecraft:food":{"nutrition":0,"saturation":0,"can_always_eat": true},
                 "minecraft:item_model": "cnk:chili_pepper_seeds",
                 "minecraft:custom_data": {"cnk":{"ingredient":{"type":"chili_pepper_seeds"},"seed":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},

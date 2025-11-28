@@ -1,0 +1,9 @@
+{
+  "description": {
+    "translate": "item.cnk.music_disc_greetings.desc",
+    "fallback": "Marius Chamberlin - Season's Greetings"
+  },
+  "comparator_output": 15,
+  "length_in_seconds": 203,
+  "sound_event": {"sound_id":"cnk:music_disc.greetings"}
+}

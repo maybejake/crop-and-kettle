@@ -1,1 +1,1 @@
-$loot spawn ~ ~0.25 ~ loot cnk:food/candy/$(candy_color)
+$loot spawn ~ ~0.25 ~ loot cnk:food/candy/$(color)

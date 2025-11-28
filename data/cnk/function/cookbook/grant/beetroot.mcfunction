@@ -1,3 +1,4 @@
-advancement grant @s[tag=!cnk.cookbook_unlock,tag=!cnk.no_toasts] only cnk:cookbook/beetroot/toast
-
 function cnk:cookbook/database/set/main {flag:"item.minecraft.beetroot"}
+execute unless score $set_success cnk.dummy matches 1 run return run advancement revoke @s only cnk:cookbook/beetroot/item
+
+advancement grant @s[tag=!cnk.cookbook_unlock,tag=!cnk.no_toasts] only cnk:cookbook/beetroot/toast

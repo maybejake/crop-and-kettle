@@ -1,5 +1,5 @@
 execute if entity @s[predicate=cnk:unbreaking/mainhand/all] if function cnk:cutting_board/cut/durability/unbreaking run return fail
-execute unless items entity @s weapon.mainhand minecraft:iron_sword[minecraft:custom_data~{cnk:{knife:true}}] run return fail
+execute unless items entity @s weapon.mainhand *[minecraft:custom_data~{cnk:{knife:true}}] run return fail
 
 #handle damage
 data modify storage cnk:temp knife.components set from entity @s SelectedItem.components

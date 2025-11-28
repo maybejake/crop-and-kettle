@@ -18,6 +18,7 @@ execute if data entity @s item.components."minecraft:custom_data".candy.magenta 
 execute if data entity @s item.components."minecraft:custom_data".candy.pink run function cnk:candy_bowl/item/remove_color {color:"pink"}
 execute if data entity @s item.components."minecraft:custom_data".candy.corn run function cnk:candy_bowl/item/remove_color {color:"corn"}
 execute if data entity @s item.components."minecraft:custom_data".candy.caramel run function cnk:candy_bowl/item/remove_color {color:"caramel"}
+execute if data entity @s item.components."minecraft:custom_data".candy.cane run function cnk:candy_bowl/item/remove_color {color:"cane"}
 
 
 function cnk:candy_bowl/update

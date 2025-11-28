@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:stone_sword",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -16,9 +16,10 @@
                 "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
                 "minecraft:max_damage": 326,
                 "minecraft:enchantable": {"value": 14},
-                "minecraft:consumable":{"consume_seconds":2147483648},
                 "minecraft:use_effects": {"can_sprint":true, "speed_multiplier":1, "interact_vibrations":true},
                 "minecraft:attack_range": {"max_reach":4, "max_creative_reach":6},
+                "minecraft:consumable":{"consume_seconds":2147483648,"animation":"none","sound":"intentionally_empty","has_consume_particles":false},
+                "minecraft:repairable": {"items": "minecraft:iron_ingot"},
                 "minecraft:attribute_modifiers":[
                   {
                     "type":"minecraft:attack_damage",
@@ -28,7 +29,7 @@
                     "slot":"mainhand",
                     "display": {
                       "type": "override",
-                      "value": {"translate":"item.cnk.iron_scythe.attack_damage","fallback":"7 Attack Damage","color":"dark_green"}
+                      "value": {"translate":"item.cnk.iron_scythe.attack_damage","fallback":" 7 Attack Damage","color":"dark_green"}
                     }
                   },
                   {
@@ -39,7 +40,7 @@
                     "slot":"mainhand",
                     "display": {
                       "type": "override",
-                      "value": {"translate":"item.cnk.scythe.attack_speed","fallback":"1.1 Attack Speed","color":"dark_green"}
+                      "value": {"translate":"item.cnk.scythe.attack_speed","fallback":" 1.1 Attack Speed","color":"dark_green"}
                     }
                   }
                 ]

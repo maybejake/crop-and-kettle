@@ -237,9 +237,6 @@
   "subtitles.cnk.item.mr_kettle.squeak": "Ngài Kettle thét lên",
   "subtitles.cnk.block.candy_bowl.laugh": "Tô kẹo cười ha ha",
 
-  "gui.cnk.cooking_pot": "\ua002\ua000",
-  "gui.cnk.distiller": "\u0003\ua010",
-
   "item.cnk.music_disc_dinner": "Đĩa nhạc",
   "item.cnk.music_disc_dinner.desc": "Marius Chamberlin - In Time For Dinner",
   "item.cnk.music_disc_meal": "Đĩa nhạc",
@@ -276,12 +273,9 @@
   
   "cnk.meat_guide.hint": "Hãy nâng tôi lên cao, và thế giới sẽ bò đến gặp bạn... nhưng khi con đường đã dẫn lối, hãy đặt tôi lên bàn thờ, và tất cả sẽ cúi đầu trong im lặng.",
   "cnk.shrine.1": "Con đường đã mở... một cánh cổng xác thịt, một cánh cửa tư tưởng... tất cả đều đang khuất phục, tất cả đều dang dở. Nó không đến. Nó đã ở đây.",
-
-  "cnk.tooltip": "\ua001\ub001Crop & Kettle",
   
   "cnk.dialog.description": "Một gói dữ liệu nấu ăn ấm cúng bổ sung thêm đồ ăn, đồ uống mới và nhiều hơn nữa!",
   "cnk.dialog.info": "%1$s - %2$s\nBởi maybejake",
-  "cnk.update": "Mùa Thu hoạch",
   "cnk.dialog.website": "Trang Web",
   "cnk.dialog.issues": "Vấn đề",
   "cnk.dialog.settings": "Cài đặt",

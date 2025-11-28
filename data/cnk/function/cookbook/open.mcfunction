@@ -15,7 +15,8 @@ function cnk:cookbook/set_section_states
 #make sure current page is set to something
 execute unless score @s cnk.cookbook_current_page matches 1.. run scoreboard players set @s cnk.cookbook_current_page 1
 
-#make sure the current page isn't more than the maximum
+#min max
+execute if score @s cnk.cookbook_current_page matches ..0 run scoreboard players set @s cnk.cookbook_current_page 1
 execute if score @s cnk.cookbook_current_page > $global_cookbook_page cnk.dummy run scoreboard players operation @s cnk.cookbook_current_page = $global_cookbook_page cnk.dummy
 
 #store number length for alignment
@@ -43,6 +44,12 @@ data modify storage cnk:temp cookbook.data.source_key set value "cnk.no_source"
 data modify storage cnk:temp cookbook.data.source_font set value "cnk.book:base"
 execute if data storage cnk:temp cookbook.current_page.source.key run data modify storage cnk:temp cookbook.data.source_key set from storage cnk:temp cookbook.current_page.source.key
 execute if data storage cnk:temp cookbook.current_page.source.font run data modify storage cnk:temp cookbook.data.source_font set from storage cnk:temp cookbook.current_page.source.font
+
+#handle stamp
+function cnk:cookbook/stamp/main
+
+#handle jump back
+function cnk:cookbook/return/main
 
 #check for dialog function
 execute if data storage cnk:temp cookbook.current_page.dialog_function run return run function cnk:cookbook/open_page with storage cnk:temp cookbook.current_page

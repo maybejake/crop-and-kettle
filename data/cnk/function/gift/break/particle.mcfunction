@@ -1,0 +1,1 @@
+$particle minecraft:item{item:{id:"minecraft:barrier",components:{"minecraft:item_model":"cnk:gift_item","minecraft:custom_model_data":{colors:$(colors)}}}} ~ ~0.3 ~ 0.4 0.3 0.4 0.1 20

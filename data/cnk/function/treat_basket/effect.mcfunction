@@ -13,7 +13,7 @@ execute if score $treat cnk.dummy matches 2 run function cnk:treat_basket/effect
 
 execute if score $treat cnk.dummy matches 3 run effect give @s minecraft:regeneration 30 1 false
 
-execute if score $treat cnk.dummy matches 4 run effect give @s minecraft:saturation 30 0 false
+execute if score $treat cnk.dummy matches 4 run effect give @s minecraft:saturation 600 0 false
 
 execute if score $treat cnk.dummy matches 5 positioned ~ ~3 ~ run function cnk:dev/spawn_random
 execute if score $treat cnk.dummy matches 5 positioned ~ ~3 ~ run playsound minecraft:entity.item_frame.remove_item neutral @a ~ ~ ~ 1 1

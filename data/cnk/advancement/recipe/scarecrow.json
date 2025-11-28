@@ -1,0 +1,13 @@
+{
+    "parent": "cnk:recipe/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "cnk:scarecrow"
+        ]
+    }
+}

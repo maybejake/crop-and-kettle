@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "c c",
+    "cbc",
+    "ccc"
+  ],
+  "key": {
+    "c": [
+      "minecraft:copper_ingot"
+    ],
+    "b": [
+      "minecraft:bucket"
+    ]
+  },
+  "result": {
+    "id": "minecraft:player_head",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {"translate":"item.cnk.pail","fallback":"Pail"},
+      "minecraft:item_model": "cnk:pail_item",
+      "minecraft:custom_data": {"cnk":{"block":{"type":"pail"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+      "minecraft:profile": {"texture":"cnk:block/transparent_head"},
+      "tooltip_display": {"hidden_components":["minecraft:profile"]},
+      "minecraft:rarity":"common",
+      "!minecraft:equippable": {},
+      "minecraft:consumable":{"consume_seconds":2147483648,"animation":"none","sound":"intentionally_empty","has_consume_particles":false}
+    }
+  }
+}

@@ -1,0 +1,2 @@
+data modify storage cnk:temp wine_rack.current_item.components."minecraft:custom_data".cnk.wine.spirited set value true
+data modify storage cnk:temp wine_rack.current_item.components."minecraft:lore" insert 1 value {translate:"item.cnk.wine.spirited",fallback:"Spirited",color:9447257,italic:false}

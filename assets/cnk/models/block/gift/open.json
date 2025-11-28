@@ -1,0 +1,7 @@
+{
+  "parent":"cnk:block/gift/base",
+  "textures": {
+    "0": "cnk:block/gift_open",
+    "particle": "cnk:block/gift_open"
+  }
+}

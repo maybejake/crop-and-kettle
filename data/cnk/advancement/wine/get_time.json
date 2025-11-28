@@ -1,4 +1,5 @@
 {
+  "parent": "cnk:cooldown",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:using_item",
