@@ -8,7 +8,7 @@
           {
             "items": "minecraft:poisonous_potato",
             "predicates": {
-              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"festive_cookie"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"festive_cookie"}}}
             }
           }
         ]

@@ -4,7 +4,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "cnk:entity/booze_head",
-		"particle": "cnk:entity/booze_head"
+		"particle": "cnk:entity/booze_head_particle"
 	},
 	"elements": [
 		{
@@ -35,6 +35,22 @@
 		}
 	],
 	"display": {
+		"thirdperson_righthand": {
+			"rotation": [45, -145, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [45, -145, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 180, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 180, 0]
+		},
 		"ground": {
 			"translation": [0, 2, 0],
 			"scale": [0.5, 0.5, 0.5]
@@ -52,7 +68,8 @@
 		},
 		"on_shelf": {
 			"rotation": [0, -180, 0],
-			"translation": [0, 0, -1.25]
+			"translation": [0, 0, -1.25],
+			"scale": [2, 2, 2]
 		}
 	},
 	"groups": [
