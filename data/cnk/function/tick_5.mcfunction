@@ -8,4 +8,4 @@ execute as @e[type=minecraft:item,tag=cnk.give_life,predicate=cnk:soul_fire] at 
 
 execute as @a[predicate=cnk:meat_guide/either] at @s run function cnk:mystery/guide/main
 
-execute store result score $tile_drops cnk.dummy run gamerule doTileDrops
+execute store result score $tile_drops cnk.dummy run gamerule block_drops

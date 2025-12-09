@@ -12,6 +12,7 @@
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.coffee_cherries","fallback":"Coffee Cherries"},
                 "minecraft:consumable":{"consume_seconds":2147483648},
+                "minecraft:use_effects": {"can_sprint":true, "speed_multiplier":1, "interact_vibrations":true},
                 "minecraft:food":{"nutrition":0,"saturation":0,"can_always_eat": true},
                 "minecraft:item_model": "cnk:coffee_cherries",
                 "minecraft:custom_data": {"cnk":{"ingredient":{"type":"coffee_cherries"},"seed":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
