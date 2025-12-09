@@ -8,4 +8,5 @@ execute if entity @s[tag=cnk.basin_setup] run return run loot spawn ~ ~ ~ loot c
 execute if entity @s[tag=cnk.calendar_setup] run return run loot spawn ~ ~ ~ loot cnk:tools/calendar
 execute if entity @s[tag=cnk.wine_rack_setup] run return run loot spawn ~ ~ ~ loot cnk:tools/wine_rack
 execute if entity @s[tag=cnk.mr_kettle_setup] run return run function cnk:mr_kettle/place
+execute if entity @s[tag=cnk.booze_head_setup] run return run function cnk:booze_head/place
 return fail

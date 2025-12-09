@@ -7,8 +7,8 @@
         "items": [
           {
             "items": "minecraft:stone_sword",
-            "components": {
-              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"kebab_sword"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"kebab_sword"}}}
             }
           }
         ]

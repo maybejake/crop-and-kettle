@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ minecraft:player_head{profile:{"texture":"cnk:block/transparent_head"},note_block_sound:"cnk:entity.booze.idle"} unless block ~ ~ ~ minecraft:player_wall_head{profile:{"texture":"cnk:block/transparent_head"},note_block_sound:"cnk:entity.booze.idle"} run function cnk:booze_head/break

@@ -1,20 +1,50 @@
 {
   "parent": "cnk:cookbook/root",
   "criteria": {
-    "requirement": {
+    "cnk:milk_bottle": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": "minecraft:poisonous_potato",
-            "components": {
-              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"milk_bottle"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"milk_bottle"}}}
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:milk_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:milk_bucket"
+          }
+        ]
+      }
+    },
+    "cnk:milk_pail": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:player_head",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"pail":{"liquid":"milk"}}}
             }
           }
         ]
       }
     }
   },
+  "requirements": [
+    [
+      "cnk:milk_bottle",
+      "minecraft:milk_bucket",
+      "cnk:milk_pail"
+    ]
+  ],
   "rewards": {
     "function": "cnk:cookbook/grant/milk_bottle"
   }

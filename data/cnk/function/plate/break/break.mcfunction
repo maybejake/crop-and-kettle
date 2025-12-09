@@ -1,5 +1,4 @@
-execute on passengers if entity @s[type=minecraft:item_display,tag=cnk.plate_item] if data entity @s item.components run function cnk:plate/item/item_macro_components with entity @s item
-execute on passengers if entity @s[type=minecraft:item_display,tag=cnk.plate_item] unless data entity @s item.components run function cnk:plate/item/item_macro with entity @s item
+execute on passengers if entity @s[type=minecraft:item_display,tag=cnk.plate_item] run function cnk:plate/item/remove
 execute on passengers run kill @s
 kill @s
 
