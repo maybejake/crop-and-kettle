@@ -15,19 +15,6 @@
   },
   "parent": "cnk:visible/basin",
   "criteria": {
-    "cnk:creeping_wine": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-            {
-            "items": "minecraft:poisonous_potato",
-            "predicates": {
-              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"creeping_wine"}}}
-            }
-          }
-        ]
-      }
-    },
     "cnk:blazing_wine": {
       "trigger": "minecraft:consume_item",
       "conditions": {
