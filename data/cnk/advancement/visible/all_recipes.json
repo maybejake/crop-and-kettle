@@ -984,7 +984,7 @@
           {
             "items": "minecraft:poisonous_potato",
             "predicates": {
-              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"music_disc_greetings"}}}
+              "minecraft:custom_data": {"cnk":{"disc":{"type":"greetings"}}}
             }
           }
         ]
@@ -1034,7 +1034,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:poisonous_potato",
+            "items": "minecraft:stone_sword",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"kebab_sword"}}}
             }
@@ -1114,7 +1114,7 @@
           {
             "items": "minecraft:poisonous_potato",
             "predicates": {
-              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"music_disc_dinner"}}}
+              "minecraft:custom_data": {"cnk":{"disc":{"type":"dinner"}}}
             }
           }
         ]
@@ -1127,7 +1127,7 @@
           {
             "items": "minecraft:poisonous_potato",
             "predicates": {
-              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"music_disc_meal"}}}
+              "minecraft:custom_data": {"cnk":{"disc":{"type":"meal"}}}
             }
           }
         ]
@@ -1140,7 +1140,7 @@
           {
             "items": "minecraft:poisonous_potato",
             "predicates": {
-              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"music_disc_saute"}}}
+              "minecraft:custom_data": {"cnk":{"disc":{"type":"saute"}}}
             }
           }
         ]

@@ -368,5 +368,80 @@
   
   "death.attack.cnk.booze_cork": "%1$s sai korkin päin lärviä",
   "death.attack.cnk.scarecrow_spin": "%1$s korjattiin pois sadon mukana",
-  "death.attack.cnk.pumpkin_missile": "%1$s ei pystynyt pakenemaan räjähtävää kurpitsaa"
+  "death.attack.cnk.pumpkin_missile": "%1$s ei pystynyt pakenemaan räjähtävää kurpitsaa",
+  
+    "item.cnk.candy_cane": "Tikkunekku",
+
+  "item.cnk.festive_cookie": "Juhlava keksi",
+  "item.cnk.festive_meal": "Juhlava ateria",
+  "item.cnk.festive_pudding": "Juhlava vanukas",
+
+  "item.cnk.fruitcake": "Hedelmäkakku",
+
+  "item.cnk.ginger": "Inkivääri",
+  "item.cnk.gingerbread": "Piparkakku",
+  "item.cnk.ginger_chicken": "Inkiväärikana",
+
+  "item.cnk.honey-glazed_ham": "Hunajakuorrutettu kinkku",
+
+  "item.cnk.marshmallow": "Vaahtokarkki",
+
+  "item.cnk.peppermint_bark": "Piparminttu kaarna",
+
+  "item.cnk.snow_cream": "Lumi-jäätelö",
+
+  "item.cnk.browned_marshmallow": "Ruskistettu vaahtokarkki",
+  "item.cnk.toasted_marshmallow": "Paahdettu vaahtokarkki",
+  "item.cnk.burnt_marshmallow": "Poltettu vaahtokarkki",
+  "item.cnk.volcanic_marshmallow": "Vulkaaninen vaahtokarkki",
+
+  "item.cnk.mulled_wine": "Glögi",
+
+  "item.cnk.ginger_beer": "Inkivääriolut",
+
+  "item.cnk.spirit_sprite": "Kummituksen kuvajainen",
+  "item.cnk.booze_head": "Booze Head",
+  "item.cnk.pail": "Kiulu",
+  "item.cnk.pail_helmet": "Kiulukypärä",
+  "item.cnk.water_pail": "Vesikiulu",
+  "item.cnk.milk_pail": "Maitokiulu",
+  "item.cnk.plate": "Lautanen",
+  "item.cnk.wreath": "Kranssi",
+  "item.cnk.gift_box": "Lahjapaketti",
+  "item.cnk.gift": "Lahja",
+
+  "tooltip.cnk.gift.tag": "Lähettänyt %1$s",
+
+  "tooltip.cnk.pail.quantity": "%1$s/%2$s pulloa",
+
+  "item.cnk.wine.spirited": "Kummiteltu",
+
+  "subtitles.cnk.entity.booze.idle": "Viina lorahtaa",
+  "subtitles.cnk.item.spirit_sprite.use": "Kummituksen kuvajainen nauraa",
+  "subtitles.cnk.item.spirit_sprite.idle": "Kummituksen kuvajainen leijuu",
+  "subtitles.cnk.block.wine_rack.spirited": "Viini kypsyy maagisesti",
+  "subtitles.cnk.entity.booze.teleport": "Viina teleporttaa",
+  "subtitles.cnk.entity.booze.hurt": "Viina loukkaantuu",
+  "subtitles.cnk.entity.booze.cork.pop": "Pullonkorkki poksahtaa",
+  "subtitles.cnk.entity.booze.fizz": "Viina porisee",
+  "subtitles.cnk.entity.booze.cork.hit": "Pullonkorkki osuu johonkin",
+  "subtitles.cnk.entity.booze.slosh": "Viina hölskyy",
+  "subtitles.cnk.entity.booze.bubble": "Viina kuplii",
+
+  "item.cnk.music_disc_greetings.desc": "Marius Chamberlin - Season's Greetings",
+
+  "advancement.cnk.spirit_sprite.name": "Menneiden viinojen henki",
+  "advancement.cnk.spirit_sprite.desc": "Maagisesti kypsytä viiniä käyttämällä kummituksen kuvajainen viinihyllyyn",
+  "advancement.cnk.plate.name": "Annosehdotus",
+  "advancement.cnk.plate.desc": "Asettele ruokasi lautaselle elegantisti",
+  "advancement.cnk.wreath.name": "Suuret kranssit",
+  "advancement.cnk.wreath.desc": "Rakenna kranssi",
+  "advancement.cnk.synergy.name": "Vuodenaikain vihamielisyyttä",
+  "advancement.cnk.synergy.desc": "Sovi muinainen riita asettamalla tikkunekku karkkikulhoon",
+  "advancement.cnk.present.name": "Antamisen lahja",
+  "advancement.cnk.present.desc": "Kääri lahja toisesta kädestäsi lahjapakettiin",
+
+  "book.cnk.foraging_page.title": "Ruoan etsiminen",
+  "book.cnk.return.active.text": "Palaa",
+  "book.cnk.stamp.plateable.text": "Tällä annoksella on erilainen\nulkomuoto kun aseteltu lautaselle!"
 }

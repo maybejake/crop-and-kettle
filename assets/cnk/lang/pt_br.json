@@ -39,6 +39,8 @@
   "item.cnk.chili_cheese_dog": "Cachorro-Quente com Chili e Queijo",
   "item.cnk.chili_pepper": "Pimenta",
   "item.cnk.chili_pepper_seeds": "Sementes de Pimenta",
+  "item.cnk.tomato": "Tomate",
+  "item.cnk.tomato_seeds": "Sementes de Tomate",
   "item.cnk.chips_and_dip": "Batatas com Molho",
   "item.cnk.chocolate_bar": "Barras de Chocolate",
   "item.cnk.chocolate_cake": "Bolo de Chocolate",
@@ -347,5 +349,80 @@
 
   "death.attack.cnk.booze_cork": "%1$s foi tampado",
   "death.attack.cnk.scarecrow_spin": "%1$s foi colhido",
-  "death.attack.cnk.pumpkin_missile": "%1$s não conseguiu escapar de uma abóbora explosiva"
+  "death.attack.cnk.pumpkin_missile": "%1$s não conseguiu escapar de uma abóbora explosiva",
+
+    "item.cnk.candy_cane": "Bengala Doce",
+  
+  "item.cnk.festive_cookie": "Biscoito Festivo",
+  "item.cnk.festive_meal": "Refeição Festiva",
+  "item.cnk.festive_pudding": "Pudim Festivo",
+
+  "item.cnk.fruitcake": "Bolo de Frutas",
+
+  "item.cnk.ginger": "Gengibre",
+  "item.cnk.gingerbread": "Biscoito de Gengibre",
+  "item.cnk.ginger_chicken": "Frango com Gengibre",
+
+  "item.cnk.honey-glazed_ham": "Presunto com Mel",
+    
+  "item.cnk.marshmallow": "Marshmallow",
+
+  "item.cnk.peppermint_bark": "Casca de Hortelã",
+
+  "item.cnk.snow_cream": "Creme de Neve",
+
+  "item.cnk.browned_marshmallow": "Marshmallow Assado",
+  "item.cnk.toasted_marshmallow": "Marshmallow Tostado",
+  "item.cnk.burnt_marshmallow": "Marshmallow Queimado",
+  "item.cnk.volcanic_marshmallow": "Marshmallow Vulcanizado",
+
+"item.cnk.mulled_wine": "Vinho Quente",
+
+"item.cnk.ginger_beer": "Cerveja de Gengibre",
+
+"item.cnk.spirit_sprite": "Fantasma Etéreo",
+"item.cnk.booze_head": "Cabeça de Embriablaze",
+"item.cnk.pail": "Balde",
+"item.cnk.pail_helmet": "Elmo de Galão",
+"item.cnk.water_pail": "Galão de Água",
+"item.cnk.milk_pail": "Galão de Leite",
+"item.cnk.plate": "Prato",
+"item.cnk.wreath": "Guirlanda",
+"item.cnk.gift_box": "Caixa de Presente",
+"item.cnk.gift": "Presente",
+
+"tooltip.cnk.gift.tag": "De %1$s",
+
+"tooltip.cnk.pail.quantity": "%1$s/%2$s Garrafas",
+
+"item.cnk.wine.spirited": "Fantasmado",
+
+"subtitles.cnk.entity.booze.idle": "Fantasma Etéreo borbulha",
+"subtitles.cnk.item.spirit_sprite.use": "Fantasma Etéreo ri",
+"subtitles.cnk.item.spirit_sprite.idle": "Fantasma Etéreo flutua",
+"subtitles.cnk.block.wine_rack.spirited": "Vinho envelhece magicamente",
+"subtitles.cnk.entity.booze.teleport": "Embriablaze teletransporta",
+"subtitles.cnk.entity.booze.hurt": "Embriablaze atingido",
+"subtitles.cnk.entity.booze.cork.pop": "Rolha estoura",
+"subtitles.cnk.entity.booze.fizz": "Embriablaze chia",
+"subtitles.cnk.entity.booze.cork.hit": "Rolha acerta algo",
+"subtitles.cnk.entity.booze.slosh": "Embriablaze chacoalha",
+"subtitles.cnk.entity.booze.bubble": "Embriablaze borbulha",
+
+"item.cnk.music_disc_greetings.desc": "Marius Chamberlin - Season's Greetings",
+
+"advancement.cnk.spirit_sprite.name":"Aparição Corpórea",
+"advancement.cnk.spirit_sprite.desc":"Envelheça vinho magicamente usando um Fantasma Etéreo em uma adega",
+"advancement.cnk.plate.name":"Sugestão de Serviço",
+"advancement.cnk.plate.desc":"Exiba sua comida com elegância colocando-a em um prato",
+"advancement.cnk.wreath.name":"Guernial",
+"advancement.cnk.wreath.desc":"Crie uma Guirlanda",
+"advancement.cnk.synergy.name":"Sinergia Sazonal",
+"advancement.cnk.synergy.desc":"Acalme uma antiga rivalidade colocando uma Bengala Doce em uma tigela de doces",
+"advancement.cnk.present.name":"O Dom de Presentear",
+"advancement.cnk.present.desc":"Embrulhe um item da sua mão secundária em uma Caixa de Presente",
+
+"book.cnk.foraging_page.title": "Coleta",
+"book.cnk.return.active.text": "Voltar",
+"book.cnk.stamp.plateable.text": "Este prato ganha uma\naparência especial ao ser servido!"
 }
