@@ -367,5 +367,80 @@
   
   "death.attack.cnk.booze_cork": "%1$s đã bị đóng nút",
   "death.attack.cnk.scarecrow_spin": "%1$s đã bị thu hoạch",
-  "death.attack.cnk.pumpkin_missile": "%1$s đã không thể thoát khỏi một trái bí ngô phát nổ"
+  "death.attack.cnk.pumpkin_missile": "%1$s đã không thể thoát khỏi một trái bí ngô phát nổ",
+
+  "item.cnk.candy_cane": "Kẹo Mía",
+  
+  "item.cnk.festive_cookie": "Bánh quy Lễ hội",
+  "item.cnk.festive_meal": "Bữa tiệc Lễ hội",
+  "item.cnk.festive_pudding": "Bánh Pudding ễ hội",
+
+  "item.cnk.fruitcake": "Bánh Trái cây",
+
+  "item.cnk.ginger": "Gừng",
+  "item.cnk.gingerbread": "Bánh Gừng",
+  "item.cnk.ginger_chicken": "Gà Gừng",
+
+  "item.cnk.honey-glazed_ham": "Giăm bông tráng Mật ong",
+    
+  "item.cnk.marshmallow": "Marshmallow",
+
+  "item.cnk.peppermint_bark": "Sô cô la Bạc hà",
+
+  "item.cnk.snow_cream": "Kem Tuyết",
+
+  "item.cnk.browned_marshmallow": "Marshmallow nâu",
+  "item.cnk.toasted_marshmallow": "Marshmallow nướng",
+  "item.cnk.burnt_marshmallow": "Marshmallow cháy",
+  "item.cnk.volcanic_marshmallow": "Marshmallow nham thạch",
+
+  "item.cnk.mulled_wine": "Rượu vang nóng",
+
+  "item.cnk.ginger_beer": "Bia Gừng",
+
+  "item.cnk.spirit_sprite": "Tinh Tươi",
+  "item.cnk.booze_head": "Đầu Booze",
+  "item.cnk.pail": "Vại",
+  "item.cnk.pail_helmet": "Nón Vại",
+  "item.cnk.water_pail": "Vại Nước",
+  "item.cnk.milk_pail": "Vại Sữa",
+  "item.cnk.plate": "Đĩa",
+  "item.cnk.wreath": "Vòng hoa Giáng sinh",
+  "item.cnk.gift_box": "Hộp Quà",
+  "item.cnk.gift": "Quà",
+  
+  "tooltip.cnk.gift.tag": "Từ %1$s",
+  
+  "tooltip.cnk.pail.quantity": "%1$s/%2$s Chai",
+
+  "item.cnk.wine.spirited": "Được nhập hồn",
+
+  "subtitles.cnk.entity.booze.idle": "Booze đổ róc rách",
+  "subtitles.cnk.item.spirit_sprite.use": "Tinh Tươi cười haha",
+  "subtitles.cnk.item.spirit_sprite.idle": "Tinh Tươi lơ lẩn",
+  "subtitles.cnk.block.wine_rack.spirited": "Rượu vang lâu năm một cách thần kì",
+  "subtitles.cnk.entity.booze.teleport": "Booze dịch chuyển",
+  "subtitles.cnk.entity.booze.hurt": "Booze bị thương",
+  "subtitles.cnk.entity.booze.cork.pop": "Nút bần Booze văng ra",
+  "subtitles.cnk.entity.booze.fizz": "Booze sủi bọt",
+  "subtitles.cnk.entity.booze.cork.hit": "Nút bần Booze chúng thứ gì đó",
+  "subtitles.cnk.entity.booze.slosh": "Booze bán tung tóe",
+  "subtitles.cnk.entity.booze.bubble": "Booze nổi bọt",
+
+  "item.cnk.music_disc_greetings.desc": "Marius Chamberlin - Season's Greetings",
+
+  "advancement.cnk.spirit_sprite.name":"Hiện thân hoàn toàn",
+  "advancement.cnk.spirit_sprite.desc":"Làm Rượu vang lâu năm một cách thần kì bằng cách sử dụng Tinh tươi trên Giá Đựng rượu",
+  "advancement.cnk.plate.name":"Gợi ý phục vụ",
+  "advancement.cnk.plate.desc":"Trưng bày đồ ăn một cách trang nhã bằng cách đặt nó lên đĩa",
+  "advancement.cnk.wreath.name":"Vòng tay ấm áp",
+  "advancement.cnk.wreath.desc":"Chế tạo một cái Vòng hoa Giáng sinh",
+  "advancement.cnk.synergy.name":"Cộng hưởng theo Mùa",
+  "advancement.cnk.synergy.desc":"Giải quyết mối thù truyền kiếp bằng cách đặt một cây Kẹo mía vào Tô kẹo",
+  "advancement.cnk.present.name":"Món quà tặng",
+  "advancement.cnk.present.desc":"Gói một món đồ bạn đang cầm trong tay vào một hộp quà tặng",
+
+  "book.cnk.foraging_page.title": "Lang thang",
+  "book.cnk.return.active.text": "Trở lại",
+  "book.cnk.stamp.plateable.text": "Món ăn này có vẻ ngoài đặc biệt\nkhi được bày ra đĩa!"
 }
