@@ -260,8 +260,6 @@
       }
     ],
     "subtitle": "subtitles.cnk.block.candy_bowl.laugh"
-<<<<<<< HEAD
-=======
   },
   "entity.booze.idle": {
     "sounds": [
@@ -522,6 +520,5 @@
       }
     ],
     "subtitle": "subtitles.cnk.entity.booze.bubble"
->>>>>>> 7d47630 (Finished content)
   }
 }
