@@ -2,7 +2,7 @@
   "model": {
     "type": "minecraft:condition",
     "property": "minecraft:has_component",
-    "component": "cow/variant",
+    "component": "minecraft:damage_resistant",
     "on_true": {
       "type": "minecraft:model",
       "model": "cnk:item/netherite_scythe"
