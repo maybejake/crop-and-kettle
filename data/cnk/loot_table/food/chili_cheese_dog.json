@@ -23,7 +23,7 @@
                     ]}
                   ]
                 },
-                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"chili_cheese_dog"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"chili_cheese_dog"},"placeable":{"model":"cnk:placeable/chili_cheese_dog"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
               }
             }

@@ -231,8 +231,8 @@
   "advancement.cnk.cutting_board.name":"Kesme Tahtası",
   "advancement.cnk.cutting_board.desc":"Bir kesme tahtası yap",
 
-  "advancement.cnk.diamond_scythe.name":"Tarama",
-  "advancement.cnk.diamond_scythe.desc":"Elmas orak yap",
+  "advancement.cnk.netherite_scythe.name":"Tarama",
+  "advancement.cnk.netherite_scythe.desc":"Elmas orak yap",
 
   "advancement.cnk.distiller.name":"Demlemeye Şerefe",
   "advancement.cnk.distiller.desc":"Bir damıtıcı yaparak yeni içecekler demlemeye başla",
@@ -243,8 +243,8 @@
   "advancement.cnk.faucet.name":"Sızdırmaz",
   "advancement.cnk.faucet.desc":"Kazanlarını doldurmak için bir musluk yap",
 
-  "advancement.cnk.iron_scythe.name":"Zorlu İş",
-  "advancement.cnk.iron_scythe.desc":"Demir orak yaparak hasadı kolaylaştır",
+  "advancement.cnk.scythe.name":"Zorlu İş",
+  "advancement.cnk.scythe.desc":"Demir orak yaparak hasadı kolaylaştır",
 
   "advancement.cnk.kebab_sword.name":"Lezzetli Ama Ölümcül",
   "advancement.cnk.kebab_sword.desc":"Kebap kılıcını pişir",
