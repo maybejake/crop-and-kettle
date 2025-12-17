@@ -1,0 +1,13 @@
+{
+  "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+            "recipe_id": "minecraft:netherite_sword_smithing"
+        }
+      }
+  },
+  "rewards": {
+      "function": "cnk:scythe/upgrade/main"
+  }
+}

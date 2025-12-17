@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_sword",
+      "components": {
+        "minecraft:item_model": "cnk:netherite_scythe"
+      }
+    },
+    "title": {"translate":"advancement.cnk.netherite_scythe.name","fallback":"Field Tested"},
+    "description": [{"translate":"advancement.cnk.netherite_scythe.desc","fallback":"Use a netherite ingot to upgrade a scythe, and feel all the better for it"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "parent": "cnk:visible/scythe",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+            {
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"scythe":true,"netherite":true}}
+            }
+          }
+        ]
+      }
+    }
+  }
+}

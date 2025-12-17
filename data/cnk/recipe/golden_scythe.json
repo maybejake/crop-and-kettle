@@ -1,42 +1,38 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "ddd",
-    "d s",
+    "ggg",
+    "g s",
     "  s"
   ],
   "key": {
-    "d": [
-      "minecraft:diamond"
-    ],
+    "p": "minecraft:gold_ingot",
     "s": [
       "minecraft:stick"
     ]
   },
   "result": {
-    "id": "minecraft:diamond_sword",
+    "id": "minecraft:golden_sword",
     "count": 1,
     "components": {
-      "minecraft:item_name": {"translate":"item.cnk.diamond_scythe","fallback":"Diamond Scythe"},
-      "minecraft:item_model": "cnk:diamond_scythe",
-      "minecraft:custom_data": {"cnk":{"scythe":true,"diamond":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:item_name": {"translate":"item.cnk.golden_scythe","fallback":"Golden Scythe"},
+      "minecraft:item_model": "cnk:golden_scythe",
+      "minecraft:custom_data": {"cnk":{"scythe":true,"gold":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
       "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
-      "minecraft:max_damage": 2030,
-      "minecraft:enchantable": {"value": 10},
-      "minecraft:use_effects": {"can_sprint":true, "speed_multiplier":1, "interact_vibrations":true},
-      "minecraft:attack_range": {"max_reach":4, "max_creative_reach":6},
+      "minecraft:max_damage": 42,
+      "minecraft:enchantable": {"value": 22},
       "minecraft:consumable":{"consume_seconds":2147483648,"animation":"none","sound":"intentionally_empty","has_consume_particles":false},
-      "minecraft:repairable": {"items": "minecraft:diamond"},
+      "minecraft:repairable": {"items": "minecraft:gold_ingot"},
       "minecraft:attribute_modifiers":[
         {
           "type":"minecraft:attack_damage",
-          "id":"cnk:diamond_scythe",
-          "amount":8,
+          "id":"cnk:wooden_scythe",
+          "amount":5,
           "operation":"add_value",
           "slot":"mainhand",
           "display": {
             "type": "override",
-            "value": {"translate":"item.cnk.diamond_scythe.attack_damage","fallback":" 8 Attack Damage","color":"dark_green"}
+            "value": {"translate":"item.cnk.wooden_scythe.attack_damage","fallback":" 5 Attack Damage","color":"dark_green"}
           }
         },
         {
