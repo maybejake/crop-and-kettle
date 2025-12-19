@@ -298,8 +298,6 @@
   "advancement.cnk.cooking_pot.desc":"Chế tạo một chiếc Nồi nấu ăn",
   "advancement.cnk.cutting_board.name":"Thớt chặt",
   "advancement.cnk.cutting_board.desc":"Chế tạo một cái Thớt",
-  "advancement.cnk.netherite_scythe.name":"Thử nghiệm thực tiễn",
-  "advancement.cnk.netherite_scythe.desc":"Chế tạo một cái Lưỡi hái kim cương",
   "advancement.cnk.distiller.name":"Chúc mừng pha chế!",
   "advancement.cnk.distiller.desc":"Bắt đầu pha chế đồ uống mới bằng cách chế tạo Máy chưng cất",
   "advancement.cnk.drink_oil.name":"Một ý tưởng tệ",
@@ -307,7 +305,9 @@
   "advancement.cnk.faucet.name":"Ra ngoài",
   "advancement.cnk.faucet.desc":"Tạo một Vòi nước để đổ đầy vạc của bạn",
   "advancement.cnk.scythe.name":"Tử thần",
-  "advancement.cnk.scythe.desc":"Thu hoạch mùa màng dễ dàng hơn bằng cách chế tạo Lưỡi hái sắt",
+  "advancement.cnk.scythe.desc":"Việc thu hoạch mùa màng sẽ trở nên dễ dàng hơn nhờ chế tạo một chiếc Lưỡi hái",
+  "advancement.cnk.netherite_scythe.name":"Thử Nghiệm Thực tiễn",
+  "advancement.cnk.netherite_scythe.desc":"Hãy dùng thỏi Netherit để nâng cấp Lưỡi hái, và bạn sẽ cảm thấy tuyệt vời hơn rất nhiều.", 
   "advancement.cnk.kebab_sword.name":"Ngon tuyệt nhưng chết người",
   "advancement.cnk.kebab_sword.desc":"Nấu thanh kiếm kebab",
   "advancement.cnk.knife.name":"Ngắn mà Sác",
@@ -442,5 +442,10 @@
 
   "book.cnk.foraging_page.title": "Lang thang",
   "book.cnk.return.active.text": "Trở lại",
-  "book.cnk.stamp.plateable.text": "Món ăn này có vẻ ngoài đặc biệt\nkhi được bày ra đĩa!"
+  "book.cnk.stamp.plateable.text": "Món ăn này có vẻ ngoài đặc biệt\nkhi được bày ra đĩa!",
+  
+  "item.cnk.wooden_scythe": "Lưỡi hái Gỗ",
+  "item.cnk.copper_scythe": "Lưỡi hái Đồng",
+  "item.cnk.golden_scythe": "Lưỡi hái Vangf",
+  "item.cnk.netherite_scythe": "Lưỡi hái Nethetherit"
 }
