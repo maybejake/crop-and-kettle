@@ -1,6 +1,7 @@
 {
   "parent":"cnk:block/scarecrow_base_2",
   "textures": {
-    "0": "cnk:block/scarecrow"
+    "0": "cnk:block/scarecrow",
+    "particle": "cnk:item/scarecrow"
   }
 }
