@@ -61,7 +61,7 @@
 				"south": {"uv": [0, 4, 1.75, 5.5], "texture": "#0"},
 				"west": {"uv": [6.25, 7.25, 6.5, 8.75], "texture": "#0"},
 				"up": {"uv": [3, 8.25, 2.75, 6.5], "rotation": 90, "texture": "#0"},
-				"down": {"uv": [3.25, 6.5, 3, 8.25], "rotation": 270, "texture": "#missing"}
+				"down": {"uv": [3.25, 6.5, 3, 8.25], "rotation": 270, "texture": "#0"}
 			}
 		},
 		{

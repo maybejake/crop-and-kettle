@@ -2,7 +2,8 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/water_still"
+		"0": "block/water_still",
+		"particle": "block/water_still"
 	},
 	"elements": [
 		{
