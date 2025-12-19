@@ -4,7 +4,11 @@
     "pack_format":69,
     "max_format": 69,
     "min_format": 63,
-    "description":"Crops and cooking!",
+    "description": [
+      {"text":"\ud83c\udf56 Crop & Kettle \ud83c\udf56", "color":"#f9b560"},
+      {"text":"\n"},
+      {"text":"A cozy cooking datapack","color":"#7e7e7e"}
+    ],
     "supported_formats": {
       "max_inclusive": 69,
       "min_inclusive": 63
