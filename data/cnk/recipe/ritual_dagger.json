@@ -32,7 +32,7 @@
           "slot":"mainhand",
           "display": {
             "type": "override",
-            "value": {"translate":"item.cnk.knife.attack_damage","fallback":" 4 Attack Damage","color":"dark_green"}
+            "value": [{"text":" 4 ","color":"dark_green"},{"translate":"attribute.name.generic.attack_damage"}]
           }
         },
         {
@@ -43,7 +43,7 @@
           "slot":"mainhand",
           "display": {
             "type": "override",
-            "value": {"translate":"item.cnk.knife.attack_speed","fallback":" 2.5 Attack Speed","color":"dark_green"}
+            "value": [{"text":" 2.5 ","color":"dark_green"},{"translate":"attribute.name.generic.attack_speed"}]
           }
         }
       ]

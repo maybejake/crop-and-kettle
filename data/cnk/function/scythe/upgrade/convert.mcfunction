@@ -14,7 +14,7 @@ $item modify entity @s $(slot) {function:"minecraft:set_components",components:{
             "slot":"mainhand", \
             "display": { \
                 "type": "override", \
-                "value": {"translate":"item.cnk.netherite_scythe.attack_damage","fallback":" 9 Attack Damage","color":"dark_green"} \
+                "value": [{"text":" 9 ","color":"dark_green"},{"translate":"attribute.name.generic.attack_damage"}] \
             } \
         }, \
         { \
@@ -25,7 +25,7 @@ $item modify entity @s $(slot) {function:"minecraft:set_components",components:{
             "slot":"mainhand", \
             "display": { \
                 "type": "override", \
-                "value": {"translate":"item.cnk.scythe.attack_speed","fallback":" 1.1 Attack Speed","color":"dark_green"} \
+                "value": [{"text":" 1.1 ","color":"dark_green"},{"translate":"attribute.name.generic.attack_speed"}] \
             } \
         } \
     ] \

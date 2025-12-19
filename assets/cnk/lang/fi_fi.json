@@ -299,16 +299,16 @@
   "advancement.cnk.cooking_pot.desc":"Rakenna kattila",
   "advancement.cnk.cutting_board.name":"Hei, me leikataan!",
   "advancement.cnk.cutting_board.desc":"Rakenna leikkuulauta",
-  "advancement.cnk.netherite_scythe.name":"Testattu. Tapettu. Todistettu.",
-  "advancement.cnk.netherite_scythe.desc":"Rakenna timanttiviikate",
   "advancement.cnk.distiller.name":"DIY bisse",
   "advancement.cnk.distiller.desc":"Valmista uusia juomia tislaajalla",
   "advancement.cnk.drink_oil.name":"Jenkeissä rasvaisempaa",
   "advancement.cnk.drink_oil.desc":"Juo ruokaöljyä",
   "advancement.cnk.faucet.name":"Hanat auki",
   "advancement.cnk.faucet.desc":"Rakenna hana ja täytä kattilasi",
-  "advancement.cnk.scythe.name":"Kekri on koittanut",
-  "advancement.cnk.scythe.desc":"Helpota sadonkorjuuta rakentamalla itsellesi",
+  "advancement.cnk.scythe.name":"Kalman kamaluuksia",
+  "advancement.cnk.scythe.desc":"Tee sadonkorjuusta helppoa kuin heinäntekö rakentamalla itsellesi viikate",
+  "advancement.cnk.netherite_scythe.name":"Laatutakuu",
+  "advancement.cnk.netherite_scythe.desc":"Käytä netheriittiharkko viikatteen rakentamiseen ja koe mielihyvän hävenevän",
   "advancement.cnk.kebab_sword.name":"Kiintoisa mutta kuolettava",
   "advancement.cnk.kebab_sword.desc":"Valmista kebab-miekka",
   "advancement.cnk.knife.name":"Lyhyt ja ytimekäs",
@@ -443,5 +443,10 @@
 
   "book.cnk.foraging_page.title": "Ruoan etsiminen",
   "book.cnk.return.active.text": "Palaa",
-  "book.cnk.stamp.plateable.text": "Tällä annoksella on erilainen\nulkomuoto kun aseteltu lautaselle!"
+  "book.cnk.stamp.plateable.text": "Tällä annoksella on erilainen\nulkomuoto kun aseteltu lautaselle!",
+
+  "item.cnk.wooden_scythe": "Puuviikate",
+  "item.cnk.copper_scythe": "Kupariviikate",
+  "item.cnk.golden_scythe": "Kultainen viikate",
+  "item.cnk.netherite_scythe": "Netheriittiviikate"
 }
