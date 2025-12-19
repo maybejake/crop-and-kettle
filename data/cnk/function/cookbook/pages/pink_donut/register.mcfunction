@@ -8,6 +8,7 @@ data modify storage cnk:temp register.ingredients set value [ \
     {key:"item.minecraft.sugar", font:"cnk.book:icons"}, \
     {key:"item.cnk.milk_bottle", font:"cnk.book:icons"}, \
     {key:"item.minecraft.pink_dye", font:"cnk.book:icons"}, \
+    {key:"item.minecraft.light_blue_dye", font:"cnk.book:icons"}, \
 ]
 
 data modify storage cnk:temp register.source set value {key:"cnk.source", font:"cnk.book:base"}
