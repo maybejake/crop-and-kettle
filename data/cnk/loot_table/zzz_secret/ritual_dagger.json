@@ -26,7 +26,7 @@
                     "slot":"mainhand",
                     "display": {
                       "type": "override",
-                      "value": [{"text":" 4 ","color":"dark_green"},{"translate":"attribute.name.generic.attack_damage"}]
+                      "value": [{"text":" 4 ","color":"dark_green"},{"translate":"attribute.name.attack_damage"}]
                     }
                   },
                   {
@@ -37,7 +37,7 @@
                     "slot":"mainhand",
                     "display": {
                       "type": "override",
-                      "value": [{"text":" 2.5 ","color":"dark_green"},{"translate":"attribute.name.generic.attack_speed"}]
+                      "value": [{"text":" 2.5 ","color":"dark_green"},{"translate":"attribute.name.attack_speed"}]
                     }
                   }
                 ]

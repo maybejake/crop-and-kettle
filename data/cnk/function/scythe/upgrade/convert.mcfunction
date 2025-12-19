@@ -14,7 +14,7 @@ $item modify entity @s $(slot) {function:"minecraft:set_components",components:{
             "slot":"mainhand", \
             "display": { \
                 "type": "override", \
-                "value": [{"text":" 9 ","color":"dark_green"},{"translate":"attribute.name.generic.attack_damage"}] \
+                "value": [{"text":" 9 ","color":"dark_green"},{"translate":"attribute.name.attack_damage"}] \
             } \
         }, \
         { \
@@ -25,7 +25,7 @@ $item modify entity @s $(slot) {function:"minecraft:set_components",components:{
             "slot":"mainhand", \
             "display": { \
                 "type": "override", \
-                "value": [{"text":" 1.1 ","color":"dark_green"},{"translate":"attribute.name.generic.attack_speed"}] \
+                "value": [{"text":" 1.1 ","color":"dark_green"},{"translate":"attribute.name.attack_speed"}] \
             } \
         } \
     ] \
