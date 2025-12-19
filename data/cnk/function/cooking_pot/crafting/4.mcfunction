@@ -120,14 +120,6 @@ execute \
 
 execute \
         if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"dough"}}}}}] \
-        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:sugar"}] \
-        if function cnk:cooking_pot/crafting/generic/milk if score $milk_count cnk.dummy matches 1 \
-        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:pink_dye"}] \
-        if function cnk:cooking_pot/crafting/lock \
-        run return run function cnk:recipes/cooking_pot/pink_donut
-
-execute \
-        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"dough"}}}}}] \
         if data storage cnk:temp cooking_pot.Items[{id:"minecraft:pumpkin"}] \
         if data storage cnk:temp cooking_pot.Items[{id:"minecraft:sugar"}] \
         if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"cinnamon"}}}}}] \
