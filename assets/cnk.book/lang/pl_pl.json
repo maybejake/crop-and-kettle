@@ -1,0 +1,27 @@
+{
+  "book.cnk.distilling_page.title": "Destylacja",
+  "book.cnk.aging_page.title": "Leżakowanie wina",
+
+  "book.cnk.section.front": "Strona główna",
+  "book.cnk.section.staple": "Podstawowe produkty",
+  "book.cnk.section.snack": "Napoje i przekąski",
+  "book.cnk.section.light": "Lekkie posiłki",
+  "book.cnk.section.hearty": "Obfite posiłki",
+  "book.cnk.section.feast": "Uczty",
+  "book.cnk.section.dessert": "Desery",
+
+  "book.cnk.crop_seeds.title": "Nasiona",
+
+  "book.cnk.toast.unlock.seed": "Odblokowano nasiona!",
+  "book.cnk.toast.unlock.ingredient": "Odblokowano składnik!",
+  "book.cnk.toast.unlock.recipe": "Odblokowano przepis!",
+  "book.cnk.toast.unlock.ritual": "Odblokowano rytuał!",
+  "book.cnk.toast.unlock.weapon": "Broń wykuta!",
+
+  "book.cnk.previous_page.hover": "Poprzednia strona",
+  "book.cnk.next_page.hover": "Następna strona",
+  
+  "book.cnk.foraging_page.title": "Zbieractwo",
+  "book.cnk.return.active.text": "Powrót",
+  "book.cnk.stamp.plateable.text": "Ten posiłek ma specjalny\nwygląd gdy na talerzu!"
+}
