@@ -23,7 +23,7 @@
                     ]}
                   ]
                 },
-                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"festive_meal"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"festive_meal"},"placeable":{"model":"cnk:placeable/festive_meal"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
               }
             }
