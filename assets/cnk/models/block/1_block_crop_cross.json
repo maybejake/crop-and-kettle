@@ -4,8 +4,8 @@
 	"ambientocclusion": false,
 	"elements": [
 		{
-			"from": [0, -1, 8],
-			"to": [16, 15, 8],
+			"from": [-0.01, -1, 8.01],
+			"to": [15.99, 15, 8.01],
 			"shade": false,
 			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
@@ -14,8 +14,8 @@
 			}
 		},
 		{
-			"from": [8, -1, 0],
-			"to": [8, 15, 16],
+			"from": [8.01, -1, 0.01],
+			"to": [8.01, 15, 16.01],
 			"shade": false,
 			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
