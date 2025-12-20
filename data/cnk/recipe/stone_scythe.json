@@ -22,7 +22,7 @@
       "minecraft:max_damage": 173,
       "minecraft:enchantable": {"value": 5},
       "minecraft:use_effects": {"can_sprint":true, "speed_multiplier":1, "interact_vibrations":true},
-      "minecraft:attack_range": {"max_reach":4, "max_creative_reach":6},
+      "minecraft:attack_range": {"max_reach":4, "max_creative_reach":6, "hitbox_margin":0},
       "minecraft:consumable":{"consume_seconds":2147483648,"animation":"none","sound":"intentionally_empty","has_consume_particles":false},
       "minecraft:repairable": {"items": "minecraft:cobblestone"},
       "minecraft:attribute_modifiers":[
