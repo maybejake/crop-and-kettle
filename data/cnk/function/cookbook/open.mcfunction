@@ -17,7 +17,8 @@ execute unless score @s cnk.cookbook_current_page matches 1.. run scoreboard pla
 
 #min max
 execute if score @s cnk.cookbook_current_page matches ..0 run scoreboard players set @s cnk.cookbook_current_page 1
-execute if score @s cnk.cookbook_current_page > $global_cookbook_page cnk.dummy run scoreboard players operation @s cnk.cookbook_current_page = $global_cookbook_page cnk.dummy
+execute if score @s cnk.cookbook_current_page >= $global_cookbook_page cnk.dummy run scoreboard players operation @s cnk.cookbook_current_page = $global_cookbook_page cnk.dummy
+execute if score @s cnk.cookbook_current_page = $global_cookbook_page cnk.dummy run scoreboard players remove @s cnk.cookbook_current_page 1
 
 #store number length for alignment
 execute if score @s cnk.cookbook_current_page matches 1..9 run data modify storage cnk:temp cookbook.data.page_number_width set value "single"
