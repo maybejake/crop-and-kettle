@@ -19,5 +19,7 @@
   "book.cnk.toast.unlock.weapon": "武器已锻造！",
 
   "book.cnk.previous_page.hover": "上一页",
-  "book.cnk.next_page.hover": "下一页"
+  "book.cnk.next_page.hover": "下一页",
+  "book.cnk.stamp.plateable.text": "这道菜在摆盘后\n会呈现出特殊的外观！",
+  "book.cnk.return.active.text": "返回"
 }

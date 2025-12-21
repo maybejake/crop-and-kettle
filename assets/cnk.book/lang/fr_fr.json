@@ -12,6 +12,8 @@
 
   "book.cnk.crop_seeds.title": "Graines",
 
+  "book.cnk.foraging_page.title": "Recherche de nourriture",
+
   "book.cnk.toast.unlock.seed": "Graine déverrouillée !",
   "book.cnk.toast.unlock.ingredient": "Ingrédient déverrouillé !",
   "book.cnk.toast.unlock.recipe": "Recette déverrouillée !",
@@ -19,5 +21,9 @@
   "book.cnk.toast.unlock.weapon": "Arme forgée !",
   
   "book.cnk.previous_page.hover": "Page précédente",
-  "book.cnk.next_page.hover": "Page suivante"
+  "book.cnk.next_page.hover": "Page suivante",
+
+  "book.cnk.stamp.plateable.text": "Ce plat a une apparence\nspéciale lorsqu'il est présenté !",
+
+  "book.cnk.return.active.text": "Retour"
 }
