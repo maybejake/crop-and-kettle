@@ -8,7 +8,7 @@
           {
             "items": "minecraft:poisonous_potato",
             "predicates": {
-              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"music_disc_greetings"}}}
+              "minecraft:custom_data": {"cnk":{"disc":{"type":"greetings"}}}
             }
           }
         ]
