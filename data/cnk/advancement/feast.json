@@ -165,6 +165,17 @@
           }
         }
       }
+    },
+    "cnk:festive_meal": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"cnk":{"ingredient":{"type":"festive_meal"}}}
+          }
+        }
+      }
     }
   },
   "requirements": [
@@ -183,7 +194,8 @@
       "cnk:rainy_day_lunch",
       "cnk:ramen",
       "cnk:thankful_meal",
-      "cnk:trail_mix"
+      "cnk:trail_mix",
+      "cnk:festive_meal"
     ]
   ],
   "rewards": {
