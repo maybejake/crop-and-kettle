@@ -1,8 +1,9 @@
 scoreboard players set @s cnk.use_cooldown 5
 
+execute unless items entity @s weapon.offhand * run return fail
+
 advancement grant @s only cnk:visible/present
 
-execute unless items entity @s weapon.offhand * run return fail
 data modify storage cnk:temp gift_box.colors set from entity @s SelectedItem.components."minecraft:custom_model_data".colors
 data modify storage cnk:temp gift_box.color set value 16777215
 data modify storage cnk:temp gift_box.color set from entity @s SelectedItem.components."minecraft:dyed_color"
