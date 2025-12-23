@@ -1,11 +1,11 @@
 {
   "pack":{
     "pack_format":88,
-    "max_format": 88,
+    "max_format": [94,1],
     "min_format": 80,
     "description":"An example addon for Crop and Kettle!",
     "supported_formats": {
-      "max_inclusive": 88,
+      "max_inclusive": [94,1],
       "min_inclusive": 80
     }
   }
