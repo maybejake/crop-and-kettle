@@ -1,3 +1,4 @@
+advancement grant @s only minecraft:husbandry/plant_seed
 $execute if items entity @s weapon.$(hand) *[minecraft:custom_data~{cnk:{ingredient:{type:"tomato_seeds"}}}] run return run function cnk:seeds/tomato/place
 $execute if items entity @s weapon.$(hand) *[minecraft:custom_data~{cnk:{ingredient:{type:"corn_seeds"}}}] run return run function cnk:seeds/corn/place
 $execute if items entity @s weapon.$(hand) *[minecraft:custom_data~{cnk:{ingredient:{type:"lettuce_seeds"}}}] run return run function cnk:seeds/lettuce/place

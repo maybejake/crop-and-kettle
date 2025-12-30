@@ -2,7 +2,7 @@
   "parent":"cnk:block/cooking_pot_closed",
   "textures": {
     "0": "cnk:block/witch_cauldron",
-	"3": "cnk:block/cooking_pot_logs",
+	"3": "cnk:block/witch_cauldron_logs",
     "particle": "cnk:item/cooking_pot"
   }
 }

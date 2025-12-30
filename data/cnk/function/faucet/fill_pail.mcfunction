@@ -9,5 +9,6 @@ execute if score $quantity cnk.dummy matches 0 run function cnk:pail/interact/fi
 execute if score $quantity cnk.dummy matches 0 run data modify entity @s item.components."minecraft:custom_model_data".colors append from storage cnk:temp pail.color
 
 scoreboard players add $quantity cnk.dummy 4
+execute if score $quantity cnk.dummy > @s cnk.max_quantity run scoreboard players operation $quantity cnk.dummy = @s cnk.max_quantity
 
 execute store result entity @s item.components."minecraft:custom_model_data".floats[0] int 1 run scoreboard players get $quantity cnk.dummy
