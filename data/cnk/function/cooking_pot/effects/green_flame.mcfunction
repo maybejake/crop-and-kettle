@@ -1,0 +1,1 @@
+particle minecraft:copper_fire_flame ~ ~-0.35 ~ 0.18 0.05 0.18 0 1

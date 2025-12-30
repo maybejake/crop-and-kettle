@@ -1,0 +1,1 @@
+$clear @p[tag=cnk.interact_mixing_bowl] $(id) $(count)

@@ -1,0 +1,2 @@
+$execute store result score $item_count cnk.dummy run clear @p[tag=cnk.interact_mixing_bowl] $(id) 0
+execute if score $count cnk.dummy > $item_count cnk.dummy run scoreboard players set $items_found cnk.dummy 0
