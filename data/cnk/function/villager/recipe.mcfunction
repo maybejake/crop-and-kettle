@@ -1,8 +1,9 @@
-# 30% chance to generate recipe
-execute store result score $chance cnk.dummy run random value 0..2
-execute if score $chance cnk.dummy matches 0 run return fail
-
 execute store result score $recipe cnk.dummy run random value 1..9
+
+execute if score $recipe cnk.dummy = $first_recipe cnk.dummy run return run function cnk:villager/recipe
+execute if score $recipe cnk.dummy = $second_recipe cnk.dummy run return run function cnk:villager/recipe
+
+data remove storage cnk:temp recipe
 execute if score $recipe cnk.dummy matches 1 run data modify storage cnk:temp recipe.sell set value { \
     "id": "minecraft:poisonous_potato", \
     "components": { \
@@ -115,7 +116,8 @@ execute if score $recipe cnk.dummy matches 9 run data modify storage cnk:temp re
 data modify storage cnk:temp recipe.buy set value {"id":"minecraft:emerald", count:20}
 data modify storage cnk:temp recipe.buyB set value {"id":"minecraft:paper", count:1}
 data modify storage cnk:temp recipe.priceMultiplier set value 0.05f
+data modify storage cnk:temp recipe.rewardExp set value true
 data modify storage cnk:temp recipe.xp set value 10
-data modify storage cnk:temp recipe.uses set value 3
+data modify storage cnk:temp recipe.maxUses set value 3
 
 data modify entity @s Offers.Recipes append from storage cnk:temp recipe
