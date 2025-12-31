@@ -13,6 +13,6 @@
     }
   },
   "rewards": {
-    "function": "cnk:cookbook/grant/yellow_dye"
+    "function": "cnk:cookbook/grant/any_dye"
   }
 }
