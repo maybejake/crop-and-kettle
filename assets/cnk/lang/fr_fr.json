@@ -251,13 +251,6 @@
   
   "tooltip.cnk.pail.quantity": "%1$s/%2$s bouteilles",
   
-  "item.cnk.diamond_scythe.attack_damage": " 8 dégâts d'attaque",
-  "item.cnk.iron_scythe.attack_damage": " 7 dégâts d'attaque",
-  "item.cnk.scythe.attack_speed": " 1.1 vitesse d'attaque",
-  
-  "item.cnk.knife.attack_damage": " 4 dégâts d'attaque",
-  "item.cnk.knife.attack_speed": " 2.5 vitesse d'attaque",
-  
   "item.cnk.calendar.format": "Année %1$s, jour %2$s",
   "item.cnk.calendar.delta.format.base": "Cette bouteille a vieilli pendant %1$s",
   "item.cnk.calendar.delta.format.both_plural": "%1$s ans et %2$s jours",
@@ -437,5 +430,21 @@
   
   "death.attack.cnk.booze_cork": "%1$s s'est fait bouchonner",
   "death.attack.cnk.scarecrow_spin": "%1$s s'est fait récolter",
-  "death.attack.cnk.pumpkin_missile": "%1$s n'a pas échappé à une citrouille explosive"
+  "death.attack.cnk.pumpkin_missile": "%1$s n'a pas échappé à une citrouille explosive",
+  
+  "item.cnk.hollow_vessel": "Ontto astia",
+  "item.cnk.sourdough_dough": "Hapantaikina",
+  "item.cnk.sourdough_bread": "Hapanleipä",
+
+  "cnk.dialog.settings.dynamic_command_feedback": "Dynaaminen komentopalaute",
+  "cnk.dialog.settings.dynamic_command_feedback.tooltip": "Tapa, joka disabloi keskusteluruudun täyttämisen reseptikirjaa käyttäessä",
+  "cnk.dialog.settings.dynamic_command_feedback.body": "Dynaaminen komentopalaute disabloi komentojen palautteen kun reseptikirja on auki.",
+  "cnk.dialog.settings.dynamic_command_feedback.note": "Huom.: Palvelimilla tämä voi tuottaa ongelmia, sillä muiden komentojen palaute ei näy keskusteluruudussa.",
+  "cnk.dialog.settings.dynamic_command_feedback.command": "Suorita seuraava komento keskusteluruudussa laittaaksesi dynaaminen komentopalaute päälle/pois: ",
+  "cnk.dialog.settings.dynamic_command_feedback.status": "Dynaaminen komentopalaute on %1$s",
+  "cnk.enabled": "päällä",
+  "cnk.disabled": "pois päältä",
+
+  "advancement.cnk.sourdough_boy.name":"Hän on noussut",
+  "advancement.cnk.sourdough_boy.desc":"Kasvata ikioma hapanlapsi."
 }

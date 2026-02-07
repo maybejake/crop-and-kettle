@@ -1,0 +1,2 @@
+execute if score @s cnk.foodie_book_buttons matches 9991 run return run function cnk:foodie_book/buttons/close
+execute if score @s cnk.foodie_book_buttons matches 9992 run return run function cnk:foodie_book/buttons/take_book

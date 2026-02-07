@@ -1,0 +1,27 @@
+{
+  "book.cnk.distilling_page.title": "Дистиляція",
+  "book.cnk.aging_page.title": "Витримка вина",
+
+  "book.cnk.section.front": "Головна сторінка",
+  "book.cnk.section.staple": "Основні страви",
+  "book.cnk.section.snack": "Закуски",
+  "book.cnk.section.light": "Легкі страви",
+  "book.cnk.section.hearty": "Ситні страви",
+  "book.cnk.section.feast": "Бенкети",
+  "book.cnk.section.dessert": "Десерти",
+
+  "book.cnk.crop_seeds.title": "Насіння",
+
+  "book.cnk.toast.unlock.seed": "Розблоковано насіння!",
+  "book.cnk.toast.unlock.ingredient": "Розблоковано інгредієнт!",
+  "book.cnk.toast.unlock.recipe": "Розблоковано рецепт!",
+  "book.cnk.toast.unlock.ritual": "Розблоковано ритуал!",
+  "book.cnk.toast.unlock.weapon": "Зброю викувано!",
+
+  "book.cnk.previous_page.hover": "Попередня сторінка",
+  "book.cnk.next_page.hover": "Наступна сторінка",
+  
+  "book.cnk.foraging_page.title": "Збирацтво",
+  "book.cnk.return.active.text": "Назад",
+  "book.cnk.stamp.plateable.text": "Ця страва має особливий вигляд, коли на тарілці!"
+}

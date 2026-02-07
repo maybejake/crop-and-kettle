@@ -14,3 +14,7 @@ execute store result storage cnk:temp database.uid int 1 run scoreboard players 
 execute if data storage cnk:temp database{uid:0} run return fail
 
 function cnk:cookbook/database/set/macro with storage cnk:temp database
+
+#reset previous/next incomplete recipe scores to force recalculate
+scoreboard players reset @s cnk.previous_incomplete_recipe
+scoreboard players reset @s cnk.next_incomplete_recipe

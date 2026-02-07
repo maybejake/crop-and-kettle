@@ -1,11 +1,3 @@
-data modify storage cnk:temp cookbook.data.front_state set value "idle"
-data modify storage cnk:temp cookbook.data.staple_state set value "idle"
-data modify storage cnk:temp cookbook.data.snack_state set value "idle"
-data modify storage cnk:temp cookbook.data.light_state set value "idle"
-data modify storage cnk:temp cookbook.data.hearty_state set value "idle"
-data modify storage cnk:temp cookbook.data.feast_state set value "idle"
-data modify storage cnk:temp cookbook.data.dessert_state set value "idle"
-
 execute if score @s cnk.cookbook_current_page >= $front_page cnk.dummy if score @s cnk.cookbook_current_page < $staple_page cnk.dummy run return run data modify storage cnk:temp cookbook.data.front_state set value "active"
 execute if score @s cnk.cookbook_current_page >= $staple_page cnk.dummy if score @s cnk.cookbook_current_page < $snacks_page cnk.dummy run return run data modify storage cnk:temp cookbook.data.staple_state set value "active"
 execute if score @s cnk.cookbook_current_page >= $snacks_page cnk.dummy if score @s cnk.cookbook_current_page < $light_page cnk.dummy run return run data modify storage cnk:temp cookbook.data.snack_state set value "active"

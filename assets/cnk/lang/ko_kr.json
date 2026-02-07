@@ -251,13 +251,6 @@
   
   "tooltip.cnk.pail.quantity": "%1$s/%2$s 병",
   
-  "item.cnk.diamond_scythe.attack_damage": " 8 공격 피해",
-  "item.cnk.iron_scythe.attack_damage": " 7 공격 피해",
-  "item.cnk.scythe.attack_speed": " 1.1 공격 속도",
-  
-  "item.cnk.knife.attack_damage": " 4 공격 피해",
-  "item.cnk.knife.attack_speed": " 2.5 공격 속도",
-  
   "item.cnk.calendar.format": "%1$s년, %2$s일",
   "item.cnk.calendar.delta.format.base": "이 병은 %1$s 동안 숙성되었습니다",
   "item.cnk.calendar.delta.format.both_plural": "%1$s년 %2$s일",

@@ -1,2 +1,1 @@
-execute unless score @s cnk.cookbook_previous_page matches 1.. run return run data modify storage cnk:temp cookbook.data.return set value "book.cnk.return.inactive.icon"
-data modify storage cnk:temp cookbook.data.return set value "book.cnk.return.active.icon,'hover_event':{'action':'show_text','value':{'translate':book.cnk.return.active.text}},'click_event':{'action':'run_command','command':'trigger cnk.cookbook_buttons set 9931'}"
+execute if score @s cnk.cookbook_previous_page matches 1.. run data modify storage cnk:temp cookbook.data.return set value "book.cnk.return.active.icon,'hover_event':{'action':'show_text','value':{'translate':book.cnk.return.active.text}},'click_event':{'action':'run_command','command':'trigger cnk.cookbook_buttons set 9931'}"

@@ -57,7 +57,7 @@
   "book.cnk.section.feast": "Feasts",
   "book.cnk.section.dessert": "Desserts",
 
-  "book.cnk.header": "\ua058\ub026\ua032\ub026\n\n\n\ub013%3$s\n\n\ub020\ua036\ub021%4$s\n%1$s\n\ub013%5$s\n\n\ub013%6$s\n\n\ub013%7$s\n\n\ub013%8$s\n\n\ub013%9$s\n%2$s\n%10$s\n%11$s",
+  "book.cnk.header": "\ua058\ub026\ua032\ub026\n\n\n\ub013%3$s\n\n\ub020\ua036\ub021%4$s\n%1$s\n\ub013%5$s\n\n\ub013%6$s\n\n\ub013%7$s\n\n\ub013%8$s\n\n\ub013%9$s\n%2$s\n %10$s\n%11$s",
   "book.cnk.header.staple": "\ua042",
   "book.cnk.header.snack": "\ua037",
   "book.cnk.header.light": "\ua038",
@@ -323,7 +323,10 @@
   
   "book.cnk.bottom_line": "\ub050%1$s",
   "book.cnk.navigation": "%1$s\ub047%2$s\ub047%3$s\ub046",
+  "book.cnk.cookbook_navigation": "%1$s%2$s\ub069%3$s\ub069%4$s%5$s\ub046",
+  "book.cnk.cookbook_front_navigation": "\ub071%1$s%2$s",
   "book.cnk.front_navigation": "\ub044%1$s",
+  "book.cnk.cookbook_back_navigation": "%1$s%2$s\ub070",
   "book.cnk.back_navigation": "%1$s\ub045",
   "book.cnk.index_button": "\ua019",
   "book.cnk.page_number.single": "\uc004%1$s",
@@ -333,8 +336,13 @@
   
   "book.cnk.previous_page": "\ua027",
   "book.cnk.next_page": "\ua028",
+  "book.cnk.next_incomplete_recipe": "\ua071",
+  "book.cnk.previous_incomplete_recipe": "\ua072",
+  "book.cnk.empty_incomplete_recipe": "\ua073",
   "book.cnk.previous_page.hover": "Previous page",
   "book.cnk.next_page.hover": "Next page",
+  "book.cnk.next_incomplete_recipe.hover": "Next undiscovered recipe",
+  "book.cnk.previous_incomplete_recipe.hover": "Previous undiscovered recipe",
   
   "book.note.item.cnk.dough": "\ua020",
   "book.note.item.cnk.unknown": "\ua021",

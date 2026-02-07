@@ -190,7 +190,13 @@
   "item.cnk.cooking_pot": "Cooking Pot",
   "item.cnk.cutting_board": "Cutting Board",
   "item.cnk.mixing_bowl": "Mixing Bowl",
-  "item.cnk.knife": "Knife",
+  "item.cnk.knife": "Iron Knife",
+  "item.cnk.wooden_knife": "Wooden Knife",
+  "item.cnk.copper_knife": "Copper Knife",
+  "item.cnk.iron_knife": "Iron Knife",
+  "item.cnk.golden_knife": "Golden Knife",
+  "item.cnk.diamond_knife": "Diamond Knife",
+  "item.cnk.netherite_knife": "Netherite Knife",
   "item.cnk.ritual_dagger": "Ritual Dagger",
   "item.cnk.faucet": "Faucet",
   "item.cnk.distiller": "Distiller",
@@ -246,17 +252,13 @@
   "item.cnk.wreath": "Wreath",
   "item.cnk.gift_box": "Gift Box",
   "item.cnk.gift": "Gift",
+  "item.cnk.hollow_vessel": "Hollow Vessel",
+  "item.cnk.sourdough_dough": "Sourdough Dough",
+  "item.cnk.sourdough_bread": "Sourdough Bread",
   
   "tooltip.cnk.gift.tag": "From %1$s",
   
   "tooltip.cnk.pail.quantity": "%1$s/%2$s Bottles",
-  
-  "item.cnk.diamond_scythe.attack_damage": " 8 Attack Damage",
-  "item.cnk.iron_scythe.attack_damage": " 7 Attack Damage",
-  "item.cnk.scythe.attack_speed": " 1.1 Attack Speed",
-  
-  "item.cnk.knife.attack_damage": " 4 Attack Damage",
-  "item.cnk.knife.attack_speed": " 2.5 Attack Speed",
   
   "item.cnk.calendar.format": "Year %1$s, Day %2$s",
   "item.cnk.calendar.delta.format.base": "This bottle has been aged for %1$s",
@@ -341,7 +343,7 @@
   
   "cnk.dialog.description": "A cozy cooking datapack that adds new food, drinks and more!",
   "cnk.dialog.info": "%1$s - %2$s\nBy maybejake",
-  "cnk.version": "v1.2.6",
+  "cnk.version": "v1.2.7",
   "cnk.update": "Feast of Winter",
   "cnk.dialog.website": "Website",
   "cnk.dialog.issues": "Issues",
@@ -354,6 +356,14 @@
   "cnk.dialog.settings.toasts.enable": "Enable Cookbook Toasts",
   "cnk.dialog.settings.toasts.disable": "Disable Cookbook Toasts",
   "cnk.dialog.settings.toasts.tooltip": "Enables or disables the toasts that appear when you pick up a new ingredient or unlock a new recipe",
+  "cnk.dialog.settings.dynamic_command_feedback": "Dynamic Command Feedback",
+  "cnk.dialog.settings.dynamic_command_feedback.tooltip": "A method of disabling chat spam when interacting with the cookbook",
+  "cnk.dialog.settings.dynamic_command_feedback.body": "Dynamic command feedback will disable the chat output from interacting with the cookbook while the cookbook is open.",
+  "cnk.dialog.settings.dynamic_command_feedback.note": "Do note that on servers, this means that output from other commands will not appear in the chat while someone has a cookbook open.",
+  "cnk.dialog.settings.dynamic_command_feedback.command": "Run the following command to toggle dynamic command feedback: ",
+  "cnk.dialog.settings.dynamic_command_feedback.status": "Dynamic command feedback is %1$s",
+  "cnk.enabled": "enabled",
+  "cnk.disabled": "disabled",
   
   "advancement.cnk.basin.name": "Liquid Assets",
   "advancement.cnk.basin.desc":"Craft a basin to hold liquids from your distiller",
@@ -441,6 +451,8 @@
   "advancement.cnk.synergy.desc":"Settle an ancient feud by placing a candy cane in a candy bowl",
   "advancement.cnk.present.name":"Gift of Giving",
   "advancement.cnk.present.desc":"Wrap up an item from your offhand in a gift box",
+  "advancement.cnk.sourdough_boy.name":"He is Risen",
+  "advancement.cnk.sourdough_boy.desc":"Make your very own sourdough boy",
   
   "death.attack.cnk.booze_cork": "%1$s got corked",
   "death.attack.cnk.scarecrow_spin": "%1$s got harvested",

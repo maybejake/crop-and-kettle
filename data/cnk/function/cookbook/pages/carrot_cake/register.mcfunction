@@ -11,6 +11,11 @@ data modify storage cnk:temp register.ingredients set value [ \
     {key:"item.cnk.milk_bottle", font:"cnk.book:icons"}, \
 ]
 
+data modify storage cnk:temp register.stamp set value { \
+    icon:"book.cnk.stamp.plateable.icon", \
+    text:"book.cnk.stamp.plateable.text" \
+}
+
 data modify storage cnk:temp register.source set value {key:"cnk.source", font:"cnk.book:base"}
 
 function cnk:cookbook/pages/register

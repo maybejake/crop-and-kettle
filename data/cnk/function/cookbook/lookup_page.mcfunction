@@ -1,1 +1,1 @@
-$data modify storage cnk:temp cookbook.reference_page set from storage cnk:cookbook page_lookup.$(reference)
+$data modify storage cnk:temp cookbook.reference_page set from storage cnk:cookbook page_lookup."$(reference)"

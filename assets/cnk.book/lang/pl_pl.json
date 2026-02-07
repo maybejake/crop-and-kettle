@@ -23,5 +23,8 @@
   
   "book.cnk.foraging_page.title": "Zbieractwo",
   "book.cnk.return.active.text": "Powrót",
-  "book.cnk.stamp.plateable.text": "Ten posiłek ma specjalny\nwygląd gdy na talerzu!"
+  "book.cnk.stamp.plateable.text": "Ten posiłek ma specjalny\nwygląd gdy na talerzu!",
+  
+  "book.cnk.next_incomplete_recipe.hover": "Następny nieodkryty przepis",
+  "book.cnk.previous_incomplete_recipe.hover": "Poprzedni nieodkryty przepis"
 }

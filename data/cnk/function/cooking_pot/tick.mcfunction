@@ -19,6 +19,9 @@ execute if score $filled_slots cnk.dummy matches 0 run return fail
 execute if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{fathoms:{}}}}] run function cnk:cooking_pot/fathoms
 data remove storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{}}}].id
 
+# make sourdough count as bread
+execute if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"sourdough_bread"}}}}}] run data modify storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"sourdough_bread"}}}}}].id set value "minecraft:bread"
+
 data modify storage cnk:temp unique_items_check set value []
 data modify storage cnk:temp unique_items_check set from storage cnk:temp cooking_pot.Items
 

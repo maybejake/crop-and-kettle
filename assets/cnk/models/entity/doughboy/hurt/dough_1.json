@@ -1,0 +1,6 @@
+{
+  "parent":"cnk:entity/doughboy/dough_1",
+  "textures": {
+    "1": "cnk:entity/doughboy/hurt/dough_1"
+  }
+}

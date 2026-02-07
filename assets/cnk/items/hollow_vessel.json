@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "cnk:entity/doughboy/jar"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "cnk:entity/doughboy/lid"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "cnk:entity/doughboy/arms_still"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "cnk:entity/doughboy/feet"
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "on_true" : {
+          "type": "minecraft:model",
+          "model": "cnk:entity/doughboy/dough_dead"
+        },
+        "on_false" : {
+          "type": "minecraft:empty"
+        }
+      }
+    ]
+  }
+}

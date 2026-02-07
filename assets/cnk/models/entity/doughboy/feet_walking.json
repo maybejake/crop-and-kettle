@@ -1,0 +1,6 @@
+{
+  "parent":"cnk:entity/doughboy/feet",
+  "textures": {
+    "0": "cnk:entity/doughboy/feet_walking"
+  }
+}

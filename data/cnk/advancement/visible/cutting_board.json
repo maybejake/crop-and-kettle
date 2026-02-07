@@ -30,7 +30,12 @@
   },
   "rewards": {
     "recipes": [
-      "cnk:knife"
+      "cnk:wooden_knife",
+      "cnk:stone_knife",
+      "cnk:copper_knife",
+      "cnk:iron_knife",
+      "cnk:golden_knife",
+      "cnk:diamond_knife"
     ]
   }
 }

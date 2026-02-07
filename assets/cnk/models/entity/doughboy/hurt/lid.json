@@ -1,0 +1,6 @@
+{
+  "parent":"cnk:entity/doughboy/lid",
+  "textures": {
+    "0": "cnk:entity/doughboy/hurt/lid"
+  }
+}

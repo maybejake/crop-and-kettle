@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.iron_knife","fallback":"Iron Knife"},
+                "minecraft:item_model": "cnk:iron_knife",
+                "minecraft:custom_data": {"cnk":{"knife":true, "iron": true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                "minecraft:max_damage": 450,
+                "minecraft:enchantable": {"value": 14},
+                "minecraft:repairable": {"items": "minecraft:iron_ingot"},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "minecraft:base_attack_damage",
+                    "type": "minecraft:attack_damage",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "id": "minecraft:base_attack_speed",
+                    "type": "minecraft:attack_speed",
+                    "amount": -1.5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

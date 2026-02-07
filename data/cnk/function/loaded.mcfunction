@@ -56,6 +56,9 @@ scoreboard objectives add cnk.cookbook_buttons trigger
 scoreboard objectives add cnk.cookbook_current_page dummy
 scoreboard objectives add cnk.cookbook_previous_page dummy
 
+scoreboard objectives add cnk.previous_incomplete_recipe dummy
+scoreboard objectives add cnk.next_incomplete_recipe dummy
+
 scoreboard objectives add cnk.distiller_book_buttons trigger
 
 scoreboard objectives add cnk.distiller_book_current_page dummy
@@ -77,5 +80,17 @@ scoreboard objectives add cnk.treat_basket_timer dummy
 scoreboard objectives add cnk.use_cooldown dummy
 
 scoreboard objectives add cnk.max_quantity dummy
+
+scoreboard objectives add cnk.lectern_x dummy
+scoreboard objectives add cnk.lectern_y dummy
+scoreboard objectives add cnk.lectern_z dummy
+
+scoreboard objectives add cnk.x_rot dummy
+scoreboard objectives add cnk.y_rot dummy
+
+scoreboard objectives add cnk.walk minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add cnk.sprint minecraft.custom:minecraft.sprint_one_cm
+scoreboard objectives add cnk.sneak minecraft.custom:minecraft.sneak_time
+scoreboard objectives add cnk.jump minecraft.custom:minecraft.jump
 
 scoreboard players set $installed cnk.dummy 1

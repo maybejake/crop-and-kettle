@@ -1,0 +1,2 @@
+$execute positioned $(x) $(y) $(z) if block ~ ~ ~ minecraft:lectern if data block ~ ~ ~ Book run return run function cnk:cookbook/buttons/take_book/replace
+scoreboard players set $take_success cnk.dummy 0

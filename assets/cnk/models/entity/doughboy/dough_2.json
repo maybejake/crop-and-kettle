@@ -1,0 +1,60 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "cnk:entity/doughboy/dough_2",
+		"particle": "cnk:entity/doughboy/dough_2"
+	},
+	"elements": [
+		{
+			"name": "dough_normal",
+			"from": [5.5, 3, 5.5],
+			"to": [10.5, 8, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.98921, 6, 8]},
+			"faces": {
+				"north": {"uv": [0, 10, 5, 15], "texture": "#0"},
+				"east": {"uv": [0, 5, 5, 10], "texture": "#0"},
+				"south": {"uv": [5, 5, 10, 10], "texture": "#0"},
+				"west": {"uv": [10, 5, 15, 10], "texture": "#0"},
+				"up": {"uv": [10, 5, 5, 0], "texture": "#0"},
+				"down": {"uv": [15, 0, 10, 5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 1.5, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [68, 0, 0],
+			"translation": [-6, -4.25, 4.15],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 109, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 109, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"ground": {
+			"rotation": [0, -180, 0],
+			"translation": [-0.5, -1.56, -6.25],
+			"scale": [1.975, 1.975, 1.975]
+		},
+		"gui": {
+			"rotation": [31, 144, 0],
+			"translation": [0, -1.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"head": {
+			"translation": [0, 12.25, 0]
+		},
+		"fixed": {
+			"translation": [0, -1.5, 0],
+			"scale": [0.8, 0.8, 0.8]
+		}
+	}
+}

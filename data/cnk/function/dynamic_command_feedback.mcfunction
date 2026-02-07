@@ -1,0 +1,1 @@
+function cnk:settings/dynamic_command_feedback/toggle

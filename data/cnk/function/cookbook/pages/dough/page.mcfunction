@@ -4,7 +4,7 @@ $dialog show @s { \
   "body": [ \
     { \
       "type": "minecraft:plain_message", \
-      "width": 240, \
+      "width": 211, \
       "contents": [{ \
             "translate":"book.cnk.dough_recipe","font":"cnk.book:base","shadow_color":0,"color":"white","with":[ \
                 {"translate":$(page_name),"color":"#7b613a","font":"minecraft:default"}, \
@@ -23,11 +23,15 @@ $dialog show @s { \
                 {"translate":$(stamp)}, \
                 {"translate":$(return)}, \
                 {"translate":book.cnk.bottom_line,"with":[{"translate":book.cnk.page_number.$(page_number_width),"font":"cnk.book:small_text","with":[{"text":"$(current_page)","color":"#927359"}]}]}, \
-                {"translate":book.cnk.navigation,"with":[{"translate":book.cnk.previous_page,"hover_event":{"action":"show_text","value":{"translate":book.cnk.previous_page.hover}},"click_event":{"action":"run_command","command":"trigger cnk.cookbook_buttons set 9901"}},{"translate":book.$(source_key),"font":"$(source_font)","hover_event":{"action":"show_text","value":{"translate":$(source_key)}}},{"translate":book.cnk.next_page,"hover_event":{"action":"show_text","value":{"translate":book.cnk.next_page.hover}},"click_event":{"action":"run_command","command":"trigger cnk.cookbook_buttons set 9902"}}]} \
+                {"translate":book.cnk.cookbook_navigation,"with":[{"translate":book.cnk.previous_page,"hover_event":{"action":"show_text","value":{"translate":book.cnk.previous_page.hover}},"click_event":{"action":"run_command","command":"trigger cnk.cookbook_buttons set 9901"}},{"translate":$(previous_incomplete_recipe)},{"translate":book.$(source_key),"font":"$(source_font)","hover_event":{"action":"show_text","value":{"translate":$(source_key)}}},{"translate":$(next_incomplete_recipe)},{"translate":book.cnk.next_page,"hover_event":{"action":"show_text","value":{"translate":book.cnk.next_page.hover}},"click_event":{"action":"run_command","command":"trigger cnk.cookbook_buttons set 9902"}}]} \
             ] \
-        }, \
-        {"text":"\n\n\n\n"}] \
+        }] \
     }, \
+    { \
+      "type": "minecraft:plain_message", \
+      "width": 1, \
+      "contents": [{"text":"\n"}] \
+    } \
   ], \
   "inputs": [], \
   "can_close_with_escape": true, \
@@ -35,12 +39,13 @@ $dialog show @s { \
   "after_action": "none", \
   "actions": [ \
     { \
-      "label": "Done", \
-      "width": 200, \
+      "label": {translate:"gui.done"}, \
+      "width": $(button_width), \
       "action": { \
         "type": "run_command", \
         "command": "trigger cnk.cookbook_buttons set 9991" \
       } \
     } \
+    $(lectern_button) \
   ] \
 }

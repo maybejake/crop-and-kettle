@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ minecraft:lectern run kill @s

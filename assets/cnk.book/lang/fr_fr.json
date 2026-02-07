@@ -25,5 +25,8 @@
 
   "book.cnk.stamp.plateable.text": "Ce plat a une apparence\nspéciale lorsqu'il est présenté !",
 
-  "book.cnk.return.active.text": "Retour"
+  "book.cnk.return.active.text": "Retour",
+  
+  "book.cnk.next_incomplete_recipe.hover": "Seuraava löytämätön resepti",
+  "book.cnk.previous_incomplete_recipe.hover": "Edellinen löytämätön resepti"
 }

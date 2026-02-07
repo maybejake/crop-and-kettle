@@ -1,0 +1,6 @@
+{
+  "parent":"cnk:block/lectern_cookbook",
+  "textures": {
+    "0": "cnk:block/lectern_distiller_book"
+  }
+}

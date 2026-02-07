@@ -4,7 +4,7 @@ $dialog show @s { \
   "body": [ \
     { \
       "type": "minecraft:plain_message", \
-      "width": 240, \
+      "width": 211, \
       "contents": [{ \
             "translate":"book.cnk.front_page","font":"cnk.book:base","shadow_color":0,"color":"white","with":[ \
                 {"translate":book.tab.cnk.front.$(front_state),"hover_event":{"action":"show_text","value":{"translate":book.cnk.section.front}},"click_event":{"action":"run_command","command":"trigger cnk.cookbook_buttons set 9921"}}, \
@@ -15,10 +15,14 @@ $dialog show @s { \
                 {"translate":book.tab.cnk.feast.$(feast_state),"hover_event":{"action":"show_text","value":{"translate":book.cnk.section.feast}},"click_event":{"action":"run_command","command":"trigger cnk.cookbook_buttons set 9926"}}, \
                 {"translate":book.tab.cnk.dessert.$(dessert_state),"hover_event":{"action":"show_text","value":{"translate":book.cnk.section.dessert}},"click_event":{"action":"run_command","command":"trigger cnk.cookbook_buttons set 9927"}}, \
                 {"translate":book.cnk.bottom_line,"with":[{"translate":book.cnk.page_number.$(page_number_width),"font":"cnk.book:small_text","with":[{"text":"$(current_page)","color":"#927359"}]}]}, \
-                {"translate":book.cnk.front_navigation,"with":[{"translate":book.cnk.next_page,"hover_event":{"action":"show_text","value":{"translate":book.cnk.next_page.hover}},"click_event":{"action":"run_command","command":"trigger cnk.cookbook_buttons set 9902"}}]} \
+                {"translate":book.cnk.cookbook_front_navigation,"with":[{"translate":$(next_incomplete_recipe)},{"translate":book.cnk.next_page,"hover_event":{"action":"show_text","value":{"translate":book.cnk.next_page.hover}},"click_event":{"action":"run_command","command":"trigger cnk.cookbook_buttons set 9902"}}]} \
             ] \
-        }, \
-        {"text":"\n\n\n\n"}] \
+        }] \
+    }, \
+    { \
+      "type": "minecraft:plain_message", \
+      "width": 1, \
+      "contents": [{"text":"\n"}] \
     } \
   ], \
   "inputs": [], \
@@ -27,12 +31,13 @@ $dialog show @s { \
   "after_action": "none", \
   "actions": [ \
     { \
-      "label": "Done", \
-      "width": 200, \
+      "label": {translate:"gui.done"}, \
+      "width": $(button_width), \
       "action": { \
         "type": "run_command", \
         "command": "trigger cnk.cookbook_buttons set 9991" \
       } \
     } \
+    $(lectern_button) \
   ] \
 }

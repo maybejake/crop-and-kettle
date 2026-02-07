@@ -1,6 +1,9 @@
 #ensure trigger is enabled
 scoreboard players enable @s cnk.distiller_book_buttons
 
+#handle open state
+execute if score $dynamic_command_feedback cnk.dummy matches 1 if entity @s[tag=!cnk.book_open] run function cnk:cookbook/open_state
+
 #clear storage
 data remove storage cnk:temp distiller_book
 
@@ -38,6 +41,11 @@ data modify storage cnk:temp distiller_book.data.source_key set value "cnk.no_so
 data modify storage cnk:temp distiller_book.data.source_font set value "cnk.book:base"
 execute if data storage cnk:temp distiller_book.current_page.source.key run data modify storage cnk:temp distiller_book.data.source_key set from storage cnk:temp distiller_book.current_page.source.key
 execute if data storage cnk:temp distiller_book.current_page.source.font run data modify storage cnk:temp distiller_book.data.source_font set from storage cnk:temp distiller_book.current_page.source.font
+
+#handle lectern button
+data modify storage cnk:temp distiller_book.data.lectern_button set value ","
+data modify storage cnk:temp distiller_book.data.button_width set value 211
+execute if entity @s[tag=cnk.via_lectern] run function cnk:distiller_book/lectern_button
 
 #check for dialog function
 execute if data storage cnk:temp distiller_book.current_page.dialog_function run return run function cnk:distiller_book/open_page with storage cnk:temp distiller_book.current_page

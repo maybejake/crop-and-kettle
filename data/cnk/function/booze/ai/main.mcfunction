@@ -1,4 +1,5 @@
 item modify entity @s weapon.mainhand {"function":"set_custom_data","tag":{fix:"idk why this works but it does"}}
+effect give @s invisibility infinite 0 true
 
 execute unless entity @p[distance=..16,gamemode=!spectator,gamemode=!creative] run return fail
 data modify storage cnk:temp booze.target set from entity @p[distance=..16,gamemode=!spectator,gamemode=!creative] Pos

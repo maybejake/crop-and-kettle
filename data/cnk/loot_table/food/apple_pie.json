@@ -17,7 +17,7 @@
                   "saturation": 6.3
                 },
                 "minecraft:consumable": {},
-                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"apple_pie"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"apple_pie"},"placeable":{"model":"cnk:placeable/apple_pie"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
               }
             }

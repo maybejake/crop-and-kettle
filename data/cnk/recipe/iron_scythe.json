@@ -25,30 +25,22 @@
       "minecraft:enchantable": {"value": 14},
       "minecraft:use_effects": {"can_sprint":true, "speed_multiplier":1, "interact_vibrations":true},
       "minecraft:attack_range": {"max_reach":4, "max_creative_reach":6, "hitbox_margin":0},
-      "minecraft:consumable": {"consume_seconds":2147483648,"animation":"none","sound":"intentionally_empty","has_consume_particles":false},
+      "minecraft:consumable":{"consume_seconds":2147483648,"animation":"none","sound":"intentionally_empty","has_consume_particles":false},
       "minecraft:repairable": {"items": "minecraft:iron_ingot"},
-      "minecraft:attribute_modifiers":[
+      "minecraft:attribute_modifiers": [
         {
-          "type":"minecraft:attack_damage",
-          "id":"cnk:iron_scythe",
-          "amount":7,
-          "operation":"add_value",
-          "slot":"mainhand",
-          "display": {
-            "type": "override",
-            "value": [{"text":" 7 ","color":"dark_green"},{"translate":"attribute.name.attack_damage"}]
-          }
+          "id": "minecraft:base_attack_damage",
+          "type": "minecraft:attack_damage",
+          "amount": 6,
+          "operation": "add_value",
+          "slot": "mainhand"
         },
         {
-          "type":"minecraft:attack_speed",
-          "id":"cnk:scythe",
-          "amount":-2.9,
-          "operation":"add_value",
-          "slot":"mainhand",
-          "display": {
-            "type": "override",
-            "value": [{"text":" 1.1 ","color":"dark_green"},{"translate":"attribute.name.attack_speed"}]
-          }
+          "id": "minecraft:base_attack_speed",
+          "type": "minecraft:attack_speed",
+          "amount": -2.9,
+          "operation": "add_value",
+          "slot": "mainhand"
         }
       ]
     }

@@ -172,6 +172,12 @@
   "item.cnk.cutting_board": "Deska do krojenia",
   "item.cnk.mixing_bowl": "Miska do mieszania",
   "item.cnk.knife": "Nóż",
+  "item.cnk.wooden_knife": "Drewniany nóż",
+  "item.cnk.copper_knife": "Miedziany nóż",
+  "item.cnk.iron_knife": "Żelazny nóż",
+  "item.cnk.golden_knife": "Złoty nóż",
+  "item.cnk.diamond_knife": "Diamentowy nóż",
+  "item.cnk.netherite_knife": "Netherytowy nóż",
   "item.cnk.ritual_dagger": "Sztylet rytualny",
   "item.cnk.faucet": "Kran",
   "item.cnk.distiller": "Destylator",
@@ -442,5 +448,21 @@
   "advancement.cnk.scythe.name":"Ponure żniwy",
   "advancement.cnk.scythe.desc":"Ułatw sobie zbieranie plonów, wytworząjąc kosę",
   "advancement.cnk.netherite_scythe.name":"Testowana w terenie",
-  "advancement.cnk.netherite_scythe.desc":"Użyj sztabki netherytu by ulepszyć kosę i poczuj się lepiej dzięki temu"
+  "advancement.cnk.netherite_scythe.desc":"Użyj sztabki netherytu by ulepszyć kosę i poczuj się lepiej dzięki temu",
+  
+  "item.cnk.hollow_vessel": "Puste naczynie",
+  "item.cnk.sourdough_dough": "Ciasto na zakwasie",
+  "item.cnk.sourdough_bread": "Chleb na zakwasie",
+
+  "cnk.dialog.settings.dynamic_command_feedback": "Dynamiczne przesyłanie informacji zwrotnej poleceń",
+  "cnk.dialog.settings.dynamic_command_feedback.tooltip": "Metona na wyłączenie spamu na czacie przy interakcji z książką kucharską",
+  "cnk.dialog.settings.dynamic_command_feedback.body": "Dynamiczne przesyłanie informacji zwrotnej wyłączy informacje zwrotne z czatu przy interakcji z książką kucharską gdy ta jest otwarta",
+  "cnk.dialog.settings.dynamic_command_feedback.note": "Należy pamiętać, że na serwerach oznacza to, że wyniki innych poleceń nie będą wyświetlane na czacie, gdy ktoś ma otwartą książkę kucharską.",
+  "cnk.dialog.settings.dynamic_command_feedback.command": "Aby przełączyć dynamiczne przesyłanie informacji zwrotnej użyj następującego polecenia: ",
+  "cnk.dialog.settings.dynamic_command_feedback.status": "Dynamiczne przesyłanie informacji zwrotnej poleceń jest %1$s",
+  "cnk.enabled": "wyłączone",
+  "cnk.disabled": "włączone",
+
+  "advancement.cnk.sourdough_boy.name":"Albowiem powstał",
+  "advancement.cnk.sourdough_boy.desc":"Zrób własnego chłopca na zakwasie"
 }

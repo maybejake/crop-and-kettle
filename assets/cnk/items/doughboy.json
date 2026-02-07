@@ -1,0 +1,173 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+          {
+            "model": {
+              "type": "minecraft:condition",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "on_true" : {
+                "type": "minecraft:model",
+                "model": "cnk:entity/doughboy/hurt/jar_full"
+              },
+              "on_false" : {
+                "type": "minecraft:model",
+                "model": "cnk:entity/doughboy/jar_full"
+              }
+            },
+            "threshold": 3
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "on_true" : {
+            "type": "minecraft:model",
+            "model": "cnk:entity/doughboy/hurt/jar"
+          },
+          "on_false" : {
+            "type": "minecraft:model",
+            "model": "cnk:entity/doughboy/jar"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "on_true" : {
+          "type": "minecraft:model",
+          "model": "cnk:entity/doughboy/hurt/lid"
+        },
+        "on_false" : {
+          "type": "minecraft:model",
+          "model": "cnk:entity/doughboy/lid"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 1,
+        "on_true" : {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "on_true" : {
+            "type": "minecraft:model",
+            "model": "cnk:entity/doughboy/hurt/arms_walking"
+          },
+          "on_false" : {
+            "type": "minecraft:model",
+            "model": "cnk:entity/doughboy/arms_walking"
+          }
+        },
+        "on_false" : {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "on_true" : {
+          "type": "minecraft:model",
+          "model": "cnk:entity/doughboy/hurt/arms"
+        },
+        "on_false" : {
+          "type": "minecraft:model",
+          "model": "cnk:entity/doughboy/arms"
+        }
+      }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 1,
+        "on_true" : {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "on_true" : {
+            "type": "minecraft:model",
+            "model": "cnk:entity/doughboy/hurt/feet_walking"
+          },
+          "on_false" : {
+            "type": "minecraft:model",
+            "model": "cnk:entity/doughboy/feet_walking"
+          }
+        },
+        "on_false" : {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "on_true" : {
+            "type": "minecraft:model",
+            "model": "cnk:entity/doughboy/hurt/feet"
+          },
+          "on_false" : {
+            "type": "minecraft:model",
+            "model": "cnk:entity/doughboy/feet"
+          }
+        }
+      },
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+          {
+            "model": {
+              "type": "minecraft:condition",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "on_true" : {
+                "type": "minecraft:model",
+                "model": "cnk:entity/doughboy/hurt/dough_1"
+              },
+              "on_false" : {
+                "type": "minecraft:model",
+                "model": "cnk:entity/doughboy/dough_1"
+              }
+            },
+            "threshold": 1
+          },
+          {
+            "model": {
+              "type": "minecraft:condition",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "on_true" : {
+                "type": "minecraft:model",
+                "model": "cnk:entity/doughboy/hurt/dough_2"
+              },
+              "on_false" : {
+                "type": "minecraft:model",
+                "model": "cnk:entity/doughboy/dough_2"
+              }
+            },
+            "threshold": 2
+          },
+          {
+            "model": {
+              "type": "minecraft:condition",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "on_true" : {
+                "type": "minecraft:model",
+                "model": "cnk:entity/doughboy/hurt/dough_3"
+              },
+              "on_false" : {
+                "type": "minecraft:model",
+                "model": "cnk:entity/doughboy/dough_3"
+              }
+            },
+            "threshold": 3
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","size":1,"offset":0,"values":[true]}}
+execute if score $hurt_time cnk.dummy matches 9 run playsound cnk:entity.booze.hurt neutral @a ~ ~ ~ 1 1.3

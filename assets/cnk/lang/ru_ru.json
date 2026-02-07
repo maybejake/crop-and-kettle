@@ -250,13 +250,6 @@
   
   "tooltip.cnk.pail.quantity": "%1$s/%2$s бутылок",
   
-  "item.cnk.diamond_scythe.attack_damage": " 8 единиц урона",
-  "item.cnk.iron_scythe.attack_damage": " 7 единиц урона",
-  "item.cnk.scythe.attack_speed": " 1.1 скорости атаки",
-  
-  "item.cnk.knife.attack_damage": " 4 единиц урона",
-  "item.cnk.knife.attack_speed": " 2.5 скорости урона",
-  
   "item.cnk.calendar.format": "Год %1$s, день %2$s",
   "item.cnk.calendar.delta.format.base": "Эта бутылка выдерживается %1$s",
   "item.cnk.calendar.delta.format.both_plural": "%1$s лет и %2$s дней",

@@ -1,8 +1,51 @@
 #ensure trigger is enabled
 scoreboard players enable @s cnk.cookbook_buttons
 
-#clear storage
+#remove tag
+tag @s[tag=cnk.on_incomplete_page] remove cnk.on_incomplete_page
+
+#handle open state
+execute if score $dynamic_command_feedback cnk.dummy matches 1 if entity @s[tag=!cnk.book_open] run function cnk:cookbook/open_state
+
+#setup clean storage
 data remove storage cnk:temp cookbook
+data merge storage cnk:temp { \
+    cookbook: { \
+        data: { \
+            source_key:"cnk.no_source", \
+            source_font:"cnk:book:base", \
+            front_state: "idle", \
+            staple_state: "idle", \
+            snack_state: "idle", \
+            light_state: "idle", \
+            hearty_state: "idle", \
+            feast_state: "idle", \
+            dessert_state: "idle", \
+            page_name: "item.cnk.unknown", \
+            recipe_icon_font: "cnk.book:base", \
+            slot_1: "item.cnk.unknown", \
+            font_1: "cnk.book:base", \
+            slot_2: "item.cnk.unknown", \
+            font_2: "cnk.book:base", \
+            slot_3: "item.cnk.unknown", \
+            font_3: "cnk.book:base", \
+            slot_4: "item.cnk.unknown", \
+            font_4: "cnk.book:base", \
+            slot_5: "item.cnk.unknown", \
+            font_5: "cnk.book:base", \
+            slot_6: "item.cnk.unknown", \
+            font_6: "cnk.book:base", \
+            slot_7: "item.cnk.unknown", \
+            font_7: "cnk.book:base", \
+            stamp: "book.cnk.stamp.none", \
+            return: "book.cnk.return.inactive.icon", \
+            lectern_button:",", \
+            button_width: 211, \
+            previous_incomplete_recipe: "book.cnk.empty_incomplete_recipe", \
+            next_incomplete_recipe: "book.cnk.empty_incomplete_recipe" \
+        } \
+    } \
+}
 
 #get player data
 execute unless function cnk:cookbook/database/get/main run return fail
@@ -41,8 +84,6 @@ data modify storage cnk:temp cookbook.data.icon_font set from storage cnk:temp c
 execute store result storage cnk:temp cookbook.data.ingredient_count int 1 run scoreboard players get $ingredient_count cnk.dummy
 
 #handle source indicator
-data modify storage cnk:temp cookbook.data.source_key set value "cnk.no_source"
-data modify storage cnk:temp cookbook.data.source_font set value "cnk.book:base"
 execute if data storage cnk:temp cookbook.current_page.source.key run data modify storage cnk:temp cookbook.data.source_key set from storage cnk:temp cookbook.current_page.source.key
 execute if data storage cnk:temp cookbook.current_page.source.font run data modify storage cnk:temp cookbook.data.source_font set from storage cnk:temp cookbook.current_page.source.font
 
@@ -51,6 +92,13 @@ function cnk:cookbook/stamp/main
 
 #handle jump back
 function cnk:cookbook/return/main
+
+#handle lectern button
+execute if entity @s[tag=cnk.via_lectern] run function cnk:cookbook/lectern_button
+
+#next/previous incomplete recipe stuff
+function cnk:cookbook/incomplete_recipe/main
+function cnk:cookbook/incomplete_recipe/buttons
 
 #check for dialog function
 execute if data storage cnk:temp cookbook.current_page.dialog_function run return run function cnk:cookbook/open_page with storage cnk:temp cookbook.current_page

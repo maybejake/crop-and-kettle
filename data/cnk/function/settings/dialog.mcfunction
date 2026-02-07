@@ -29,6 +29,14 @@ $dialog show @s { \
         "type": "run_command", \
         "command": "trigger cnk.settings set 2" \
       } \
+    }, \
+    { \
+      "label": {translate:"cnk.dialog.settings.dynamic_command_feedback"}, \
+      "tooltip": {translate:"cnk.dialog.settings.dynamic_command_feedback.tooltip"}, \
+      "action": { \
+        "type": "run_command", \
+        "command": "trigger cnk.settings set 5" \
+      } \
     } \
   ], \
   "exit_action": { \
@@ -39,7 +47,7 @@ $dialog show @s { \
     "label": { \
       "translate": "gui.back" \
     }, \
-    "width": 200 \
+    "width": 212 \
   }, \
   "after_action": "wait_for_response" \
 }

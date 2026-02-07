@@ -1,5 +1,6 @@
 execute store result storage cnk:temp register.page_number int 1 run scoreboard players get $global_cookbook_page cnk.dummy
 data modify storage cnk:temp register.page_name set value "crop_seeds"
+data modify storage cnk:temp register.static_title set value true
 data modify storage cnk:temp register.ingredients set value [ \
     {key:"item.cnk.corn_seeds", font:"cnk.book:icons"}, \
     {key:"item.cnk.lettuce_seeds", font:"cnk.book:icons"}, \

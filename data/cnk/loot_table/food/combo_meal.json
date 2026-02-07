@@ -23,7 +23,7 @@
                     ]}
                   ]
                 },
-                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"combo_meal"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"combo_meal"},"placeable":{"model":"cnk:placeable/combo_meal"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
               }
             }
