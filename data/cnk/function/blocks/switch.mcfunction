@@ -16,3 +16,5 @@ execute if data block ~ ~ ~ components."minecraft:custom_data".cnk.block{type:"p
 execute if data block ~ ~ ~ components."minecraft:custom_data".cnk.block{type:"wreath"} run return run function cnk:wreath/place
 execute if data block ~ ~ ~ components."minecraft:custom_data".cnk.block{type:"gift"} run return run function cnk:gift/place
 execute if data block ~ ~ ~ components."minecraft:custom_data".cnk.block{type:"hollow_vessel"} run return run function cnk:hollow_vessel/place
+
+function #cnk:addons/blocks/switch
