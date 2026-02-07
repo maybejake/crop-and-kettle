@@ -3,6 +3,7 @@ execute unless block ~ ~ ~ minecraft:hopper[facing=down] run return run function
 scoreboard players add @s cnk.timer 1
 execute if entity @s[tag=cnk.witch_cauldron] run function cnk:cooking_pot/effects/green_flame
 execute if entity @s[tag=!cnk.witch_cauldron] run particle minecraft:flame ~ ~-0.35 ~ 0.18 0.05 0.18 0 1
+execute if score @s cnk.timer matches 1 if block ~ ~-1 ~ minecraft:hopper[enabled=true] run data modify block ~ ~-1 ~ TransferCooldown set value 120
 execute if score @s cnk.timer matches 50 run data modify block ~ ~ ~ TransferCooldown set value 1000
 execute if score @s cnk.timer matches 50 run playsound cnk:block.cooking_pot.idling block @a[distance=..6] ~ ~ ~ 0.2 1
 execute if score @s cnk.timer matches 50 run scoreboard players reset @s cnk.timer
