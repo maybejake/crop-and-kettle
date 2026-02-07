@@ -14,6 +14,11 @@
 # helper functions exist for items that have variants, cnk comes with a few of these by default, which you can make use of! they basically just return the quantity of those unique items in the cooking pot
 # the cnk:temp cooking_pot.Items storage contains the contents of the cooking pot, so you can check for any sort of data!
 
+# as an example, to check for an item with a custom data component of:
+# "minecraft:custom_data":{namespace:{id:"item"}}
+# add a line like:
+# if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{namespace:{id:"item"}}}}] \
+
 # cnk:cooking_pot/crafting/lock MUST be called and MUST be called last, this handles the cooking process and decides when cooking is complete
 execute if data storage cnk:temp cooking_pot.Items[{id:"minecraft:pumpkin"}] \
         if data storage cnk:temp cooking_pot.Items[{id:"minecraft:sugar"}] \
