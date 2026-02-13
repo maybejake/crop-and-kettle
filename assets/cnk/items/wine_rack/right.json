@@ -10,10 +10,10 @@
         "type": "minecraft:model",
         "model": "cnk:block/wine_rack/wine_right",
         "tints": [
-          {"type":"custom_model_data","default":[1.0, 1.0, 1.0],"index":0},
-          {"type":"custom_model_data","default":[1.0, 1.0, 1.0],"index":1},
-          {"type":"custom_model_data","default":[1.0, 1.0, 1.0],"index":2},
-          {"type":"custom_model_data","default":[1.0, 1.0, 1.0],"index":3}
+          {"type":"custom_model_data","default":1,"index":0},
+          {"type":"custom_model_data","default":1,"index":1},
+          {"type":"custom_model_data","default":1,"index":2},
+          {"type":"custom_model_data","default":1,"index":3}
         ]
       }
     ]

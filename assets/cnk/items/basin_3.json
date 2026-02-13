@@ -5,7 +5,7 @@
     "tints": [
       {
         "type": "custom_model_data",
-        "default": [0.25, 0.46, 0.89]
+        "default": 4224483
       }
     ]
   }

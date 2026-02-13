@@ -8,7 +8,7 @@
         "tints": [
           {
             "type": "custom_model_data",
-            "default": [1.0, 1.0, 1.0],
+            "default": 16777215,
             "index": 0
           }
         ]
@@ -19,7 +19,7 @@
         "tints": [
           {
             "type": "custom_model_data",
-            "default": [1.0, 1.0, 1.0],
+            "default": 16777215,
             "index": 1
           }
         ]

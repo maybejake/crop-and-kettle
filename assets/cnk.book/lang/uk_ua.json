@@ -1,27 +1,27 @@
 {
-  "book.cnk.distilling_page.title": "Дистиляція",
-  "book.cnk.aging_page.title": "Витримка вина",
+  "book.cnk.distilling_page.title": "Р”РёСЃС‚РёР»СЏС†С–СЏ",
+  "book.cnk.aging_page.title": "Р’РёС‚СЂРёРјРєР° РІРёРЅР°",
 
-  "book.cnk.section.front": "Головна сторінка",
-  "book.cnk.section.staple": "Основні страви",
-  "book.cnk.section.snack": "Закуски",
-  "book.cnk.section.light": "Легкі страви",
-  "book.cnk.section.hearty": "Ситні страви",
-  "book.cnk.section.feast": "Бенкети",
-  "book.cnk.section.dessert": "Десерти",
+  "book.cnk.section.front": "Р“РѕР»РѕРІРЅР° СЃС‚РѕСЂС–РЅРєР°",
+  "book.cnk.section.staple": "РћСЃРЅРѕРІРЅС– СЃС‚СЂР°РІРё",
+  "book.cnk.section.snack": "Р—Р°РєСѓСЃРєРё",
+  "book.cnk.section.light": "Р›РµРіРєС– СЃС‚СЂР°РІРё",
+  "book.cnk.section.hearty": "РЎРёС‚РЅС– СЃС‚СЂР°РІРё",
+  "book.cnk.section.feast": "Р‘РµРЅРєРµС‚Рё",
+  "book.cnk.section.dessert": "Р”РµСЃРµСЂС‚Рё",
 
-  "book.cnk.crop_seeds.title": "Насіння",
+  "book.cnk.crop_seeds.title": "РќР°СЃС–РЅРЅСЏ",
 
-  "book.cnk.toast.unlock.seed": "Розблоковано насіння!",
-  "book.cnk.toast.unlock.ingredient": "Розблоковано інгредієнт!",
-  "book.cnk.toast.unlock.recipe": "Розблоковано рецепт!",
-  "book.cnk.toast.unlock.ritual": "Розблоковано ритуал!",
-  "book.cnk.toast.unlock.weapon": "Зброю викувано!",
+  "book.cnk.toast.unlock.seed": "Р РѕР·Р±Р»РѕРєРѕРІР°РЅРѕ РЅР°СЃС–РЅРЅСЏ!",
+  "book.cnk.toast.unlock.ingredient": "Р РѕР·Р±Р»РѕРєРѕРІР°РЅРѕ С–РЅРіСЂРµРґС–С”РЅС‚!",
+  "book.cnk.toast.unlock.recipe": "Р РѕР·Р±Р»РѕРєРѕРІР°РЅРѕ СЂРµС†РµРїС‚!",
+  "book.cnk.toast.unlock.ritual": "Р РѕР·Р±Р»РѕРєРѕРІР°РЅРѕ СЂРёС‚СѓР°Р»!",
+  "book.cnk.toast.unlock.weapon": "Р—Р±СЂРѕСЋ РІРёРєСѓРІР°РЅРѕ!",
 
-  "book.cnk.previous_page.hover": "Попередня сторінка",
-  "book.cnk.next_page.hover": "Наступна сторінка",
+  "book.cnk.previous_page.hover": "РџРѕРїРµСЂРµРґРЅСЏ СЃС‚РѕСЂС–РЅРєР°",
+  "book.cnk.next_page.hover": "РќР°СЃС‚СѓРїРЅР° СЃС‚РѕСЂС–РЅРєР°",
   
-  "book.cnk.foraging_page.title": "Збирацтво",
-  "book.cnk.return.active.text": "Назад",
-  "book.cnk.stamp.plateable.text": "Ця страва має особливий вигляд, коли на тарілці!"
+  "book.cnk.foraging_page.title": "Р—Р±РёСЂР°С†С‚РІРѕ",
+  "book.cnk.return.active.text": "РќР°Р·Р°Рґ",
+  "book.cnk.stamp.plateable.text": "Р¦СЏ СЃС‚СЂР°РІР° РјР°С” РѕСЃРѕР±Р»РёРІРёР№ РІРёРіР»СЏРґ, РєРѕР»Рё РЅР° С‚Р°СЂС–Р»С†С–!"
 }
