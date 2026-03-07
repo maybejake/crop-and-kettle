@@ -1,8 +1,6 @@
 schedule function cnk:tick_5 5t replace
 
-execute as @e[type=minecraft:item_display,tag=cnk.base_wheat,tag=cnk.ticking_crop,predicate=!cnk:wheat_0] at @s run function cnk:crops/base_wheat
-execute as @e[type=minecraft:item_display,tag=cnk.base_pumpkin,tag=cnk.ticking_crop,predicate=!cnk:pumpkin_0] at @s run function cnk:crops/base_pumpkin
-execute as @e[type=minecraft:item_display,tag=cnk.base_propagule,tag=cnk.ticking_crop,predicate=!cnk:propagule_0] at @s run function cnk:crops/base_propagule
+execute if function cnk:check_crop_tick run function cnk:crop_tick
 
 execute as @e[type=minecraft:item,tag=cnk.active_item] at @s run function cnk:active_items
 

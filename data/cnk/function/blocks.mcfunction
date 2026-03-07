@@ -16,6 +16,6 @@ execute if entity @s[tag=cnk.gift] run return run function cnk:gift/tick
 execute if entity @s[tag=cnk.booze_head] run return run function cnk:booze_head/tick
 execute if entity @s[tag=cnk.lectern_book] run return run function cnk:lectern/tick
 execute if entity @s[tag=cnk.hollow_vessel] run return run function cnk:hollow_vessel/tick
-execute if entity @s[tag=cnk.wine_rack] rotated as @s positioned ^ ^ ^-0.51 run return run function cnk:wine_rack/tick
+execute if entity @s[tag=cnk.wine_rack] run return run tag @s remove cnk.block
 
 function #cnk:addons/blocks/tick

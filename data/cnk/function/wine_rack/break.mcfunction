@@ -1,5 +1,3 @@
-kill @n[type=minecraft:item,nbt={Age:0s,Item:{id:"minecraft:crafter"}},distance=..1]
-kill @n[type=minecraft:item,nbt={Age:1s,Item:{id:"minecraft:crafter"}},distance=..1]
 loot spawn ~ ~ ~ loot cnk:tools/wine_rack
 
 playsound minecraft:block.wood.break block @a ~ ~ ~ 1 1

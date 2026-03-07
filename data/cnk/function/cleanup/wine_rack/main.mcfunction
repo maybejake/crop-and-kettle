@@ -1,0 +1,4 @@
+execute positioned ~ ~ ~-0.51 if entity @n[type=minecraft:item_display,tag=cnk.wine_rack,distance=..0.1] run return run function cnk:cleanup/wine_rack/cleanup
+execute positioned ~ ~ ~0.51 if entity @n[type=minecraft:item_display,tag=cnk.wine_rack,distance=..0.1] run return run function cnk:cleanup/wine_rack/cleanup
+execute positioned ~-0.51 ~ ~ if entity @n[type=minecraft:item_display,tag=cnk.wine_rack,distance=..0.1] run return run function cnk:cleanup/wine_rack/cleanup
+execute positioned ~0.51 ~ ~ if entity @n[type=minecraft:item_display,tag=cnk.wine_rack,distance=..0.1] run return run function cnk:cleanup/wine_rack/cleanup
