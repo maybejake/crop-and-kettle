@@ -11,6 +11,5 @@ execute align xyz run summon item_display ~0.5 ~ ~0.5 {item_display:"ground",Tag
 
 execute align xyz positioned ~0.5 ~ ~0.5 run scoreboard players set @n[type=minecraft:item_display,tag=cnk.lettuce_crop,distance=..0.1] cnk.max_age 3
 execute align xyz positioned ~0.5 ~ ~0.5 run scoreboard players set @n[type=minecraft:item_display,tag=cnk.lettuce_crop,distance=..0.1] cnk.age 0
-execute align xyz positioned ~0.5 ~ ~0.5 run scoreboard players set @n[type=minecraft:item_display,tag=cnk.lettuce_crop,distance=..0.1] cnk.crop_version 1
 
 execute if entity @s[gamemode=!creative] run function cnk:seeds/remove_item with storage cnk:temp seeds

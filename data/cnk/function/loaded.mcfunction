@@ -71,8 +71,6 @@ scoreboard objectives add cnk.seed_cooldown dummy
 
 scoreboard objectives add cnk.bottle_count dummy
 
-scoreboard objectives add cnk.crop_version dummy
-
 scoreboard objectives add cnk.candy_count dummy
 
 scoreboard objectives add cnk.treat_basket_timer dummy

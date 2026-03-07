@@ -1,3 +1,3 @@
 execute as @a run function cnk:players
 
-execute as @e[type=minecraft:marker,tag=cnk.entity] at @s run function cnk:entity
+execute as @e[tag=cnk.entity,type=minecraft:marker] at @s run function cnk:entity

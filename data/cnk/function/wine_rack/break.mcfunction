@@ -1,3 +1,5 @@
+scoreboard players set $wine_rack_broken cnk.dummy 1
+
 loot spawn ~ ~ ~ loot cnk:tools/wine_rack
 
 playsound minecraft:block.wood.break block @a ~ ~ ~ 1 1

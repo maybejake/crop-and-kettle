@@ -1,2 +1,4 @@
-execute as @n[type=minecraft:item_display,tag=cnk.wine_rack,distance=..0.1] at @s rotated as @s positioned ^ ^ ^-0.51 run function cnk:wine_rack/break
-kill @s
+execute positioned ~ ~ ~-0.51 as @n[type=minecraft:item_display,tag=cnk.wine_rack,distance=..0.1] at @s rotated as @s positioned ^ ^ ^-0.51 unless block ~ ~ ~ minecraft:crafter run return run function cnk:wine_rack/break
+execute positioned ~ ~ ~0.51 as @n[type=minecraft:item_display,tag=cnk.wine_rack,distance=..0.1] at @s rotated as @s positioned ^ ^ ^-0.51 unless block ~ ~ ~ minecraft:crafter run return run function cnk:wine_rack/break
+execute positioned ~-0.51 ~ ~ as @n[type=minecraft:item_display,tag=cnk.wine_rack,distance=..0.1] at @s rotated as @s positioned ^ ^ ^-0.51 unless block ~ ~ ~ minecraft:crafter run return run function cnk:wine_rack/break
+execute positioned ~0.51 ~ ~ as @n[type=minecraft:item_display,tag=cnk.wine_rack,distance=..0.1] at @s rotated as @s positioned ^ ^ ^-0.51 unless block ~ ~ ~ minecraft:crafter run return run function cnk:wine_rack/break
