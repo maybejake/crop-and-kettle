@@ -1,7 +1,5 @@
 tag @s add cnk.checked
 
-execute unless items entity @s contents #cnk:drops run return fail
-
 execute store result score $age cnk.dummy run data get entity @s Age
 execute if score $age cnk.dummy matches 2.. run return fail
 
