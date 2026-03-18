@@ -54,3 +54,5 @@ This is a datapack with re-packaged mod versions for convenience of installation
 - Portugese: narcikitty
 - Finnish: [Toast](https://modrinth.com/user/ToastedDragon)
 - Turkish: Vencins
+
+Want to help translate the pack? Check out the [Crowdin](https://crowdin.com/project/crop-and-kettle)!
