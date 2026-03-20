@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_sword",
+      "components": {
+        "minecraft:item_model": "cnk:pan"
+      }
+    },
+    "title": {"translate":"advancement.cnk.pan.name","fallback":"Kitchen Confidential"},
+    "description": [{"translate":"advancement.cnk.pan.desc","fallback":"Explosively obtain a pan by doing something reckless in the kitchen"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "parent": "cnk:visible/cosmetic_pot",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+            {
+            "items": "minecraft:copper_sword",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"pan":true}}
+            }
+          }
+        ]
+      }
+    }
+  }
+}

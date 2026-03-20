@@ -2,7 +2,7 @@
 scoreboard players enable @s cnk.distiller_book_buttons
 
 #handle open state
-execute if score $dynamic_command_feedback cnk.dummy matches 1 if entity @s[tag=!cnk.book_open] run function cnk:cookbook/open_state
+execute if data storage cnk:admin settings{dynamic_command_feedback:true} if entity @s[tag=!cnk.book_open] run function cnk:cookbook/open_state
 
 #clear storage
 data remove storage cnk:temp distiller_book

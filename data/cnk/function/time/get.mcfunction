@@ -1,7 +1,6 @@
-# 2 lunar cycles (5h 20m)
-scoreboard players set $year cnk.dummy 384000
-
 scoreboard players set $day cnk.dummy 24000
+scoreboard players operation $year cnk.dummy = $day cnk.dummy
+scoreboard players operation $year cnk.dummy *= $days_in_a_year cnk.dummy
 
 scoreboard players operation $current_year cnk.dummy = $time cnk.dummy
 execute store result storage cnk:temp time.year int 1 run scoreboard players operation $current_year cnk.dummy /= $year cnk.dummy

@@ -1,0 +1,1 @@
+$effect give @s minecraft:saturation $(duration) $(amplifier) true

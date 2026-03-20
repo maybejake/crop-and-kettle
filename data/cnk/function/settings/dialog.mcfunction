@@ -31,8 +31,8 @@ $dialog show @s { \
       } \
     }, \
     { \
-      "label": {translate:"cnk.dialog.settings.dynamic_command_feedback"}, \
-      "tooltip": {translate:"cnk.dialog.settings.dynamic_command_feedback.tooltip"}, \
+      "label": {translate:"cnk.dialog.admin_panel"}, \
+      "tooltip": {translate:"cnk.dialog.admin_panel.tooltip"}, \
       "action": { \
         "type": "run_command", \
         "command": "trigger cnk.settings set 5" \

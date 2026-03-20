@@ -1,0 +1,7 @@
+{
+  "parent":"cnk:block/stove_base",
+  "textures": {
+    "6": "cnk:block/stove_on",
+    "particle": "cnk:item/stove"
+  }
+}

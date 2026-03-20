@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "hurt": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "cnk:feasting_ignored",
+                "expected": false
+              }
+            ]
+          }
+        },
+        "player": {
+          "effects": {
+            "minecraft:saturation": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cnk:feast/check"
+  }
+}

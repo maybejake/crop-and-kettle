@@ -1,0 +1,1 @@
+execute if entity @s[tag=cnk.rice_crop] run return run function cnk:crops/rice/break

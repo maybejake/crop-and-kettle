@@ -1,5 +1,7 @@
 advancement revoke @s only cnk:wine/consume_gleaming
 
+execute if data storage cnk:admin settings{gleaming_wine_disabled:true} run return fail
+
 function cnk:drinks/year_delta/main
 
 execute if score $year cnk.dummy matches 50.. run advancement grant @s only cnk:visible/50_year_wine

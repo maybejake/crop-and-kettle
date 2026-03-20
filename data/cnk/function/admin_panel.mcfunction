@@ -1,0 +1,1 @@
+function cnk:admin_panel/main

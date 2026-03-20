@@ -1,0 +1,3 @@
+execute as @e[tag=cnk.base_wheat,predicate=!cnk:wheat_0,type=minecraft:item_display,distance=..10] at @s run function cnk:cleanup/crop/base_wheat
+execute as @e[tag=cnk.base_pumpkin,predicate=!cnk:pumpkin_0,type=minecraft:item_display,distance=..10] at @s run function cnk:cleanup/crop/base_pumpkin
+execute as @e[tag=cnk.base_propagule,predicate=!cnk:propagule_0,type=minecraft:item_display,distance=..10] at @s run function cnk:cleanup/crop/base_propagule

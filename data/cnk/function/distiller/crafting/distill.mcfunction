@@ -1,4 +1,5 @@
 execute \
+        unless data storage cnk:admin settings{grape_wine_disabled:true} \
         if score $unique_items cnk.dummy matches 2 \
         if function cnk:distiller/crafting/generic/water if score $water_count cnk.dummy matches 1 \
         if data storage cnk:temp distiller.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"grapes"}}}}}] \
@@ -7,6 +8,7 @@ execute \
         run return run function cnk:recipes/distiller/grape_wine
 
 execute \
+        unless data storage cnk:admin settings{chorus_wine_disabled:true} \
         if score $unique_items cnk.dummy matches 2 \
         if function cnk:distiller/crafting/generic/water if score $water_count cnk.dummy matches 1 \
         if data storage cnk:temp distiller.Items[{id:"minecraft:chorus_fruit"}] \
@@ -15,6 +17,7 @@ execute \
         run return run function cnk:recipes/distiller/chorus_wine
 
 execute \
+        unless data storage cnk:admin settings{sweet_berry_wine_disabled:true} \
         if score $unique_items cnk.dummy matches 2 \
         if function cnk:distiller/crafting/generic/water if score $water_count cnk.dummy matches 1 \
         if data storage cnk:temp distiller.Items[{id:"minecraft:sweet_berries"}] \
@@ -23,6 +26,7 @@ execute \
         run return run function cnk:recipes/distiller/sweet_berry_wine
 
 execute \
+        unless data storage cnk:admin settings{glow_berry_wine_disabled:true} \
         if score $unique_items cnk.dummy matches 2 \
         if function cnk:distiller/crafting/generic/water if score $water_count cnk.dummy matches 1 \
         if data storage cnk:temp distiller.Items[{id:"minecraft:glow_berries"}] \
@@ -31,6 +35,7 @@ execute \
         run return run function cnk:recipes/distiller/glow_berry_wine
 
 execute \
+        unless data storage cnk:admin settings{creeping_wine_disabled:true} \
         if score $unique_items cnk.dummy matches 3 \
         if function cnk:distiller/crafting/generic/water if score $water_count cnk.dummy matches 1 \
         if function cnk:distiller/crafting/generic/fruit if score $fruit_count cnk.dummy matches 1 \
@@ -57,6 +62,7 @@ execute \
         run return run function cnk:recipes/distiller/ginger_beer
 
 execute \
+        unless data storage cnk:admin settings{blazing_wine_disabled:true} \
         if score $unique_items cnk.dummy matches 3 \
         if function cnk:distiller/crafting/generic/water if score $water_count cnk.dummy matches 1 \
         if function cnk:distiller/crafting/generic/fruit if score $fruit_count cnk.dummy matches 1 \
@@ -66,6 +72,7 @@ execute \
         run return run function cnk:recipes/distiller/blazing_wine
 
 execute \
+        unless data storage cnk:admin settings{gleaming_wine_disabled:true} \
         if score $unique_items cnk.dummy matches 2 \
         if function cnk:distiller/crafting/generic/water if score $water_count cnk.dummy matches 1 \
         if data storage cnk:temp distiller.Items[{id:"minecraft:golden_apple"}] \
@@ -74,6 +81,7 @@ execute \
         run return run function cnk:recipes/distiller/gleaming_wine
 
 execute \
+        unless data storage cnk:admin settings{breezing_wine_disabled:true} \
         if score $unique_items cnk.dummy matches 4 \
         if function cnk:distiller/crafting/generic/water if score $water_count cnk.dummy matches 1 \
         if function cnk:distiller/crafting/generic/fruit if score $fruit_count cnk.dummy matches 1 \
@@ -84,6 +92,7 @@ execute \
         run return run function cnk:recipes/distiller/breezing_wine
 
 execute \
+        unless data storage cnk:admin settings{heroic_wine_disabled:true} \
         if score $unique_items cnk.dummy matches 4 \
         if function cnk:distiller/crafting/generic/water if score $water_count cnk.dummy matches 1 \
         if function cnk:distiller/crafting/generic/fruit if score $fruit_count cnk.dummy matches 1 \
@@ -94,6 +103,7 @@ execute \
         run return run function cnk:recipes/distiller/heroic_wine
 
 execute \
+        unless data storage cnk:admin settings{diving_wine_disabled:true} \
         if score $unique_items cnk.dummy matches 4 \
         if function cnk:distiller/crafting/generic/water if score $water_count cnk.dummy matches 1 \
         if function cnk:distiller/crafting/generic/fruit if score $fruit_count cnk.dummy matches 1 \
@@ -104,6 +114,7 @@ execute \
         run return run function cnk:recipes/distiller/diving_wine
 
 execute \
+        unless data storage cnk:admin settings{prospecting_wine_disabled:true} \
         if score $unique_items cnk.dummy matches 4 \
         if function cnk:distiller/crafting/generic/water if score $water_count cnk.dummy matches 1 \
         if function cnk:distiller/crafting/generic/fruit if score $fruit_count cnk.dummy matches 1 \
@@ -114,6 +125,7 @@ execute \
         run return run function cnk:recipes/distiller/prospecting_wine
 
 execute \
+        unless data storage cnk:admin settings{blessing_wine_disabled:true} \
         if score $unique_items cnk.dummy matches 4 \
         if function cnk:distiller/crafting/generic/water if score $water_count cnk.dummy matches 1 \
         if function cnk:distiller/crafting/generic/fruit if score $fruit_count cnk.dummy matches 1 \
@@ -133,6 +145,7 @@ execute \
         run return run function cnk:recipes/distiller/fine_wine
 
 execute \
+        unless data storage cnk:admin settings{apple_cider_disabled:true} \
         if score $unique_items cnk.dummy matches 3 \
         if function cnk:distiller/crafting/generic/water if score $water_count cnk.dummy matches 1 \
         if data storage cnk:temp distiller.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"cinnamon"}}}}}] \
@@ -142,6 +155,7 @@ execute \
         run return run function cnk:recipes/distiller/apple_cider
 
 execute \
+        unless data storage cnk:admin settings{mulled_wine_disabled:true} \
         if score $unique_items cnk.dummy matches 5 \
         if function cnk:distiller/crafting/generic/water if score $water_count cnk.dummy matches 1 \
         if data storage cnk:temp distiller.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"cinnamon"}}}}}] \

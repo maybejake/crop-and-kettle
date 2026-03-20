@@ -30,7 +30,8 @@
   },
   "rewards": {
     "recipes": [
-      "cnk:candy_bowl"
+      "cnk:candy_bowl",
+      "cnk:stove"
     ]
   }
 }

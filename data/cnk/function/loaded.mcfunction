@@ -93,4 +93,10 @@ scoreboard objectives add cnk.sprint minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add cnk.sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives add cnk.jump minecraft.custom:minecraft.jump
 
+scoreboard objectives add cnk.damage_taken minecraft.custom:minecraft.damage_taken
+scoreboard objectives add cnk.feast_time dummy
+
 scoreboard players set $installed cnk.dummy 1
+
+# set 16 days in a year by default
+execute unless score $days_in_a_year cnk.dummy matches 1.. run scoreboard players set $days_in_a_year cnk.dummy 16

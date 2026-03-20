@@ -28,3 +28,9 @@ execute \
         if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{disc:{type:"scarecrow"}}}}}] \
         if function cnk:cooking_pot/crafting/lock \
         run return run function cnk:recipes/cooking_pot/music_disc_trick
+
+execute \
+        if entity @s[tag=cnk.stove] \
+        if data storage cnk:temp cooking_pot.Items[{id:"minecraft:tnt"}] \
+        if function cnk:cooking_pot/crafting/lock \
+        run return run function cnk:recipes/cooking_pot/pan

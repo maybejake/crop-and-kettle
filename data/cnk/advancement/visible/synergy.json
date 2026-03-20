@@ -10,7 +10,7 @@
     "description": [{"translate":"advancement.cnk.synergy.desc","fallback":"Settle an ancient feud by placing a candy cane in a candy bowl"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true,
+    "hidden": false,
     "frame": "challenge"
   },
   "parent": "cnk:visible/candy_bowl",

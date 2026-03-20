@@ -1,3 +1,5 @@
+execute if data storage cnk:admin settings{glow_berry_wine_disabled:true} run return fail
+
 execute store result storage cnk:temp register.page_number int 1 run scoreboard players get $global_distiller_book_page cnk.dummy
 
 data modify storage cnk:temp register.page_name set value "item.cnk.glow_berry_wine"
