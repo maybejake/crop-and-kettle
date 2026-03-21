@@ -4,8 +4,8 @@ scoreboard players enable @s cnk.cookbook_buttons
 #remove tag
 tag @s[tag=cnk.on_incomplete_page] remove cnk.on_incomplete_page
 
-#handle open state
-execute if data storage cnk:admin settings{dynamic_command_feedback:true} if entity @s[tag=!cnk.book_open] run function cnk:cookbook/open_state
+#do dcf
+function dcf:open
 
 #setup clean storage
 data remove storage cnk:temp cookbook

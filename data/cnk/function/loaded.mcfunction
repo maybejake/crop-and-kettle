@@ -85,14 +85,6 @@ scoreboard objectives add cnk.lectern_x dummy
 scoreboard objectives add cnk.lectern_y dummy
 scoreboard objectives add cnk.lectern_z dummy
 
-scoreboard objectives add cnk.x_rot dummy
-scoreboard objectives add cnk.y_rot dummy
-
-scoreboard objectives add cnk.walk minecraft.custom:minecraft.walk_one_cm
-scoreboard objectives add cnk.sprint minecraft.custom:minecraft.sprint_one_cm
-scoreboard objectives add cnk.sneak minecraft.custom:minecraft.sneak_time
-scoreboard objectives add cnk.jump minecraft.custom:minecraft.jump
-
 scoreboard objectives add cnk.damage_taken minecraft.custom:minecraft.damage_taken
 scoreboard objectives add cnk.feast_time dummy
 

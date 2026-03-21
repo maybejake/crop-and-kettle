@@ -19,7 +19,7 @@ data modify storage cnk:temp admin_panel set value { \
 }
 
 #dynamic command feedback stuff
-execute if data storage cnk:admin settings{dynamic_command_feedback:true} run data modify storage cnk:temp admin_panel.dynamic_command_feedback set value true
+execute if function dcf:is_enabled run data modify storage cnk:temp admin_panel.dynamic_command_feedback set value true
 
 #year stuff
 execute store result storage cnk:temp admin_panel.days_in_a_year int 1 run scoreboard players get $days_in_a_year cnk.dummy

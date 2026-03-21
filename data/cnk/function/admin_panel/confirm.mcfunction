@@ -1,6 +1,5 @@
-#dynamic command feedback stuff
-$data modify storage cnk:admin settings.dynamic_command_feedback set value $(dynamic_command_feedback)b
-execute if data storage cnk:temp admin_panel{dynamic_command_feedback:true} if data storage cnk:admin settings{dynamic_command_feedback:false} run gamerule send_command_feedback true
+#dcf stuff
+$function dcf:toggle {enabled:$(dynamic_command_feedback)b}
 
 #year stuff
 $scoreboard players set $days_in_a_year cnk.dummy $(days_in_a_year)
