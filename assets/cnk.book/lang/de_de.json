@@ -1,23 +1,24 @@
 {
-  "book.cnk.distilling_page.title": "Distilling",
-  "book.cnk.aging_page.title": "Wine Aging",
-
-  "book.cnk.section.front": "Titelseite",
-  "book.cnk.section.staple": "Grundnahrungsmittel",
-  "book.cnk.section.snack": "Getränke & Snacks",
-  "book.cnk.section.light": "Leichte Gerichte",
-  "book.cnk.section.hearty": "Herzhafte Gerichte",
-  "book.cnk.section.feast": "Festessen",
-  "book.cnk.section.dessert": "Desserts",
-
-  "book.cnk.crop_seeds.title": "Saatgut",
-
-  "book.cnk.toast.unlock.seed": "Saatgut freigeschaltet!",
-  "book.cnk.toast.unlock.ingredient": "Zutat freigeschaltet!",
-  "book.cnk.toast.unlock.recipe": "Rezept freigeschaltet!",
-  "book.cnk.toast.unlock.ritual": "Ritual freigeschaltet!",
-  "book.cnk.toast.unlock.weapon": "Waffe geschmiedet!",
-
-  "book.cnk.previous_page.hover": "Vorherige Seite",
-  "book.cnk.next_page.hover": "Nächste Seite"
+    "book.cnk.distilling_page.title": "Distilling",
+    "book.cnk.aging_page.title": "Wine Aging",
+    "book.cnk.section.front": "Titelseite",
+    "book.cnk.section.staple": "Grundnahrungsmittel",
+    "book.cnk.section.snack": "Getränke & Snacks",
+    "book.cnk.section.light": "Leichte Gerichte",
+    "book.cnk.section.hearty": "Herzhafte Gerichte",
+    "book.cnk.section.feast": "Festessen",
+    "book.cnk.section.dessert": "Desserts",
+    "book.cnk.foraging_page.title": "Foraging",
+    "book.cnk.crop_seeds.title": "Saatgut",
+    "book.cnk.toast.unlock.seed": "Saatgut freigeschaltet!",
+    "book.cnk.toast.unlock.ingredient": "Zutat freigeschaltet!",
+    "book.cnk.toast.unlock.recipe": "Rezept freigeschaltet!",
+    "book.cnk.toast.unlock.ritual": "Ritual freigeschaltet!",
+    "book.cnk.toast.unlock.weapon": "Waffe geschmiedet!",
+    "book.cnk.previous_page.hover": "Vorherige Seite",
+    "book.cnk.next_page.hover": "Nächste Seite",
+    "book.cnk.next_incomplete_recipe.hover": "Next undiscovered recipe",
+    "book.cnk.previous_incomplete_recipe.hover": "Previous undiscovered recipe",
+    "book.cnk.stamp.plateable.text": "This dish has a special\nappearance when plated!",
+    "book.cnk.return.active.text": "Return"
 }

@@ -1,25 +1,24 @@
 {
-  "book.cnk.distilling_page.title": "蒸馏",
-  "book.cnk.aging_page.title": "酒陈酿",
-
-  "book.cnk.section.front": "封面",
-  "book.cnk.section.staple": "主食",
-  "book.cnk.section.snack": "饮品与零食",
-  "book.cnk.section.light": "清淡菜",
-  "book.cnk.section.hearty": "丰盛菜",
-  "book.cnk.section.feast": "盛宴",
-  "book.cnk.section.dessert": "甜点",
-
-  "book.cnk.crop_seeds.title": "种子",
-
-  "book.cnk.toast.unlock.seed": "种子已解锁！",
-  "book.cnk.toast.unlock.ingredient": "食材已解锁！",
-  "book.cnk.toast.unlock.recipe": "配方已解锁！",
-  "book.cnk.toast.unlock.ritual": "仪式已解锁！",
-  "book.cnk.toast.unlock.weapon": "武器已锻造！",
-
-  "book.cnk.previous_page.hover": "上一页",
-  "book.cnk.next_page.hover": "下一页",
-  "book.cnk.stamp.plateable.text": "这道菜在摆盘后\n会呈现出特殊的外观！",
-  "book.cnk.return.active.text": "返回"
+    "book.cnk.distilling_page.title": "蒸馏",
+    "book.cnk.aging_page.title": "酒陈酿",
+    "book.cnk.section.front": "封面",
+    "book.cnk.section.staple": "主食",
+    "book.cnk.section.snack": "饮品与零食",
+    "book.cnk.section.light": "清淡菜",
+    "book.cnk.section.hearty": "丰盛菜",
+    "book.cnk.section.feast": "盛宴",
+    "book.cnk.section.dessert": "甜点",
+    "book.cnk.foraging_page.title": "Foraging",
+    "book.cnk.crop_seeds.title": "种子",
+    "book.cnk.toast.unlock.seed": "种子已解锁！",
+    "book.cnk.toast.unlock.ingredient": "食材已解锁！",
+    "book.cnk.toast.unlock.recipe": "配方已解锁！",
+    "book.cnk.toast.unlock.ritual": "仪式已解锁！",
+    "book.cnk.toast.unlock.weapon": "武器已锻造！",
+    "book.cnk.previous_page.hover": "上一页",
+    "book.cnk.next_page.hover": "下一页",
+    "book.cnk.next_incomplete_recipe.hover": "Next undiscovered recipe",
+    "book.cnk.previous_incomplete_recipe.hover": "Previous undiscovered recipe",
+    "book.cnk.stamp.plateable.text": "这道菜在摆盘后\n会呈现出特殊的外观！",
+    "book.cnk.return.active.text": "返回"
 }

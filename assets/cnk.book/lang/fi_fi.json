@@ -1,23 +1,24 @@
 {
-  "book.cnk.distilling_page.title": "Tislaaminen",
-  "book.cnk.aging_page.title": "Viinin kypsyttäminen",
-
-  "book.cnk.section.front": "Etusivu",
-  "book.cnk.section.staple": "Pääruoat",
-  "book.cnk.section.snack": "Juomat ja välipalat",
-  "book.cnk.section.light": "Kevyet ateriat",
-  "book.cnk.section.hearty": "Täydet ateriat",
-  "book.cnk.section.feast": "Juhla-ateriat",
-  "book.cnk.section.dessert": "Jälkipalat",
-
-  "book.cnk.crop_seeds.title": "Siemenet",
-
-  "book.cnk.toast.unlock.seed": "Siemen avattu!",
-  "book.cnk.toast.unlock.ingredient": "Ainesosa avattu!",
-  "book.cnk.toast.unlock.recipe": "Resepti avattu!",
-  "book.cnk.toast.unlock.ritual": "Rituaali avattu!",
-  "book.cnk.toast.unlock.weapon": "Ase avattu!",
-  
-  "book.cnk.previous_page.hover": "Edellinen sivu",
-  "book.cnk.next_page.hover": "Seuraava sivu"
+    "book.cnk.distilling_page.title": "Tislaaminen",
+    "book.cnk.aging_page.title": "Viinin kypsyttäminen",
+    "book.cnk.section.front": "Etusivu",
+    "book.cnk.section.staple": "Pääruoat",
+    "book.cnk.section.snack": "Juomat ja välipalat",
+    "book.cnk.section.light": "Kevyet ateriat",
+    "book.cnk.section.hearty": "Täydet ateriat",
+    "book.cnk.section.feast": "Juhla-ateriat",
+    "book.cnk.section.dessert": "Jälkipalat",
+    "book.cnk.foraging_page.title": "Ruoan keräily",
+    "book.cnk.crop_seeds.title": "Siemenet",
+    "book.cnk.toast.unlock.seed": "Siemen avattu!",
+    "book.cnk.toast.unlock.ingredient": "Ainesosa avattu!",
+    "book.cnk.toast.unlock.recipe": "Resepti avattu!",
+    "book.cnk.toast.unlock.ritual": "Rituaali avattu!",
+    "book.cnk.toast.unlock.weapon": "Ase avattu!",
+    "book.cnk.previous_page.hover": "Edellinen sivu",
+    "book.cnk.next_page.hover": "Seuraava sivu",
+    "book.cnk.next_incomplete_recipe.hover": "Seuraava löytämätön resepti",
+    "book.cnk.previous_incomplete_recipe.hover": "Edellinen löytämätön resepti",
+    "book.cnk.stamp.plateable.text": "Tällä aterialla on erilainen ulkonäkö lautasella!",
+    "book.cnk.return.active.text": "Palaa"
 }

@@ -1,7 +1,7 @@
 execute unless block ~ ~ ~ minecraft:pumpkin_stem as @n[type=minecraft:item,nbt={Item:{id:"minecraft:pumpkin_seeds"}},distance=..1] run function cnk:crops/kill
 
 playsound minecraft:block.crop.break block @a ~ ~ ~ 1 1
-setblock ~ ~ ~ minecraft:air replace
+execute if block ~ ~ ~ minecraft:pumpkin_stem run setblock ~ ~ ~ minecraft:air replace
 
 execute if score @s cnk.age matches 0 run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:coffee_crop_0"}}} ~ ~0.2 ~ 0.28 0.2 0.28 0.07 70 force
 execute if score @s cnk.age matches 1 run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:coffee_crop_1"}}} ~ ~0.2 ~ 0.28 0.3 0.28 0.07 70 force

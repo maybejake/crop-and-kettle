@@ -30,7 +30,7 @@ execute \
         run return run function cnk:recipes/cooking_pot/music_disc_trick
 
 execute \
-        if entity @s[tag=cnk.stove] \
+        if entity @s[tag=cnk.stove,tag=!cnk.panless_stove] \
         if data storage cnk:temp cooking_pot.Items[{id:"minecraft:tnt"}] \
         if function cnk:cooking_pot/crafting/lock \
         run return run function cnk:recipes/cooking_pot/pan

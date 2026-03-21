@@ -1,32 +1,24 @@
 {
-  "book.cnk.distilling_page.title": "Distillation",
-  "book.cnk.aging_page.title": "Vieillissement du vin",
-
-  "book.cnk.section.front": "Page d'accueil",
-  "book.cnk.section.staple": "Aliments de base",
-  "book.cnk.section.snack": "Boissons et collations",
-  "book.cnk.section.light": "Plats légers",
-  "book.cnk.section.hearty": "Plats copieux",
-  "book.cnk.section.feast": "Festins",
-  "book.cnk.section.dessert": "Desserts",
-
-  "book.cnk.crop_seeds.title": "Graines",
-
-  "book.cnk.foraging_page.title": "Recherche de nourriture",
-
-  "book.cnk.toast.unlock.seed": "Graine déverrouillée !",
-  "book.cnk.toast.unlock.ingredient": "Ingrédient déverrouillé !",
-  "book.cnk.toast.unlock.recipe": "Recette déverrouillée !",
-  "book.cnk.toast.unlock.ritual": "Rituel déverrouillé !",
-  "book.cnk.toast.unlock.weapon": "Arme forgée !",
-  
-  "book.cnk.previous_page.hover": "Page précédente",
-  "book.cnk.next_page.hover": "Page suivante",
-
-  "book.cnk.stamp.plateable.text": "Ce plat a une apparence\nspéciale lorsqu'il est présenté !",
-
-  "book.cnk.return.active.text": "Retour",
-  
-  "book.cnk.next_incomplete_recipe.hover": "Seuraava löytämätön resepti",
-  "book.cnk.previous_incomplete_recipe.hover": "Edellinen löytämätön resepti"
+    "book.cnk.distilling_page.title": "Distillation",
+    "book.cnk.aging_page.title": "Vieillissement du vin",
+    "book.cnk.section.front": "Page d'accueil",
+    "book.cnk.section.staple": "Aliments de base",
+    "book.cnk.section.snack": "Boissons et collations",
+    "book.cnk.section.light": "Plats légers",
+    "book.cnk.section.hearty": "Plats copieux",
+    "book.cnk.section.feast": "Festins",
+    "book.cnk.section.dessert": "Desserts",
+    "book.cnk.foraging_page.title": "Recherche de nourriture",
+    "book.cnk.crop_seeds.title": "Graines",
+    "book.cnk.toast.unlock.seed": "Graine déverrouillée !",
+    "book.cnk.toast.unlock.ingredient": "Ingrédient déverrouillé !",
+    "book.cnk.toast.unlock.recipe": "Recette déverrouillée !",
+    "book.cnk.toast.unlock.ritual": "Rituel déverrouillé !",
+    "book.cnk.toast.unlock.weapon": "Arme forgée !",
+    "book.cnk.previous_page.hover": "Page précédente",
+    "book.cnk.next_page.hover": "Page suivante",
+    "book.cnk.next_incomplete_recipe.hover": "Seuraava löytämätön resepti",
+    "book.cnk.previous_incomplete_recipe.hover": "Edellinen löytämätön resepti",
+    "book.cnk.stamp.plateable.text": "Ce plat a une apparence\nspéciale lorsqu'il est présenté !",
+    "book.cnk.return.active.text": "Retour"
 }

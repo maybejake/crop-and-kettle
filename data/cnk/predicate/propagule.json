@@ -5,9 +5,9 @@
       "condition": "minecraft:location_check",
       "predicate": {
         "block": {
-          "blocks": "minecraft:wheat",
+          "blocks": "minecraft:mangrove_propagule",
           "state": {
-            "age": "0"
+            "waterlogged": "true"
           }
         }
       }
@@ -17,7 +17,10 @@
       "offsetY": 1,
       "predicate": {
         "block": {
-          "blocks": "#cnk:air"
+          "blocks": "minecraft:light",
+          "state": {
+            "level": "0"
+          }
         }
       } 
     }

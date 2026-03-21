@@ -5,10 +5,7 @@
       "condition": "minecraft:location_check",
       "predicate": {
         "block": {
-          "blocks": "minecraft:wheat",
-          "state": {
-            "age": "0"
-          }
+          "blocks": "minecraft:pumpkin_stem"
         }
       }
     },
