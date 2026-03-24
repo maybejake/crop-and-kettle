@@ -5,5 +5,8 @@ execute at @s rotated as @n[type=minecraft:item_display,tag=cnk.cutting_board] r
 ride @s mount @n[type=minecraft:item_display,tag=cnk.cutting_board]
 playsound minecraft:block.bamboo_wood.step block @a ~ ~ ~ 1 2
 
+swing @p[tag=cnk.interact_cutting_board,tag=!cnk.cutting_board_offhand] mainhand
+swing @p[tag=cnk.interact_cutting_board,tag=cnk.cutting_board_offhand] offhand
+
 execute if entity @p[tag=cnk.interact_cutting_board,tag=cnk.cutting_board_offhand] run item modify entity @p[tag=cnk.interact_cutting_board] weapon.offhand {"function":"minecraft:set_count","count":-1,"add":true}
 execute if entity @p[tag=cnk.interact_cutting_board,tag=!cnk.cutting_board_offhand] run item modify entity @p[tag=cnk.interact_cutting_board] weapon.mainhand {"function":"minecraft:set_count","count":-1,"add":true}

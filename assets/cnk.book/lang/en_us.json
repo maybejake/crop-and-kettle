@@ -65,13 +65,13 @@
   "book.cnk.header.feast": "\ua040",
   "book.cnk.header.dessert": "\ua041",
 
-  "book.cnk.front_page": "\ua058\ub026\ua032\ub026\n\n\n\ub013%1$s\n\n\ub064%2$s\n\n\ub013%3$s\n\n\ub013%4$s\n\n\ub013%5$s\n\n\ub013%6$s\n\n\ub013%7$s\n\ua062   \n%8$s\n%9$s",
+  "book.cnk.front_page": "\ua058\ub026\ua032\ub026\n\n\n\ub013%1$s\n\n\ub064%2$s\n\n\ub013%3$s\n\n\ub013%4$s\n\n\ub013%5$s\n\n\ub013%6$s\n\n\ub013%7$s\n\ua062   \n %8$s\n%9$s",
   
   "book.cnk.kebab_sword": "\ua058\ub026\ua032\ub026\n\ua000\n%1$s\n\ub013%4$s\n\n\ub013%5$s\n\ua029        \n\ub013%6$s\n\ua031\ub042\ua030   \n\ub013%7$s\n%2$s\ub041%3$s\n\ub013%8$s\n\n\ub013%9$s\n\n\ub013%10$s\n%11$s\n\ub068%13$s\ub067%12$s\n%14$s",
   
   "book.cnk.back_page": "\ua058\ub026\ua032\ub026\n\n\n\ub013%1$s\n\n\ub013%2$s\n\n\ub013%3$s\n\n\ub013%4$s\n\ua034\n\ub013%5$s\n\n\ub013%6$s\n\n\ub013%7$s\n\n\n%8$s",
   
-  "book.cnk.foraging_page": "\ua058\ub026\ua032\ub026\n\ua000\n%1$s\n\ub013%2$s\n\n\ub013%3$s\n\n\ub013%4$s\n\n\ub013%5$s\n\n\ub013%6$s\n\ua070\n\ub013%7$s\n\uc976\n\ub013%8$s\n\n%9$s\n%10$s",
+  "book.cnk.foraging_page": "\ua058\ub026\ua032\ub026\n\ua000\n%1$s\n\ub013%2$s\n\n\ub013%3$s\n\n\ub013%4$s\n\n\ub013%5$s\n\n\ub013%6$s\n\ua070\n\ub013%7$s\n\uc976\n\ub013%8$s\n\n %9$s\n%10$s",
   "book.cnk.foraging_page.title": "Foraging",
   
   "book.block.minecraft.acacia_log": "\uc000",
@@ -310,7 +310,7 @@
   "book.cnk.cutting_board": "\uc997",
   "book.cnk.mixing_bowl": "\uc998",
   
-  "book.cnk.crop_seeds": "\ua058\ub026\ua032\ub026\n\ua000\n%1$s\n\ub013%9$s\n\n\ub034\ub032%2$s\ub031%3$s\ub035%10$s\n\ua023\ua057\ub033\n\ub013%11$s\n\ub032%4$s\ub031%5$s\n\ub013%12$s\n\n\ub036\ua024\ub030\ua025\ub030\ua026\ub037%13$s\n\n\ub013%14$s\n\n\ub038%6$s\ub029%7$s\ub029%8$s\ub039%15$s\n\n%16$s\n%17$s",
+  "book.cnk.crop_seeds": "\ua058\ub026\ua032\ub026\n\ua000\n%1$s\n\ub013%9$s\n\n\ub034\ub032%2$s\ub031%3$s\ub035%10$s\n\ua023\ua057\ub033\n\ub013%11$s\n\ub032%4$s\ub031%5$s\n\ub013%12$s\n\n\ub036\ua024\ub030\ua025\ub030\ua026\ub037%13$s\n\n\ub013%14$s\n\n\ub038%6$s\ub029%7$s\ub029%8$s\ub039%15$s\n\n %16$s\n%17$s",
   "book.cnk.crop_seeds.title": "Seeds",
 
   "book.cnk.hyperlink": "    \ua017",

@@ -1,4 +1,5 @@
-execute as @p[tag=cnk.interact_hollow_vessel] run item modify entity @s[gamemode=!creative] weapon.mainhand {"function":"minecraft:set_count","count":-1,"add":true}
+item modify entity @p[tag=cnk.interact_hollow_vessel,gamemode=!creative] weapon.mainhand {"function":"minecraft:set_count","count":-1,"add":true}
+swing @p[tag=cnk.interact_hollow_vessel] mainhand
 
 tag @p[tag=cnk.interact_hollow_vessel] add cnk.doughboy_advancement
 

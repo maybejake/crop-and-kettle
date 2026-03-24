@@ -10,4 +10,4 @@ scoreboard players set $quantity cnk.dummy 8
 execute unless function cnk:pail/interact/fill/fill run return fail
 
 playsound minecraft:item.bucket.empty block @a ~ ~ ~ 1 1
-execute as @p[tag=cnk.interact_pail] run item replace entity @s[gamemode=!creative] weapon.mainhand with minecraft:bucket
+execute as @p[tag=cnk.interact_pail] run function cnk:pail/interact/fill/bucket_player

@@ -19,3 +19,5 @@ data modify entity @s item.components."minecraft:custom_model_data".colors appen
 
 playsound minecraft:block.water.ambient block @a ~ ~ ~ 1 1.5
 playsound cnk:block.faucet.on block @a ~ ~ ~ 1 0.8
+
+swing @p[tag=cnk.interact_faucet] mainhand

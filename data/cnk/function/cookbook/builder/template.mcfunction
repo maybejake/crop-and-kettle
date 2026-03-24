@@ -9,7 +9,7 @@ $dialog show @s { \
             "translate":"book.cnk.$(ingredient_count)_recipe","font":"cnk.book:base","shadow_color":0,"color":"white","with":[ \
                 {"translate":$(page_name),"color":"#7b613a","font":"minecraft:default"}, \
                 $(ingredients) \
-                {"translate":"book.$(tool)"}, \
+                {"translate":"book.$(tool)","font":"$(tool_font)"}, \
                 {"translate":"book.$(page_name)","font":"$(recipe_icon_font)"}, \
                 {"translate":book.tab.cnk.front.$(front_state),"hover_event":{"action":"show_text","value":{"translate":book.cnk.section.front}},"click_event":{"action":"run_command","command":"trigger cnk.cookbook_buttons set 9921"}}, \
                 {"translate":book.tab.cnk.staple.$(staple_state),"hover_event":{"action":"show_text","value":{"translate":book.cnk.section.staple}},"click_event":{"action":"run_command","command":"trigger cnk.cookbook_buttons set 9922"}}, \

@@ -1,3 +1,5 @@
+swing @p[tag=cnk.interact_crop] mainhand
+
 data modify entity @s item.components."minecraft:item_model" set value "cnk:tomato_crop_5"
 scoreboard players set @s cnk.age 5
 

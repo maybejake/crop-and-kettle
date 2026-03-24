@@ -5,3 +5,5 @@ execute if entity @s[tag=cnk.lettuce_crop] run return run function cnk:crops/let
 execute if entity @s[tag=cnk.rice_crop] run return run function cnk:crops/rice/break
 execute if entity @s[tag=cnk.coffee_crop] run return run function cnk:crops/coffee/break
 execute if entity @s[tag=cnk.chili_pepper_crop] run return run function cnk:crops/chili_pepper/break
+
+function #cnk:addons/hit_crop

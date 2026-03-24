@@ -11,6 +11,6 @@
     }
   },
   "rewards": {
-    "function": "cnk:bonemeal_crop/main"
+    "function": "cnk:bone_meal_crop/main"
   }
 }

@@ -5,6 +5,7 @@ data modify entity @s item.components."minecraft:bundle_contents" append from st
 data modify entity @s item.components."minecraft:custom_model_data".colors[2] set from entity @s item.components."minecraft:bundle_contents"[{components:{"minecraft:custom_data":{"cnk":{"wine_rack":{"slot":2b}}}}}].components."minecraft:custom_data".cnk.wine.color
 item replace entity @p[tag=cnk.interact_wine_rack] weapon.mainhand with minecraft:air
 
+swing @p[tag=cnk.interact_wine_rack] mainhand
 execute at @p[tag=cnk.interact_wine_rack] run playsound minecraft:item.bottle.fill block @a ~ ~ ~ 1 1
 
 function cnk:wine_rack/update

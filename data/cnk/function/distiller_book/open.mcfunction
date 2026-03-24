@@ -1,8 +1,8 @@
 #ensure trigger is enabled
 scoreboard players enable @s cnk.distiller_book_buttons
 
-#handle open state
-execute if data storage cnk:admin settings{dynamic_command_feedback:true} if entity @s[tag=!cnk.book_open] run function cnk:cookbook/open_state
+#do dcf
+function dcf:open
 
 #clear storage
 data remove storage cnk:temp distiller_book

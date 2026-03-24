@@ -7,6 +7,7 @@ kill @n[type=minecraft:item_display,tag=cnk.wine_rack_temp]
 
 data remove entity @s item.components."minecraft:bundle_contents"[{components:{"minecraft:custom_data":{"cnk":{"wine_rack":{"slot":3b}}}}}]
 
+swing @p[tag=cnk.interact_wine_rack] mainhand
 execute at @p[tag=cnk.interact_wine_rack] run playsound minecraft:item.bottle.fill block @a ~ ~ ~ 1 1
 
 function cnk:wine_rack/update

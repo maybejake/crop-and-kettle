@@ -18,4 +18,5 @@ execute if score @s cnk.level matches 0 run data modify entity @s item.component
 execute if score @s cnk.level matches 0 run data modify entity @s item.components."minecraft:custom_data".cnk.basin.callback set value ""
 execute if score @s cnk.level matches 0 run data modify entity @s item.components."minecraft:custom_data".cnk.basin.liquid set value ""
 
-execute as @p[tag=cnk.interact_basin] at @s run playsound minecraft:item.bottle.fill block @a ~ ~ ~ 1 1
+swing @p[tag=cnk.interact_basin] mainhand
+execute at @p[tag=cnk.interact_basin] run playsound minecraft:item.bottle.fill block @a ~ ~ ~ 1 1

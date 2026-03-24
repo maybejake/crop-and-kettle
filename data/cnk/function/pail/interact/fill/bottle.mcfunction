@@ -10,6 +10,4 @@ scoreboard players set $quantity cnk.dummy 1
 execute unless function cnk:pail/interact/fill/fill run return fail
 
 playsound minecraft:item.bottle.empty block @a ~ ~ ~ 1 1
-execute as @p[tag=cnk.interact_pail] run item modify entity @s[gamemode=!creative] weapon.mainhand {"function":"minecraft:set_count","count":-1,"add":true}
-execute as @p[tag=cnk.interact_pail] if predicate cnk:inventory_full run loot spawn ~ ~1 ~ loot cnk:other/glass_bottle
-execute as @p[tag=cnk.interact_pail] unless predicate cnk:inventory_full run loot give @s loot cnk:other/glass_bottle
+execute as @p[tag=cnk.interact_pail] run function cnk:pail/interact/fill/bottle_player

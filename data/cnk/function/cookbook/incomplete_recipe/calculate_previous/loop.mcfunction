@@ -1,7 +1,7 @@
 scoreboard players remove $incomplete_page cnk.dummy 1
 
 #at the beginning of the book, stop and set score to -1
-execute if score $incomplete_page cnk.dummy matches ..5 run return run scoreboard players set @s cnk.previous_incomplete_recipe -1
+execute if score $incomplete_page cnk.dummy matches ..4 run return run scoreboard players set @s cnk.previous_incomplete_recipe -1
 
 #get page flag
 execute store result storage cnk:temp incomplete.page_number int 1 run scoreboard players get $incomplete_page cnk.dummy

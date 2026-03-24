@@ -14,6 +14,7 @@ data merge storage cnk:temp { \
         data: { \
             source_key:"cnk.no_source", \
             source_font:"cnk:book:base", \
+            tool_font:"cnk.book:base", \
             front_state: "idle", \
             staple_state: "idle", \
             snack_state: "idle", \
@@ -84,8 +85,11 @@ data modify storage cnk:temp cookbook.data.icon_font set from storage cnk:temp c
 execute store result storage cnk:temp cookbook.data.ingredient_count int 1 run scoreboard players get $ingredient_count cnk.dummy
 
 #handle source indicator
-execute if data storage cnk:temp cookbook.current_page.source.key run data modify storage cnk:temp cookbook.data.source_key set from storage cnk:temp cookbook.current_page.source.key
-execute if data storage cnk:temp cookbook.current_page.source.font run data modify storage cnk:temp cookbook.data.source_font set from storage cnk:temp cookbook.current_page.source.font
+data modify storage cnk:temp cookbook.data.source_key set from storage cnk:temp cookbook.current_page.source.key
+data modify storage cnk:temp cookbook.data.source_font set from storage cnk:temp cookbook.current_page.source.font
+
+#handle tool font
+data modify storage cnk:temp cookbook.data.tool_font set from storage cnk:temp cookbook.current_page.tool_font
 
 #handle stamp
 function cnk:cookbook/stamp/main

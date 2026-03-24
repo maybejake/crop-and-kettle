@@ -6,3 +6,5 @@ execute if score $seed_type cnk.dummy matches 1 run loot replace entity @s conte
 execute if score $seed_type cnk.dummy matches 2 run loot replace entity @s contents loot cnk:seeds/corn_seeds
 execute if score $seed_type cnk.dummy matches 3 run loot replace entity @s contents loot cnk:seeds/lettuce_seeds
 execute if score $seed_type cnk.dummy matches 4 run loot replace entity @s contents loot cnk:seeds/rice_seeds
+
+function #cnk:addons/break_grass
