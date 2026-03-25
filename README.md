@@ -28,8 +28,8 @@ In the cookbook!
 Crop & Kettle has a settings page! Press escape, then click:
 
 `Datapacks...` > `Crop & Kettle` > `Settings` > `Unlock Cookbook`
-### How can I get rid of the white box that pops up when I turn pages in the cookbook?
-This is sadly an annoying side effect of how Mojang made dialogs work. I'm hoping it will be fixed in a later version, but for now you can remove it by downloading the [unjank](https://modrinth.com/mod/unjank) mod!
+### How can I get rid of the chat spam from turning pages in the cookbook?
+These can be disabled by running `/gamerule send_command_feedback false`. Do note that this disables feedback from all commands. Otherwise, you can install the [unjank](https://modrinth.com/mod/unjank) mod! It works serverside to disable those pesky chat messages, and even adds a new gamerule to control them! Modern versions of the datapack also include a setting called "dynamic command feedback", this can be enabled by running `/function dcf:on` or in the admin panel: `/function cnk:admin_panel`. This will disable the `send_command_feedback` gamerule only when someone has a book open.
 ### Will you port to version 1.X.X?
 The answer will always be "if I have time". However, Crop & Kettle is made using a lot of features (dialogs, etc...) that were added in 1.21.6, hence it being the earliest version its currently available on. But who knows what the future holds!
 ### How do I make an addon/add compatibility to my datapack?
