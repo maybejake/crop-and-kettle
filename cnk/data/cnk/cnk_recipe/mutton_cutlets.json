@@ -1,0 +1,11 @@
+{
+    "id": "mutton_cutlets",
+    "name": "Mutton Cutlets",
+    "ingredients": [
+        "mutton"
+    ],
+    "nutrition": 3,
+    "saturation": 1.8,
+    "category": "staple",
+    "tool": "cutting_board"
+}

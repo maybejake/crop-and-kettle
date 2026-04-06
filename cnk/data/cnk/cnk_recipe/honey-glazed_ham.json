@@ -1,0 +1,12 @@
+{
+    "id": "honey-glazed_ham",
+    "name": "Honey-glazed Ham",
+    "ingredients": [
+        "pork_cutlets",
+        "honey_bottle"
+    ],
+    "nutrition": 9,
+    "saturation": 10.8,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

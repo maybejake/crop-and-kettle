@@ -1,0 +1,15 @@
+{
+    "id": "proud_cookie",
+    "name": "Proud Cookie",
+    "ingredients": [
+        "red_dye",
+        "green_dye",
+        "blue_dye",
+        "yellow_dye",
+        "cookie"
+    ],
+    "nutrition": 7,
+    "saturation": 1.4,
+    "category": "dessert",
+    "tool": "cooking_pot"
+}

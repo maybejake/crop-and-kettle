@@ -1,0 +1,13 @@
+{
+    "id": "builders_tea",
+    "name": "Builders Tea",
+    "ingredients": [
+        "tea",
+        "milk_bottle",
+        "sugar"
+    ],
+    "nutrition": 2,
+    "saturation": 1,
+    "category": "snack",
+    "tool": "cooking_pot"
+}

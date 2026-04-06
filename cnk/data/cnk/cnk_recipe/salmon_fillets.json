@@ -1,0 +1,11 @@
+{
+    "id": "salmon_fillets",
+    "name": "Salmon Fillets",
+    "ingredients": [
+        "salmon"
+    ],
+    "nutrition": 3,
+    "saturation": 1.8,
+    "category": "staple",
+    "tool": "cutting_board"
+}

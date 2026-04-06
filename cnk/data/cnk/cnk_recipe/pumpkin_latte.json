@@ -1,0 +1,15 @@
+{
+    "id": "pumpkin_latte",
+    "name": "Pumpkin Latte",
+    "ingredients": [
+        "coffee",
+        "pumpkin",
+        "cinnamon",
+        "sugar",
+        "milk_bottle"
+    ],
+    "nutrition": 7,
+    "saturation": 6.3,
+    "category": "snack",
+    "tool": "cooking_pot"
+}

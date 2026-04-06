@@ -1,0 +1,12 @@
+data_pack:
+  load: .
+
+resource_pack:
+  load:
+    - .
+
+require:
+  - cnk.plugins.recipes.load_recipes
+
+pipeline:
+  - cnk.plugins.recipes

@@ -1,0 +1,14 @@
+{
+    "id": "arancini",
+    "name": "Arancini",
+    "ingredients": [
+        "mushroom_risotto",
+        "cooking_oil",
+        "dough",
+        "cheese"
+    ],
+    "nutrition": 14,
+    "saturation": 20,
+    "category": "feast",
+    "tool": "cooking_pot"
+}

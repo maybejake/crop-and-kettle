@@ -1,0 +1,15 @@
+{
+    "id": "ramen",
+    "name": "Ramen",
+    "ingredients": [
+        "noodles",
+        "stock",
+        "any_meat",
+        "egg",
+        "dried_kelp"
+    ],
+    "nutrition": 14,
+    "saturation": 16.8,
+    "category": "feast",
+    "tool": "cooking_pot"
+}

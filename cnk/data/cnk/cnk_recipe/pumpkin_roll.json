@@ -1,0 +1,14 @@
+{
+    "id": "pumpkin_roll",
+    "name": "Pumpkin Roll",
+    "ingredients": [
+        "dough",
+        "pumpkin",
+        "sugar",
+        "cinnamon"
+    ],
+    "nutrition": 8,
+    "saturation": 6.4,
+    "category": "dessert",
+    "tool": "cooking_pot"
+}

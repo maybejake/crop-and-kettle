@@ -1,0 +1,13 @@
+{
+    "id": "glazed_donut",
+    "name": "Glazed Donut",
+    "ingredients": [
+        "dough",
+        "sugar",
+        "milk_bottle"
+    ],
+    "nutrition": 7,
+    "saturation": 4.9,
+    "category": "dessert",
+    "tool": "cooking_pot"
+}

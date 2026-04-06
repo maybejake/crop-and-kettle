@@ -1,0 +1,14 @@
+{
+    "id": "bibimbap",
+    "name": "Bibimbap",
+    "ingredients": [
+        "rice",
+        "any_meat",
+        "egg",
+        "carrot"
+    ],
+    "nutrition": 9,
+    "saturation": 10.8,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "spaghetti",
+    "name": "Spaghetti",
+    "ingredients": [
+        "noodles",
+        "tomato"
+    ],
+    "nutrition": 7,
+    "saturation": 9.1,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

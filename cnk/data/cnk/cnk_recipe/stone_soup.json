@@ -1,0 +1,12 @@
+{
+    "id": "stone_soup",
+    "name": "Stone Soup",
+    "ingredients": [
+        "vegetable_soup",
+        "stone"
+    ],
+    "nutrition": 8,
+    "saturation": 2.4,
+    "category": "light",
+    "tool": "cooking_pot"
+}

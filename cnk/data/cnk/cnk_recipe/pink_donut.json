@@ -1,0 +1,15 @@
+{
+    "id": "pink_donut",
+    "name": "Pink Donut",
+    "ingredients": [
+        "dough",
+        "sugar",
+        "milk_bottle",
+        "pink_dye",
+        "light_blue_dye"
+    ],
+    "nutrition": 8,
+    "saturation": 5.6,
+    "category": "dessert",
+    "tool": "cooking_pot"
+}

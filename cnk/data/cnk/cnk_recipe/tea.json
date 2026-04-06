@@ -1,0 +1,12 @@
+{
+    "id": "tea",
+    "name": "Tea",
+    "ingredients": [
+        "leaf_litter",
+        "water"
+    ],
+    "nutrition": 2,
+    "saturation": 1,
+    "category": "snack",
+    "tool": "cooking_pot"
+}

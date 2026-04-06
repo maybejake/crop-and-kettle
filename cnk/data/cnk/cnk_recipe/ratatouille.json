@@ -1,0 +1,14 @@
+{
+    "id": "ratatouille",
+    "name": "Ratatouille",
+    "ingredients": [
+        "tomato",
+        "beetroot",
+        "carrot",
+        "pumpkin"
+    ],
+    "nutrition": 8,
+    "saturation": 9.6,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

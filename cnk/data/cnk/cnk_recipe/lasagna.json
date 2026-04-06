@@ -1,0 +1,13 @@
+{
+    "id": "lasagna",
+    "name": "Lasagna",
+    "ingredients": [
+        "beef_cutlets",
+        "tomato",
+        "dough"
+    ],
+    "nutrition": 9,
+    "saturation": 11.7,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

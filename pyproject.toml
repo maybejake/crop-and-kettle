@@ -1,0 +1,9 @@
+[project]
+name = "crop-and-kettle"
+version = "0.1.0"
+description = "The Crop & Kettle repository"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "beet>=0.115.0",
+]

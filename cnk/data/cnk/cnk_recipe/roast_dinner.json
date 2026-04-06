@@ -1,0 +1,14 @@
+{
+    "id": "roast_dinner",
+    "name": "Roast Dinner",
+    "ingredients": [
+        "chicken_cutlets",
+        "potato",
+        "carrot",
+        "stock"
+    ],
+    "nutrition": 11,
+    "saturation": 14.3,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

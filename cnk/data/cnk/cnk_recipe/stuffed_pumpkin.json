@@ -1,0 +1,15 @@
+{
+    "id": "stuffed_pumpkin",
+    "name": "Stuffed Pumpkin",
+    "ingredients": [
+        "pumpkin",
+        "stock",
+        "any_meat",
+        "any_vegetable",
+        "sweet_berries"
+    ],
+    "nutrition": 10,
+    "saturation": 13,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

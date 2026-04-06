@@ -1,0 +1,11 @@
+{
+    "id": "rabbit_cutlets",
+    "name": "Rabbit Cutlets",
+    "ingredients": [
+        "rabbit"
+    ],
+    "nutrition": 3,
+    "saturation": 1.8,
+    "category": "staple",
+    "tool": "cutting_board"
+}

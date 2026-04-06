@@ -1,0 +1,13 @@
+{
+    "id": "hot_chocolate",
+    "name": "Hot Chocolate",
+    "ingredients": [
+        "chocolate_bar",
+        "milk_bottle",
+        "cinnamon"
+    ],
+    "nutrition": 11,
+    "saturation": 9.9,
+    "category": "snack",
+    "tool": "cooking_pot"
+}

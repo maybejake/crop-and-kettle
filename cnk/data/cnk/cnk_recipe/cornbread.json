@@ -1,0 +1,12 @@
+{
+    "id": "cornbread",
+    "name": "Cornbread",
+    "ingredients": [
+        "corn",
+        "dough"
+    ],
+    "nutrition": 7,
+    "saturation": 9.1,
+    "category": "snack",
+    "tool": "cooking_pot"
+}

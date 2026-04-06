@@ -1,0 +1,12 @@
+{
+    "id": "fish_and_chips",
+    "name": "Fish & Chips",
+    "ingredients": [
+        "fries",
+        "fried_fish"
+    ],
+    "nutrition": 13,
+    "saturation": 20,
+    "category": "feast",
+    "tool": "cooking_pot"
+}

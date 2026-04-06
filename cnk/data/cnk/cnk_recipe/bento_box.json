@@ -1,0 +1,14 @@
+{
+    "id": "bento_box",
+    "name": "Bento Box",
+    "ingredients": [
+        "fried_chicken",
+        "rice",
+        "sushi",
+        "any_vegetable"
+    ],
+    "nutrition": 13,
+    "saturation": 20,
+    "category": "feast",
+    "tool": "cooking_pot"
+}

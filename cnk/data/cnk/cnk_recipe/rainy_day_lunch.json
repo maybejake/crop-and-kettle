@@ -1,0 +1,12 @@
+{
+    "id": "rainy_day_lunch",
+    "name": "Rainy Day Lunch",
+    "ingredients": [
+        "grilled_cheese",
+        "tomato_soup"
+    ],
+    "nutrition": 13,
+    "saturation": 20,
+    "category": "feast",
+    "tool": "cooking_pot"
+}

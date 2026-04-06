@@ -1,0 +1,15 @@
+{
+    "id": "cheeseburger",
+    "name": "Cheeseburger",
+    "ingredients": [
+        "bread",
+        "beef_cutlets",
+        "lettuce",
+        "tomato",
+        "cheese"
+    ],
+    "nutrition": 11,
+    "saturation": 14.3,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

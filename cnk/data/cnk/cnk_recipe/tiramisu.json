@@ -1,0 +1,15 @@
+{
+    "id": "tiramisu",
+    "name": "Tiramisu",
+    "ingredients": [
+        "dough",
+        "milk_bottle",
+        "coffee",
+        "cocoa_beans",
+        "sugar"
+    ],
+    "nutrition": 11,
+    "saturation": 8.8,
+    "category": "dessert",
+    "tool": "cooking_pot"
+}

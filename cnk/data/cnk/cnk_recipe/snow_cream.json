@@ -1,0 +1,13 @@
+{
+    "id": "snow_cream",
+    "name": "Snow Cream",
+    "ingredients": [
+        "snowball",
+        "milk_bottle",
+        "sugar"
+    ],
+    "nutrition": 5,
+    "saturation": 3.6,
+    "category": "dessert",
+    "tool": "mixing_bowl"
+}

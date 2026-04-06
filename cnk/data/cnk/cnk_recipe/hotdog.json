@@ -1,0 +1,12 @@
+{
+    "id": "hotdog",
+    "name": "Hotdog",
+    "ingredients": [
+        "bread",
+        "pork_cutlets"
+    ],
+    "nutrition": 9,
+    "saturation": 5.4,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

@@ -1,0 +1,11 @@
+{
+    "id": "bread",
+    "name": "Bread",
+    "ingredients": [
+        "dough"
+    ],
+    "nutrition": 5,
+    "saturation": 6,
+    "category": "staple",
+    "tool": "cooking_pot"
+}

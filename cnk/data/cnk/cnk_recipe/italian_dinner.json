@@ -1,0 +1,14 @@
+{
+    "id": "italian_dinner",
+    "name": "Italian Dinner",
+    "ingredients": [
+        "spaghetti",
+        "bread",
+        "any_meat",
+        "cheese"
+    ],
+    "nutrition": 13,
+    "saturation": 20,
+    "category": "feast",
+    "tool": "cooking_pot"
+}

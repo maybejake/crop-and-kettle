@@ -1,0 +1,13 @@
+{
+    "id": "fried_chicken",
+    "name": "Fried Chicken",
+    "ingredients": [
+        "cooking_oil",
+        "chicken_cutlets",
+        "wheat"
+    ],
+    "nutrition": 8,
+    "saturation": 10.4,
+    "category": "light",
+    "tool": "cooking_pot"
+}

@@ -1,0 +1,14 @@
+{
+    "id": "butter_chicken",
+    "name": "Butter Chicken",
+    "ingredients": [
+        "rice",
+        "butter",
+        "chicken_cutlets",
+        "chili_pepper"
+    ],
+    "nutrition": 8,
+    "saturation": 10.4,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

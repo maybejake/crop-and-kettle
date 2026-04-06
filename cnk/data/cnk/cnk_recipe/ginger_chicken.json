@@ -1,0 +1,15 @@
+{
+    "id": "ginger_chicken",
+    "name": "Ginger Chicken",
+    "ingredients": [
+        "ginger",
+        "chicken",
+        "rice",
+        "chili_pepper",
+        "honey_bottle"
+    ],
+    "nutrition": 11,
+    "saturation": 14.3,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

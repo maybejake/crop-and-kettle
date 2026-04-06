@@ -1,0 +1,14 @@
+{
+    "id": "cupcake",
+    "name": "Cupcake",
+    "ingredients": [
+        "egg",
+        "milk_bottle",
+        "sugar",
+        "wheat"
+    ],
+    "nutrition": 7,
+    "saturation": 4.2,
+    "category": "dessert",
+    "tool": "cooking_pot"
+}

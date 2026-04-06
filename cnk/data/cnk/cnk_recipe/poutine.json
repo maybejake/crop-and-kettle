@@ -1,0 +1,13 @@
+{
+    "id": "poutine",
+    "name": "Poutine",
+    "ingredients": [
+        "fries",
+        "stock",
+        "cheese"
+    ],
+    "nutrition": 13,
+    "saturation": 20,
+    "category": "feast",
+    "tool": "cooking_pot"
+}

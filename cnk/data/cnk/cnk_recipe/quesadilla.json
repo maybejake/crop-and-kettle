@@ -1,0 +1,12 @@
+{
+    "id": "quesadilla",
+    "name": "Quesadilla",
+    "ingredients": [
+        "tortilla",
+        "cheese"
+    ],
+    "nutrition": 7,
+    "saturation": 5.6,
+    "category": "light",
+    "tool": "cooking_pot"
+}

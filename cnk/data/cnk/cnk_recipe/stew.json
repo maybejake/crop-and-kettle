@@ -1,0 +1,14 @@
+{
+    "id": "stew",
+    "name": "Stew",
+    "ingredients": [
+        "any_meat",
+        "any_vegetable",
+        "any_vegetable",
+        "any_vegetable"
+    ],
+    "nutrition": 7,
+    "saturation": 8.4,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

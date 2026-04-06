@@ -1,0 +1,12 @@
+{
+    "id": "caramel_popcorn",
+    "name": "Caramel Popcorn",
+    "ingredients": [
+        "popcorn",
+        "caramel"
+    ],
+    "nutrition": 11,
+    "saturation": 12.1,
+    "category": "snack",
+    "tool": "cooking_pot"
+}

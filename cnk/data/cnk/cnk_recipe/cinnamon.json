@@ -1,0 +1,11 @@
+{
+    "id": "cinnamon",
+    "name": "Cinnamon",
+    "ingredients": [
+        "acacia_log"
+    ],
+    "nutrition": 0.5,
+    "saturation": 0.1,
+    "category": "staple",
+    "tool": "cutting_board"
+}

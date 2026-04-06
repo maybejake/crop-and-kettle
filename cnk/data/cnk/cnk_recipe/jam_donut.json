@@ -1,0 +1,13 @@
+{
+    "id": "jam_donut",
+    "name": "Jam Donut",
+    "ingredients": [
+        "dough",
+        "sugar",
+        "sweet_berries"
+    ],
+    "nutrition": 8,
+    "saturation": 5.6,
+    "category": "dessert",
+    "tool": "cooking_pot"
+}

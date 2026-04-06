@@ -1,0 +1,11 @@
+{
+    "id": "coffee_beans",
+    "name": "Coffee Beans",
+    "ingredients": [
+        "coffee_cherries"
+    ],
+    "nutrition": 1,
+    "saturation": 0.6,
+    "category": "snack",
+    "tool": "cooking_pot"
+}

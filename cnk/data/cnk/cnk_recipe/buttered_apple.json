@@ -1,0 +1,12 @@
+{
+    "id": "buttered_apple",
+    "name": "Buttered Apple",
+    "ingredients": [
+        "butter",
+        "apple"
+    ],
+    "nutrition": 7,
+    "saturation": 2.1,
+    "category": "dessert",
+    "tool": "cooking_pot"
+}

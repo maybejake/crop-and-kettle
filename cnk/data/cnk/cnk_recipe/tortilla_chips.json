@@ -1,0 +1,12 @@
+{
+    "id": "tortilla_chips",
+    "name": "Tortilla Chips",
+    "ingredients": [
+        "tortilla",
+        "cooking_oil"
+    ],
+    "nutrition": 8,
+    "saturation": 6.4,
+    "category": "snack",
+    "tool": "cooking_pot"
+}

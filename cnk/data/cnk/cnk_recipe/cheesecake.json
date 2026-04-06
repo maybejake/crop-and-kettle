@@ -1,0 +1,15 @@
+{
+    "id": "cheesecake",
+    "name": "Cheesecake",
+    "ingredients": [
+        "cheese",
+        "milk_bottle",
+        "sugar",
+        "wheat",
+        "butter"
+    ],
+    "nutrition": 8,
+    "saturation": 6.4,
+    "category": "dessert",
+    "tool": "cooking_pot"
+}

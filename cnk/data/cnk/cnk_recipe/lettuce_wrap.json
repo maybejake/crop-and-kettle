@@ -1,0 +1,13 @@
+{
+    "id": "lettuce_wrap",
+    "name": "Lettuce Wrap",
+    "ingredients": [
+        "lettuce",
+        "carrot",
+        "any_meat"
+    ],
+    "nutrition": 8,
+    "saturation": 9.6,
+    "category": "light",
+    "tool": "cooking_pot"
+}

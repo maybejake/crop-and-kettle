@@ -1,0 +1,13 @@
+{
+    "id": "cereal",
+    "name": "Cereal",
+    "ingredients": [
+        "wheat",
+        "milk_bottle",
+        "sugar"
+    ],
+    "nutrition": 6,
+    "saturation": 3.6,
+    "category": "light",
+    "tool": "cooking_pot"
+}

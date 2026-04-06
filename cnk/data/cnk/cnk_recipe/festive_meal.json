@@ -1,0 +1,15 @@
+{
+    "id": "festive_meal",
+    "name": "Festive Meal",
+    "ingredients": [
+        "honey_glazed_ham",
+        "potato",
+        "carrot",
+        "sweet_berries",
+        "stock"
+    ],
+    "nutrition": 16,
+    "saturation": 20,
+    "category": "feast",
+    "tool": "cooking_pot"
+}

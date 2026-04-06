@@ -1,0 +1,14 @@
+{
+    "id": "gyro",
+    "name": "Gyro",
+    "ingredients": [
+        "dough",
+        "mutton_cutlets",
+        "tomato",
+        "lettuce"
+    ],
+    "nutrition": 8,
+    "saturation": 10.4,
+    "category": "light",
+    "tool": "cooking_pot"
+}

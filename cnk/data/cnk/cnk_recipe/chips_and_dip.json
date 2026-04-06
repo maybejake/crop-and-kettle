@@ -1,0 +1,12 @@
+{
+    "id": "chips_and_dip",
+    "name": "Chips & Dip",
+    "ingredients": [
+        "tortilla_chips",
+        "salsa"
+    ],
+    "nutrition": 11,
+    "saturation": 16.5,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

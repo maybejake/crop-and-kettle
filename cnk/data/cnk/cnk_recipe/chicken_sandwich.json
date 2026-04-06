@@ -1,0 +1,13 @@
+{
+    "id": "chicken_sandwich",
+    "name": "Chicken Sandwich",
+    "ingredients": [
+        "fried_chicken",
+        "bread",
+        "sea_pickle"
+    ],
+    "nutrition": 13,
+    "saturation": 20,
+    "category": "feast",
+    "tool": "cooking_pot"
+}

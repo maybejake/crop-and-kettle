@@ -1,0 +1,12 @@
+{
+    "id": "mac_and_cheese",
+    "name": "Mac & Cheese",
+    "ingredients": [
+        "noodles",
+        "cheese"
+    ],
+    "nutrition": 7,
+    "saturation": 10.5,
+    "category": "light",
+    "tool": "cooking_pot"
+}

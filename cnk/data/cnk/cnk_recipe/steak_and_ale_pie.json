@@ -1,0 +1,14 @@
+{
+    "id": "steak_and_ale_pie",
+    "name": "Steak & Ale Pie",
+    "ingredients": [
+        "beer",
+        "beef",
+        "dough",
+        "stock"
+    ],
+    "nutrition": 12,
+    "saturation": 18,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

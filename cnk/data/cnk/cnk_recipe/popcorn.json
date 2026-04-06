@@ -1,0 +1,13 @@
+{
+    "id": "popcorn",
+    "name": "Popcorn",
+    "ingredients": [
+        "corn_seeds",
+        "cooking_oil",
+        "butter"
+    ],
+    "nutrition": 8,
+    "saturation": 6.4,
+    "category": "snack",
+    "tool": "cooking_pot"
+}

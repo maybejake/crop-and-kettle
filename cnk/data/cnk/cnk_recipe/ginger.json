@@ -1,0 +1,11 @@
+{
+    "id": "ginger",
+    "name": "Ginger",
+    "ingredients": [
+        "hanging_roots"
+    ],
+    "nutrition": 1,
+    "saturation": 1,
+    "category": "staple",
+    "tool": "cutting_board"
+}

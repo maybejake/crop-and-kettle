@@ -1,0 +1,13 @@
+{
+    "id": "chili_cheese_dog",
+    "name": "Chili Cheese Dog",
+    "ingredients": [
+        "hotdog",
+        "chili",
+        "cheese"
+    ],
+    "nutrition": 14,
+    "saturation": 20,
+    "category": "feast",
+    "tool": "cooking_pot"
+}

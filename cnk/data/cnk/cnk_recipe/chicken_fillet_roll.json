@@ -1,0 +1,14 @@
+{
+    "id": "chicken_fillet_roll",
+    "name": "Chicken Fillet Roll",
+    "ingredients": [
+        "bread",
+        "cheese",
+        "lettuce",
+        "chicken_cutlets"
+    ],
+    "nutrition": 10,
+    "saturation": 13.0,
+    "category": "light",
+    "tool": "cooking_pot"
+}

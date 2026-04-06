@@ -1,0 +1,13 @@
+{
+    "id": "pizza",
+    "name": "Pizza",
+    "ingredients": [
+        "dough",
+        "tomato",
+        "cheese"
+    ],
+    "nutrition": 8,
+    "saturation": 11.2,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

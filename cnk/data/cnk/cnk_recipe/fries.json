@@ -1,0 +1,12 @@
+{
+    "id": "fries",
+    "name": "Fries",
+    "ingredients": [
+        "cooking_oil",
+        "potato"
+    ],
+    "nutrition": 7,
+    "saturation": 9.1,
+    "category": "snack",
+    "tool": "cooking_pot"
+}

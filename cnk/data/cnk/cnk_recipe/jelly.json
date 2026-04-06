@@ -1,0 +1,13 @@
+{
+    "id": "jelly",
+    "name": "Jelly",
+    "ingredients": [
+        "bone_meal",
+        "sugar",
+        "sweet_berries"
+    ],
+    "nutrition": 7,
+    "saturation": 1.4,
+    "category": "dessert",
+    "tool": "cooking_pot"
+}

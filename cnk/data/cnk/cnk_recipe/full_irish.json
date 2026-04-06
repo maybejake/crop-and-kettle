@@ -1,0 +1,15 @@
+{
+    "id": "full_irish",
+    "name": "Full Irish",
+    "ingredients": [
+        "pork_cutlets",
+        "egg",
+        "bread",
+        "tomato",
+        "potato"
+    ],
+    "nutrition": 12,
+    "saturation": 14.4,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

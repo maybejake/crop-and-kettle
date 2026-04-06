@@ -1,0 +1,15 @@
+{
+    "id": "taco",
+    "name": "Taco",
+    "ingredients": [
+        "tortilla",
+        "any_meat",
+        "tomato",
+        "lettuce",
+        "cheese"
+    ],
+    "nutrition": 10,
+    "saturation": 14.0,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

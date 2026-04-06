@@ -1,0 +1,15 @@
+{
+    "id": "worldly_cupcake",
+    "name": "Worldly Cupcake",
+    "ingredients": [
+        "egg",
+        "milk_bottle",
+        "sugar",
+        "wheat",
+        "grass_block"
+    ],
+    "nutrition": 8,
+    "saturation": 4.8,
+    "category": "dessert",
+    "tool": "cooking_pot"
+}

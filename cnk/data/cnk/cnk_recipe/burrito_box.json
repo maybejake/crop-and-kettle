@@ -1,0 +1,12 @@
+{
+    "id": "burrito_box",
+    "name": "Burrito Box",
+    "ingredients": [
+        "burrito",
+        "chips_and_dip"
+    ],
+    "nutrition": 15,
+    "saturation": 20,
+    "category": "feast",
+    "tool": "cooking_pot"
+}

@@ -1,0 +1,13 @@
+{
+    "id": "halloween_donut",
+    "name": "Halloween Donut",
+    "ingredients": [
+        "dough",
+        "sugar",
+        "pumpkin"
+    ],
+    "nutrition": 7,
+    "saturation": 4.9,
+    "category": "dessert",
+    "tool": "cooking_pot"
+}

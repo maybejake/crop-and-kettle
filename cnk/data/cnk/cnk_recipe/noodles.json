@@ -1,0 +1,11 @@
+{
+    "id": "noodles",
+    "name": "Noodles",
+    "ingredients": [
+        "dough"
+    ],
+    "nutrition": 3,
+    "saturation": 1.8,
+    "category": "staple",
+    "tool": "cutting_board"
+}

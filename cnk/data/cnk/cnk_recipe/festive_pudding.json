@@ -1,0 +1,15 @@
+{
+    "id": "festive_pudding",
+    "name": "Festive Pudding",
+    "ingredients": [
+        "dough",
+        "sugar",
+        "cinnamon",
+        "ginger",
+        "sweet_berries"
+    ],
+    "nutrition": 8,
+    "saturation": 6.4,
+    "category": "dessert",
+    "tool": "cooking_pot"
+}

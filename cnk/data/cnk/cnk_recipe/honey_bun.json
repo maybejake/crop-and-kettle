@@ -1,0 +1,13 @@
+{
+    "id": "honey_bun",
+    "name": "Honey Bun",
+    "ingredients": [
+        "dough",
+        "honey_bottle",
+        "sugar"
+    ],
+    "nutrition": 10,
+    "saturation": 3.0,
+    "category": "dessert",
+    "tool": "cooking_pot"
+}

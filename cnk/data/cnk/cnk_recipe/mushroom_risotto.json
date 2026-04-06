@@ -1,0 +1,13 @@
+{
+    "id": "mushroom_risotto",
+    "name": "Mushroom Risotto",
+    "ingredients": [
+        "any_mushroom",
+        "rice",
+        "stock"
+    ],
+    "nutrition": 9,
+    "saturation": 11.7,
+    "category": "light",
+    "tool": "cooking_pot"
+}

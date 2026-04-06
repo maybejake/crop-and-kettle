@@ -1,0 +1,11 @@
+{
+    "id": "raisins",
+    "name": "Raisins",
+    "ingredients": [
+        "grapes"
+    ],
+    "nutrition": 4,
+    "saturation": 5,
+    "category": "snack",
+    "tool": "cooking_pot"
+}

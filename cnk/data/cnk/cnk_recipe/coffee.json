@@ -1,0 +1,12 @@
+{
+    "id": "coffee",
+    "name": "Coffee",
+    "ingredients": [
+        "coffee_beans",
+        "water"
+    ],
+    "nutrition": 2,
+    "saturation": 1,
+    "category": "snack",
+    "tool": "cooking_pot"
+}

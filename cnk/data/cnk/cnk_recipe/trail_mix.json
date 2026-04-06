@@ -1,0 +1,14 @@
+{
+    "id": "trail_mix",
+    "name": "Trail Mix",
+    "ingredients": [
+        "raisins",
+        "popcorn",
+        "any_seed",
+        "chocolate_bar"
+    ],
+    "nutrition": 17,
+    "saturation": 20,
+    "category": "feast",
+    "tool": "mixing_bowl"
+}

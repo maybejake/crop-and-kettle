@@ -1,0 +1,14 @@
+{
+    "id": "hamburger",
+    "name": "Hamburger",
+    "ingredients": [
+        "bread",
+        "beef_cutlets",
+        "lettuce",
+        "tomato"
+    ],
+    "nutrition": 10,
+    "saturation": 12.0,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

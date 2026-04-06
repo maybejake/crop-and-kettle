@@ -1,0 +1,13 @@
+{
+    "id": "sushi",
+    "name": "Sushi",
+    "ingredients": [
+        "any_fish",
+        "rice",
+        "dried_kelp"
+    ],
+    "nutrition": 7,
+    "saturation": 8.4,
+    "category": "light",
+    "tool": "cooking_pot"
+}

@@ -1,0 +1,11 @@
+{
+    "id": "butter",
+    "name": "Butter",
+    "ingredients": [
+        "milk_bottle"
+    ],
+    "nutrition": 2,
+    "saturation": 1.2,
+    "category": "staple",
+    "tool": "mixing_bowl"
+}

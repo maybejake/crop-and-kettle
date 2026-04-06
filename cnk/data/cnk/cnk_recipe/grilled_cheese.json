@@ -1,0 +1,13 @@
+{
+    "id": "grilled_cheese",
+    "name": "Grilled Cheese",
+    "ingredients": [
+        "bread",
+        "cheese",
+        "butter"
+    ],
+    "nutrition": 9,
+    "saturation": 12.6,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

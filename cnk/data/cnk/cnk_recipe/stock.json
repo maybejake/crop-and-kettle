@@ -1,0 +1,12 @@
+{
+    "id": "stock",
+    "name": "Stock",
+    "ingredients": [
+        "any_meat",
+        "water"
+    ],
+    "nutrition": 6,
+    "saturation": 1.2,
+    "category": "light",
+    "tool": "cooking_pot"
+}

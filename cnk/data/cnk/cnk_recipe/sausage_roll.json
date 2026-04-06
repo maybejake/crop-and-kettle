@@ -1,0 +1,12 @@
+{
+    "id": "sausage_roll",
+    "name": "Sausage Roll",
+    "ingredients": [
+        "dough",
+        "pork_cutlets"
+    ],
+    "nutrition": 8,
+    "saturation": 5.6,
+    "category": "light",
+    "tool": "cooking_pot"
+}

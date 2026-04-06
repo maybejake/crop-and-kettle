@@ -1,0 +1,13 @@
+{
+    "id": "pub_meal",
+    "name": "Pub Meal",
+    "ingredients": [
+        "steak_and_ale_pie",
+        "potato",
+        "carrot"
+    ],
+    "nutrition": 14,
+    "saturation": 20,
+    "category": "feast",
+    "tool": "cooking_pot"
+}

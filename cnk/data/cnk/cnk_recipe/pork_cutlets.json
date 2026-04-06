@@ -1,0 +1,11 @@
+{
+    "id": "pork_cutlets",
+    "name": "Pork Cutlets",
+    "ingredients": [
+        "porkchop"
+    ],
+    "nutrition": 3,
+    "saturation": 1.8,
+    "category": "staple",
+    "tool": "cutting_board"
+}

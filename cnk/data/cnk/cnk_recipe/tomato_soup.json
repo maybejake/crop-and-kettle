@@ -1,0 +1,12 @@
+{
+    "id": "tomato_soup",
+    "name": "Tomato Soup",
+    "ingredients": [
+        "milk_bottle",
+        "tomato"
+    ],
+    "nutrition": 6,
+    "saturation": 7.2,
+    "category": "light",
+    "tool": "cooking_pot"
+}

@@ -1,0 +1,13 @@
+{
+    "id": "fried_fish",
+    "name": "Fried Fish",
+    "ingredients": [
+        "any_fish",
+        "cooking_oil",
+        "wheat"
+    ],
+    "nutrition": 8,
+    "saturation": 10.4,
+    "category": "light",
+    "tool": "cooking_pot"
+}

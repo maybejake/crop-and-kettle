@@ -1,0 +1,13 @@
+{
+    "id": "kebab",
+    "name": "Kebab",
+    "ingredients": [
+        "stick",
+        "any_meat",
+        "any_vegetable"
+    ],
+    "nutrition": 7,
+    "saturation": 8.4,
+    "category": "light",
+    "tool": "cooking_pot"
+}

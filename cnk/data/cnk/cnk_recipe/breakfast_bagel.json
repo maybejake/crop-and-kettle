@@ -1,0 +1,14 @@
+{
+    "id": "breakfast_bagel",
+    "name": "Breakfast Bagel",
+    "ingredients": [
+        "bread",
+        "egg",
+        "cheese",
+        "pork_cutlets"
+    ],
+    "nutrition": 11,
+    "saturation": 7.7,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

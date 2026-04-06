@@ -1,0 +1,12 @@
+{
+    "id": "combo_meal",
+    "name": "Combo Meal",
+    "ingredients": [
+        "cheeseburger",
+        "fries"
+    ],
+    "nutrition": 14,
+    "saturation": 20,
+    "category": "feast",
+    "tool": "cooking_pot"
+}

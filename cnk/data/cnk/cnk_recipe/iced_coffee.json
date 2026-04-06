@@ -1,0 +1,14 @@
+{
+    "id": "iced_coffee",
+    "name": "Iced Coffee",
+    "ingredients": [
+        "ice",
+        "coffee",
+        "cocoa_beans",
+        "milk_bottle"
+    ],
+    "nutrition": 9,
+    "saturation": 2.7,
+    "category": "snack",
+    "tool": "mixing_bowl"
+}

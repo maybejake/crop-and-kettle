@@ -1,0 +1,12 @@
+{
+    "id": "salsa",
+    "name": "Salsa",
+    "ingredients": [
+        "tomato",
+        "chili_pepper"
+    ],
+    "nutrition": 4,
+    "saturation": 0.8,
+    "category": "snack",
+    "tool": "cooking_pot"
+}

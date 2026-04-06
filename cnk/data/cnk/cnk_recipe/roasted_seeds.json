@@ -1,0 +1,12 @@
+{
+    "id": "roasted_seeds",
+    "name": "Roasted Seeds",
+    "ingredients": [
+        "pumpkin_seeds",
+        "cooking_oil"
+    ],
+    "nutrition": 5,
+    "saturation": 4.8,
+    "category": "snack",
+    "tool": "cooking_pot"
+}

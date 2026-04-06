@@ -1,0 +1,14 @@
+{
+    "id": "shepherds_pie",
+    "name": "Shepherds Pie",
+    "ingredients": [
+        "mutton_cutlets",
+        "carrot",
+        "potato",
+        "milk_bottle"
+    ],
+    "nutrition": 8,
+    "saturation": 9.6,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

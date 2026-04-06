@@ -1,0 +1,15 @@
+{
+    "id": "infernal_cupcake",
+    "name": "Infernal Cupcake",
+    "ingredients": [
+        "egg",
+        "milk_bottle",
+        "chili_pepper",
+        "wheat",
+        "blaze_rod"
+    ],
+    "nutrition": 9,
+    "saturation": 5.4,
+    "category": "dessert",
+    "tool": "cooking_pot"
+}

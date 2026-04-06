@@ -1,0 +1,15 @@
+{
+    "id": "cinnamon_roll",
+    "name": "Cinnamon Roll",
+    "ingredients": [
+        "dough",
+        "sugar",
+        "milk_bottle",
+        "cinnamon",
+        "butter"
+    ],
+    "nutrition": 8,
+    "saturation": 8,
+    "category": "dessert",
+    "tool": "cooking_pot"
+}

@@ -1,0 +1,14 @@
+{
+    "id": "grazing_board",
+    "name": "Grazing Board",
+    "ingredients": [
+        "bread",
+        "cheese",
+        "any_meat",
+        "any_fruit"
+    ],
+    "nutrition": 11,
+    "saturation": 14.3,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

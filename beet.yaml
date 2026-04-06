@@ -1,0 +1,8 @@
+minecraft: "1.21"
+require:
+  - beet.contrib.model_merging
+  
+pipeline:
+  - extend: cnk
+
+output: .build

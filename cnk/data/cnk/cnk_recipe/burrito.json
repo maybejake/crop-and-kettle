@@ -1,0 +1,14 @@
+{
+    "id": "burrito",
+    "name": "Burrito",
+    "ingredients": [
+        "tortilla",
+        "any_meat",
+        "rice",
+        "cheese"
+    ],
+    "nutrition": 9,
+    "saturation": 12.6,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

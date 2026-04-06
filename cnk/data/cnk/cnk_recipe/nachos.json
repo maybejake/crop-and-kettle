@@ -1,0 +1,15 @@
+{
+    "id": "nachos",
+    "name": "Nachos",
+    "ingredients": [
+        "tortilla_chips",
+        "salsa",
+        "any_meat",
+        "cheese",
+        "chili"
+    ],
+    "nutrition": 17,
+    "saturation": 20,
+    "category": "feast",
+    "tool": "cooking_pot"
+}

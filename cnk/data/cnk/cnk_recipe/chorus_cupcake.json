@@ -1,0 +1,15 @@
+{
+    "id": "chorus_cupcake",
+    "name": "Chorus Cupcake",
+    "ingredients": [
+        "chorus_fruit",
+        "egg",
+        "milk_bottle",
+        "sugar",
+        "wheat"
+    ],
+    "nutrition": 9,
+    "saturation": 5.4,
+    "category": "dessert",
+    "tool": "cooking_pot"
+}

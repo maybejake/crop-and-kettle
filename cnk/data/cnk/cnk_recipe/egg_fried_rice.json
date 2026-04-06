@@ -1,0 +1,13 @@
+{
+    "id": "egg_fried_rice",
+    "name": "Egg Fried Rice",
+    "ingredients": [
+        "rice",
+        "egg",
+        "any_vegetable"
+    ],
+    "nutrition": 7,
+    "saturation": 8.4,
+    "category": "light",
+    "tool": "cooking_pot"
+}

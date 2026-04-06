@@ -1,0 +1,12 @@
+{
+    "id": "cooking_oil",
+    "name": "Cooking Oil",
+    "ingredients": [
+        "glass_bottle",
+        "sunflower"
+    ],
+    "nutrition": 3,
+    "saturation": 3.6,
+    "category": "staple",
+    "tool": "mixing_bowl"
+}
