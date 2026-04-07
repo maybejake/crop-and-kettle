@@ -11,6 +11,8 @@ import logging
 
 LOGGER = logging.getLogger(__name__)
 
+FEAST_SATURATION_THRESHOLD = 20
+
 class Recipe(BaseModel):
     id: str
     name: str
@@ -65,6 +67,10 @@ def generate_recipes(ctx: Context):
 
 def generate_loot_table(ctx: Context, recipe: Recipe):
     """Generate a loot table for a recipe"""
+    ingredient_data = {"type":recipe.id}
+    if recipe.saturation >= FEAST_SATURATION_THRESHOLD:
+        ingredient_data["feast"] = True
+
     ctx.data.loot_tables[f"cnk:food/{recipe.id}"] = LootTable({
         "pools": [
             {
@@ -81,7 +87,7 @@ def generate_loot_table(ctx: Context, recipe: Recipe):
                                     "minecraft:item_model": f"cnk:{recipe.id}",
                                     "minecraft:food": {"nutrition":recipe.nutrition, "saturation":recipe.saturation},
                                     "minecraft:consumable": {},
-                                    "minecraft:custom_data": {"cnk":{"ingredient":{"type":recipe.id}}, "smithed":{"ignore":{"functionality":True, "crafting":True}}},
+                                    "minecraft:custom_data": {"cnk":{"ingredient":ingredient_data}, "smithed":{"ignore":{"functionality":True, "crafting":True}}},
                                     "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":False}]
                                 }
                             }
