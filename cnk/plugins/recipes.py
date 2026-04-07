@@ -3,7 +3,10 @@ from beet import (
     FileDeserialize,
     JsonFileBase,
     NamespaceFileScope,
-    LootTable
+    LootTable,
+    ItemModel,
+    Model,
+    Language
 )
 from pydantic import BaseModel, Field
 from typing import ClassVar, Literal
@@ -58,15 +61,12 @@ def beet_default(ctx: Context):
 
 def generate_recipes(ctx: Context):
     """Generate recipes from json files"""
-    stuff = []
     for resource_location in ctx.data[RecipeDefinition]:
         recipe = ctx.data[RecipeDefinition][resource_location].data
 
-        stuff.append(recipe.id)
-        # Generate loot table
         generate_loot_table(ctx, recipe)
-
-    print(stuff)
+        generate_texture_files(ctx, recipe)
+        add_translation(ctx, recipe)
 
 
 def generate_loot_table(ctx: Context, recipe: Recipe):
@@ -102,5 +102,24 @@ def generate_loot_table(ctx: Context, recipe: Recipe):
         ]
     })
 
-def generate_assets(ctx: Context, recipe: Recipe):
-    """Generate assets for a recipe including item model, definition and texture"""
+def generate_texture_files(ctx: Context, recipe: Recipe):
+    """Generate texture files for a recipe including item model and item definition"""
+    ctx.assets.item_models[f"cnk:{recipe.id}"] = ItemModel({
+        "model": {
+            "type": "minecraft:model",
+            "model": f"cnk:item/{recipe.id}"
+        }
+    })
+
+    ctx.assets.models[f"cnk:item/{recipe.id}"] = Model({
+        "parent": "minecraft:item/generated",
+        "textures": {
+            "layer0": f"cnk:item/{recipe.id}"
+        }
+    })
+
+def add_translation(ctx: Context, recipe: Recipe):
+    """Adds the translation key for a given recipe"""
+    lang = ctx.assets.languages["cnk:en_us"].data
+    lang[f"item.cnk.{recipe.id}"] = recipe.name
+    ctx.assets.languages["cnk:en_us"] = Language(lang)
