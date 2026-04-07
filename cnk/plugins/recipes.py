@@ -58,11 +58,15 @@ def beet_default(ctx: Context):
 
 def generate_recipes(ctx: Context):
     """Generate recipes from json files"""
+    stuff = []
     for resource_location in ctx.data[RecipeDefinition]:
         recipe = ctx.data[RecipeDefinition][resource_location].data
 
+        stuff.append(recipe.id)
         # Generate loot table
         generate_loot_table(ctx, recipe)
+
+    print(stuff)
 
 
 def generate_loot_table(ctx: Context, recipe: Recipe):
@@ -97,3 +101,6 @@ def generate_loot_table(ctx: Context, recipe: Recipe):
             }
         ]
     })
+
+def generate_assets(ctx: Context, recipe: Recipe):
+    """Generate assets for a recipe including item model, definition and texture"""
