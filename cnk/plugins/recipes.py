@@ -15,7 +15,6 @@ import logging
 
 LOGGER = logging.getLogger(__name__)
 
-FEAST_SATURATION_THRESHOLD = 20
 
 class Recipe(BaseModel):
     id: str
@@ -74,7 +73,7 @@ def generate_recipes(ctx: Context):
 def generate_loot_table(ctx: Context, recipe: Recipe):
     """Generate a loot table for a recipe"""
     ingredient_data = {"type":recipe.id}
-    if recipe.saturation >= FEAST_SATURATION_THRESHOLD:
+    if recipe.category == "feast":
         ingredient_data["feast"] = True
 
     ctx.data.loot_tables[f"cnk:food/{recipe.id}"] = LootTable({
