@@ -2,11 +2,11 @@
     "id": "proud_cookie",
     "name": "Proud Cookie",
     "ingredients": [
-        "red_dye",
-        "green_dye",
-        "blue_dye",
-        "yellow_dye",
-        "cookie"
+        "minecraft:red_dye",
+        "minecraft:green_dye",
+        "minecraft:blue_dye",
+        "minecraft:yellow_dye",
+        "minecraft:cookie"
     ],
     "nutrition": 7,
     "saturation": 1.4,

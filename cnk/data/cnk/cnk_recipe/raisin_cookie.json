@@ -2,9 +2,9 @@
     "id": "raisin_cookie",
     "name": "Raisin Cookie",
     "ingredients": [
-        "cookie",
-        "raisins",
-        "wheat"
+        "minecraft:cookie",
+        "cnk:raisins",
+        "minecraft:wheat"
     ],
     "nutrition": 9,
     "saturation": 6.3,

@@ -2,8 +2,8 @@
     "id": "hotdog",
     "name": "Hotdog",
     "ingredients": [
-        "bread",
-        "pork_cutlets"
+        "minecraft:bread",
+        "cnk:pork_cutlets"
     ],
     "nutrition": 9,
     "saturation": 5.4,

@@ -2,9 +2,9 @@
     "id": "caramel_apple",
     "name": "Caramel Apple",
     "ingredients": [
-        "apple",
-        "caramel",
-        "stick"
+        "minecraft:apple",
+        "cnk:caramel",
+        "minecraft:stick"
     ],
     "nutrition": 11,
     "saturation": 9.9,

@@ -2,10 +2,10 @@
     "id": "stew",
     "name": "Stew",
     "ingredients": [
-        "any_meat",
-        "any_vegetable",
-        "any_vegetable",
-        "any_vegetable"
+        "cnk:any_meat",
+        "cnk:any_vegetable",
+        "cnk:any_vegetable",
+        "cnk:any_vegetable"
     ],
     "nutrition": 7,
     "saturation": 8.4,

@@ -2,10 +2,10 @@
     "id": "shepherds_pie",
     "name": "Shepherds Pie",
     "ingredients": [
-        "mutton_cutlets",
-        "carrot",
-        "potato",
-        "milk_bottle"
+        "cnk:mutton_cutlets",
+        "minecraft:carrot",
+        "minecraft:potato",
+        "cnk:milk_bottle"
     ],
     "nutrition": 8,
     "saturation": 9.6,

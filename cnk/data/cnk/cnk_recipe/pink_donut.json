@@ -2,11 +2,11 @@
     "id": "pink_donut",
     "name": "Pink Donut",
     "ingredients": [
-        "dough",
-        "sugar",
-        "milk_bottle",
-        "pink_dye",
-        "light_blue_dye"
+        "cnk:dough",
+        "minecraft:sugar",
+        "cnk:milk_bottle",
+        "minecraft:pink_dye",
+        "minecraft:light_blue_dye"
     ],
     "nutrition": 8,
     "saturation": 5.6,

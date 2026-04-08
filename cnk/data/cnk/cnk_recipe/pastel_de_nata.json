@@ -2,11 +2,11 @@
     "id": "pastel_de_nata",
     "name": "Pastel De Nata",
     "ingredients": [
-        "dough",
-        "milk_bottle",
-        "sugar",
-        "egg",
-        "cinnamon"
+        "cnk:dough",
+        "cnk:milk_bottle",
+        "minecraft:sugar",
+        "minecraft:egg",
+        "cnk:cinnamon"
     ],
     "nutrition": 8,
     "saturation": 2.4,

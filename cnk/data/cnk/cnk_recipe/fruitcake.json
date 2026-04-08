@@ -2,10 +2,10 @@
     "id": "fruitcake",
     "name": "Fruitcake",
     "ingredients": [
-        "dough",
-        "sugar",
-        "raisins",
-        "any_fruit"
+        "cnk:dough",
+        "minecraft:sugar",
+        "cnk:raisins",
+        "cnk:any_fruit"
     ],
     "nutrition": 9,
     "saturation": 7.2,

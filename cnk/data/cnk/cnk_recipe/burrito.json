@@ -2,10 +2,10 @@
     "id": "burrito",
     "name": "Burrito",
     "ingredients": [
-        "tortilla",
-        "any_meat",
-        "rice",
-        "cheese"
+        "cnk:tortilla",
+        "cnk:any_meat",
+        "cnk:rice",
+        "cnk:cheese"
     ],
     "nutrition": 9,
     "saturation": 12.6,

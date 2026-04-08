@@ -2,8 +2,8 @@
     "id": "salsa",
     "name": "Salsa",
     "ingredients": [
-        "tomato",
-        "chili_pepper"
+        "cnk:tomato",
+        "cnk:chili_pepper"
     ],
     "nutrition": 4,
     "saturation": 0.8,

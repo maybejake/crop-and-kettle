@@ -2,8 +2,8 @@
     "id": "combo_meal",
     "name": "Combo Meal",
     "ingredients": [
-        "cheeseburger",
-        "fries"
+        "cnk:cheeseburger",
+        "cnk:fries"
     ],
     "nutrition": 14,
     "saturation": 20,

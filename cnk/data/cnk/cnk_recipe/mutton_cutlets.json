@@ -2,7 +2,7 @@
     "id": "mutton_cutlets",
     "name": "Mutton Cutlets",
     "ingredients": [
-        "mutton"
+        "minecraft:mutton"
     ],
     "nutrition": 3,
     "saturation": 1.8,

@@ -2,9 +2,9 @@
     "id": "halloween_donut",
     "name": "Halloween Donut",
     "ingredients": [
-        "dough",
-        "sugar",
-        "pumpkin"
+        "cnk:dough",
+        "minecraft:sugar",
+        "minecraft:pumpkin"
     ],
     "nutrition": 7,
     "saturation": 4.9,

@@ -2,11 +2,11 @@
     "id": "chocolate_cake",
     "name": "Chocolate Cake",
     "ingredients": [
-        "wheat",
-        "sugar",
-        "egg",
-        "cocoa_beans",
-        "milk_bottle"
+        "minecraft:wheat",
+        "minecraft:sugar",
+        "minecraft:egg",
+        "minecraft:cocoa_beans",
+        "cnk:milk_bottle"
     ],
     "nutrition": 11,
     "saturation": 6.6,

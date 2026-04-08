@@ -2,11 +2,11 @@
     "id": "cinnamon_roll",
     "name": "Cinnamon Roll",
     "ingredients": [
-        "dough",
-        "sugar",
-        "milk_bottle",
-        "cinnamon",
-        "butter"
+        "cnk:dough",
+        "minecraft:sugar",
+        "cnk:milk_bottle",
+        "cnk:cinnamon",
+        "cnk:butter"
     ],
     "nutrition": 8,
     "saturation": 8,

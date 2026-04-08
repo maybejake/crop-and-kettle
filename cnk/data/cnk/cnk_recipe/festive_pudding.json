@@ -2,11 +2,11 @@
     "id": "festive_pudding",
     "name": "Festive Pudding",
     "ingredients": [
-        "dough",
-        "sugar",
-        "cinnamon",
-        "ginger",
-        "sweet_berries"
+        "cnk:dough",
+        "minecraft:sugar",
+        "cnk:cinnamon",
+        "cnk:ginger",
+        "minecraft:sweet_berries"
     ],
     "nutrition": 8,
     "saturation": 6.4,

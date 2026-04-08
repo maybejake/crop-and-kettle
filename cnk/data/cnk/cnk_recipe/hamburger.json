@@ -2,10 +2,10 @@
     "id": "hamburger",
     "name": "Hamburger",
     "ingredients": [
-        "bread",
-        "beef_cutlets",
-        "lettuce",
-        "tomato"
+        "minecraft:bread",
+        "cnk:beef_cutlets",
+        "cnk:lettuce",
+        "cnk:tomato"
     ],
     "nutrition": 10,
     "saturation": 12.0,

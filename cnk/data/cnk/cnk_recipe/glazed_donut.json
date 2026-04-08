@@ -2,9 +2,9 @@
     "id": "glazed_donut",
     "name": "Glazed Donut",
     "ingredients": [
-        "dough",
-        "sugar",
-        "milk_bottle"
+        "cnk:dough",
+        "minecraft:sugar",
+        "cnk:milk_bottle"
     ],
     "nutrition": 7,
     "saturation": 4.9,

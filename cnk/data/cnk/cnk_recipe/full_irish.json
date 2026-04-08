@@ -2,11 +2,11 @@
     "id": "full_irish",
     "name": "Full Irish",
     "ingredients": [
-        "pork_cutlets",
-        "egg",
-        "bread",
-        "tomato",
-        "potato"
+        "cnk:pork_cutlets",
+        "minecraft:egg",
+        "minecraft:bread",
+        "cnk:tomato",
+        "minecraft:potato"
     ],
     "nutrition": 12,
     "saturation": 14.4,

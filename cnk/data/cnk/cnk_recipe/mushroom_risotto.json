@@ -2,9 +2,9 @@
     "id": "mushroom_risotto",
     "name": "Mushroom Risotto",
     "ingredients": [
-        "any_mushroom",
-        "rice",
-        "stock"
+        "cnk:any_mushroom",
+        "cnk:rice",
+        "cnk:stock"
     ],
     "nutrition": 9,
     "saturation": 11.7,

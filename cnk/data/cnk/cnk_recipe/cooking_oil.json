@@ -2,8 +2,8 @@
     "id": "cooking_oil",
     "name": "Cooking Oil",
     "ingredients": [
-        "glass_bottle",
-        "sunflower"
+        "minecraft:glass_bottle",
+        "minecraft:sunflower"
     ],
     "nutrition": 3,
     "saturation": 3.6,

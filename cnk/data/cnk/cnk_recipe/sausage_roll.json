@@ -2,8 +2,8 @@
     "id": "sausage_roll",
     "name": "Sausage Roll",
     "ingredients": [
-        "dough",
-        "pork_cutlets"
+        "cnk:dough",
+        "cnk:pork_cutlets"
     ],
     "nutrition": 8,
     "saturation": 5.6,

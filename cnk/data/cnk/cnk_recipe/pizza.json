@@ -2,9 +2,9 @@
     "id": "pizza",
     "name": "Pizza",
     "ingredients": [
-        "dough",
-        "tomato",
-        "cheese"
+        "cnk:dough",
+        "cnk:tomato",
+        "cnk:cheese"
     ],
     "nutrition": 8,
     "saturation": 11.2,

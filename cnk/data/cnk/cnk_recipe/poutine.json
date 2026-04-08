@@ -2,9 +2,9 @@
     "id": "poutine",
     "name": "Poutine",
     "ingredients": [
-        "fries",
-        "stock",
-        "cheese"
+        "cnk:fries",
+        "cnk:stock",
+        "cnk:cheese"
     ],
     "nutrition": 13,
     "saturation": 20,

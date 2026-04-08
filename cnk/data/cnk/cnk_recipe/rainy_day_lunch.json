@@ -2,8 +2,8 @@
     "id": "rainy_day_lunch",
     "name": "Rainy Day Lunch",
     "ingredients": [
-        "grilled_cheese",
-        "tomato_soup"
+        "cnk:grilled_cheese",
+        "cnk:tomato_soup"
     ],
     "nutrition": 13,
     "saturation": 20,

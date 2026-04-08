@@ -2,8 +2,8 @@
     "id": "surf_n_turf",
     "name": "Surf n Turf",
     "ingredients": [
-        "any_meat",
-        "any_fish"
+        "cnk:any_meat",
+        "cnk:any_fish"
     ],
     "nutrition": 7,
     "saturation": 8.4,

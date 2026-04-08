@@ -2,8 +2,8 @@
     "id": "spaghetti",
     "name": "Spaghetti",
     "ingredients": [
-        "noodles",
-        "tomato"
+        "cnk:noodles",
+        "cnk:tomato"
     ],
     "nutrition": 7,
     "saturation": 9.1,

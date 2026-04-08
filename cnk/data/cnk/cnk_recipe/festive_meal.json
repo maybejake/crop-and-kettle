@@ -2,11 +2,11 @@
     "id": "festive_meal",
     "name": "Festive Meal",
     "ingredients": [
-        "honey_glazed_ham",
-        "potato",
-        "carrot",
-        "sweet_berries",
-        "stock"
+        "cnk:honey_glazed_ham",
+        "minecraft:potato",
+        "minecraft:carrot",
+        "minecraft:sweet_berries",
+        "cnk:stock"
     ],
     "nutrition": 16,
     "saturation": 20,

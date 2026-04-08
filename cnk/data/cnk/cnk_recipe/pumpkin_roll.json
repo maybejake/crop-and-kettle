@@ -2,10 +2,10 @@
     "id": "pumpkin_roll",
     "name": "Pumpkin Roll",
     "ingredients": [
-        "dough",
-        "pumpkin",
-        "sugar",
-        "cinnamon"
+        "cnk:dough",
+        "minecraft:pumpkin",
+        "minecraft:sugar",
+        "cnk:cinnamon"
     ],
     "nutrition": 8,
     "saturation": 6.4,

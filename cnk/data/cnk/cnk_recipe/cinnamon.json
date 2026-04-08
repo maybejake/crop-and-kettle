@@ -2,7 +2,7 @@
     "id": "cinnamon",
     "name": "Cinnamon",
     "ingredients": [
-        "acacia_log"
+        "minecraft:acacia_log"
     ],
     "nutrition": 0.5,
     "saturation": 0.1,

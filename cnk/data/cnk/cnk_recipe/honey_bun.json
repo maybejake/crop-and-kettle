@@ -2,9 +2,9 @@
     "id": "honey_bun",
     "name": "Honey Bun",
     "ingredients": [
-        "dough",
-        "honey_bottle",
-        "sugar"
+        "cnk:dough",
+        "minecraft:honey_bottle",
+        "minecraft:sugar"
     ],
     "nutrition": 10,
     "saturation": 3.0,

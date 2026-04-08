@@ -2,9 +2,9 @@
     "id": "buffalo_wings",
     "name": "Buffalo Wings",
     "ingredients": [
-        "fried_chicken",
-        "butter",
-        "chili_pepper"
+        "cnk:fried_chicken",
+        "cnk:butter",
+        "cnk:chili_pepper"
     ],
     "nutrition": 11,
     "saturation": 16.5,

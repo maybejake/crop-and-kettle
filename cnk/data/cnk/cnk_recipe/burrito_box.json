@@ -2,8 +2,8 @@
     "id": "burrito_box",
     "name": "Burrito Box",
     "ingredients": [
-        "burrito",
-        "chips_and_dip"
+        "cnk:burrito",
+        "cnk:chips_and_dip"
     ],
     "nutrition": 15,
     "saturation": 20,

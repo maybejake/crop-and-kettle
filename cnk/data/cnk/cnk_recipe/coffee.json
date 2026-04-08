@@ -2,8 +2,8 @@
     "id": "coffee",
     "name": "Coffee",
     "ingredients": [
-        "coffee_beans",
-        "water"
+        "cnk:coffee_beans",
+        "minecraft:water"
     ],
     "nutrition": 2,
     "saturation": 1,

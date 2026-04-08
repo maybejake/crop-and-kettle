@@ -2,9 +2,9 @@
     "id": "vegetable_soup",
     "name": "Vegetable Soup",
     "ingredients": [
-        "any_vegetable",
-        "any_vegetable",
-        "any_vegetable"
+        "cnk:any_vegetable",
+        "cnk:any_vegetable",
+        "cnk:any_vegetable"
     ],
     "nutrition": 6,
     "saturation": 7.2,

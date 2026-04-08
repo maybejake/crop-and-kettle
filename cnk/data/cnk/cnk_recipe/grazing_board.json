@@ -2,10 +2,10 @@
     "id": "grazing_board",
     "name": "Grazing Board",
     "ingredients": [
-        "bread",
-        "cheese",
-        "any_meat",
-        "any_fruit"
+        "minecraft:bread",
+        "cnk:cheese",
+        "cnk:any_meat",
+        "cnk:any_fruit"
     ],
     "nutrition": 11,
     "saturation": 14.3,

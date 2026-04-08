@@ -2,8 +2,8 @@
     "id": "honey-glazed_ham",
     "name": "Honey-glazed Ham",
     "ingredients": [
-        "pork_cutlets",
-        "honey_bottle"
+        "cnk:pork_cutlets",
+        "minecraft:honey_bottle"
     ],
     "nutrition": 9,
     "saturation": 10.8,

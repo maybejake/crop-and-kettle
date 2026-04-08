@@ -2,11 +2,11 @@
     "id": "ramen",
     "name": "Ramen",
     "ingredients": [
-        "noodles",
-        "stock",
-        "any_meat",
-        "egg",
-        "dried_kelp"
+        "cnk:noodles",
+        "cnk:stock",
+        "cnk:any_meat",
+        "minecraft:egg",
+        "minecraft:dried_kelp"
     ],
     "nutrition": 14,
     "saturation": 16.8,

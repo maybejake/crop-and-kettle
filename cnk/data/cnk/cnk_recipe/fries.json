@@ -2,8 +2,8 @@
     "id": "fries",
     "name": "Fries",
     "ingredients": [
-        "cooking_oil",
-        "potato"
+        "cnk:cooking_oil",
+        "minecraft:potato"
     ],
     "nutrition": 7,
     "saturation": 9.1,

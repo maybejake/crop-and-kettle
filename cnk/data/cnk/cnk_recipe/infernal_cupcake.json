@@ -2,11 +2,11 @@
     "id": "infernal_cupcake",
     "name": "Infernal Cupcake",
     "ingredients": [
-        "egg",
-        "milk_bottle",
-        "chili_pepper",
-        "wheat",
-        "blaze_rod"
+        "minecraft:egg",
+        "cnk:milk_bottle",
+        "cnk:chili_pepper",
+        "minecraft:wheat",
+        "minecraft:blaze_rod"
     ],
     "nutrition": 9,
     "saturation": 5.4,

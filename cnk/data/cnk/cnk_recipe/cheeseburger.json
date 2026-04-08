@@ -2,11 +2,11 @@
     "id": "cheeseburger",
     "name": "Cheeseburger",
     "ingredients": [
-        "bread",
-        "beef_cutlets",
-        "lettuce",
-        "tomato",
-        "cheese"
+        "minecraft:bread",
+        "cnk:beef_cutlets",
+        "cnk:lettuce",
+        "cnk:tomato",
+        "cnk:cheese"
     ],
     "nutrition": 11,
     "saturation": 14.3,

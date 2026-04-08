@@ -2,11 +2,11 @@
     "id": "carrot_cake",
     "name": "Carrot Cake",
     "ingredients": [
-        "wheat",
-        "sugar",
-        "egg",
-        "carrot",
-        "milk_bottle"
+        "minecraft:wheat",
+        "minecraft:sugar",
+        "minecraft:egg",
+        "minecraft:carrot",
+        "cnk:milk_bottle"
     ],
     "nutrition": 9,
     "saturation": 5.4,

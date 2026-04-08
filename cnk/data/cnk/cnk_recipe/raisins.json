@@ -2,7 +2,7 @@
     "id": "raisins",
     "name": "Raisins",
     "ingredients": [
-        "grapes"
+        "cnk:grapes"
     ],
     "nutrition": 4,
     "saturation": 5,

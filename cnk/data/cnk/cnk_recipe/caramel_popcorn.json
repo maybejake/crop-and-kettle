@@ -2,8 +2,8 @@
     "id": "caramel_popcorn",
     "name": "Caramel Popcorn",
     "ingredients": [
-        "popcorn",
-        "caramel"
+        "cnk:popcorn",
+        "cnk:caramel"
     ],
     "nutrition": 11,
     "saturation": 12.1,

@@ -2,9 +2,9 @@
     "id": "snow_cream",
     "name": "Snow Cream",
     "ingredients": [
-        "snowball",
-        "milk_bottle",
-        "sugar"
+        "minecraft:snowball",
+        "cnk:milk_bottle",
+        "minecraft:sugar"
     ],
     "nutrition": 5,
     "saturation": 3.6,

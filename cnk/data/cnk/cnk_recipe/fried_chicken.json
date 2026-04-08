@@ -2,9 +2,9 @@
     "id": "fried_chicken",
     "name": "Fried Chicken",
     "ingredients": [
-        "cooking_oil",
-        "chicken_cutlets",
-        "wheat"
+        "cnk:cooking_oil",
+        "cnk:chicken_cutlets",
+        "minecraft:wheat"
     ],
     "nutrition": 8,
     "saturation": 10.4,

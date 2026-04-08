@@ -2,9 +2,9 @@
     "id": "sushi",
     "name": "Sushi",
     "ingredients": [
-        "any_fish",
-        "rice",
-        "dried_kelp"
+        "cnk:any_fish",
+        "cnk:rice",
+        "minecraft:dried_kelp"
     ],
     "nutrition": 7,
     "saturation": 8.4,

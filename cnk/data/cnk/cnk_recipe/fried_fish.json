@@ -2,9 +2,9 @@
     "id": "fried_fish",
     "name": "Fried Fish",
     "ingredients": [
-        "any_fish",
-        "cooking_oil",
-        "wheat"
+        "cnk:any_fish",
+        "cnk:cooking_oil",
+        "minecraft:wheat"
     ],
     "nutrition": 8,
     "saturation": 10.4,

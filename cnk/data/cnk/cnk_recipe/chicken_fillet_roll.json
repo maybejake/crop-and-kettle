@@ -2,10 +2,10 @@
     "id": "chicken_fillet_roll",
     "name": "Chicken Fillet Roll",
     "ingredients": [
-        "bread",
-        "cheese",
-        "lettuce",
-        "chicken_cutlets"
+        "minecraft::bread",
+        "cnk:cheese",
+        "cnk:lettuce",
+        "cnk:chicken_cutlets"
     ],
     "nutrition": 10,
     "saturation": 13.0,

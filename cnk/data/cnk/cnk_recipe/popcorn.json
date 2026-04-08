@@ -2,9 +2,9 @@
     "id": "popcorn",
     "name": "Popcorn",
     "ingredients": [
-        "corn_seeds",
-        "cooking_oil",
-        "butter"
+        "cnk:corn_seeds",
+        "cnk:cooking_oil",
+        "cnk:butter"
     ],
     "nutrition": 8,
     "saturation": 6.4,

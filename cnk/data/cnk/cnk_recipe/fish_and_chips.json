@@ -2,8 +2,8 @@
     "id": "fish_and_chips",
     "name": "Fish & Chips",
     "ingredients": [
-        "fries",
-        "fried_fish"
+        "cnk:fries",
+        "cnk:fried_fish"
     ],
     "nutrition": 13,
     "saturation": 20,

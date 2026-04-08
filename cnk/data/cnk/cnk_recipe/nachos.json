@@ -2,11 +2,11 @@
     "id": "nachos",
     "name": "Nachos",
     "ingredients": [
-        "tortilla_chips",
-        "salsa",
-        "any_meat",
-        "cheese",
-        "chili"
+        "cnk:tortilla_chips",
+        "cnk:salsa",
+        "cnk:any_meat",
+        "cnk:cheese",
+        "cnk:chili"
     ],
     "nutrition": 17,
     "saturation": 20,

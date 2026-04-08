@@ -2,9 +2,9 @@
     "id": "chicken_sandwich",
     "name": "Chicken Sandwich",
     "ingredients": [
-        "fried_chicken",
-        "bread",
-        "sea_pickle"
+        "cnk:fried_chicken",
+        "minecraft:bread",
+        "cnk:sea_pickle"
     ],
     "nutrition": 13,
     "saturation": 20,

@@ -2,10 +2,10 @@
     "id": "ratatouille",
     "name": "Ratatouille",
     "ingredients": [
-        "tomato",
-        "beetroot",
-        "carrot",
-        "pumpkin"
+        "cnk:tomato",
+        "minecraft:beetroot",
+        "minecraft:carrot",
+        "minecraft:pumpkin"
     ],
     "nutrition": 8,
     "saturation": 9.6,

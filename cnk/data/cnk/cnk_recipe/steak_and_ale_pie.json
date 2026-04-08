@@ -2,10 +2,10 @@
     "id": "steak_and_ale_pie",
     "name": "Steak & Ale Pie",
     "ingredients": [
-        "beer",
-        "beef",
-        "dough",
-        "stock"
+        "cnk:beer",
+        "cnk:beef_cutlets",
+        "cnk:dough",
+        "cnk:stock"
     ],
     "nutrition": 12,
     "saturation": 18,

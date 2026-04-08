@@ -2,10 +2,10 @@
     "id": "breakfast_bagel",
     "name": "Breakfast Bagel",
     "ingredients": [
-        "bread",
-        "egg",
-        "cheese",
-        "pork_cutlets"
+        "minecraft:bread",
+        "minecraft:egg",
+        "cnk:cheese",
+        "cnk:pork_cutlets"
     ],
     "nutrition": 11,
     "saturation": 7.7,

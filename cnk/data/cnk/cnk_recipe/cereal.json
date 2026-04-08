@@ -2,9 +2,9 @@
     "id": "cereal",
     "name": "Cereal",
     "ingredients": [
-        "wheat",
-        "milk_bottle",
-        "sugar"
+        "minecraft:wheat",
+        "cnk:milk_bottle",
+        "minecraft:sugar"
     ],
     "nutrition": 6,
     "saturation": 3.6,

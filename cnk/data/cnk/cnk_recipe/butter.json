@@ -2,7 +2,7 @@
     "id": "butter",
     "name": "Butter",
     "ingredients": [
-        "milk_bottle"
+        "cnk:milk_bottle"
     ],
     "nutrition": 2,
     "saturation": 1.2,

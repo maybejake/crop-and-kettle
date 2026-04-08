@@ -2,10 +2,10 @@
     "id": "italian_dinner",
     "name": "Italian Dinner",
     "ingredients": [
-        "spaghetti",
-        "bread",
-        "any_meat",
-        "cheese"
+        "cnk:spaghetti",
+        "minecraft:bread",
+        "cnk:any_meat",
+        "cnk:cheese"
     ],
     "nutrition": 13,
     "saturation": 20,

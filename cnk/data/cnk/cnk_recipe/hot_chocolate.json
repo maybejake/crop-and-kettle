@@ -2,9 +2,9 @@
     "id": "hot_chocolate",
     "name": "Hot Chocolate",
     "ingredients": [
-        "chocolate_bar",
-        "milk_bottle",
-        "cinnamon"
+        "cnk:chocolate_bar",
+        "cnk:milk_bottle",
+        "cnk:cinnamon"
     ],
     "nutrition": 11,
     "saturation": 9.9,

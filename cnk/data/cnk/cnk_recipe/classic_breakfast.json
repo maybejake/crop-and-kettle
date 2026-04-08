@@ -2,9 +2,9 @@
     "id": "classic_breakfast",
     "name": "Classic Breakfast",
     "ingredients": [
-        "potato",
-        "egg",
-        "pork_cutlets"
+        "minecraft:potato",
+        "minecraft:egg",
+        "cnk:pork_cutlets"
     ],
     "nutrition": 8,
     "saturation": 9.6,

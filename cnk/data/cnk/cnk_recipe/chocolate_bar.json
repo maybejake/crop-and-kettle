@@ -2,9 +2,9 @@
     "id": "chocolate_bar",
     "name": "Chocolate Bar",
     "ingredients": [
-        "cocoa_beans",
-        "milk_bottle",
-        "sugar"
+        "minecraft:cocoa_beans",
+        "cnk:milk_bottle",
+        "minecraft:sugar"
     ],
     "nutrition": 9,
     "saturation": 1.8,

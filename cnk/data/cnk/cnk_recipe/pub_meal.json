@@ -2,9 +2,9 @@
     "id": "pub_meal",
     "name": "Pub Meal",
     "ingredients": [
-        "steak_and_ale_pie",
-        "potato",
-        "carrot"
+        "cnk:steak_and_ale_pie",
+        "minecraft:potato",
+        "minecraft:carrot"
     ],
     "nutrition": 14,
     "saturation": 20,

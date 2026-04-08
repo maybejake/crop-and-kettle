@@ -2,8 +2,8 @@
     "id": "tortilla",
     "name": "Tortilla",
     "ingredients": [
-        "corn",
-        "water"
+        "cnk:corn",
+        "minecraft:water"
     ],
     "nutrition": 3,
     "saturation": 1.8,

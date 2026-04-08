@@ -2,8 +2,8 @@
     "id": "tortilla_chips",
     "name": "Tortilla Chips",
     "ingredients": [
-        "tortilla",
-        "cooking_oil"
+        "cnk:tortilla",
+        "cnk:cooking_oil"
     ],
     "nutrition": 8,
     "saturation": 6.4,

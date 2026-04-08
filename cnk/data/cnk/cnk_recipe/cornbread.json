@@ -2,8 +2,8 @@
     "id": "cornbread",
     "name": "Cornbread",
     "ingredients": [
-        "corn",
-        "dough"
+        "cnk:corn",
+        "cnk:dough"
     ],
     "nutrition": 7,
     "saturation": 9.1,

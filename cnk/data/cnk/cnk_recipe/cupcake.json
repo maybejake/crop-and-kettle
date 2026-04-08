@@ -2,10 +2,10 @@
     "id": "cupcake",
     "name": "Cupcake",
     "ingredients": [
-        "egg",
-        "milk_bottle",
-        "sugar",
-        "wheat"
+        "minecraft:egg",
+        "cnk:milk_bottle",
+        "minecraft:sugar",
+        "minecraft:wheat"
     ],
     "nutrition": 7,
     "saturation": 4.2,

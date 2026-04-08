@@ -2,8 +2,8 @@
     "id": "buttered_apple",
     "name": "Buttered Apple",
     "ingredients": [
-        "butter",
-        "apple"
+        "cnk:butter",
+        "minecraft:apple"
     ],
     "nutrition": 7,
     "saturation": 2.1,

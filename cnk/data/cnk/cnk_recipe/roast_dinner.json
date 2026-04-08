@@ -2,10 +2,10 @@
     "id": "roast_dinner",
     "name": "Roast Dinner",
     "ingredients": [
-        "chicken_cutlets",
-        "potato",
-        "carrot",
-        "stock"
+        "cnk:chicken_cutlets",
+        "minecraft:potato",
+        "minecraft:carrot",
+        "cnk:stock"
     ],
     "nutrition": 11,
     "saturation": 14.3,

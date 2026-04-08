@@ -2,9 +2,9 @@
     "id": "caramel",
     "name": "Caramel",
     "ingredients": [
-        "sugar",
-        "butter",
-        "milk_bottle"
+        "minecraft:sugar",
+        "cnk:butter",
+        "cnk:milk_bottle"
     ],
     "nutrition": 6,
     "saturation": 2.1,

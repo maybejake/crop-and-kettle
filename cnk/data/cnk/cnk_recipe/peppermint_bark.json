@@ -2,8 +2,8 @@
     "id": "peppermint_bark",
     "name": "Peppermint Bark",
     "ingredients": [
-        "candy_cane",
-        "chocolate_bar"
+        "cnk:candy_cane",
+        "cnk:chocolate_bar"
     ],
     "nutrition": 11,
     "saturation": 8.8,

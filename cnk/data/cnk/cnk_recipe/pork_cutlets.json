@@ -2,7 +2,7 @@
     "id": "pork_cutlets",
     "name": "Pork Cutlets",
     "ingredients": [
-        "porkchop"
+        "minecraft:porkchop"
     ],
     "nutrition": 3,
     "saturation": 1.8,

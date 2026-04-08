@@ -2,9 +2,9 @@
     "id": "ice_cream",
     "name": "Ice Cream",
     "ingredients": [
-        "ice",
-        "milk_bottle",
-        "sugar"
+        "minecraft:ice",
+        "cnk:milk_bottle",
+        "minecraft:sugar"
     ],
     "nutrition": 6,
     "saturation": 1.2,

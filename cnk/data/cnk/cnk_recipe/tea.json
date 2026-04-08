@@ -2,8 +2,8 @@
     "id": "tea",
     "name": "Tea",
     "ingredients": [
-        "leaf_litter",
-        "water"
+        "minecraft:leaf_litter",
+        "minecraft:water"
     ],
     "nutrition": 2,
     "saturation": 1,

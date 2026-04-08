@@ -2,8 +2,8 @@
     "id": "stock",
     "name": "Stock",
     "ingredients": [
-        "any_meat",
-        "water"
+        "cnk:any_meat",
+        "minecraft:water"
     ],
     "nutrition": 6,
     "saturation": 1.2,

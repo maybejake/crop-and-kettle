@@ -2,8 +2,8 @@
     "id": "stone_soup",
     "name": "Stone Soup",
     "ingredients": [
-        "vegetable_soup",
-        "stone"
+        "cnk:vegetable_soup",
+        "minecraft:stone"
     ],
     "nutrition": 8,
     "saturation": 2.4,

@@ -2,9 +2,9 @@
     "id": "chili",
     "name": "Chili",
     "ingredients": [
-        "tomato",
-        "chili_pepper",
-        "beef_cutlets"
+        "cnk:tomato",
+        "cnk:chili_pepper",
+        "cnk:beef_cutlets"
     ],
     "nutrition": 7,
     "saturation": 8.4,

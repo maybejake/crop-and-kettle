@@ -2,10 +2,10 @@
     "id": "thankful_meal",
     "name": "Thankful Meal",
     "ingredients": [
-        "cornbread",
-        "mac_and_cheese",
-        "potato",
-        "any_meat"
+        "cnk:cornbread",
+        "cnk:mac_and_cheese",
+        "minecraft:potato",
+        "cnk:any_meat"
     ],
     "nutrition": 14,
     "saturation": 20,

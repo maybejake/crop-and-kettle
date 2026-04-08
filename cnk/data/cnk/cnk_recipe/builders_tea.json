@@ -2,9 +2,9 @@
     "id": "builders_tea",
     "name": "Builders Tea",
     "ingredients": [
-        "tea",
-        "milk_bottle",
-        "sugar"
+        "cnk:tea",
+        "cnk:milk_bottle",
+        "minecraft:sugar"
     ],
     "nutrition": 2,
     "saturation": 1,

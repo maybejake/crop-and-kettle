@@ -2,9 +2,9 @@
     "id": "grilled_cheese",
     "name": "Grilled Cheese",
     "ingredients": [
-        "bread",
-        "cheese",
-        "butter"
+        "minecraft:bread",
+        "cnk:cheese",
+        "cnk:butter"
     ],
     "nutrition": 9,
     "saturation": 12.6,

@@ -2,9 +2,9 @@
     "id": "jam_donut",
     "name": "Jam Donut",
     "ingredients": [
-        "dough",
-        "sugar",
-        "sweet_berries"
+        "cnk:dough",
+        "minecraft:sugar",
+        "minecraft:sweet_berries"
     ],
     "nutrition": 8,
     "saturation": 5.6,

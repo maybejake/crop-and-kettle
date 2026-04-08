@@ -2,10 +2,10 @@
     "id": "gyro",
     "name": "Gyro",
     "ingredients": [
-        "dough",
-        "mutton_cutlets",
-        "tomato",
-        "lettuce"
+        "cnk:dough",
+        "cnk:mutton_cutlets",
+        "cnk:tomato",
+        "cnk:lettuce"
     ],
     "nutrition": 8,
     "saturation": 10.4,

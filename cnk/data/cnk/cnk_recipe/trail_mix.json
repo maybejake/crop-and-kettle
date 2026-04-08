@@ -2,10 +2,10 @@
     "id": "trail_mix",
     "name": "Trail Mix",
     "ingredients": [
-        "raisins",
-        "popcorn",
-        "any_seed",
-        "chocolate_bar"
+        "cnk:raisins",
+        "cnk:popcorn",
+        "cnk:any_seed",
+        "cnk:chocolate_bar"
     ],
     "nutrition": 17,
     "saturation": 20,

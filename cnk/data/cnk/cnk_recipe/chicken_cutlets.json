@@ -2,7 +2,7 @@
     "id": "chicken_cutlets",
     "name": "Chicken Cutlets",
     "ingredients": [
-        "chicken"
+        "minecraft:chicken"
     ],
     "nutrition": 3,
     "saturation": 1.8,

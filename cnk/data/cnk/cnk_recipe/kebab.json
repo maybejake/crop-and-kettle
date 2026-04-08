@@ -2,9 +2,9 @@
     "id": "kebab",
     "name": "Kebab",
     "ingredients": [
-        "stick",
-        "any_meat",
-        "any_vegetable"
+        "minecraft:stick",
+        "cnk:any_meat",
+        "cnk:any_vegetable"
     ],
     "nutrition": 7,
     "saturation": 8.4,

@@ -2,11 +2,11 @@
     "id": "pumpkin_latte",
     "name": "Pumpkin Latte",
     "ingredients": [
-        "coffee",
-        "pumpkin",
-        "cinnamon",
-        "sugar",
-        "milk_bottle"
+        "cnk:coffee",
+        "minecraft:pumpkin",
+        "cnk:cinnamon",
+        "minecraft:sugar",
+        "cnk:milk_bottle"
     ],
     "nutrition": 7,
     "saturation": 6.3,

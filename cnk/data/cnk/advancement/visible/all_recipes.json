@@ -183,6 +183,32 @@
           }
         ]
       }
+    },
+    "cnk:sundae": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"sundae"}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:frozen_delight": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"frozen_delight"}}}
+            }
+          }
+        ]
+      }
     }
   }
 }

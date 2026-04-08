@@ -2,7 +2,7 @@
     "id": "cheese",
     "name": "Cheese",
     "ingredients": [
-        "milk_bottle"
+        "cnk:milk_bottle"
     ],
     "nutrition": 2,
     "saturation": 1.2,
