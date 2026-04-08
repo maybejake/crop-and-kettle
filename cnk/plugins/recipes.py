@@ -227,12 +227,16 @@ def generate_cooking_pot_recipe(ctx: Context, recipe: Recipe):
     # Finish cooking
     recipe_function.append("function cnk:cooking_pot/effects/finish_cooking")
 
+    # Append to function
     ctx.data[f"cnk:recipes/cooking_pot/{recipe.id}"] = Function(recipe_function)
 
 
 def generate_mixing_bowl_check(ctx: Context, recipe: Recipe):
     """Generate the crafting check for a mixing bowl recipe"""
+    # Start check
     recipe_check = f"execute if score $mixing_bowl_item_count cnk.dummy matches {len(recipe.ingredients)} "
+
+    # Append checks for each ingredient
     for ingredient in recipe.ingredients:
         if ingredient in GENERIC_INGREDIENTS:
             generic = get_generic(ingredient)
@@ -253,21 +257,28 @@ def generate_mixing_bowl_check(ctx: Context, recipe: Recipe):
 
 def generate_mixing_bowl_recipe(ctx: Context, recipe: Recipe):
     """Generate the recipe function for a mixing bowl recipe"""
+    # Add spawn of result 
     recipe_function = [f"loot spawn ~ ~-0.3 ~ loot cnk:food/{recipe.id}"]
 
+    # Add byproduct handling
     for ingredient in recipe.ingredients:
         generic = get_generic(ingredient)
         if generic in ["milk", "water"]:
             recipe_function.append(f"function cnk:recipes/mixing_bowl/remove_generic/{generic}")
 
+    # Clean up mixing
     recipe_function.append("function cnk:mixing_bowl/mix/clean_up")
+
+    # Append to function
     ctx.data[f"cnk:recipes/mixing_bowl/{recipe.id}"] = Function(recipe_function)
 
 
 def generate_cutting_board_check(ctx: Context, recipe: Recipe):
     """Generate the crafting check for a cutting board recipe"""
+    # Get ingredient
     ingredient_check = get_ingredient_check(recipe.ingredients[0])
 
+    # Append check to function
     crafting_function = ctx.data.functions["cnk:cutting_board/cut/recipes"].lines
     crafting_function.append(f"execute if data storage cnk:temp cutting_board.item{ingredient_check} run return run function cnk:recipes/cutting_board/{recipe.id}")
     ctx.data["cnk:cutting_board/cut/recipes"] = Function(crafting_function)
