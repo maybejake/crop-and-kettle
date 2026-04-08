@@ -7,13 +7,35 @@ from beet import (
     ItemModel,
     Model,
     Language,
-    Advancement
+    Advancement,
+    Function
 )
 from pydantic import BaseModel, Field
 from typing import ClassVar, Literal
 import logging
 
 LOGGER = logging.getLogger(__name__)
+
+# Ingredients that require generic functions in recipes
+GENERIC_INGREDIENTS = [
+    "cnk:any_meat",
+    "cnk:any_fish",
+    "cnk:any_fruit",
+    "cnk:any_mushroom"
+    "cnk:any_seed",
+    "cnk:any_vegetable",
+    "cnk:beef_cutlets",
+    "cnk:chicken_cutlets",
+    "cnk:cod_fillets",
+    "cnk:milk_bottle"
+    "cnk:mutton_cutlets",
+    "cnk:pork_cutlets",
+    "cnk:rabbit_cutlets",
+    "cnk:salmon_fillets",
+    "minecraft:egg",
+    "minecraft:water",
+    "minecraft:ice"
+]
 
 
 class Recipe(BaseModel):
@@ -69,6 +91,14 @@ def generate_recipes(ctx: Context):
         add_translation(ctx, recipe)
         add_all_recipes_check(ctx, recipe)
 
+        if recipe.tool == "cooking_pot":
+            generate_cooking_pot_check(ctx, recipe)
+            generate_cooking_pot_recipe(ctx, recipe)
+        elif recipe.tool == "mixing_bowl":
+            generate_mixing_bowl_recipe(ctx, recipe)
+        elif recipe.tool == "cutting_board":
+            generate_cutting_board_recipe(ctx, recipe)
+
 
 def generate_loot_table(ctx: Context, recipe: Recipe):
     """Generate a loot table for a recipe"""
@@ -76,7 +106,7 @@ def generate_loot_table(ctx: Context, recipe: Recipe):
     if recipe.category == "feast":
         ingredient_data["feast"] = True
 
-    ctx.data.loot_tables[f"cnk:food/{recipe.id}"] = LootTable({
+    ctx.data[f"cnk:food/{recipe.id}"] = LootTable({
         "pools": [
             {
                 "rolls": 1,
@@ -106,14 +136,14 @@ def generate_loot_table(ctx: Context, recipe: Recipe):
 
 def generate_texture_files(ctx: Context, recipe: Recipe):
     """Generate texture files for a recipe including item model and item definition"""
-    ctx.assets.item_models[f"cnk:{recipe.id}"] = ItemModel({
+    ctx.assets[f"cnk:{recipe.id}"] = ItemModel({
         "model": {
             "type": "minecraft:model",
             "model": f"cnk:item/{recipe.id}"
         }
     })
 
-    ctx.assets.models[f"cnk:item/{recipe.id}"] = Model({
+    ctx.assets[f"cnk:item/{recipe.id}"] = Model({
         "parent": "minecraft:item/generated",
         "textures": {
             "layer0": f"cnk:item/{recipe.id}"
@@ -125,7 +155,7 @@ def add_translation(ctx: Context, recipe: Recipe):
     """Adds the translation key for a given recipe"""
     lang = ctx.assets.languages["cnk:en_us"].data
     lang[f"item.cnk.{recipe.id}"] = recipe.name
-    ctx.assets.languages["cnk:en_us"] = Language(lang)
+    ctx.assets["cnk:en_us"] = Language(lang)
 
 
 def add_all_recipes_check(ctx: Context, recipe: Recipe):
@@ -144,4 +174,82 @@ def add_all_recipes_check(ctx: Context, recipe: Recipe):
             ]
         }
     }
-    ctx.data.advancements["cnk:visible/all_recipes"] = Advancement(advancement)
+    ctx.data["cnk:visible/all_recipes"] = Advancement(advancement)
+
+
+def generate_cooking_pot_check(ctx: Context, recipe: Recipe):
+    """Generate the crafting check for a cooking pot recipe"""
+
+    recipe_check = "execute "
+    for ingredient in recipe.ingredients:
+        
+        if ingredient in GENERIC_INGREDIENTS:
+            generic = get_generic(ingredient)
+            recipe_check += f"if function cnk:cooking_pot/crafting/generic/{generic} if ${generic}_count cnk.dummy matches 1 "
+        else:
+            # Not generic, add normal check
+            ingredient_check = get_ingredient_check(ingredient)
+            recipe_check += f"if data storage cnk:temp cooking_pot.Items[{ingredient_check}] "
+
+    # Finish check
+    recipe_check += f"if function cnk:cooking_pot/crafting/lock run return run function cnk:recipes/cooking_pot/{recipe.id}"
+    
+    # Append to function
+    crafting_function = ctx.data.functions[f"cnk:cooking_pot/crafting/{len(recipe.ingredients)}"].lines
+    crafting_function.append(recipe_check)
+    ctx.data[f"cnk:cooking_pot/crafting/{len(recipe.ingredients)}"] = Function(crafting_function)
+
+
+def generate_cooking_pot_recipe(ctx: Context, recipe: Recipe):
+    """Generate the recipe function for a cooking pot recipe"""
+    recipe_function = []
+    for ingredient in recipe.ingredients:
+        if ingredient in GENERIC_INGREDIENTS:
+            generic = get_generic(ingredient)
+            recipe_function.append(f"function cnk:recipes/remove_generic/{generic}")
+        else:
+            # Not generic, add normal remove
+            ingredient_check = get_ingredient_check(ingredient)
+            recipe_function.append(f"data modify storage cnk:temp cooking_pot.slot set from storage cnk:temp cooking_pot.Items[{ingredient_check}].Slot")
+            recipe_function.append("function cnk:recipes/remove with storage cnk:temp cooking_pot")
+
+    # Add spawn of result
+    recipe_function.append(f"loot spawn ~ ~0.25 ~ loot cnk:food/{recipe.id}")
+
+    # Finish cooking
+    recipe_function.append("function cnk:cooking_pot/effects/finish_cooking")
+
+    ctx.data[f"cnk:recipes/cooking_pot/{recipe.id}"] = Function(recipe_function)
+
+
+def generate_mixing_bowl_recipe(ctx: Context, recipe: Recipe):
+    """Generate the crafting and result code for a mixing bowl recipe"""
+    pass
+
+def generate_cutting_board_recipe(ctx: Context, recipe: Recipe):
+    """Generate the crafting and result code for a cutting board recipe"""
+    pass
+
+def get_ingredient_check(ingredient: str) -> str:
+    """Get an ingredient storage check from an ingredient"""
+    namespace = str(ingredient.split(":")[0])
+    item = str(ingredient.split(":")[1])
+
+    if namespace == "minecraft":
+        ingredient_check = f"{{id:'{ingredient}'}}"
+    elif namespace == "cnk":
+        ingredient_check = f"{{components:{{'minecraft:custom_data':{{cnk:{{ingredient:{{type:'{item}'}}}}}}}}}}"
+    else:
+        return LOGGER.error(f"Unknown namespace in ingredient {ingredient}.")
+    
+    return ingredient_check
+
+def get_generic(ingredient: str) -> str:
+    """Get a generic from an ingredient"""
+    item = str(ingredient.split(":")[1])
+    item = item.removeprefix("any_")
+    item = item.removesuffix("_cutlets")
+    item = item.removesuffix("_fillets")
+    item = item.removesuffix("_bottle")
+
+    return item

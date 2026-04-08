@@ -4,7 +4,7 @@
     "ingredients": [
         "cnk:rice",
         "cnk:any_meat",
-        "mincraft:egg",
+        "minecraft:egg",
         "minecraft:carrot"
     ],
     "nutrition": 9,
