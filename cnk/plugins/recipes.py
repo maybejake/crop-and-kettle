@@ -95,6 +95,7 @@ def generate_recipes(ctx: Context):
             generate_cooking_pot_check(ctx, recipe)
             generate_cooking_pot_recipe(ctx, recipe)
         elif recipe.tool == "mixing_bowl":
+            generate_mixing_bowl_check(ctx, recipe)
             generate_mixing_bowl_recipe(ctx, recipe)
         elif recipe.tool == "cutting_board":
             generate_cutting_board_recipe(ctx, recipe)
@@ -179,7 +180,6 @@ def add_all_recipes_check(ctx: Context, recipe: Recipe):
 
 def generate_cooking_pot_check(ctx: Context, recipe: Recipe):
     """Generate the crafting check for a cooking pot recipe"""
-
     recipe_check = "execute "
     for ingredient in recipe.ingredients:
         
@@ -222,9 +222,39 @@ def generate_cooking_pot_recipe(ctx: Context, recipe: Recipe):
     ctx.data[f"cnk:recipes/cooking_pot/{recipe.id}"] = Function(recipe_function)
 
 
+def generate_mixing_bowl_check(ctx: Context, recipe: Recipe):
+    """Generate the crafting check for a mixing bowl recipe"""
+    recipe_check = f"execute if score $mixing_bowl_item_count cnk.dummy matches {len(recipe.ingredients)} "
+    for ingredient in recipe.ingredients:
+        
+        if ingredient in GENERIC_INGREDIENTS:
+            generic = get_generic(ingredient)
+            recipe_check += f"if function cnk:mixing_bowl/mix/generic/{generic} if ${generic}_count cnk.dummy matches 1 "
+        else:
+            # Not generic, add normal check
+            ingredient_check = get_ingredient_check(ingredient)
+            recipe_check += f"if data storage cnk:temp mixing_bowl.Items[{ingredient_check}] "
+
+    # Finish check
+    recipe_check += f"if function cnk:mixing_bowl/mix/lock run return run data modify entity @s item.components.'minecraft:custom_data'.cnk.mix_callback set value 'cnk:recipes/mixing_bowl/{recipe.id}'"
+    
+    # Append to function
+    crafting_function = ctx.data.functions["cnk:mixing_bowl/mix/recipes"].lines
+    crafting_function.append(recipe_check)
+    ctx.data["cnk:mixing_bowl/mix/recipes"] = Function(crafting_function)
+
+
 def generate_mixing_bowl_recipe(ctx: Context, recipe: Recipe):
-    """Generate the crafting and result code for a mixing bowl recipe"""
-    pass
+    """Generate the recipe function for a mixing bowl recipe"""
+    recipe_function = [f"loot spawn ~ ~-0.3 ~ loot cnk:food/{recipe.id}"]
+
+    for ingredient in recipe.ingredients:
+        generic = get_generic(ingredient)
+        if generic in ["milk", "water"]:
+            recipe_function.append(f"function cnk:recipes/mixing_bowl/remove_generic/{generic}")
+
+    recipe_function.append("function cnk:mixing_bowl/mix/clean_up")
+    ctx.data[f"cnk:recipes/mixing_bowl/{recipe.id}"] = Function(recipe_function)
 
 def generate_cutting_board_recipe(ctx: Context, recipe: Recipe):
     """Generate the crafting and result code for a cutting board recipe"""
