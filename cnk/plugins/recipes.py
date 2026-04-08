@@ -21,13 +21,13 @@ GENERIC_INGREDIENTS = [
     "cnk:any_meat",
     "cnk:any_fish",
     "cnk:any_fruit",
-    "cnk:any_mushroom"
+    "cnk:any_mushroom",
     "cnk:any_seed",
     "cnk:any_vegetable",
     "cnk:beef_cutlets",
     "cnk:chicken_cutlets",
     "cnk:cod_fillets",
-    "cnk:milk_bottle"
+    "cnk:milk_bottle",
     "cnk:mutton_cutlets",
     "cnk:pork_cutlets",
     "cnk:rabbit_cutlets",
@@ -191,7 +191,6 @@ def generate_cooking_pot_check(ctx: Context, recipe: Recipe):
     """Generate the crafting check for a cooking pot recipe"""
     recipe_check = "execute "
     for ingredient in recipe.ingredients:
-        
         if ingredient in GENERIC_INGREDIENTS:
             generic = get_generic(ingredient)
             recipe_check += f"if function cnk:cooking_pot/crafting/generic/{generic} if score ${generic}_count cnk.dummy matches 1 "
@@ -235,7 +234,6 @@ def generate_mixing_bowl_check(ctx: Context, recipe: Recipe):
     """Generate the crafting check for a mixing bowl recipe"""
     recipe_check = f"execute if score $mixing_bowl_item_count cnk.dummy matches {len(recipe.ingredients)} "
     for ingredient in recipe.ingredients:
-        
         if ingredient in GENERIC_INGREDIENTS:
             generic = get_generic(ingredient)
             recipe_check += f"if function cnk:mixing_bowl/mix/generic/{generic} if score ${generic}_count cnk.dummy matches 1 "
