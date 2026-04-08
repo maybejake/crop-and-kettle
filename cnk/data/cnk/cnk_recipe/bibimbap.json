@@ -2,10 +2,10 @@
     "id": "bibimbap",
     "name": "Bibimbap",
     "ingredients": [
-        "rice",
-        "any_meat",
-        "egg",
-        "carrot"
+        "cnk:rice",
+        "cnk:any_meat",
+        "mincraft:egg",
+        "minecraft:carrot"
     ],
     "nutrition": 9,
     "saturation": 10.8,

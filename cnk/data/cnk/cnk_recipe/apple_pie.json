@@ -2,9 +2,9 @@
     "id": "apple_pie",
     "name": "Apple Pie",
     "ingredients": [
-        "apple",
-        "dough",
-        "sugar"
+        "minecraft:apple",
+        "cnk:dough",
+        "minecraft:sugar"
     ],
     "nutrition": 9,
     "saturation": 6.3,

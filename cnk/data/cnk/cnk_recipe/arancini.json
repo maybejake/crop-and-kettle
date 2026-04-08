@@ -2,10 +2,10 @@
     "id": "arancini",
     "name": "Arancini",
     "ingredients": [
-        "mushroom_risotto",
-        "cooking_oil",
-        "dough",
-        "cheese"
+        "cnk:mushroom_risotto",
+        "cnk:cooking_oil",
+        "cnk:dough",
+        "cnk:cheese"
     ],
     "nutrition": 14,
     "saturation": 20,

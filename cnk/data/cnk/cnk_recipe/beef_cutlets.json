@@ -2,7 +2,7 @@
     "id": "beef_cutlets",
     "name": "Beef Cutlets",
     "ingredients": [
-        "beef"
+        "minecraft:beef"
     ],
     "nutrition": 3,
     "saturation": 1.8,
