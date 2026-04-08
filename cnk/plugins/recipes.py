@@ -6,7 +6,8 @@ from beet import (
     LootTable,
     ItemModel,
     Model,
-    Language
+    Language,
+    Advancement
 )
 from pydantic import BaseModel, Field
 from typing import ClassVar, Literal
@@ -67,6 +68,7 @@ def generate_recipes(ctx: Context):
         generate_loot_table(ctx, recipe)
         generate_texture_files(ctx, recipe)
         add_translation(ctx, recipe)
+        add_all_recipes_check(ctx, recipe)
 
 
 def generate_loot_table(ctx: Context, recipe: Recipe):
@@ -102,6 +104,7 @@ def generate_loot_table(ctx: Context, recipe: Recipe):
         ]
     })
 
+
 def generate_texture_files(ctx: Context, recipe: Recipe):
     """Generate texture files for a recipe including item model and item definition"""
     ctx.assets.item_models[f"cnk:{recipe.id}"] = ItemModel({
@@ -118,8 +121,28 @@ def generate_texture_files(ctx: Context, recipe: Recipe):
         }
     })
 
+
 def add_translation(ctx: Context, recipe: Recipe):
     """Adds the translation key for a given recipe"""
     lang = ctx.assets.languages["cnk:en_us"].data
     lang[f"item.cnk.{recipe.id}"] = recipe.name
     ctx.assets.languages["cnk:en_us"] = Language(lang)
+
+
+def add_all_recipes_check(ctx: Context, recipe: Recipe):
+    """Adds a check for the recipe to the all recipes advancement"""
+    advancement = ctx.data.advancements["cnk:visible/all_recipes"].data
+    advancement["criteria"][f"cnk:{recipe.id}"] = {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+            {
+                "items": "minecraft:poisonous_potato",
+                "predicates": {
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":recipe.id}}}
+                }
+            }
+            ]
+        }
+    }
+    ctx.data.advancements["cnk:visible/all_recipes"] = Advancement(advancement)
