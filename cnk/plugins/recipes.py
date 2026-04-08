@@ -98,6 +98,11 @@ def generate_recipes(ctx: Context):
             generate_mixing_bowl_check(ctx, recipe)
             generate_mixing_bowl_recipe(ctx, recipe)
         elif recipe.tool == "cutting_board":
+            if len(recipe.ingredients) > 1:
+                LOGGER.error(f"Cutting board recipe {recipe.id} has more than 1 ingredient, skipping.")
+                continue
+
+            generate_cutting_board_check(ctx, recipe)
             generate_cutting_board_recipe(ctx, recipe)
 
 
@@ -256,9 +261,21 @@ def generate_mixing_bowl_recipe(ctx: Context, recipe: Recipe):
     recipe_function.append("function cnk:mixing_bowl/mix/clean_up")
     ctx.data[f"cnk:recipes/mixing_bowl/{recipe.id}"] = Function(recipe_function)
 
+def generate_cutting_board_check(ctx: Context, recipe: Recipe):
+    """Generate the crafting check for a cutting board recipe"""
+    ingredient_check = get_ingredient_check(recipe.ingredients[0])
+
+    crafting_function = ctx.data.functions["cnk:cutting_board/cut/recipes"].lines
+    crafting_function.append(f"execute if data storage cnk:temp cutting_board.item{ingredient_check} run return run function cnk:recipes/cutting_board/{recipe.id}")
+    ctx.data["cnk:cutting_board/cut/recipes"] = Function(crafting_function)
+
+
 def generate_cutting_board_recipe(ctx: Context, recipe: Recipe):
-    """Generate the crafting and result code for a cutting board recipe"""
-    pass
+    """Generate the recipe function for a cutting board recipe"""
+    ctx.data[f"cnk:recipes/cutting_board/{recipe.id}"] = Function([
+        f"loot spawn ~ ~-0.3 ~ loot cnk:food/{recipe.id}",
+        "function cnk:cutting_board/cut/finish"
+    ])
 
 def get_ingredient_check(ingredient: str) -> str:
     """Get an ingredient storage check from an ingredient"""
