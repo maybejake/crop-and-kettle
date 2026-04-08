@@ -11,5 +11,6 @@
     "nutrition": 11,
     "saturation": 6.6,
     "category": "dessert",
-    "tool": "cooking_pot"
+    "tool": "cooking_pot",
+    "plateable": true
 }

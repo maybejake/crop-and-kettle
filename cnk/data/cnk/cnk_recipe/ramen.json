@@ -11,5 +11,6 @@
     "nutrition": 14,
     "saturation": 16.8,
     "category": "feast",
-    "tool": "cooking_pot"
+    "tool": "cooking_pot",
+    "plateable": true
 }

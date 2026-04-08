@@ -57,6 +57,7 @@ class Recipe(BaseModel):
         "mixing_bowl",
         "cutting_board"
     ]
+    plateable: bool = None
 
 
 class RecipeDefinition(JsonFileBase[Recipe]):
@@ -108,9 +109,12 @@ def generate_recipes(ctx: Context):
 
 def generate_loot_table(ctx: Context, recipe: Recipe):
     """Generate a loot table for a recipe"""
-    ingredient_data = {"type":recipe.id}
+    cnk_data = {"ingredient":{"type":recipe.id}}
     if recipe.category == "feast":
-        ingredient_data["feast"] = True
+        cnk_data["ingredient"]["feast"] = True
+    if recipe.plateable is True:
+        cnk_data["plateable"] = {"model":f"cnk:placeable/{recipe.id}"}
+    
 
     ctx.data[f"cnk:food/{recipe.id}"] = LootTable({
         "pools": [
@@ -128,7 +132,7 @@ def generate_loot_table(ctx: Context, recipe: Recipe):
                                     "minecraft:item_model": f"cnk:{recipe.id}",
                                     "minecraft:food": {"nutrition":recipe.nutrition, "saturation":recipe.saturation},
                                     "minecraft:consumable": {},
-                                    "minecraft:custom_data": {"cnk":{"ingredient":ingredient_data}, "smithed":{"ignore":{"functionality":True, "crafting":True}}},
+                                    "minecraft:custom_data": {"cnk":cnk_data, "smithed":{"ignore":{"functionality":True, "crafting":True}}},
                                     "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":False}]
                                 }
                             }
@@ -190,7 +194,7 @@ def generate_cooking_pot_check(ctx: Context, recipe: Recipe):
         
         if ingredient in GENERIC_INGREDIENTS:
             generic = get_generic(ingredient)
-            recipe_check += f"if function cnk:cooking_pot/crafting/generic/{generic} if ${generic}_count cnk.dummy matches 1 "
+            recipe_check += f"if function cnk:cooking_pot/crafting/generic/{generic} if score ${generic}_count cnk.dummy matches 1 "
         else:
             # Not generic, add normal check
             ingredient_check = get_ingredient_check(ingredient)
@@ -234,7 +238,7 @@ def generate_mixing_bowl_check(ctx: Context, recipe: Recipe):
         
         if ingredient in GENERIC_INGREDIENTS:
             generic = get_generic(ingredient)
-            recipe_check += f"if function cnk:mixing_bowl/mix/generic/{generic} if ${generic}_count cnk.dummy matches 1 "
+            recipe_check += f"if function cnk:mixing_bowl/mix/generic/{generic} if score ${generic}_count cnk.dummy matches 1 "
         else:
             # Not generic, add normal check
             ingredient_check = get_ingredient_check(ingredient)
@@ -261,6 +265,7 @@ def generate_mixing_bowl_recipe(ctx: Context, recipe: Recipe):
     recipe_function.append("function cnk:mixing_bowl/mix/clean_up")
     ctx.data[f"cnk:recipes/mixing_bowl/{recipe.id}"] = Function(recipe_function)
 
+
 def generate_cutting_board_check(ctx: Context, recipe: Recipe):
     """Generate the crafting check for a cutting board recipe"""
     ingredient_check = get_ingredient_check(recipe.ingredients[0])
@@ -277,6 +282,7 @@ def generate_cutting_board_recipe(ctx: Context, recipe: Recipe):
         "function cnk:cutting_board/cut/finish"
     ])
 
+
 def get_ingredient_check(ingredient: str) -> str:
     """Get an ingredient storage check from an ingredient"""
     namespace = str(ingredient.split(":")[0])
@@ -290,6 +296,7 @@ def get_ingredient_check(ingredient: str) -> str:
         return LOGGER.error(f"Unknown namespace in ingredient {ingredient}.")
     
     return ingredient_check
+
 
 def get_generic(ingredient: str) -> str:
     """Get a generic from an ingredient"""
