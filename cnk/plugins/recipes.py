@@ -8,11 +8,17 @@ from beet import (
     Model,
     Language,
     Advancement,
-    Function
+    Function,
+    FunctionTag,
+    Texture,
+    Font
 )
 from pydantic import BaseModel, Field
 from typing import ClassVar, Literal
+from PIL import Image
 import logging
+
+from .blocks import blocks
 
 LOGGER = logging.getLogger(__name__)
 
@@ -46,11 +52,11 @@ class Recipe(BaseModel):
     saturation: float
     category: Literal[
         "staple",
-        "snack",
+        "snacks",
         "light",
         "hearty",
-        "feast",
-        "dessert"
+        "feasts",
+        "desserts"
     ]
     tool: Literal[
         "cooking_pot",
@@ -84,12 +90,13 @@ def beet_default(ctx: Context):
 
 def generate_recipes(ctx: Context):
     """Generate recipes from json files"""
+    current_character = 53248 # \ud000
     for resource_location in ctx.data[RecipeDefinition]:
         recipe = ctx.data[RecipeDefinition][resource_location].data
 
         # Item and recipe stuff
-        generate_loot_table(ctx, recipe)
         generate_texture_files(ctx, recipe)
+        generate_loot_table(ctx, recipe)
         add_translation(ctx, recipe)
         add_all_recipes_check(ctx, recipe)
 
@@ -108,6 +115,8 @@ def generate_recipes(ctx: Context):
             generate_cutting_board_recipe(ctx, recipe)
 
         # Cookbook stuff
+        current_character += 1
+        generate_icon_files(ctx, recipe, current_character)
         generate_grant_code(ctx, recipe)
         generate_page_register(ctx, recipe)
 
@@ -115,8 +124,8 @@ def generate_recipes(ctx: Context):
 def generate_loot_table(ctx: Context, recipe: Recipe):
     """Generate a loot table for a recipe"""
     cnk_data = {"ingredient":{"type":recipe.id}}
-    if recipe.category == "feast":
-        cnk_data["ingredient"]["feast"] = True
+    if recipe.category == "feasts":
+        cnk_data["ingredient"]["feasts"] = True
     if recipe.plateable is True:
         cnk_data["plateable"] = {"model":f"cnk:placeable/{recipe.id}"}
     
@@ -297,8 +306,44 @@ def generate_cutting_board_recipe(ctx: Context, recipe: Recipe):
     ])
 
 
+def generate_icon_files(ctx: Context, recipe: Recipe, current_character: int):
+    """Generate icon files for a recipe including cookbook icon, font character and translation key"""
+    # Get item texture
+    asset = ctx.assets.textures.get(f"cnk:item/{recipe.id}")
+    if not asset:
+        LOGGER.error(f"No asset found for recipe {recipe.id}, this recipe will be skipped.")
+        return
+        
+    image = asset.image
+
+    # Apply background for alignment
+    background = Image.new("RGBA", image.size, (0, 0, 0, 1))
+    icon = Image.alpha_composite(background, image)
+
+    # Create icon
+    ctx.assets[f"cnk.book:icon/item/{recipe.id}"] = Texture(icon)
+
+    # Create character translation key
+    lang = ctx.assets.languages["cnk.book:en_us"].data
+    lang[f"book.item.cnk.{recipe.id}"] = chr(current_character)
+    ctx.assets["cnk.book:en_us"] = Language(lang)
+
+    # Add icon to font
+    font = ctx.assets.fonts["cnk.book:icons"].data
+    font["providers"].append(
+        {
+            "type": "bitmap",
+            "file": f"cnk.book:icon/item/{recipe.id}.png",
+            "ascent": 15,
+            "height": 16,
+            "chars": [chr(current_character)],
+        }
+    )
+    ctx.assets["cnk.book:icons"] = Font(font)
+
+
 def generate_grant_code(ctx: Context, recipe: Recipe):
-    """Generate code for granting recipe flag to the player"""
+    """Generate code for granting a recipe flag to the player"""
     # Generate item advancement
     item_advancement = f"cnk:cookbook/{recipe.id}/item"
     ctx.data[item_advancement] = Advancement({
@@ -355,7 +400,7 @@ def generate_grant_code(ctx: Context, recipe: Recipe):
 
 
 def generate_page_register(ctx: Context, recipe: Recipe):
-    """Generate a page register function for a recipe"""
+    """Generate a page register function for a recipe and add it to the correct function tag"""
     register_function = [
         "execute store result storage cnk:temp register.page_number int 1 run scoreboard players get $global_cookbook_page cnk.dummy",
         f"data modify storage cnk:temp register.tool set value 'cnk.{recipe.tool}'",
@@ -365,22 +410,33 @@ def generate_page_register(ctx: Context, recipe: Recipe):
 
     ingredients = []
     for ingredient in recipe.ingredients:
+        item_type = "item"
+        if ingredient in blocks:
+            item_type = "block"
+
         namespace = str(ingredient.split(":")[0])
         item = str(ingredient.split(":")[1])
-        ingredients.append({"key":f"item.{namespace}.{item}", "font":"cnk.book:icons"})
+        ingredients.append({"key":f"{item_type}.{namespace}.{item}", "font":"cnk.book:icons"})
 
+    # Add ingredient keys and fonts
     register_function.append(f"data modify storage cnk:temp register.ingredients set value {ingredients}")
 
     if recipe.plateable:
         # Append plateable stamp
         register_function.append("data modify storage cnk:temp register.stamp set value {icon:'book.cnk.stamp.plateable.icon', text:'book.cnk.stamp.plateable.text'}")
 
+    # Finish function
     register_function.extend([
         "data modify storage cnk:temp register.source set value {key:'cnk.source', font:'cnk.book:base'}",
         "function cnk:cookbook/pages/register"
     ])
 
     ctx.data[f"cnk:cookbook/pages/{recipe.id}/register"] = Function(register_function)
+
+    # Append to function tag
+    function_tag = ctx.data.function_tags[f"cnk:cookbook/{recipe.category}"].data
+    function_tag["values"].append(f"cnk:cookbook/pages/{recipe.id}/register")
+    ctx.data[f"cnk:cookbook/{recipe.category}"] = FunctionTag(function_tag)
 
 def get_ingredient_check(ingredient: str) -> str:
     """Get an ingredient storage check from an ingredient"""

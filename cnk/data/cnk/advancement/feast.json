@@ -7,7 +7,7 @@
         "item": {
           "items": "minecraft:poisonous_potato",
           "predicates": {
-            "minecraft:custom_data": {"cnk":{"ingredient":{"feast":true}}}
+            "minecraft:custom_data": {"cnk":{"ingredient":{"feasts":true}}}
           }
         }
       }

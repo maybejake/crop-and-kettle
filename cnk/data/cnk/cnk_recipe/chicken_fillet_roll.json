@@ -2,7 +2,7 @@
     "id": "chicken_fillet_roll",
     "name": "Chicken Fillet Roll",
     "ingredients": [
-        "minecraft::bread",
+        "minecraft:bread",
         "cnk:cheese",
         "cnk:lettuce",
         "cnk:chicken_cutlets"

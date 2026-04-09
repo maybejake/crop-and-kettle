@@ -4,11 +4,11 @@
     "ingredients": [
         "cnk:fried_chicken",
         "minecraft:bread",
-        "cnk:sea_pickle"
+        "minecraft:sea_pickle"
     ],
     "nutrition": 13,
     "saturation": 20,
-    "category": "feast",
+    "category": "feasts",
     "tool": "cooking_pot",
     "plateable": true
 }
