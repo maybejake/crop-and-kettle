@@ -8,15 +8,16 @@ execute if score @s cnk.cook_cooldown matches 1 run data modify entity @s item.c
 execute if score @s cnk.cook_cooldown matches 1.. run particle white_smoke ^0.72 ^0.6 ^ 0 0 0 0 1
 execute if score @s cnk.cook_cooldown matches 1.. run return run scoreboard players remove @s cnk.cook_cooldown 1
 
+# check if the container has items
+execute unless items block ~ ~ ~ container.* * run return run execute if score @s cnk.distill_goal matches 1.. run return run function cnk:distiller/stop
+
+# check if there's a basin
 function cnk:distiller/check_basin
 execute unless data storage cnk:temp distiller.basin if score @s cnk.distill_goal matches 1.. run return run function cnk:distiller/stop
 execute unless data storage cnk:temp distiller.basin run return fail
 
+# get items
 data modify storage cnk:temp distiller.Items set from block ~ ~ ~ Items
-
-execute store result score $filled_slots cnk.dummy run data get storage cnk:temp distiller.Items
-execute if score $filled_slots cnk.dummy matches 0 if score @s cnk.distill_goal matches 1.. run return run function cnk:distiller/stop
-execute if score $filled_slots cnk.dummy matches 0 run return fail
 
 # sanitise data
 execute if data storage cnk:temp distiller.Items[{components:{"minecraft:custom_data":{fathoms:{}}}}] run function cnk:distiller/fathoms

@@ -10,11 +10,11 @@ execute if score @s cnk.timer matches 50 run scoreboard players reset @s cnk.tim
 
 execute if score @s cnk.cook_cooldown matches 1.. run return run scoreboard players remove @s cnk.cook_cooldown 1
 
-data modify storage cnk:temp cooking_pot.Items set from block ~ ~ ~ Items
+# check if the container has items
+execute unless items block ~ ~ ~ container.* * run return run execute if score @s cnk.cook_time matches 1.. run function cnk:cooking_pot/stop
 
-execute store result score $filled_slots cnk.dummy run data get storage cnk:temp cooking_pot.Items
-execute if score $filled_slots cnk.dummy matches 0 if score @s cnk.cook_time matches 1.. run return run function cnk:cooking_pot/stop
-execute if score $filled_slots cnk.dummy matches 0 run return fail
+# get items
+data modify storage cnk:temp cooking_pot.Items set from block ~ ~ ~ Items
 
 # sanitise data
 execute if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{fathoms:{}}}}] run function cnk:cooking_pot/fathoms
