@@ -87,6 +87,7 @@ def generate_recipes(ctx: Context):
     for resource_location in ctx.data[RecipeDefinition]:
         recipe = ctx.data[RecipeDefinition][resource_location].data
 
+        # Item and recipe stuff
         generate_loot_table(ctx, recipe)
         generate_texture_files(ctx, recipe)
         add_translation(ctx, recipe)
@@ -105,6 +106,10 @@ def generate_recipes(ctx: Context):
 
             generate_cutting_board_check(ctx, recipe)
             generate_cutting_board_recipe(ctx, recipe)
+
+        # Cookbook stuff
+        generate_grant_code(ctx, recipe)
+        generate_page_register(ctx, recipe)
 
 
 def generate_loot_table(ctx: Context, recipe: Recipe):
@@ -291,6 +296,91 @@ def generate_cutting_board_recipe(ctx: Context, recipe: Recipe):
         "function cnk:cutting_board/cut/finish"
     ])
 
+
+def generate_grant_code(ctx: Context, recipe: Recipe):
+    """Generate code for granting recipe flag to the player"""
+    # Generate item advancement
+    item_advancement = f"cnk:cookbook/{recipe.id}/item"
+    ctx.data[item_advancement] = Advancement({
+        "parent": "cnk:cookbook/root",
+        "criteria": {
+            "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                {
+                    "items": "minecraft:poisonous_potato",
+                    "predicates": {
+                    "minecraft:custom_data": {"cnk":{"ingredient":{"type":recipe.id}}}
+                    }
+                }
+                ]
+            }
+            }
+        },
+        "rewards": {
+            "function": f"cnk:cookbook/grant/{recipe.id}"
+        }
+    })
+
+    # Generate toast advancement
+    toast_advancement = f"cnk:cookbook/{recipe.id}/toast"
+    ctx.data[toast_advancement] = Advancement({
+        "parent": "cnk:cookbook/toasts",
+        "display": {
+            "title": [
+                {"translate":"book.cnk.toast.background","font":"cnk.book:advancement"},
+                {"translate":"book.cnk.toast.unlock.recipe","font":"cnk.book:advancement_text","color":"#7b613a"}
+            ],
+            "icon": {
+            "id": "minecraft:poisonous_potato",
+            "components": {"minecraft:item_model": f"cnk:{recipe.id}"}
+            },
+            "description": "",
+            "announce_to_chat": False
+        },
+        "criteria": {
+            "requirement": {
+                "trigger": "minecraft:impossible"
+            }
+        }
+    })
+
+    # Generate grant function
+    ctx.data[f"cnk:cookbook/grant/{recipe.id}"] = Function([
+        f"function cnk:cookbook/data/set/main {{flag:'item.cnk.{recipe.id}'}}",
+        f"execute if score $set_success cnk.dummy matches 0 run return run advancement revoke @s only {item_advancement}",
+        f"advancement grant @s[tag=!cnk.cookbook_unlock,tag=!cnk.no_toasts] only {toast_advancement}"
+    ])
+
+
+def generate_page_register(ctx: Context, recipe: Recipe):
+    """Generate a page register function for a recipe"""
+    register_function = [
+        "execute store result storage cnk:temp register.page_number int 1 run scoreboard players get $global_cookbook_page cnk.dummy",
+        f"data modify storage cnk:temp register.tool set value 'cnk.{recipe.tool}'",
+        f"data modify storage cnk:temp register.page_name set value 'item.cnk.{recipe.id}'",
+        "data modify storage cnk:temp register.recipe_icon_font set value 'cnk.book:icons'"
+    ]
+
+    ingredients = []
+    for ingredient in recipe.ingredients:
+        namespace = str(ingredient.split(":")[0])
+        item = str(ingredient.split(":")[1])
+        ingredients.append({"key":f"item.{namespace}.{item}", "font":"cnk.book:icons"})
+
+    register_function.append(f"data modify storage cnk:temp register.ingredients set value {ingredients}")
+
+    if recipe.plateable:
+        # Append plateable stamp
+        register_function.append("data modify storage cnk:temp register.stamp set value {icon:'book.cnk.stamp.plateable.icon', text:'book.cnk.stamp.plateable.text'}")
+
+    register_function.extend([
+        "data modify storage cnk:temp register.source set value {key:'cnk.source', font:'cnk.book:base'}",
+        "function cnk:cookbook/pages/register"
+    ])
+
+    ctx.data[f"cnk:cookbook/pages/{recipe.id}/register"] = Function(register_function)
 
 def get_ingredient_check(ingredient: str) -> str:
     """Get an ingredient storage check from an ingredient"""
