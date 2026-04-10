@@ -21,6 +21,8 @@ def beet_default(ctx: Context):
     if ref_type == "tag":
         version = ref
 
+    print(version)
+
     # Set version
     lang = ctx.assets.languages["cnk:en_us"].data
     lang["cnk.version"] = version
