@@ -393,7 +393,7 @@ def generate_grant_code(ctx: Context, recipe: Recipe):
 
     # Generate grant function
     ctx.data[f"cnk:cookbook/grant/{recipe.id}"] = Function([
-        f"function cnk:cookbook/data/set/main {{flag:'item.cnk.{recipe.id}'}}",
+        f"function cnk:cookbook/database/set/main {{flag:'item.cnk.{recipe.id}'}}",
         f"execute if score $set_success cnk.dummy matches 0 run return run advancement revoke @s only {item_advancement}",
         f"advancement grant @s[tag=!cnk.cookbook_unlock,tag=!cnk.no_toasts] only {toast_advancement}"
     ])
