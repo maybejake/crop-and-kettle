@@ -239,11 +239,17 @@ def add_all_recipes_check(ctx: Context, recipe: Recipe):
 
 def generate_cooking_pot_check(ctx: Context, recipe: Recipe):
     """Generate the crafting check for a cooking pot recipe"""
+    # Remove duplicates
+    ingredients = list(dict.fromkeys(recipe.ingredients))
+
     recipe_check = "execute "
-    for ingredient in recipe.ingredients:
+    for ingredient in ingredients:
         if ingredient in GENERIC_INGREDIENTS:
+            # Generic, check how many were in original list
+            count = recipe.ingredients.count(ingredient)
+
             generic = get_generic(ingredient)
-            recipe_check += f"if function cnk:cooking_pot/crafting/generic/{generic} if score ${generic}_count cnk.dummy matches 1 "
+            recipe_check += f"if function cnk:cooking_pot/crafting/generic/{generic} if score ${generic}_count cnk.dummy matches {count} "
         else:
             # Not generic, add normal check
             ingredient_check = get_ingredient_check(ingredient)
@@ -260,8 +266,11 @@ def generate_cooking_pot_check(ctx: Context, recipe: Recipe):
 
 def generate_cooking_pot_recipe(ctx: Context, recipe: Recipe):
     """Generate the recipe function for a cooking pot recipe"""
+    # Remove duplicates
+    ingredients = list(dict.fromkeys(recipe.ingredients))
+
     recipe_function = []
-    for ingredient in recipe.ingredients:
+    for ingredient in ingredients:
         if ingredient in GENERIC_INGREDIENTS:
             generic = get_generic(ingredient)
             recipe_function.append(f"function cnk:recipes/remove_generic/{generic}")
@@ -292,11 +301,17 @@ def generate_mixing_bowl_check(ctx: Context, recipe: Recipe):
     # Start check
     recipe_check = f"execute if score $mixing_bowl_item_count cnk.dummy matches {len(recipe.ingredients)} "
 
+    # Remove duplicates
+    ingredients = list(dict.fromkeys(recipe.ingredients))
+
     # Append checks for each ingredient
-    for ingredient in recipe.ingredients:
+    for ingredient in ingredients:
         if ingredient in GENERIC_INGREDIENTS:
+            # Generic, check how many were in original list
+            count = recipe.ingredients.count(ingredient)
+
             generic = get_generic(ingredient)
-            recipe_check += f"if function cnk:mixing_bowl/mix/generic/{generic} if score ${generic}_count cnk.dummy matches 1 "
+            recipe_check += f"if function cnk:mixing_bowl/mix/generic/{generic} if score ${generic}_count cnk.dummy matches {count} "
         else:
             # Not generic, add normal check
             ingredient_check = get_ingredient_check(ingredient)

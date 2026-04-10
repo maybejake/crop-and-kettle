@@ -5,7 +5,7 @@
         "minecraft:ice",
         "cnk:coffee",
         "minecraft:cocoa_beans",
-        "minecraft:milk_bottle"
+        "cnk:milk_bottle"
     ],
     "nutrition": 9,
     "saturation": 2.7,
