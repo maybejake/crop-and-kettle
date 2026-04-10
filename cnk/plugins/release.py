@@ -21,8 +21,6 @@ def beet_default(ctx: Context):
     if ref_type == "tag":
         version = ref
 
-    print(version)
-
     # Set version
     lang = ctx.assets.languages["cnk:en_us"].data
     lang["cnk.version"] = version
@@ -30,14 +28,14 @@ def beet_default(ctx: Context):
 
     # Save datapack
     ctx.data.save(
-        path=ctx.directory / ".build" / f"{ctx.project_name}-v{ctx.project_version}-Data-Pack",
+        path=ctx.directory / ".build" / f"{ctx.project_name}-{version}-Data-Pack",
         overwrite=True,
         zipped=True
     )
 
     # Save resourcepack
     ctx.assets.save(
-        path=ctx.directory / ".build" / f"{ctx.project_name}-v{ctx.project_version}-Resource-Pack",
+        path=ctx.directory / ".build" / f"{ctx.project_name}-{version}-Resource-Pack",
         overwrite=True,
         zipped=True
     )
@@ -57,5 +55,5 @@ def beet_default(ctx: Context):
         shutil.copytree(data_pack_dir / "data", resource_pack_dir / "data", dirs_exist_ok=True)
 
         # Zip
-        data_resource_pack_dir = ctx.directory / ".build" / f"{ctx.project_name}-v{ctx.project_version}-Data-Resource-Pack"
+        data_resource_pack_dir = ctx.directory / ".build" / f"{ctx.project_name}-{version}-Data-Resource-Pack"
         shutil.make_archive(data_resource_pack_dir, "zip", resource_pack_dir)
