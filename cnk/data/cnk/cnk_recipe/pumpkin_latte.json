@@ -11,5 +11,6 @@
     "nutrition": 7,
     "saturation": 6.3,
     "category": "snacks",
-    "tool": "cooking_pot"
+    "tool": "cooking_pot",
+    "loot_table": "cnk:food/pumpkin_latte"
 }

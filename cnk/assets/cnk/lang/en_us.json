@@ -185,18 +185,15 @@
   "gui.cnk.cooking_pot": "\ua002\ua000",
   "gui.cnk.distiller": "\u0003\ua010",
 
-  "item.cnk.music_disc_dinner": "Music Disc",
   "item.cnk.music_disc_dinner.desc": "Marius Chamberlin - In Time For Dinner",
-  "item.cnk.music_disc_meal": "Music Disc",
   "item.cnk.music_disc_meal.desc": "Marius Chamberlin - A Meal With Friends",
-  "item.cnk.music_disc_saute": "Music Disc",
   "item.cnk.music_disc_saute.desc": "Marius Chamberlin - Sauté",
+  "item.cnk.music_disc_greetings.desc": "Marius Chamberlin - Season's Greetings",
+  
   "item.cnk.music_disc_scarecrow": "Music Disc",
   "item.cnk.music_disc_scarecrow.desc": "Marius Chamberlin - Scarecrow's Hymn",
   "item.cnk.music_disc_trick": "Music Disc",
   "item.cnk.music_disc_trick.desc": "Marius Chamberlin - Trick or Treat",
-  "item.cnk.music_disc_greetings": "Music Disc",
-  "item.cnk.music_disc_greetings.desc": "Marius Chamberlin - Season's Greetings",
 
   "painting.cnk.discipline": "Discipline",
   "painting.cnk.discipline.author": "Psydoux",

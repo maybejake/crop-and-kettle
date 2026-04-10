@@ -10,5 +10,6 @@
     "nutrition": 9,
     "saturation": 2.7,
     "category": "snacks",
-    "tool": "mixing_bowl"
+    "tool": "mixing_bowl",
+    "loot_table": "cnk:food/iced_coffee"
 }

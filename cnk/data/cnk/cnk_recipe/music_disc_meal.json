@@ -1,0 +1,13 @@
+{
+    "id": "music_disc_meal",
+    "name": "Music Disc",
+    "ingredients": [
+        "cnk:any_disc",
+        "cnk:thankful_meal"
+    ],
+    "nutrition": 0,
+    "saturation": 0,
+    "category": "light",
+    "tool": "cooking_pot",
+    "loot_table": "cnk:other/music_disc_meal"
+}

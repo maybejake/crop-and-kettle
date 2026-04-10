@@ -29,30 +29,6 @@ execute \
         run return run function cnk:recipes/cooking_pot/kebab_sword
 
 execute \
-        if function cnk:cooking_pot/crafting/generic/disc if score $disc_count cnk.dummy matches 1 \
-        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"chili_pepper"}}}}}] \
-        if function cnk:cooking_pot/crafting/lock \
-        run return run function cnk:recipes/cooking_pot/music_disc_saute
-
-execute \
-        if function cnk:cooking_pot/crafting/generic/disc if score $disc_count cnk.dummy matches 1 \
-        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"spaghetti"}}}}}] \
-        if function cnk:cooking_pot/crafting/lock \
-        run return run function cnk:recipes/cooking_pot/music_disc_dinner
-
-execute \
-        if function cnk:cooking_pot/crafting/generic/disc if score $disc_count cnk.dummy matches 1 \
-        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"festive_meal"}}}}}] \
-        if function cnk:cooking_pot/crafting/lock \
-        run return run function cnk:recipes/cooking_pot/music_disc_greetings
-
-execute \
-        if function cnk:cooking_pot/crafting/generic/disc if score $disc_count cnk.dummy matches 1 \
-        if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"thankful_meal"}}}}}] \
-        if function cnk:cooking_pot/crafting/lock \
-        run return run function cnk:recipes/cooking_pot/music_disc_meal
-
-execute \
         if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{chef_hat:true}}}}] \
         if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{cookbook:true}}}}] \
         if function cnk:cooking_pot/crafting/lock \

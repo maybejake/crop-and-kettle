@@ -9,5 +9,6 @@
     "nutrition": 2,
     "saturation": 1,
     "category": "snacks",
-    "tool": "cooking_pot"
+    "tool": "cooking_pot",
+    "loot_table": "cnk:food/builders_tea"
 }

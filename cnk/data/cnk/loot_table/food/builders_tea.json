@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.builders_tea","fallback":"Builders Tea"},
+                "minecraft:item_model": "cnk:builders_tea",
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 1,
+                  "can_always_eat": true
+                },
+                "minecraft:consumable": {
+                  "animation":"drink",
+                  "sound":"minecraft:entity.generic.drink",
+                  "has_consume_particles":false,
+                  "on_consume_effects": [
+                    {"type": "minecraft:clear_all_effects"},
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:instant_health",
+                          "amplifier": 0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"builders_tea"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

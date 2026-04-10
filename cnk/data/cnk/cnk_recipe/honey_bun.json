@@ -9,5 +9,6 @@
     "nutrition": 10,
     "saturation": 3.0,
     "category": "desserts",
-    "tool": "cooking_pot"
+    "tool": "cooking_pot",
+    "loot_table": "cnk:food/honey_bun"
 }

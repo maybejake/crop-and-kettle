@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.honey_bun","fallback":"Honey Bun"},
+                "minecraft:item_model": "cnk:honey_bun",
+                "minecraft:food": {
+                  "nutrition": 10,
+                  "saturation": 3.0
+                },
+                "minecraft:consumable": {
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:remove_effects",
+                      "effects": ["minecraft:poison"]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"honey_bun"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

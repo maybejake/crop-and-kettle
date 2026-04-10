@@ -2,7 +2,7 @@
     "id": "roasted_seeds",
     "name": "Roasted Seeds",
     "ingredients": [
-        "cnk:pumpkin_seeds",
+        "minecraft:pumpkin_seeds",
         "cnk:cooking_oil"
     ],
     "nutrition": 5,

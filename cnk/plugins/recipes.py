@@ -30,6 +30,7 @@ GENERIC_INGREDIENTS = [
     "cnk:any_mushroom",
     "cnk:any_seed",
     "cnk:any_vegetable",
+    "cnk:any_disc",
     "cnk:beef_cutlets",
     "cnk:chicken_cutlets",
     "cnk:cod_fillets",
@@ -66,8 +67,10 @@ class Recipe(BaseModel):
         "mixing_bowl",
         "cutting_board"
     ]
-    plateable: bool = None
+    plateable: bool = False
     quantity: int = None
+    loot_table: str = None
+    hidden: bool = False
 
 
 class RecipeDefinition(JsonFileBase[Recipe]):
@@ -100,9 +103,11 @@ def generate_recipes(ctx: Context):
 
         # Item and recipe stuff
         generate_texture_files(ctx, recipe)
-        generate_loot_table(ctx, recipe)
         add_translation(ctx, recipe)
-        add_all_recipes_check(ctx, recipe)
+
+        if not recipe.loot_table:
+            # No override, generate loot table
+            generate_loot_table(ctx, recipe)
 
         if recipe.tool == "cooking_pot":
             generate_cooking_pot_check(ctx, recipe)
@@ -118,11 +123,15 @@ def generate_recipes(ctx: Context):
             generate_cutting_board_check(ctx, recipe)
             generate_cutting_board_recipe(ctx, recipe)
 
-        # Cookbook stuff
-        current_character += 1
-        generate_icon_files(ctx, recipe, current_character)
-        generate_grant_code(ctx, recipe)
-        generate_page_register(ctx, recipe)
+        if not recipe.hidden:
+            # Cookbook stuff
+            current_character += 1
+            generate_icon_files(ctx, recipe, current_character)
+            generate_grant_code(ctx, recipe)
+            generate_page_register(ctx, recipe)
+
+            # Add to all recipe function
+            add_all_recipes_check(ctx, recipe)
 
     # Order cookbook section tags alphabetically
     order_section_tags(ctx)
@@ -134,7 +143,7 @@ def generate_loot_table(ctx: Context, recipe: Recipe):
     if recipe.category == "feasts":
         cnk_data["ingredient"]["feasts"] = True
     if recipe.plateable is True:
-        cnk_data["plateable"] = {"model":f"cnk:placeable/{recipe.id}"}
+        cnk_data["placeable"] = {"model":f"cnk:placeable/{recipe.id}"}
     
 
     ctx.data[f"cnk:food/{recipe.id}"] = LootTable({
@@ -249,7 +258,7 @@ def generate_cooking_pot_check(ctx: Context, recipe: Recipe):
             count = recipe.ingredients.count(ingredient)
 
             generic = get_generic(ingredient)
-            recipe_check += f"if function cnk:cooking_pot/crafting/generic/{generic} if score ${generic}_count cnk.dummy matches {count} "
+            recipe_check += f"if function cnk:cooking_pot/crafting/generic/{generic} if score ${generic}_count cnk.dummy matches {count}.. "
         else:
             # Not generic, add normal check
             ingredient_check = get_ingredient_check(ingredient)
@@ -287,7 +296,11 @@ def generate_cooking_pot_recipe(ctx: Context, recipe: Recipe):
             f"loot spawn ~ ~0.25 ~ loot cnk:drops/{recipe.id}"
         ])
     else:
-        recipe_function.append(f"loot spawn ~ ~0.25 ~ loot cnk:food/{recipe.id}")
+        loot_table = f"cnk:food/{recipe.id}"
+        if recipe.loot_table:
+            # Override loot table
+            loot_table = recipe.loot_table
+        recipe_function.append(f"loot spawn ~ ~0.25 ~ loot {loot_table}")
 
     # Finish cooking
     recipe_function.append("function cnk:cooking_pot/effects/finish_cooking")
@@ -311,7 +324,7 @@ def generate_mixing_bowl_check(ctx: Context, recipe: Recipe):
             count = recipe.ingredients.count(ingredient)
 
             generic = get_generic(ingredient)
-            recipe_check += f"if function cnk:mixing_bowl/mix/generic/{generic} if score ${generic}_count cnk.dummy matches {count} "
+            recipe_check += f"if function cnk:mixing_bowl/mix/generic/{generic} if score ${generic}_count cnk.dummy matches {count}.. "
         else:
             # Not generic, add normal check
             ingredient_check = get_ingredient_check(ingredient)
@@ -337,7 +350,11 @@ def generate_mixing_bowl_recipe(ctx: Context, recipe: Recipe):
             f"loot spawn ~ ~-0.3 ~ loot cnk:drops/{recipe.id}"
         ])
     else:
-        recipe_function.append(f"loot spawn ~ ~-0.3 ~ loot cnk:food/{recipe.id}")
+        loot_table = f"cnk:food/{recipe.id}"
+        if recipe.loot_table:
+            # Override loot table
+            loot_table = recipe.loot_table
+        recipe_function.append(f"loot spawn ~ ~-0.3 ~ loot {loot_table}")
 
     # Add byproduct handling
     for ingredient in recipe.ingredients:
@@ -374,7 +391,11 @@ def generate_cutting_board_recipe(ctx: Context, recipe: Recipe):
             f"loot spawn ~ ~-0.3 ~ loot cnk:drops/{recipe.id}"
         ])
     else:
-        recipe_function.append(f"loot spawn ~ ~-0.3 ~ loot cnk:food/{recipe.id}")
+        loot_table = f"cnk:food/{recipe.id}"
+        if recipe.loot_table:
+            # Override loot table
+            loot_table = recipe.loot_table
+        recipe_function.append(f"loot spawn ~ ~-0.3 ~ loot {loot_table}")
 
     recipe_function.append("function cnk:cutting_board/cut/finish")
     ctx.data[f"cnk:recipes/cutting_board/{recipe.id}"] = Function(recipe_function)

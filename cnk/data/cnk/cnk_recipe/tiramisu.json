@@ -11,5 +11,6 @@
     "nutrition": 11,
     "saturation": 8.8,
     "category": "desserts",
-    "tool": "cooking_pot"
+    "tool": "cooking_pot",
+    "loot_table": "cnk:food/tiramisu"
 }
