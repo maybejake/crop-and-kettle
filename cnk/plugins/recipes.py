@@ -43,6 +43,15 @@ GENERIC_INGREDIENTS = [
     "minecraft:ice"
 ]
 
+COOKBOOK_CATEGORIES = (
+    "staple",
+    "snacks",
+    "light",
+    "hearty",
+    "feasts",
+    "desserts"
+)
+
 
 class Recipe(BaseModel):
     id: str
@@ -50,14 +59,7 @@ class Recipe(BaseModel):
     ingredients: list[str] = Field(min_length=1, max_length=5)
     nutrition: float
     saturation: float
-    category: Literal[
-        "staple",
-        "snacks",
-        "light",
-        "hearty",
-        "feasts",
-        "desserts"
-    ]
+    category: Literal[*COOKBOOK_CATEGORIES] # pyright: ignore[reportInvalidTypeForm]
     tool: Literal[
         "cooking_pot",
         "mixing_bowl",
@@ -120,6 +122,8 @@ def generate_recipes(ctx: Context):
         generate_icon_files(ctx, recipe, current_character)
         generate_grant_code(ctx, recipe)
         generate_page_register(ctx, recipe)
+
+    order_section_tags(ctx)
 
 
 def generate_loot_table(ctx: Context, recipe: Recipe):
@@ -490,6 +494,15 @@ def generate_page_register(ctx: Context, recipe: Recipe):
     function_tag = ctx.data.function_tags[f"cnk:cookbook/{recipe.category}"].data
     function_tag["values"].append(f"cnk:cookbook/pages/{recipe.id}/register")
     ctx.data[f"cnk:cookbook/{recipe.category}"] = FunctionTag(function_tag)
+
+
+def order_section_tags(ctx: Context):
+    """Order the section function tags alphebetically"""
+    for category in COOKBOOK_CATEGORIES:
+        function_tag = ctx.data.function_tags[f"cnk:cookbook/{category}"].data
+        function_tag["values"].sort()
+        ctx.data[f"cnk:cookbook/{category}"] = FunctionTag(function_tag)
+
 
 def get_ingredient_check(ingredient: str) -> str:
     """Get an ingredient storage check from an ingredient"""
