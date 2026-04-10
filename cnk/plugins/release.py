@@ -17,6 +17,7 @@ def beet_default(ctx: Context):
     ref = os.getenv("GITHUB_REF_NAME")
     ref_type = os.getenv("GITHUB_REF_TYPE")
 
+    # Use project version, unless git tag exists
     version = f"v{ctx.project_version}"
     if ref_type == "tag":
         version = ref
