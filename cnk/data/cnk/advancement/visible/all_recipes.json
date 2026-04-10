@@ -209,6 +209,19 @@
           }
         ]
       }
+    },
+    "cnk:cinnamon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"cinnamon"}}}
+            }
+          }
+        ]
+      }
     }
   }
 }
