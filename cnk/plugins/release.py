@@ -5,6 +5,7 @@ from beet import (
 import logging
 import tempfile
 import shutil
+import os
 from pathlib import Path
 
 LOGGER = logging.getLogger(__name__)
@@ -12,10 +13,16 @@ LOGGER = logging.getLogger(__name__)
 
 def beet_default(ctx: Context):
     """Package the datapack for release"""
+    ref = os.getenv("GITHUB_REF_NAME")
+    ref_type = os.getenv("GITHUB_REF_TYPE")
+
+    version = f"v{ctx.project_version}"
+    if ref_type == "tag":
+        version = ref
 
     # Set version
     lang = ctx.assets.languages["cnk:en_us"].data
-    lang["cnk.version"] = ctx.project_version
+    lang["cnk.version"] = version
     ctx.assets["cnk:en_us"] = Language(lang)
 
     # Save datapack
