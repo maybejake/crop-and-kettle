@@ -64,6 +64,7 @@ class Recipe(BaseModel):
         "cutting_board"
     ]
     plateable: bool = None
+    quantity: int = None
 
 
 class RecipeDefinition(JsonFileBase[Recipe]):
@@ -157,6 +158,35 @@ def generate_loot_table(ctx: Context, recipe: Recipe):
         ]
     })
 
+    # If the recipe has quantity, generate a drops loot table for it
+    if recipe.quantity:
+        ctx.data[f"cnk:drops/{recipe.id}"] = LootTable({
+            "pools": [
+                {
+                "rolls": 1,
+                "entries": [
+                    {
+                    "type": "minecraft:loot_table",
+                    "value": f"cnk:food/{recipe.id}",
+                    "functions": [
+                        {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "type": "minecraft:score",
+                            "target": {
+                            "type": "minecraft:fixed",
+                            "name": "$count"
+                            },
+                            "score": "cnk.dummy"
+                        }
+                        }
+                    ]
+                    }
+                ]
+                }
+            ]
+        })
+
 
 def generate_texture_files(ctx: Context, recipe: Recipe):
     """Generate texture files for a recipe including item model and item definition"""
@@ -235,8 +265,14 @@ def generate_cooking_pot_recipe(ctx: Context, recipe: Recipe):
             recipe_function.append(f"data modify storage cnk:temp cooking_pot.slot set from storage cnk:temp cooking_pot.Items[{ingredient_check}].Slot")
             recipe_function.append("function cnk:recipes/remove with storage cnk:temp cooking_pot")
 
-    # Add spawn of result
-    recipe_function.append(f"loot spawn ~ ~0.25 ~ loot cnk:food/{recipe.id}")
+    # Add spawn of result, if there's quantity use drops
+    if recipe.quantity:
+        recipe_function.extend([
+            f"scoreboard players set $count cnk.dummy {recipe.quantity}",
+            f"loot spawn ~ ~0.25 ~ loot cnk:drops/{recipe.id}"
+        ])
+    else:
+        recipe_function.append(f"loot spawn ~ ~0.25 ~ loot cnk:food/{recipe.id}")
 
     # Finish cooking
     recipe_function.append("function cnk:cooking_pot/effects/finish_cooking")
@@ -271,8 +307,16 @@ def generate_mixing_bowl_check(ctx: Context, recipe: Recipe):
 
 def generate_mixing_bowl_recipe(ctx: Context, recipe: Recipe):
     """Generate the recipe function for a mixing bowl recipe"""
-    # Add spawn of result 
-    recipe_function = [f"loot spawn ~ ~-0.3 ~ loot cnk:food/{recipe.id}"]
+    recipe_function = []
+
+    # Add spawn of result, if there's quantity use drops
+    if recipe.quantity:
+        recipe_function.extend([
+            f"scoreboard players set $count cnk.dummy {recipe.quantity}",
+            f"loot spawn ~ ~-0.3 ~ loot cnk:drops/{recipe.id}"
+        ])
+    else:
+        recipe_function.append(f"loot spawn ~ ~-0.3 ~ loot cnk:food/{recipe.id}")
 
     # Add byproduct handling
     for ingredient in recipe.ingredients:
@@ -300,10 +344,19 @@ def generate_cutting_board_check(ctx: Context, recipe: Recipe):
 
 def generate_cutting_board_recipe(ctx: Context, recipe: Recipe):
     """Generate the recipe function for a cutting board recipe"""
-    ctx.data[f"cnk:recipes/cutting_board/{recipe.id}"] = Function([
-        f"loot spawn ~ ~-0.3 ~ loot cnk:food/{recipe.id}",
-        "function cnk:cutting_board/cut/finish"
-    ])
+    recipe_function = []
+
+    # Add spawn of result, if there's quantity use drops
+    if recipe.quantity:
+        recipe_function.extend([
+            f"scoreboard players set $count cnk.dummy {recipe.quantity}",
+            f"loot spawn ~ ~-0.3 ~ loot cnk:drops/{recipe.id}"
+        ])
+    else:
+        recipe_function.append(f"loot spawn ~ ~-0.3 ~ loot cnk:food/{recipe.id}")
+
+    recipe_function.append("function cnk:cutting_board/cut/finish")
+    ctx.data[f"cnk:recipes/cutting_board/{recipe.id}"] = Function(recipe_function)
 
 
 def generate_icon_files(ctx: Context, recipe: Recipe, current_character: int):
