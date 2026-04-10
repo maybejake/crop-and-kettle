@@ -40,7 +40,8 @@ GENERIC_INGREDIENTS = [
     "cnk:salmon_fillets",
     "minecraft:egg",
     "minecraft:water",
-    "minecraft:ice"
+    "minecraft:ice",
+    "cnk:cooking_oil"
 ]
 
 COOKBOOK_CATEGORIES = (
