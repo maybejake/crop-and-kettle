@@ -123,6 +123,7 @@ def generate_recipes(ctx: Context):
         generate_grant_code(ctx, recipe)
         generate_page_register(ctx, recipe)
 
+    # Order cookbook section tags alphabetically
     order_section_tags(ctx)
 
 
