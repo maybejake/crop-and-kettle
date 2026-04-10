@@ -70,7 +70,6 @@ class Recipe(BaseModel):
     plateable: bool = False
     quantity: int = None
     loot_table: str = None
-    hidden: bool = False
 
 
 class RecipeDefinition(JsonFileBase[Recipe]):
@@ -104,6 +103,7 @@ def generate_recipes(ctx: Context):
         # Item and recipe stuff
         generate_texture_files(ctx, recipe)
         add_translation(ctx, recipe)
+        add_all_recipes_check(ctx, recipe)
 
         if not recipe.loot_table:
             # No override, generate loot table
@@ -116,22 +116,14 @@ def generate_recipes(ctx: Context):
             generate_mixing_bowl_check(ctx, recipe)
             generate_mixing_bowl_recipe(ctx, recipe)
         elif recipe.tool == "cutting_board":
-            if len(recipe.ingredients) > 1:
-                LOGGER.error(f"Cutting board recipe {recipe.id} has more than 1 ingredient, skipping.")
-                continue
-
             generate_cutting_board_check(ctx, recipe)
             generate_cutting_board_recipe(ctx, recipe)
 
-        if not recipe.hidden:
-            # Cookbook stuff
-            current_character += 1
-            generate_icon_files(ctx, recipe, current_character)
-            generate_grant_code(ctx, recipe)
-            generate_page_register(ctx, recipe)
-
-            # Add to all recipe function
-            add_all_recipes_check(ctx, recipe)
+        # Cookbook stuff
+        current_character += 1
+        generate_icon_files(ctx, recipe, current_character)
+        generate_grant_code(ctx, recipe)
+        generate_page_register(ctx, recipe)
 
     # Order cookbook section tags alphabetically
     order_section_tags(ctx)
