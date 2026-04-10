@@ -1,0 +1,32 @@
+name: Build & Upload Release Assets
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build-and-upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python (for uv)
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Install uv
+        run: pip install uv
+
+      - name: Run build
+        run: uv run beet build
+
+      - name: Upload release assets
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            .build/CropAndKettle-${{ github.ref_name }}-Data-Pack.zip
+            .build/CropAndKettle-${{ github.ref_name }}-Resource-Pack.zip
+            .build/CropAndKettle-${{ github.ref_name }}-Data-Resource-Pack.zip
