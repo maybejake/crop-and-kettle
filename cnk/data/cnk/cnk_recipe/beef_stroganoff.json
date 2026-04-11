@@ -1,0 +1,15 @@
+{
+    "id": "beef_stroganoff",
+    "name": "Beef Stroganoff",
+    "ingredients": [
+        "cnk:beet_cutlet",
+        "cnk:noodles",
+        "cnk:milk_bottle",
+        "cnk:any_mushroom",
+        "cnk:stock"
+    ],
+    "nutrition": 12,
+    "saturation": 16.8,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

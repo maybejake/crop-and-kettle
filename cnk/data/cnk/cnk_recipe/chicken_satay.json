@@ -1,0 +1,14 @@
+{
+    "id": "chicken_satay",
+    "name": "Chicken Satay",
+    "ingredients": [
+        "minecraft:stick",
+        "cnk:chicken_cutlets",
+        "cnk:glimmernut_butter",
+        "cnk:chili_pepper"
+    ],
+    "nutrition": 8,
+    "saturation": 11.2,
+    "category": "light",
+    "tool": "cooking_pot"
+}

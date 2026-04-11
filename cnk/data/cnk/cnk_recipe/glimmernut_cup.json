@@ -1,0 +1,12 @@
+{
+    "id": "glimmernut_cup",
+    "name": "Glimmernut Cup",
+    "ingredients": [
+        "cnk:chocolate_bar",
+        "cnk:glimmernut_butter"
+    ],
+    "nutrition": 11,
+    "saturation": 9.9,
+    "category": "desserts",
+    "tool": "cooking_pot"
+}

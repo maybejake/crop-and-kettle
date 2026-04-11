@@ -19,8 +19,8 @@
                 "minecraft:consumable": {
                   "on_consume_effects": [
                     {"type": "minecraft:apply_effects", "effects": [
-                      {"id": "minecraft:speed", "amplifier": 0, "duration": 600, "show_particles": false},
-                      {"id": "minecraft:haste", "amplifier": 0, "duration": 600, "show_particles": false}
+                      {"id": "minecraft:speed", "amplifier": 0, "duration": 1000, "show_particles": false},
+                      {"id": "minecraft:haste", "amplifier": 0, "duration": 1000, "show_particles": false}
                     ]}
                   ]
                 },

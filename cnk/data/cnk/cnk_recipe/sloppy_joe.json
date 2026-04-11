@@ -1,0 +1,14 @@
+{
+    "id": "sloppy_joe",
+    "name": "Sloppy Joe",
+    "ingredients": [
+        "minecraft:bread",
+        "cnk:beef_cutlets",
+        "cnk:chili_pepper",
+        "cnk:tomato"
+    ],
+    "nutrition": 10,
+    "saturation": 12,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "glimmernut",
+    "name": "Glimmernut",
+    "ingredients": [
+        "minecraft:glow_berries"
+    ],
+    "nutrition": 2,
+    "saturation": 0.4,
+    "category": "staple",
+    "tool": "cutting_board",
+    "quantity": 2
+}

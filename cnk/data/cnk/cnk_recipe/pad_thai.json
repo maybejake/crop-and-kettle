@@ -1,0 +1,15 @@
+{
+    "id": "pad_thai",
+    "name": "Pad Thai",
+    "ingredients": [
+        "cnk:noodles",
+        "cnk:chili_pepper",
+        "cnk:glimmernut",
+        "cnk:chicken_cutlets",
+        "minecraft:egg"
+    ],
+    "nutrition": 10,
+    "saturation": 15,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

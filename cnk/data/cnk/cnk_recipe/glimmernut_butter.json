@@ -1,0 +1,11 @@
+{
+    "id": "glimmernut_butter",
+    "name": "Glimmernut Butter",
+    "ingredients": [
+        "cnk:glimmernut"
+    ],
+    "nutrition": 2,
+    "saturation": 0.4,
+    "category": "snacks",
+    "tool": "mixing_bowl"
+}

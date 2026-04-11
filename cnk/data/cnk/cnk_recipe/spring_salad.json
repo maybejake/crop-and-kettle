@@ -1,0 +1,15 @@
+{
+    "id": "spring_salad",
+    "name": "Spring Salad",
+    "ingredients": [
+        "cnk:lettuce",
+        "cnk:tomato",
+        "cnk:any_fruit",
+        "cnk:cooking_oil",
+        "cnk:glimmernut"
+    ],
+    "nutrition": 9,
+    "saturation": 12.6,
+    "category": "hearty",
+    "tool": "mixing_bowl"
+}

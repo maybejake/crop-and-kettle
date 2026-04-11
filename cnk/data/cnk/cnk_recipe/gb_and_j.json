@@ -1,0 +1,13 @@
+{
+    "id": "gb_and_j",
+    "name": "GB & J",
+    "ingredients": [
+        "minecraft:bread",
+        "cnk:glimmernut_butter",
+        "minecraft:sweet_berries"
+    ],
+    "nutrition": 9,
+    "saturation": 12.6,
+    "category": "hearty",
+    "tool": "cooking_pot"
+}

@@ -1,0 +1,14 @@
+{
+    "id": "coffee_cake",
+    "name": "Coffee Cake",
+    "ingredients": [
+        "cnk:dough",
+        "cnk:butter",
+        "minecraft:sugar",
+        "cnk:cinnamon"
+    ],
+    "nutrition": 8,
+    "saturation": 7.2,
+    "category": "desserts",
+    "tool": "cooking_pot"
+}

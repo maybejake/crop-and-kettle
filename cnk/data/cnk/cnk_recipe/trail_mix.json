@@ -3,11 +3,11 @@
     "name": "Trail Mix",
     "ingredients": [
         "cnk:raisins",
-        "cnk:popcorn",
         "cnk:any_seed",
-        "cnk:chocolate_bar"
+        "cnk:chocolate_bar",
+        "cnk:glimmernut"
     ],
-    "nutrition": 17,
+    "nutrition": 18,
     "saturation": 20,
     "category": "feasts",
     "tool": "mixing_bowl"
