@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "fizz",
+		"particle": "fizz"
+	},
+	"elements": [
+		{
+			"name": "eyelid",
+			"from": [2.995, 13.995, -4.005],
+			"to": [7.005, 18.005, 0.005],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 14, -4]},
+			"faces": {
+				"north": {"uv": [12, 11.25, 13, 12.25], "texture": "#0"},
+				"east": {"uv": [11, 11.25, 12, 12.25], "texture": "#0"},
+				"south": {"uv": [14, 11.25, 15, 12.25], "texture": "#0"},
+				"west": {"uv": [13, 11.25, 14, 12.25], "texture": "#0"},
+				"up": {"uv": [13, 11.25, 12, 10.25], "texture": "#0"},
+				"down": {"uv": [14, 10.25, 13, 11.25], "texture": "#0"}
+			}
+		}
+	]
+}

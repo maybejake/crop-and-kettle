@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "cnk:entity/fizz/arms_idle"
+      }
+    ]
+  }
+}
