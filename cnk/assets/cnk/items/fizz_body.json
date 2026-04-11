@@ -1,0 +1,82 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "on_true" : {
+          "type": "minecraft:model",
+          "model": "cnk:entity/fizz/hurt/body"
+        },
+        "on_false" : {
+          "type": "minecraft:model",
+          "model": "cnk:entity/fizz/body"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 1,
+        "on_true" : {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "on_true" : {
+            "type": "minecraft:model",
+            "model": "cnk:entity/fizz/hurt/arms_walking"
+          },
+          "on_false" : {
+            "type": "minecraft:model",
+            "model": "cnk:entity/fizz/arms_walking"
+          }
+        },
+        "on_false" : {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "on_true" : {
+            "type": "minecraft:model",
+            "model": "cnk:entity/fizz/hurt/arms_idle"
+          },
+          "on_false" : {
+            "type": "minecraft:model",
+            "model": "cnk:entity/fizz/arms_idle"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 1,
+        "on_true" : {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "on_true" : {
+            "type": "minecraft:model",
+            "model": "cnk:entity/fizz/hurt/legs_walking"
+          },
+          "on_false" : {
+            "type": "minecraft:model",
+            "model": "cnk:entity/fizz/legs_walking"
+          }
+        },
+        "on_false" : {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "on_true" : {
+            "type": "minecraft:model",
+            "model": "cnk:entity/fizz/hurt/legs_idle"
+          },
+          "on_false" : {
+            "type": "minecraft:model",
+            "model": "cnk:entity/fizz/legs_idle"
+          }
+        }
+      }
+    ]
+  }
+}

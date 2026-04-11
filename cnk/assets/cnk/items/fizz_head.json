@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "on_true" : {
+          "type": "minecraft:model",
+          "model": "cnk:entity/fizz/hurt/head"
+        },
+        "on_false" : {
+          "type": "minecraft:model",
+          "model": "cnk:entity/fizz/head"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 1,
+        "on_true" : {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "on_true" : {
+            "type": "minecraft:model",
+            "model": "cnk:entity/fizz/hurt/eyelid_left"
+          },
+          "on_false" : {
+            "type": "minecraft:model",
+            "model": "cnk:entity/fizz/eyelid_left"
+          }
+        },
+        "on_false" : {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 2,
+        "on_true" : {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "on_true" : {
+            "type": "minecraft:model",
+            "model": "cnk:entity/fizz/hurt/eyelid_right"
+          },
+          "on_false" : {
+            "type": "minecraft:model",
+            "model": "cnk:entity/fizz/eyelid_right"
+          }
+        },
+        "on_false" : {
+          "type": "minecraft:empty"
+        }
+      }
+    ]
+  }
+}

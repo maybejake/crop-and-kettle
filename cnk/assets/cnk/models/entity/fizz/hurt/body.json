@@ -1,0 +1,6 @@
+{
+  "parent":"cnk:entity/fizz/body",
+  "textures": {
+    "0": "cnk:entity/fizz/hurt/body"
+  }
+}

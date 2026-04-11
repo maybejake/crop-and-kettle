@@ -5,3 +5,4 @@ execute if entity @s[tag=cnk.booze] at @s run return run function cnk:booze/tick
 execute if entity @s[tag=cnk.doughboy] at @s run return run function cnk:doughboy/tick
 execute if entity @s[tag=cnk.spirit_sprite] at @s run return run function cnk:spirit_sprite/tick
 execute if entity @s[tag=cnk.wreath] on vehicle at @s run return run function cnk:wreath/door
+execute if entity @s[tag=cnk.fizz] at @s run return run function cnk:fizz/tick
