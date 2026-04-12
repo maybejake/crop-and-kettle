@@ -1,0 +1,2 @@
+item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","offset":1,"values":[true]}}
+execute if predicate cnk:on_ground if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{periodic_tick:7}} run playsound minecraft:entity.armadillo.step neutral @a ~ ~ ~ 0.5 2
