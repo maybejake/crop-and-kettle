@@ -1,0 +1,133 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {"type":"minecraft:loot_table", "value":"cnk:zzz_secret/bubbling_recipe"},
+        {"type":"minecraft:loot_table", "value":"cnk:zzz_secret/explosive_recipe"},
+        {"type":"minecraft:loot_table", "value":"cnk:zzz_secret/flaming_recipe"},
+        {"type":"minecraft:loot_table", "value":"cnk:zzz_secret/frigid_recipe"},
+        {"type":"minecraft:loot_table", "value":"cnk:zzz_secret/heavenly_recipe"},
+        {"type":"minecraft:loot_table", "value":"cnk:zzz_secret/roseate_recipe"},
+        {"type":"minecraft:loot_table", "value":"cnk:zzz_secret/soaring_recipe"},
+        {"type":"minecraft:loot_table", "value":"cnk:zzz_secret/tattered_recipe"},
+        {"type":"minecraft:loot_table", "value":"cnk:zzz_secret/thoughtful_recipe"}
+      ]
+    },
+    {
+      "rolls": {
+        "min": 5,
+        "max": 7
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:seeds/tomato_seeds",
+          "functions": [
+            {"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1,"max": 5}}
+          ],
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:seeds/rice_seeds",
+          "functions": [
+            {"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1,"max": 5}}
+          ],
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:seeds/lettuce_seeds",
+          "functions": [
+            {"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1,"max": 5}}
+          ],
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:seeds/corn_seeds",
+          "functions": [
+            {"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1,"max": 5}}
+          ],
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat_seeds",
+          "functions": [
+            {"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1,"max": 5}}
+          ],
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_seeds",
+          "functions": [
+            {"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1,"max": 5}}
+          ],
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:melon_seeds",
+          "functions": [
+            {"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1,"max": 5}}
+          ],
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potato",
+          "functions": [
+            {"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1,"max": 5}}
+          ],
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot",
+          "functions": [
+            {"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1,"max": 5}}
+          ],
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot_seeds",
+          "functions": [
+            {"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1,"max": 5}}
+          ],
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_seeds",
+          "functions": [
+            {"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1,"max": 5}}
+          ],
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:food/rotten_tomato",
+          "functions": [
+            {"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1,"max": 3}}
+          ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:food/very_rotten_tomato",
+          "functions": [
+            {"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1,"max": 3}}
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
