@@ -15,8 +15,6 @@ execute if score $rotation cnk.dummy matches 450..1350 align xyz run data modify
 
 
 function cnk:wreath/macro with storage cnk:temp
-execute align xyz positioned ~0.5 ~0.1 ~0.5 run scoreboard players set @n[type=minecraft:item_display,tag=cnk.wreath,distance=..0.1] cnk.hit_count 0
-execute align xyz positioned ~0.5 ~0.1 ~0.5 run scoreboard players set @n[type=minecraft:item_display,tag=cnk.wreath,distance=..0.1] cnk.hit_timer 0
 
 execute align xyz positioned ~0.5 ~0.1 ~0.5 run execute as @n[type=minecraft:item_display,tag=cnk.wreath,distance=..0.1] at @s positioned ^ ^ ^-1 if block ~ ~ ~ #minecraft:doors[open=false] run return run function cnk:wreath/door/main
 playsound minecraft:block.azalea_leaves.place block @a ~ ~ ~ 1 1

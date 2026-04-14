@@ -55,7 +55,5 @@ execute if score $player_rotation cnk.dummy matches -14625..-12375 run data modi
 execute if score $player_rotation cnk.dummy matches -16875..-14625 run data modify storage cnk:temp rotation set value 22.5
 
 function cnk:mr_kettle/macro with storage cnk:temp
-scoreboard players set @n[type=minecraft:item_display,tag=cnk.mr_kettle] cnk.hit_count 0
-scoreboard players set @n[type=minecraft:item_display,tag=cnk.mr_kettle] cnk.hit_timer 0
 
 return 1

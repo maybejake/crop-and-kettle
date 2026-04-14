@@ -16,5 +16,5 @@ item modify entity @s contents {"function":"minecraft:set_custom_model_data","fl
 data modify entity @s item.components."minecraft:item_model" set value "cnk:panless_stove"
 tag @s add cnk.panless_stove
 
-scoreboard players set @s cnk.cook_time 0
+scoreboard players reset @s cnk.cook_time
 scoreboard players set @s cnk.cook_cooldown 15

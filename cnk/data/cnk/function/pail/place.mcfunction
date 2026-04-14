@@ -14,6 +14,4 @@ execute if score $rotation cnk.dummy matches 450..1350 align xyz positioned ~0.5
 execute unless data storage cnk:temp pail.liquid run function cnk:pail/macro with storage cnk:temp pail
 execute if data storage cnk:temp pail{liquid:"water"} run function cnk:pail/interact/fill/water_color
 execute if data storage cnk:temp pail.liquid run function cnk:pail/filled_macro with storage cnk:temp pail
-scoreboard players set @n[type=minecraft:item_display,tag=cnk.pail] cnk.hit_count 0
-scoreboard players set @n[type=minecraft:item_display,tag=cnk.pail] cnk.hit_timer 0
 scoreboard players set @n[type=minecraft:item_display,tag=cnk.pail] cnk.max_quantity 32

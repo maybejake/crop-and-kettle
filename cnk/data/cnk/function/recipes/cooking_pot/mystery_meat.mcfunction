@@ -14,5 +14,5 @@ particle minecraft:large_smoke ~ ~0.3 ~ 0.1 0.1 0.1 0 10
 particle minecraft:trial_spawner_detection_ominous ~ ~0.3 ~ 0.16 0.16 0.16 0 30
 data modify entity @s item.components."minecraft:item_model" set value "cnk:cooking_pot_open"
 
-scoreboard players set @s cnk.cook_time 0
+scoreboard players reset @s cnk.cook_time
 scoreboard players set @s cnk.cook_cooldown 15

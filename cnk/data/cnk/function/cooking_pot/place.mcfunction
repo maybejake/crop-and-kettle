@@ -13,6 +13,3 @@ function cnk:cooking_pot/variants/main
 function cnk:cooking_pot/macro with storage cnk:temp
 
 setblock ~ ~ ~ minecraft:hopper[facing=down,enabled=false]{CustomName:{translate:gui.cnk.cooking_pot,font:"cnk:gui",color:"white"},TransferCooldown:1000} replace
-
-scoreboard players set @n[type=minecraft:item_display,tag=cnk.cooking_pot] cnk.cook_time 0
-scoreboard players set @n[type=minecraft:item_display,tag=cnk.cooking_pot] cnk.cook_cooldown 0

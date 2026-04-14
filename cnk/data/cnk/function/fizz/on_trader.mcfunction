@@ -5,7 +5,7 @@ execute if predicate cnk:moving run function cnk:fizz/moving
 
 # ambient sound
 execute if predicate [{condition:"minecraft:entity_properties",entity:"this",predicate:{periodic_tick:40}},{condition:"minecraft:random_chance",chance:0.6}] at @s run playsound minecraft:entity.frog.ambient neutral @a ~ ~ ~ 1 0.5
-execute if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{periodic_tick:10}} at @s anchored eyes run function cnk:fizz/ai/main
+execute if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{periodic_tick:10}} run function cnk:fizz/ai/main
 
 data remove entity @s Offers.Recipes
 
