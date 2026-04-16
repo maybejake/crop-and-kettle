@@ -17,7 +17,7 @@ $dialog show @s { \
       "label": {"translate": "cnk.dialog.admin_panel.enable", with:[{"translate": "cnk.dialog.settings.dynamic_command_feedback"}]}, \
       "initial": $(dynamic_command_feedback) \
     }, \
-        { \
+    { \
       "type": "minecraft:number_range", \
       "key": "days_in_a_year", \
       "label": {"translate": "cnk.dialog.admin_panel.days_in_a_year"}, \
@@ -25,6 +25,15 @@ $dialog show @s { \
       "end": 365, \
       "step": 1, \
       "initial": $(days_in_a_year) \
+    }, \
+    { \
+      "type": "minecraft:number_range", \
+      "key": "trade_reset_time", \
+      "label": {"translate": "cnk.dialog.admin_panel.trade_reset_time"}, \
+      "start": 1, \
+      "end": 31, \
+      "step": 1, \
+      "initial": $(trade_reset_time) \
     }, \
     { \
       "type": "minecraft:boolean", \

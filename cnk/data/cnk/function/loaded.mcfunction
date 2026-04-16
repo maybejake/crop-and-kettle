@@ -88,7 +88,12 @@ scoreboard objectives add cnk.lectern_z dummy
 scoreboard objectives add cnk.damage_taken minecraft.custom:minecraft.damage_taken
 scoreboard objectives add cnk.feast_time dummy
 
+scoreboard objectives add cnk.trade_reset_time dummy
+
 scoreboard players set $installed cnk.dummy 1
 
 # set 16 days in a year by default
 execute unless score $days_in_a_year cnk.dummy matches 1.. run scoreboard players set $days_in_a_year cnk.dummy 16
+
+# set fizz trade reset time to 3 days by default
+execute unless score $trade_reset_time cnk.dummy matches 1.. run scoreboard players set $trade_reset_time cnk.dummy 3

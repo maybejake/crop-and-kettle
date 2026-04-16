@@ -24,6 +24,9 @@ execute if function dcf:is_enabled run data modify storage cnk:temp admin_panel.
 #year stuff
 execute store result storage cnk:temp admin_panel.days_in_a_year int 1 run scoreboard players get $days_in_a_year cnk.dummy
 
+#fizz stuff
+execute store result storage cnk:temp admin_panel.trade_reset_time int 1 run scoreboard players get $trade_reset_time cnk.dummy
+
 #wine stuff
 execute if data storage cnk:admin settings{apple_cider_disabled:true} run data modify storage cnk:temp admin_panel.apple_cider_disabled set value true
 execute if data storage cnk:admin settings{blazing_wine_disabled:true} run data modify storage cnk:temp admin_panel.blazing_wine_disabled set value true
@@ -61,7 +64,8 @@ data modify storage cnk:temp admin_panel.macros set value " \
     mulled_wine_disabled:$(mulled_wine_disabled), \
     prospecting_wine_disabled:$(prospecting_wine_disabled), \
     sweet_berry_wine_disabled:$(sweet_berry_wine_disabled), \
-    gift_box_disabled:$(gift_box_disabled) \
+    gift_box_disabled:$(gift_box_disabled), \
+    trade_reset_time:$(trade_reset_time) \
 "
 
 function cnk:admin_panel/dialog with storage cnk:temp admin_panel

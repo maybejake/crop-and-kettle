@@ -249,6 +249,7 @@
   "cnk.dialog.admin_panel.dynamic_command_feedback.note": "Do note that on servers, this means that output from other commands will not appear in the chat while someone has a cookbook open.",
   "cnk.dialog.admin_panel.days_in_a_year": "Days in a year",
   "cnk.dialog.admin_panel.days_in_a_year.note": "The 'Days in a year' setting controls the wine aging mechanic, changing how many minecraft days it takes for wine to age.",
+  "cnk.dialog.admin_panel.trade_reset_time": "Days to reset Fizz trades",
   "cnk.dialog.admin_panel.disable_wine.note": "Disabling a wine disables its crafting recipe, functionality and its page in the distiller book.",
   "cnk.dialog.admin_panel.enable": "Enable %1$s",
   "cnk.dialog.admin_panel.disable": "Disable %1$s",
