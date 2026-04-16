@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobblestone",
+      "components": {
+        "minecraft:item_model": "cnk:glimmernut_butter"
+      }
+    },
+    "title": {"translate":"advancement.cnk.remix.name","fallback":"Remix"},
+    "description": [{"translate":"advancement.cnk.remix.desc","fallback":"Automatically recraft a recipe in the mixing bowl by shift right-clicking on it with an empty hand"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cnk:visible/mixing_bowl",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

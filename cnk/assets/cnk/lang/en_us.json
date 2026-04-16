@@ -348,6 +348,8 @@
   "advancement.cnk.cosmetic_pot.desc":"Obtain a cosmetic variant of the cooking pot",
   "advancement.cnk.pan.name":"Kitchen Confidential",
   "advancement.cnk.pan.desc":"Explosively obtain a pan by doing something reckless in the kitchen",
+  "advancement.cnk.remix.name":"Remix",
+  "advancement.cnk.remix.desc":"Automatically recraft a recipe in the mixing bowl by shift right-clicking on it with an empty hand",
   
   "death.attack.cnk.booze_cork": "%1$s got corked",
   "death.attack.cnk.scarecrow_spin": "%1$s got harvested",

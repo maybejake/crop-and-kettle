@@ -1,3 +1,5 @@
+advancement grant @p[tag=cnk.interact_mixing_bowl] only cnk:visible/remix
+
 data modify storage cnk:temp mixing_bowl.last_recipe set from entity @s item.components."minecraft:custom_data".cnk.last_recipe
 data modify storage cnk:temp mixing_bowl.last_recipe[].count set value 1
 execute if data storage cnk:temp mixing_bowl.last_recipe[{components:{"minecraft:custom_data":{cnk:{block:{type:"pail"}}}}}] run function cnk:mixing_bowl/repeat/pail
