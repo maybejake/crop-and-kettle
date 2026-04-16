@@ -4,114 +4,16 @@ execute if score $recipe cnk.dummy = $first_recipe cnk.dummy run return run func
 execute if score $recipe cnk.dummy = $second_recipe cnk.dummy run return run function cnk:villager/recipe
 
 data remove storage cnk:temp recipe
-execute if score $recipe cnk.dummy matches 1 run data modify storage cnk:temp recipe.sell set value { \
-    "id": "minecraft:poisonous_potato", \
-    "components": { \
-        "minecraft:item_name": {"translate":"item.cnk.tattered_recipe","fallback":"Tattered Recipe"}, \
-        "minecraft:item_model": "cnk:tattered_recipe", \
-        "minecraft:custom_data": {"cnk":{"recipe":{"type":"tattered"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}, \
-        "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}], \
-        "!minecraft:consumable": {}, \
-        "minecraft:rarity":"uncommon", \
-        "minecraft:max_stack_size": 1 \
-    } \
-}
-execute if score $recipe cnk.dummy matches 2 run data modify storage cnk:temp recipe.sell set value { \
-    "id": "minecraft:poisonous_potato", \
-    "components": { \
-        "minecraft:item_name": {"translate":"item.cnk.explosive_recipe","fallback":"Explosive Recipe"}, \
-        "minecraft:item_model": "cnk:explosive_recipe", \
-        "minecraft:custom_data": {"cnk":{"recipe":{"type":"explosive"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}, \
-        "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}], \
-        "!minecraft:consumable": {}, \
-        "minecraft:rarity":"uncommon", \
-        "minecraft:max_stack_size": 1 \
-    } \
-}
-execute if score $recipe cnk.dummy matches 3 run data modify storage cnk:temp recipe.sell set value { \
-    "id": "minecraft:poisonous_potato", \
-    "components": { \
-        "minecraft:item_name": {"translate":"item.cnk.frigid_recipe","fallback":"Frigid Recipe"}, \
-        "minecraft:item_model": "cnk:frigid_recipe", \
-        "minecraft:custom_data": {"cnk":{"recipe":{"type":"frigid"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}, \
-        "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}], \
-        "!minecraft:consumable": {}, \
-        "minecraft:rarity":"uncommon", \
-        "minecraft:max_stack_size": 1 \
-    } \
-}
-execute if score $recipe cnk.dummy matches 4 run data modify storage cnk:temp recipe.sell set value { \
-    "id": "minecraft:poisonous_potato", \
-    "components": { \
-        "minecraft:item_name": {"translate":"item.cnk.heavenly_recipe","fallback":"Heavenly Recipe"}, \
-        "minecraft:item_model": "cnk:heavenly_recipe", \
-        "minecraft:custom_data": {"cnk":{"recipe":{"type":"heavenly"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}, \
-        "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}], \
-        "!minecraft:consumable": {}, \
-        "minecraft:rarity":"uncommon", \
-        "minecraft:max_stack_size": 1 \
-    } \
-}
-execute if score $recipe cnk.dummy matches 5 run data modify storage cnk:temp recipe.sell set value { \
-    "id": "minecraft:poisonous_potato", \
-    "components": { \
-        "minecraft:item_name": {"translate":"item.cnk.roseate_recipe","fallback":"Roseate Recipe"}, \
-        "minecraft:item_model": "cnk:roseate_recipe", \
-        "minecraft:custom_data": {"cnk":{"recipe":{"type":"roseate"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}, \
-        "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}], \
-        "!minecraft:consumable": {}, \
-        "minecraft:rarity":"uncommon", \
-        "minecraft:max_stack_size": 1 \
-    } \
-}
-execute if score $recipe cnk.dummy matches 6 run data modify storage cnk:temp recipe.sell set value { \
-    "id": "minecraft:poisonous_potato", \
-    "components": { \
-        "minecraft:item_name": {"translate":"item.cnk.soaring_recipe","fallback":"Soaring Recipe"}, \
-        "minecraft:item_model": "cnk:soaring_recipe", \
-        "minecraft:custom_data": {"cnk":{"recipe":{"type":"soaring"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}, \
-        "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}], \
-        "!minecraft:consumable": {}, \
-        "minecraft:rarity":"uncommon", \
-        "minecraft:max_stack_size": 1 \
-    } \
-}
-execute if score $recipe cnk.dummy matches 7 run data modify storage cnk:temp recipe.sell set value { \
-    "id": "minecraft:poisonous_potato", \
-    "components": { \
-        "minecraft:item_name": {"translate":"item.cnk.thoughtful_recipe","fallback":"Thoughtful Recipe"}, \
-        "minecraft:item_model": "cnk:thoughtful_recipe", \
-        "minecraft:custom_data": {"cnk":{"recipe":{"type":"thoughtful"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}, \
-        "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}], \
-        "!minecraft:consumable": {}, \
-        "minecraft:rarity":"uncommon", \
-        "minecraft:max_stack_size": 1 \
-    } \
-}
-execute if score $recipe cnk.dummy matches 8 run data modify storage cnk:temp recipe.sell set value { \
-    "id": "minecraft:poisonous_potato", \
-    "components": { \
-        "minecraft:item_name": {"translate":"item.cnk.bubbling_recipe","fallback":"Bubbling Recipe"}, \
-        "minecraft:item_model": "cnk:bubbling_recipe", \
-        "minecraft:custom_data": {"cnk":{"recipe":{"type":"bubbling"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}, \
-        "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}], \
-        "!minecraft:consumable": {}, \
-        "minecraft:rarity":"uncommon", \
-        "minecraft:max_stack_size": 1 \
-    } \
-}
-execute if score $recipe cnk.dummy matches 9 run data modify storage cnk:temp recipe.sell set value { \
-    "id": "minecraft:poisonous_potato", \
-    "components": { \
-        "minecraft:item_name": {"translate":"item.cnk.flaming_recipe","fallback":"Bubbling Recipe"}, \
-        "minecraft:item_model": "cnk:flaming_recipe", \
-        "minecraft:custom_data": {"cnk":{"recipe":{"type":"flaming"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}, \
-        "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}], \
-        "!minecraft:consumable": {}, \
-        "minecraft:rarity":"uncommon", \
-        "minecraft:max_stack_size": 1 \
-    } \
-}
+execute if score $recipe cnk.dummy matches 1 run function cnk:loot_table_to_data/main {loot_table:"cnk:zzz_secret/tattered_recipe"}
+execute if score $recipe cnk.dummy matches 2 run function cnk:loot_table_to_data/main {loot_table:"cnk:zzz_secret/explosive_recipe"}
+execute if score $recipe cnk.dummy matches 3 run function cnk:loot_table_to_data/main {loot_table:"cnk:zzz_secret/frigid_recipe"}
+execute if score $recipe cnk.dummy matches 4 run function cnk:loot_table_to_data/main {loot_table:"cnk:zzz_secret/heavenly_recipe"}
+execute if score $recipe cnk.dummy matches 5 run function cnk:loot_table_to_data/main {loot_table:"cnk:zzz_secret/roseate_recipe"}
+execute if score $recipe cnk.dummy matches 6 run function cnk:loot_table_to_data/main {loot_table:"cnk:zzz_secret/soaring_recipe"}
+execute if score $recipe cnk.dummy matches 7 run function cnk:loot_table_to_data/main {loot_table:"cnk:zzz_secret/thoughtful_recipe"}
+execute if score $recipe cnk.dummy matches 8 run function cnk:loot_table_to_data/main {loot_table:"cnk:zzz_secret/bubbling_recipe"}
+execute if score $recipe cnk.dummy matches 9 run function cnk:loot_table_to_data/main {loot_table:"cnk:zzz_secret/flaming_recipe"}
+data modify storage cnk:temp recipe.sell set from storage cnk:temp loot_table.data
 
 data modify storage cnk:temp recipe.buy set value {"id":"minecraft:emerald", count:20}
 data modify storage cnk:temp recipe.buyB set value {"id":"minecraft:paper", count:1}

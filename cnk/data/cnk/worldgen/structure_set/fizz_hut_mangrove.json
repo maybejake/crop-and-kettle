@@ -1,7 +1,7 @@
 {
   "structures": [
     {
-      "structure": "cnk:fizz_hut_snow",
+      "structure": "cnk:fizz_hut_mangrove",
       "weight": 1
     }
   ],
@@ -9,6 +9,6 @@
     "type": "minecraft:random_spread",
     "spacing": 32,
     "separation": 8,
-    "salt": 12160942
+    "salt": 57641248
   }
 }

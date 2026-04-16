@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:loot_table", "value": "cnk:food/candy/black"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/candy/blue"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/candy/brown"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/candy/cyan"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/candy/gray"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/candy/green"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/candy/light_blue"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/candy/light_gray"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/candy/lime"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/candy/magenta"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/candy/orange"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/candy/pink"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/candy/purple"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/candy/red"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/candy/white"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/candy/yellow"}
+      ]
+    }
+  ]
+}

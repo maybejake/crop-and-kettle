@@ -3,11 +3,13 @@ data modify entity @s DeathTime set value 19s
 
 execute if predicate cnk:moving run function cnk:fizz/moving
 
+data remove entity @s[tag=!cnk.fizz_trading] Offers.Recipes
+
 # ambient sound
 execute if predicate [{condition:"minecraft:entity_properties",entity:"this",predicate:{periodic_tick:40}},{condition:"minecraft:random_chance",chance:0.6}] at @s run playsound minecraft:entity.frog.ambient neutral @a ~ ~ ~ 1 0.5
-execute if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{periodic_tick:10}} run function cnk:fizz/ai/main
 
-data remove entity @s Offers.Recipes
+# ai
+execute if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{periodic_tick:10}} run function cnk:fizz/ai/main
 
 execute store result score $hurt_time cnk.dummy run data get entity @s HurtTime
 execute unless score $hurt_time cnk.dummy matches 0 run return run function cnk:fizz/damaged

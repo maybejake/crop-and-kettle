@@ -140,6 +140,7 @@
   "item.cnk.stove": "Stove",
   "item.cnk.stove?": "Stove?",
   "item.cnk.pan": "Pan",
+  "item.cnk.fizz_gift": "Fizz Gift",
   
   "tooltip.cnk.gift.tag": "From %1$s",
   
@@ -153,6 +154,8 @@
   "item.cnk.calendar.delta.format.both_singular": "%1$s year and %1$s day",
   
   "item.cnk.wine.spirited": "Spirited",
+  
+  "entity.cnk.fizz": "Fizz",
   
   "subtitles.cnk.block.cooking_pot.idling": "Cooking pot bubbles",
   "subtitles.cnk.block.cooking_pot.cooking": "Cooking pot boils",

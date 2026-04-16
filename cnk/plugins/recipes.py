@@ -125,6 +125,10 @@ def generate_recipes(ctx: Context):
         generate_grant_code(ctx, recipe)
         generate_page_register(ctx, recipe)
 
+        # Fizz stuff
+        if recipe.category != "staple":
+            generate_fizz_trade(ctx, recipe)
+
     # Order cookbook section tags alphabetically
     order_section_tags(ctx)
 
@@ -524,6 +528,17 @@ def generate_page_register(ctx: Context, recipe: Recipe):
     function_tag = ctx.data.function_tags[f"cnk:cookbook/{recipe.category}"].data
     function_tag["values"].append(f"cnk:cookbook/pages/{recipe.id}/register")
     ctx.data[f"cnk:cookbook/{recipe.category}"] = FunctionTag(function_tag)
+
+
+def generate_fizz_trade(ctx: Context, recipe: Recipe):
+    """Generate a fizz trade for a given recipe"""
+    loot_table = f"cnk:food/{recipe.id}"
+    if recipe.loot_table:
+        loot_table = recipe.loot_table
+
+    trade_function = ctx.data.functions["cnk:fizz/trading/buy/recipes"].lines
+    trade_function.append(f"execute if entity @s[advancements={{{f"cnk:cookbook/{recipe.id}/item"}=true}}] run data modify storage cnk:temp fizz.trading.items append value {{loot_table:'{loot_table}'}}")
+    ctx.data["cnk:fizz/trading/buy/recipes"] = Function(trade_function)
 
 
 def order_section_tags(ctx: Context):

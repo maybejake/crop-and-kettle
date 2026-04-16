@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:loot_table", "value": "cnk:food/festive_cookie/black"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/festive_cookie/blue"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/festive_cookie/brown"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/festive_cookie/cyan"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/festive_cookie/gray"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/festive_cookie/green"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/festive_cookie/light_blue"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/festive_cookie/light_gray"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/festive_cookie/lime"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/festive_cookie/magenta"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/festive_cookie/orange"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/festive_cookie/pink"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/festive_cookie/purple"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/festive_cookie/red"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/festive_cookie/white"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/festive_cookie/yellow"}
+      ]
+    }
+  ]
+}

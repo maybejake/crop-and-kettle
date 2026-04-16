@@ -1,14 +1,12 @@
 {
   "type": "minecraft:jigsaw",
   "biomes": [
-    "minecraft:snowy_plains",
-    "minecraft:snowy_taiga",
-    "minecraft:ice_spikes"
+    "minecraft:mangrove_swamp"
   ],
   "step": "surface_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_thin",
-  "start_pool": "cnk:fizz_hut_snow",
+  "start_pool": "cnk:fizz_hut_mangrove",
   "size": 1,
   "start_height": {
     "absolute": 0

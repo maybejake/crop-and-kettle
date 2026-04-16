@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:loot_table", "value": "cnk:food/gingerbread/blush"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/gingerbread/hat"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/gingerbread/normal"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/gingerbread/pants"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/gingerbread/psy"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/gingerbread/scarf"}
+      ]
+    }
+  ]
+}
