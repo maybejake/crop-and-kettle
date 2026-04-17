@@ -42,3 +42,4 @@ execute unless entity @s[advancements={cnk:cookbook/blaze_rod/item=true}] run da
 execute unless entity @s[advancements={cnk:cookbook/bone_meal/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:bone_meal", count:1}
 execute unless entity @s[advancements={cnk:cookbook/snowball/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:snowball", count:1}
 execute unless entity @s[advancements={cnk:cookbook/grass_block/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:grass_block", count:1}
+execute unless entity @s[advancements={cnk:cookbook/iron_sword/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:iron_sword", count:1}
