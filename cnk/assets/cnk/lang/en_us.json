@@ -141,6 +141,7 @@
   "item.cnk.stove?": "Stove?",
   "item.cnk.pan": "Pan",
   "item.cnk.lily_pad_parcel": "Lily Pad Parcel",
+  "item.cnk.lily_pad_parcel.tooltip": "Right-click to open",
   
   "tooltip.cnk.gift.tag": "From %1$s",
   

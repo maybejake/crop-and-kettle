@@ -2,7 +2,7 @@
     "id": "beef_stroganoff",
     "name": "Beef Stroganoff",
     "ingredients": [
-        "cnk:beet_cutlet",
+        "cnk:beef_cutlets",
         "cnk:noodles",
         "cnk:milk_bottle",
         "cnk:any_mushroom",

@@ -1,6 +1,6 @@
 {
   "wants": {
-    "id": "minecraft:poisonous_potato",
+    "id": "minecraft:baked_potato",
     "components": {
       "minecraft:item_name": {"translate":"item.cnk.grapes","fallback":"Grapes"},
       "minecraft:item_model": "cnk:grapes",

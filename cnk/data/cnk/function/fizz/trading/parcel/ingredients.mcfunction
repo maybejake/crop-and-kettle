@@ -1,0 +1,44 @@
+execute unless entity @s[advancements={cnk:cookbook/beef/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:beef", count:1}
+execute unless entity @s[advancements={cnk:cookbook/milk_bottle/item=true}] run data modify storage cnk:temp fizz.trading.items append value {loot_table:"cnk:food/milk_bottle"}
+execute unless entity @s[advancements={cnk:cookbook/chicken/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:chicken", count:1}
+execute unless entity @s[advancements={cnk:cookbook/acacia_log/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:acacia_log", count:1}
+execute unless entity @s[advancements={cnk:cookbook/cod/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:cod", count:1}
+execute unless entity @s[advancements={cnk:cookbook/sunflower/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:sunflower", count:1}
+execute unless entity @s[advancements={cnk:cookbook/glass_bottle/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:glass_bottle", count:1}
+execute unless entity @s[advancements={cnk:cookbook/wheat/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:wheat", count:1}
+execute unless entity @s[advancements={cnk:cookbook/water/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:potion", "components": {"minecraft:potion_contents": {"potion":"minecraft:water"}}, count:1}
+execute unless entity @s[advancements={cnk:cookbook/hanging_roots/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:hanging_roots", count:1}
+execute unless entity @s[advancements={cnk:cookbook/glow_berries/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:glow_berries", count:1}
+execute unless entity @s[advancements={cnk:cookbook/mutton/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:mutton", count:1}
+execute unless entity @s[advancements={cnk:cookbook/porkchop/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:porkchop", count:1}
+execute unless entity @s[advancements={cnk:cookbook/rabbit/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:rabbit", count:1}
+execute unless entity @s[advancements={cnk:cookbook/salmon/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:salmon", count:1}
+execute unless entity @s[advancements={cnk:cookbook/sugar/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:sugar", count:1}
+execute unless entity @s[advancements={cnk:cookbook/potato/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:potato", count:1}
+execute unless entity @s[advancements={cnk:cookbook/ice/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:ice", count:1}
+execute unless entity @s[advancements={cnk:cookbook/cocoa_beans/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:cocoa_beans", count:1}
+execute unless entity @s[advancements={cnk:cookbook/pumpkin/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:pumpkin", count:1}
+execute unless entity @s[advancements={cnk:cookbook/pumpkin_seeds/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:pumpkin_seeds", count:1}
+execute unless entity @s[advancements={cnk:cookbook/leaf_litter/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:leaf_litter", count:1}
+execute unless entity @s[advancements={cnk:cookbook/stick/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:stick", count:1}
+execute unless entity @s[advancements={cnk:cookbook/egg/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:egg", count:1}
+execute unless entity @s[advancements={cnk:cookbook/leaf_litter/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:leaf_litter", count:1}
+execute unless entity @s[advancements={cnk:cookbook/carrot/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:carrot", count:1}
+execute unless entity @s[advancements={cnk:cookbook/any_mushroom/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:brown_mushroom", count:1}
+execute unless entity @s[advancements={cnk:cookbook/any_disc/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:music_disc_cat", count:1}
+execute unless entity @s[advancements={cnk:cookbook/stone/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:stone", count:1}
+execute unless entity @s[advancements={cnk:cookbook/dried_kelp/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:dried_kelp", count:1}
+execute unless entity @s[advancements={cnk:cookbook/sweet_berries/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:sweet_berries", count:1}
+execute unless entity @s[advancements={cnk:cookbook/honey_bottle/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:honey_bottle", count:1}
+execute unless entity @s[advancements={cnk:cookbook/apple/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:apple", count:1}
+execute unless entity @s[advancements={cnk:cookbook/beetroot/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:beetroot", count:1}
+execute unless entity @s[advancements={cnk:cookbook/beer/item=true}] run data modify storage cnk:temp fizz.trading.items append value {loot_table:"cnk:food/beer"}
+execute unless entity @s[advancements={cnk:cookbook/sea_pickle/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:sea_pickle", count:1}
+execute unless entity @s[advancements={cnk:cookbook/any_seed/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:wheat_seeds", count:1}
+execute unless entity @s[advancements={cnk:cookbook/any_dye/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:red_dye", count:1}
+execute unless entity @s[advancements={cnk:cookbook/chorus_fruit/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:chorus_fruit", count:1}
+execute unless entity @s[advancements={cnk:cookbook/cookie/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:cookie", count:1}
+execute unless entity @s[advancements={cnk:cookbook/blaze_rod/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:blaze_rod", count:1}
+execute unless entity @s[advancements={cnk:cookbook/bone_meal/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:bone_meal", count:1}
+execute unless entity @s[advancements={cnk:cookbook/snowball/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:snowball", count:1}
+execute unless entity @s[advancements={cnk:cookbook/grass_block/item=true}] run data modify storage cnk:temp fizz.trading.items append value {id:"minecraft:grass_block", count:1}
