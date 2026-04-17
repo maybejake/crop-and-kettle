@@ -140,7 +140,7 @@
   "item.cnk.stove": "Stove",
   "item.cnk.stove?": "Stove?",
   "item.cnk.pan": "Pan",
-  "item.cnk.fizz_gift": "Fizz Gift",
+  "item.cnk.lily_pad_parcel": "Lily Pad Parcel",
   
   "tooltip.cnk.gift.tag": "From %1$s",
   
@@ -156,6 +156,9 @@
   "item.cnk.wine.spirited": "Spirited",
   
   "entity.cnk.fizz": "Fizz",
+  "entity.cnk.booze": "Booze",
+  "entity.cnk.scarecrow": "Scarecrow",
+  "entity.cnk.sourdough_boy": "Sourdough Boy",
   
   "subtitles.cnk.block.cooking_pot.idling": "Cooking pot bubbles",
   "subtitles.cnk.block.cooking_pot.cooking": "Cooking pot boils",
