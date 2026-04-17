@@ -1,0 +1,2 @@
+execute if data storage cnk:temp cookbook.data{page_name:"item.cnk.unknown"} run return run function cnk:cookbook/pages/kebab_sword/locked with storage cnk:temp cookbook.data
+function cnk:cookbook/pages/kebab_sword/unlocked with storage cnk:temp cookbook.data

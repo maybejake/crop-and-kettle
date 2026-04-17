@@ -8,7 +8,7 @@ data modify storage cnk:temp register.ingredients set value [ \
     {key:"item.minecraft.iron_sword", font:"cnk.book:icons"}, \
 ]
 
-data modify storage cnk:temp register.dialog_function set value "cnk:cookbook/pages/kebab_sword/page"
+data modify storage cnk:temp register.dialog_function set value "cnk:cookbook/pages/kebab_sword/switch"
 
 data modify storage cnk:temp register.source set value {key:"cnk.source", font:"cnk.book:base"}
 
