@@ -1,0 +1,18 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:zzz_secret/dino_nugget_stego",
+          "weight": 1
+        },
+        {
+          "type":"minecraft:empty",
+          "weight": 9
+        }
+      ]
+    }
+  ]
+}

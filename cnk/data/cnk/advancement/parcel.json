@@ -6,13 +6,13 @@
           "conditions": {
               "item": {
                   "predicates": {
-                      "minecraft:custom_data": {"cnk":{"scythe":true}}
+                      "minecraft:custom_data": {"cnk":{"lily_pad_parcel":true}}
                   }
               }
           }
       }
   },
   "rewards": {
-      "function": "cnk:scythe/effect"
+      "function": "cnk:parcel/effect"
   }
 }

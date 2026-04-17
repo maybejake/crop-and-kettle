@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.lily_pad_parcel","fallback":"Lily Pad Parcel"},
                 "minecraft:item_model": "minecraft:bundle",
-                "minecraft:custom_data": {"cnk":{"fizz_gift":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:custom_data": {"cnk":{"lily_pad_parcel":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:lore": [
                   {"translate":"item.cnk.lily_pad_parcel.tooltip","color":"gray","italic":true},
                   {"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}
