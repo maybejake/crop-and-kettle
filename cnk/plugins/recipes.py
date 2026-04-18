@@ -135,12 +135,19 @@ def generate_recipes(ctx: Context):
 
 def generate_loot_table(ctx: Context, recipe: Recipe):
     """Generate a loot table for a recipe"""
+    # Handle feast and placeable data
     cnk_data = {"ingredient":{"type":recipe.id}}
     if recipe.category == "feasts":
         cnk_data["ingredient"]["feasts"] = True
     if recipe.plateable is True:
         cnk_data["placeable"] = {"model":f"cnk:placeable/{recipe.id}"}
-    
+
+    # Handle consume time (default is 1.6)
+    consumable = {}
+    if recipe.category == "feasts":
+        consumable["consume_seconds"] = 2.4
+    elif recipe.category == "hearty":
+        consumable["consume_seconds"] = 2.0
 
     ctx.data[f"cnk:food/{recipe.id}"] = LootTable({
         "pools": [
@@ -157,7 +164,7 @@ def generate_loot_table(ctx: Context, recipe: Recipe):
                                     "minecraft:item_name": {"translate":f"item.cnk.{recipe.id}", "fallback":f"{recipe.name}"},
                                     "minecraft:item_model": f"cnk:{recipe.id}",
                                     "minecraft:food": {"nutrition":recipe.nutrition, "saturation":recipe.saturation},
-                                    "minecraft:consumable": {},
+                                    "minecraft:consumable": consumable,
                                     "minecraft:custom_data": {"cnk":cnk_data, "smithed":{"ignore":{"functionality":True, "crafting":True}}},
                                     "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":False}]
                                 }
