@@ -1,7 +1,7 @@
 advancement revoke @s only cnk:speak
 
-execute at @s run playsound minecraft:entity.breeze.idle_ground master @s ~ ~ ~ 0.2 0.8
-execute at @s run playsound minecraft:entity.breeze.idle_ground master @s ~ ~ ~ 0.1 1.3
+execute at @s run playsound minecraft:entity.breeze.idle_ground player @s ~ ~ ~ 0.2 0.8
+execute at @s run playsound minecraft:entity.breeze.idle_ground player @s ~ ~ ~ 0.1 1.3
 
 execute store result score $random_speak cnk.dummy run random value 1..10
 execute if score $random_speak cnk.dummy matches 1 run tellraw @s {translate:cnk.speak.1,color:"gray",italic:true}

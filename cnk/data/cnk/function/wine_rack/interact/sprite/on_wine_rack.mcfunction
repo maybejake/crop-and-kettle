@@ -23,7 +23,7 @@ execute if score $wine_count cnk.dummy matches 4.. run function cnk:wine_rack/in
 
 data modify entity @s item.components."minecraft:bundle_contents" set from storage cnk:temp wine_rack.temp_contents
 
-playsound cnk:item.spirit_sprite.use master @a ~ ~ ~ 1 1
-playsound cnk:block.wine_rack.spirited master @a ~ ~ ~ 1 1
+playsound cnk:item.spirit_sprite.use player @a ~ ~ ~ 1 1
+playsound cnk:block.wine_rack.spirited player @a ~ ~ ~ 1 1
 
 execute as @p[tag=cnk.sprite_use] run item modify entity @s[gamemode=!creative] weapon.mainhand {"function":"minecraft:set_count","count":-1,"add":true}
