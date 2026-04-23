@@ -11,7 +11,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.lily_pad_parcel","fallback":"Lily Pad Parcel"},
-                "minecraft:item_model": "minecraft:bundle",
+                "minecraft:item_model": "cnk:lily_pad_parcel",
                 "minecraft:custom_data": {"cnk":{"lily_pad_parcel":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:lore": [
                   {"translate":"item.cnk.lily_pad_parcel.tooltip","color":"gray","italic":true},

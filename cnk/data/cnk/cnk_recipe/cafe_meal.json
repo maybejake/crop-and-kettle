@@ -1,0 +1,13 @@
+{
+    "id": "cafe_meal",
+    "name": "Café Meal",
+    "ingredients": [
+        "cnk:coffee",
+        "cnk:coffee_cake",
+        "cnk:blt"
+    ],
+    "nutrition": 15,
+    "saturation": 20,
+    "category": "feasts",
+    "tool": "cooking_pot"
+}
