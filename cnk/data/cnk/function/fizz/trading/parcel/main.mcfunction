@@ -1,3 +1,6 @@
+# particle
+execute at @s anchored eyes run particle minecraft:item{item:{id:"minecraft:poisonous_potato",components:{"minecraft:item_model":"cnk:lily_pad_parcel"}}} ^ ^-0.35 ^0.65 0.1 0.1 0.1 0.06 10 force
+
 # give treasure
 data modify storage cnk:temp fizz.parcel.item set value {loot_table:"cnk:entity/fizz/treasure"}
 function cnk:fizz/trading/parcel/reward/main
