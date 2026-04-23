@@ -9,5 +9,6 @@
     "nutrition": 15,
     "saturation": 20,
     "category": "feasts",
-    "tool": "cooking_pot"
+    "tool": "cooking_pot",
+    "loot_table": "cnk:food/cafe_meal"
 }

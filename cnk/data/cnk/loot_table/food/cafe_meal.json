@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.cafe_meal", "fallback":"Café Meal"},
+                "minecraft:item_model": "cnk:cafe_meal",
+                "minecraft:food": {
+                  "nutrition":15,
+                  "saturation":20.0
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.4,
+                  "on_consume_effects": [
+                    {"type": "minecraft:apply_effects", "effects": [
+                      {"id": "minecraft:speed", "amplifier": 0, "duration": 1200, "show_particles": false},
+                      {"id": "minecraft:haste", "amplifier": 0, "duration": 1200, "show_particles": false}
+                    ]}
+                  ]
+                },
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"cafe_meal","feasts":true}},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
+                "minecraft:lore": [{"translate": "cnk.tooltip","font": "cnk:tooltip","color": "white","italic": false}]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

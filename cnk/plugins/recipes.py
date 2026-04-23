@@ -163,7 +163,7 @@ def generate_loot_table(ctx: Context, recipe: Recipe):
                                 "components": {
                                     "minecraft:item_name": {"translate":f"item.cnk.{recipe.id}", "fallback":f"{recipe.name}"},
                                     "minecraft:item_model": f"cnk:{recipe.id}",
-                                    "minecraft:food": {"nutrition":recipe.nutrition, "saturation":recipe.saturation},
+                                    "minecraft:food": {"nutrition":int(recipe.nutrition), "saturation":recipe.saturation},
                                     "minecraft:consumable": consumable,
                                     "minecraft:custom_data": {"cnk":cnk_data, "smithed":{"ignore":{"functionality":True, "crafting":True}}},
                                     "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":False}]
