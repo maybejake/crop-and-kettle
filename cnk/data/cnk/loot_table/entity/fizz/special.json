@@ -5,12 +5,11 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "cnk:other/fizz_whistle",
-          "weight": 1
+          "value": "cnk:other/fizz_whistle"
         },
         {
-          "type":"minecraft:empty",
-          "weight": 9
+          "type": "minecraft:loot_table",
+          "value": "cnk:other/fizz_fez"
         }
       ]
     }

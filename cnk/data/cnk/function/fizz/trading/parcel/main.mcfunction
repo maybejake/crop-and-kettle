@@ -3,7 +3,7 @@ data modify storage cnk:temp fizz.parcel.item set value {loot_table:"cnk:entity/
 function cnk:fizz/trading/parcel/reward/main
 
 # give special
-data modify storage cnk:temp fizz.parcel.item set value {loot_table:"cnk:entity/fizz/special"}
+function cnk:fizz/trading/parcel/special
 function cnk:fizz/trading/parcel/reward/main
 
 # give ingredient
@@ -15,7 +15,7 @@ function #cnk:addons/fizz/ingredients
 
 # if all ingredients unlocked, give another roll on the special loot table
 execute store result score $count cnk.dummy run data get storage cnk:temp fizz.trading.items
-execute if score $count cnk.dummy matches 0 run return run function cnk:fizz/trading/parcel/reward/main
+execute if score $count cnk.dummy matches 0 run return run function cnk:fizz/trading/parcel/special
 
 # pick from list, then reward
 function cnk:fizz/trading/parcel/pick
