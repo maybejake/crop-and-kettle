@@ -126,8 +126,7 @@ def generate_recipes(ctx: Context):
         generate_page_register(ctx, recipe)
 
         # Fizz stuff
-        if recipe.category != "staple":
-            generate_fizz_trade(ctx, recipe)
+        generate_fizz_trade(ctx, recipe)
 
     # Order cookbook section tags alphabetically
     order_section_tags(ctx)
@@ -539,12 +538,23 @@ def generate_page_register(ctx: Context, recipe: Recipe):
 
 def generate_fizz_trade(ctx: Context, recipe: Recipe):
     """Generate a fizz trade for a given recipe"""
+    # assign count based on category
+    if recipe.category == "hearty" or recipe.category == "feasts" or "music_disc" in recipe.id:
+        count = 1
+    elif recipe.category == "light":
+        count = 2
+    elif recipe.category == "desserts" or recipe.category == "snacks":
+        count = 3
+    elif recipe.category == "staple":
+        # don't add trades for staples
+        return
+
     loot_table = f"cnk:food/{recipe.id}"
     if recipe.loot_table:
         loot_table = recipe.loot_table
 
     trade_function = ctx.data.functions["cnk:fizz/trading/buy/recipes"].lines
-    trade_function.append(f"execute if entity @s[advancements={{{f"cnk:cookbook/{recipe.id}/item"}=true}}] run data modify storage cnk:temp fizz.trading.items append value {{loot_table:'{loot_table}'}}")
+    trade_function.append(f"execute if entity @s[advancements={{{f"cnk:cookbook/{recipe.id}/item"}=true}}] run data modify storage cnk:temp fizz.trading.items append value {{loot_table:'{loot_table}', count:{count}}}")
     ctx.data["cnk:fizz/trading/buy/recipes"] = Function(trade_function)
 
 

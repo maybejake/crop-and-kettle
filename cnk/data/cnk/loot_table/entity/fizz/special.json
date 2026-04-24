@@ -5,12 +5,12 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "cnk:zzz_secret/dino_nugget_stego",
+          "value": "cnk:other/fizz_whistle",
           "weight": 1
         },
         {
           "type":"minecraft:empty",
-          "weight": 19
+          "weight": 9
         }
       ]
     }

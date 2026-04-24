@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "cnk:item/fizz_whistle"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "cnk:item/tooting_fizz_whistle"
+    },
+    "property": "minecraft:using_item"
+  }
+}

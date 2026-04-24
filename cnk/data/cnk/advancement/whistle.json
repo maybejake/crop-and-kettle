@@ -1,0 +1,17 @@
+{
+  "criteria": {
+      "requirement": {
+          "trigger": "minecraft:consume_item",
+          "conditions": {
+              "item": {
+                  "predicates": {
+                      "minecraft:custom_data": {"cnk":{"fizz_whistle":true}}
+                  }
+              }
+          }
+      }
+  },
+  "rewards": {
+      "function": "cnk:fizz_whistle/main"
+  }
+}

@@ -4,6 +4,6 @@ effect give @s invisibility infinite 0 true
 
 data modify entity @s DeathTime set value 19s
 
-data modify entity @s DespawnDelay set value 2147483647
+data modify entity @s[tag=!cnk.fizz_whistled] DespawnDelay set value 2147483647
 
 data remove entity @s[tag=!cnk.fizz_trading] Offers.Recipes

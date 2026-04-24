@@ -9,11 +9,11 @@ function cnk:fizz/trading/trades/meat
 # populate the buy list
 execute as @p[gamemode=!spectator,distance=..10] run function cnk:fizz/trading/buy/main
 
-execute store result score $item_count cnk.dummy run data get storage cnk:temp fizz.trading.items
-execute if score $item_count cnk.dummy matches 0 run return fail
 tag @s add cnk.fizz_trading
 
-execute store result score $count cnk.dummy run random value 3..4
+# do 4 trades
+scoreboard players set $count cnk.dummy 4
+execute store result score $item_count cnk.dummy run data get storage cnk:temp fizz.trading.items
 execute if score $count cnk.dummy > $item_count cnk.dummy run scoreboard players operation $count cnk.dummy = $item_count cnk.dummy
 
 function cnk:fizz/trading/generate
