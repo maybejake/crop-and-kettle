@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "cnk:fizz_whistle"
+      }
+    },
+    "title": {"translate":"advancement.cnk.fizz_special.name","fallback":"Pond Patron"},
+    "description": [{"translate":"advancement.cnk.fizz_special.desc","fallback":"Get every special reward obtainable from lily pad parcels"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "parent": "cnk:visible/lily_pad_parcel",
+  "criteria": {
+    "cnk:fizz_whistle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"fizz_whistle":true}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:fizz_fez": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"fizz_fez":true}}
+            }
+          }
+        ]
+      }
+    }
+  }
+}

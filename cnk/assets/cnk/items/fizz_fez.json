@@ -14,7 +14,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "cnk:item/leaf_garland_item"
+      "model": "cnk:item/fizz_fez_item"
     },
     "property": "minecraft:display_context"
   }

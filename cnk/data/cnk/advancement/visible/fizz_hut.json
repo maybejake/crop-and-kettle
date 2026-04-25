@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "cnk:fizz_fez"
+      }
+    },
+    "title": {"translate":"advancement.cnk.fizz_hut.name","fallback":"Ribbiting Adventure"},
+    "description": [{"translate":"advancement.cnk.fizz_hut.desc","fallback":"Find Fizz's hut in a cold or swampy biome"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cnk:visible/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "#cnk:fizz_hut"
+          }
+        }
+      }
+    }
+  }
+}

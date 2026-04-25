@@ -1,5 +1,8 @@
 scoreboard players set @s cnk.use_cooldown 5
 
+# advancement
+advancement grant @s only cnk:visible/lily_pad_parcel
+
 # give rewards
 function cnk:fizz/trading/parcel/main
 

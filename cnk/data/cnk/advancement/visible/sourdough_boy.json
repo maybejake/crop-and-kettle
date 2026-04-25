@@ -13,7 +13,7 @@
     "hidden": false,
     "frame": "challenge"
   },
-  "parent": "cnk:visible/root",
+  "parent": "cnk:visible/fizz_hut",
   "criteria": {
     "": {
       "trigger": "minecraft:impossible"

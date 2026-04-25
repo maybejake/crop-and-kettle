@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:item_model": "cnk:picnic_basket"
+      }
+    },
+    "title": {"translate":"advancement.cnk.picnic_basket.name","fallback":"Packed Lunch"},
+    "description": [{"translate":"advancement.cnk.picnic_basket.desc","fallback":"Store food on the go by crafting a picnic basket"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cnk:visible/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:player_head",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"block":{"type":"picnic_basket"}}}
+            }
+          }
+        ]
+      }
+    }
+  }
+}

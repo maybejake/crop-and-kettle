@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.picnic_basket","fallback":"Picnic Basket"},
+                "minecraft:item_model": "cnk:picnic_basket",
+                "minecraft:custom_data": {"cnk":{"block":{"type":"picnic_basket"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                "minecraft:profile": {"texture":"cnk:block/transparent_head"},
+                "tooltip_display": {"hidden_components":["minecraft:profile"]},
+                "minecraft:bundle_contents": [],
+                "minecraft:custom_model_data": {"flags": [false]},
+                "minecraft:rarity":"common",
+                "!minecraft:equippable": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

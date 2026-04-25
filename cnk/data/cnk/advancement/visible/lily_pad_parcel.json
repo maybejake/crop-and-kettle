@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "cnk:lily_pad_parcel"
+      }
+    },
+    "title": {"translate":"advancement.cnk.lily_pad_parcel.name","fallback":"Hoppy Meal"},
+    "description": [{"translate":"advancement.cnk.lily_pad_parcel.desc","fallback":"Open a lily pad parcel and receive an ingredient you've yet to discover"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cnk:visible/fizz_hut",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -147,6 +147,7 @@
   "item.cnk.fizz_whistle": "Fizz Whisle",
   "item.cnk.tortilla_sombrero": "Tortilla Sombrero",
   "item.cnk.fizz_fez": "Fizz's Fez",
+  "item.cnk.picnic_basket": "Picnic Basket",
   
   "tooltip.cnk.gift.tag": "From %1$s",
   
@@ -360,6 +361,14 @@
   "advancement.cnk.pan.desc":"Explosively obtain a pan by doing something reckless in the kitchen",
   "advancement.cnk.remix.name":"Remix",
   "advancement.cnk.remix.desc":"Automatically recraft a recipe in the mixing bowl by shift right-clicking on it with an empty hand",
+  "advancement.cnk.fizz_hut.name":"Ribbiting Adventure",
+  "advancement.cnk.fizz_hut.desc":"Find Fizz's hut in a cold or swampy biome",
+  "advancement.cnk.lily_pad_parcel.name":"Hoppy Meal",
+  "advancement.cnk.lily_pad_parcel.desc":"Open a lily pad parcel and receive an ingredient you've yet to discover",
+  "advancement.cnk.fizz_special.name":"Pond Patron",
+  "advancement.cnk.fizz_special.desc":"Get every special reward obtainable from lily pad parcels",
+  "advancement.cnk.picnic_basket.name":"Packed Lunch",
+  "advancement.cnk.picnic_basket.desc":"Store food on the go by crafting a picnic basket",
   
   "death.attack.cnk.booze_cork": "%1$s got corked",
   "death.attack.cnk.scarecrow_spin": "%1$s got harvested",
