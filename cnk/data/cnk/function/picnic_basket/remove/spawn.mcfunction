@@ -1,1 +1,1 @@
-$execute at @s rotated as @s run loot spawn ^ ^0.3 ^0.3 loot {pools:[{rolls:1,entries:[{type:"minecraft:item",name:"$(id)",functions:[{function:"minecraft:set_components",components:$(components)},{function:"minecraft:set_count",count:$(count)}]}]}]}
+$execute at @s rotated as @s run loot spawn ^ ^0.3 ^0.25 loot {pools:[{rolls:1,entries:[{type:"minecraft:item",name:"$(id)",functions:[{function:"minecraft:set_components",components:$(components)},{function:"minecraft:set_count",count:$(count)}]}]}]}

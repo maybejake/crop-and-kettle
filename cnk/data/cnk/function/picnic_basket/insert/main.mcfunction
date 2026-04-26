@@ -1,13 +1,19 @@
 data remove storage cnk:temp picnic_basket
 
+# get the item to insert and the hand it comes from
+execute as @p[tag=cnk.interact_picnic_basket] run function cnk:picnic_basket/insert/get_item/switch
+
+# if no data obtained, toggle
+execute unless data storage cnk:temp picnic_basket.item run return run function cnk:picnic_basket/interact/toggle_open
+
 # play a little sound
 playsound minecraft:item.bundle.insert block @a ~ ~ ~ 1 0.6
 
+# do a little particle
+execute at @s rotated as @s run particle minecraft:dust_plume ^ ^0.3 ^0.25 0 0 0 0 4
+
 # open basket (funeral)
 item modify entity @s contents {"function":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","size":1,"offset":0,"values":[true]}}
-
-# get the item to insert and the hand it comes from
-execute as @p[tag=cnk.interact_picnic_basket] run function cnk:picnic_basket/insert/switch
 
 # calculate new count with item stack inserted
 scoreboard players set $item_count cnk.dummy 1
