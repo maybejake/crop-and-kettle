@@ -14,7 +14,7 @@
                 "minecraft:item_model": "cnk:lily_pad_parcel",
                 "minecraft:custom_data": {"cnk":{"lily_pad_parcel":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:lore": [
-                  {"translate":"item.cnk.lily_pad_parcel.tooltip","color":"gray","italic":true},
+                  {"translate":"item.cnk.lily_pad_parcel.tooltip","color":"gray","italic":false},
                   {"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}
                 ],
                 "minecraft:use_effects": {"can_sprint":true, "speed_multiplier":1, "interact_vibrations":true},

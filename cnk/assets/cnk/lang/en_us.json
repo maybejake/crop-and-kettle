@@ -148,6 +148,7 @@
   "item.cnk.tortilla_sombrero": "Tortilla Sombrero",
   "item.cnk.fizz_fez": "Fizz's Fez",
   "item.cnk.picnic_basket": "Picnic Basket",
+  "item.cnk.picnic_basket.tooltip": "%1$s/%2$s",
   
   "tooltip.cnk.gift.tag": "From %1$s",
   

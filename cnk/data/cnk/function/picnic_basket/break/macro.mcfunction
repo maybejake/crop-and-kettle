@@ -1,0 +1,1 @@
+$loot spawn ~ ~ ~ loot {pools:[{rolls:1,entries:[{type:"minecraft:loot_table",value:"cnk:tools/picnic_basket",functions:[{function:"minecraft:set_components",components:$(components)}]}]}]}
