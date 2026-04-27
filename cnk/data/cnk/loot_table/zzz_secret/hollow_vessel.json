@@ -16,7 +16,7 @@
                 "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
                 "minecraft:profile": {"texture":"cnk:block/transparent_head"},
                 "tooltip_display": {"hidden_components":["minecraft:profile"]},
-                "minecraft:rarity":"common",
+                "minecraft:rarity":"uncommon",
                 "!minecraft:equippable": {}
               }
             }
