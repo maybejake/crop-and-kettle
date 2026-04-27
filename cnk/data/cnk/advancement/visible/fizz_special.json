@@ -38,6 +38,30 @@
           }
         ]
       }
+    },
+    "cnk:fizz_oven": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"block":{"type":"cooking_pot","fizz_oven":true}}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:hollow_vessel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"block":{"type":"hollow_vessel"}}}
+            }
+          }
+        ]
+      }
     }
   }
 }

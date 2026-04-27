@@ -10,6 +10,14 @@
         {
           "type": "minecraft:loot_table",
           "value": "cnk:other/fizz_fez"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:zzz_secret/hollow_vessel"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:tools/fizz_oven"
         }
       ]
     }
