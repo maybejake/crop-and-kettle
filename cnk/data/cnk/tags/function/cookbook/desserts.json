@@ -8,6 +8,7 @@
     "cnk:cookbook/pages/gingerbread/register",
     "cnk:cookbook/pages/golden_oldie/register",
     "cnk:cookbook/pages/marshmallow/register",
-    "cnk:cookbook/pages/sundae/register"
+    "cnk:cookbook/pages/sundae/register",
+    "cnk:cookbook/pages/fortune_cookie/register"
   ]
 }

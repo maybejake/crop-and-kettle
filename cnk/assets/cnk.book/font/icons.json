@@ -102,6 +102,8 @@
         {"type":"bitmap","file":"cnk.book:icon/item/white_dye.png","ascent":15,"height":16,"chars":["\uc220"]},
         {"type":"bitmap","file":"cnk.book:icon/item/wind_charge.png","ascent":15,"height":16,"chars":["\uc221"]},
         {"type":"bitmap","file":"cnk.book:icon/item/yellow_dye.png","ascent":15,"height":16,"chars":["\uc223"]},
+        {"type":"bitmap","file":"cnk.book:icon/item/paper.png","ascent":15,"height":16,"chars":["\uc224"]},
+        {"type":"bitmap","file":"cnk.book:icon/item/fortune_cookie.png","ascent":15,"height":16,"chars":["\uc225"]},
 
         {"type":"bitmap","file":"cnk.book:icon/item/blank.png","ascent":15,"height":16,"chars":["\uc808"]}
     ]

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:item_model": "cnk:fortune_cookie"
+      }
+    },
+    "title": {"translate":"advancement.cnk.fortune_cookie.name","fallback":"How Fortunate"},
+    "description": [{"translate":"advancement.cnk.fortune_cookie.desc","fallback":"Eat a fortune cookie and get a fortune"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cnk:visible/cooking_pot",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"fortune_cookie"}}
+            }
+          }
+        }
+      }
+    }
+  }
+}

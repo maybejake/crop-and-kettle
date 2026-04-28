@@ -1,0 +1,1 @@
+$data modify storage cnk:temp fortune_cookie.fortune set from storage cnk:temp fortune_cookie.fortunes[$(chosen_index)]
