@@ -1,0 +1,2 @@
+advancement revoke @s only cnk:compost/lettuce
+execute if function cnk:compost/setup if score $distance cnk.dummy <= $max_distance cnk.dummy at @n[type=minecraft:marker, tag=cnk.iris.targeted_block] run loot spawn ~ ~0.3 ~ loot cnk:seeds/lettuce_seeds

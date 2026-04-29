@@ -1,0 +1,46 @@
+{
+  "criteria": {
+    "y": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "predicates": {
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"corn"}}}
+              }
+            }
+          },
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:composter"
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "block": "minecraft:composter",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "level": "7"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "block": "minecraft:composter",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "level": "8"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "cnk:compost/corn"
+  }
+}
