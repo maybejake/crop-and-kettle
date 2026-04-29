@@ -19,7 +19,10 @@ execute if data entity @s item.components."minecraft:custom_data".candy.corn run
 execute if data entity @s item.components."minecraft:custom_data".candy.caramel run data modify storage cnk:temp candy_bowl.items append value "caramel"
 execute if data entity @s item.components."minecraft:custom_data".candy.cane run data modify storage cnk:temp candy_bowl.items append value "cane"
 
-execute store result storage cnk:temp candy_bowl.item_count int 1 run data get storage cnk:temp candy_bowl.items
+
+execute store result score $max_index cnk.dummy run data get storage cnk:temp candy_bowl.items
+scoreboard players remove $max_index cnk.dummy 1
+execute store result storage cnk:temp candy_bowl.max_index int 1 run scoreboard players get $max_index cnk.dummy
 function cnk:candy_bowl/item/pick_index with storage cnk:temp candy_bowl
 function cnk:candy_bowl/item/get_color with storage cnk:temp candy_bowl
 
