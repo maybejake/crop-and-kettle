@@ -39,6 +39,19 @@
           }
         ]
       }
+    },
+    "cnk:fizz_oven": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+            {
+            "items": "minecraft:player_head",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"block":{"type":"cooking_pot","fizz_oven":true}}}
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
