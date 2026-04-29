@@ -57,7 +57,8 @@
   "requirements": [
     [
       "cnk:witch_cauldron",
-      "cnk:stove"
+      "cnk:stove",
+      "cnk:fizz_oven"
     ]
   ]
 }
