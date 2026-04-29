@@ -1,7 +1,5 @@
 execute store result score $chance cnk.dummy run random value 1..100
-say try...
 execute if score $chance cnk.dummy matches ..85 run return fail
-say success!
 
 data modify storage cnk:temp fizz.trading.items set value []
 execute unless entity @s[advancements={cnk:fizz_special/fizz_fez=true}] run data modify storage cnk:temp fizz.trading.items append value {loot_table:"cnk:other/fizz_fez"}

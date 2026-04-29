@@ -7,3 +7,4 @@ summon minecraft:wandering_trader ~ ~ ~ {Tags:["cnk.booze_part","cnk.booze_trade
         {"id":"minecraft:item_display",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f],translation:[0.7f,-0.8f,0.0f]},Rotation:[-90,0],item:{id:"minecraft:cobblestone",count:1,components:{"minecraft:item_model":"cnk:booze_bottle"}},Tags:["cnk.booze_bottle","cnk.booze_part","cnk.iris.ignore"],interpolation_duration:20,teleport_duration:2} \
     ] \
 }
+data remove entity @n[type=minecraft:wandering_trader,tag=cnk.booze_trader,distance=..0.1] Offers.Recipes

@@ -3,3 +3,4 @@ $summon minecraft:wandering_trader ~ ~ ~ {Tags:["cnk.scarecrow_enemy","smithed.e
         {id:"minecraft:marker",Tags:["cnk.scarecrow_enemy","cnk.entity","cnk.iris.ignore"]} \
     ] \
 }
+data remove entity @n[type=minecraft:wandering_trader,tag=cnk.scarecrow_enemy,distance=..0.1] Offers.Recipes

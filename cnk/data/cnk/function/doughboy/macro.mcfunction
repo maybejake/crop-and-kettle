@@ -3,3 +3,4 @@ $summon minecraft:wandering_trader ~ ~ ~ {Tags:["cnk.doughboy_trader","smithed.e
         {id:"minecraft:marker",Tags:["cnk.doughboy","cnk.entity","cnk.iris.ignore"]} \
     ] \
 }
+data remove entity @n[type=minecraft:wandering_trader,tag=cnk.doughboy_trader,distance=..0.1] Offers.Recipes

@@ -3,7 +3,7 @@ execute if score $choice cnk.dummy matches 1 run function cnk:loot_table_to_data
 execute if score $choice cnk.dummy matches 2 run function cnk:loot_table_to_data/main {loot_table:"cnk:food/lettuce"}
 execute if score $choice cnk.dummy matches 3 run function cnk:loot_table_to_data/main {loot_table:"cnk:food/rice"}
 execute if score $choice cnk.dummy matches 4 run function cnk:loot_table_to_data/main {loot_table:"cnk:food/tomato"}
-execute if score $choice cnk.dummy matches 5 run function cnk:loot_table_to_data/main {loot_table:"cnk:food/coffee_cherries"}
+execute if score $choice cnk.dummy matches 5 run function cnk:loot_table_to_data/main {loot_table:"cnk:seeds/coffee_cherries"}
 execute if score $choice cnk.dummy matches 6 run function cnk:loot_table_to_data/main {loot_table:"cnk:food/chili_pepper"}
 execute if score $choice cnk.dummy matches 7 run function cnk:loot_table_to_data/main {loot_table:"cnk:food/grapes"}
 data modify storage cnk:temp fizz.trading.trade.buy set from storage cnk:temp loot_table.data
