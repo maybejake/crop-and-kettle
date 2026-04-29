@@ -1,2 +1,0 @@
-$execute if data storage cnk:temp picnic_basket{slot:"mainhand"} run item modify entity @p[tag=cnk.interact_picnic_basket] weapon.mainhand {function:"minecraft:set_count", count:$(item_count)}
-$execute if data storage cnk:temp picnic_basket{slot:"offhand"} run item modify entity @p[tag=cnk.interact_picnic_basket] weapon.offhand {function:"minecraft:set_count", count:$(item_count)}

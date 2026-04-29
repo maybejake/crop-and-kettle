@@ -1,0 +1,2 @@
+scoreboard players operation $temp_basket_count cnk.dummy -= $max_items cnk.dummy
+execute store result storage cnk:temp picnic_basket.item.count int 1 run scoreboard players operation $item_count cnk.dummy -= $temp_basket_count cnk.dummy
