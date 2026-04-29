@@ -1,0 +1,2 @@
+data modify storage cnk:temp picnic_basket.update.temp_name.text set from storage cnk:temp picnic_basket.update.item_name
+data modify storage cnk:temp picnic_basket.update.item_name set from storage cnk:temp picnic_basket.update.temp_name

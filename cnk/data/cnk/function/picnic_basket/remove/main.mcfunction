@@ -15,21 +15,12 @@ data modify storage cnk:temp picnic_basket.item set from entity @s item.componen
 execute unless data storage cnk:temp picnic_basket.item.count run data modify storage cnk:temp picnic_basket.item.count set value 1
 execute unless data storage cnk:temp picnic_basket.item.components run data modify storage cnk:temp picnic_basket.item.components set value {}
 
-# get count
-execute store result score $basket_count cnk.dummy run data get entity @s item.components."minecraft:custom_data".cnk.picnic_basket.count
-
 # remove
 execute if entity @p[tag=cnk.interact_picnic_basket,predicate=!cnk:sneaking] run function cnk:picnic_basket/remove/one
 execute if entity @p[tag=cnk.interact_picnic_basket,predicate=cnk:sneaking] run function cnk:picnic_basket/remove/stack
 
-# store new count
-execute store result entity @s item.components."minecraft:custom_data".cnk.picnic_basket.count int 1 run scoreboard players get $basket_count cnk.dummy
+# update
+function cnk:picnic_basket/interact/update/main
 
 # spawn item
 function cnk:picnic_basket/remove/spawn with storage cnk:temp picnic_basket.item
-
-# if new count is 0, remove lore
-execute if score $basket_count cnk.dummy matches ..0 run return run data modify entity @s item.components."minecraft:lore" set value [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
-
-# update lore
-function cnk:picnic_basket/interact/lore with entity @s item.components."minecraft:custom_data".cnk.picnic_basket

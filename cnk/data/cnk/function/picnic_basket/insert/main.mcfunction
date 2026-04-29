@@ -28,5 +28,5 @@ execute if score $temp_basket_count cnk.dummy > $max_items cnk.dummy run return 
 function cnk:picnic_basket/insert/add
 
 # remove the items from the player's hand
-execute if data storage cnk:temp picnic_basket{slot:"mainhand"} run item replace entity @p[tag=cnk.interact_picnic_basket] weapon.mainhand with minecraft:air
-execute if data storage cnk:temp picnic_basket{slot:"offhand"} run item replace entity @p[tag=cnk.interact_picnic_basket] weapon.offhand with minecraft:air
+execute if data storage cnk:temp picnic_basket{slot:"mainhand"} run item replace entity @p[gamemode=!creative,tag=cnk.interact_picnic_basket] weapon.mainhand with minecraft:air
+execute if data storage cnk:temp picnic_basket{slot:"offhand"} run item replace entity @p[gamemode=!creative,tag=cnk.interact_picnic_basket] weapon.offhand with minecraft:air

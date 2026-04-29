@@ -1,6 +1,3 @@
-# remove one item from total
-scoreboard players remove $basket_count cnk.dummy 1
-
 # get item count
 execute store result score $count cnk.dummy run data get storage cnk:temp picnic_basket.item.count
 

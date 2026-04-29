@@ -1,0 +1,2 @@
+summon minecraft:item ~ ~ ~ {Item:{"id":"minecraft:cobblestone"},Tags:["cnk.temp_item"]}
+execute as @n[type=minecraft:item,tag=cnk.temp_item,dx=0] run function cnk:picnic_basket/interact/update/entity/on_entity
