@@ -22,7 +22,6 @@ execute at @s rotated as @s run particle minecraft:dust_plume ^ ^0.3 ^0.25 0 0 0
 item modify entity @s contents {"function":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","size":1,"offset":0,"values":[true]}}
 
 # calculate new count with item stack inserted
-scoreboard players set $item_count cnk.dummy 1
 execute store result score $item_count cnk.dummy run data get storage cnk:temp picnic_basket.item.count
 scoreboard players operation $temp_basket_count cnk.dummy = $basket_count cnk.dummy
 scoreboard players operation $temp_basket_count cnk.dummy += $item_count cnk.dummy
@@ -34,7 +33,10 @@ execute if score $temp_basket_count cnk.dummy > $max_items cnk.dummy run functio
 data modify storage cnk:temp picnic_basket.item_count set from storage cnk:temp picnic_basket.item.count
 
 # insert the items
-function cnk:picnic_basket/insert/add
+function cnk:picnic_basket/insert/add/main
+
+# update lore and count
+function cnk:picnic_basket/interact/update/main
 
 # remove the items from the player's hand
 execute as @p[tag=cnk.interact_picnic_basket] run function cnk:picnic_basket/insert/remove with storage cnk:temp picnic_basket

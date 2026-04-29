@@ -19,7 +19,8 @@
                 },
                 "minecraft:consumable": {},
                 "minecraft:custom_data": {"cnk":{"ingredient":{"type":"fortune_cookie"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                "minecraft:max_stack_size": 1
               }
             }
           ]
