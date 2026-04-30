@@ -22,7 +22,7 @@ $dialog show @s { \
     { \
       "type": "minecraft:plain_message", \
       "width": 1, \
-      "contents": [{"text":"\n"}] \
+      "contents": [{"text":""}] \
     } \
   ], \
   "inputs": [], \
