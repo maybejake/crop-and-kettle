@@ -16,7 +16,11 @@
                 "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
                 "minecraft:max_stack_size": 1,
                 "minecraft:equippable": {"slot":"head"},
-                "!minecraft:consumable": {},
+                "minecraft:food": {
+                  "nutrition": 11,
+                  "saturation": 16.5
+                },
+                "minecraft:consumable": {},
                 "minecraft:tooltip_style": "cnk:cnk"
               }
             }
