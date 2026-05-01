@@ -15,14 +15,14 @@ B. Allowed Uses
     - You are allowed to create an edited version without all features you dislike for personal use. You are not allowed to redistribute it.
     - You are allowed to use a personal edited version on your own private server.
     - You are allowed to create a "CNK but I made every food texture look inedible" addon resource pack and redistribute it.
-	- You are allowed to use music from CNK's soundtrack in videos, provided proper credit is given to the original artist.
+	  - You are allowed to use music from CNK's soundtrack in videos, provided proper credit is given to the original artist.
 
   3. You may create and share your own CNK-related content, such as videos, fanart, and images so long as you do not charge for said content and it does not redistribute CNK or any of its assets.
 
     For example:
     - You are allowed to create a video series of your gameplay.
     - You are not allowed to create CNK merchandise and charge for it.
-	- You are not allowed to turn Mr. Kettle into a marketable plush.
+	  - You are not allowed to turn Mr. Kettle into a marketable plush.
 	
   4. You may create and publish your own CNK addon using the provided addon systems to add new recipes. Provided that it does not break any of the rest of this license.
   
@@ -43,7 +43,7 @@ C. Denied Uses
       For example:
       - You are not allowed to take CNK's scythe texture and create your own scythe data pack using it.
       - You are not allowed to use CNK's cookbook assets for your own project.
-	  - You are not allowed to take any part of CNK's soundtrack for your own project.
+	    - You are not allowed to take any part of CNK's soundtrack for your own project.
       - You are not allowed to make CNK NFTs.
 
     ii. You may not use CNK's mcfunction code for your own projects. However, as noted above, this does not apply to simple, sufficiently generic mcfunction concepts.
@@ -53,6 +53,9 @@ C. Denied Uses
       - You may not take all of the code for the cookbook or distiller book and redistribute it in your own data pack.
 
   2. You may not pass off CNK or its assets as your own. Give proper credit where it is due.
+
+    For example:
+    - You may not remove the "Crop & Kettle" tooltip from items and advancements.
 
 
 D. Exceptions 
