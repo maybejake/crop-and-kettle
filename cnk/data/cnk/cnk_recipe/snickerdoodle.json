@@ -1,0 +1,13 @@
+{
+    "id": "snickerdoodle",
+    "name": "Snickerdoodle",
+    "ingredients": [
+        "cnk:dough",
+        "minecraft:sugar",
+        "cnk:cinnamon"
+    ],
+    "nutrition": 7,
+    "saturation": 5.6,
+    "category": "desserts",
+    "tool": "cooking_pot"
+}
