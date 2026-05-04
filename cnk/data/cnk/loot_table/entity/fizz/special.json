@@ -18,6 +18,10 @@
         {
           "type": "minecraft:loot_table",
           "value": "cnk:tools/fizz_oven"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:other/music_disc_froggy"
         }
       ]
     }

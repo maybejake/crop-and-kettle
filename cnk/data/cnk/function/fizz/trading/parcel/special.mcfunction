@@ -6,6 +6,7 @@ execute unless entity @s[advancements={cnk:fizz_special/fizz_fez=true}] run data
 execute unless entity @s[advancements={cnk:fizz_special/fizz_whistle=true}] run data modify storage cnk:temp fizz.trading.items append value {loot_table:"cnk:other/fizz_whistle"}
 execute unless entity @s[advancements={cnk:fizz_special/fizz_oven=true}] run data modify storage cnk:temp fizz.trading.items append value {loot_table:"cnk:tools/fizz_oven"}
 execute unless entity @s[advancements={cnk:fizz_special/hollow_vessel=true}] run data modify storage cnk:temp fizz.trading.items append value {loot_table:"cnk:zzz_secret/hollow_vessel"}
+execute unless entity @s[advancements={cnk:fizz_special/music_disc_froggy=true}] run data modify storage cnk:temp fizz.trading.items append value {loot_table:"cnk:other/music_disc_froggy"}
 
 # if the player has all rewards, give even chance for all of them
 execute store result score $count cnk.dummy run data get storage cnk:temp fizz.trading.items
