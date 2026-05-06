@@ -1,4 +1,4 @@
-tellraw @a [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false},{text:" ","font":"minecraft:default"},{"translate":cnk.loaded,"font":"minecraft:default"}]
+tellraw @a[gamemode=creative] [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false},{text:" ","font":"minecraft:default"},{"translate":cnk.loaded,"font":"minecraft:default"}]
 
 scoreboard objectives add cnk.distance dummy
 scoreboard objectives add cnk.reach dummy
