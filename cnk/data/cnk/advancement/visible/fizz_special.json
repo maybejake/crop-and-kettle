@@ -62,6 +62,18 @@
           }
         ]
       }
+    },
+    "cnk:music_disc_froggy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"disc":{"type":"froggy"}}}
+            }
+          }
+        ]
+      }
     }
   }
 }
