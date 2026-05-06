@@ -177,6 +177,14 @@
       }
     ]
   },
+  "music_disc.froggy": {
+    "sounds": [
+      {
+        "name": "cnk:music_disc/froggy",
+        "stream": true
+      }
+    ]
+  },
   "item.cookbook.section_flip": {
     "sounds": [
       {
