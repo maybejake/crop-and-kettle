@@ -442,7 +442,7 @@
     "advancement.cnk.remix.desc": "Automatycznie odtwórz recepturę w misce do mieszania przez kliknięcie jest podczas kucania pustą dłonią",
     "advancement.cnk.fizz_hut.name": "Rechocząca przygoda",
     "advancement.cnk.fizz_hut.desc": "Znajdź chatkę Fizza w zimnym lub bagiennym biomie",
-    "advancement.cnk.lily_pad_parcel.name": "Hoppy Meal",
+    "advancement.cnk.lily_pad_parcel.name": "Kum, kum, kumulacja",
     "advancement.cnk.lily_pad_parcel.desc": "Otwórz pakunek lilii wodnej i otrzymaj składnik, który wciąż masz do odkrycia",
     "advancement.cnk.fizz_special.name": "Patron stawu",
     "advancement.cnk.fizz_special.desc": "Zdobądź każdą nagrodę specjalną z pakunku lilii wodnej",
@@ -458,7 +458,7 @@
     "item.cnk.lily_pad_parcel.tooltip": "Kliknij prawym, aby otworzyć",
     "item.cnk.fizz_hut_map": "Mapa chatki Fizza",
     "item.cnk.battle_spoon": "Łyżka bitewna",
-    "item.cnk.fizz_whistle": "Fizz Whisle",
+    "item.cnk.fizz_whistle": "Musujący gwizdek",
     "item.cnk.tortilla_sombrero": "Sombrero z tortilli",
     "item.cnk.fizz_fez": "Fez Fizza",
     "item.cnk.picnic_basket": "Koszyk piknikowy",
@@ -498,6 +498,6 @@
     "item.cnk.beef_stroganoff": "Strogonow",
     "container.cnk.picnic_basket.more": "i %s więcej...",
     "item.cnk.snickerdoodle": "Snickerdoodle",
-    "item.cnk.music_disc_froggy": "Music Disc",
+    "item.cnk.music_disc_froggy": "Płyta muzyczna",
     "item.cnk.music_disc_froggy.desc": "Marius Chamberlin - Froggy Business"
 }

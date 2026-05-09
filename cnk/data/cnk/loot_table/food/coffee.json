@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:baked_potato",
+          "name": "minecraft:poisonous_potato",
           "functions": [
             {
               "function": "minecraft:set_components",
