@@ -96,7 +96,6 @@
         {"type":"bitmap","file":"cnk.book:icon/item/tomato.png","ascent":15,"height":16,"chars":["\uc209"]},
         {"type":"bitmap","file":"cnk.book:icon/item/tomato_seeds.png","ascent":15,"height":16,"chars":["\uc210"]},
         {"type":"bitmap","file":"cnk.book:icon/item/totem_of_undying.png","ascent":15,"height":16,"chars":["\uc214"]},
-        {"type":"bitmap","file":"cnk.book:icon/item/very_rotten_tomato.png","ascent":15,"height":16,"chars":["\uc217"]},
         {"type":"bitmap","file":"cnk.book:icon/item/water.png","ascent":15,"height":16,"chars":["\uc218"]},
         {"type":"bitmap","file":"cnk.book:icon/item/wheat.png","ascent":15,"height":16,"chars":["\uc219"]},
         {"type":"bitmap","file":"cnk.book:icon/item/white_dye.png","ascent":15,"height":16,"chars":["\uc220"]},
