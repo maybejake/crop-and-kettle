@@ -202,7 +202,7 @@
   "item.cnk.blazing_wine": "烈焰酒",
   "item.cnk.prospecting_wine": "采矿酒",
   "item.cnk.heroic_wine": "英雄酒",
-  "item.cnk.gleaming_wine": "闪光酒",
+  "item.cnk.gleaming_wine": "荧光酒",
   "item.cnk.diving_wine": "潜水酒",
   "item.cnk.creeping_wine": "苦力怕酒",
   "item.minecraft.splash_potion.effect.creeping_wine": "苦力怕酒",
@@ -498,11 +498,11 @@
   "item.cnk.fortune_cookie.fortune.19": "某物坐落在现实的边缘，等待大门开启。",
   "item.cnk.fortune_cookie.fortune.20": "片刻的静谧会带来有用的发现。",
   "item.cnk.cafe_meal": "咖啡厅餐点",
-  "item.cnk.glimmernut": "闪光坚果",
+  "item.cnk.glimmernut": "荧光坚果",
   "item.cnk.spring_salad": "春季蔬菜沙拉",
   "item.cnk.sloppy_joe": "脏兮兮汉堡",
   "item.cnk.coffee_cake": "咖啡蛋糕",
-  "item.cnk.glimmernut_cup": "闪光坚果杯",
+  "item.cnk.glimmernut_cup": "荧光坚果杯",
   "item.cnk.gb_and_j": "花生酱果酱三明治",
   "item.cnk.pad_thai": "泰式炒河粉",
   "item.cnk.chicken_satay": "鸡肉沙嗲",
@@ -516,6 +516,6 @@
 
   "cnk.update": "春日奇趣",
   "cnk.dialog.admin_panel.trade_reset_time": "重置费兹交易的天数",
-  "item.cnk.glimmernut_butter": "闪光坚果酱",
+  "item.cnk.glimmernut_butter": "荧光坚果酱",
   "cnk.version": "v1.3.1"
 }
