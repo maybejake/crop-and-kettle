@@ -8,7 +8,7 @@
     "book.cnk.section.hearty": "丰盛菜",
     "book.cnk.section.feast": "盛宴",
     "book.cnk.section.dessert": "甜点",
-    "book.cnk.foraging_page.title": "Foraging",
+    "book.cnk.foraging_page.title": "采集",
     "book.cnk.crop_seeds.title": "种子",
     "book.cnk.toast.unlock.seed": "种子已解锁！",
     "book.cnk.toast.unlock.ingredient": "食材已解锁！",
@@ -17,8 +17,8 @@
     "book.cnk.toast.unlock.weapon": "武器已锻造！",
     "book.cnk.previous_page.hover": "上一页",
     "book.cnk.next_page.hover": "下一页",
-    "book.cnk.next_incomplete_recipe.hover": "Next undiscovered recipe",
-    "book.cnk.previous_incomplete_recipe.hover": "Previous undiscovered recipe",
+    "book.cnk.next_incomplete_recipe.hover": "下一个未发现的配方",
+    "book.cnk.previous_incomplete_recipe.hover": "上一个未发现的配方"
     "book.cnk.stamp.plateable.text": "这道菜在摆盘后\n会呈现出特殊的外观！",
     "book.cnk.return.active.text": "返回"
 }
