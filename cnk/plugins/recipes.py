@@ -442,6 +442,12 @@ def generate_icon_files(ctx: Context, recipe: Recipe, current_character: int):
 def generate_grant_code(ctx: Context, recipe: Recipe):
     """Generate code for granting a recipe flag to the player"""
     # Generate item advancement
+    custom_data = {"cnk":{"ingredient":{"type":recipe.id}}}
+    if recipe.loot_table:
+        custom_data = get_custom_data(ctx, recipe.loot_table)
+        if custom_data is None:
+            return
+
     item_advancement = f"cnk:cookbook/{recipe.id}/item"
     ctx.data[item_advancement] = Advancement({
         "parent": "cnk:cookbook/root",
@@ -453,7 +459,7 @@ def generate_grant_code(ctx: Context, recipe: Recipe):
                 {
                     "items": "minecraft:poisonous_potato",
                     "predicates": {
-                    "minecraft:custom_data": {"cnk":{"ingredient":{"type":recipe.id}}}
+                    "minecraft:custom_data": custom_data
                     }
                 }
                 ]
@@ -580,6 +586,23 @@ def get_ingredient_check(ingredient: str) -> str:
     
     return ingredient_check
 
+
+def get_custom_data(ctx: Context, loot_table: dict) -> dict:
+    """Get custom data from a loot table"""
+    loot_table = ctx.data.loot_tables[loot_table].data
+
+    functions = loot_table["pools"][0]["entries"][0]["functions"]
+    
+    for item in functions:
+        if item["function"] == "minecraft:set_components":
+            custom_data = item["components"].get("minecraft:custom_data")
+            if custom_data is not None:
+                custom_data.pop("smithed")
+                return custom_data
+            
+    LOGGER.error(f"Unable to get custom data from loot table {loot_table}, grant code will not be generated")
+    return None
+        
 
 def get_generic(ingredient: str) -> str:
     """Get a generic from an ingredient"""
