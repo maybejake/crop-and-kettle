@@ -12,7 +12,7 @@ $loot replace entity @s weapon.mainhand loot { \
               "components": { \
                 "minecraft:item_name": {"translate":"item.cnk.gift","fallback":"Gift"}, \
                 "minecraft:item_model": "cnk:gift_item", \
-                "minecraft:custom_data": {"cnk":{"block":{"type":"gift"},"gift_box":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}}, \
+                "minecraft:custom_data": {"cnk":{"block":{"type":"gift","partial_placeable":true},"gift_box":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}}, \
                 "minecraft:lore": [{"translate":"tooltip.cnk.gift.tag","with":[{"text":"$(name)"}],"color":"gray","italic":false},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}], \
                 "minecraft:custom_model_data": {colors:$(colors)}, \
                 "minecraft:profile": {"texture":"cnk:block/transparent_head"}, \

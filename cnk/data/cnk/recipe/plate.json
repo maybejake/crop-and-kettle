@@ -4,7 +4,7 @@
     "ss "
   ],
   "key": {
-    "s": "#minecraft:slabs"
+    "s": "#minecraft:wooden_slabs"
   },
   "result": {
     "id": "minecraft:player_head",
@@ -12,7 +12,7 @@
     "components": {
       "minecraft:item_name": {"translate":"item.cnk.plate","fallback":"Plate"},
       "minecraft:item_model": "cnk:plate_item",
-      "minecraft:custom_data": {"cnk":{"block":{"type":"plate"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:custom_data": {"cnk":{"block":{"type":"plate","partial_placeable":true}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
       "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
       "minecraft:profile": {"texture":"cnk:block/transparent_head"},
       "tooltip_display": {"hidden_components":["minecraft:profile"]},

@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.music_disc_scarecrow","fallback":"Music Disc"},
                 "minecraft:item_model": "cnk:music_disc_scarecrow",
-                "minecraft:custom_data": {"cnk":{"disc":{"type":"scarecrow"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:custom_data": {"cnk":{"disc":{"type":"scarecrow","partial_placeable":true}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
                 "minecraft:rarity": "uncommon",
                 "minecraft:jukebox_playable": "cnk:scarecrow",

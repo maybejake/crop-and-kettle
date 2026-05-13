@@ -411,5 +411,8 @@
   
   "death.attack.cnk.booze_cork": "%1$s got corked",
   "death.attack.cnk.scarecrow_spin": "%1$s got harvested",
-  "death.attack.cnk.pumpkin_missile": "%1$s couldn't escape an explosive pumpkin"
+  "death.attack.cnk.pumpkin_missile": "%1$s couldn't escape an explosive pumpkin",
+
+  "jade.modName.cnk": "Crop & Kettle",
+  "itemGroup.cnk": "Crop & Kettle"
 }

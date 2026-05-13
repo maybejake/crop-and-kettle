@@ -1,0 +1,2 @@
+execute positioned ~ ~-0.5 ~ unless predicate cnk:partial_block positioned ~ ~ ~ run return run function cnk:mixing_bowl/break/break
+execute if score @s cnk.hit_count matches 1.. run function cnk:mixing_bowl/break/check

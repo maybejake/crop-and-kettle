@@ -1,5 +1,3 @@
-setblock ~ ~ ~ minecraft:air
-
 playsound minecraft:block.bamboo_wood.place block @a ~ ~ ~ 1 2
 
 data modify storage cnk:temp rotation set value 0

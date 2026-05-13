@@ -2,6 +2,6 @@
   "asset_id": "cnk:comforted_gothic",
   "width": 2,
   "height": 2,
-  "title": {"translate":"painting.cnk.comforted_gothic", "fallback": "Discipline","color":"yellow"},
-  "author": {"translate":"painting.cnk.comforted_gothic.author", "fallback": "Psydoux","color":"gray"}
+  "title": {"translate":"painting.cnk.comforted_gothic", "fallback": "Comforted Gothic","color":"yellow"},
+  "author": {"translate":"painting.cnk.comforted_gothic.author", "fallback": "evergreenavery","color":"gray"}
 }

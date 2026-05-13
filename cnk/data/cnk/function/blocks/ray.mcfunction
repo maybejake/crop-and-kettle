@@ -1,10 +1,10 @@
-execute if block ~ ~ ~ #cnk:player_heads if data block ~ ~ ~ components."minecraft:custom_data".cnk.block align xyz positioned ~0.5 ~0.5 ~0.5 run return run function cnk:blocks/switch
-execute positioned ~ ~1 ~ if block ~ ~ ~ #cnk:player_heads if data block ~ ~ ~ components."minecraft:custom_data".cnk.block align xyz positioned ~0.5 ~0.5 ~0.5 run return run function cnk:blocks/switch
-execute positioned ~ ~-1 ~ if block ~ ~ ~ #cnk:player_heads if data block ~ ~ ~ components."minecraft:custom_data".cnk.block align xyz positioned ~0.5 ~0.5 ~0.5 run return run function cnk:blocks/switch
-execute positioned ~1 ~ ~ if block ~ ~ ~ #cnk:player_heads if data block ~ ~ ~ components."minecraft:custom_data".cnk.block align xyz positioned ~0.5 ~0.5 ~0.5 run return run function cnk:blocks/switch
-execute positioned ~-1 ~ ~ if block ~ ~ ~ #cnk:player_heads if data block ~ ~ ~ components."minecraft:custom_data".cnk.block align xyz positioned ~0.5 ~0.5 ~0.5 run return run function cnk:blocks/switch
-execute positioned ~ ~ ~1 if block ~ ~ ~ #cnk:player_heads if data block ~ ~ ~ components."minecraft:custom_data".cnk.block align xyz positioned ~0.5 ~0.5 ~0.5 run return run function cnk:blocks/switch
-execute positioned ~ ~ ~-1 if block ~ ~ ~ #cnk:player_heads if data block ~ ~ ~ components."minecraft:custom_data".cnk.block align xyz positioned ~0.5 ~0.5 ~0.5 run return run function cnk:blocks/switch
+execute if block ~ ~ ~ #cnk:player_heads if data block ~ ~ ~ components."minecraft:custom_data".cnk.block align xyz positioned ~0.5 ~ ~0.5 run return run function cnk:blocks/setup
+execute positioned ~ ~1 ~ if block ~ ~ ~ #cnk:player_heads if data block ~ ~ ~ components."minecraft:custom_data".cnk.block align xyz positioned ~0.5 ~ ~0.5 run return run function cnk:blocks/setup
+execute positioned ~ ~-1 ~ if block ~ ~ ~ #cnk:player_heads if data block ~ ~ ~ components."minecraft:custom_data".cnk.block align xyz positioned ~0.5 ~ ~0.5 run return run function cnk:blocks/setup
+execute positioned ~1 ~ ~ if block ~ ~ ~ #cnk:player_heads if data block ~ ~ ~ components."minecraft:custom_data".cnk.block align xyz positioned ~0.5 ~ ~0.5 run return run function cnk:blocks/setup
+execute positioned ~-1 ~ ~ if block ~ ~ ~ #cnk:player_heads if data block ~ ~ ~ components."minecraft:custom_data".cnk.block align xyz positioned ~0.5 ~ ~0.5 run return run function cnk:blocks/setup
+execute positioned ~ ~ ~1 if block ~ ~ ~ #cnk:player_heads if data block ~ ~ ~ components."minecraft:custom_data".cnk.block align xyz positioned ~0.5 ~ ~0.5 run return run function cnk:blocks/setup
+execute positioned ~ ~ ~-1 if block ~ ~ ~ #cnk:player_heads if data block ~ ~ ~ components."minecraft:custom_data".cnk.block align xyz positioned ~0.5 ~ ~0.5 run return run function cnk:blocks/setup
 
 scoreboard players add $raycast_distance cnk.dummy 1
 

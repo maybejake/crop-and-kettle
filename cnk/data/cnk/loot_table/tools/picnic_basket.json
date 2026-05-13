@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.picnic_basket","fallback":"Picnic Basket"},
                 "minecraft:item_model": "cnk:picnic_basket",
-                "minecraft:custom_data": {"cnk":{"block":{"type":"picnic_basket"},"picnic_basket":{"count":0,"max_items":256}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:custom_data": {"cnk":{"block":{"type":"picnic_basket","partial_placeable":true},"picnic_basket":{"count":0,"max_items":256}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
                 "minecraft:profile": {"texture":"cnk:block/transparent_head"},
                 "tooltip_display": {"hidden_components":["minecraft:profile"]},

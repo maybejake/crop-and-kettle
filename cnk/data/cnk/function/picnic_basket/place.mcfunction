@@ -1,5 +1,4 @@
-data modify storage cnk:temp components set from block ~ ~ ~ components
-setblock ~ ~ ~ minecraft:air
+data modify storage cnk:temp components set from storage cnk:temp block.data.components
 
 playsound block.bamboo.place block @a ~ ~ ~ 1 1.5
 

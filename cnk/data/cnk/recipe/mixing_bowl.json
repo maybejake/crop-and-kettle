@@ -14,7 +14,7 @@
     "components": {
       "minecraft:item_name": {"translate":"item.cnk.mixing_bowl","fallback":"Mixing Bowl"},
       "minecraft:item_model": "cnk:mixing_bowl_item",
-      "minecraft:custom_data": {"cnk":{"block":{"type":"mixing_bowl"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:custom_data": {"cnk":{"block":{"type":"mixing_bowl","partial_placeable":true}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
       "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
       "minecraft:profile": {"texture":"cnk:block/transparent_head"},
       "tooltip_display": {"hidden_components":["minecraft:profile"]},
