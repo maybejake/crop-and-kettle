@@ -1,1 +1,1 @@
-$execute as @p[tag=cnk.interact_basin] run function $(callback)
+$execute as @p[tag=cnk.interact_basin,distance=..20] run function $(callback)

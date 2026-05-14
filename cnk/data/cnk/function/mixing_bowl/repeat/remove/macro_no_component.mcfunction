@@ -1,1 +1,1 @@
-$clear @p[tag=cnk.interact_mixing_bowl] $(id) $(count)
+$clear @p[tag=cnk.interact_mixing_bowl,distance=..20] $(id) $(count)

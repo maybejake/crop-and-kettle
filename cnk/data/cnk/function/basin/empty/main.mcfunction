@@ -5,7 +5,7 @@ execute if score @s cnk.level matches 1 run data modify entity @s item.component
 execute if score @s cnk.level matches 2 run data modify entity @s item.components."minecraft:item_model" set value "cnk:basin_2"
 execute if score @s cnk.level matches 3 run data modify entity @s item.components."minecraft:item_model" set value "cnk:basin_3"
 
-item modify entity @p[tag=cnk.interact_basin] weapon.mainhand {"function":"minecraft:set_count","count":-1,"add":true}
+item modify entity @p[tag=cnk.interact_basin,distance=..20] weapon.mainhand {"function":"minecraft:set_count","count":-1,"add":true}
 
 # store inventory state
 data modify storage cnk:temp time.give_or_spawn set value "give @s"
@@ -18,5 +18,4 @@ execute unless score @s cnk.level matches 1.. run data modify entity @s item.com
 execute unless score @s cnk.level matches 1.. run data modify entity @s item.components."minecraft:custom_data".cnk.basin.callback set value ""
 execute unless score @s cnk.level matches 1.. run data modify entity @s item.components."minecraft:custom_data".cnk.basin.liquid set value ""
 
-swing @p[tag=cnk.interact_basin] mainhand
-execute at @p[tag=cnk.interact_basin] run playsound minecraft:item.bottle.fill block @a ~ ~ ~ 1 1
+execute as @p[tag=cnk.interact_basin,distance=..20] at @s run function cnk:basin/empty/on_chef

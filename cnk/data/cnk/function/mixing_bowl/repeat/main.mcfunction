@@ -1,4 +1,4 @@
-advancement grant @p[tag=cnk.interact_mixing_bowl] only cnk:visible/remix
+advancement grant @p[tag=cnk.interact_mixing_bowl,distance=..20] only cnk:visible/remix
 
 data modify storage cnk:temp mixing_bowl.last_recipe set from entity @s item.components."minecraft:custom_data".cnk.last_recipe
 data modify storage cnk:temp mixing_bowl.last_recipe[].count set value 1

@@ -90,6 +90,12 @@ scoreboard objectives add cnk.feast_time dummy
 
 scoreboard objectives add cnk.trade_reset_time dummy
 
+# statistics
+scoreboard objectives add cnk.food_cooked dummy
+scoreboard objectives add cnk.food_mixed dummy
+scoreboard objectives add cnk.food_cut dummy
+scoreboard objectives add cnk.drinks_bottled dummy
+
 scoreboard players set $installed cnk.dummy 1
 
 # set 16 days in a year by default

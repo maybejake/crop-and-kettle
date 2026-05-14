@@ -12,6 +12,7 @@
     "cnk:distiller_book/register_pages",
     "cnk.iris:setup/load",
     "dcf:tick_40",
-    "dcf:loaded"
+    "dcf:loaded",
+    "gu:zzz/load"
    ] 
 }

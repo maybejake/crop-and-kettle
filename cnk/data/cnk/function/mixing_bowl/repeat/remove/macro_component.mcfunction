@@ -1,1 +1,1 @@
-$clear @p[tag=cnk.interact_mixing_bowl] $(id)[minecraft:custom_data=$(custom_data)] $(count)
+$clear @p[tag=cnk.interact_mixing_bowl,distance=..20] $(id)[minecraft:custom_data=$(custom_data)] $(count)
