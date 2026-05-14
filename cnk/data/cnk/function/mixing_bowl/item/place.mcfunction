@@ -7,7 +7,7 @@ execute if score $global cnk.item_count matches 4 run data merge entity @s {tran
 execute if score $hand_place cnk.dummy matches 1 run item replace entity @s contents from entity @p[tag=cnk.interact_mixing_bowl,distance=..20] weapon.mainhand
 execute if score $hand_place cnk.dummy matches 0 run data modify entity @s item set from storage cnk:temp mixing_bowl.input
 
-execute at @s rotated as @n[type=minecraft:item_display,tag=cnk.mixing_bowl] run tp @s ~ ~ ~ ~ ~
+execute at @s rotated as @n[type=minecraft:item_display,tag=cnk.mixing_bowl] run rotate @s ~ ~
 ride @s mount @n[type=minecraft:item_display,tag=cnk.mixing_bowl]
 playsound minecraft:block.bamboo_wood.step block @a ~ ~ ~ 1 2
 

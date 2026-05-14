@@ -6,7 +6,7 @@ execute if score $global cnk.item_count matches 4 run data merge entity @s {Tags
 execute if score $global cnk.item_count matches 5 run data merge entity @s {Tags:["cnk.plate_item","cnk.plate_5"]}
 
 item replace entity @s contents from entity @p[tag=cnk.interact_plate] weapon.mainhand
-execute at @s rotated as @n[type=minecraft:item_display,tag=cnk.plate] run tp @s ~ ~ ~ ~ ~
+execute at @s rotated as @n[type=minecraft:item_display,tag=cnk.plate] run rotate @s ~ ~
 ride @s mount @n[type=minecraft:item_display,tag=cnk.plate]
 playsound minecraft:block.bamboo_wood.step block @a ~ ~ ~ 1 2
 
