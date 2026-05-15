@@ -95,6 +95,7 @@ scoreboard objectives add cnk.food_cooked dummy
 scoreboard objectives add cnk.food_mixed dummy
 scoreboard objectives add cnk.food_cut dummy
 scoreboard objectives add cnk.drinks_bottled dummy
+scoreboard objectives add cnk.crops_harvested dummy
 
 scoreboard players set $installed cnk.dummy 1
 

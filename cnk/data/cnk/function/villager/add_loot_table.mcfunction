@@ -1,0 +1,1 @@
+$execute unless data storage cnk:temp secret_recipe{first_recipe:"$(loot_table)"} unless data storage cnk:temp secret_recipe{second_recipe:"$(loot_table)"} run data modify storage cnk:temp secret_recipe.loot_tables append value "$(loot_table)"

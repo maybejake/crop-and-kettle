@@ -1,13 +1,14 @@
 tag @s add cnk.butcher_villager
 
-scoreboard players set $first_recipe cnk.dummy 0
-scoreboard players set $second_recipe cnk.dummy 0
+data modify storage cnk:temp secret_recipe.first_recipe set value ""
+data modify storage cnk:temp secret_recipe.second_recipe set value ""
+data modify storage cnk:temp loot_table.data set value ""
 
-# potentially generate 3
+# try 3 times
 function cnk:villager/chance
-scoreboard players operation $first_recipe cnk.dummy = $recipe cnk.dummy
 
+data modify storage cnk:temp secret_recipe.first_recipe set from storage cnk:temp loot_table.data
 function cnk:villager/chance
-scoreboard players operation $second_recipe cnk.dummy = $recipe cnk.dummy
 
+data modify storage cnk:temp secret_recipe.second_recipe set from storage cnk:temp loot_table.data
 function cnk:villager/chance

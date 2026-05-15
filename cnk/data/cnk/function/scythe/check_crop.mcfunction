@@ -17,6 +17,8 @@ execute if score $scythe_block_check cnk.dummy matches 1.. run scoreboard player
 execute if score $scythe_block_check cnk.dummy matches 1.. if entity @s[tag=cnk.scythe_mainhand] run loot spawn ~ ~ ~ mine ~ ~ ~ mainhand
 execute if score $scythe_block_check cnk.dummy matches 1.. if entity @s[tag=cnk.scythe_offhand] run loot spawn ~ ~ ~ mine ~ ~ ~ offhand
 
+execute if score $scythe_block_check cnk.dummy matches 1.. run scoreboard players add @s cnk.crops_harvested 1
+
 gamerule block_drops false
 execute if block ~ ~ ~ minecraft:beetroots[age=3] run setblock ~ ~ ~ minecraft:beetroots[age=0] destroy
 execute if block ~ ~ ~ minecraft:carrots[age=7] run setblock ~ ~ ~ minecraft:carrots[age=0] destroy
