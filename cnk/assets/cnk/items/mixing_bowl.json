@@ -1,6 +1,21 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "cnk:block/mixing_bowl"
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "when": [
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cnk:item/mixing_bowl"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "cnk:block/mixing_bowl"
+    },
+    "property": "minecraft:display_context"
   }
 }

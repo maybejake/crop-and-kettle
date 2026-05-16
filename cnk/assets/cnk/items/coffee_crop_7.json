@@ -1,6 +1,21 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "cnk:block/coffee/7"
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "when": [
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cnk:item/coffee_cherries"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "cnk:block/coffee/7"
+    },
+    "property": "minecraft:display_context"
   }
 }

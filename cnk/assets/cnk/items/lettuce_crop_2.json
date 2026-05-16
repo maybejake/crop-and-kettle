@@ -1,6 +1,21 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "cnk:block/lettuce/2"
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "when": [
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cnk:item/lettuce_seeds"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "cnk:block/lettuce/2"
+    },
+    "property": "minecraft:display_context"
   }
 }

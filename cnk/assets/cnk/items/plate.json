@@ -1,6 +1,21 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "cnk:block/plate"
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "when": [
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cnk:item/plate"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "cnk:block/plate"
+    },
+    "property": "minecraft:display_context"
   }
 }

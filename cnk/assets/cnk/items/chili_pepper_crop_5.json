@@ -1,6 +1,21 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "cnk:block/chili_pepper/5"
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "when": [
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cnk:item/chili_pepper_seeds"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "cnk:block/chili_pepper/5"
+    },
+    "property": "minecraft:display_context"
   }
 }

@@ -1,5 +1,6 @@
 data remove storage cnk:temp pail
 data modify storage cnk:temp pail set from storage cnk:temp block.data.components."minecraft:custom_data".cnk.pail
+data modify storage cnk:temp pail.item_name set from storage cnk:temp item_name
 setblock ~ ~ ~ minecraft:barrier
 
 playsound minecraft:block.copper.place block @a ~ ~ ~ 1 0.7

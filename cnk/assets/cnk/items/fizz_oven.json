@@ -1,19 +1,29 @@
 {
   "model": {
-    "type": "minecraft:composite",
-    "models": [
+    "type": "minecraft:select",
+    "cases": [
       {
-        "type": "minecraft:condition",
-        "property": "minecraft:custom_model_data",
-        "on_false": {
+        "when": [
+          "gui"
+        ],
+        "model": {
           "type": "minecraft:model",
-          "model": "cnk:block/fizz_oven_open"
-        },
-        "on_true": {
-          "type": "minecraft:model",
-          "model": "cnk:block/fizz_oven_closed"
+          "model": "cnk:item/fizz_oven"
         }
       }
-    ]
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:custom_model_data",
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "cnk:block/fizz_oven_open"
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "cnk:block/fizz_oven_closed"
+      }
+    },
+    "property": "minecraft:display_context"
   }
 }

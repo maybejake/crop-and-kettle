@@ -57,7 +57,6 @@
   "item.cnk.foodie_feast": "Foodie Feast",
   "item.cnk.vegetable_puree": "Vegetable Purée",
 
-  
   "item.cnk.promised_cupcake": "Promised Cupcake",
   "item.cnk.psys_explosive_apple_pie": "Psy's Explosive Apple Pie",
   "item.cnk.jakes_uplifting_lunch": "Jake's Uplifting Lunch",
@@ -426,5 +425,13 @@
   "death.attack.cnk.pumpkin_missile": "%1$s couldn't escape an explosive pumpkin",
 
   "jade.modName.cnk": "Crop & Kettle",
-  "itemGroup.cnk": "Crop & Kettle"
+  "itemGroup.cnk": "Crop & Kettle",
+  
+  "block.cnk.chili_pepper_crop": "Chili Pepper Crop",
+  "block.cnk.coffee_crop": "Coffee Crop",
+  "block.cnk.corn_crops": "Corn Crops",
+  "block.cnk.grape_crop": "Grape Crop",
+  "block.cnk.lettuce_crop": "Lettuce Crop",
+  "block.cnk.rice_crops": "Rice Crops",
+  "block.cnk.tomato_crops": "Tomato Crops"
 }

@@ -1,12 +1,27 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "cnk:block/basin_3",
-    "tints": [
+    "type": "minecraft:select",
+    "cases": [
       {
-        "type": "custom_model_data",
-        "default": 4224483
+        "when": [
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cnk:item/basin"
+        }
       }
-    ]
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "cnk:block/basin_3",
+      "tints": [
+        {
+          "type": "custom_model_data",
+          "default": 4224483
+        }
+      ]
+    },
+    "property": "minecraft:display_context"
   }
 }

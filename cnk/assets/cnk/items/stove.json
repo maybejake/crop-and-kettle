@@ -1,37 +1,47 @@
 {
   "model": {
-    "type": "minecraft:composite",
-    "models": [
+    "type": "minecraft:select",
+    "cases": [
       {
-        "type": "minecraft:condition",
-        "property": "minecraft:custom_model_data",
-        "on_false": {
-          "type": "minecraft:composite",
-          "models": [
-            {
-              "type": "minecraft:model",
-              "model": "cnk:block/stove_off"
-            },
-            {
-              "type": "minecraft:model",
-              "model": "cnk:block/pan"
-            }
-          ]
-        },
-        "on_true": {
-          "type": "minecraft:composite",
-          "models": [
-            {
-              "type": "minecraft:model",
-              "model": "cnk:block/stove_on"
-            },
-            {
-              "type": "minecraft:model",
-              "model": "cnk:block/pan"
-            }
-          ]
+        "when": [
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cnk:item/stove"
         }
       }
-    ]
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:custom_model_data",
+      "on_false": {
+        "type": "minecraft:composite",
+        "models": [
+          {
+            "type": "minecraft:model",
+            "model": "cnk:block/stove_off"
+          },
+          {
+            "type": "minecraft:model",
+            "model": "cnk:block/pan"
+          }
+        ]
+      },
+      "on_true": {
+        "type": "minecraft:composite",
+        "models": [
+          {
+            "type": "minecraft:model",
+            "model": "cnk:block/stove_on"
+          },
+          {
+            "type": "minecraft:model",
+            "model": "cnk:block/pan"
+          }
+        ]
+      }
+    },
+    "property": "minecraft:display_context"
   }
 }

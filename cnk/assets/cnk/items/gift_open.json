@@ -1,18 +1,56 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "cnk:block/gift/open",
-    "tints": [
+    "type": "minecraft:select",
+    "cases": [
       {
-        "type": "custom_model_data",
-        "default": 16777215,
-        "index": 0
-      },
-      {
-        "type": "custom_model_data",
-        "default": 16777215,
-        "index": 1
+        "when": [
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "cnk:item/gift_box",
+              "tints": [
+                {
+                  "type": "custom_model_data",
+                  "default": 16777215,
+                  "index": 0
+                }
+              ]
+            },
+            {
+              "type": "minecraft:model",
+              "model": "cnk:item/gift_box_bow",
+              "tints": [
+                {
+                  "type": "custom_model_data",
+                  "default": 16777215,
+                  "index": 1
+                }
+              ]
+            }
+          ]
+        }
       }
-    ]
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "cnk:block/gift/open",
+      "tints": [
+        {
+          "type": "custom_model_data",
+          "default": 16777215,
+          "index": 0
+        },
+        {
+          "type": "custom_model_data",
+          "default": 16777215,
+          "index": 1
+        }
+      ]
+    },
+    "property": "minecraft:display_context"
   }
 }

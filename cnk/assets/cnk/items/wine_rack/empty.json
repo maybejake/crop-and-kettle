@@ -1,11 +1,21 @@
 {
   "model": {
-    "type": "minecraft:composite",
-    "models": [
+    "type": "minecraft:select",
+    "cases": [
       {
-        "type": "minecraft:model",
-        "model": "cnk:block/wine_rack/block"
+        "when": [
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cnk:block/wine_rack/block"
+        }
       }
-    ]
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "cnk:block/wine_rack/block"
+    },
+    "property": "minecraft:display_context"
   }
 }
