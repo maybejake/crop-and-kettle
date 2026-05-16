@@ -1,4 +1,7 @@
-spreadplayers ~ ~ 5 5 false @s
+execute store result score $y cnk.dummy run data get entity @s Pos[1]
+execute store result storage cnk:temp fizz_whistle.y int 1 run scoreboard players add $y cnk.dummy 10
+
+function cnk:fizz_whistle/spread with storage cnk:temp fizz_whistle
 
 execute at @s align xyz positioned ~0.5 ~ ~0.5 run function cnk:fizz/summon
 execute at @s align xyz positioned ~0.5 ~ ~0.5 run tag @n[type=minecraft:wandering_trader,tag=cnk.fizz_trader,dx=0] add cnk.fizz_whistled

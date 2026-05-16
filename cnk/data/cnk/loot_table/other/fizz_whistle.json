@@ -16,7 +16,7 @@
                 "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
                 "minecraft:consumable": {"consume_seconds":2, "animation": "toot_horn", "sound": "minecraft:block.note_block.flute", "has_consume_particles": false},
                 "!minecraft:food": {},
-                "minecraft:use_cooldown": {"seconds":1200, "cooldown_group": "cnk:fizz_whistle"},
+                "minecraft:use_cooldown": {"seconds":2400, "cooldown_group": "cnk:fizz_whistle"},
                 "minecraft:max_stack_size": 1,
                 "minecraft:rarity": "uncommon",
                 "minecraft:use_remainder": {
@@ -28,7 +28,7 @@
                     "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
                     "minecraft:consumable": {"consume_seconds":2, "animation": "toot_horn", "sound": "minecraft:block.note_block.flute", "has_consume_particles": false},
                     "!minecraft:food": {},
-                    "minecraft:use_cooldown": {"seconds":1200, "cooldown_group": "cnk:fizz_whistle"},
+                    "minecraft:use_cooldown": {"seconds":2400, "cooldown_group": "cnk:fizz_whistle"},
                     "minecraft:max_stack_size": 1,
                     "minecraft:rarity": "uncommon"
                   }
