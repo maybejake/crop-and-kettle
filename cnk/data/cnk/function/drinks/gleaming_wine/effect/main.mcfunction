@@ -6,6 +6,8 @@ function cnk:drinks/year_delta/main
 
 execute if score $year cnk.dummy matches 50.. run advancement grant @s only cnk:visible/50_year_wine
 
+function cnk:drinks/check_oldest_wine
+
 #absorption
 scoreboard players set $duration cnk.dummy 60
 scoreboard players operation $duration cnk.dummy *= $year cnk.dummy

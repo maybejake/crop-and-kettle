@@ -5,7 +5,7 @@ scoreboard players set $age_amount cnk.dummy 384000
 scoreboard players operation $age_amount cnk.dummy /= $wine_count cnk.dummy
 execute if score $age_amount cnk.dummy matches 0 run return fail
 
-advancement grant @p[tag=cnk.sprite_use] only cnk:visible/spirit_sprite
+advancement grant @p[tag=cnk.sprite_use,distance=..20] only cnk:visible/spirit_sprite
 
 data modify storage cnk:temp wine_rack.temp_contents set value []
 
@@ -26,4 +26,5 @@ data modify entity @s item.components."minecraft:bundle_contents" set from stora
 playsound cnk:item.spirit_sprite.use player @a ~ ~ ~ 1 1
 playsound cnk:block.wine_rack.spirited player @a ~ ~ ~ 1 1
 
-execute as @p[tag=cnk.sprite_use] run item modify entity @s[gamemode=!creative] weapon.mainhand {"function":"minecraft:set_count","count":-1,"add":true}
+execute as @p[tag=cnk.sprite_use,distance=..20] run item modify entity @s[gamemode=!creative] weapon.mainhand {"function":"minecraft:set_count","count":-1,"add":true}
+scoreboard players add @p[tag=cnk.sprite_use,distance=..20] cnk.sprites_used 1

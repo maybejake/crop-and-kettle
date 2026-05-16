@@ -1,6 +1,8 @@
 advancement revoke @s only cnk:feast
 advancement grant @s only cnk:visible/feast
 
+scoreboard players add @s cnk.feasts_eaten 1
+
 tag @s add cnk.feasting
 
 #cornucopia effect

@@ -1,0 +1,2 @@
+execute unless score @s cnk.oldest_wine_drank matches 1.. run return run scoreboard players operation @s cnk.oldest_wine_drank = $year cnk.dummy
+execute if score $year cnk.dummy > @s cnk.oldest_wine_drank run return run scoreboard players operation @s cnk.oldest_wine_drank = $year cnk.dummy

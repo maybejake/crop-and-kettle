@@ -6,6 +6,8 @@ function cnk:drinks/year_delta/main
 
 execute if score $year cnk.dummy matches 50.. run advancement grant @s only cnk:visible/50_year_wine
 
+function cnk:drinks/check_oldest_wine
+
 execute if score $year cnk.dummy matches 30.. run advancement grant @s only cnk:visible/drink_chorus_wine_far
 
 scoreboard players set $max_distance cnk.dummy 32
