@@ -44,6 +44,14 @@
         "type": "run_command",
         "command": "trigger cnk.settings set 1"
       }
+    },
+    {
+      "label": {"translate":"cnk.dialog.statistics"},
+      "width": 150,
+      "action": {
+        "type": "run_command",
+        "command": "trigger cnk.settings set 6"
+      }
     }
   ],
   "exit_action": {

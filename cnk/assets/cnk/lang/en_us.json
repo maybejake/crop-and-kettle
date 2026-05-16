@@ -301,6 +301,18 @@
   "cnk.dialog.admin_panel.enable": "Enable %1$s",
   "cnk.dialog.admin_panel.disable": "Disable %1$s",
   "cnk.dialog.admin_panel.confirm": "Confirm",
+  
+  "cnk.dialog.statistics": "Statistics",
+  "cnk.dialog.statistics.food_cooked": "Food cooked: %1$s",
+  "cnk.dialog.statistics.food_mixed": "Food mixed: %1$s",
+  "cnk.dialog.statistics.food_cut": "Food cut: %1$s",
+  "cnk.dialog.statistics.drinks_bottled": "Drinks bottled: %1$s",
+  "cnk.dialog.statistics.crops_harvested": "Crops harvested: %1$s",
+  "cnk.dialog.statistics.parcels_opened": "Lily pad parcels opened: %1$s",
+  "cnk.dialog.statistics.sprites_used": "Spirit sprites used: %1$s",
+  "cnk.dialog.statistics.oldest_wine_drank": "Oldest wine drank: %1$s",
+  "cnk.dialog.statistics.feasts_eaten": "Feasts eaten: %1$s",
+  "cnk.dialog.statistics.bosses_defeated": "Bosses defeated: %1$s",
 
   "cnk.item_disabled": "This item has been disabled by an administrator.",
   
