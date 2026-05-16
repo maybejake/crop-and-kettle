@@ -310,7 +310,7 @@
   "cnk.dialog.statistics.crops_harvested": "Crops harvested: %1$s",
   "cnk.dialog.statistics.parcels_opened": "Lily pad parcels opened: %1$s",
   "cnk.dialog.statistics.sprites_used": "Spirit sprites used: %1$s",
-  "cnk.dialog.statistics.oldest_wine_drank": "Oldest wine drank: %1$s",
+  "cnk.dialog.statistics.oldest_wine_drank": "Oldest wine drank: %1$s years",
   "cnk.dialog.statistics.feasts_eaten": "Feasts eaten: %1$s",
   "cnk.dialog.statistics.bosses_defeated": "Bosses defeated: %1$s",
 
