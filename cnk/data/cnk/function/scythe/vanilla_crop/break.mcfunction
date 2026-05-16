@@ -1,0 +1,9 @@
+execute if block ~ ~ ~ minecraft:beetroots[age=3] run return run setblock ~ ~ ~ minecraft:beetroots[age=0] destroy
+execute if block ~ ~ ~ minecraft:carrots[age=7] run return run setblock ~ ~ ~ minecraft:carrots[age=0] destroy
+execute if block ~ ~ ~ minecraft:potatoes[age=7] run return run setblock ~ ~ ~ minecraft:potatoes[age=0] destroy
+execute if block ~ ~ ~ minecraft:wheat[age=7] run return run setblock ~ ~ ~ minecraft:wheat[age=0] destroy
+execute if block ~ ~ ~ minecraft:melon run return run setblock ~ ~ ~ minecraft:air destroy
+execute if block ~ ~ ~ minecraft:pumpkin run return run setblock ~ ~ ~ minecraft:air destroy
+execute if block ~ ~ ~ minecraft:torchflower_crop[age=1] run return run setblock ~ ~ ~ minecraft:torchflower_crop[age=0] destroy
+execute if block ~ ~ ~ minecraft:pitcher_crop[age=4] run return run setblock ~ ~ ~ minecraft:pitcher_crop[age=0] destroy
+execute if block ~ ~ ~ minecraft:nether_wart[age=3] run return run setblock ~ ~ ~ minecraft:nether_wart[age=0] destroy

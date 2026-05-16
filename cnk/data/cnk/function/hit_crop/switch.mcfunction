@@ -1,4 +1,4 @@
-scoreboard players add @p[tag=cnk.hit_crop,distance=..20] cnk.crops_harvested 1
+execute if score @s cnk.age >= @s cnk.max_age run scoreboard players add @p[tag=cnk.hit_crop,distance=..20] cnk.crops_harvested 1
 
 execute if entity @s[tag=cnk.tomato_crop] run return run function cnk:crops/tomato/break
 execute if entity @s[tag=cnk.corn_crop] run return run function cnk:crops/corn/break

@@ -15,9 +15,8 @@ execute if score $scythe_check cnk.dummy matches 0 run return fail
 execute anchored eyes at @s run particle minecraft:sweep_attack ^ ^-0.3 ^1.2 0 0 0 0 1 force
 playsound entity.player.attack.sweep neutral @a ~ ~ ~ 1 1
 
-execute if entity @s[tag=cnk.scythe_mainhand] run swing @s mainhand
-execute if entity @s[tag=cnk.scythe_offhand] run swing @s offhand
+function cnk:scythe/swing
 
 execute if entity @s[gamemode=creative] run return fail
-execute if entity @s[tag=cnk.scythe_mainhand] run return run function cnk:scythe/durability/mainhand/handle
-execute if entity @s[tag=cnk.scythe_offhand] run return run function cnk:scythe/durability/offhand/handle
+execute if predicate cnk:scythe/mainhand run return run function cnk:scythe/durability/mainhand/handle
+execute if predicate cnk:scythe/offhand run return run function cnk:scythe/durability/offhand/handle

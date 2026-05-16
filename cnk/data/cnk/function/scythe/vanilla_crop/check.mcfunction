@@ -1,0 +1,9 @@
+execute if block ~ ~ ~ minecraft:beetroots[age=3] run return run scoreboard players set $scythe_block_check cnk.dummy 1
+execute if block ~ ~ ~ minecraft:carrots[age=7] run return run scoreboard players set $scythe_block_check cnk.dummy 1
+execute if block ~ ~ ~ minecraft:potatoes[age=7] run return run scoreboard players set $scythe_block_check cnk.dummy 1
+execute if block ~ ~ ~ minecraft:wheat[age=7] run return run scoreboard players set $scythe_block_check cnk.dummy 1
+execute if block ~ ~ ~ minecraft:melon run return run scoreboard players set $scythe_block_check cnk.dummy 1
+execute if block ~ ~ ~ minecraft:pumpkin run return run scoreboard players set $scythe_block_check cnk.dummy 1
+execute if block ~ ~ ~ minecraft:torchflower_crop[age=1] run return run scoreboard players set $scythe_block_check cnk.dummy 1
+execute if block ~ ~ ~ minecraft:pitcher_crop[age=4] run return run scoreboard players set $scythe_block_check cnk.dummy 1
+execute if block ~ ~ ~ minecraft:nether_wart[age=3] run return run scoreboard players set $scythe_block_check cnk.dummy 1

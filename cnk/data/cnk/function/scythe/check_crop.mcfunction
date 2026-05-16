@@ -1,32 +1,19 @@
-execute as @n[type=minecraft:item_display,tag=cnk.crop,distance=..0.1] at @s run return run function cnk:scythe/check_cnk_crop
+execute as @n[type=minecraft:item_display,tag=cnk.crop,distance=..0.1] at @s run return run function cnk:scythe/cnk_crop/check
 
 execute unless block ~ ~ ~ #cnk:crops run return fail
 
 scoreboard players set $scythe_block_check cnk.dummy 0
-execute if block ~ ~ ~ minecraft:beetroots[age=3] run scoreboard players add $scythe_block_check cnk.dummy 1
-execute if block ~ ~ ~ minecraft:carrots[age=7] run scoreboard players add $scythe_block_check cnk.dummy 1
-execute if block ~ ~ ~ minecraft:potatoes[age=7] run scoreboard players add $scythe_block_check cnk.dummy 1
-execute if block ~ ~ ~ minecraft:wheat[age=7] run scoreboard players add $scythe_block_check cnk.dummy 1
-execute if block ~ ~ ~ minecraft:melon run scoreboard players add $scythe_block_check cnk.dummy 1
-execute if block ~ ~ ~ minecraft:pumpkin run scoreboard players add $scythe_block_check cnk.dummy 1
-execute if block ~ ~ ~ minecraft:torchflower_crop[age=1] run scoreboard players add $scythe_block_check cnk.dummy 1
-execute if block ~ ~ ~ minecraft:pitcher_crop[age=4] run scoreboard players add $scythe_block_check cnk.dummy 1
-execute if block ~ ~ ~ minecraft:nether_wart[age=3] run scoreboard players add $scythe_block_check cnk.dummy 1
+function cnk:scythe/vanilla_crop/check
 
-execute if score $scythe_block_check cnk.dummy matches 1.. run scoreboard players set $scythe_check cnk.dummy 1
-execute if score $scythe_block_check cnk.dummy matches 1.. if entity @s[tag=cnk.scythe_mainhand] run loot spawn ~ ~ ~ mine ~ ~ ~ mainhand
-execute if score $scythe_block_check cnk.dummy matches 1.. if entity @s[tag=cnk.scythe_offhand] run loot spawn ~ ~ ~ mine ~ ~ ~ offhand
+execute if score $scythe_block_check cnk.dummy matches 0 run return fail
 
-execute if score $scythe_block_check cnk.dummy matches 1.. run scoreboard players add @s cnk.crops_harvested 1
+# found valid block, continue
+scoreboard players set $scythe_check cnk.dummy 1
+function cnk:scythe/vanilla_crop/spawn
+
+# increment statistic
+scoreboard players add @s cnk.crops_harvested 1
 
 gamerule block_drops false
-execute if block ~ ~ ~ minecraft:beetroots[age=3] run setblock ~ ~ ~ minecraft:beetroots[age=0] destroy
-execute if block ~ ~ ~ minecraft:carrots[age=7] run setblock ~ ~ ~ minecraft:carrots[age=0] destroy
-execute if block ~ ~ ~ minecraft:potatoes[age=7] run setblock ~ ~ ~ minecraft:potatoes[age=0] destroy
-execute if block ~ ~ ~ minecraft:wheat[age=7] run setblock ~ ~ ~ minecraft:wheat[age=0] destroy
-execute if block ~ ~ ~ minecraft:melon run setblock ~ ~ ~ minecraft:air destroy
-execute if block ~ ~ ~ minecraft:pumpkin run setblock ~ ~ ~ minecraft:air destroy
-execute if block ~ ~ ~ minecraft:torchflower_crop[age=1] run setblock ~ ~ ~ minecraft:torchflower_crop[age=0] destroy
-execute if block ~ ~ ~ minecraft:pitcher_crop[age=4] run setblock ~ ~ ~ minecraft:pitcher_crop[age=0] destroy
-execute if block ~ ~ ~ minecraft:nether_wart[age=3] run setblock ~ ~ ~ minecraft:nether_wart[age=0] destroy
+function cnk:scythe/vanilla_crop/break
 execute if score $tile_drops cnk.dummy matches 1 run gamerule block_drops true
