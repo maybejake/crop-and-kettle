@@ -27,4 +27,4 @@ playsound cnk:item.spirit_sprite.use player @a ~ ~ ~ 1 1
 playsound cnk:block.wine_rack.spirited player @a ~ ~ ~ 1 1
 
 execute as @p[tag=cnk.sprite_use,distance=..20] run item modify entity @s[gamemode=!creative] weapon.mainhand {"function":"minecraft:set_count","count":-1,"add":true}
-scoreboard players add @p[tag=cnk.sprite_use,distance=..20] cnk.sprites_used 1
+scoreboard players add @p[tag=cnk.sprite_use,distance=..20] cnk.statistic.sprites_used 1

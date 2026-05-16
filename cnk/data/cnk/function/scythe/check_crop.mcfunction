@@ -12,7 +12,7 @@ scoreboard players set $scythe_check cnk.dummy 1
 function cnk:scythe/vanilla_crop/spawn
 
 # increment statistic
-scoreboard players add @s cnk.crops_harvested 1
+scoreboard players add @s cnk.statistic.crops_harvested 1
 
 gamerule block_drops false
 function cnk:scythe/vanilla_crop/break
