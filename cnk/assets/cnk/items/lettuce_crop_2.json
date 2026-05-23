@@ -14,7 +14,8 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "cnk:block/lettuce/2"
+      "model": "cnk:block/lettuce/2",
+      "tints": [{"type": "minecraft:constant","value": 66046}]
     },
     "property": "minecraft:display_context"
   }

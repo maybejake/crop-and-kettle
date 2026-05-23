@@ -57,11 +57,11 @@
         ]
       }
     },
-    "tcc:swordfish": {
+    "myriad:swordfish": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
-          {"predicates":{"minecraft:custom_data":{"tcc":{"id":"swordfish"}}}}
+          {"predicates":{"minecraft:custom_data":{"myriad":{"id":"swordfish"}}}}
         ]
       }
     }
@@ -73,7 +73,7 @@
       "minecraft:salmon",
       "minecraft:cod",
       "fathoms:fish",
-      "tcc:swordfish",
+      "myriad:swordfish",
       "fathoms:salmon",
       "fathoms:cod"
     ]

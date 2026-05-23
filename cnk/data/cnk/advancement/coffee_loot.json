@@ -6,17 +6,17 @@
         "loot_table": "minecraft:chests/jungle_temple"
       }
     },
-    "tcc:jungle_temple": {
+    "myriad:jungle_temple": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "tcc:chests/jungle_temple/common"
+        "loot_table": "myriad:chests/jungle_temple/common"
       }
     }
   },
   "requirements": [
     [
       "minecraft:jungle_temple",
-      "tcc:jungle_temple"
+      "myriad:jungle_temple"
     ]
   ],
   "rewards": {

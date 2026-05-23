@@ -14,7 +14,8 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "cnk:block/coffee/6"
+      "model": "cnk:block/coffee/6",
+      "tints": [{"type": "minecraft:constant","value": 66046}]
     },
     "property": "minecraft:display_context"
   }
