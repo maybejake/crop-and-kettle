@@ -106,19 +106,6 @@
         ]
       }
     },
-    "cnk:music_disc_greetings": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:poisonous_potato",
-            "predicates": {
-              "minecraft:custom_data": {"cnk":{"disc":{"type":"greetings"}}}
-            }
-          }
-        ]
-      }
-    },
     "cnk:kebab_sword": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -140,45 +127,6 @@
             "items": "minecraft:poisonous_potato",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"marshmallow"}}}
-            }
-          }
-        ]
-      }
-    },
-    "cnk:music_disc_dinner": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:poisonous_potato",
-            "predicates": {
-              "minecraft:custom_data": {"cnk":{"disc":{"type":"dinner"}}}
-            }
-          }
-        ]
-      }
-    },
-    "cnk:music_disc_meal": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:poisonous_potato",
-            "predicates": {
-              "minecraft:custom_data": {"cnk":{"disc":{"type":"meal"}}}
-            }
-          }
-        ]
-      }
-    },
-    "cnk:music_disc_saute": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:poisonous_potato",
-            "predicates": {
-              "minecraft:custom_data": {"cnk":{"disc":{"type":"saute"}}}
             }
           }
         ]

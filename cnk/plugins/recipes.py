@@ -17,6 +17,7 @@ from pydantic import BaseModel, Field
 from typing import ClassVar, Literal
 from PIL import Image
 import logging
+import copy
 
 from .blocks import blocks
 
@@ -231,6 +232,12 @@ def add_translation(ctx: Context, recipe: Recipe):
 
 def add_all_recipes_check(ctx: Context, recipe: Recipe):
     """Adds a check for the recipe to the all recipes advancement"""
+    custom_data = {"cnk":{"ingredient":{"type":recipe.id}}}
+    if recipe.loot_table:
+        custom_data = get_custom_data(ctx, recipe.loot_table)
+        if custom_data is None:
+            return
+
     advancement = ctx.data.advancements["cnk:visible/all_recipes"].data
     advancement["criteria"][f"cnk:{recipe.id}"] = {
         "trigger": "minecraft:inventory_changed",
@@ -239,7 +246,7 @@ def add_all_recipes_check(ctx: Context, recipe: Recipe):
             {
                 "items": "minecraft:poisonous_potato",
                 "predicates": {
-                "minecraft:custom_data": {"cnk":{"ingredient":{"type":recipe.id}}}
+                "minecraft:custom_data": custom_data
                 }
             }
             ]
@@ -595,7 +602,7 @@ def get_custom_data(ctx: Context, loot_table: dict) -> dict:
     
     for item in functions:
         if item["function"] == "minecraft:set_components":
-            custom_data = item["components"].get("minecraft:custom_data")
+            custom_data = copy.deepcopy(item["components"].get("minecraft:custom_data"))
             if custom_data is not None:
                 custom_data.pop("smithed")
                 return custom_data
