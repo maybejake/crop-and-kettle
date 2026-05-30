@@ -91,6 +91,7 @@ def beet_default(ctx: Context):
     """Entry point for beet"""
     if not ctx.data[RecipeDefinition]:
         LOGGER.error("No recipes found.")
+        return
 
     generate_recipes(ctx)
 

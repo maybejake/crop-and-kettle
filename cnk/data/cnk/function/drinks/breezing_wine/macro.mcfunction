@@ -13,11 +13,7 @@ $loot $(give_or_spawn) loot { \
                 "minecraft:max_stack_size": 1, \
                 "minecraft:item_name": {"translate":"item.cnk.breezing_wine","fallback":"Breezing Wine"}, \
                 "minecraft:item_model": "cnk:breezing_wine", \
-                "minecraft:food": { \
-                  "nutrition": 0, \
-                  "saturation": 0, \
-                  "can_always_eat": true \
-                }, \
+                "!minecraft:food": {}, \
                 "minecraft:consumable": { \
                   "animation":"drink", \
                   "sound":"minecraft:entity.generic.drink", \

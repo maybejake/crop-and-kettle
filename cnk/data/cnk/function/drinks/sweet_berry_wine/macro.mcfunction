@@ -13,11 +13,7 @@ $loot $(give_or_spawn) loot { \
                 "minecraft:max_stack_size": 1, \
                 "minecraft:item_name": {"translate":"item.cnk.sweet_berry_wine","fallback":"Sweet Berry Wine"}, \
                 "minecraft:item_model": "cnk:sweet_berry_wine", \
-                "minecraft:food": { \
-                  "nutrition": 0, \
-                  "saturation": 0, \
-                  "can_always_eat": true \
-                }, \
+                "!minecraft:food": {}, \
                 "minecraft:consumable": { \
                   "animation":"drink", \
                   "sound":"minecraft:entity.generic.drink", \

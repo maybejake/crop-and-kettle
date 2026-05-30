@@ -17,7 +17,7 @@ item modify entity @s armor.head {"function":"minecraft:set_custom_model_data","
 # blinking
 scoreboard players set $chance cnk.dummy 0
 execute if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{periodic_tick:5}} run function cnk:fizz/blink
-execute if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{periodic_tick:10}} run return run item modify entity @s armor.head {"function":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","size":1,"offset":1,"values":[false, false]}}
+execute if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{periodic_tick:10}} run return run item modify entity @s armor.head {"function":"minecraft:set_custom_model_data","flags":{"mode":"replace_all","values":[false, false, false]}}
 
 # blink sound
 execute if score $chance cnk.dummy matches 1..10 run playsound minecraft:block.honey_block.break neutral @a ~ ~ ~ 0.4 2

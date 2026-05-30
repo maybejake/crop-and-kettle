@@ -1,0 +1,21 @@
+{
+  "parent": "cnk:cookbook/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:splash_potion",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"ingredient":{"type":"creeping_wine"},"wine":{}}}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "cnk:drinks/creeping_wine/convert/main"
+  }
+}

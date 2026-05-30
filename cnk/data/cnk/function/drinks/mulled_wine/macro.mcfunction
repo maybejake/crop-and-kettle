@@ -13,11 +13,7 @@ $loot $(give_or_spawn) loot { \
                 "minecraft:max_stack_size": 1, \
                 "minecraft:item_name": {"translate":"item.cnk.mulled_wine","fallback":"Apple Cider"}, \
                 "minecraft:item_model": "cnk:mulled_wine", \
-                "minecraft:food": { \
-                  "nutrition": 0, \
-                  "saturation": 0, \
-                  "can_always_eat": true \
-                }, \
+                "!minecraft:food": {}, \
                 "minecraft:consumable": { \
                   "animation":"drink", \
                   "sound":"minecraft:entity.generic.drink", \

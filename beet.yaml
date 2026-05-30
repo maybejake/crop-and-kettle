@@ -4,5 +4,9 @@ require:
   
 pipeline:
   - extend: cnk
+  - cnk.plugins.release
 
 output: .build
+
+version: 1.3.9
+name: CropAndKettle

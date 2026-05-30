@@ -10,8 +10,4 @@ require:
 
 pipeline:
   - cnk.plugins.recipes
-  - cnk.plugins.release
   - mecha
-
-version: 1.3.8
-name: CropAndKettle

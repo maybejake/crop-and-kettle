@@ -41,8 +41,6 @@ scoreboard objectives add cnk.wine_time_cooldown dummy
 
 scoreboard objectives add cnk.wine_time dummy
 
-scoreboard objectives add cnk.creeping_wine minecraft.used:minecraft.splash_potion
-
 scoreboard objectives add cnk.drop_food minecraft.dropped:minecraft.poisonous_potato
 
 scoreboard objectives add cnk.speak_cooldown dummy
