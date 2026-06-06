@@ -9,7 +9,7 @@ item modify entity @p[tag=cnk.interact_basin,distance=..20] weapon.mainhand {"fu
 
 # store inventory state
 data modify storage cnk:temp time.give_or_spawn set value "give @s"
-execute if entity @p[tag=cnk.interact_basin,predicate=cnk:inventory_full] run data modify storage cnk:temp time.give_or_spawn set value "spawn ~ ~ ~"
+execute if entity @p[tag=cnk.interact_basin,distance=..20,predicate=cnk:inventory_full] run data modify storage cnk:temp time.give_or_spawn set value "spawn ~ ~ ~"
 
 data modify storage cnk:temp time.color set from entity @s item.components."minecraft:custom_model_data".colors[0]
 function cnk:basin/empty/macro with entity @s item.components."minecraft:custom_data".cnk.basin

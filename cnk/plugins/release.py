@@ -28,18 +28,12 @@ def beet_default(ctx: Context):
     ctx.assets["cnk:en_us"] = Language(lang)
 
     # Save datapack
-    ctx.data.save(
-        path=ctx.directory / ".build" / f"{ctx.project_name}-{version}-Data-Pack",
-        overwrite=True,
-        zipped=True
-    )
+    data_pack_path = ctx.directory / ".build" / f"{ctx.project_name}-{version}-Data-Pack"
+    ctx.data.save(path=data_pack_path, overwrite=True, zipped=True)
 
     # Save resourcepack
-    ctx.assets.save(
-        path=ctx.directory / ".build" / f"{ctx.project_name}-{version}-Resource-Pack",
-        overwrite=True,
-        zipped=True
-    )
+    resource_pack_path = ctx.directory / ".build" / f"{ctx.project_name}-{version}-Resource-Pack"
+    ctx.assets.save(path=resource_pack_path, overwrite=True, zipped=True)
 
     with tempfile.TemporaryDirectory() as temp_dir:
         temp_path = Path(temp_dir)
@@ -51,10 +45,3 @@ def beet_default(ctx: Context):
         # Save resource pack
         resource_pack_dir = temp_path / "resource-pack"
         ctx.assets.save(path=resource_pack_dir)
-
-        # Place data folder into resourcepack
-        shutil.copytree(data_pack_dir / "data", resource_pack_dir / "data", dirs_exist_ok=True)
-
-        # Zip
-        data_resource_pack_dir = ctx.directory / ".build" / f"{ctx.project_name}-{version}-Data-Resource-Pack"
-        shutil.make_archive(data_resource_pack_dir, "zip", resource_pack_dir)

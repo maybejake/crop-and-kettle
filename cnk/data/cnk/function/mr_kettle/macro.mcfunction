@@ -1,4 +1,4 @@
 $summon item_display ~ ~ ~ {Tags:["cnk.mr_kettle","cnk.block","smithed.block","smithed.entity","smithed.strict"$(extra_tags)],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[1.01f,1.01f,1.01f],translation:[0.0f,0.5f,0.0f]},item:{id:"minecraft:barrier",count:1,components:{"minecraft:item_name":{"translate":"item.cnk.mr_kettle","fallback":"Mr. Kettle"},"minecraft:item_model":"cnk:mr_kettle_block","minecraft:custom_data":{"$jade:stack":{"id":"cnk:mr_kettle"}}}},Rotation:[$(rotation),0.0],Passengers: \
     [ \
-        {id:"minecraft:interaction",Tags:["cnk.mr_kettle_interaction","smithed.block","smithed.entity","smithed.strict"],height:1.2,width:0.8} \
+        {id:"minecraft:interaction",Tags:["cnk.mr_kettle_interaction","smithed.block","smithed.entity","smithed.strict"],height:1.2,width:0.8,response:$(response)} \
     ]}

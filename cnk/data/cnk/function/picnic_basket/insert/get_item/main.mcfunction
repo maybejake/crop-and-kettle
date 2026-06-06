@@ -9,5 +9,5 @@ execute if data storage cnk:temp picnic_basket.item.components."minecraft:custom
 function #cnk:addons/picnic_basket_checks
 
 # shwing
-execute if data storage cnk:temp picnic_basket{slot:"mainhand"} run swing @s mainhand
-execute if data storage cnk:temp picnic_basket{slot:"offhand"} run swing @s offhand
+execute if data storage cnk:temp picnic_basket{slot:"mainhand"} run function cnk:swing/mainhand
+execute if data storage cnk:temp picnic_basket{slot:"offhand"} run function cnk:swing/offhand

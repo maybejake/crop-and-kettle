@@ -34,4 +34,3 @@ jobs:
           files: |
             .build/CropAndKettle-${{ github.ref_name }}-Data-Pack.zip
             .build/CropAndKettle-${{ github.ref_name }}-Resource-Pack.zip
-            .build/CropAndKettle-${{ github.ref_name }}-Data-Resource-Pack.zip

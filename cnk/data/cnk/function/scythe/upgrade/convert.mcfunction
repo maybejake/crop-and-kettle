@@ -23,6 +23,13 @@ $item modify entity @s $(slot) {function:"minecraft:set_components",components:{
             "amount": -2.9, \
             "operation": "add_value", \
             "slot": "mainhand" \
+        }, \
+        { \
+          "id": "cnk:scythe_sweeping_damage_ratio", \
+          "type": "minecraft:sweeping_damage_ratio", \
+          "amount": 0.25, \ 
+          "operation": "add_value", \
+          "slot": "mainhand" \
         } \
     ] \
 }}

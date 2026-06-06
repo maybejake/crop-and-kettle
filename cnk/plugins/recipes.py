@@ -369,7 +369,7 @@ def generate_mixing_bowl_recipe(ctx: Context, recipe: Recipe):
     # Add byproduct handling
     for ingredient in recipe.ingredients:
         generic = get_generic(ingredient)
-        if generic in ["milk", "water"]:
+        if generic in ["milk", "water", "cooking_oil"]:
             recipe_function.append(f"function cnk:recipes/mixing_bowl/remove_generic/{generic}")
 
     # Clean up mixing

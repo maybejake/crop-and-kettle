@@ -3,8 +3,8 @@ playsound minecraft:block.trial_spawner.ambient_ominous block @a ~ ~ ~ 1 2
 playsound minecraft:entity.generic.extinguish_fire block @a ~ ~ ~ 1 1
 playsound cnk:block.candy_bowl.laugh block @a ~ ~ ~ 1 0.5
 
-swing @p[tag=cnk.interact_scarecrow] mainhand
-execute as @p[tag=cnk.interact_scarecrow] run item modify entity @s[gamemode=!creative] weapon.mainhand {"function":"minecraft:set_count","count":-1,"add":true}
+execute as @p[tag=cnk.interact_scarecrow,distance=..20] run function cnk:swing/mainhand
+execute as @p[tag=cnk.interact_scarecrow,distance=..20] run item modify entity @s[gamemode=!creative] weapon.mainhand {"function":"minecraft:set_count","count":-1,"add":true}
 function cnk:scarecrow/entity/summon
 
 execute on passengers run kill @s

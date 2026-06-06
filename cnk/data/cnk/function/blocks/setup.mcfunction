@@ -3,6 +3,9 @@ function cnk:blocks/rotation
 data modify storage cnk:temp item_name set from block ~ ~ ~ components."minecraft:item_name"
 data modify storage cnk:temp block.data set from block ~ ~ ~
 
+# handle response
+function cnk:blocks/response
+
 setblock ~ ~ ~ minecraft:air
 
 # if not partial placeable, place normally

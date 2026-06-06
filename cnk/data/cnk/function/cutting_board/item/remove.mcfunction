@@ -1,4 +1,4 @@
-swing @p[tag=cnk.interact_cutting_board] mainhand
+execute as @p[tag=cnk.interact_cutting_board,distance=..20] run function cnk:swing/mainhand
 
 playsound minecraft:block.bamboo_wood.step block @a ~ ~ ~ 1 2
 execute if data entity @s item.components run function cnk:cutting_board/item/item_macro_components with entity @s item

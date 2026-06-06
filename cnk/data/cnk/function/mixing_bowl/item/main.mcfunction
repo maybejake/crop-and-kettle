@@ -1,5 +1,5 @@
 execute if score @s cnk.item_count matches 4.. run return run function cnk:mixing_bowl/mix/main
-swing @p[tag=cnk.interact_mixing_bowl,distance=..20] mainhand
+execute as @p[tag=cnk.interact_mixing_bowl,distance=..20] run function cnk:swing/mainhand
 
 scoreboard players set $hand_place cnk.dummy 1
 

@@ -1,13 +1,13 @@
 data remove storage cnk:temp picnic_basket
 
 # get the item to insert and the hand it comes from
-execute as @p[tag=cnk.interact_picnic_basket] run function cnk:picnic_basket/insert/get_item/switch
+execute as @p[tag=cnk.interact_picnic_basket,distance=..20] run function cnk:picnic_basket/insert/get_item/switch
 
 # if no data obtained, toggle
 execute unless data storage cnk:temp picnic_basket.item run return run function cnk:picnic_basket/interact/toggle_open
 
 # if not sneaking, set count to 1
-execute as @p[tag=cnk.interact_picnic_basket] unless predicate cnk:sneaking run data modify storage cnk:temp picnic_basket.item.count set value 1
+execute as @p[tag=cnk.interact_picnic_basket,distance=..20] unless predicate cnk:sneaking run data modify storage cnk:temp picnic_basket.item.count set value 1
 
 # if no count, set count to 1
 execute unless data storage cnk:temp picnic_basket.item.count run data modify storage cnk:temp picnic_basket.item.count set value 1
@@ -39,4 +39,4 @@ function cnk:picnic_basket/insert/add/main
 function cnk:picnic_basket/interact/update/main
 
 # remove the items from the player's hand
-execute as @p[tag=cnk.interact_picnic_basket] run function cnk:picnic_basket/insert/remove with storage cnk:temp picnic_basket
+execute as @p[tag=cnk.interact_picnic_basket,distance=..20] run function cnk:picnic_basket/insert/remove with storage cnk:temp picnic_basket

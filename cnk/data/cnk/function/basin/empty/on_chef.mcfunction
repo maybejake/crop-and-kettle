@@ -1,4 +1,4 @@
-swing @s mainhand
+function cnk:swing/mainhand
 playsound minecraft:item.bottle.fill block @a ~ ~ ~ 1 1
 
 scoreboard players add @s cnk.statistic.drinks_bottled 1
