@@ -1,0 +1,3 @@
+execute if entity @p[tag=cnk.interact_plate,distance=..20,predicate=cnk:sneaking] on passengers if entity @s[type=minecraft:item_display,tag=cnk.plate_item] on vehicle run return run function cnk:plate/item/clear
+execute if items entity @p[tag=cnk.interact_plate,distance=..20] weapon.mainhand * run return run function cnk:plate/item/main
+execute unless items entity @p[tag=cnk.interact_plate,distance=..20] weapon.mainhand * on passengers if entity @s[type=minecraft:item_display,tag=cnk.plate_item] on vehicle run return run function cnk:plate/interact/remove_last

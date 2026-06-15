@@ -1,1 +1,1 @@
-$title @p[tag=cnk.interact_calendar] actionbar {"translate":"item.cnk.calendar.format","with":["$(year)","$(day)"]}
+$title @s actionbar {"translate":"item.cnk.calendar.format","with":["$(year)","$(day)"]}

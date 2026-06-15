@@ -1,0 +1,4 @@
+execute on target unless entity @s[tag=cnk.interact_basin] run return fail
+
+data remove entity @s interaction
+execute if items entity @p[tag=cnk.interact_basin,distance=..20] weapon.mainhand minecraft:glass_bottle on vehicle if score @s cnk.level matches 1.. at @s run return run function cnk:basin/empty/main

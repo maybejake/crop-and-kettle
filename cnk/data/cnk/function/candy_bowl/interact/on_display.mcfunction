@@ -1,0 +1,3 @@
+execute unless items entity @p[tag=cnk.interact_candy_bowl,predicate=cnk:sneaking] weapon.mainhand * if score @s cnk.candy_count matches 1.. at @s run return run function cnk:candy_bowl/item/clear
+execute unless items entity @p[tag=cnk.interact_candy_bowl] weapon.mainhand * if score @s cnk.candy_count matches 1.. at @s run return run function cnk:candy_bowl/item/remove
+execute if items entity @p[tag=cnk.interact_candy_bowl] weapon.mainhand minecraft:poisonous_potato[minecraft:custom_data~{cnk:{candy:{}}}] unless score @s cnk.candy_count matches 64.. at @s run return run function cnk:candy_bowl/item/add

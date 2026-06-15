@@ -5,7 +5,7 @@ execute if entity @s[predicate=!cnk:bone_meal/either] run return run function cn
 scoreboard players set $bonemeal_crop_check cnk.dummy 0
 
 tag @s add cnk.bonemeal_crop
-execute as @e[type=minecraft:interaction,tag=cnk.crop_interaction,distance=..20] at @s run function cnk:bone_meal_crop/check
+execute as @n[type=minecraft:interaction,tag=cnk.crop_interaction,nbt={interaction:{}},distance=..20] at @s run function cnk:bone_meal_crop/on_interaction
 tag @s remove cnk.bonemeal_crop
 
 execute if score $bonemeal_crop_check cnk.dummy matches 1 run function cnk:bone_meal_crop/success

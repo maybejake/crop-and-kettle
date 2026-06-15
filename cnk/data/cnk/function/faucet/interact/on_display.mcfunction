@@ -1,0 +1,3 @@
+execute if entity @s[tag=cnk.faucet_closed] align xyz positioned ~0.5 ~-1 ~0.5 if function cnk:faucet/interact/pail at @s run return run function cnk:faucet/open
+execute if entity @s[tag=cnk.faucet_closed] if block ~ ~-1 ~ #cnk:cauldron unless block ~ ~-1 ~ minecraft:water_cauldron[level=3] run return run function cnk:faucet/open
+execute if entity @s[tag=cnk.faucet_open] run return run function cnk:faucet/interact/close

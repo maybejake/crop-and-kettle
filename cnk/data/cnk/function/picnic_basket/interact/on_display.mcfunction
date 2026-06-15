@@ -1,3 +1,5 @@
+playsound minecraft:block.bamboo.hit block @a ~ ~ ~ 1 1.5
+
 execute store result score $basket_count cnk.dummy run data get entity @s item.components."minecraft:custom_data".cnk.picnic_basket.count
 execute store result score $max_items cnk.dummy run data get entity @s item.components."minecraft:custom_data".cnk.picnic_basket.max_items
 
