@@ -12,6 +12,8 @@ execute if score $rotation cnk.dummy matches -1350..-450 align xyz positioned ~0
 execute if score $rotation cnk.dummy matches -450..450 align xyz positioned ~0.5 ~0.5 ~0.5 run data modify storage cnk:temp pail.rotation set value 0
 execute if score $rotation cnk.dummy matches 450..1350 align xyz positioned ~0.5 ~0.5 ~0.5 run data modify storage cnk:temp pail.rotation set value 90
 
+data modify storage cnk:temp pail.response set from storage cnk:temp response
+
 execute unless data storage cnk:temp pail.liquid run function cnk:pail/macro with storage cnk:temp pail
 execute if data storage cnk:temp pail{liquid:"water"} run function cnk:pail/interact/fill/water_color
 execute if data storage cnk:temp pail.liquid run function cnk:pail/filled_macro with storage cnk:temp pail

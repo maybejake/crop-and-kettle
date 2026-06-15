@@ -3,6 +3,8 @@ execute unless entity @s[tag=!cnk.tomato_crop,tag=!cnk.coffee_crop,tag=!cnk.chil
 
 playsound minecraft:item.bone_meal.use block @a ~ ~ ~ 1 1
 
+execute as @p[tag=cnk.bonemeal_crop,distance=..20] run function cnk:bone_meal_crop/on_player
+
 execute unless entity @s[tag=cnk.lettuce_crop] run function cnk:bone_meal_crop/age
 execute if entity @s[tag=cnk.lettuce_crop] run function cnk:bone_meal_crop/short_age
 

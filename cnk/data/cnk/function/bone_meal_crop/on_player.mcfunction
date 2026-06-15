@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand minecraft:bone_meal run return run function cnk:bone_meal_crop/mainhand
+execute if items entity @s weapon.offhand minecraft:bone_meal run return run function cnk:bone_meal_crop/offhand
