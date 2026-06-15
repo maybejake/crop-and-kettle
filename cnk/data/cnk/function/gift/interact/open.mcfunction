@@ -1,3 +1,4 @@
+execute if entity @s[tag=cnk.gift_open] run return fail
 tag @s add cnk.gift_open
 
 data modify entity @s item.components."minecraft:item_model" set value "cnk:gift_open"

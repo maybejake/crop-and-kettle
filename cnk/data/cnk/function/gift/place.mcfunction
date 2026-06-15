@@ -10,6 +10,8 @@ data modify storage cnk:temp gift.components."minecraft:item_model" set value "c
 data modify storage cnk:temp gift.components."minecraft:item_name" merge value {"translate":"item.cnk.gift","fallback":"Gift"}
 data modify storage cnk:temp gift.components."minecraft:custom_data"."$jade:stack" set value {"id":"cnk:gift"}
 
+data modify storage cnk:temp gift.response set from storage cnk:temp response
+
 function cnk:gift/macro with storage cnk:temp gift
 
 playsound minecraft:block.leaf_litter.place block @a ~ ~ ~ 1 2
