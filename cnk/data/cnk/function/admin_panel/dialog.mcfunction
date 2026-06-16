@@ -121,6 +121,18 @@ $dialog show @s { \
     }, \
     { \
       "type": "minecraft:boolean", \
+      "key": "beer_disabled", \
+      "label": {"translate": "cnk.dialog.admin_panel.disable", with:[{"translate": "item.cnk.beer"}]}, \
+      "initial": $(beer_disabled) \
+    }, \
+    { \
+      "type": "minecraft:boolean", \
+      "key": "ginger_beer_disabled", \
+      "label": {"translate": "cnk.dialog.admin_panel.disable", with:[{"translate": "item.cnk.ginger_beer"}]}, \
+      "initial": $(ginger_beer_disabled) \
+    }, \
+    { \
+      "type": "minecraft:boolean", \
       "key": "gift_box_disabled", \
       "label": {"translate": "cnk.dialog.admin_panel.disable", with:[{"translate": "item.cnk.gift_box"}]}, \
       "initial": $(gift_box_disabled) \

@@ -5,7 +5,6 @@
       "conditions": {
         "entity": {
           "entity_type": "minecraft:interaction",
-          "nbt": "{Tags:[\"cnk.mr_kettle_interaction\"]}",
           "entity_tags": {"any_of":["cnk.mr_kettle_interaction"]}
         }
       }

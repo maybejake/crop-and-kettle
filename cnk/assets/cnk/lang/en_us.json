@@ -419,6 +419,8 @@
   "advancement.cnk.picnic_basket.desc":"Store food on the go by crafting a picnic basket",
   "advancement.cnk.fortune_cookie.name":"How Fortunate",
   "advancement.cnk.fortune_cookie.desc":"Eat a fortune cookie and get a fortune",
+  "advancement.cnk.all_secret_recipe.name":"Secret Menu",
+  "advancement.cnk.all_secret_recipe.desc":"Collect every secret recipe in Crop & Kettle",
   
   "death.attack.cnk.booze_cork": "%1$s got corked",
   "death.attack.cnk.scarecrow_spin": "%1$s got harvested",

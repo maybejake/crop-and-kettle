@@ -19,6 +19,8 @@ $data modify storage cnk:admin settings.heroic_wine_disabled set value $(heroic_
 $data modify storage cnk:admin settings.mulled_wine_disabled set value $(mulled_wine_disabled)b
 $data modify storage cnk:admin settings.prospecting_wine_disabled set value $(prospecting_wine_disabled)b
 $data modify storage cnk:admin settings.sweet_berry_wine_disabled set value $(sweet_berry_wine_disabled)b
+$data modify storage cnk:admin settings.beer_disabled set value $(beer_disabled)b
+$data modify storage cnk:admin settings.ginger_beer_disabled set value $(ginger_beer_disabled)b
 
 # gift box stuff
 $data modify storage cnk:admin settings.gift_box_disabled set value $(gift_box_disabled)b

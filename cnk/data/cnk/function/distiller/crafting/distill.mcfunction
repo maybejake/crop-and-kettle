@@ -45,6 +45,7 @@ execute \
         run return run function cnk:recipes/distiller/creeping_wine
 
 execute \
+        unless data storage cnk:admin settings{beer_disabled:true} \
         if score $unique_items cnk.dummy matches 2 \
         if function cnk:distiller/crafting/generic/water if score $water_count cnk.dummy matches 1 \
         if data storage cnk:temp distiller.Items[{id:"minecraft:wheat"}] \
@@ -53,6 +54,7 @@ execute \
         run return run function cnk:recipes/distiller/beer
 
 execute \
+        unless data storage cnk:admin settings{ginger_beer_disabled:true} \
         if score $unique_items cnk.dummy matches 3 \
         if function cnk:distiller/crafting/generic/water if score $water_count cnk.dummy matches 1 \
         if data storage cnk:temp distiller.Items[{id:"minecraft:wheat"}] \

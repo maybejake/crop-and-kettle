@@ -15,6 +15,8 @@ data modify storage cnk:temp admin_panel set value { \
     mulled_wine_disabled: false, \
     prospecting_wine_disabled: false, \
     sweet_berry_wine_disabled: false, \
+    beer_disabled: false, \
+    ginger_beer_disabled: false, \
     gift_box_disabled: false \
 }
 
@@ -42,6 +44,8 @@ execute if data storage cnk:admin settings{heroic_wine_disabled:true} run data m
 execute if data storage cnk:admin settings{mulled_wine_disabled:true} run data modify storage cnk:temp admin_panel.mulled_wine_disabled set value true
 execute if data storage cnk:admin settings{prospecting_wine_disabled:true} run data modify storage cnk:temp admin_panel.prospecting_wine_disabled set value true
 execute if data storage cnk:admin settings{sweet_berry_wine_disabled:true} run data modify storage cnk:temp admin_panel.sweet_berry_wine_disabled set value true
+execute if data storage cnk:admin settings{beer_disabled:true} run data modify storage cnk:temp admin_panel.beer_disabled set value true
+execute if data storage cnk:admin settings{ginger_beer_disabled:true} run data modify storage cnk:temp admin_panel.ginger_beer_disabled set value true
 execute if data storage cnk:admin settings{gift_box_disabled:true} run data modify storage cnk:temp admin_panel.gift_box_disabled set value true
 
 execute if data storage cnk:admin settings
@@ -64,6 +68,8 @@ data modify storage cnk:temp admin_panel.macros set value " \
     mulled_wine_disabled:$(mulled_wine_disabled), \
     prospecting_wine_disabled:$(prospecting_wine_disabled), \
     sweet_berry_wine_disabled:$(sweet_berry_wine_disabled), \
+    beer_disabled:$(beer_disabled), \
+    ginger_beer_disabled:$(beer_disabled), \
     gift_box_disabled:$(gift_box_disabled), \
     trade_reset_time:$(trade_reset_time) \
 "
