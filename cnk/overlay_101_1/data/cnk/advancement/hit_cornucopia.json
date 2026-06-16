@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"cnk.cornucopia_interaction\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cnk:cornucopia/hit/main"
+  }
+}

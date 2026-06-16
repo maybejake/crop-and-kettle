@@ -4,8 +4,8 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:wandering_trader",
-          "nbt": "{Tags:[\"cnk.doughboy_trader\"]}"
+          "entity_type": "minecraft:wandering_trader",
+          "entity_tags": {"any_of":["cnk.doughboy_trader"]}
         }
       }
     }

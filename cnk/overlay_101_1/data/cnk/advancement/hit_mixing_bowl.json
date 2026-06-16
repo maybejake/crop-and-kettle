@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"cnk.mixing_bowl_interaction\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cnk:mixing_bowl/hit/main"
+  }
+}

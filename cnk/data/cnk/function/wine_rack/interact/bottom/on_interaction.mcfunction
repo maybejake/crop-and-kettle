@@ -1,2 +1,4 @@
+execute on target unless entity @s[tag=cnk.interact_wine_rack] run return fail
+
 data remove entity @s interaction
 execute align xyz positioned ~0.5 ~0.5 ~0.5 rotated as @s positioned ^ ^ ^0.51 as @n[type=minecraft:item_display,tag=cnk.wine_rack,distance=..0.1] run function cnk:wine_rack/interact/bottom/as_rack

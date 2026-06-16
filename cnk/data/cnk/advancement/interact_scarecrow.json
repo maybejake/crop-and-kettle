@@ -4,8 +4,8 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
-          "nbt": "{Tags:[\"cnk.scarecrow_interaction\"]}"
+          "entity_type": "minecraft:interaction",
+          "entity_tags": {"any_of":["cnk.scarecrow_interaction"]}
         }
       }
     }

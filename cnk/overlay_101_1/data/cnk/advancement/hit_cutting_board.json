@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"cnk.cutting_board_interaction\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cnk:cutting_board/hit/main"
+  }
+}

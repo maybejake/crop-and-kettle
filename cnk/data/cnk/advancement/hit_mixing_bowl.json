@@ -4,8 +4,8 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
-          "nbt": "{Tags:[\"cnk.mixing_bowl_interaction\"]}"
+          "entity_type": "minecraft:interaction",
+          "entity_tags": {"any_of":["cnk.mixing_bowl_interaction"]}
         }
       }
     }

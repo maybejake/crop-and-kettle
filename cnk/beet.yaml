@@ -4,13 +4,16 @@ data_pack:
     - directory: overlay_94_1
       min_format: [94,1]
       max_format: [94,1]
+    - directory: overlay_101_1
+      min_format: [94,1]
+      max_format: [101,1]
   min_format: [94,1]
-  max_format: [101,1]
+  max_format: [107,1]
 
 resource_pack:
   load: .
   min_format: [75,0]
-  max_format: [84,0]
+  max_format: [88,0]
 
 require:
   - cnk.plugins.recipes.load_recipes
