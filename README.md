@@ -17,7 +17,7 @@ Crop & Kettle is designed to be figured out by playing it, using the advancement
 
 # FAQ
 ### Where is the resource pack?
-It's packaged with the datapack! The zip file you download can be used interchangeably, so just drop it into your resourcepack and datapack folders and you'll be good to go!
+Click on the versions tab, select the version you want to download, then scroll down. It's always attached as an additional file!
 ### How do I get the cookbook?
 Craft it using wheat and a book in a crafting table, but the recipe is unlocked for you by default. Search for "The Craft of Cooking"
 ### Where can I find the seeds for the new crops?
