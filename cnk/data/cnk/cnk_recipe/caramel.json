@@ -9,5 +9,6 @@
     "nutrition": 6,
     "saturation": 2.1,
     "category": "desserts",
-    "tool": "cooking_pot"
+    "tool": "cooking_pot",
+    "plateable": true
 }

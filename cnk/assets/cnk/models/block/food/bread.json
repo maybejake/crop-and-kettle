@@ -1,0 +1,57 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"3": "cnk:block/food/bread",
+		"particle": "cnk:block/food/caramel_apple"
+	},
+	"elements": [
+		{
+			"from": [4, 1, 6],
+			"to": [12, 4, 10],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 1, 8]},
+			"faces": {
+				"north": {"uv": [2, 2, 6, 3.5], "texture": "#3"},
+				"east": {"uv": [0, 2, 2, 3.5], "texture": "#3"},
+				"south": {"uv": [8, 2, 12, 3.5], "texture": "#3"},
+				"west": {"uv": [6, 2, 8, 3.5], "texture": "#3"},
+				"up": {"uv": [6, 2, 2, 0], "texture": "#3"},
+				"down": {"uv": [10, 0, 6, 2], "texture": "#3"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3.5, -1.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 3.5, -1.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"translation": [1.5, 8.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [1.5, 8.75, 0]
+		},
+		"ground": {
+			"translation": [0, 3.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"gui": {
+			"rotation": [32, 45, 0],
+			"translation": [0, 4.5, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"rotation": [-180, 0, 0],
+			"translation": [0, -4.4, 0],
+			"scale": [1.55, 1.55, 1.55]
+		},
+		"fixed": {
+			"translation": [0, 6.75, 0]
+		}
+	}
+}

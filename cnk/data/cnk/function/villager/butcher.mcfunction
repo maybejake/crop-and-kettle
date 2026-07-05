@@ -1,3 +1,6 @@
+# prevent overriding base trades
+execute unless data entity @s Offers.Recipes run return fail
+
 tag @s add cnk.butcher_villager
 
 data modify storage cnk:temp secret_recipe.first_recipe set value ""

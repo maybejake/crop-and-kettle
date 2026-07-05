@@ -20,7 +20,9 @@ require:
 
 pipeline:
   - cnk.plugins.recipes
+  - cnk.plugins.overlays.init
   - mecha
+  - cnk.plugins.overlays.apply
 
 output: .build
 

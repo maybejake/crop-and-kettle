@@ -13,7 +13,7 @@ data merge storage cnk:temp { \
     cookbook: { \
         data: { \
             source_key:"cnk.no_source", \
-            source_font:"cnk:book:base", \
+            source_font:"cnk.book:base", \
             tool_font:"cnk.book:base", \
             front_state: "idle", \
             staple_state: "idle", \
