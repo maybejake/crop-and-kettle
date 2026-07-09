@@ -7,3 +7,5 @@ execute if block ~ ~ ~ minecraft:pumpkin run return run scoreboard players set $
 execute if block ~ ~ ~ minecraft:torchflower_crop[age=1] run return run scoreboard players set $scythe_block_check cnk.dummy 1
 execute if block ~ ~ ~ minecraft:pitcher_crop[age=4] run return run scoreboard players set $scythe_block_check cnk.dummy 1
 execute if block ~ ~ ~ minecraft:nether_wart[age=3] run return run scoreboard players set $scythe_block_check cnk.dummy 1
+execute if block ~ ~ ~ minecraft:sweet_berry_bush[age=2] run return run scoreboard players set $scythe_block_check cnk.dummy 1
+execute if block ~ ~ ~ minecraft:sweet_berry_bush[age=3] run return run scoreboard players set $scythe_block_check cnk.dummy 1

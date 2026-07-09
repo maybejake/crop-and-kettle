@@ -1,0 +1,32 @@
+{
+  "parent": "cnk:cooldown",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "player": {
+          "minecraft:equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:custom_data": {"cnk":{"scythe":true}}
+              }
+            }
+          }
+        },
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:sweet_berry_bush"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+      "function": "cnk:scythe/effect"
+  }
+}
