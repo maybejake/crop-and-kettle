@@ -33,7 +33,7 @@ jobs:
         with:
           packsquash_version: latest
           options: |
-            pack_directory = './build/CropAndKettle-${{ github.ref_name }}-Resource-Pack'
+            pack_directory = '.build/CropAndKettle-${{ github.ref_name }}-Resource-Pack'
             output_file_path = '.build/CropAndKettle-${{ github.ref_name }}-Resource-Pack.zip'
             recompress_compressed_files = false
             zip_compression_iterations = 5
