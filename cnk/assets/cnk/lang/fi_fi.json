@@ -517,5 +517,8 @@
     "block.cnk.grape_crop": "Viiniköynnös",
     "block.cnk.lettuce_crop": "Lehtisalaatti",
     "block.cnk.rice_crops": "Riisikasvi",
-    "block.cnk.tomato_crops": "Tomaattipensas"
+    "block.cnk.tomato_crops": "Tomaattipensas",
+    "advancement.cnk.all_secret_recipe.name": "Salainen ruokalista",
+    "advancement.cnk.all_secret_recipe.desc": "Kerää jokainen salainen resepti Crop & Kettle-datapaketissa",
+    "item.cnk.glimmernut_butter": "Kimalluspähkinävoi"
 }

@@ -517,5 +517,8 @@
     "block.cnk.grape_crop": "Cây nho",
     "block.cnk.lettuce_crop": "Rau xà lách",
     "block.cnk.rice_crops": "Lúa",
-    "block.cnk.tomato_crops": "Cây cà chua"
+    "block.cnk.tomato_crops": "Cây cà chua",
+    "advancement.cnk.all_secret_recipe.name": "Menu Bí mật",
+    "advancement.cnk.all_secret_recipe.desc": "Thu thập tất cả các công thức bí mật của Crop & Kettle",
+    "item.cnk.glimmernut_butter": "Bơ Óc chó lấp lánh"
 }

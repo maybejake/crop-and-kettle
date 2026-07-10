@@ -517,5 +517,8 @@
     "block.cnk.grape_crop": "Plon winogrona",
     "block.cnk.lettuce_crop": "Plon sałaty",
     "block.cnk.rice_crops": "Plony ryżu",
-    "block.cnk.tomato_crops": "Plony pomidorów"
+    "block.cnk.tomato_crops": "Plony pomidorów",
+    "advancement.cnk.all_secret_recipe.name": "Sekretne menu",
+    "advancement.cnk.all_secret_recipe.desc": "Zbierz każdy sekretny przepis w Crop & Kettle",
+    "item.cnk.glimmernut_butter": "Masło błyskorzechowe"
 }
