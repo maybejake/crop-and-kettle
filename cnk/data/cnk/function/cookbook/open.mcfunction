@@ -91,13 +91,13 @@ data modify storage cnk:temp cookbook.data.source_font set from storage cnk:temp
 #handle tool font
 data modify storage cnk:temp cookbook.data.tool_font set from storage cnk:temp cookbook.current_page.tool_font
 
-#handle stamp
-function cnk:cookbook/stamp/main
+#if this page has a stamp, add build the stamp
+execute if data storage cnk:temp cookbook.current_page.stamp run function cnk:cookbook/stamp/main
 
-#handle jump back
-function cnk:cookbook/return/main
+#if there's a previous page, add return button
+execute if score @s cnk.cookbook_previous_page matches 1.. run function cnk:cookbook/return/main
 
-#handle lectern button
+#if opened via lectern, add the take book button
 execute if entity @s[tag=cnk.via_lectern] run function cnk:cookbook/lectern_button
 
 #next/previous incomplete recipe stuff

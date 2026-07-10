@@ -1,0 +1,1 @@
+$data modify storage cnk:temp cookbook.data.stamp set value "$(icon),'font':'$(font)'}"
