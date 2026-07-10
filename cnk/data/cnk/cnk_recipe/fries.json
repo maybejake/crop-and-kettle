@@ -8,5 +8,6 @@
     "nutrition": 7,
     "saturation": 9.1,
     "category": "snacks",
-    "tool": "cooking_pot"
+    "tool": "cooking_pot",
+    "plateable": true
 }

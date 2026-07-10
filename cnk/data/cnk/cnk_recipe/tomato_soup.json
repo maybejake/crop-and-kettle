@@ -8,5 +8,6 @@
     "nutrition": 6,
     "saturation": 7.2,
     "category": "light",
-    "tool": "cooking_pot"
+    "tool": "cooking_pot",
+    "plateable": true
 }

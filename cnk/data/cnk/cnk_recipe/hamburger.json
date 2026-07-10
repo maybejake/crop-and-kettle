@@ -10,5 +10,6 @@
     "nutrition": 10,
     "saturation": 12.0,
     "category": "hearty",
-    "tool": "cooking_pot"
+    "tool": "cooking_pot",
+    "plateable": true
 }
