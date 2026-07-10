@@ -2,7 +2,6 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "minecraft:block/water_flow",
 		"1": "cnk:block/faucet",
 		"particle": "cnk:block/faucet"
 	},
@@ -83,19 +82,6 @@
 				"west": {"uv": [10, 5.5, 11, 6], "texture": "#1"},
 				"up": {"uv": [0, 0, 2, 2], "texture": "#1"},
 				"down": {"uv": [0, 0, 2, 2], "texture": "#1"}
-			}
-		},
-		{
-			"from": [6, -12, 7],
-			"to": [10, 4, 11],
-			"rotation": {"angle": 0, "axis": "y", "origin": [6, -12, 7]},
-			"faces": {
-				"north": {"uv": [0, 0, 2, 16], "texture": "#0", "tintindex": 0},
-				"east": {"uv": [2, 0, 4, 16], "texture": "#0", "tintindex": 0},
-				"south": {"uv": [4, 0, 6, 16], "texture": "#0", "tintindex": 0},
-				"west": {"uv": [6, 0, 8, 16], "texture": "#0", "tintindex": 0},
-				"up": {"uv": [0, 0, 2, 4], "texture": "#0", "tintindex": 0},
-				"down": {"uv": [6, 12, 8, 16], "texture": "#0", "tintindex": 0}
 			}
 		}
 	]

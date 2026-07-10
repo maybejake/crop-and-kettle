@@ -1,10 +1,9 @@
-execute if entity @s[tag=cnk.faucet_open] unless block ~ ~-1 ~ #cnk:cauldron align xyz positioned ~0.5 ~-1 ~0.5 unless function cnk:faucet/interact/pail at @s run function cnk:faucet/close
-execute if entity @s[tag=cnk.faucet_open] if block ~ ~-1 ~ minecraft:water_cauldron[level=3] run function cnk:faucet/close
-
-execute if entity @s[tag=cnk.faucet_open] run function cnk:faucet/splash
+execute if entity @s[tag=cnk.faucet_open_1] positioned ~ ~-1 ~ unless function cnk:faucet/check at @s run return run function cnk:faucet/close
+execute if entity @s[tag=cnk.faucet_open_2] positioned ~ ~-2 ~ unless function cnk:faucet/check at @s run return run function cnk:faucet/close
 
 scoreboard players add @s cnk.timer 1
-execute if score @s cnk.timer matches 15 if entity @s[tag=cnk.faucet_open] run function cnk:faucet/fill
+execute if score @s[tag=cnk.faucet_open_1] cnk.timer matches 15 positioned ~ ~-1 ~ run function cnk:faucet/fill
+execute if score @s[tag=cnk.faucet_open_2] cnk.timer matches 15 positioned ~ ~-2 ~ run function cnk:faucet/fill
 execute if score @s cnk.timer matches 15 run scoreboard players reset @s cnk.timer
 
 execute if block ^ ^ ^-1 #cnk:air run return run function cnk:faucet/break/break

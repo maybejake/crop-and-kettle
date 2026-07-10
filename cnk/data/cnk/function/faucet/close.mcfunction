@@ -1,4 +1,5 @@
-tag @s remove cnk.faucet_open
+tag @s remove cnk.faucet_open_1
+tag @s remove cnk.faucet_open_2
 tag @s add cnk.faucet_closed
 
 data modify entity @s item.components."minecraft:item_model" set value "cnk:faucet_closed"

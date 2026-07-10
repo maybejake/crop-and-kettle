@@ -1,7 +1,7 @@
 tag @s remove cnk.faucet_closed
-tag @s add cnk.faucet_open
 
 data modify entity @s item.components."minecraft:item_model" set value "cnk:faucet_open"
+data modify entity @s item_display set value "ground"
 
 data modify storage cnk:temp faucet.color set value 4159204
 execute if predicate cnk:water/617b64 run data modify storage cnk:temp faucet.color set value 6388580
@@ -21,3 +21,4 @@ playsound minecraft:block.water.ambient block @a ~ ~ ~ 1 1.5
 playsound cnk:block.faucet.on block @a ~ ~ ~ 1 0.8
 
 execute as @p[tag=cnk.interact_faucet,distance=..20] run function cnk:swing/mainhand
+return 1
