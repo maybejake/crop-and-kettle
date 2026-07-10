@@ -1,0 +1,46 @@
+# Global options
+pack_directory = '/home/jack/workspace/summit-booth/cnk-rp'
+output_file_path = '/home/jack/workspace/summit-booth/cnk-rp.zip'
+recompress_compressed_files = false
+zip_compression_iterations = 5
+automatic_minecraft_quirks_detection = true
+work_around_minecraft_quirks = ['grayscale_images_gamma_miscorrection', 'java8_zip_parsing']
+allow_mods = ['OptiFine']
+skip_pack_icon = false
+validate_pack_metadata_file = false
+ignore_system_and_hidden_files = false
+percentage_of_zip_structures_tuned_for_obfuscation_discretion = 100
+never_store_squash_times = true
+
+# Per-file options below
+
+# Ogg files do not get transcoded
+['**/*?.ogg']
+transcode_ogg = true
+
+# Lossless music files get pitch shifted and compressed with good quality
+['**/*?.{flac,wav}']
+channels = 2
+sampling_frequency = 44100
+target_pitch = 1.5
+target_bitrate_control_metric = 96000
+
+# JSON files with comments get prettified and nothing is removed from them
+['**/*.jsonc']
+minify_json = false
+delete_bloat_keys = false
+
+# Compress textures losslessly no matter what. Keep them small
+['**/*.png']
+image_data_compression_iterations = 15
+color_quantization_target = 'none'
+#maximum_width_and_height = 2048
+skip_alpha_optimizations = true
+
+# Don't minify shaders
+['**/*.{fsh,vsh}']
+shader_source_transformation_strategy = 'keep_as_is'
+
+# Don't minify properties files
+['**/*.properties']
+minify_properties = false

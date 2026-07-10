@@ -8,6 +8,40 @@ permissions:
   contents: write
 
 jobs:
+  packsquash:
+    name: Optimize resource pack
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Run PackSquash
+        uses: ComunidadAylas/PackSquash-action@v4
+        with:
+          packsquash_version: 0.4.1
+          options: |
+            pack_directory = './build/CropAndKettle-${{ github.ref_name }}-Resource-Pack'
+            output_file_path = '.build/CropAndKettle-${{ github.ref_name }}-Resource-Pack.zip'
+            recompress_compressed_files = false
+            zip_compression_iterations = 5
+            automatic_minecraft_quirks_detection = true
+            work_around_minecraft_quirks = ['grayscale_images_gamma_miscorrection', 'java8_zip_parsing']
+            skip_pack_icon = false
+            validate_pack_metadata_file = false
+            ignore_system_and_hidden_files = false
+            percentage_of_zip_structures_tuned_for_obfuscation_discretion = 100
+            never_store_squash_times = true
+
+            ['**/*?.ogg']
+            transcode_ogg = true
+
+            ['**/*.png']
+            image_data_compression_iterations = 15
+            color_quantization_target = 'none'
+            #maximum_width_and_height = 2048
+            skip_alpha_optimizations = true
+
   build-and-upload:
     runs-on: ubuntu-latest
 
