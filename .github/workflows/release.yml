@@ -8,15 +8,27 @@ permissions:
   contents: write
 
 jobs:
-  packsquash:
-    name: Optimize resource pack
+  build-and-upload:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Run PackSquash
+
+      - name: Set up Python (for uv)
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Install uv
+        run: pip install uv
+
+      - name: Run build
+        run: uv run beet build
+
+      - name: Run packSquash
         uses: ComunidadAylas/PackSquash-action@v4
         with:
           packsquash_version: latest
@@ -41,26 +53,6 @@ jobs:
             color_quantization_target = 'none'
             #maximum_width_and_height = 2048
             skip_alpha_optimizations = true
-
-  build-and-upload:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Set up Python (for uv)
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.14"
-
-      - name: Install uv
-        run: pip install uv
-
-      - name: Run build
-        run: uv run beet build
 
       - name: Upload release assets
         uses: softprops/action-gh-release@v2
