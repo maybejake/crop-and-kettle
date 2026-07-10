@@ -19,7 +19,7 @@ jobs:
       - name: Run PackSquash
         uses: ComunidadAylas/PackSquash-action@v4
         with:
-          packsquash_version: 0.4.1
+          packsquash_version: latest
           options: |
             pack_directory = './build/CropAndKettle-${{ github.ref_name }}-Resource-Pack'
             output_file_path = '.build/CropAndKettle-${{ github.ref_name }}-Resource-Pack.zip'
