@@ -1,11 +1,9 @@
 advancement revoke @s only cnk:treat_basket
 
-execute if predicate cnk:treat_basket/offhand run tag @s add cnk.treat_basket_offhand
-execute if predicate cnk:treat_basket/mainhand run tag @s add cnk.treat_basket_mainhand
-execute if predicate cnk:treat_basket/mainhand run tag @s remove cnk.treat_basket_offhand
+function cnk:treat_basket/hand
 
 playsound cnk:block.candy_bowl.laugh neutral @a ~ ~ ~ 1 1
-execute store result score $treat cnk.dummy run random value 1..13
+execute store result score $treat cnk.dummy run random value 1..14
 
 execute if score $treat cnk.dummy matches 1 run function cnk:treat_basket/effects/shrink/start
 
@@ -34,5 +32,7 @@ execute if score $treat cnk.dummy matches 11 run function cnk:treat_basket/effec
 execute if score $treat cnk.dummy matches 12 run function cnk:treat_basket/effects/bats/main
 
 execute if score $treat cnk.dummy matches 13 run effect give @s minecraft:blindness 20 0 false
+
+execute if score $treat cnk.dummy matches 14 rotated as @s positioned ^ ^2 ^3 run function cnk:scarecrow/entity/missile/spawn
 
 schedule function cnk:treat_basket/replace/main 1t
