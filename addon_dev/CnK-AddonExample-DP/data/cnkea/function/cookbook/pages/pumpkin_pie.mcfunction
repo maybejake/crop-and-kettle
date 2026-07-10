@@ -72,7 +72,7 @@ data modify storage cnk:temp register.source set value {key:"cnkea.source", font
 
 # as of version 1.2, Crop & Kettle recipe pages can have optional stamps! currently the pack only has one stamp, which is the one used to indicate whether a recipe has a special model when placed on a plated
 # these can be easily added using the format below. the "text" field is optional, and controls the hover text displayed on the stamp
-# there is also an optional "font" field, if left blank the stamp will the internal "cnk.book:base" font for the icon, otherwise it will use whatever font is set.
+# there is also an optional "font" field, if left blank the stamp will use the internal "cnk.book:base" font for the icon, otherwise it will use whatever font is set.
 data modify storage cnk:temp register.stamp set value { \
     icon:"book.cnk.stamp.plateable.icon", \
     text:"book.cnk.stamp.plateable.text" \
