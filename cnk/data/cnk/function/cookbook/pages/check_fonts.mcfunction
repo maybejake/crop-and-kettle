@@ -13,6 +13,9 @@ execute if data storage cnk:temp register.ingredients[3] run data modify storage
 execute if data storage cnk:temp register.ingredients[4] run function cnk:cookbook/pages/check_font with storage cnk:temp register.ingredients[4]
 execute if data storage cnk:temp register.ingredients[4] run data modify storage cnk:temp register.ingredients[4].font set from storage cnk:temp register.temp_font
 
+# some pages don't have icon fonts, skip
+execute unless data storage cnk:temp register.recipe_icon_font run return fail
+
 data modify storage cnk:temp register.font_check.key set from storage cnk:temp register.page_name
 data modify storage cnk:temp register.font_check.font set from storage cnk:temp register.recipe_icon_font
 function cnk:cookbook/pages/check_font with storage cnk:temp register.font_check
