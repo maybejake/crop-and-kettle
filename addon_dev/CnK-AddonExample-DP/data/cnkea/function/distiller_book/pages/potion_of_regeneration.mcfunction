@@ -3,8 +3,8 @@
 # the distiller book does NOT have discoverability, so ingredients in here do not need database flags
 # also, the distiller book does not show the output item of a recipe, just the ingredients
 
-# this function must be added to the following section function tag for it to be loaded by cnk:
-# - cnk:tags/function/addons/distiller_book/pages.json
+# this function must be added to the following function tag for it to be loaded by cnk:
+# - cnk:addons/distiller_book/pages
 
 # ---------------------------------------------------------------------------------
 

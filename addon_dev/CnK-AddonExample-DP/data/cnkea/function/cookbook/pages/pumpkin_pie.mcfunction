@@ -1,12 +1,12 @@
 # this is an example of a page register function, which lets you add recipe pages to the cookbook
 # this function must be added to one of the section function tags for it to be loaded by cnk:
-# - cnk:tags/function/addons/cookbook/front.json (front pages, between the cover and the first section)
-# - cnk:tags/function/addons/cookbook/staple.json (staple ingredients)
-# - cnk:tags/function/addons/cookbook/snacks.json (snacks and drinks)
-# - cnk:tags/function/addons/cookbook/light.json (light dishes)
-# - cnk:tags/function/addons/cookbook/hearty.json (hearty dishes)
-# - cnk:tags/function/addons/cookbook/feasts.json (feasts)
-# - cnk:tags/function/addons/cookbook/desserts.json (desserts)
+# - #cnk:addons/cookbook/front (front pages, between the cover and the first section)
+# - #cnk:addons/cookbook/staple (staple ingredients)
+# - #cnk:addons/cookbook/snacks (snacks and drinks)
+# - #cnk:addons/cookbook/light (light dishes)
+# - #cnk:addons/cookbook/hearty (hearty dishes)
+# - #cnk:addons/cookbook/feasts (feasts)
+# - #cnk:addons/cookbook/desserts (desserts)
 
 # custom sections are currently not supported, its technically possible but would be odd due to the lack of section button on the right
 # if you feel like you NEED your own section, contact me directly to figure something out
