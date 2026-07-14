@@ -1,8 +1,7 @@
 function cnk:recipes/remove_generic/egg
-
 function cnk:recipes/remove_generic/water
 
-data modify storage cnk:temp cooking_pot.slot set from storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"chili_pepper"}}}}}].Slot
+data modify storage cnk:temp cooking_pot.slot set from storage cnk:temp cooking_pot.Items[{id:"minecraft:sugar"}].Slot
 function cnk:recipes/remove with storage cnk:temp cooking_pot
 
 data modify storage cnk:temp cooking_pot.slot set from storage cnk:temp cooking_pot.Items[{id:"minecraft:wheat"}].Slot
