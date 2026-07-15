@@ -1,4 +1,4 @@
-execute if score @s cnk.item_count matches 1 on passengers if entity @s[tag=cnk.plate_1,tag=!cnk.no_model] if data entity @s item{id:"minecraft:bread"} at @s run return run function cnk:plate/update/bread
+execute if score @s cnk.item_count matches 1 on passengers if entity @s[tag=cnk.plate_1,tag=!cnk.no_model] if data entity @s item{id:"minecraft:bread"} unless data entity @s item.components{"minecraft:custom_data":{}} at @s run return run function cnk:plate/update/bread
 execute if score @s cnk.item_count matches 1 on passengers if entity @s[tag=cnk.plate_1,tag=!cnk.no_model] if data entity @s item.components."minecraft:custom_data".cnk.placeable at @s run return run function cnk:plate/update/placeable
 
 execute if score @s cnk.item_count matches 1 run function cnk:plate/update/1
