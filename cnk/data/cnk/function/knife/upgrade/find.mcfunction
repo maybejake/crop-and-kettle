@@ -1,1 +1,0 @@
-return run clear @s minecraft:netherite_sword[minecraft:custom_data~{cnk:{"knife":true,"diamond":true}}] 0

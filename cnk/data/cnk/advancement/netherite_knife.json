@@ -1,13 +1,20 @@
 {
   "criteria": {
       "requirement": {
-        "trigger": "minecraft:recipe_crafted",
+        "trigger": "minecraft:inventory_changed",
         "conditions": {
-            "recipe_id": "minecraft:netherite_sword_smithing"
+            "items": [
+              {
+                "items": "minecraft:netherite_sword",
+                "predicates": {
+                  "minecraft:custom_data": {"cnk":{"knife":true,"diamond":true}}
+                }
+              }
+            ]
         }
       }
   },
   "rewards": {
-      "function": "cnk:knife/upgrade/main"
+      "function": "cnk:knife/upgrade"
   }
 }
