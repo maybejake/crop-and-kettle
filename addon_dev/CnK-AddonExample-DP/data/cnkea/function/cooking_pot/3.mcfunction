@@ -1,10 +1,10 @@
 # the cooking pot has its recipe functions split up based on the number of unique items in the pot, mainly for performance reasons
-# all recipes with 3 unique ingredients must go into this file, recipes with other quanities must be placed in the other tags:
-# - #cnk:tags/function/recipes/cooking_pot/1.json
-# - #cnk:tags/function/recipes/cooking_pot/2.json
-# - #cnk:tags/function/recipes/cooking_pot/3.json
-# - #cnk:tags/function/recipes/cooking_pot/4.json
-# - #cnk:tags/function/recipes/cooking_pot/5.json
+# all recipes with 3 unique ingredients must go into this file, recipes with other quanities must be placed in the other function tags:
+# - #cnk:addons/recipes/cooking_pot/1
+# - #cnk:addons/recipes/cooking_pot/2
+# - #cnk:addons/recipes/cooking_pot/3
+# - #cnk:addons/recipes/cooking_pot/4
+# - #cnk:addons/recipes/cooking_pot/5
 
 # both the cooking pot and distiller identify unique items by the presence of custom data
 # if the custom data component is present, it will no longer be counted as its base vanilla item and its custom data will instead be used as a unique identifier

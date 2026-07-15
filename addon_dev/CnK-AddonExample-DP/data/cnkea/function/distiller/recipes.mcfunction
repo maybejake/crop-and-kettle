@@ -1,6 +1,6 @@
-# unlike the cooking pot, the distiller does not split up its recipe files based on unique item quantities, there's just way less recipe so it's not necessary
-# when added to the distiller tag, recipes in this file will be used for distilling:
-# - cnk:tags/function/addons/distiller
+# unlike the cooking pot, the distiller does not split up its recipe files based on unique item quantities, there's just way less recipes so it's not necessary
+# when added to the distiller function tag, recipes in this file will be used for distilling:
+# - #cnk:addons/recipes/distiller
 
 # setup is very similar to the cooking pot, with the exception that the quantity of items must be checked first
 # cnk comes with 2 lock functions, which basically just handle 2 different crafting times:

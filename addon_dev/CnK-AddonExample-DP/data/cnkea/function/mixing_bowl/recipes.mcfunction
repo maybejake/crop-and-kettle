@@ -1,6 +1,6 @@
 # this handles any extra recipes for the mixing bowl!
-# when added to the mixing bowl tag, recipes in this file will be used for mixing bowl crafting:
-# - cnk:tags/function/addons/mixing_bowl
+# when added to the mixing bowl function tag, recipes in this file will be used for mixing bowl crafting:
+# - #cnk:addons/recipes/mixing_bowl
 
 # very similar to the cooking pot and distiller
 # check the item count, check the items, then lock (ensures the mixing bowl is not already mixing)
