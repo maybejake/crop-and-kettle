@@ -21,4 +21,6 @@ execute if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custo
 # myriad
 execute if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{myriad:{id:"swordfish"}}}}] run scoreboard players add $fish_count cnk.dummy 1
 
+execute if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{generic:["fish"]}}}}}] run scoreboard players add $fish_count cnk.dummy 1
+
 return 1

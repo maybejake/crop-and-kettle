@@ -17,4 +17,6 @@ execute if data storage cnk:temp cooking_pot.Items[{id:"minecraft:red_dye"}] run
 execute if data storage cnk:temp cooking_pot.Items[{id:"minecraft:white_dye"}] run scoreboard players add $dye_count cnk.dummy 1
 execute if data storage cnk:temp cooking_pot.Items[{id:"minecraft:yellow_dye"}] run scoreboard players add $dye_count cnk.dummy 1
 
+execute if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{generic:["dye"]}}}}}] run scoreboard players add $dye_count cnk.dummy 1
+
 return 1

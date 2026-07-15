@@ -11,4 +11,6 @@ execute if data storage cnk:temp cooking_pot.Items[{id:"minecraft:chicken"}] run
 execute if data storage cnk:temp cooking_pot.Items[{id:"minecraft:mutton"}] run scoreboard players add $meat_count cnk.dummy 1
 execute if data storage cnk:temp cooking_pot.Items[{id:"minecraft:rabbit"}] run scoreboard players add $meat_count cnk.dummy 1
 
+execute if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{generic:["meat"]}}}}}] run scoreboard players add $meat_count cnk.dummy 1
+
 return 1

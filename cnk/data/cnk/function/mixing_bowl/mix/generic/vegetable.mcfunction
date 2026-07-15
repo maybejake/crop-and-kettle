@@ -13,4 +13,6 @@ execute if data storage cnk:temp mixing_bowl.Items[{id:"minecraft:brown_mushroom
 execute if data storage cnk:temp mixing_bowl.Items[{id:"minecraft:pumpkin"}] run scoreboard players add $vegetable_count cnk.dummy 1
 execute if data storage cnk:temp mixing_bowl.Items[{id:"minecraft:sea_pickle"}] run scoreboard players add $vegetable_count cnk.dummy 1
 
+execute if data storage cnk:temp mixing_bowl.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{generic:["vegetable"]}}}}}] run scoreboard players add $vegetable_count cnk.dummy 1
+
 return 1

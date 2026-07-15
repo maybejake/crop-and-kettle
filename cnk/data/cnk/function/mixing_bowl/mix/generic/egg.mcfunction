@@ -6,4 +6,6 @@ execute if data storage cnk:temp mixing_bowl.Items[{id:"minecraft:brown_egg"}] r
 execute if data storage cnk:temp mixing_bowl.Items[{id:"minecraft:turtle_egg"}] run scoreboard players add $egg_count cnk.dummy 1
 execute if data storage cnk:temp mixing_bowl.Items[{id:"minecraft:sniffer_egg"}] run scoreboard players add $egg_count cnk.dummy 1
 
+execute if data storage cnk:temp mixing_bowl.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{generic:["egg"]}}}}}] run scoreboard players add $egg_count cnk.dummy 1
+
 return 1
