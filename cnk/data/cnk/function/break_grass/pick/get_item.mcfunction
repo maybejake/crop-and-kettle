@@ -1,0 +1,1 @@
+$data modify storage cnk:temp break_grass.loot_table set from storage cnk:temp break_grass.loot_tables[$(chosen_index)]

@@ -9,6 +9,7 @@ execute positioned ~ ~ ~-1 run function cnk:scythe/check_crop
 execute positioned ~-1 ~ ~-1 run function cnk:scythe/check_crop
 execute positioned ~1 ~ ~-1 run function cnk:scythe/check_crop
 execute positioned ~-1 ~ ~1 run function cnk:scythe/check_crop
+function cnk:scythe/netherite/main
 
 execute if score $scythe_check cnk.dummy matches 0 run return fail
 

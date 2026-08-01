@@ -1,0 +1,1 @@
+$loot replace entity @s contents loot $(loot_table)

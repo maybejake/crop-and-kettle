@@ -1,5 +1,4 @@
 function cnk:villager/add_loot_table {loot_table:"cnk:zzz_secret/tattered_recipe"}
-function cnk:villager/add_loot_table {loot_table:"cnk:zzz_secret/tattered_recipe"}
 function cnk:villager/add_loot_table {loot_table:"cnk:zzz_secret/explosive_recipe"}
 function cnk:villager/add_loot_table {loot_table:"cnk:zzz_secret/frigid_recipe"}
 function cnk:villager/add_loot_table {loot_table:"cnk:zzz_secret/heavenly_recipe"}
