@@ -36,6 +36,10 @@ The answer will always be "if I have time". However, Crop & Kettle is made using
 Glad you asked! Checkout the [wiki](https://github.com/maybejake/crop-and-kettle/wiki/Addons), it has a guide on how to do add recipes and cookbook pages, as well as an example addon!
 ### Why can't I see the items in the creative menu or in REI/JEI/NEI?
 This is a datapack with re-packaged mod versions for convenience of installation. It is currently not possible for custom items added by datapacks to be added to the creative menu or detected by any REI-like mod.
+### Does this datapack work with GeyserMC?
+Sort of? The cookbook makes use of a feature exclusive to java edition called dialogs, meaning the cookbook will not work for bedrock users. I don't personally play bedrock or use geyser, so consider bedrock generally unsupported.
+### Where is the Bedrock resource pack?
+Nowhere! As said previously, bedrock is generally unsupported so a bedrock version of the resource pack will not be provided. There are tools and plugins/mods that exist online for converting java resource packs to bedrock, so try googling it!
 
 # Thanks
 - Special thanks to Marius Chamberlin for handling all sound-related stuff! If you love the music tracks he made for this pack then checkout his work [here](https://mariuschamberlin.bandcamp.com/album/crop-kettle)!
