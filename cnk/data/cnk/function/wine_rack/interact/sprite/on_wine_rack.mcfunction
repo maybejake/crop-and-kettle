@@ -1,7 +1,8 @@
 execute store result score $wine_count cnk.dummy run data get entity @s item.components."minecraft:bundle_contents"
 execute if score $wine_count cnk.dummy matches 0 run return fail
 
-scoreboard players set $age_amount cnk.dummy 384000
+scoreboard players set $age_amount cnk.dummy 24000
+scoreboard players operation $age_amount cnk.dummy *= $days_in_a_year cnk.dummy
 scoreboard players operation $age_amount cnk.dummy /= $wine_count cnk.dummy
 execute if score $age_amount cnk.dummy matches 0 run return fail
 
