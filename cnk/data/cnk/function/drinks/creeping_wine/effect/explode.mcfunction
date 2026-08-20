@@ -3,7 +3,9 @@ execute if score @s cnk.wine_time_cooldown matches 0.. run return run scoreboard
 function cnk:drinks/year_delta/main
 
 #add 10 years
-scoreboard players add @s cnk.wine_time 3840000
+scoreboard players set $age_step cnk.dummy 240000
+scoreboard players operation $age_step cnk.dummy *= $days_in_a_year cnk.dummy
+scoreboard players operation @s cnk.wine_time += $age_step cnk.dummy
 
 # minimum explosion power of 2
 scoreboard players add $year cnk.dummy 2
