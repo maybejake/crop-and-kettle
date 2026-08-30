@@ -3,4 +3,4 @@ execute unless data entity @s item.components."minecraft:custom_data".cnk.placea
 
 # has old model, update and remove data
 data modify entity @s item.components."minecraft:item_model" set from entity @s item.components."minecraft:custom_data".cnk.placeable.old_model
-data remove entity @s item.components."minecraft:custom_data".cnk.placeable
+data remove entity @s item.components."minecraft:custom_data".cnk.placeable.old_model
