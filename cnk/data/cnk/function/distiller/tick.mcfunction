@@ -4,7 +4,7 @@ scoreboard players add @s cnk.timer 1
 execute if score @s cnk.timer matches 50 run data modify block ~ ~ ~ TransferCooldown set value 1000
 execute if score @s cnk.timer matches 50 run scoreboard players reset @s cnk.timer
 
-execute if score @s cnk.cook_cooldown matches 1 run data modify entity @s item.components."minecraft:item_model" set value "cnk:distiller_0"
+execute if score @s cnk.cook_cooldown matches 1 run item modify entity @s contents cnk:distiller/update_dial
 execute if score @s cnk.cook_cooldown matches 1.. run particle white_smoke ^0.72 ^0.6 ^ 0 0 0 0 1
 execute if score @s cnk.cook_cooldown matches 1.. run return run scoreboard players remove @s cnk.cook_cooldown 1
 

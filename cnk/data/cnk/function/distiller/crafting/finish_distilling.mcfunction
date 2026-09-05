@@ -1,7 +1,7 @@
 scoreboard players set @s cnk.cook_cooldown 30
 scoreboard players reset @s cnk.distill_timer
 
-data modify entity @s item.components."minecraft:item_model" set value "cnk:distiller_pouring"
+item modify entity @s contents cnk:distiller/start_pouring
 
 data modify entity @s item.components."minecraft:custom_model_data".colors set value []
 data modify entity @s item.components."minecraft:custom_model_data".colors append from storage cnk:temp distiller.color

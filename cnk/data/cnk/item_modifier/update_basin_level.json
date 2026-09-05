@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:set_custom_model_data",
+  "floats": {
+    "values": [
+      {
+        "type": "minecraft:from_int",
+        "input": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "cnk.level"
+        }
+      }
+    ],
+    "mode": "replace_section",
+    "offset": 0,
+    "size": 1
+  }
+}
