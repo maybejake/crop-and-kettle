@@ -20,8 +20,6 @@ scoreboard objectives add cnk.item_count dummy
 scoreboard objectives add cnk.mix_time dummy
 scoreboard objectives add cnk.rotation dummy
 
-scoreboard objectives add cnk.rotten_tomato minecraft.used:minecraft.snowball
-
 scoreboard objectives add cnk.uid dummy
 
 scoreboard objectives add cnk.brew_time dummy
