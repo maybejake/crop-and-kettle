@@ -5,23 +5,23 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
-              "destination": "cnk:fizz_hut",
-              "function": "minecraft:exploration_map",
+              "destination": "#cnk:fizz_hut",
+              "type": "minecraft:exploration_map",
               "search_radius": 300,
               "skip_existing_chunks": true,
               "decoration": "minecraft:village_taiga"
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "translate": "item.cnk.fizz_hut_map"
               },
               "target": "item_name"
             },
             {
-              "function": "minecraft:filtered",
+              "type": "minecraft:filtered",
               "item_filter": {
                 "items": "minecraft:filled_map",
                 "predicates": {
@@ -29,7 +29,7 @@
                 }
               },
               "on_fail": {
-                "function": "minecraft:discard"
+                "type": "minecraft:discard"
               }
             }
           ],

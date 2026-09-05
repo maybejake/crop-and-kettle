@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:coal",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.volcanic_marshmallow","fallback":"Volcanic Marshmallow"},
                 "minecraft:item_model": "cnk:marshmallow/volcanic",

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:filtered",
+    "item_filter": {
+        "items": "minecraft:netherite_sword",
+        "predicates": {
+            "minecraft:custom_data": {"cnk":{"scythe":true,"diamond":true}}
+        }
+    },
+    "slot_source": [
+        {
+            "type": "minecraft:slot_range",
+            "slots": "container.*"
+        },
+        {
+            "type": "minecraft:slot_range",
+            "slots": "player.cursor"
+        }
+    ]
+}

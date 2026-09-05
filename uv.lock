@@ -13,8 +13,8 @@ wheels = [
 
 [[package]]
 name = "beet"
-version = "0.115.0"
-source = { registry = "https://pypi.org/simple" }
+version = "0.117.0"
+source = { git = "https://github.com/edayot/beet.git?rev=runtime_minecraft_version#fbfb849cc7a799403da51526d8b5c5a8f3e60f0a" }
 dependencies = [
     { name = "click" },
     { name = "click-help-colors" },
@@ -25,10 +25,6 @@ dependencies = [
     { name = "pydantic" },
     { name = "pyyaml" },
     { name = "toml" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/56/ad/798ffabe884dba56a7059bf899aff082efd964f5c3a27ca51c6bc71877f1/beet-0.115.0.tar.gz", hash = "sha256:9128aeb77f84389df01182c5f1e71ea861879391f114969589c48848e3f20512", size = 95694, upload-time = "2026-03-27T17:05:29.173Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/a8/f8/9f904662f6d992f24c7939e841225faecb4bd990ac65bca443e4d48d7f2a/beet-0.115.0-py3-none-any.whl", hash = "sha256:29c153ebc7a60bfc980b7f23aa6eb5e9aa579268691616d025ce2b8cd25d4b89", size = 125192, upload-time = "2026-03-27T17:05:27.875Z" },
 ]
 
 [[package]]
@@ -75,8 +71,8 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "beet", specifier = ">=0.115.0" },
-    { name = "mecha", specifier = ">=0.103.0" },
+    { name = "beet", git = "https://github.com/edayot/beet.git?rev=runtime_minecraft_version" },
+    { name = "mecha", git = "https://github.com/edayot/beet.git?subdirectory=packages%2Fmecha&rev=runtime_minecraft_version" },
 ]
 
 [[package]]
@@ -123,15 +119,11 @@ wheels = [
 
 [[package]]
 name = "mecha"
-version = "0.103.0"
-source = { registry = "https://pypi.org/simple" }
+version = "0.104.1"
+source = { git = "https://github.com/edayot/beet.git?subdirectory=packages%2Fmecha&rev=runtime_minecraft_version#fbfb849cc7a799403da51526d8b5c5a8f3e60f0a" }
 dependencies = [
     { name = "beet" },
     { name = "tokenstream" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/62/65/c0ac93886ec73499d90620e6b2931e90490ef6ed37e18a7400f6217dd017/mecha-0.103.0.tar.gz", hash = "sha256:37981668b3874547474ef2b31f28a11e7a3b4d02dc44000e423cde7649428b79", size = 581866, upload-time = "2026-03-27T17:06:01.04Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/3d/72/e0b3a63935e2b9c2b6664f540b37ff32774dd438fcafa623353d75badcbc/mecha-0.103.0-py3-none-any.whl", hash = "sha256:af3f8f94e9838ecacff091996f666efaac92cca35e631435d154b160e8817f96", size = 617085, upload-time = "2026-03-27T17:06:02.658Z" },
 ]
 
 [[package]]

@@ -1,24 +1,12 @@
 {
   "criteria": {
-    "minecraft:jungle_temple": {
+    "requirement": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "minecraft:chests/jungle_temple"
-      }
-    },
-    "myriad:jungle_temple": {
-      "trigger": "minecraft:player_generates_container_loot",
-      "conditions": {
-        "loot_table": "myriad:chests/jungle_temple/common"
+        "loot_tables": "#cnk:coffee_loot"
       }
     }
   },
-  "requirements": [
-    [
-      "minecraft:jungle_temple",
-      "myriad:jungle_temple"
-    ]
-  ],
   "rewards": {
     "function": "cnk:seeds/coffee/loot/main"
   }

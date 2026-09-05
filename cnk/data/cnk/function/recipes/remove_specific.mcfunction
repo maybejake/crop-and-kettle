@@ -1,1 +1,1 @@
-$execute at @s run item modify block ~ ~ ~ container.$(slot) {"function":"minecraft:set_count","count":-$(count),"add":true}
+$execute at @s run item modify block ~ ~ ~ container.$(slot) {"type":"minecraft:set_count","count":-$(count),"add":true}

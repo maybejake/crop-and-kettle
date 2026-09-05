@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:seeds/coffee_cherries",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:conditional",
+                "condition": "cnk:is_max_age/coffee",
+                "on_true": {
+                  "type": "minecraft:uniform",
+                  "min": 2,
+                  "max": 4
+                },
+                "on_false": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

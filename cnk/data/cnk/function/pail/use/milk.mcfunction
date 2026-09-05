@@ -22,8 +22,8 @@ data modify storage cnk:temp pail.color set value 16777215
 playsound minecraft:entity.cow.milk neutral @a ~ ~ ~ 1 1
 
 # gotta check pail count otherwise we enter a weird looping state for some reason, advancement keeps getting granted
-execute unless data storage cnk:temp pail.item.components."minecraft:custom_data".cnk.pail unless score $pail_count cnk.dummy matches 1 run item modify entity @p[tag=cnk.pail_mainhand] weapon.mainhand {"function":"minecraft:set_count","count":-1,"add":true}
-execute unless data storage cnk:temp pail.item.components."minecraft:custom_data".cnk.pail unless score $pail_count cnk.dummy matches 1 run item modify entity @p[tag=cnk.pail_offhand] weapon.offhand {"function":"minecraft:set_count","count":-1,"add":true}
+execute unless data storage cnk:temp pail.item.components."minecraft:custom_data".cnk.pail unless score $pail_count cnk.dummy matches 1 run item modify entity @p[tag=cnk.pail_mainhand] weapon.mainhand {"type":"minecraft:set_count","count":-1,"add":true}
+execute unless data storage cnk:temp pail.item.components."minecraft:custom_data".cnk.pail unless score $pail_count cnk.dummy matches 1 run item modify entity @p[tag=cnk.pail_offhand] weapon.offhand {"type":"minecraft:set_count","count":-1,"add":true}
 execute unless data storage cnk:temp pail.item.components."minecraft:custom_data".cnk.pail unless score $pail_count cnk.dummy matches 1 run execute if predicate cnk:inventory_full at @s run return run function cnk:pail/use/spawn with storage cnk:temp pail
 execute unless data storage cnk:temp pail.item.components."minecraft:custom_data".cnk.pail unless score $pail_count cnk.dummy matches 1 run execute unless predicate cnk:inventory_full at @s run return run function cnk:pail/use/give with storage cnk:temp pail
 

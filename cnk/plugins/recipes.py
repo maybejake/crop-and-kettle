@@ -158,9 +158,9 @@ def generate_loot_table(ctx: Context, recipe: Recipe):
                     {
                         "type": "minecraft:item",
                         "name": "minecraft:poisonous_potato",
-                        "functions": [
+                        "modifier": [
                             {
-                                "function": "minecraft:set_components",
+                                "type": "minecraft:set_components",
                                 "components": {
                                     "minecraft:item_name": {"translate":f"item.cnk.{recipe.id}", "fallback":f"{recipe.name}"},
                                     "minecraft:item_model": f"cnk:{recipe.id}",
@@ -187,9 +187,9 @@ def generate_loot_table(ctx: Context, recipe: Recipe):
                     {
                     "type": "minecraft:loot_table",
                     "value": f"cnk:food/{recipe.id}",
-                    "functions": [
+                    "modifier": [
                         {
-                        "function": "minecraft:set_count",
+                        "type": "minecraft:set_count",
                         "count": {
                             "type": "minecraft:score",
                             "target": {
@@ -599,10 +599,10 @@ def get_custom_data(ctx: Context, loot_table: dict) -> dict:
     """Get custom data from a loot table"""
     loot_table = ctx.data.loot_tables[loot_table].data
 
-    functions = loot_table["pools"][0]["entries"][0]["functions"]
+    functions = loot_table["pools"][0]["entries"][0]["modifier"]
     
     for item in functions:
-        if item["function"] == "minecraft:set_components":
+        if item["type"] == "minecraft:set_components":
             custom_data = copy.deepcopy(item["components"].get("minecraft:custom_data"))
             if custom_data is not None:
                 custom_data.pop("smithed")

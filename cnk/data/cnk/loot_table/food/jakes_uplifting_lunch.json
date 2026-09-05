@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:poisonous_potato",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.jakes_uplifting_lunch","fallback":"Jakes Uplifting Lunch"},
                 "minecraft:item_model": "cnk:jakes_uplifting_lunch",

@@ -5,15 +5,15 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
-              "destination": "cnk:meat_guide",
-              "function": "minecraft:exploration_map",
+              "destination": "#cnk:meat_guide",
+              "type": "minecraft:exploration_map",
               "search_radius": 300,
               "skip_existing_chunks": false
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "cnk:meat_guide",
                 "minecraft:custom_data": {"cnk":{"meat_guide":{"state":"setup"}}}

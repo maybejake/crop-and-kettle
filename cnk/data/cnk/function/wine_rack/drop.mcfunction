@@ -6,7 +6,7 @@ $loot spawn ~ ~ ~ loot { \
         { \
           "type": "minecraft:item", \
           "name": "$(id)", \
-          "functions": [ \
+          "modifier": [ \
             { \
               "function": "minecraft:set_components", \
               "components": $(components) \

@@ -3,15 +3,14 @@
     "requirement": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"cnk.scarecrow_enemy\"]}"
-            }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wandering_trader",
+            "entity_tags": {"any_of":["cnk.scarecrow_enemy"]}
           }
-        ]
+        }
       }
     }
   },

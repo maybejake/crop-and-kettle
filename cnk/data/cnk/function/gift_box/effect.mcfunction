@@ -19,4 +19,4 @@ function cnk:gift_box/macro with storage cnk:temp gift_box
 
 playsound minecraft:item.bundle.insert neutral @a ~ ~ ~ 1 0.8
 
-function cnk:swing/mainhand
+swing @s mainhand

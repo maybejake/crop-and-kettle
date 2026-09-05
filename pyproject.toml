@@ -8,3 +8,7 @@ dependencies = [
     "beet>=0.115.0",
     "mecha>=0.103.0",
 ]
+
+[tool.uv.sources]
+beet = { git = "https://github.com/edayot/beet.git", rev = "runtime_minecraft_version" }
+mecha = { git = "https://github.com/edayot/beet.git", subdirectory = "packages/mecha", rev = "runtime_minecraft_version" }

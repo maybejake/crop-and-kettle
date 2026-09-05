@@ -5,24 +5,22 @@
       "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": {
-          "minecraft:equipment": {
-            "mainhand": {
-              "predicates": {
-                "minecraft:custom_data": {"cnk":{"scythe":true}}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {"cnk":{"scythe":true}}
+                }
               }
             }
           }
         },
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:sweet_berry_bush"
-              }
-            }
-          }
-        ]
+        "location": {
+          "type": "minecraft:match_block",
+          "blocks": "minecraft:sweet_berry_bush"
+        }
       }
     }
   },

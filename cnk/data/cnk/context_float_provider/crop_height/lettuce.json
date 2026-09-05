@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:number_dispatcher",
+  "cases": [
+    {"condition":{"type":"minecraft:entity_scores","entity":"this","scores":{"cnk.age":0}}, "value":0.375},
+    {"condition":{"type":"minecraft:entity_scores","entity":"this","scores":{"cnk.age":1}}, "value":0.5},
+    {"condition":{"type":"minecraft:entity_scores","entity":"this","scores":{"cnk.age":2}}, "value":0.875},
+    {"condition":{"type":"minecraft:entity_scores","entity":"this","scores":{"cnk.age":{"min":3}}}, "value":1.0625}
+  ]
+}

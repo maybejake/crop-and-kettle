@@ -6,7 +6,7 @@ $loot replace entity @s weapon.mainhand loot { \
         { \
           "type": "minecraft:item", \
           "name": "minecraft:player_head", \
-          "functions": [ \
+          "modifier": [ \
             { \
               "function": "minecraft:set_components", \
               "components": { \

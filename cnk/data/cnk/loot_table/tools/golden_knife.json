@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_sword",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.golden_knife","fallback":"Golden Knife"},
                 "minecraft:item_model": "cnk:golden_knife",

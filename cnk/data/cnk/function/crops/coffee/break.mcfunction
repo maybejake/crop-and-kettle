@@ -1,20 +1,13 @@
-execute unless block ~ ~ ~ minecraft:pumpkin_stem as @n[type=minecraft:item,nbt={Item:{id:"minecraft:pumpkin_seeds"}},distance=..1] run function cnk:crops/kill
+execute if score @s cnk.age matches 0 run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:coffee_crop","minecraft:custom_model_data":{floats:[0]}}}} ~ ~0.2 ~ 0.28 0.2 0.28 0.07 70 force
+execute if score @s cnk.age matches 1 run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:coffee_crop","minecraft:custom_model_data":{floats:[1]}}}} ~ ~0.2 ~ 0.28 0.3 0.28 0.07 70 force
+execute if score @s cnk.age matches 2 run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:coffee_crop","minecraft:custom_model_data":{floats:[2]}}}} ~ ~0.2 ~ 0.28 0.4 0.28 0.07 70 force
+execute if score @s cnk.age matches 3 run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:coffee_crop","minecraft:custom_model_data":{floats:[3]}}}} ~ ~0.2 ~ 0.28 0.5 0.28 0.07 70 force
+execute if score @s cnk.age matches 4 run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:coffee_crop","minecraft:custom_model_data":{floats:[4]}}}} ~ ~0.2 ~ 0.28 0.6 0.28 0.07 70 force
+execute if score @s cnk.age matches 5 run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:coffee_crop","minecraft:custom_model_data":{floats:[5]}}}} ~ ~0.2 ~ 0.28 0.7 0.28 0.07 70 force
+execute if score @s cnk.age matches 6 run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:coffee_crop","minecraft:custom_model_data":{floats:[6]}}}} ~ ~0.2 ~ 0.28 0.7 0.28 0.07 70 force
+execute if score @s cnk.age matches 7 run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:coffee_crop","minecraft:custom_model_data":{floats:[7]}}}} ~ ~0.2 ~ 0.28 0.7 0.28 0.07 70 force
+execute if score @s cnk.age matches 8.. run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:coffee_crop","minecraft:custom_model_data":{floats:[8]}}}} ~ ~0.2 ~ 0.28 0.7 0.28 0.07 70 force
 
-playsound minecraft:block.crop.break block @a ~ ~ ~ 1 1
-execute if block ~ ~ ~ minecraft:pumpkin_stem run setblock ~ ~ ~ minecraft:air replace
+loot spawn ~ ~0.5 ~ loot cnk:drops/crop/chili_pepper/break
 
-execute if score @s cnk.age matches 0 run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:coffee_crop_0"}}} ~ ~0.2 ~ 0.28 0.2 0.28 0.07 70 force
-execute if score @s cnk.age matches 1 run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:coffee_crop_1"}}} ~ ~0.2 ~ 0.28 0.3 0.28 0.07 70 force
-execute if score @s cnk.age matches 2 run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:coffee_crop_2"}}} ~ ~0.2 ~ 0.28 0.4 0.28 0.07 70 force
-execute if score @s cnk.age matches 3 run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:coffee_crop_3"}}} ~ ~0.2 ~ 0.28 0.5 0.28 0.07 70 force
-execute if score @s cnk.age matches 4 run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:coffee_crop_4"}}} ~ ~0.2 ~ 0.28 0.6 0.28 0.07 70 force
-execute if score @s cnk.age matches 5 run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:coffee_crop_5"}}} ~ ~0.2 ~ 0.28 0.7 0.28 0.07 70 force
-execute if score @s cnk.age matches 6..7 run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:coffee_crop_6"}}} ~ ~0.2 ~ 0.28 0.7 0.28 0.07 70 force
-execute if score @s cnk.age matches 8 run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:coffee_crop_7"}}} ~ ~0.2 ~ 0.28 0.7 0.28 0.07 70 force
-
-execute if score @s cnk.age matches ..7 run scoreboard players set $count cnk.dummy 1
-execute if score @s cnk.age matches ..7 run loot spawn ~ ~0.5 ~ loot cnk:drops/coffee_cherries
-execute if score @s cnk.age matches 8.. run function cnk:crops/coffee/reward
-
-execute on passengers run kill @s
-kill @s
+function cnk:crops/break/pumpkin

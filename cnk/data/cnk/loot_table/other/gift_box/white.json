@@ -6,9 +6,9 @@
         {
           "type": "minecraft:loot_table",
           "value": "cnk:other/gift_box/base",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:custom_model_data": {"colors":[16777215]}
               }

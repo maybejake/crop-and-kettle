@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:leather_helmet",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.chef_hat","fallback":"Chef Hat"},
                 "minecraft:item_model": "cnk:chef_hat",

@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:seeds/lettuce_seeds",
+          "modifier": [
+             {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:conditional",
+                "condition": "cnk:is_max_age/lettuce",
+                "on_true": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 4
+                },
+                "on_false": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "condition": "cnk:is_max_age/lettuce",
+          "value": "cnk:food/lettuce"
+        }
+      ]
+    }
+  ]
+}

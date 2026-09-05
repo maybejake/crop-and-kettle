@@ -10,5 +10,5 @@ execute at @s rotated as @n[type=minecraft:item_display,tag=cnk.plate] run rotat
 ride @s mount @n[type=minecraft:item_display,tag=cnk.plate]
 playsound minecraft:block.bamboo_wood.step block @a ~ ~ ~ 1 2
 
-item modify entity @p[tag=cnk.interact_plate,distance=..20] weapon.mainhand {"function":"minecraft:set_count","count":-1,"add":true}
+item modify entity @p[tag=cnk.interact_plate,distance=..20] weapon.mainhand {"type":"minecraft:set_count","count":-1,"add":true}
 execute if entity @p[tag=cnk.interact_plate,predicate=cnk:sneaking] run tag @s add cnk.no_model

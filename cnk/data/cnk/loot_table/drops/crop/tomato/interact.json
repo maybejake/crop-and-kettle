@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:food/tomato",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:float_value_check",
+        "value": {"type":"uniform","min":1,"max":100},
+        "test": {"max":2}
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:food/rotten_tomato",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:food/very_rotten_tomato",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

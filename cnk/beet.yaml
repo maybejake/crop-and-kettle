@@ -1,30 +1,20 @@
 data_pack:
   load: .
-  overlays:
-    - directory: overlay_94_1
-      min_format: [94,1]
-      max_format: [94,1]
-    - directory: overlay_101_1
-      min_format: [94,1]
-      max_format: [101,1]
-  min_format: [94,1]
-  max_format: [107,1]
-  pack_format: 107
+  min_format: [119,0]
+  max_format: [119,0]
 
 resource_pack:
   load: .
-  min_format: [75,0]
-  max_format: [88,0]
-  pack_format: 88
+  min_format: [97,1]
+  max_format: [97,1]
 
 require:
+  - cnk.plugins.26_3_support
   - cnk.plugins.recipes.load_recipes
 
 pipeline:
   - cnk.plugins.recipes
-  - cnk.plugins.overlays.init
-  - mecha
-  - cnk.plugins.overlays.apply
+#  - mecha
 
 output: .build
 

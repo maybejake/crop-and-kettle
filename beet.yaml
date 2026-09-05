@@ -1,4 +1,4 @@
-minecraft: "26.2"
+minecraft: "26.3"
 require:
   - beet.contrib.model_merging
   

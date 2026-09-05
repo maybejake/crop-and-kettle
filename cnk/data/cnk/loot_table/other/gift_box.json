@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:leather_horse_armor",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.gift_box","fallback":"Gift Box"},
                 "minecraft:item_model": "cnk:gift_box_item",

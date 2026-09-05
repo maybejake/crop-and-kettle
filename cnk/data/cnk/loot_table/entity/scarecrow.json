@@ -24,20 +24,18 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:structure_block",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "minecraft:air",
                 "minecraft:custom_data": {"cnk":{"death_item":true}}
               }
             }
           ],
-          "conditions": [
-            {
-              "condition": "minecraft:killed_by_player"
-            }
-          ]
+          "condition": {
+            "type": "minecraft:killed_by_player"
+          }
         }
       ]
     }

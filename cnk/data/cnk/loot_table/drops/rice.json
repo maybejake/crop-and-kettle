@@ -6,9 +6,9 @@
         {
           "type": "minecraft:loot_table",
           "value": "cnk:food/rice",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:score",
                 "target": {

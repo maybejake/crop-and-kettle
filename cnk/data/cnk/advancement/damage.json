@@ -7,15 +7,19 @@
           "type": {
             "tags": [
               {
-                "id": "cnk:feasting_ignored",
+                "id": "#cnk:feasting_ignored",
                 "expected": false
               }
             ]
           }
         },
         "player": {
-          "effects": {
-            "minecraft:saturation": {}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:saturation": {}
+            }
           }
         }
       }

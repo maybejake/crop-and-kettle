@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:saddle",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:enchantments": {
                   "cnk:technical/ignite": 1

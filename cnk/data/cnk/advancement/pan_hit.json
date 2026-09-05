@@ -4,10 +4,14 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "player": {
-          "slots": {
-            "weapon.mainhand": {
-              "predicates": {
-                "minecraft:custom_data": {"cnk":{"pan":true}}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "weapon.mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {"cnk":{"pan":true}}
+                }
               }
             }
           }
@@ -16,7 +20,7 @@
           "type": {
             "tags": [
               {
-                "id": "minecraft:is_player_attack",
+                "id": "#minecraft:is_player_attack",
                 "expected": true
               }
             ]

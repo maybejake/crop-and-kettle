@@ -4,8 +4,12 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:interaction",
-          "entity_tags": {"any_of":["cnk.wreath_interaction"]}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:interaction",
+            "entity_tags": {"any_of":["cnk.wreath_interaction"]}
+          }
         }
       }
     }
