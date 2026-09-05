@@ -4,10 +4,14 @@
       "trigger": "minecraft:default_block_use",
       "conditions": {
         "location": {
-          "type": "minecraft:match_block",
-          "blocks": "minecraft:crafter",
-          "components": {
-            "minecraft:custom_data":{"cnk":{"wine_rack":true}}
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": "minecraft:crafter",
+              "components": {
+                "minecraft:custom_data":{"cnk":{"wine_rack":true}}
+              }
+            }
           }
         }
       }

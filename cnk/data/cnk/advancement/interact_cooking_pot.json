@@ -4,10 +4,14 @@
       "trigger": "minecraft:default_block_use",
       "conditions": {
         "location": {
-          "type": "minecraft:match_block",
-          "blocks": "minecraft:hopper",
-          "state": {
-            "facing": "down"
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": "minecraft:hopper",
+              "state": {
+                "facing": "down"
+              }
+            }
           }
         }
       }
