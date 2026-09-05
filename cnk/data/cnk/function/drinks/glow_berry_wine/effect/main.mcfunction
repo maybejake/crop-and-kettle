@@ -2,20 +2,7 @@ advancement revoke @s only cnk:wine/consume_glow_berry
 
 execute if data storage cnk:admin settings{glow_berry_wine_disabled:true} run return fail
 
-function cnk:drinks/year_delta/main
+function cnk:drinks/aging_wine
+data modify storage cnk:temp wine.range set compute default integer cnk:drinks/glow_berry_wine/range
 
-execute if score $year cnk.dummy matches 50.. run advancement grant @s only cnk:visible/50_year_wine
-
-function cnk:drinks/check_oldest_wine
-
-scoreboard players set $range cnk.dummy 2
-scoreboard players operation $range cnk.dummy *= $year cnk.dummy
-
-#minimum range of 8
-scoreboard players add $range cnk.dummy 8
-
-execute store result storage cnk:temp glow_berry_wine.range int 1 run scoreboard players get $range cnk.dummy
-
-tag @s add cnk.glow_berry_wine
-execute at @s run function cnk:drinks/glow_berry_wine/effect/glow with storage cnk:temp glow_berry_wine
-tag @s remove cnk.glow_berry_wine
+function cnk:drinks/glow_berry_wine/effect/effect with storage cnk:temp wine

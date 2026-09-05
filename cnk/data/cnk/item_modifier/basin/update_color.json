@@ -1,0 +1,9 @@
+{
+  "type": "set_custom_model_data",
+  "colors": {
+    "mode": "replace_section",
+    "values": [{"type":"minecraft:storage","storage":"cnk:temp","path":"distiller.color"}],
+    "offset": 0,
+    "size": 1
+  }
+}

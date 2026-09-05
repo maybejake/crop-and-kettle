@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:min",
+    "inputs": [
+        {
+            "type": "minecraft:div",
+            "left": {
+                "type": "minecraft:storage",
+                "storage": "cnk:temp",
+                "path": "time.year"
+            },
+            "right": 10
+        },
+        3
+    ]
+}

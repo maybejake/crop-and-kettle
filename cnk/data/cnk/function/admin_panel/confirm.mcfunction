@@ -2,7 +2,7 @@
 $function dcf:toggle {enabled:$(dynamic_command_feedback)b}
 
 # year stuff
-$scoreboard players set $days_in_a_year cnk.dummy $(days_in_a_year)
+$data modify storage cnk:admin settings.days_in_a_year set value $(days_in_a_year)
 
 # wine stuff
 $data modify storage cnk:admin settings.apple_cider_disabled set value $(apple_cider_disabled)b

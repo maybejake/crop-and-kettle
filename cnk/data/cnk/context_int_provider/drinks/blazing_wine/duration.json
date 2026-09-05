@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:add",
+    "inputs": [
+        {
+            "type": "minecraft:mul",
+            "inputs": [
+                {
+                    "type": "minecraft:storage",
+                    "storage": "cnk:temp",
+                    "path": "time.year"
+                },
+                60
+            ]
+        },
+        60
+    ]
+}

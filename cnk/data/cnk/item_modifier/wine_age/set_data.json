@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:copy_custom_data",
+  "source": {
+    "type": "minecraft:storage",
+    "source": "cnk:temp"
+  },
+  "ops": [
+    {
+      "source": "time.time",
+      "target": "cnk.wine.time",
+      "op": "replace"
+    }
+  ]
+}

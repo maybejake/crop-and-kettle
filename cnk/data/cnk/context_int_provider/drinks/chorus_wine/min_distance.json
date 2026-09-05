@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:sub",
+    "left": "cnk:drinks/chorus_wine/max_distance",
+    "right": {
+        "type": "minecraft:div",
+        "left": "cnk:drinks/chorus_wine/max_distance",
+        "right": 20
+    }
+}

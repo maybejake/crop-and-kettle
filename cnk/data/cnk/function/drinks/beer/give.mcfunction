@@ -1,0 +1,1 @@
+$loot $(give_or_spawn) loot cnk:food/beer

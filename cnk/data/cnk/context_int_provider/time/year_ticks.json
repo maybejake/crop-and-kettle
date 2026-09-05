@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:mul",
+    "inputs": [
+        "cnk:day_length",
+        {
+            "type": "minecraft:storage",
+            "storage": "cnk:admin",
+            "path": "settings.days_in_a_year"
+        }
+    ]
+}

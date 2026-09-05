@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:div",
+    "left": {
+        "type": "minecraft:storage",
+        "storage": "cnk:temp",
+        "path": "time.time"
+    },
+    "right": "cnk:time/year_ticks"
+}

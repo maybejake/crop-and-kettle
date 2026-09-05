@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:sub",
+    "left": {
+        "type": "minecraft:storage",
+        "storage": "cnk:temp",
+        "path": "time.time"
+    },
+    "right": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "cnk.wine_time"
+    }
+}

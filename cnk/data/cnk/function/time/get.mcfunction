@@ -1,10 +1,3 @@
-scoreboard players set $day cnk.dummy 24000
-scoreboard players operation $year cnk.dummy = $day cnk.dummy
-scoreboard players operation $year cnk.dummy *= $days_in_a_year cnk.dummy
-
-scoreboard players operation $current_year cnk.dummy = $time cnk.dummy
-execute store result storage cnk:temp time.year int 1 run scoreboard players operation $current_year cnk.dummy /= $year cnk.dummy
-
-scoreboard players operation $current_day cnk.dummy = $time cnk.dummy
-scoreboard players operation $current_day cnk.dummy %= $year cnk.dummy
-execute store result storage cnk:temp time.day int 1 run scoreboard players operation $current_day cnk.dummy /= $day cnk.dummy
+execute store result storage cnk:temp time.time int 1 run time query gametime
+execute store result score $day cnk.dummy run data modify storage cnk:temp time.day set compute default integer cnk:time/get_day
+execute store result score $year cnk.dummy run data modify storage cnk:temp time.year set compute default integer cnk:time/get_year

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:min",
+    "inputs": [
+        {
+            "type": "minecraft:max",
+            "inputs": [
+                {
+                    "type": "minecraft:storage",
+                    "storage": "cnk:temp",
+                    "path": "time.year"
+                },
+                2
+            ]
+        },
+        10
+    ]
+}

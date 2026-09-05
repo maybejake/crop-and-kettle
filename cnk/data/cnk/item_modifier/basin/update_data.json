@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:copy_custom_data",
+  "source": {
+    "type": "minecraft:storage",
+    "source": "cnk:temp"
+  },
+  "ops": [
+    {
+      "source": "distiller.callback",
+      "target": "cnk.basin.callback",
+      "op": "replace"
+    },
+    {
+      "source": "distiller.liquid",
+      "target": "cnk.basin.liquid",
+      "op": "replace"
+    }
+  ]
+}
