@@ -1,5 +1,5 @@
 {
   "type": "entity_scores",
   "entity": "this",
-  "scores": {"cnk.age": {"min":"cnk:crop_max_age/grape"}}
+  "scores": {"cnk.age": {"min":"cnk:crop_max_age/lettuce"}}
 }
