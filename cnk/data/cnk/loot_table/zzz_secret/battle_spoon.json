@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_axe",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.battle_spoon","fallback":"Battle Spoon"},
                 "minecraft:item_model": "cnk:mixing_bowl_spoon",

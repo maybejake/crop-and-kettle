@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:baked_potato",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.chili_pepper","fallback":"Chili Pepper"},
                 "minecraft:item_model": "cnk:chili_pepper",

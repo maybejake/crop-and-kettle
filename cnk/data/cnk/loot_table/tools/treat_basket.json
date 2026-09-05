@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:poisonous_potato",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.treat_basket","fallback":"Treat Basket"},
                 "minecraft:consumable": {"consume_seconds":0, "animation": "none", "sound": "intentionally_empty", "has_consume_particles": false},

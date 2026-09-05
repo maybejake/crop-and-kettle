@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:stone_sword",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.stone_knife","fallback":"Stone Knife"},
                 "minecraft:item_model": "cnk:stone_knife",

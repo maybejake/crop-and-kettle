@@ -1,4 +1,4 @@
-$item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components":{ \
+$item modify entity @s weapon.mainhand {"type":"minecraft:set_components","components":{ \
     "minecraft:use_remainder": { \
         "id": "minecraft:poisonous_potato", \
         "components": { \

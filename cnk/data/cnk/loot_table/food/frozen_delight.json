@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:poisonous_potato",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.frozen_delight","fallback":"Frozen Delight"},
                 "minecraft:item_model": "cnk:frozen_delight",

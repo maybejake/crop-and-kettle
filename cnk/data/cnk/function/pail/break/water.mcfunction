@@ -6,7 +6,7 @@ $loot spawn ~ ~ ~ loot { \
         { \
           "type": "minecraft:loot_table", \
           "value": "cnk:other/water_pail", \
-          "functions": [ \
+          "modifier": [ \
             { \
               "function": "minecraft:set_custom_data", \
               "tag": {"cnk":{"pail":{"quantity":$(quantity),"color":$(color)}}} \

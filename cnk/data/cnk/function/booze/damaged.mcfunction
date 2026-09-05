@@ -1,4 +1,4 @@
-item modify entity @s armor.head {"function":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","size":1,"offset":0,"values":[true]}}
-item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","size":1,"offset":0,"values":[true]}}
-execute on passengers if entity @s[type=minecraft:item_display,tag=cnk.booze_bottle] run item modify entity @s contents {"function":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","size":1,"offset":0,"values":[true]}}
+item modify entity @s armor.head {"type":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","size":1,"offset":0,"values":[true]}}
+item modify entity @s weapon.mainhand {"type":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","size":1,"offset":0,"values":[true]}}
+execute on passengers if entity @s[type=minecraft:item_display,tag=cnk.booze_bottle] run item modify entity @s contents {"type":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","size":1,"offset":0,"values":[true]}}
 execute if score $hurt_time cnk.dummy matches 9 run playsound cnk:entity.booze.hurt hostile @a ~ ~ ~ 1 1.2

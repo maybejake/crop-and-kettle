@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:purple_dye",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 2
             }
           ]

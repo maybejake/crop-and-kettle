@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:snowball",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.very_rotten_tomato","fallback":"Very Rotten Tomato"},
                 "minecraft:item_model": "cnk:very_rotten_tomato",

@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:seeds/chili_pepper_seeds",
+          "modifier": [
+             {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:conditional",
+                "condition": "cnk:is_max_age/chili_pepper",
+                "on_true": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 4
+                },
+                "on_false": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "condition": "cnk:is_max_age/chili_pepper",
+          "value": "cnk:drops/crop/chili_pepper/interact"
+        }
+      ]
+    }
+  ]
+}

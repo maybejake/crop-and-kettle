@@ -11,4 +11,4 @@ execute at @s rotated as @n[type=minecraft:item_display,tag=cnk.mixing_bowl] run
 ride @s mount @n[type=minecraft:item_display,tag=cnk.mixing_bowl]
 playsound minecraft:block.bamboo_wood.step block @a ~ ~ ~ 1 2
 
-execute if score $hand_place cnk.dummy matches 1 run item modify entity @p[tag=cnk.interact_mixing_bowl,distance=..20] weapon.mainhand {"function":"minecraft:set_count","count":-1,"add":true}
+execute if score $hand_place cnk.dummy matches 1 run item modify entity @p[tag=cnk.interact_mixing_bowl,distance=..20] weapon.mainhand {"type":"minecraft:set_count","count":-1,"add":true}

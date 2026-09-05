@@ -1,5 +1,5 @@
 {
-  "function":"minecraft:set_components",
+  "type":"minecraft:set_components",
   "components":{
     "minecraft:item_name": {"translate":"item.cnk.netherite_knife","fallback":"Netherite Knife"},
     "minecraft:item_model": "cnk:netherite_knife",

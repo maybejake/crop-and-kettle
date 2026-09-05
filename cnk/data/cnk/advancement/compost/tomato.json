@@ -3,40 +3,24 @@
     "y": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "predicates": {
-                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"tomato"}}}
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "predicates": {
+                  "minecraft:custom_data": {"cnk":{"ingredient":{"type":"tomato"}}}
+                }
               }
+            },
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:composter",
+              "state": {"level":{"max":"6"}}
             }
-          },
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:composter"
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "block": "minecraft:composter",
-              "condition": "minecraft:block_state_property",
-              "properties": {
-                "level": "7"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "block": "minecraft:composter",
-              "condition": "minecraft:block_state_property",
-              "properties": {
-                "level": "8"
-              }
-            }
-          }
-        ]
+          ]
+        }
       }
     }
   },

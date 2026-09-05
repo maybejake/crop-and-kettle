@@ -1,0 +1,31 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "when": [
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cnk:item/corn_seeds"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "entries": [
+        {"threshold":0, "model":{"type":"minecraft:model","model":"cnk:block/corn/0","tints":[{"type":"minecraft:constant","value":16710654}]}},
+        {"threshold":1, "model":{"type":"minecraft:model","model":"cnk:block/corn/1","tints":[{"type":"minecraft:constant","value":16710654}]}},
+        {"threshold":2, "model":{"type":"minecraft:model","model":"cnk:block/corn/2","tints":[{"type":"minecraft:constant","value":16710654}]}},
+        {"threshold":3, "model":{"type":"minecraft:model","model":"cnk:block/corn/3","tints":[{"type":"minecraft:constant","value":16710654}]}},
+        {"threshold":4, "model":{"type":"minecraft:model","model":"cnk:block/corn/4","tints":[{"type":"minecraft:constant","value":16710654}]}},
+        {"threshold":5, "model":{"type":"minecraft:model","model":"cnk:block/corn/5","tints":[{"type":"minecraft:constant","value":16710654}]}},
+        {"threshold":6, "model":{"type":"minecraft:model","model":"cnk:block/corn/6","tints":[{"type":"minecraft:constant","value":16710654}]}},
+        {"threshold":7, "model":{"type":"minecraft:model","model":"cnk:block/corn/7","tints":[{"type":"minecraft:constant","value":16710654}]}}
+      ]
+    },
+    "property": "minecraft:display_context"
+  }
+}

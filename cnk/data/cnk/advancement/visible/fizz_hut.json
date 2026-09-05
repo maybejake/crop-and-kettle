@@ -18,7 +18,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
             "structures": "#cnk:fizz_hut"
           }
         }

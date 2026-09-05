@@ -6,7 +6,7 @@ $loot spawn ~ ~0.3 ~ loot { \
         { \
           "type": "minecraft:item", \
           "name": "minecraft:player_head", \
-          "functions": [ \
+          "modifier": [ \
             { \
               "function": "minecraft:set_components", \
               "components": $(components) \

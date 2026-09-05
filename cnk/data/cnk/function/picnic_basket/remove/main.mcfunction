@@ -5,10 +5,10 @@ playsound minecraft:item.bundle.remove_one block @a ~ ~ ~ 1 0.6
 execute at @s rotated as @s run particle minecraft:dust_plume ^ ^0.3 ^0.25 0 0 0 0 4
 
 # open basket (funeral) (so funny i said it twice)
-item modify entity @s contents {"function":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","size":1,"offset":0,"values":[true]}}
+item modify entity @s contents {"type":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","size":1,"offset":0,"values":[true]}}
 
 # swing it
-execute as @p[tag=cnk.interact_picnic_basket,distance=..20] run function cnk:swing/mainhand
+swing @p[tag=cnk.interact_picnic_basket,distance=..20] mainhand
 
 # get last item
 data modify storage cnk:temp picnic_basket.item set from entity @s item.components."minecraft:bundle_contents"[-1]

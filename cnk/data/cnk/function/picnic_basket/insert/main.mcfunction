@@ -19,7 +19,7 @@ playsound minecraft:item.bundle.insert block @a ~ ~ ~ 1 0.6
 execute at @s rotated as @s run particle minecraft:dust_plume ^ ^0.3 ^0.25 0 0 0 0 4
 
 # open basket (funeral)
-item modify entity @s contents {"function":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","size":1,"offset":0,"values":[true]}}
+item modify entity @s contents {"type":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","size":1,"offset":0,"values":[true]}}
 
 # calculate new count with item stack inserted
 execute store result score $item_count cnk.dummy run data get storage cnk:temp picnic_basket.item.count

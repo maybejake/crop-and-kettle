@@ -6,7 +6,7 @@ $loot replace entity @s weapon.offhand loot { \
         { \
           "type": "minecraft:loot_table", \
           "value": "cnk:other/milk_pail", \
-          "functions": [ \
+          "modifier": [ \
             { \
               "function": "minecraft:set_custom_data", \
               "tag": {"cnk":{"pail":{"quantity":$(quantity),"color":$(color)}}} \

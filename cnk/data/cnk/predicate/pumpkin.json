@@ -1,8 +1,8 @@
 {
-  "condition": "minecraft:all_of",
+  "type": "minecraft:all_of",
   "terms": [
     {
-      "condition": "minecraft:location_check",
+      "type": "minecraft:location_check",
       "predicate": {
         "block": {
           "blocks": "minecraft:pumpkin_stem"
@@ -10,7 +10,7 @@
       }
     },
     {
-      "condition": "minecraft:location_check",
+      "type": "minecraft:location_check",
       "offsetY": 1,
       "predicate": {
         "block": {

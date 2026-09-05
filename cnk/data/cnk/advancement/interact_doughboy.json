@@ -4,8 +4,12 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:wandering_trader",
-          "entity_tags": {"any_of":["cnk.doughboy_trader"]}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wandering_trader",
+            "entity_tags": {"any_of":["cnk.doughboy_trader"]}
+          }          
         }
       }
     }

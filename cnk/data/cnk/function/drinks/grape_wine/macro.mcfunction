@@ -6,7 +6,7 @@ $loot $(give_or_spawn) loot { \
         { \
           "type": "minecraft:item", \
           "name": "minecraft:poisonous_potato", \
-          "functions": [ \
+          "modifier": [ \
             { \
               "function": "minecraft:set_components", \
               "components": { \

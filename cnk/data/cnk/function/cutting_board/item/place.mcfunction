@@ -5,8 +5,8 @@ execute at @s rotated as @n[type=minecraft:item_display,tag=cnk.cutting_board] r
 ride @s mount @n[type=minecraft:item_display,tag=cnk.cutting_board]
 playsound minecraft:block.bamboo_wood.step block @a ~ ~ ~ 1 2
 
-execute as @p[tag=cnk.interact_cutting_board,distance=..20,tag=!cnk.cutting_board_offhand] run function cnk:swing/mainhand
-execute as @p[tag=cnk.interact_cutting_board,distance=..20,tag=cnk.cutting_board_offhand] run function cnk:swing/offhand
+swing @p[tag=cnk.interact_cutting_board,distance=..20,tag=!cnk.cutting_board_offhand] mainhand
+swing @p[tag=cnk.interact_cutting_board,distance=..20,tag=cnk.cutting_board_offhand] offhand
 
-execute if entity @p[tag=cnk.interact_cutting_board,distance=..20,tag=cnk.cutting_board_offhand] run item modify entity @p[tag=cnk.interact_cutting_board,distance=..20] weapon.offhand {"function":"minecraft:set_count","count":-1,"add":true}
-execute if entity @p[tag=cnk.interact_cutting_board,distance=..20,tag=!cnk.cutting_board_offhand] run item modify entity @p[tag=cnk.interact_cutting_board,distance=..20] weapon.mainhand {"function":"minecraft:set_count","count":-1,"add":true}
+execute if entity @p[tag=cnk.interact_cutting_board,distance=..20,tag=cnk.cutting_board_offhand] run item modify entity @p[tag=cnk.interact_cutting_board,distance=..20] weapon.offhand {"type":"minecraft:set_count","count":-1,"add":true}
+execute if entity @p[tag=cnk.interact_cutting_board,distance=..20,tag=!cnk.cutting_board_offhand] run item modify entity @p[tag=cnk.interact_cutting_board,distance=..20] weapon.mainhand {"type":"minecraft:set_count","count":-1,"add":true}

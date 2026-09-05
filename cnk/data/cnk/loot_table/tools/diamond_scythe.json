@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_sword",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.diamond_scythe","fallback":"Diamond Scythe"},
                 "minecraft:item_model": "cnk:diamond_scythe",

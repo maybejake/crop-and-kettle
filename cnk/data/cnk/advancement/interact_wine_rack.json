@@ -1,21 +1,15 @@
 {
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:any_block_use",
+      "trigger": "minecraft:default_block_use",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:crafter",
-                "components": {
-                  "minecraft:custom_data":{"cnk":{"wine_rack":true}}
-                }
-              }
-            }
+        "location": {
+          "type": "minecraft:match_block",
+          "blocks": "minecraft:crafter",
+          "components": {
+            "minecraft:custom_data":{"cnk":{"wine_rack":true}}
           }
-        ]
+        }
       }
     }
   },

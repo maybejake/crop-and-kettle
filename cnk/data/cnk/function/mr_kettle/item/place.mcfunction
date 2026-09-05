@@ -6,4 +6,4 @@ execute at @s rotated as @n[type=minecraft:item_display,tag=cnk.mr_kettle] run r
 ride @s mount @n[type=minecraft:item_display,tag=cnk.mr_kettle]
 playsound cnk:item.mr_kettle.squeak block @a ~ ~ ~ 1 1
 
-item modify entity @p[tag=cnk.interact_mr_kettle,distance=..20] weapon.mainhand {"function":"minecraft:set_count","count":-1,"add":true}
+item modify entity @p[tag=cnk.interact_mr_kettle,distance=..20] weapon.mainhand {"type":"minecraft:set_count","count":-1,"add":true}

@@ -3,15 +3,13 @@
     "requirement": {
       "trigger": "minecraft:default_block_use",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:hopper",
-            "properties": {
-              "facing": "down"
-            }
+        "location": {
+          "type": "minecraft:match_block",
+          "blocks": "minecraft:hopper",
+          "state": {
+            "facing": "down"
           }
-        ]
+        }
       }
     }
   },
