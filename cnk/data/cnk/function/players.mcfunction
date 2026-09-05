@@ -3,8 +3,6 @@ execute unless score @s cnk.uid matches 0.. run function cnk:player_setup
 execute if score @s cnk.break_short_grass matches 1.. at @s run function cnk:break_grass/main
 execute if score @s cnk.break_tall_grass matches 1.. at @s run function cnk:break_grass/main
 
-execute if score @s cnk.rotten_tomato matches 1.. at @s run function cnk:produce/rotten_tomato/check
-
 execute if score @s cnk.drop_food matches 1.. run function cnk:mystery/give_life/search
 
 execute if score @s cnk.use_book matches 1.. run function cnk:cookbook/check
