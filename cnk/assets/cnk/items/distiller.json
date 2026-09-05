@@ -13,16 +13,31 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:range_dispatch",
+      "type": "minecraft:condition",
       "property": "minecraft:custom_model_data",
-      "entries": [
-        {"threshold":0, "model":{"type":"minecraft:model","model":"cnk:block/distiller/0"}},
-        {"threshold":1, "model":{"type":"minecraft:model","model":"cnk:block/distiller/1"}},
-        {"threshold":2, "model":{"type":"minecraft:model","model":"cnk:block/distiller/2"}},
-        {"threshold":3, "model":{"type":"minecraft:model","model":"cnk:block/distiller/3"}},
-        {"threshold":4, "model":{"type":"minecraft:model","model":"cnk:block/distiller/4"}},
-        {"threshold":5, "model":{"type":"minecraft:model","model":"cnk:block/distiller/5"}}
-      ]
+      "index": 0,
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "cnk:block/distiller_pouring",
+        "tints": [
+          {
+            "type": "custom_model_data",
+            "default": 4224483
+          }
+        ]
+      },
+      "on_false": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "entries": [
+          {"threshold":0, "model":{"type":"minecraft:model","model":"cnk:block/distiller/0"}},
+          {"threshold":1, "model":{"type":"minecraft:model","model":"cnk:block/distiller/1"}},
+          {"threshold":2, "model":{"type":"minecraft:model","model":"cnk:block/distiller/2"}},
+          {"threshold":3, "model":{"type":"minecraft:model","model":"cnk:block/distiller/3"}},
+          {"threshold":4, "model":{"type":"minecraft:model","model":"cnk:block/distiller/4"}},
+          {"threshold":5, "model":{"type":"minecraft:model","model":"cnk:block/distiller/5"}}
+        ]
+      }
     },
     "property": "minecraft:display_context"
   }

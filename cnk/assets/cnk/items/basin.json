@@ -16,10 +16,10 @@
       "type": "minecraft:range_dispatch",
       "property": "minecraft:custom_model_data",
       "entries": [
-        {"threshold":0, "model":{"type":"minecraft:model","model":"cnk:block/basin/0"}},
-        {"threshold":1, "model":{"type":"minecraft:model","model":"cnk:block/basin/1"}},
-        {"threshold":2, "model":{"type":"minecraft:model","model":"cnk:block/basin/2"}},
-        {"threshold":3, "model":{"type":"minecraft:model","model":"cnk:block/basin/3"}}
+        {"threshold":0, "model":{"type":"minecraft:model","model":"cnk:block/basin/0","tints":[{"type":"custom_model_data","default":4224483}]}},
+        {"threshold":1, "model":{"type":"minecraft:model","model":"cnk:block/basin/1","tints":[{"type":"custom_model_data","default":4224483}]}},
+        {"threshold":2, "model":{"type":"minecraft:model","model":"cnk:block/basin/2","tints":[{"type":"custom_model_data","default":4224483}]}},
+        {"threshold":3, "model":{"type":"minecraft:model","model":"cnk:block/basin/3","tints":[{"type":"custom_model_data","default":4224483}]}}
       ]
     },
     "property": "minecraft:display_context"

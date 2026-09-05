@@ -1,9 +1,5 @@
 scoreboard players remove @s cnk.level 1
-
-execute unless score @s cnk.level matches 1.. run data modify entity @s item.components."minecraft:item_model" set value "cnk:basin"
-execute if score @s cnk.level matches 1 run data modify entity @s item.components."minecraft:item_model" set value "cnk:basin_1"
-execute if score @s cnk.level matches 2 run data modify entity @s item.components."minecraft:item_model" set value "cnk:basin_2"
-execute if score @s cnk.level matches 3 run data modify entity @s item.components."minecraft:item_model" set value "cnk:basin_3"
+item modify entity @s contents cnk:update_basin_level
 
 item modify entity @p[tag=cnk.interact_basin,distance=..20] weapon.mainhand {"type":"minecraft:set_count","count":-1,"add":true}
 

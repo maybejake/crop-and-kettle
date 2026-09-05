@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:conditional",
+    "condition": {
+        "type": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {"cnk.distill_goal":{"min":1}}
+    },
+    "on_true": {
+        "type": "minecraft:floor_div",
+        "left": {
+            "type": "minecraft:div",
+            "left": {
+                "type": "minecraft:mul",
+                "inputs": [
+                    {
+                        "type": "minecraft:sub",
+                        "left": {
+                            "type": "minecraft:score",
+                            "target": {"type":"minecraft:fixed", "name":"$distill_time"},
+                            "score": "cnk.dummy"
+                        },
+                        "right": {
+                            "type": "minecraft:sub",
+                            "left": {
+                                "type": "minecraft:score",
+                                "target": "this",
+                                "score": "cnk.distill_goal"
+                            },
+                            "right": {
+                                "type": "minecraft:score",
+                                "target": {"type":"minecraft:fixed", "name":"$gametime"},
+                                "score": "cnk.dummy"
+                            }
+                        }
+                    },
+                    100
+                ]
+            },
+            "right": {
+                "type": "minecraft:score",
+                "target": {"type":"minecraft:fixed", "name":"$distill_time"},
+                "score": "cnk.dummy"
+            }
+        },
+        "right": 20
+    },
+    "on_false": 0
+}

@@ -11,18 +11,7 @@ execute unless score @s cnk.distill_goal matches 1.. run function cnk:distiller/
 
 execute if score @s cnk.distill_goal <= $gametime cnk.dummy run return 1
 
-scoreboard players operation $time_delta cnk.dummy = @s cnk.distill_goal
-scoreboard players operation $time_delta cnk.dummy -= $gametime cnk.dummy
-scoreboard players operation $dial_state cnk.dummy = $distill_time cnk.dummy
-scoreboard players operation $dial_state cnk.dummy -= $time_delta cnk.dummy
-
-scoreboard players set $100 cnk.dummy 100
-scoreboard players operation $dial_state cnk.dummy *= $100 cnk.dummy
-scoreboard players operation $dial_state cnk.dummy /= $distill_time cnk.dummy
-
-execute if score $dial_state cnk.dummy matches 20..40 run data modify entity @s item.components."minecraft:item_model" set value "cnk:distiller_1"
-execute if score $dial_state cnk.dummy matches 41..60 run data modify entity @s item.components."minecraft:item_model" set value "cnk:distiller_2"
-execute if score $dial_state cnk.dummy matches 61..80 run data modify entity @s item.components."minecraft:item_model" set value "cnk:distiller_3"
-execute if score $dial_state cnk.dummy matches 81.. run data modify entity @s item.components."minecraft:item_model" set value "cnk:distiller_4"
+# update dial
+item modify entity @s contents cnk:distiller/update_dial
 
 return fail
