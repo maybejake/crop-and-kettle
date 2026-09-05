@@ -8,6 +8,6 @@ execute if score @s cnk.age matches 6 run particle minecraft:item{item:{id:"mine
 execute if score @s cnk.age matches 7 run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:coffee_crop","minecraft:custom_model_data":{floats:[7]}}}} ~ ~0.2 ~ 0.28 0.7 0.28 0.07 70 force
 execute if score @s cnk.age matches 8.. run particle minecraft:item{item:{id:"minecraft:barrier","components":{"minecraft:item_model":"cnk:coffee_crop","minecraft:custom_model_data":{floats:[8]}}}} ~ ~0.2 ~ 0.28 0.7 0.28 0.07 70 force
 
-loot spawn ~ ~0.5 ~ loot cnk:drops/crop/chili_pepper/break
+loot spawn ~ ~0.5 ~ loot cnk:drops/crop/coffee/break
 
 function cnk:crops/break/pumpkin

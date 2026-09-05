@@ -29,8 +29,8 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "condition": "cnk:is_max_age/chili_pepper",
-          "value": "cnk:drops/crop/chili_pepper/interact"
+          "condition": "cnk:is_max_age/tomato",
+          "value": "cnk:drops/crop/tomato/interact"
         }
       ]
     }
