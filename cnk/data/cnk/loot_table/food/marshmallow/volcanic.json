@@ -4,9 +4,13 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:coal",
+          "type": "minecraft:loot_table",
+          "value": "cnk:food/marshmallow/base",
           "modifier": [
+            {
+              "type": "minecraft:set_custom_data",
+              "tag": {"cnk":{"marshmallow":{"type":"volcanic"}}}
+            },
             {
               "type": "minecraft:set_components",
               "components": {
@@ -16,9 +20,7 @@
                   "nutrition": 1,
                   "saturation": 0.1
                 },
-                "minecraft:consumable": {},
-                "minecraft:custom_data": {"cnk":{"marshmallow":{"type":"volcanic"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+                "minecraft:cooking_fuel": {"burn_time":300,"speed_multiplier":1}
               }
             }
           ]

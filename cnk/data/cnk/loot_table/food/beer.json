@@ -23,10 +23,10 @@
                   "has_consume_particles":false
                 },
                 "minecraft:custom_data": {"cnk":{"ingredient":{"type":"beer"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
                 "minecraft:use_remainder": {"id":"minecraft:glass_bottle","count":1}
               }
-            }
+            },
+            "cnk:tooltip"
           ]
         }
       ]

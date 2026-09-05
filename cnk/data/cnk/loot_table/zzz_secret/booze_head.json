@@ -13,13 +13,13 @@
                 "minecraft:item_name": {"translate":"item.cnk.booze_head","fallback":"Booze Head"},
                 "minecraft:item_model": "cnk:booze_head",
                 "minecraft:custom_data": {"cnk":{"booze_head":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
                 "minecraft:entity_data": {"id":"minecraft:item_frame","Tags":["cnk.booze_head_setup"],"Silent":true,"Invisible":true},
                 "minecraft:tooltip_style": "cnk:cnk",
                 "minecraft:equippable": {"slot": "head"},
                 "minecraft:rarity": "uncommon"
               }
-            }
+            },
+            "cnk:tooltip"
           ]
         }
       ]

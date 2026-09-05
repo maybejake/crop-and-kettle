@@ -13,7 +13,6 @@
                 "minecraft:item_name": {"translate":"item.cnk.fizz_whistle","fallback":"Fizz Whistle"},
                 "minecraft:item_model": "cnk:fizz_whistle",
                 "minecraft:custom_data": {"cnk":{"fizz_whistle":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
                 "minecraft:consumable": {"consume_seconds":2, "animation": "toot_horn", "sound": "minecraft:block.note_block.flute", "has_consume_particles": false},
                 "!minecraft:food": {},
                 "minecraft:use_cooldown": {"seconds":2400, "cooldown_group": "cnk:fizz_whistle"},
@@ -34,7 +33,8 @@
                   }
                 }
               }
-            }
+            },
+            "cnk:tooltip"
           ]
         }
       ]
