@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:set_lore",
+  "lore": [{"translate":"item.cnk.calendar.format","with":[{"storage":"cnk:temp","nbt":"time.year","plain":true},{"storage":"cnk:temp","nbt":"time.day","plain":true}],"color":"blue","italic":false}],
+  "entity": "this",
+  "mode": "replace_section",
+  "offset": 0,
+  "size": 1
+}

@@ -24,7 +24,7 @@ data modify storage cnk:temp admin_panel set value { \
 execute if function dcf:is_enabled run data modify storage cnk:temp admin_panel.dynamic_command_feedback set value true
 
 #year stuff
-execute store result storage cnk:temp admin_panel.days_in_a_year int 1 run scoreboard players get $days_in_a_year cnk.dummy
+data modify storage cnk:temp admin_panel.days_in_a_year set from storage cnk:admin settings.days_in_a_year
 
 #fizz stuff
 execute store result storage cnk:temp admin_panel.trade_reset_time int 1 run scoreboard players get $trade_reset_time cnk.dummy

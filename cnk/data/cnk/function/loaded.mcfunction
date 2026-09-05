@@ -103,7 +103,7 @@ scoreboard objectives add cnk.statistic.bosses_defeated dummy
 scoreboard players set $installed cnk.dummy 1
 
 # set 16 days in a year by default
-execute unless score $days_in_a_year cnk.dummy matches 1.. run scoreboard players set $days_in_a_year cnk.dummy 16
+execute unless data storage cnk:admin settings.days_in_a_year run data modify storage cnk:admin settings.days_in_a_year set value 16
 
 # set fizz trade reset time to 3 days by default
 execute unless score $trade_reset_time cnk.dummy matches 1.. run scoreboard players set $trade_reset_time cnk.dummy 3

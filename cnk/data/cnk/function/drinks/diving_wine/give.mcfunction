@@ -1,0 +1,1 @@
+$loot $(give_or_spawn) loot {"pools":[{"rolls":1,entries:[{"type":"minecraft:loot_table","value":"cnk:food/diving_wine",modifier:["cnk:wine_age/set_lore","cnk:wine_age/set_data"]}]}]}

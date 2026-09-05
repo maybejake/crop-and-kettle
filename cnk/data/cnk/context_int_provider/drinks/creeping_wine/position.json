@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:conditional",
+    "condition": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "minecraft:entity_tags": {
+                "all_of": ["cnk.creeping_wine_marker_second"]
+            }
+        }
+    },
+    "on_true": {
+        "type": "minecraft:uniform",
+        "max": 2,
+        "min": -2
+    },
+    "on_false": 0
+}

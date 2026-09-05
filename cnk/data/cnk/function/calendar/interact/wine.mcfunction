@@ -1,4 +1,7 @@
 execute store result score @s cnk.wine_time run data get entity @s SelectedItem.components."minecraft:custom_data".cnk.wine.time
-function cnk:drinks/year_delta/main
 
-function cnk:calendar/interact/wine_macro with storage cnk:temp time
+function cnk:time/delta
+execute unless score $year cnk.dummy matches 1 unless score $day cnk.dummy matches 1 run return run title @s actionbar {"translate":"item.cnk.calendar.delta.format.base","with":[{"translate":"item.cnk.calendar.delta.format.both_plural","with":[{"storage":"cnk:temp","nbt":"time.year","plain":true},{"storage":"cnk:temp","nbt":"time.day","plain":true}]}]}
+execute unless score $year cnk.dummy matches 1 if score $day cnk.dummy matches 1 run return run title @s actionbar {"translate":"item.cnk.calendar.delta.format.base","with":[{"translate":"item.cnk.calendar.delta.format.year_plural","with":[{"storage":"cnk:temp","nbt":"time.year","plain":true},{"storage":"cnk:temp","nbt":"time.day","plain":true}]}]}
+execute if score $year cnk.dummy matches 1 unless score $day cnk.dummy matches 1 run return run title @s actionbar {"translate":"item.cnk.calendar.delta.format.base","with":[{"translate":"item.cnk.calendar.delta.format.day_plural","with":[{"storage":"cnk:temp","nbt":"time.year","plain":true},{"storage":"cnk:temp","nbt":"time.day","plain":true}]}]}
+execute if score $year cnk.dummy matches 1 if score $day cnk.dummy matches 1 run return run title @s actionbar {"translate":"item.cnk.calendar.delta.format.base","with":[{"translate":"item.cnk.calendar.delta.format.both_singular","with":[{"storage":"cnk:temp","nbt":"time.year","plain":true},{"storage":"cnk:temp","nbt":"time.day","plain":true}]}]}
