@@ -13,7 +13,6 @@
                 "minecraft:item_name": {"translate":"item.cnk.tortilla_sombrero","fallback":"Tortilla Sombrero"},
                 "minecraft:item_model": "cnk:tortilla_sombrero",
                 "minecraft:custom_data": {"cnk":{"tortilla_sombrero":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
                 "minecraft:max_stack_size": 1,
                 "minecraft:equippable": {"slot":"head"},
                 "minecraft:food": {
@@ -23,7 +22,8 @@
                 "minecraft:consumable": {},
                 "minecraft:tooltip_style": "cnk:cnk"
               }
-            }
+            },
+            "cnk:tooltip"
           ]
         }
       ]

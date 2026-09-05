@@ -13,7 +13,6 @@
                 "minecraft:item_name": {"translate":"item.cnk.ritual_dagger","fallback":"Ritual Dagger"},
                 "minecraft:item_model": "cnk:ritual_dagger",
                 "minecraft:custom_data": {"cnk":{"knife":true,"ritual_dagger":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
                 "minecraft:max_damage": 1561,
                 "minecraft:tooltip_style": "cnk:mystery",
                 "minecraft:repairable": {"items": "minecraft:obsidian"},
@@ -42,7 +41,8 @@
                   }
                 ]
               }
-            }
+            },
+            "cnk:tooltip"
           ]
         }
       ]

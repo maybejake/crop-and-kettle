@@ -14,12 +14,12 @@
                 "minecraft:item_model": "cnk:spirit_sprite",
                 "!minecraft:consumable": {},
                 "minecraft:custom_data": {"cnk":{"spirit_sprite":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
                 "minecraft:rarity": "uncommon",
                 "minecraft:consumable": {"consume_seconds":2147483648,"animation":"none","sound":"intentionally_empty","has_consume_particles":false},
                 "!minecraft:food": {}
               }
-            }
+            },
+            "cnk:tooltip"
           ]
         }
       ]

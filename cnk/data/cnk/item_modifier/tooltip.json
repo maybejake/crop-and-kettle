@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:set_lore",
+  "lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+  "mode": "append"
+}

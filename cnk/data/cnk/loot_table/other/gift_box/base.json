@@ -13,7 +13,6 @@
                 "minecraft:item_name": {"translate":"item.cnk.gift_box","fallback":"Gift Box"},
                 "minecraft:item_model": "cnk:gift_box_item",
                 "minecraft:custom_data": {"cnk":{"gift_box":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
                 "minecraft:max_stack_size": 1,
                 "!minecraft:equippable": {},
                 "!minecraft:attribute_modifiers": {},
@@ -26,7 +25,8 @@
                   ]
                 }
               }
-            }
+            },
+            "cnk:tooltip"
           ]
         }
       ]

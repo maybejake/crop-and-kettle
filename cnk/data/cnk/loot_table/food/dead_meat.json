@@ -21,10 +21,10 @@
                   "types": "#minecraft:is_fire"
                 },
                 "minecraft:custom_data": {"cnk":{"ingredient":{"type":"dead_meat"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
                 "minecraft:tooltip_style": "cnk:mystery"
               }
-            }
+            },
+            "cnk:tooltip"
           ]
         }
       ]

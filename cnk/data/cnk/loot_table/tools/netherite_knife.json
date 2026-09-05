@@ -13,7 +13,6 @@
                 "minecraft:item_name": {"translate":"item.cnk.netherite_knife","fallback":"Netherite Knife"},
                 "minecraft:item_model": "cnk:netherite_knife",
                 "minecraft:custom_data": {"cnk":{"knife":true, "netherite": true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
                 "minecraft:max_damage": 3660,
                 "minecraft:enchantable": {"value": 15},
                 "minecraft:repairable": {"items": "minecraft:netherite_ingot"},
@@ -34,7 +33,8 @@
                   }
                 ]
               }
-            }
+            },
+            "cnk:tooltip"
           ]
         }
       ]

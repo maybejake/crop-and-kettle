@@ -20,8 +20,6 @@ scoreboard objectives remove cnk.item_count
 scoreboard objectives remove cnk.mix_time
 scoreboard objectives remove cnk.rotation
 
-scoreboard objectives remove cnk.rotten_tomato
-
 scoreboard objectives remove cnk.uid
 
 scoreboard objectives remove cnk.brew_time
@@ -37,8 +35,6 @@ scoreboard objectives remove cnk.distill_timer
 scoreboard objectives remove cnk.wine_time_cooldown
 
 scoreboard objectives remove cnk.wine_time
-
-scoreboard objectives remove cnk.creeping_wine
 
 scoreboard objectives remove cnk.drop_food
 

@@ -17,7 +17,6 @@
                 "minecraft:item_model": "cnk:treat_basket",
                 "minecraft:use_cooldown": {"seconds":30, "cooldown_group": "cnk:treat_basket"},
                 "minecraft:custom_data": {"cnk":{"treat_basket":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
                 "minecraft:max_damage": 3,
                 "minecraft:damage": 0,
                 "minecraft:max_stack_size": 1,
@@ -38,7 +37,8 @@
                   }
                 }
               }
-            }
+            },
+            "cnk:tooltip"
           ]
         }
       ]

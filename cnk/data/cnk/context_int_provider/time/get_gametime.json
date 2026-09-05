@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:sub",
+    "left": {
+        "type": "minecraft:storage",
+        "storage": "cnk:temp",
+        "path": "time.time"
+    },
+    "right": {
+        "type": "minecraft:mul",
+        "inputs": [
+            {
+                "type": "minecraft:add",
+                "inputs": [
+                    {
+                        "type": "minecraft:mul",
+                        "inputs": [
+                            {
+                                "type": "minecraft:storage",
+                                "storage": "cnk:admin",
+                                "path": "settings.days_in_a_year"
+                            },
+                            {
+                                "type": "minecraft:storage",
+                                "storage": "cnk:temp",
+                                "path": "time.year"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "minecraft:storage",
+                        "storage": "cnk:temp",
+                        "path": "time.day"
+                    }
+                ]
+            },
+            "cnk:day_length"
+        ]
+    }
+}

@@ -24,10 +24,10 @@
                     }
                   ]
                 },
-                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"honey_bun"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"honey_bun"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}
               }
-            }
+            },
+            "cnk:tooltip"
           ]
         }
       ]

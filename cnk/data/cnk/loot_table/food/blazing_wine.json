@@ -19,11 +19,12 @@
                   "sound":"minecraft:entity.generic.drink",
                   "has_consume_particles":false
                 },
-                "minecraft:lore": [{"translate":"item.cnk.calendar.format", "with": ["0", "0"],"color":"blue","italic":false},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+                "minecraft:lore": [{"translate":"item.cnk.calendar.format", "with": ["0", "0"],"color":"blue","italic":false}],
                 "minecraft:custom_data": {"cnk":{"ingredient":{"type":"blazing_wine"},"wine":{"time":0,"color":16753408}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:use_remainder": {"id":"minecraft:glass_bottle","count":1}
               }
-            }
+            },
+            "cnk:tooltip"
           ]
         }
       ]
