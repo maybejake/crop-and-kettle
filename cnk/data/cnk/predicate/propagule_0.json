@@ -24,6 +24,11 @@
           }
         }
       } 
+    },
+    {
+      "type": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {"cnk.crop_version": "cnk:crop_version"}
     }
   ]
 }
