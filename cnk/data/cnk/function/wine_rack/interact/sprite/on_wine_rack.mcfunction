@@ -1,8 +1,7 @@
 execute store result score $wine_count cnk.dummy run data get entity @s item.components."minecraft:bundle_contents"
 execute if score $wine_count cnk.dummy matches 0 run return fail
 
-scoreboard players set $age_amount cnk.dummy 384000
-scoreboard players operation $age_amount cnk.dummy /= $wine_count cnk.dummy
+execute store result score $age_amount cnk.dummy run compute default integer {"type":"minecraft:div","left":"cnk:time/year_ticks","right":{"type":"minecraft:score",target:{type:"minecraft:fixed",name:"$wine_count"},score:"cnk.dummy"}}
 execute if score $age_amount cnk.dummy matches 0 run return fail
 
 advancement grant @p[tag=cnk.sprite_use,distance=..20] only cnk:visible/spirit_sprite
