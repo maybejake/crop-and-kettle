@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:baked_potato",
+          "name": "minecraft:poisonous_potato",
           "modifier": [
             {
               "type": "minecraft:set_components",
@@ -15,7 +15,8 @@
                 "minecraft:consumable":{"consume_seconds":2147483648,"animation":"none","sound":"intentionally_empty","has_consume_particles":false},
                 "minecraft:food":{"nutrition":0,"saturation":0,"can_always_eat": true},
                 "minecraft:item_model": "cnk:coffee_cherries",
-                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"coffee_cherries"},"seed":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"coffee_cherries"},"seed":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:compostable": {"layers": "minecraft:compostable/low"}
               }
             },
             "cnk:tooltip"
