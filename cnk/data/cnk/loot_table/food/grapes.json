@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:baked_potato",
+          "name": "minecraft:poisonous_potato",
           "modifier": [
             {
               "type": "minecraft:set_components",
@@ -17,7 +17,8 @@
                   "saturation": 0
                 },
                 "minecraft:consumable": {},
-                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"grapes"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"grapes"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:compostable": {"layers": "minecraft:compostable/medium"}
               }
             },
             "cnk:tooltip"

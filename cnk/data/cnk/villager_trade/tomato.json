@@ -1,6 +1,6 @@
 {
   "wants": {
-    "id": "minecraft:baked_potato",
+    "id": "minecraft:poisonous_potato",
     "components": {
       "minecraft:item_name": {"translate":"item.cnk.tomato","fallback":"Tomato"},
       "minecraft:item_model": "cnk:tomato",
@@ -10,7 +10,8 @@
       },
       "minecraft:consumable": {},
       "minecraft:custom_data": {"cnk":{"ingredient":{"type":"tomato"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
+      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+      "minecraft:compostable": {"layers": "minecraft:compostable/medium"}
     },
     "count": 12
   },

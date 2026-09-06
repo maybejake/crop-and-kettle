@@ -6,7 +6,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:baked_potato",
+            "items": "minecraft:poisonous_potato",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"ingredient":{"type":"rice"}}}
             }
