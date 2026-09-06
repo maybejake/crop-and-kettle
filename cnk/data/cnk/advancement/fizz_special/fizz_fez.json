@@ -1,4 +1,5 @@
 {
+  "parent": "cnk:fizz_special/root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

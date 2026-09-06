@@ -1,3 +1,4 @@
+data remove storage cnk:temp secret_recipe.loot_tables
 function cnk:villager/add_loot_table {loot_table:"cnk:zzz_secret/tattered_recipe"}
 function cnk:villager/add_loot_table {loot_table:"cnk:zzz_secret/explosive_recipe"}
 function cnk:villager/add_loot_table {loot_table:"cnk:zzz_secret/frigid_recipe"}
@@ -7,7 +8,6 @@ function cnk:villager/add_loot_table {loot_table:"cnk:zzz_secret/soaring_recipe"
 function cnk:villager/add_loot_table {loot_table:"cnk:zzz_secret/thoughtful_recipe"}
 function cnk:villager/add_loot_table {loot_table:"cnk:zzz_secret/bubbling_recipe"}
 function cnk:villager/add_loot_table {loot_table:"cnk:zzz_secret/flaming_recipe"}
-
 function #cnk:addons/secret_recipe_trades
 
 function cnk:villager/pick/main

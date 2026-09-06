@@ -11,8 +11,8 @@ data modify storage cnk:temp loot_table.data set value ""
 function cnk:villager/recipe
 
 # 70% chance per extra roll
-data modify storage cnk:temp secret_recipe.first_recipe set from storage cnk:temp loot_table.data
+data modify storage cnk:temp secret_recipe.first_recipe set from storage cnk:temp secret_recipe.loot_table
 function cnk:villager/chance
 
-data modify storage cnk:temp secret_recipe.second_recipe set from storage cnk:temp loot_table.data
+data modify storage cnk:temp secret_recipe.second_recipe set from storage cnk:temp secret_recipe.loot_table
 function cnk:villager/chance
