@@ -18,7 +18,8 @@
                 },
                 "minecraft:consumable": {},
                 "minecraft:custom_data": {"cnk":{"ingredient":{"type":"grapes"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                "minecraft:compostable": {"layers": "minecraft:compostable/medium"}
+                "minecraft:compostable": {"layers": "minecraft:compostable/medium"},
+                "minecraft:villager_food": {"nutrition": 1}
               }
             },
             "cnk:tooltip"

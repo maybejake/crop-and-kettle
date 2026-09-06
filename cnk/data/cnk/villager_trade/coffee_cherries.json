@@ -9,7 +9,8 @@
       "minecraft:item_model": "cnk:coffee_cherries",
       "minecraft:custom_data": {"cnk":{"ingredient":{"type":"coffee_cherries"},"seed":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
       "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
-      "minecraft:compostable": {"layers": "minecraft:compostable/medium"}
+      "minecraft:compostable": {"layers": "minecraft:compostable/medium"},
+      "minecraft:villager_food": {"nutrition": 1}
     },
     "count": 10
   },
