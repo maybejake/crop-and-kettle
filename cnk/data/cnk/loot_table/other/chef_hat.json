@@ -10,7 +10,7 @@
             {
               "type": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": {"translate":"item.cnk.chef_hat","fallback":"Chef Hat"},
+                "minecraft:item_name": {"translate":"item.cnk.chef_hat","fallback":"Chef's Hat"},
                 "minecraft:item_model": "cnk:chef_hat",
                 "minecraft:custom_data": {"cnk":{"chef_hat":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:max_stack_size": 1,

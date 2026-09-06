@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "s s",
+    "www",
+    "www"
+  ],
+  "key": {
+    "w": [
+      "minecraft:white_wool"
+    ],
+    "s": [
+      "minecraft:string"
+    ]
+  },
+  "result": {
+    "id": "minecraft:leather_leggings",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {"translate":"item.cnk.chef_apron","fallback":"Chef's Apron"},
+      "minecraft:item_model": "cnk:chef_apron",
+      "minecraft:custom_data": {"cnk":{"chef_apron":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+      "minecraft:max_stack_size": 1,
+      "minecraft:repairable": {"items":"minecraft:string"},
+      "minecraft:equippable": {"slot":"legs","asset_id":"cnk:apron"},
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "minecraft:base_armor",
+          "type": "minecraft:armor",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "legs"
+        }
+      ]
+    }
+  }
+}

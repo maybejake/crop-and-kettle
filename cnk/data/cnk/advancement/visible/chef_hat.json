@@ -3,18 +3,18 @@
     "icon": {
       "id": "minecraft:poisonous_potato",
       "components": {
-        "minecraft:item_model": "cnk:chef_hat"
+        "minecraft:item_model": "cnk:chef_apron"
       }
     },
     "title": {"translate":"advancement.cnk.chef_hat.name","fallback":"Yes, Chef!"},
-    "description": [{"translate":"advancement.cnk.chef_hat.desc","fallback":"Craft a chef hat"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+    "description": [{"translate":"advancement.cnk.chef_hat.desc","fallback":"Craft a chef's hat and chef's apron"},{"text":"\n\n"},{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "cnk:visible/root",
   "criteria": {
-    "": {
+    "cnk:chef_hat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -22,6 +22,19 @@
             "items": "minecraft:leather_helmet",
             "predicates": {
               "minecraft:custom_data": {"cnk":{"chef_hat":true}}
+            }
+          }
+        ]
+      }
+    },
+    "cnk:chef_apron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+            {
+            "items": "minecraft:leather_leggings",
+            "predicates": {
+              "minecraft:custom_data": {"cnk":{"chef_apron":true}}
             }
           }
         ]
