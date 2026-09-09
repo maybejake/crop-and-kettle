@@ -1,1 +1,0 @@
-$data modify storage cnk:temp fizz.parcel.item set value {loot_table:{"pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"$(id)"}]}]}}

@@ -3,7 +3,7 @@
     "requirement": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_tables": "#cnk:coffee_loot"
+        "loot_tables": "#cnk:loot/coffee_loot"
       }
     }
   },
