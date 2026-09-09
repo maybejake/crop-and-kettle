@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:slots": {
+      "contents": {
+        "items": "minecraft:wheat_seeds"
+      }
+    }
+  }
+}

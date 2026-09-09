@@ -1,7 +1,12 @@
 {
   "layers": {
     "humanoid_leggings": [
-      {"texture": "cnk:apron"}
+      {
+        "dyeable": {
+          "color_when_undyed": -1
+        },
+        "texture": "cnk:apron"
+      }
     ]
   }
 }

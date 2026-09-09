@@ -21,9 +21,13 @@ class TagLootTable(JsonFile):
 class SlotSource(JsonFile):
     scope: ClassVar[NamespaceFileScope] = ("slot_source",)
     extension: ClassVar[str] = ".json"
+
+class BlockTransformer(JsonFile):
+    scope: ClassVar[NamespaceFileScope] = ("block_transformer",)
+    extension: ClassVar[str] = ".json"
     
 def beet_default(ctx: Context):
-    ctx.data.extend_namespace += [ContextIntProvider, ContextFloatProvider, TagLootTable, SlotSource]
+    ctx.data.extend_namespace += [ContextIntProvider, ContextFloatProvider, TagLootTable, SlotSource, BlockTransformer]
     
     mc = ctx.inject(Mecha)
     
