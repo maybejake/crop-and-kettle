@@ -33,6 +33,30 @@
           "weight": 2
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "#cnk:fizz_rewards/ingredients",
+          "expand": true
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "value": "cnk:entity/fizz/special"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 80
+        }
+      ]
     }
   ]
 }

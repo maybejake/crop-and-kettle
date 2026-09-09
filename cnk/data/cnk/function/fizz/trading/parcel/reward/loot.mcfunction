@@ -1,1 +1,0 @@
-$loot $(give_or_spawn) loot $(loot_table)
