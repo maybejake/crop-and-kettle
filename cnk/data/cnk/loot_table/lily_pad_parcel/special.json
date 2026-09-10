@@ -18,7 +18,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "value": "cnk:technical/fizz_rewards/special"
+              "value": "cnk:technical/lily_pad_parcel/special"
             }
           ]
         }

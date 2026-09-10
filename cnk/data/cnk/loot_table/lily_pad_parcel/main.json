@@ -39,7 +39,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "#cnk:fizz_rewards/ingredients",
+          "value": "#cnk:lily_pad_parcel/ingredients",
           "expand": true
         }
       ]
@@ -50,7 +50,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 20,
-          "value": "cnk:entity/fizz/special"
+          "value": "cnk:lily_pad_parcel/special"
         },
         {
           "type": "minecraft:empty",
