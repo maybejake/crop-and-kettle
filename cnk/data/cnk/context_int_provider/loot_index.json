@@ -5,7 +5,7 @@
         "left": {
             "type": "minecraft:storage",
             "storage": "cnk:temp",
-            "path": "loot_table.entries"
+            "path": "loot_table.count"
         },
         "right": 1
     },

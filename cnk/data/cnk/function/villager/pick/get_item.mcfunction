@@ -1,1 +1,0 @@
-$data modify storage cnk:temp secret_recipe.loot_table set from storage cnk:temp secret_recipe.loot_tables[$(chosen_index)]
