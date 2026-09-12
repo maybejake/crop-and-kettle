@@ -43,7 +43,8 @@ data merge storage cnk:temp { \
             lectern_button:",", \
             button_width: 211, \
             previous_incomplete_recipe: "book.cnk.empty_incomplete_recipe", \
-            next_incomplete_recipe: "book.cnk.empty_incomplete_recipe" \
+            next_incomplete_recipe: "book.cnk.empty_incomplete_recipe", \
+            completion_sticker: "{text:''}" \
         } \
     } \
 }
@@ -103,6 +104,9 @@ execute if entity @s[tag=cnk.via_lectern] run function cnk:cookbook/lectern_butt
 #next/previous incomplete recipe stuff
 function cnk:cookbook/incomplete_recipe/main
 function cnk:cookbook/incomplete_recipe/buttons
+
+# wow!
+execute if score @s cnk.cookbook_current_page matches 1 run function cnk:cookbook/check_sticker
 
 #check for dialog function
 execute if data storage cnk:temp cookbook.current_page.dialog_function run return run function cnk:cookbook/open_page with storage cnk:temp cookbook.current_page
