@@ -1,7 +1,11 @@
 #spin
-execute store result score $rotation cnk.dummy run data get entity @s Rotation[0]
-scoreboard players add $rotation cnk.dummy 10
-execute store result entity @s Rotation[0] int 1 run scoreboard players get $rotation cnk.dummy
+rotate @s ~10 ~
 
-function cnk:booze/wibble
-function cnk:booze/wobble
+#get data
+data modify storage cnk:temp booze.bottle_transformation set from entity @s transformation
+
+function cnk:booze/wibble/main
+function cnk:booze/wobble/main
+
+#set data
+data modify entity @s transformation set from storage cnk:temp booze.bottle_transformation
