@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:number_dispatcher",
+    "cases": [
+        {"condition":{"type":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"weapon.mainhand":{"predicates":{"minecraft:enchantments":[{"enchantments":"minecraft:unbreaking","levels":1}]}}}}}, "value":1},
+        {"condition":{"type":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"weapon.mainhand":{"predicates":{"minecraft:enchantments":[{"enchantments":"minecraft:unbreaking","levels":2}]}}}}}, "value":2},
+        {"condition":{"type":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"weapon.mainhand":{"predicates":{"minecraft:enchantments":[{"enchantments":"minecraft:unbreaking","levels":3}]}}}}}, "value":3},
+        {"condition":{"type":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"weapon.mainhand":{"predicates":{"minecraft:enchantments":[{"enchantments":"minecraft:unbreaking","levels":4}]}}}}}, "value":4},
+        {"condition":{"type":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"weapon.mainhand":{"predicates":{"minecraft:enchantments":[{"enchantments":"minecraft:unbreaking","levels":5}]}}}}}, "value":5},
+        {"condition":{"type":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"weapon.mainhand":{"predicates":{"minecraft:enchantments":[{"enchantments":"minecraft:unbreaking","levels":6}]}}}}}, "value":6},
+        {"condition":{"type":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"weapon.mainhand":{"predicates":{"minecraft:enchantments":[{"enchantments":"minecraft:unbreaking","levels":7}]}}}}}, "value":7},
+        {"condition":{"type":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"weapon.mainhand":{"predicates":{"minecraft:enchantments":[{"enchantments":"minecraft:unbreaking","levels":8}]}}}}}, "value":8},
+        {"condition":{"type":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"weapon.mainhand":{"predicates":{"minecraft:enchantments":[{"enchantments":"minecraft:unbreaking","levels":9}]}}}}}, "value":9},
+        {"condition":{"type":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"weapon.mainhand":{"predicates":{"minecraft:enchantments":[{"enchantments":"minecraft:unbreaking","levels":{"min":10}}]}}}}}, "value":10}
+    ],
+    "default": 0
+}

@@ -12,26 +12,12 @@
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.mystery_meat","fallback":"Mystery Meat"},
                 "minecraft:item_model": "cnk:mystery_meat",
-                "minecraft:consumable": {"consume_seconds":0, "animation": "none", "sound": "intentionally_empty", "has_consume_particles": false},
+                "minecraft:consumable": {"consume_seconds":0.05, "animation": "none", "sound": "intentionally_empty", "has_consume_particles": false},
                 "!minecraft:food": {},
                 "minecraft:use_cooldown": {"seconds":30, "cooldown_group": "cnk:speak"},
-                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"mystery_meat"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:custom_data": {"cnk":{"ingredient":{"type":"mystery_meat"},"infinite":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:tooltip_style": "cnk:mystery",
-                "minecraft:max_stack_size": 1,
-                "minecraft:use_remainder": {
-                  "id": "minecraft:poisonous_potato",
-                  "components": {
-                    "minecraft:item_name": {"translate":"item.cnk.mystery_meat","fallback":"Mystery Meat"},
-                    "minecraft:item_model": "cnk:mystery_meat",
-                    "minecraft:consumable": {"consume_seconds":0, "animation": "none", "sound": "intentionally_empty", "has_consume_particles": false},
-                    "!minecraft:food": {},
-                    "minecraft:use_cooldown": {"seconds":30, "cooldown_group": "cnk:speak"},
-                    "minecraft:custom_data": {"cnk":{"ingredient":{"type":"mystery_meat"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                    "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
-                    "minecraft:tooltip_style": "cnk:mystery",
-                    "minecraft:max_stack_size": 1
-                  }
-                }
+                "minecraft:max_stack_size": 1
               }
             },
             "cnk:tooltip"

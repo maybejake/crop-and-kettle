@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:int_value_check",
+  "value": {
+    "type": "minecraft:storage",
+    "storage": "cnk:temp",
+    "path": "durability.damage",
+    "fallback": 0
+  },
+  "test": {
+    "type": "minecraft:storage",
+    "storage": "cnk:temp",
+    "path": "durability.max_damage",
+    "fallback": 1000
+  }
+}

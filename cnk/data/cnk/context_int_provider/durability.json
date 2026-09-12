@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:add",
+    "inputs": [
+        {
+            "type": "minecraft:storage",
+            "storage": "cnk:temp",
+            "path": "durability.damage",
+            "fallback": 0
+        },
+        {
+            "type": "conditional",
+            "condition": {
+                "type": "minecraft:int_value_check",
+                "value": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 100
+                },
+                "test": {
+                    "min": 1,
+                    "max": {
+                        "type": "minecraft:div",
+                        "left": 100,
+                        "right": {
+                            "type": "minecraft:add",
+                            "inputs": [
+                                {
+                                    "type": "minecraft:storage",
+                                    "storage": "cnk:temp",
+                                    "path": "durability.unbreaking",
+                                    "fallback": 0
+                                },
+                                1
+                            ]
+                        }
+                    }
+                }
+            },
+            "on_true": 1,
+            "on_false": 0
+        }
+    ]
+}
