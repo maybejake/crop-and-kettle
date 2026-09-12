@@ -1,5 +1,7 @@
 scoreboard objectives add dcf.dummy dummy
 
+scoreboard objectives add dcf.timer dummy
+
 scoreboard objectives add dcf.x_rot dummy
 scoreboard objectives add dcf.y_rot dummy
 

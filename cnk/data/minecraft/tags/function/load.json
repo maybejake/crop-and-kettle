@@ -11,7 +11,7 @@
     "cnk:cookbook/register_pages",
     "cnk:distiller_book/register_pages",
     "cnk.iris:setup/load",
-    "dcf:tick_40",
+    "dcf:tick_20",
     "dcf:loaded",
     "gu:zzz/load"
    ] 
