@@ -3,11 +3,11 @@ scoreboard players remove $count cnk.dummy 1
 data modify storage cnk:temp fizz.trading.trade set value {rewardExp:true, maxUses:1}
 
 # pick buy
-data modify storage cnk:temp loot_table.entries set from storage cnk:temp fizz.food_trades.entries
-function cnk:loot_table/random/get_entry
+data modify storage cnk:temp loot_table.entries set from storage cnk:temp fizz.food_trades
+function cnk:loot_table/random_to_data
 
 # add buy/sell
-data modify storage cnk:temp fizz.trading.trade.buy set from storage cnk:temp loot_table.data
+data modify storage cnk:temp fizz.trading.trade.buy set from storage cnk:temp loot_table.output
 data modify storage cnk:temp fizz.trading.trade.sell set from storage cnk:temp fizz.lily_pad_parcel
 
 # append to trades

@@ -1,1 +1,0 @@
-$execute store result storage cnk:temp secret_recipe.chosen_index int 1 run random value 0..$(max_index)

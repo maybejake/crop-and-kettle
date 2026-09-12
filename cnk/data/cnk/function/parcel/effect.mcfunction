@@ -8,6 +8,7 @@ scoreboard players add @s cnk.statistic.parcels_opened 1
 
 # give rewards
 function cnk:parcel/loot
+function cnk:parcel/ingredients/main
 
 # particle
 execute at @s anchored eyes run particle minecraft:item{item:{id:"minecraft:poisonous_potato",components:{"minecraft:item_model":"cnk:lily_pad_parcel"}}} ^ ^-0.35 ^0.65 0.1 0.1 0.1 0.06 10 force

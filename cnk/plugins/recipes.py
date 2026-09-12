@@ -561,7 +561,7 @@ def generate_fizz_trade(ctx: Context, recipe: Recipe):
         loot_table = recipe.loot_table
 
     trade_function = ctx.data.functions["cnk:fizz/trading/food_trades/recipes"].lines
-    trade_function.append(f"execute if entity @s[advancements={{{f"cnk:cookbook/{recipe.id}/item"}=true}}] run data modify storage cnk:temp fizz.trading.items append value {{loot_table:'{loot_table}', count:{count}}}")
+    trade_function.append(f"execute if entity @s[advancements={{{f"cnk:cookbook/{recipe.id}/item"}=true}}] run data modify storage cnk:temp fizz.food_trades append value {{loot_table:'{loot_table}', count:{count}}}")
     ctx.data["cnk:fizz/trading/food_trades/recipes"] = Function(trade_function)
 
 

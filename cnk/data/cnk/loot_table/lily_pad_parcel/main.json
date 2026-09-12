@@ -39,16 +39,6 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "#cnk:lily_pad_parcel/ingredients",
-          "expand": true
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
           "weight": 20,
           "value": "cnk:lily_pad_parcel/special"
         },

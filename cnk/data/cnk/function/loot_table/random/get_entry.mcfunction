@@ -1,1 +1,1 @@
-$data modify storage cnk:temp loot_table.entry set from storage cnk:temp loot_table.entries[$(chosen_index)]
+$data modify storage cnk:temp loot_table.entry set from storage cnk:temp loot_table.entries[$(index)]
