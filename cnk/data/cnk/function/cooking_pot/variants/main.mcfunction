@@ -7,5 +7,6 @@ execute if data storage cnk:temp place.cooking_pot.block.witch_cauldron run retu
 execute if data storage cnk:temp place.cooking_pot.block.stove run return run function cnk:cooking_pot/variants/stove
 execute if data storage cnk:temp place.cooking_pot.block.panless_stove run return run function cnk:cooking_pot/variants/panless_stove
 execute if data storage cnk:temp place.cooking_pot.block.fizz_oven run return run function cnk:cooking_pot/variants/fizz_oven
+execute if function #cnk:addons/cooking_pot/variants/place run return 1
 
 playsound cnk:block.cooking_pot.idling block @a[distance=..6] ~ ~ ~ 0.2 1
