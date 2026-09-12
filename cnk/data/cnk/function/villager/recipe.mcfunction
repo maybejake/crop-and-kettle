@@ -1,26 +1,23 @@
-data remove storage cnk:temp secret_recipe.loot_tables
-function cnk:villager/add_loot_table {loot_table:"cnk:zzz_secret/tattered_recipe"}
-function cnk:villager/add_loot_table {loot_table:"cnk:zzz_secret/explosive_recipe"}
-function cnk:villager/add_loot_table {loot_table:"cnk:zzz_secret/frigid_recipe"}
-function cnk:villager/add_loot_table {loot_table:"cnk:zzz_secret/heavenly_recipe"}
-function cnk:villager/add_loot_table {loot_table:"cnk:zzz_secret/roseate_recipe"}
-function cnk:villager/add_loot_table {loot_table:"cnk:zzz_secret/soaring_recipe"}
-function cnk:villager/add_loot_table {loot_table:"cnk:zzz_secret/thoughtful_recipe"}
-function cnk:villager/add_loot_table {loot_table:"cnk:zzz_secret/bubbling_recipe"}
-function cnk:villager/add_loot_table {loot_table:"cnk:zzz_secret/flaming_recipe"}
+data modify storage cnk:temp loot_table.entries set value [ \
+    {loot_table:"cnk:zzz_secret/tattered_recipe"}, \
+    {loot_table:"cnk:zzz_secret/explosive_recipe"}, \
+    {loot_table:"cnk:zzz_secret/frigid_recipe"}, \
+    {loot_table:"cnk:zzz_secret/heavenly_recipe"}, \
+    {loot_table:"cnk:zzz_secret/roseate_recipe"}, \
+    {loot_table:"cnk:zzz_secret/soaring_recipe"}, \
+    {loot_table:"cnk:zzz_secret/thoughtful_recipe"}, \
+    {loot_table:"cnk:zzz_secret/bubbling_recipe"}, \
+    {loot_table:"cnk:zzz_secret/flaming_recipe"}, \
+]
 function #cnk:addons/secret_recipe_trades
 
-function cnk:villager/pick/main
-function cnk:loot_table_to_data/main with storage cnk:temp secret_recipe
+# remove duplicates
+function cnk:villager/remove_duplicates with storage cnk:temp_recipe
 
-data remove storage cnk:temp recipe
+# pick a recipe
+function cnk:loot_table/random_to_data
+
+data modify storage cnk:temp village.recipe set value {buy:{"id":"minecraft:emerald",count:20}, buyB:{"id":"minecraft:paper",count:1}, priceMultiplier:0.05f, rewardExp:true, xp:10, maxUses:3}
 data modify storage cnk:temp recipe.sell set from storage cnk:temp loot_table.data
-
-data modify storage cnk:temp recipe.buy set value {"id":"minecraft:emerald", count:20}
-data modify storage cnk:temp recipe.buyB set value {"id":"minecraft:paper", count:1}
-data modify storage cnk:temp recipe.priceMultiplier set value 0.05f
-data modify storage cnk:temp recipe.rewardExp set value true
-data modify storage cnk:temp recipe.xp set value 10
-data modify storage cnk:temp recipe.maxUses set value 3
 
 data modify entity @s Offers.Recipes append from storage cnk:temp recipe

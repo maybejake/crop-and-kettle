@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:uniform",
+    "max": {
+        "type": "minecraft:sub",
+        "left": {
+            "type": "minecraft:storage",
+            "storage": "cnk:temp",
+            "path": "loot_table.entries"
+        },
+        "right": 1
+    },
+    "min": 0
+}

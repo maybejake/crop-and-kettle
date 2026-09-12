@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:item", "name": "minecraft:beef"},
+        {"type": "minecraft:item", "name": "minecraft:chicken"},
+        {"type": "minecraft:item", "name": "minecraft:salmon"},
+        {"type": "minecraft:item", "name": "minecraft:mutton"},
+        {"type": "minecraft:item", "name": "minecraft:porkchop"},
+        {"type": "minecraft:item", "name": "minecraft:rabbit"},
+        {"type": "minecraft:item", "name": "minecraft:cod"}
+      ],
+      "modifier": {
+        "type": "minecraft:set_count",
+        "count": 16
+      }
+    }
+  ]
+}

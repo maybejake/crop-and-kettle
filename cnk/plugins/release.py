@@ -1,9 +1,7 @@
-from beet import (
-    Context,
-    Language
-)
 import logging
 import os
+
+from beet import Context, Language
 
 LOGGER = logging.getLogger(__name__)
 

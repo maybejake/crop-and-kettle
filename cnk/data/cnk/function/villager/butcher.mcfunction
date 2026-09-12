@@ -3,9 +3,7 @@ execute unless data entity @s Offers.Recipes run return fail
 
 tag @s add cnk.butcher_villager
 
-data modify storage cnk:temp secret_recipe.first_recipe set value ""
-data modify storage cnk:temp secret_recipe.second_recipe set value ""
-data modify storage cnk:temp loot_table.data set value ""
+data modify storage cnk:temp secret_recipe set value {first_recipe:"", second_recipe:""}
 
 # guarantee one
 function cnk:villager/recipe

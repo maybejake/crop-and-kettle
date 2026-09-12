@@ -1,0 +1,18 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:item", "name": "minecraft:potato"},
+        {"type": "minecraft:item", "name": "minecraft:carrot"},
+        {"type": "minecraft:item", "name": "minecraft:wheat"},
+        {"type": "minecraft:item", "name": "minecraft:beetroot"},
+        {"type": "minecraft:item", "name": "minecraft:pumpkin"}
+      ],
+      "modifier": {
+        "type": "minecraft:set_count",
+        "count": 16
+      }
+    }
+  ]
+}

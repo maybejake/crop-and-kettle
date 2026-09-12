@@ -10,5 +10,5 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-beet = { git = "https://github.com/edayot/beet.git", rev = "runtime_minecraft_version" }
-mecha = { git = "https://github.com/edayot/beet.git", subdirectory = "packages/mecha", rev = "runtime_minecraft_version" }
+beet = { git = "https://github.com/edayot/beet.git", rev = "26.3_update" }
+mecha = { git = "https://github.com/edayot/beet.git", subdirectory = "packages/mecha", rev = "26.3_update" }

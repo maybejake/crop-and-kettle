@@ -1,1 +1,0 @@
-$data modify storage cnk:temp fizz.trading.item set from storage cnk:temp fizz.trading.items[$(chosen_index)]
