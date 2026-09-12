@@ -1,7 +1,7 @@
 advancement revoke @s only cnk:speak
 
-execute at @s run playsound minecraft:entity.breeze.idle_ground player @s ~ ~ ~ 0.2 0.8
-execute at @s run playsound minecraft:entity.breeze.idle_ground player @s ~ ~ ~ 0.1 1.3
+playsound minecraft:entity.breeze.idle_ground player @s ~ ~ ~ 0.2 0.8
+playsound minecraft:entity.breeze.idle_ground player @s ~ ~ ~ 0.1 1.3
 
 execute store result score $random_speak cnk.dummy run random value 1..10
 execute if score $random_speak cnk.dummy matches 1 run tellraw @s {translate:cnk.speak.1,color:"gray",italic:true}
@@ -15,5 +15,6 @@ execute if score $random_speak cnk.dummy matches 8 run tellraw @s {translate:cnk
 execute if score $random_speak cnk.dummy matches 9 run tellraw @s {translate:cnk.speak.9,color:"gray",italic:true}
 execute if score $random_speak cnk.dummy matches 10 run tellraw @s {translate:cnk.speak.10,color:"gray",italic:true}
 
-tag @s add cnk.meat_replace
-schedule function cnk:mystery/speak/replace 1t
+# prevent consumption
+execute if predicate cnk:mystery_meat/mainhand run return run function cnk:mystery/speak/mainhand
+execute if predicate cnk:mystery_meat/offhand run function cnk:mystery/speak/offhand

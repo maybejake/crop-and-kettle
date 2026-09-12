@@ -5,5 +5,6 @@ playsound minecraft:entity.frog.ambient player @a ~ ~ ~ 1 2
 
 execute summon minecraft:marker run function cnk:fizz_whistle/setup
 
-tag @s add cnk.fizz_whistle_replace
-schedule function cnk:fizz_whistle/replace 1t
+# prevent consumption
+execute if predicate cnk:fizz_whistle/mainhand run return run function cnk:infinite/mainhand
+execute if predicate cnk:fizz_whistle/offhand run function cnk:infinite/offhand

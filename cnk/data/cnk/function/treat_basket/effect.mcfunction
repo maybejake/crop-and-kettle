@@ -1,7 +1,5 @@
 advancement revoke @s only cnk:treat_basket
 
-function cnk:treat_basket/hand
-
 playsound cnk:block.candy_bowl.laugh neutral @a ~ ~ ~ 1 1
 execute store result score $treat cnk.dummy run random value 1..14
 
@@ -35,4 +33,6 @@ execute if score $treat cnk.dummy matches 13 run effect give @s minecraft:blindn
 
 execute if score $treat cnk.dummy matches 14 rotated as @s positioned ^ ^2 ^3 run function cnk:scarecrow/entity/missile/spawn
 
-schedule function cnk:treat_basket/replace/main 1t
+# prevent consumption and do durability
+execute if predicate cnk:treat_basket/mainhand run return run function cnk:treat_basket/mainhand
+execute if predicate cnk:treat_basket/offhand run function cnk:treat_basket/offhand
