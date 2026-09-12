@@ -14,7 +14,7 @@ wheels = [
 [[package]]
 name = "beet"
 version = "0.117.0"
-source = { git = "https://github.com/edayot/beet.git?rev=runtime_minecraft_version#fbfb849cc7a799403da51526d8b5c5a8f3e60f0a" }
+source = { git = "https://github.com/edayot/beet.git?rev=26.3_update#7f29e1825f87bf121ddc454666e5fbc5a821c174" }
 dependencies = [
     { name = "click" },
     { name = "click-help-colors" },
@@ -71,8 +71,8 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "beet", git = "https://github.com/edayot/beet.git?rev=runtime_minecraft_version" },
-    { name = "mecha", git = "https://github.com/edayot/beet.git?subdirectory=packages%2Fmecha&rev=runtime_minecraft_version" },
+    { name = "beet", git = "https://github.com/edayot/beet.git?rev=26.3_update" },
+    { name = "mecha", git = "https://github.com/edayot/beet.git?subdirectory=packages%2Fmecha&rev=26.3_update" },
 ]
 
 [[package]]
@@ -120,7 +120,7 @@ wheels = [
 [[package]]
 name = "mecha"
 version = "0.104.1"
-source = { git = "https://github.com/edayot/beet.git?subdirectory=packages%2Fmecha&rev=runtime_minecraft_version#fbfb849cc7a799403da51526d8b5c5a8f3e60f0a" }
+source = { git = "https://github.com/edayot/beet.git?subdirectory=packages%2Fmecha&rev=26.3_update#7f29e1825f87bf121ddc454666e5fbc5a821c174" }
 dependencies = [
     { name = "beet" },
     { name = "tokenstream" },

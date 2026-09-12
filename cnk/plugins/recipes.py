@@ -1,23 +1,25 @@
+import copy
+import logging
+from typing import ClassVar, Literal
+
 from beet import (
+    Advancement,
     Context,
     FileDeserialize,
-    JsonFileBase,
-    NamespaceFileScope,
-    LootTable,
-    ItemModel,
-    Model,
-    Language,
-    Advancement,
+    Font,
     Function,
     FunctionTag,
+    ItemModel,
+    JsonFileBase,
+    Language,
+    LootTable,
+    LootTableTag,
+    Model,
+    NamespaceFileScope,
     Texture,
-    Font
 )
-from pydantic import BaseModel, Field
-from typing import ClassVar, Literal
 from PIL import Image
-import logging
-import copy
+from pydantic import BaseModel, Field
 
 from .blocks import blocks
 
@@ -109,7 +111,7 @@ def generate_recipes(ctx: Context):
 
         if not recipe.loot_table:
             # No override, generate loot table
-            generate_loot_table(ctx, recipe)
+            recipe.loot_table = generate_loot_table(ctx, recipe)
 
         if recipe.tool == "cooking_pot":
             generate_cooking_pot_check(ctx, recipe)
@@ -134,8 +136,8 @@ def generate_recipes(ctx: Context):
     order_section_tags(ctx)
 
 
-def generate_loot_table(ctx: Context, recipe: Recipe):
-    """Generate a loot table for a recipe"""
+def generate_loot_table(ctx: Context, recipe: Recipe) -> str:
+    """Generate a loot table for a recipe and return its id"""
     # Handle feast and placeable data
     cnk_data = {"ingredient":{"type":recipe.id}}
     if recipe.category == "feasts":
@@ -150,7 +152,8 @@ def generate_loot_table(ctx: Context, recipe: Recipe):
     elif recipe.category == "hearty":
         consumable["consume_seconds"] = 2.0
 
-    ctx.data[f"cnk:food/{recipe.id}"] = LootTable({
+    loot_table = f"cnk:food/{recipe.id}"
+    ctx.data[loot_table] = LootTable({
         "pools": [
             {
                 "rolls": 1,
@@ -186,7 +189,7 @@ def generate_loot_table(ctx: Context, recipe: Recipe):
                 "entries": [
                     {
                     "type": "minecraft:loot_table",
-                    "value": f"cnk:food/{recipe.id}",
+                    "value": loot_table,
                     "modifier": [
                         {
                         "type": "minecraft:set_count",
@@ -205,6 +208,8 @@ def generate_loot_table(ctx: Context, recipe: Recipe):
                 }
             ]
         })
+
+    return loot_table
 
 
 def generate_texture_files(ctx: Context, recipe: Recipe):
@@ -306,11 +311,7 @@ def generate_cooking_pot_recipe(ctx: Context, recipe: Recipe):
             f"loot spawn ~ ~0.25 ~ loot cnk:drops/{recipe.id}"
         ])
     else:
-        loot_table = f"cnk:food/{recipe.id}"
-        if recipe.loot_table:
-            # Override loot table
-            loot_table = recipe.loot_table
-        recipe_function.append(f"loot spawn ~ ~0.25 ~ loot {loot_table}")
+        recipe_function.append(f"loot spawn ~ ~0.25 ~ loot {recipe.loot_table}")
 
     # Finish cooking
     recipe_function.append("function cnk:cooking_pot/effects/finish_cooking")
@@ -360,11 +361,7 @@ def generate_mixing_bowl_recipe(ctx: Context, recipe: Recipe):
             f"loot spawn ~ ~-0.3 ~ loot cnk:drops/{recipe.id}"
         ])
     else:
-        loot_table = f"cnk:food/{recipe.id}"
-        if recipe.loot_table:
-            # Override loot table
-            loot_table = recipe.loot_table
-        recipe_function.append(f"loot spawn ~ ~-0.3 ~ loot {loot_table}")
+        recipe_function.append(f"loot spawn ~ ~-0.3 ~ loot {recipe.loot_table}")
 
     # Add byproduct handling
     for ingredient in recipe.ingredients:
@@ -401,11 +398,7 @@ def generate_cutting_board_recipe(ctx: Context, recipe: Recipe):
             f"loot spawn ~ ~-0.3 ~ loot cnk:drops/{recipe.id}"
         ])
     else:
-        loot_table = f"cnk:food/{recipe.id}"
-        if recipe.loot_table:
-            # Override loot table
-            loot_table = recipe.loot_table
-        recipe_function.append(f"loot spawn ~ ~-0.3 ~ loot {loot_table}")
+        recipe_function.append(f"loot spawn ~ ~-0.3 ~ loot {recipe.loot_table}")
 
     recipe_function.append("function cnk:cutting_board/cut/finish")
     ctx.data[f"cnk:recipes/cutting_board/{recipe.id}"] = Function(recipe_function)
@@ -567,9 +560,9 @@ def generate_fizz_trade(ctx: Context, recipe: Recipe):
     if recipe.loot_table:
         loot_table = recipe.loot_table
 
-    trade_function = ctx.data.functions["cnk:fizz/trading/buy/recipes"].lines
+    trade_function = ctx.data.functions["cnk:fizz/trading/food_trades/recipes"].lines
     trade_function.append(f"execute if entity @s[advancements={{{f"cnk:cookbook/{recipe.id}/item"}=true}}] run data modify storage cnk:temp fizz.trading.items append value {{loot_table:'{loot_table}', count:{count}}}")
-    ctx.data["cnk:fizz/trading/buy/recipes"] = Function(trade_function)
+    ctx.data["cnk:fizz/trading/food_trades/recipes"] = Function(trade_function)
 
 
 def order_section_tags(ctx: Context):

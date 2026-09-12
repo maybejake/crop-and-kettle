@@ -4,23 +4,18 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:sequence",
+          "type": "minecraft:group",
           "children": [
-            {
-              "type": "minecraft:group",
-              "children": [
-                {"type":"minecraft:loot_table","value":"cnk:other/fizz_fez","condition":{"type":"minecraft:entity_properties","entity":"this","predicate":{"minecraft:type_specific/player":{"advancements":{"cnk:visible/fizz_special":{"cnk:fizz_fez":false}}}}}},
-                {"type":"minecraft:loot_table","value":"cnk:other/fizz_whistle","condition":{"type":"minecraft:entity_properties","entity":"this","predicate":{"minecraft:type_specific/player":{"advancements":{"cnk:visible/fizz_special":{"cnk:fizz_whistle":false}}}}}},
-                {"type":"minecraft:loot_table","value":"cnk:tools/fizz_oven","condition":{"type":"minecraft:entity_properties","entity":"this","predicate":{"minecraft:type_specific/player":{"advancements":{"cnk:visible/fizz_special":{"cnk:fizz_oven":false}}}}}},
-                {"type":"minecraft:loot_table","value":"cnk:zzz_secret/hollow_vessel","condition":{"type":"minecraft:entity_properties","entity":"this","predicate":{"minecraft:type_specific/player":{"advancements":{"cnk:visible/fizz_special":{"cnk:hollow_vessel":false}}}}}},
-                {"type":"minecraft:loot_table","value":"cnk:other/music_disc_froggy","condition":{"type":"minecraft:entity_properties","entity":"this","predicate":{"minecraft:type_specific/player":{"advancements":{"cnk:visible/fizz_special":{"cnk:music_disc_froggy":false}}}}}}
-              ]
-            },
-            {
-              "type": "minecraft:loot_table",
-              "value": "cnk:technical/lily_pad_parcel/special"
-            }
+            {"type":"minecraft:loot_table","value":"cnk:other/fizz_fez","condition":{"type":"minecraft:entity_properties","entity":"this","predicate":{"minecraft:type_specific/player":{"advancements":{"cnk:visible/fizz_special":{"cnk:fizz_fez":false}}}}}},
+            {"type":"minecraft:loot_table","value":"cnk:other/fizz_whistle","condition":{"type":"minecraft:entity_properties","entity":"this","predicate":{"minecraft:type_specific/player":{"advancements":{"cnk:visible/fizz_special":{"cnk:fizz_whistle":false}}}}}},
+            {"type":"minecraft:loot_table","value":"cnk:tools/fizz_oven","condition":{"type":"minecraft:entity_properties","entity":"this","predicate":{"minecraft:type_specific/player":{"advancements":{"cnk:visible/fizz_special":{"cnk:fizz_oven":false}}}}}},
+            {"type":"minecraft:loot_table","value":"cnk:zzz_secret/hollow_vessel","condition":{"type":"minecraft:entity_properties","entity":"this","predicate":{"minecraft:type_specific/player":{"advancements":{"cnk:visible/fizz_special":{"cnk:hollow_vessel":false}}}}}},
+            {"type":"minecraft:loot_table","value":"cnk:other/music_disc_froggy","condition":{"type":"minecraft:entity_properties","entity":"this","predicate":{"minecraft:type_specific/player":{"advancements":{"cnk:visible/fizz_special":{"cnk:music_disc_froggy":false}}}}}}
           ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cnk:technical/lily_pad_parcel/special"
         }
       ]
     }

@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:loot_table", "value": "cnk:food/corn"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/lettuce"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/rice"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/tomato"},
+        {"type": "minecraft:loot_table", "value": "cnk:seeds/coffee_cherries"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/chili_pepper"},
+        {"type": "minecraft:loot_table", "value": "cnk:food/grapes"}
+      ],
+      "modifier": {
+        "type": "minecraft:set_count",
+        "count": 16
+      }
+    }
+  ]
+}

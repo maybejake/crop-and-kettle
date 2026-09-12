@@ -6,28 +6,12 @@ from beet import Context, JsonFile, NamespaceFileScope
 from mecha import CommandTree, Mecha, MultilineParser, Parser, delegate
 
 
-class ContextIntProvider(JsonFile):
-    scope: ClassVar[NamespaceFileScope] = ("context_int_provider",)
-    extension: ClassVar[str] = ".json"
-    
-class ContextFloatProvider(JsonFile):
-    scope: ClassVar[NamespaceFileScope] = ("context_float_provider",)
-    extension: ClassVar[str] = ".json"
-
-class TagLootTable(JsonFile):
-    scope: ClassVar[NamespaceFileScope] = ("tags","loot_table",)
-    extension: ClassVar[str] = ".json"
-
 class SlotSource(JsonFile):
     scope: ClassVar[NamespaceFileScope] = ("slot_source",)
     extension: ClassVar[str] = ".json"
-
-class BlockTransformer(JsonFile):
-    scope: ClassVar[NamespaceFileScope] = ("block_transformer",)
-    extension: ClassVar[str] = ".json"
     
 def beet_default(ctx: Context):
-    ctx.data.extend_namespace += [ContextIntProvider, ContextFloatProvider, TagLootTable, SlotSource, BlockTransformer]
+    ctx.data.extend_namespace += [SlotSource]
     
     mc = ctx.inject(Mecha)
     
