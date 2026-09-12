@@ -1,3 +1,5 @@
+scoreboard players set $found_player dcf.dummy 1
+
 #movement check
 execute unless entity @s[scores={dcf.walk=0,dcf.sprint=0,dcf.sneak=0,dcf.jump=0}] run return run tag @s remove dcf.open
 
