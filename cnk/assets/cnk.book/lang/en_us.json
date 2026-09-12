@@ -65,7 +65,7 @@
   "book.cnk.header.feast": "\ua040",
   "book.cnk.header.dessert": "\ua041",
 
-  "book.cnk.front_page": "\ua058\ub026\ua032\ub026\n\n\n\ub013%1$s\n\n\ub064%2$s\n\n\ub013%3$s\n\n\ub013%4$s\n\n\ub013%5$s\n\n\ub013%6$s\n\n\ub013%7$s\n\ua062   \n %8$s\n%9$s",
+  "book.cnk.front_page": "\ua058\ub026\ua032\ub026\n\ua062   \n\n\ub013%1$s\n\n\ub064%2$s\n\n\ub013%3$s\n\n\ub013%4$s\n\n\ub013%5$s\n\n\ub013%6$s\n\n\ub013%7$s\n%10$s\n %8$s\n%9$s",
   
   "book.cnk.kebab_sword": "\ua058\ub026\ua032\ub026\n\ua000\n%1$s\n\ub013%4$s\n\n\ub013%5$s\n\ua029        \n\ub013%6$s\n\ua031\ub042\ua030   \n\ub013%7$s\n%2$s\ub041%3$s\n\ub013%8$s\n\n\ub013%9$s\n\n\ub013%10$s\n%11$s\n\ub068%13$s\ub067%12$s\n%14$s",
   
@@ -235,5 +235,7 @@
 
   "book.cnk.return.active.icon": "\ua068",
   "book.cnk.return.active.text": "Return",
-  "book.cnk.return.inactive.icon": "\ua069"
+  "book.cnk.return.inactive.icon": "\ua069",
+  "book.cnk.completion_sticker": "\ua074\ub072",
+  "book.cnk.completion_sticker.hover": "Congratulations on completing your cookbook!"
 }
