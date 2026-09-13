@@ -8,11 +8,11 @@ $loot spawn ~ ~ ~ loot { \
           "value": "cnk:other/milk_pail", \
           "modifier": [ \
             { \
-              "function": "minecraft:set_custom_data", \
+              "type": "minecraft:set_custom_data", \
               "tag": {"cnk":{"pail":{"quantity":$(quantity),"color":$(color)}}} \
             }, \
             { \
-              "function": "minecraft:set_lore", \
+              "type": "minecraft:set_lore", \
               "lore": [ \
                 {"translate": "tooltip.cnk.pail.quantity","with":["$(quantity)", "$(max_quantity)"],"color":"gray","italic":false} \
               ], \

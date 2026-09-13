@@ -2,6 +2,7 @@ data modify storage cnk:temp meat_guide.item set from entity @s equipment.offhan
 loot replace entity @s weapon.offhand loot cnk:zzz_secret/meat_guide_map
 data modify storage cnk:temp meat_guide.map set from entity @s equipment.offhand
 
+data modify storage cnk:temp meat_guide.item.components."minecraft:lodestone_tracker".target set value {pos:[0, 0, 0], dimension:"minecraft:overworld", tracked:0b}
 data modify storage cnk:temp meat_guide.item.components."minecraft:lodestone_tracker".target.pos[0] set from storage cnk:temp meat_guide.map.components."minecraft:map_decorations".+.x
 data modify storage cnk:temp meat_guide.item.components."minecraft:lodestone_tracker".target.pos[1] set value 60
 data modify storage cnk:temp meat_guide.item.components."minecraft:lodestone_tracker".target.pos[0] set from storage cnk:temp meat_guide.map.components."minecraft:map_decorations".+.z

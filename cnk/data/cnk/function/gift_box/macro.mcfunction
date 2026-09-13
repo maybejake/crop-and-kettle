@@ -8,7 +8,7 @@ $loot replace entity @s weapon.mainhand loot { \
           "name": "minecraft:player_head", \
           "modifier": [ \
             { \
-              "function": "minecraft:set_components", \
+              "type": "minecraft:set_components", \
               "components": { \
                 "minecraft:item_name": {"translate":"item.cnk.gift","fallback":"Gift"}, \
                 "minecraft:item_model": "cnk:gift_item", \
