@@ -7,8 +7,9 @@
           "type": "minecraft:item",
           "modifier": [
             {
-              "destination": "#cnk:meat_guide",
+
               "type": "minecraft:exploration_map",
+              "destination": "#cnk:meat_guide",
               "search_radius": 300,
               "skip_existing_chunks": false
             },

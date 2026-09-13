@@ -8,12 +8,12 @@ $loot spawn ~ ~0.1 ~ loot { \
           "name": "$(id)", \
           "modifier": [ \
             { \
-              "function": "minecraft:set_components", \
+              "type": "minecraft:set_components", \
               "components": $(components) \
             }, \
             { \
-                "function":"minecraft:set_count", \
-                "count":$(count) \
+              "type":"minecraft:set_count", \
+              "count":$(count) \
             } \
           ] \
         } \

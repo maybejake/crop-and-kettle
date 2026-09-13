@@ -6,13 +6,13 @@ $loot replace entity @s weapon.offhand loot { \
                 { \
                     "type":"minecraft:item", \
                     "name":"$(id)", \
-                    "functions":[ \
+                    "modifier":[ \
                         { \
-                            "function":"minecraft:set_components", \
+                            "type":"minecraft:set_components", \
                             "components":$(components) \
                         }, \
                         { \
-                            "function":"minecraft:set_count", \
+                            "type":"minecraft:set_count", \
                             "count":$(count) \
                         } \
                     ] \

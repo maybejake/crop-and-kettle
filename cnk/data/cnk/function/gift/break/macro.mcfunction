@@ -8,11 +8,11 @@ $loot spawn ~ ~0.3 ~ loot { \
           "name": "minecraft:player_head", \
           "modifier": [ \
             { \
-              "function": "minecraft:set_components", \
+              "type": "minecraft:set_components", \
               "components": $(components) \
             }, \
             { \
-              "function": "minecraft:set_components", \
+              "type": "minecraft:set_components", \
               "components": \
               { \
                 "!minecraft:equippable": {}, \
