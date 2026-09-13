@@ -6,7 +6,7 @@ execute if entity @s[tag=cnk.spin_attack] run return run function cnk:scarecrow/
 execute if entity @s[predicate=cnk:on_ground] run scoreboard players add @s cnk.timer 1
 execute if entity @s[predicate=cnk:on_ground] if score @s cnk.timer matches 3 run function cnk:scarecrow/entity/jump
 
-execute if predicate {type:"minecraft:entity_properties",entity:"this",predicate:{periodic_tick:10}} run function cnk:scarecrow/entity/tick_10
+execute if predicate {type:"minecraft:entity_properties",entity:"this",predicate:{periodic_tick:10}} at @p[distance=..24,gamemode=!spectator,gamemode=!creative] run function cnk:walk_to/main
 execute if predicate {type:"minecraft:entity_properties",entity:"this",predicate:{periodic_tick:200}} run function cnk:scarecrow/entity/tick_200
 
 execute if entity @p[distance=..24,gamemode=!spectator,gamemode=!creative] if predicate {type:"minecraft:entity_properties",entity:"this",predicate:{periodic_tick:100}} at @s anchored eyes positioned ^ ^0.5 ^ run function cnk:scarecrow/entity/missile/spawn

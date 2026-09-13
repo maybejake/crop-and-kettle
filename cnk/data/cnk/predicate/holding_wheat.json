@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:slots": {
+          "weapon.mainhand": {
+            "items": "minecraft:wheat"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:slots": {
+          "weapon.offhand": {
+            "items": "minecraft:wheat"
+          }
+        }
+      }
+    }
+  ]
+}
