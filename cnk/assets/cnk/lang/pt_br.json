@@ -520,5 +520,6 @@
     "block.cnk.tomato_crops": "Plantação de Tomate",
     "advancement.cnk.all_secret_recipe.name": "Cardápio secreto",
     "advancement.cnk.all_secret_recipe.desc": "Descubra todas as receitas secretas no Crop & Kettle",
-    "item.cnk.glimmernut_butter": "Manteiga de Luminoz"
+    "item.cnk.glimmernut_butter": "Manteiga de Luminoz",
+    "item.cnk.chef_apron": "Chef's Apron"
 }

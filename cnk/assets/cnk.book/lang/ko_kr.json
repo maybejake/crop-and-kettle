@@ -8,7 +8,7 @@
     "book.cnk.section.hearty": "푸짐한 요리",
     "book.cnk.section.feast": "축제",
     "book.cnk.section.dessert": "디저트",
-    "book.cnk.foraging_page.title": "Foraging",
+    "book.cnk.foraging_page.title": "벌목",
     "book.cnk.crop_seeds.title": "씨앗",
     "book.cnk.toast.unlock.seed": "씨앗이 해제되었습니다!",
     "book.cnk.toast.unlock.ingredient": "재료가 해금됐습니다!",
@@ -17,8 +17,8 @@
     "book.cnk.toast.unlock.weapon": "무기가 제작되었습니다!",
     "book.cnk.previous_page.hover": "이전 페이지",
     "book.cnk.next_page.hover": "다음 페이지",
-    "book.cnk.next_incomplete_recipe.hover": "Next undiscovered recipe",
-    "book.cnk.previous_incomplete_recipe.hover": "Previous undiscovered recipe",
-    "book.cnk.stamp.plateable.text": "This dish has a special\nappearance when plated!",
-    "book.cnk.return.active.text": "Return"
+    "book.cnk.next_incomplete_recipe.hover": "다음 발견되지 않은 레시피",
+    "book.cnk.previous_incomplete_recipe.hover": "이전 발견되지 않은 레시피",
+    "book.cnk.stamp.plateable.text": "이 요리는 설치되었을 때\n특수 효과가 일어납니다!",
+    "book.cnk.return.active.text": "돌아가기"
 }

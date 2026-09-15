@@ -8,7 +8,7 @@
     "book.cnk.section.hearty": "Pratos Recheados",
     "book.cnk.section.feast": "Banquetes",
     "book.cnk.section.dessert": "Sobremesas",
-    "book.cnk.foraging_page.title": "Foraging",
+    "book.cnk.foraging_page.title": "Coleta",
     "book.cnk.crop_seeds.title": "Sementes",
     "book.cnk.toast.unlock.seed": "Semente desbloqueada!",
     "book.cnk.toast.unlock.ingredient": "Ingrediente desbloqueado!",
@@ -17,8 +17,8 @@
     "book.cnk.toast.unlock.weapon": "Arma forjada!",
     "book.cnk.previous_page.hover": "Página anterior",
     "book.cnk.next_page.hover": "Página seguinte",
-    "book.cnk.next_incomplete_recipe.hover": "Next undiscovered recipe",
-    "book.cnk.previous_incomplete_recipe.hover": "Previous undiscovered recipe",
-    "book.cnk.stamp.plateable.text": "This dish has a special\nappearance when plated!",
-    "book.cnk.return.active.text": "Return"
+    "book.cnk.next_incomplete_recipe.hover": "Receita não descoberta seguinte",
+    "book.cnk.previous_incomplete_recipe.hover": "Receita não descoberta anterior",
+    "book.cnk.stamp.plateable.text": "Esse prato tem uma aparência única quando empratado!",
+    "book.cnk.return.active.text": "Voltar"
 }

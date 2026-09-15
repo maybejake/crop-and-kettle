@@ -520,5 +520,6 @@
     "block.cnk.tomato_crops": "Plony pomidorów",
     "advancement.cnk.all_secret_recipe.name": "Sekretne menu",
     "advancement.cnk.all_secret_recipe.desc": "Zbierz każdy sekretny przepis w Crop & Kettle",
-    "item.cnk.glimmernut_butter": "Masło błyskorzechowe"
+    "item.cnk.glimmernut_butter": "Masło błyskorzechowe",
+    "item.cnk.chef_apron": "Chef's Apron"
 }
