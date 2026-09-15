@@ -520,5 +520,6 @@
     "block.cnk.tomato_crops": "Tomato Crops",
     "advancement.cnk.all_secret_recipe.name": "Secret Menu",
     "advancement.cnk.all_secret_recipe.desc": "Collect every secret recipe in Crop & Kettle",
-    "item.cnk.glimmernut_butter": "Glimmernut Butter"
+    "item.cnk.glimmernut_butter": "Glimmernut Butter",
+    "item.cnk.chef_apron": "Chef's Apron"
 }

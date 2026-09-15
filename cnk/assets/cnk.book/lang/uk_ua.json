@@ -17,8 +17,8 @@
     "book.cnk.toast.unlock.weapon": "Зброю викувано!",
     "book.cnk.previous_page.hover": "Попередня сторінка",
     "book.cnk.next_page.hover": "Наступна сторінка",
-    "book.cnk.next_incomplete_recipe.hover": "Next undiscovered recipe",
-    "book.cnk.previous_incomplete_recipe.hover": "Previous undiscovered recipe",
+    "book.cnk.next_incomplete_recipe.hover": "Наступний невідкритий рецепт",
+    "book.cnk.previous_incomplete_recipe.hover": "Попередній невідкритий рецепт",
     "book.cnk.stamp.plateable.text": "Ця страва має особливий вигляд, коли на тарілці!",
     "book.cnk.return.active.text": "Назад"
 }
