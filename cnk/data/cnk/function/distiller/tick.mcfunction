@@ -16,12 +16,10 @@ function cnk:distiller/check_basin
 execute unless data storage cnk:temp distiller.basin if score @s cnk.distill_goal matches 1.. run return run function cnk:distiller/stop
 execute unless data storage cnk:temp distiller.basin run return fail
 
-# get items
-data modify storage cnk:temp distiller.Items set from block ~ ~ ~ Items
-
-# sanitise data
-execute if data storage cnk:temp distiller.Items[{components:{"minecraft:custom_data":{fathoms:{}}}}] run function cnk:distiller/fathoms
-data remove storage cnk:temp distiller.Items[{components:{"minecraft:custom_data":{}}}].id
+# get items and sanitise data
+data modify storage cnk:temp data set from block ~ ~ ~ Items
+function cnk:data_sanitiser/main
+data modify storage cnk:temp distiller.Items set from storage cnk:temp data
 
 data modify storage cnk:temp unique_items_check set value []
 data modify storage cnk:temp unique_items_check set from storage cnk:temp distiller.Items

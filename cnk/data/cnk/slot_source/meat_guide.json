@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:filtered",
+    "item_filter": {
+        "items": "minecraft:poisonous_potato",
+        "predicates": {
+            "minecraft:custom_data": {"cnk":{"meat_guide":{"state":"inactive"}}}
+        }
+    },
+    "slot_source": [
+        {
+            "type": "minecraft:slot_range",
+            "slots": "container.*"
+        },
+        {
+            "type": "minecraft:slot_range",
+            "slots": "player.cursor"
+        }
+    ]
+}

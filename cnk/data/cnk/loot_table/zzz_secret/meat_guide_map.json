@@ -5,9 +5,9 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:map",
           "modifier": [
             {
-
               "type": "minecraft:exploration_map",
               "destination": "#cnk:meat_guide",
               "search_radius": 300,
@@ -20,8 +20,7 @@
                 "minecraft:custom_data": {"cnk":{"meat_guide":{"state":"setup"}}}
               }
             }
-          ],
-          "name": "minecraft:map"
+          ]
         }
       ]
     }

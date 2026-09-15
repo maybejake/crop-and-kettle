@@ -1,0 +1,20 @@
+{
+  "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+              {
+                "items": "minecraft:poisonous_potato",
+                "predicates": {
+                  "minecraft:custom_data": {"cnk":{"meat_guide":{"state":"inactive"}}}
+                }
+              }
+            ]
+        }
+      }
+  },
+  "rewards": {
+      "function": "cnk:mystery/guide/main"
+  }
+}

@@ -1,5 +1,3 @@
-advancement grant @p[tag=cnk.interact_mixing_bowl,distance=..20] only cnk:visible/remix
-
 data modify storage cnk:temp mixing_bowl.last_recipe set from entity @s item.components."minecraft:custom_data".cnk.last_recipe
 data modify storage cnk:temp mixing_bowl.last_recipe[].count set value 1
 execute if data storage cnk:temp mixing_bowl.last_recipe[{components:{"minecraft:custom_data":{cnk:{block:{type:"pail"}}}}}] run function cnk:mixing_bowl/repeat/pail
@@ -14,6 +12,9 @@ execute store result score $compress_item_count cnk.dummy run data get storage c
 function cnk:mixing_bowl/repeat/check/main
 
 execute if score $items_found cnk.dummy matches 0 run return fail
+
+# advancement
+advancement grant @p[tag=cnk.interact_mixing_bowl,distance=..20] only cnk:visible/remix
 
 #all items found, GET EM OUTTA HERE
 function cnk:mixing_bowl/repeat/remove/main

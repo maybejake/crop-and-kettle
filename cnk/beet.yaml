@@ -9,7 +9,6 @@ resource_pack:
   max_format: [97,1]
 
 require:
-  - cnk.plugins.26_3_support
   - cnk.plugins.recipes.load_recipes
 
 pipeline:

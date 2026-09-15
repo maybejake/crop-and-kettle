@@ -4,13 +4,14 @@
         "requirement": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "items": [{"items": "minecraft:milk_bucket"}]
+                "items": [{"items": "#minecraft:wool"}]
             }
         }
     },
     "rewards": {
         "recipes": [
-            "cnk:milk_bottle"
+            "cnk:chef_apron",
+            "cnk:chef_hat"
         ]
     }
 }
