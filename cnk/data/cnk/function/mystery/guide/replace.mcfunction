@@ -1,0 +1,1 @@
+$item modify entity @s cnk:meat_guide [{type:"minecraft:set_components",components:{"minecraft:lodestone_tracker":{target:{dimension:"minecraft:overworld",pos:[$(x),64,$(z)]}}}},{type:"minecraft:set_custom_data",tag:{"cnk":{"meat_guide":{"state":"inactive"}}}}]

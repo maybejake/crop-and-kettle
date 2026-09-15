@@ -4,34 +4,27 @@
   },
   "given_item_modifier": [
     {
-      "destination": "#cnk:fizz_hut",
-      "type": "minecraft:exploration_map",
-      "search_radius": 300,
-      "skip_existing_chunks": true,
-      "decoration": "minecraft:village_taiga"
-    },
-    {
-      "type": "minecraft:set_name",
-      "name": {
-        "translate": "item.cnk.fizz_hut_map"
-      },
-      "target": "item_name"
-    },
-    {
-      "type": "minecraft:filtered",
-      "item_filter": {
-        "items": "minecraft:filled_map",
-        "predicates": {
-          "minecraft:map_id": {}
-        }
-      },
-      "on_fail": {
-        "type": "minecraft:discard"
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:item_name": {"translate": "item.cnk.fizz_hut_map", "fallback": "Fizz Hut Map"},
+        "minecraft:custom_data": {"cnk":{"fizz_hut_map":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}}
       }
+    },
+    {
+      "type": "minecraft:exploration_map",
+      "destination": "#cnk:fizz_hut",
+      "decoration": "minecraft:village_taiga",
+      "search_radius": 300,
+      "skip_existing_chunks": true
+    },
+    {
+      "type": "minecraft:set_lore",
+      "lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
+      "mode": "append"
     }
   ],
   "gives": {
-    "id": "minecraft:map"
+    "id": "minecraft:buried_treasure_map"
   },
   "max_uses": 12,
   "reputation_discount": 0.2,

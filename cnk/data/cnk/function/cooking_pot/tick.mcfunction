@@ -13,15 +13,10 @@ execute if score @s cnk.cook_cooldown matches 1.. run return run scoreboard play
 # check if the container has items
 execute unless items block ~ ~ ~ container.* * run return run execute if score @s cnk.cook_time matches 1.. run function cnk:cooking_pot/stop
 
-# get items
-data modify storage cnk:temp cooking_pot.Items set from block ~ ~ ~ Items
-
-# sanitise data
-execute if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{fathoms:{}}}}] run function cnk:cooking_pot/fathoms
-data remove storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{}}}].id
-
-# make sourdough count as bread
-execute if data storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"sourdough_bread"}}}}}] run data modify storage cnk:temp cooking_pot.Items[{components:{"minecraft:custom_data":{cnk:{ingredient:{type:"sourdough_bread"}}}}}].id set value "minecraft:bread"
+# get items and sanitise data
+data modify storage cnk:temp data set from block ~ ~ ~ Items
+function cnk:data_sanitiser/main
+data modify storage cnk:temp cooking_pot.Items set from storage cnk:temp data
 
 data modify storage cnk:temp unique_items_check set value []
 data modify storage cnk:temp unique_items_check set from storage cnk:temp cooking_pot.Items

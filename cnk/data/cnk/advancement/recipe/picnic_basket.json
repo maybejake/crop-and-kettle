@@ -2,7 +2,10 @@
     "parent": "cnk:recipe/root",
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:tick"
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{"items": "minecraft:bamboo"}]
+            }
         }
     },
     "rewards": {
