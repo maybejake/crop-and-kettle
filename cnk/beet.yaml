@@ -2,11 +2,13 @@ data_pack:
   load: .
   min_format: [119,0]
   max_format: [119,0]
+  pack_format: 119
 
 resource_pack:
   load: .
   min_format: [97,1]
   max_format: [97,1]
+  pack_format: 97
 
 require:
   - cnk.plugins.recipes.load_recipes
