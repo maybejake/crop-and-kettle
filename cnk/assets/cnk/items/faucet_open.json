@@ -13,12 +13,54 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "cnk:block/faucet_open",
-      "tints": [
+      "type": "minecraft:composite",
+      "models": [
         {
-          "type": "custom_model_data",
-          "default": 4224483
+          "type": "minecraft:model",
+          "model": "cnk:block/faucet_open_base"
+        },
+        {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "entries": [
+            {
+              "threshold": 1,
+              "model": {
+                "type": "minecraft:model",
+                "model": "cnk:block/faucet_open_1",
+                "tints": [
+                  {
+                    "type": "custom_model_data",
+                    "default": 4224483
+                  }
+                ]
+              }
+            },
+            {
+              "threshold": 2,
+              "model": {
+                "type": "minecraft:model",
+                "model": "cnk:block/faucet_open_2",
+                "tints": [
+                  {
+                    "type": "custom_model_data",
+                    "default": 4224483
+                  }
+                ]
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "cnk:block/faucet_open_1",
+            "tints": [
+              {
+                "type": "custom_model_data",
+                "default": 4224483
+              }
+            ]
+          }
         }
       ]
     },
