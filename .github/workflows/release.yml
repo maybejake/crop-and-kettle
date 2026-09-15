@@ -54,6 +54,9 @@ jobs:
             #maximum_width_and_height = 2048
             skip_alpha_optimizations = true
 
+            ['**/*.{fsh,vsh}']
+            shader_source_transformation_strategy = 'keep_as_is'
+
       - name: Upload release assets
         uses: softprops/action-gh-release@v2
         with:
