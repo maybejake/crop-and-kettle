@@ -1,8 +1,13 @@
+execute if entity @s[type=!minecraft:villager] run return run function cnk:booze/respawn
+
+# not necessary anymore, but prevents weirdness
 item replace entity @s weapon.mainhand from entity @s armor.chest
+
+# stops golems spawning, also serves to stop other memories from being created
+data modify entity @s Brain.memories set value {"minecraft:golem_detected_recently":{value:true}}
 
 particle minecraft:effect{color:9447257} ~ ~1.3 ~ 0.4 0.5 0.4 0.1 2 force
 
-data modify storage cnk:temp booze.rotation set from entity @s Rotation[0]
 execute on passengers if entity @s[type=minecraft:item_display,tag=cnk.booze_bottle] rotated as @s run function cnk:booze/spin
 
 execute if predicate {type:"minecraft:entity_properties",entity:"this",predicate:{periodic_tick:10}} at @p[distance=..16,gamemode=!spectator,gamemode=!creative] run function cnk:walk_to/main

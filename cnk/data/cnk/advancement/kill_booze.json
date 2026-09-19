@@ -7,7 +7,7 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "entity_type": "minecraft:wandering_trader",
+            "entity_type": "minecraft:villager",
             "entity_tags": {"any_of":["cnk.booze_trader"]}
           }
         }

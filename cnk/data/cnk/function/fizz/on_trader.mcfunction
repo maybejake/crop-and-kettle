@@ -1,4 +1,4 @@
-execute if entity @s[type=!minecraft:villager] run kill @s
+execute if entity @s[type=!minecraft:villager] run return run kill @s
 
 # not necessary anymore, but prevents weirdness
 item replace entity @s weapon.mainhand from entity @s armor.chest
