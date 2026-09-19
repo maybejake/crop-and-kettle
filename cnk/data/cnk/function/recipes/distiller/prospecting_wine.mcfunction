@@ -10,7 +10,7 @@ function cnk:recipes/remove with storage cnk:temp distiller
 
 #output to basin
 data modify storage cnk:temp distiller.color set value 9267916
-data modify storage cnk:temp distiller.callback set value "cnk:drinks/prospecting_wine/main"
+data modify storage cnk:temp distiller.callback set value "cnk:drinks/prospecting_wine/give"
 data modify storage cnk:temp distiller.liquid set value "prospecting_wine"
 
 function cnk:distiller/crafting/finish_distilling

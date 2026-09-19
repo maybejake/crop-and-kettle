@@ -1,1 +1,1 @@
-$execute as @p[tag=cnk.interact_basin,distance=..20] run function $(callback) with storage cnk:basin
+$execute as @p[tag=cnk.interact_basin,distance=..20] run function $(callback) with storage cnk:temp basin
