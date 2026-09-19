@@ -28,6 +28,8 @@ scoreboard objectives add cnk.timer dummy
 scoreboard objectives add cnk.hurt_timer dummy
 scoreboard objectives add cnk.spin_timer dummy
 
+scoreboard objectives add cnk.fizz_timer dummy
+
 scoreboard objectives add cnk.scythe_cooldown dummy
 
 scoreboard objectives add cnk.level dummy

@@ -2,8 +2,7 @@ item modify entity @s weapon.mainhand {"type":"set_custom_data","tag":{fix:"idk 
 
 effect give @s invisibility infinite 0 true
 
-data modify entity @s DeathTime set value 19s
-
-data modify entity @s[tag=!cnk.fizz_whistled] DespawnDelay set value 2147483647
+# remove gossip
+data merge entity @s {DeathTime:19s,Gossips:[]}
 
 data remove entity @s[tag=!cnk.fizz_trading] Offers.Recipes
