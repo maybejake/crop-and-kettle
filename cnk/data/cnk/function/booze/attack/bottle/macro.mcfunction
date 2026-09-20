@@ -1,1 +1,1 @@
-$execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^0.5 ^$(strength) {Tags:["cnk.motion_marker"]}
+$execute positioned 0.0 0.0 0.0 positioned ^ ^0.5 ^$(strength) summon minecraft:area_effect_cloud run function cnk:get_pos/main

@@ -11,8 +11,7 @@ execute if score $hit cnk.dummy matches 0 run return fail
 
 execute store result storage cnk:temp booze.strength double 0.029 run scoreboard players get $distance cnk.dummy
 function cnk:booze/attack/bottle/macro with storage cnk:temp booze
-execute positioned 0.0 0.0 0.0 run data modify storage cnk:temp booze.bottle_motion set from entity @n[type=minecraft:marker,tag=cnk.motion_marker] Pos
-execute positioned 0.0 0.0 0.0 run kill @n[type=minecraft:marker,tag=cnk.motion_marker]
+data modify storage cnk:temp booze.bottle_motion set from storage cnk:temp pos
 
 playsound minecraft:entity.splash_potion.throw hostile @a ~ ~ ~ 1 0.6
 summon minecraft:lingering_potion ^ ^ ^ {Tags:["cnk.bottle","cnk.iris.ignore"],Item:{id:"minecraft:lingering_potion",components:{"minecraft:item_model":"cnk:wine","minecraft:potion_contents":{custom_color:11742819}}}, Passengers: \
@@ -20,4 +19,4 @@ summon minecraft:lingering_potion ^ ^ ^ {Tags:["cnk.bottle","cnk.iris.ignore"],I
         {id:"minecraft:marker",Tags:["cnk.booze_bottle","cnk.projectile","cnk.entity","cnk.iris.ignore"]} \
     ] \
 }
-data modify entity @n[tag=cnk.bottle] Motion set from storage cnk:temp booze.bottle_motion
+execute positioned ^ ^ ^ run data modify entity @n[type=minecraft:lingering_potion,tag=cnk.bottle,distance=..0.1] Motion set from storage cnk:temp booze.bottle_motion
