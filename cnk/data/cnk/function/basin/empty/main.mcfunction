@@ -11,4 +11,6 @@ execute if entity @p[tag=cnk.interact_basin,distance=..20,predicate=cnk:inventor
 function cnk:time/get
 function cnk:basin/empty/macro with entity @s item.components."minecraft:custom_data".cnk.basin
 
+execute unless score @s cnk.level matches 1.. run function cnk:basin/empty/reset
+
 execute as @p[tag=cnk.interact_basin,distance=..20] at @s run function cnk:basin/empty/on_chef

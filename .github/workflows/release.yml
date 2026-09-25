@@ -29,7 +29,7 @@ jobs:
         run: uv run beet build
 
       - name: Run packSquash
-        uses: ComunidadAylas/PackSquash-action@v4
+        uses: ComunidadAylas/PackSquash-action@v4.0.4
         with:
           packsquash_version: latest
           options: |

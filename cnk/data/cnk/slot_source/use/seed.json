@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:limit_slots",
+    "limit": 1,
+    "slot_source": [
+        {
+            "type": "minecraft:filtered",
+            "item_filter": {
+                "predicates": {
+                    "minecraft:custom_data": {"cnk":{"seed":true}}
+                }
+            },
+            "slot_source": [
+                {
+                    "type": "minecraft:slot_range",
+                    "slots": "weapon.mainhand"
+                },
+                {
+                    "type": "minecraft:slot_range",
+                    "slots": "weapon.offhand"
+                }
+            ]
+        }
+    ]
+}
