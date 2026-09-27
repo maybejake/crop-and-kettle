@@ -4,7 +4,7 @@ data remove storage cnk.iris:settings Callback
 data merge storage cnk.iris:settings {TargetEntities:false,Whitelist:"minecraft:farmland",MaxRecursionDepth:16,Blacklist:"#cnk:cropcast"}
 
 # if rice, whitelist water instead
-function cnk:seeds/rice_check with storage cnk:temp seeds
+execute if items entity @s cnk:use/seed *[minecraft:custom_data~{cnk:{ingredient:{type:"rice_seeds"}}}] run data modify storage cnk.iris:settings Whitelist set value "minecraft:dirt"
 
 # addon override for raycast settings
 function #cnk:addons/raycast_seed

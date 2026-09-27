@@ -1,3 +1,4 @@
 {"values":[
-    "minecraft:chests/jungle_temple"
+    "minecraft:chests/jungle_temple",
+    {"id":"myriad:chests/jungle_template/common", "required":false}
 ]}

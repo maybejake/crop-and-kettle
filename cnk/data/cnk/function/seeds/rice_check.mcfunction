@@ -1,1 +1,0 @@
-$execute if items entity @s weapon.$(hand) *[minecraft:custom_data~{cnk:{ingredient:{type:"rice_seeds"}}}] run data modify storage cnk.iris:settings Whitelist set value "minecraft:dirt"
