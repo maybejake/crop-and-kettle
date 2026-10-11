@@ -1,9 +1,17 @@
 {
-    "type": "minecraft:div",
-    "left": {
-        "type": "minecraft:storage",
-        "storage": "cnk:temp",
-        "path": "time.year"
-    },
-    "right": 32
+    "type": "minecraft:max",
+    "inputs": [
+        {
+            "type": "minecraft:mul",
+            "inputs": [
+                {
+                    "type": "minecraft:storage",
+                    "storage": "cnk:temp",
+                    "path": "time.year"
+                },
+                32
+            ]
+        },
+        32
+    ]
 }

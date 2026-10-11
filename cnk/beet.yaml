@@ -15,7 +15,7 @@ require:
 
 pipeline:
   - cnk.plugins.recipes
-#  - mecha
+  - mecha
 
 output: .build
 
