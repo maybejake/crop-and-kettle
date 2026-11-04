@@ -16,7 +16,7 @@
         "color": "gray",
         "with": [
           {"translate": "cnk.version"},
-          {"translate": "cnk.update", "color":"light_purple"}
+          {"translate": "cnk.update", "color":"green"}
         ]
       },
       "width": 300
