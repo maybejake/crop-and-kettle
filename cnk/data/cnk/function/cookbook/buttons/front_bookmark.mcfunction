@@ -6,4 +6,5 @@ scoreboard players set $next_page cnk.dummy 1
 function cnk:cookbook/buttons/check_incomplete_recipe/main
 
 scoreboard players set @s cnk.cookbook_current_page 1
+execute at @s run playsound minecraft:item.book.put player @s ~ ~ ~ 1 1
 function cnk:cookbook/open

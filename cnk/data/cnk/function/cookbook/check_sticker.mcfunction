@@ -1,1 +1,2 @@
 execute if entity @s[advancements={cnk:visible/all_recipes=true}] run data modify storage cnk:temp cookbook.data.completion_sticker set value "{translate:'book.cnk.completion_sticker','hover_event':{'action':'show_text','value':{'translate':'book.cnk.completion_sticker.hover'}}}"
+execute if entity @s[advancements={cnk:visible/mr_kettle=true}] run data modify storage cnk:temp cookbook.data.mr_kettle_sticker set value "{translate:'book.cnk.mr_kettle_sticker','hover_event':{'action':'show_text','value':{'translate':'book.cnk.mr_kettle_sticker.hover'}}}"

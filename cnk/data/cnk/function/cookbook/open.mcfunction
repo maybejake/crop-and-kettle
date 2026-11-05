@@ -44,7 +44,8 @@ data merge storage cnk:temp { \
             button_width: 211, \
             previous_incomplete_recipe: "book.cnk.empty_incomplete_recipe", \
             next_incomplete_recipe: "book.cnk.empty_incomplete_recipe", \
-            completion_sticker: "{text:''}" \
+            completion_sticker: "{text:''}", \
+            mr_kettle_sticker: "{text:''}" \
         } \
     } \
 }
