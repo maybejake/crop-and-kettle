@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.cnk.party_hat","fallback":"Party Hat"},
+                "minecraft:item_model": "cnk:party_hat",
+                "minecraft:custom_data": {"cnk":{"party_hat":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:max_stack_size": 1,
+                "minecraft:equippable": {"slot":"head"},
+                "!minecraft:consumable": {}
+              }
+            },
+            "cnk:tooltip"
+          ]
+        }
+      ]
+    }
+  ]
+}

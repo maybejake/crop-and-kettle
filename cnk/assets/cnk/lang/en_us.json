@@ -152,6 +152,7 @@
   "item.cnk.nothing_burger": "Nothing Burger",
   "item.cnk.fortune_cookie": "Fortune Cookie",
   "item.cnk.fortune_cookie.lucky_numbers": "Lucky numbers: %1$s %2$s %3$s",
+  "item.cnk.party_hat": "Party Hat",
   
   "container.cnk.picnic_basket.itemCount": "%s x%s",
   "container.cnk.picnic_basket.more": "and %s more...",
