@@ -66,9 +66,9 @@
 
   "book.cnk.front_page": "\ua079\ub073\ua078\ub074\ub076\ub078\n\n\n           \ub013%1$s%2$s%3$s%4$s%5$s%6$s%7$s\n\n\n\n\n      \ua075\n\n\n\n%11$s\n\n\n\n%10$s\n\n%9$s\n\n",
   
-  "book.cnk.kebab_sword": "\ua058\ub026\ua032\ub026\n\ua000\n%1$s\n\ub013%4$s\n\n\ub013%5$s\n\ua029        \n\ub013%6$s\n\ua031\ub042\ua030   \n\ub013%7$s\n%2$s\ub041%3$s\n\ub013%8$s\n\n\ub013%9$s\n\n\ub013%10$s\n%11$s\n\ub068%13$s\ub067%12$s\n%14$s",
+  "book.cnk.kebab_sword": "\ua077\ub073\ua076\ub074\ub076\ua032\ub075\n\ua000 \n%1$s\n\ub013%4$s%5$s%6$s%7$s%8$s%9$s%10$s\n\n\n\ua029        \n\n\ua031\ub042\ua030   \n\ub067%12$s\n%2$s\ub041%3$s\n\n\n\n\n\n%11$s\n\ub068%13$s\n%14$s\n\n",
   
-  "book.cnk.back_page": "\ua058\ub026\ua032\ub026\n\n\n\ub013%1$s\n\n\ub013%2$s\n\n\ub013%3$s\n\n\ub013%4$s\n\ua034\n\ub013%5$s\n\n\ub013%6$s\n\n\ub013%7$s\n\n\n%8$s",
+  "book.cnk.back_page": "\ua077\ub073\ua076\ub074\ub076\ua032\ub075\n\n\n\ub013%1$s%2$s%3$s%4$s%5$s%6$s%7$s\n\n\n\n\n\n\n\ua034\n\n\n\n\n\n\n\n%8$s\n\n",
   
   "book.cnk.foraging_page": "\ua077\ub073\ua076\ub074\ub076\ua032\ub075\n\ua000 \n%1$s\n\ub013%2$s%3$s%4$s%5$s%6$s%7$s%8$s\n\n\n\n\n\n\n\n\n\ua070\n\n\uc976\n\n\n %9$s\n%10$s\n\n",
   "book.cnk.foraging_page.title": "Foraging",
