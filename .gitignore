@@ -1,3 +1,9 @@
-.build
+# Python folders
 __pycache__/
 *.pyc
+.venv
+
+# VSCode-specific settings
+.vscode
+
+.build
