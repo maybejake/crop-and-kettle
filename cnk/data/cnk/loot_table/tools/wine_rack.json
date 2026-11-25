@@ -11,7 +11,7 @@
               "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.cnk.wine_rack","fallback":"Wine Rack"},
-                "minecraft:item_model": "cnk:wine_rack/empty",
+                "minecraft:item_model": "cnk:wine_rack",
                 "minecraft:custom_data": {"cnk":{"block":{"type":"wine_rack"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:profile": {"texture":"cnk:block/transparent_head"},
                 "tooltip_display": {"hidden_components":["minecraft:profile"]},

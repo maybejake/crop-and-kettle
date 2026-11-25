@@ -2,7 +2,8 @@ data modify storage cnk:temp wine_rack.insert set from entity @p[tag=cnk.interac
 data modify storage cnk:temp wine_rack.insert.components."minecraft:custom_data".cnk.wine_rack.slot set value 3b
 
 data modify entity @s item.components."minecraft:bundle_contents" append from storage cnk:temp wine_rack.insert
-data modify entity @s item.components."minecraft:custom_model_data".colors[3] set from entity @s item.components."minecraft:bundle_contents"[{components:{"minecraft:custom_data":{"cnk":{"wine_rack":{"slot":3b}}}}}].components."minecraft:custom_data".cnk.wine.color
+data modify entity @s item.components."minecraft:custom_model_data".colors[3] set from storage cnk:temp wine_rack.insert.components."minecraft:custom_data".cnk.wine.color
+data modify entity @s item.components."minecraft:custom_model_data".flags[3] set value true
 item replace entity @p[tag=cnk.interact_wine_rack,distance=..20] weapon.mainhand with minecraft:air
 
 swing @p[tag=cnk.interact_wine_rack,distance=..20] mainhand
