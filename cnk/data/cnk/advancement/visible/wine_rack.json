@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:player_head",
       "components": {
-        "minecraft:item_model": "cnk:wine_rack/empty"
+        "minecraft:item_model": "cnk:wine_rack"
       }
     },
     "title": {"translate":"advancement.cnk.wine_rack.name","fallback":"Cellar Dweller"},

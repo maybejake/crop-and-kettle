@@ -1,9 +1,10 @@
 {
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
-	"parent":"block/block",
+	"parent": "block/block",
 	"textures": {
-		"bottle": "cnk:block/wine_rack_bottle"
+		"bottle": "cnk:block/wine_rack_bottle",
+		"particle": "cnk:block/wine_rack_side"
 	},
 	"elements": [
 		{
@@ -11,7 +12,7 @@
 			"from": [6, 2, -0.001],
 			"to": [10, 6, -0.001],
 			"faces": {
-				"north": {"uv": [0, 0, 8, 8], "texture": "#bottle"}
+				"north": {"uv": [0, 0, 4, 4], "texture": "#bottle"}
 			}
 		},
 		{
@@ -19,7 +20,7 @@
 			"from": [6, 2, -0.001],
 			"to": [10, 6, -0.001],
 			"faces": {
-				"north": {"uv": [8, 0, 16, 8], "texture": "#bottle", "tintindex": 0}
+				"north": {"uv": [4, 0, 8, 4], "texture": "#bottle", "tintindex": 0}
 			}
 		}
 	]
