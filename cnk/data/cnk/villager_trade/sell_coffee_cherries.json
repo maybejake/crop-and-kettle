@@ -12,9 +12,9 @@
       "minecraft:food":{"nutrition":0,"saturation":0,"can_always_eat": true},
       "minecraft:item_model": "cnk:coffee_cherries",
       "minecraft:custom_data": {"cnk":{"ingredient":{"type":"coffee_cherries"},"seed":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
-      "minecraft:compostable": {"layers": "minecraft:compostable/medium"},
-      "minecraft:villager_food": {"nutrition": 1}
+      "minecraft:compostable": {"layers": "minecraft:compostable/low"},
+      "minecraft:villager_food": {"nutrition": 1},
+      "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}]
     },
     "count": 1
   },
