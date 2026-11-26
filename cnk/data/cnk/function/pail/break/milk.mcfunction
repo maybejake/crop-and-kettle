@@ -5,7 +5,7 @@ $loot spawn ~ ~ ~ loot { \
       "entries": [ \
         { \
           "type": "minecraft:loot_table", \
-          "value": "cnk:other/milk_pail", \
+          "value": "cnk:technical/milk_pail", \
           "modifier": [ \
             { \
               "type": "minecraft:set_custom_data", \

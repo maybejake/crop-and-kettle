@@ -73,6 +73,7 @@ class Recipe(BaseModel):
     plateable: bool = False
     quantity: int = None
     loot_table: str = None
+    edible: bool = True
 
 
 class RecipeDefinition(JsonFileBase[Recipe]):
@@ -132,15 +133,19 @@ def generate_recipes(ctx: Context):
         # Fizz stuff
         generate_fizz_trade(ctx, recipe)
 
-        # Unjank item sources
-        generate_item_source(ctx, recipe)
+        # Add unjank item source
+        if recipe.edible:
+            generate_item_source(ctx, recipe)
 
-    # Order cookbook section tags alphabetically
-    order_section_tags(ctx)
+    # Order cookbook section tags and item sources alphabetically
+    order_recipes(ctx)
 
 
 def generate_item_source(ctx: Context, recipe: Recipe):
-    """Generate an item source entry for this recipe"""
+    """Add a recipe to an item source"""
+    item_source = ctx.data[ItemSource][f"cnk:food/{recipe.category}"].data
+    item_source["items"].append({"type": "unjank:loot", "loot": recipe.loot_table})
+    ctx.data[f"cnk:food/{recipe.category}"] = ItemSource(item_source)
 
 
 def generate_loot_table(ctx: Context, recipe: Recipe) -> str:
@@ -572,12 +577,17 @@ def generate_fizz_trade(ctx: Context, recipe: Recipe):
     ctx.data["cnk:fizz/trading/food_trades/recipes"] = Function(trade_function)
 
 
-def order_section_tags(ctx: Context):
-    """Order the section function tags alphebetically"""
+def order_recipes(ctx: Context):
+    """Order the section function tags and item sources alphebetically"""
     for category in COOKBOOK_CATEGORIES:
         function_tag = ctx.data.function_tags[f"cnk:cookbook/{category}"].data
         function_tag["values"].sort()
         ctx.data[f"cnk:cookbook/{category}"] = FunctionTag(function_tag)
+
+        item_source = ctx.data[ItemSource][f"cnk:food/{category}"].data
+
+        item_source["items"] = sorted(item_source["items"], key=lambda x: x["loot"])
+        ctx.data[f"cnk:food/{category}"] = ItemSource(item_source)
 
 
 def get_ingredient_check(ingredient: str) -> str:

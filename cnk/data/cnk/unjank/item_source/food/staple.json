@@ -1,0 +1,29 @@
+{
+  "type": "unjank:group",
+  "items": [
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/cinnamon"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/dough"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/milk_bottle"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/sourdough_dough"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/vegetable_puree"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/demi-glace"
+    }
+  ]
+}

@@ -5,7 +5,7 @@ $loot spawn ~ ~ ~ loot { \
       "entries": [ \
         { \
           "type": "minecraft:loot_table", \
-          "value": "cnk:other/water_pail", \
+          "value": "cnk:technical/water_pail", \
           "modifier": [ \
             { \
               "type": "minecraft:set_custom_data", \

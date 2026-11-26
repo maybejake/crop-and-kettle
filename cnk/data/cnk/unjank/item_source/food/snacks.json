@@ -1,0 +1,29 @@
+{
+  "type": "unjank:group",
+  "items": [
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/builders_tea"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/coffee"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/fondant_potatoes"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/iced_coffee"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/pumpkin_latte"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/tea"
+    }
+  ]
+}

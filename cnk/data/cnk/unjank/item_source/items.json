@@ -1,0 +1,385 @@
+{
+  "type": "unjank:group",
+  "items": [
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:other/cookbook"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:other/chef_hat"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:other/chef_apron"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/cooking_pot"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/stove"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/mixing_bowl"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/cutting_board"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/wooden_knife"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/stone_knife"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/copper_knife"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/iron_knife"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/golden_knife"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/diamond_knife"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/netherite_knife"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/ritual_dagger"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/wooden_scythe"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/stone_scythe"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/copper_scythe"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/iron_scythe"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/golden_scythe"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/diamond_scythe"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/netherite_scythe"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/faucet"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/pail"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:other/water_pail"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:other/milk_pail"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/pail_helmet"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/candy_bowl"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:other/cornucopia"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/treat_basket"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:other/scarecrow"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:other/gift_box/red"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:other/wreath"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/plate"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/picnic_basket"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:other/distiller_book"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/distiller"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/basin"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/wine_rack"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/calendar"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/beer"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/ginger_beer"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/grape_wine"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/creeping_wine"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/sweet_berry_wine"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/heroic_wine"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/glow_berry_wine"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/diving_wine"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/mulled_wine"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/blazing_wine"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/apple_cider"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/blessing_wine"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/gleaming_wine"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/breezing_wine"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/chorus_wine"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/prospecting_wine"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/fine_wine"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/spirit_sprite"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/booze_head"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:other/lily_pad_parcel"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:other/fizz_fez"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:other/fizz_whistle"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/fizz_oven"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/hollow_vessel"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:other/music_disc_froggy"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:other/music_disc_dinner"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:other/music_disc_greetings"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:other/music_disc_meal"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:other/music_disc_saute"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/music_disc_scarecrow"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/music_disc_trick"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/tortilla_sombrero"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:other/leaf_garland"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:other/party_hat"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/tattered_recipe"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/bubbling_recipe"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/explosive_recipe"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/flaming_recipe"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/frigid_recipe"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/heavenly_recipe"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/roseate_recipe"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/soaring_recipe"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/thoughtful_recipe"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/witch_cauldron"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/hay_brain"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/battle_spoon"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/nothing_burger"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/panless_stove"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/pan"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:other/foodie_book"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:other/kebab_sword"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/dead_meat"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/mystery_meat"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/meat_guide"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/mr_kettle"
+    }
+  ]
+}

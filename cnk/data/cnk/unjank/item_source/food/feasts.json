@@ -1,0 +1,13 @@
+{
+  "type": "unjank:group",
+  "items": [
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/cafe_meal"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/foodie_feast"
+    }
+  ]
+}

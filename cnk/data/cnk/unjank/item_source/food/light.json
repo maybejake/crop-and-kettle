@@ -1,0 +1,13 @@
+{
+  "type": "unjank:group",
+  "items": [
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/dino_nugget_stego"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:zzz_secret/dino_nugget_trex"
+    }
+  ]
+}

@@ -4,27 +4,24 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
+          "type": "minecraft:loot_table",
+          "value": "cnk:technical/milk_pail",
           "modifier": [
             {
-              "type": "minecraft:set_components",
-              "components": {
-                "minecraft:item_name": {"translate":"item.cnk.milk_pail","fallback":"Milk Pail"},
-                "minecraft:item_model": "cnk:milk_pail_item",
-                "minecraft:custom_data": {"cnk":{"block":{"type":"pail"},"pail":{"liquid":"milk","quantity":0}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                "minecraft:profile": {"texture":"cnk:block/transparent_head"},
-                "tooltip_display": {"hidden_components":["minecraft:profile"]},
-                "minecraft:rarity":"common",
-                "!minecraft:equippable": {},
-                "minecraft:max_stack_size": 1,
-                "minecraft:consumable":{"consume_seconds":2147483648,"animation":"none","sound":"intentionally_empty","has_consume_particles":false}
-              }
+              "type": "minecraft:set_custom_data",
+              "tag": {"cnk":{"pail":{"quantity":32,"color":16777215}}}
             },
-            "cnk:tooltip"
+            {
+              "type": "minecraft:set_lore",
+              "lore": [
+                {"translate": "tooltip.cnk.pail.quantity","with":[32, 32],"color":"gray","italic":false}
+              ],
+              "mode":"insert",
+              "offset":0
+            }
           ]
         }
-      ]
+      ] 
     }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "title": "Crop & Kettle: Food",
+  "icon": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "minecraft:item_model": "cnk:combo_meal"
+    }
+  },
+  "items": [
+    "cnk:food/produce",
+    "cnk:food/staple",
+    {"type": "unjank:group", "items": "#cnk:addons/staple"},
+    "cnk:food/snacks",
+    {"type": "unjank:group", "items": "#cnk:addons/snacks"},
+    "cnk:food/light",
+    {"type": "unjank:group", "items": "#cnk:addons/light"},
+    "cnk:food/hearty",
+    {"type": "unjank:group", "items": "#cnk:addons/hearty"},
+    "cnk:food/feasts",
+    {"type": "unjank:group", "items": "#cnk:addons/feasts"},
+    "cnk:food/desserts",
+    {"type": "unjank:group", "items": "#cnk:addons/desserts"}
+  ]
+}

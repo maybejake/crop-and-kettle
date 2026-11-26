@@ -7,9 +7,6 @@
     }
   },
   "items": [
-    {
-      "type": "unjank:loot",
-      "loot": "cnk:tools/cooking_pot"
-    }
+    "cnk:items"
   ]
 }

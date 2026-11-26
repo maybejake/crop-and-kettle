@@ -1,0 +1,65 @@
+{
+  "type": "unjank:group",
+  "items": [
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:seeds/corn_seeds"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:seeds/lettuce_seeds"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:seeds/rice_seeds"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:seeds/tomato_seeds"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:seeds/chili_pepper_seeds"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:seeds/grape_seeds"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/corn"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/lettuce"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/rice"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/tomato"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/rotten_tomato"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/very_rotten_tomato"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:seeds/coffee_cherries"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/chili_pepper"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/grapes"
+    }
+  ]
+}

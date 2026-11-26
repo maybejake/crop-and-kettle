@@ -4,26 +4,24 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
+          "type": "minecraft:loot_table",
+          "value": "cnk:technical/water_pail",
           "modifier": [
             {
-              "type": "minecraft:set_components",
-              "components": {
-                "minecraft:item_name": {"translate":"item.cnk.water_pail","fallback":"Water Pail"},
-                "minecraft:item_model": "cnk:water_pail_item",
-                "minecraft:custom_data": {"cnk":{"block":{"type":"pail"},"pail":{"liquid":"water","quantity":0}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                "minecraft:profile": {"texture":"cnk:block/transparent_head"},
-                "tooltip_display": {"hidden_components":["minecraft:profile"]},
-                "minecraft:rarity":"common",
-                "!minecraft:equippable": {},
-                "minecraft:max_stack_size": 1
-              }
+              "type": "minecraft:set_custom_data",
+              "tag": {"cnk":{"pail":{"quantity":32,"color":4159204}}}
             },
-            "cnk:tooltip"
+            {
+              "type": "minecraft:set_lore",
+              "lore": [
+                {"translate": "tooltip.cnk.pail.quantity","with":[32, 32],"color":"gray","italic":false}
+              ],
+              "mode":"insert",
+              "offset":0
+            }
           ]
         }
-      ]
+      ] 
     }
   ]
 }

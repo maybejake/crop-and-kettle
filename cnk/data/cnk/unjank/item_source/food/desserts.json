@@ -1,0 +1,229 @@
+{
+  "type": "unjank:group",
+  "items": [
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/candy/black"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/candy/blue"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/candy/brown"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/candy/cane"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/candy/caramel"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/candy/corn"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/candy/cyan"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/candy/gray"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/candy/green"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/candy/light_blue"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/candy/light_gray"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/candy/lime"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/candy/magenta"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/candy/orange"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/candy/pink"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/candy/purple"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/candy/red"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/candy/white"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/candy/yellow"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/festive_cookie/black"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/festive_cookie/blue"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/festive_cookie/brown"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/festive_cookie/cyan"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/festive_cookie/gray"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/festive_cookie/green"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/festive_cookie/light_blue"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/festive_cookie/light_gray"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/festive_cookie/lime"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/festive_cookie/magenta"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/festive_cookie/orange"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/festive_cookie/pink"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/festive_cookie/purple"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/festive_cookie/red"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/festive_cookie/white"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/festive_cookie/yellow"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/gingerbread/blush"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/gingerbread/hat"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/gingerbread/normal"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/gingerbread/pants"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/gingerbread/psy"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/gingerbread/scarf"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/marshmallow/normal"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/marshmallow/browned"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/marshmallow/toasted"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/marshmallow/burnt"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/marshmallow/volcanic"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/averys_freezer_burnt_sundae"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/floofys_pink_parfait"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/fortune_cookie"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/frozen_delight"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/honey_bun"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/promised_cupcake"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/prospecting_wine"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/psys_explosive_apple_pie"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/sundae"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/tiramisu"
+    }
+  ]
+}

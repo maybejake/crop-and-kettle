@@ -1,0 +1,21 @@
+{
+  "type": "unjank:group",
+  "items": [
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/beef_wellington"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/crs_fireball_pasta"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/jakes_uplifting_lunch"
+    },
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:food/sourdough_bread"
+    }
+  ]
+}
