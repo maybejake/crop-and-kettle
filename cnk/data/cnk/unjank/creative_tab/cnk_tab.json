@@ -1,0 +1,15 @@
+{
+  "title": "Crop & Kettle",
+  "icon": {
+    "id": "minecraft:player_head",
+    "components": {
+      "minecraft:item_model": "cnk:cooking_pot_item"
+    }
+  },
+  "items": [
+    {
+      "type": "unjank:loot",
+      "loot": "cnk:tools/cooking_pot"
+    }
+  ]
+}

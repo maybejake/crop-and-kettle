@@ -13,7 +13,6 @@ from beet import (
     JsonFileBase,
     Language,
     LootTable,
-    LootTableTag,
     Model,
     NamespaceFileScope,
     Texture,
@@ -22,6 +21,7 @@ from PIL import Image
 from pydantic import BaseModel, Field
 
 from .blocks import blocks
+from .unjank import ItemSource
 
 LOGGER = logging.getLogger(__name__)
 
@@ -132,8 +132,15 @@ def generate_recipes(ctx: Context):
         # Fizz stuff
         generate_fizz_trade(ctx, recipe)
 
+        # Unjank item sources
+        generate_item_source(ctx, recipe)
+
     # Order cookbook section tags alphabetically
     order_section_tags(ctx)
+
+
+def generate_item_source(ctx: Context, recipe: Recipe):
+    """Generate an item source entry for this recipe"""
 
 
 def generate_loot_table(ctx: Context, recipe: Recipe) -> str:

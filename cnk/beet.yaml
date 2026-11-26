@@ -11,6 +11,8 @@ resource_pack:
   pack_format: 97
 
 require:
+  - cnk.plugins.unjank
+  - beet.contrib.unknown_files
   - cnk.plugins.recipes.load_recipes
 
 pipeline:
