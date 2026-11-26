@@ -3,7 +3,7 @@ tag @n[type=minecraft:item,tag=cnk.meat_guide,distance=..2] add cnk.meat_guide_r
 
 # move item
 tp @n[type=minecraft:item,tag=cnk.meat_guide_ritual,distance=..20] ~ ~1 ~
-data merge entity @n[type=minecraft:item,tag=cnk.meat_guide_ritual,distance=..20] {NoGravity:1b,PickupDelay:999999,Motion:[0,0,0],Invulnerable:true}
+data merge entity @n[type=minecraft:item,tag=cnk.meat_guide_ritual,distance=..20] {NoGravity:1b,PickupDelay:32767,Motion:[0,0,0],Invulnerable:true}
 particle minecraft:trial_spawner_detection_ominous ~ ~1 ~ 0.2 0.2 0.2 0 100 force
 playsound entity.enderman.teleport neutral @a ~ ~ ~ 1 1
 playsound minecraft:entity.warden.dig neutral @a ~ ~ ~ 1 1.5

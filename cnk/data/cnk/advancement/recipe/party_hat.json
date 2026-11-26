@@ -1,0 +1,16 @@
+{
+    "parent": "cnk:recipe/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{"items": "minecraft:paper"}]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "cnk:party_hat"
+        ]
+    }
+}

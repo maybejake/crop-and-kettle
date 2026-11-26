@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " p ",
+    "ppp",
+    "lyu"
+  ],
+  "key": {
+    "p": "minecraft:paper",
+    "l": "minecraft:lime_dye",
+    "y": "minecraft:yellow_dye",
+    "u": "minecraft:purple_dye"
+  },
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {"translate":"item.cnk.party_hat","fallback":"Party Hat"},
+      "minecraft:item_model": "cnk:party_hat",
+      "minecraft:custom_data": {"cnk":{"party_hat":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:max_stack_size": 1,
+      "minecraft:equippable": {"slot":"head"},
+      "!minecraft:consumable": {},
+      "minecraft:lore": [
+        {"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false},
+        "",
+        {"translate":"item.modifiers.head","color":"gray","italic":false},
+        {"translate":"item.cnk.party_hat.tooltip","with":["1"],"color":"blue","italic":false}
+      ]
+    }
+  }
+}

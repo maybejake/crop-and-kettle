@@ -299,6 +299,10 @@
     },
     {
       "type": "unjank:loot",
+      "loot": "cnk:other/party_hat_special"
+    },
+    {
+      "type": "unjank:loot",
       "loot": "cnk:zzz_secret/tattered_recipe"
     },
     {

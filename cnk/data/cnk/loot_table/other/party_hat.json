@@ -18,7 +18,16 @@
                 "!minecraft:consumable": {}
               }
             },
-            "cnk:tooltip"
+            "cnk:tooltip",
+            {
+              "type": "minecraft:set_lore",
+              "lore": [
+                "",
+                {"translate":"item.modifiers.head","color":"gray","italic":false},
+                {"translate":"item.cnk.party_hat.tooltip","with":["1"],"color":"blue","italic":false}
+              ],
+              "mode": "append"
+            }
           ]
         }
       ]

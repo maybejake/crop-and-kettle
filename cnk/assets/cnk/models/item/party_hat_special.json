@@ -1,0 +1,7 @@
+{
+  "parent": "cnk:item/party_hat",
+	"textures": {
+		"0": "cnk:item/party_hat_special",
+		"particle": "cnk:item/party_hat_special_item"
+	}
+}
