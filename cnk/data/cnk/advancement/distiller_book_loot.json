@@ -8,6 +8,6 @@
     }
   },
   "rewards": {
-    "function": "cnk:distiller_book/loot/main"
+    "function": "cnk:distiller_book/loot"
   }
 }

@@ -1,1 +1,0 @@
-execute as @a[tag=cnk.grape_loot] at @s run function cnk:seeds/grape/loot/ray/start

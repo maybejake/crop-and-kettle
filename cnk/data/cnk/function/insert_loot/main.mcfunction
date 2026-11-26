@@ -1,8 +1,8 @@
-tag @s remove cnk.chili_pepper_loot
+execute if data storage cnk:temp insert_loot{count:0} run return fail
 
 scoreboard players set $distance cnk.dummy 0
 
 #store reach
 execute store result score $reach cnk.dummy run attribute @s minecraft:block_interaction_range get 100
 
-execute at @s anchored eyes positioned ^ ^ ^ anchored feet run function cnk:seeds/chili_pepper/loot/ray/ray
+execute at @s anchored eyes positioned ^ ^ ^ anchored feet run function cnk:insert_loot/ray

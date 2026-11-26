@@ -8,6 +8,6 @@
     }
   },
   "rewards": {
-    "function": "cnk:seeds/chili_pepper/loot/main"
+    "function": "cnk:seeds/chili_pepper/loot"
   }
 }

@@ -8,6 +8,6 @@
     }
   },
   "rewards": {
-    "function": "cnk:seeds/coffee/loot/main"
+    "function": "cnk:seeds/coffee/loot"
   }
 }

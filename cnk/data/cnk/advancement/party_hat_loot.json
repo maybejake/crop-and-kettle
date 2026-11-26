@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_tables": "#cnk:loot/party_hat_loot"
+      }
+    }
+  },
+  "rewards": {
+    "function": "cnk:party_hat/loot"
+  }
+}

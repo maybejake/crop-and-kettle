@@ -8,6 +8,6 @@
     }
   },
   "rewards": {
-    "function": "cnk:seeds/grape/loot/main"
+    "function": "cnk:seeds/grape/loot"
   }
 }

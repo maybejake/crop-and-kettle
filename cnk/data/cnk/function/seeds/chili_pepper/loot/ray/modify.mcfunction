@@ -1,1 +1,0 @@
-$loot replace block ~ ~ ~ container.$(slot) loot cnk:seeds/chili_pepper_seeds
