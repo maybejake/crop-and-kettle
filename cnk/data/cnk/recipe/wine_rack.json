@@ -14,7 +14,7 @@
     "count": 1,
     "components": {
       "minecraft:item_name": {"translate":"item.cnk.wine_rack","fallback":"Wine Rack"},
-      "minecraft:item_model": "cnk:wine_rack/empty",
+      "minecraft:item_model": "cnk:wine_rack",
       "minecraft:custom_data": {"cnk":{"block":{"type":"wine_rack"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
       "minecraft:lore": [{"translate":"cnk.tooltip","font":"cnk:tooltip","color":"white","italic":false}],
       "minecraft:profile": {"texture":"cnk:block/transparent_head"},

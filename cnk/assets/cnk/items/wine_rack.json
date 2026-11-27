@@ -1,0 +1,71 @@
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "model",
+        "model": "cnk:block/wine_rack/block"
+      },
+      {
+        "type": "condition",
+        "property": "custom_model_data",
+        "index": 0,
+        "on_true": {
+          "type": "model",
+          "model": "cnk:block/wine_rack/wine_top",
+          "tints": [
+            {"type": "custom_model_data", "default": 0, "index": 0}
+          ]
+        },
+        "on_false": {
+          "type": "empty"
+        }
+      },
+      {
+        "type": "condition",
+        "property": "custom_model_data",
+        "index": 1,
+        "on_true": {
+          "type": "model",
+          "model": "cnk:block/wine_rack/wine_right",
+          "tints": [
+            {"type": "custom_model_data", "default": 0, "index": 1}
+          ]
+        },
+        "on_false": {
+          "type": "empty"
+        }
+      },
+      {
+        "type": "condition",
+        "property": "custom_model_data",
+        "index": 2,
+        "on_true": {
+          "type": "model",
+          "model": "cnk:block/wine_rack/wine_left",
+          "tints": [
+            {"type": "custom_model_data", "default": 0, "index": 2}
+          ]
+        },
+        "on_false": {
+          "type": "empty"
+        }
+      },
+      {
+        "type": "condition",
+        "property": "custom_model_data",
+        "index": 3,
+        "on_true": {
+          "type": "model",
+          "model": "cnk:block/wine_rack/wine_bottom",
+          "tints": [
+            {"type": "custom_model_data", "default": 0, "index": 3}
+          ]
+        },
+        "on_false": {
+          "type": "empty"
+        }
+      }
+    ]
+  }
+}
