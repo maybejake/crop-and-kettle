@@ -20,7 +20,7 @@
   "book.cnk.distiller_front_page": "\ua972\ub080\ua971\ub074\ub076\ub078\n\n\n\n\n\n\n\n      \ua968\n\n\n\n\n\n\n\n\n\n%1$s\n\n",
   "book.cnk.creeping_wine": "\ua970\ub080\ua969\ub074\ub076\ua986\ub075\n\ua000\n%1$s\n\uc973\n\n\n\n\n\ub019\ua982\n%2$s\ub052\n\n%3$s\ub051\n\ua061\n%4$s\ub052\n\ub049\uc994\n\ua983\ub055\n\n%5$s\n%6$s\n\n",
   
-  "book.cnk.foodie_book": "\ua058\ub026\ua032\ub026\n\ua000\n%1$s\n\n\n%2$s\n%3$s\n%4$s\n%5$s\n%6$s\n\n\ua001\n\n\n\n\n\n\uc978\n",
+  "book.cnk.foodie_book": "\ua077\ub073\ua076\ub074\ub076\ua032\ub075\n\ua000\n%1$s\n\n\n%2$s\n%3$s\n%4$s\n%5$s\n%6$s\n\n\ua001\n\n\n\n\n\n\uc978\n\n\n",
 
   "book.cnk.paragraph_1": "\uc987",
   "book.cnk.paragraph_2": "\uc988",
@@ -205,7 +205,6 @@
   "book.cnk.front_navigation": "\ub071%1$s",
   "book.cnk.cookbook_back_navigation": "%1$s%2$s\ub070",
   "book.cnk.back_navigation": "%1$s\ub045",
-  "book.cnk.index_button": "\ua019",
   "book.cnk.page_number.single": "\uc004%1$s",
   "book.cnk.page_number.double": "\uc003%1$s",
   "book.cnk.page_number.triple": "\uc002%1$s",
