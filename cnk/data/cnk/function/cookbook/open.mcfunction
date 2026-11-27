@@ -66,14 +66,18 @@ execute if score @s cnk.cookbook_current_page matches ..0 run scoreboard players
 execute if score @s cnk.cookbook_current_page >= $global_cookbook_page cnk.dummy run scoreboard players operation @s cnk.cookbook_current_page = $global_cookbook_page cnk.dummy
 execute if score @s cnk.cookbook_current_page = $global_cookbook_page cnk.dummy run scoreboard players remove @s cnk.cookbook_current_page 1
 
-#store number length for alignment
-execute if score @s cnk.cookbook_current_page matches 1..9 run data modify storage cnk:temp cookbook.data.page_number_width set value "single"
-execute if score @s cnk.cookbook_current_page matches 10..99 run data modify storage cnk:temp cookbook.data.page_number_width set value "double"
-execute if score @s cnk.cookbook_current_page matches 100.. run data modify storage cnk:temp cookbook.data.page_number_width set value "triple"
-
 #get page
 execute store result storage cnk:temp cookbook.data.current_page int 1 run scoreboard players get @s cnk.cookbook_current_page
 function cnk:cookbook/get_page with storage cnk:temp cookbook.data
+
+#subtract one from display
+scoreboard players operation $display_page cnk.dummy = @s cnk.cookbook_current_page
+execute store result storage cnk:temp cookbook.data.current_page int 1 run scoreboard players remove $display_page cnk.dummy 1
+
+#store number length for alignment
+execute if score $display_page cnk.dummy matches 1..9 run data modify storage cnk:temp cookbook.data.page_number_width set value "single"
+execute if score $display_page cnk.dummy matches 10..99 run data modify storage cnk:temp cookbook.data.page_number_width set value "double"
+execute if score $display_page cnk.dummy matches 100.. run data modify storage cnk:temp cookbook.data.page_number_width set value "triple"
 
 scoreboard players set $ingredient_count cnk.dummy 0
 execute store result score $ingredient_count cnk.dummy run data get storage cnk:temp cookbook.current_page.ingredients
