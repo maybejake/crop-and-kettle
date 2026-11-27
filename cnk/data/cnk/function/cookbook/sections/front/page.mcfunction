@@ -16,7 +16,8 @@ $dialog show @s { \
                 {"translate":book.tab.cnk.dessert.$(dessert_state),"hover_event":{"action":"show_text","value":{"translate":book.cnk.section.dessert}},"click_event":{"action":"run_command","command":"trigger cnk.cookbook_buttons set 9927"}}, \
                 {"translate":book.cnk.front_navigation,"with":[{"translate":book.cnk.next_page.cookbook_front,"hover_event":{"action":"show_text","value":{"translate":book.cnk.next_page.hover}},"click_event":{"action":"run_command","command":"trigger cnk.cookbook_buttons set 9902"}}]}, \
                 $(completion_sticker), \
-                $(mr_kettle_sticker) \
+                $(mr_kettle_sticker), \
+                $(fizz_sticker) \
             ] \
         }] \
     }, \
