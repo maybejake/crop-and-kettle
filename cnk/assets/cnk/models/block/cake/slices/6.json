@@ -1,0 +1,26 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "cnk:block/cake/slices/bottom",
+		"1": "cnk:block/cake/slices/edge",
+		"2": "cnk:block/cake/slices/inside",
+		"3": "cnk:block/cake/slices/top",
+		"particle": "cnk:block/cake/slices/bottom"
+	},
+	"elements": [
+		{
+			"from": [13, 0, 1],
+			"to": [15, 8, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13, 0, 1]},
+			"faces": {
+				"north": {"uv": [1, 8, 3, 16], "texture": "#1"},
+				"east": {"uv": [1, 8, 15, 16], "texture": "#1"},
+				"south": {"uv": [13, 8, 15, 16], "texture": "#1"},
+				"west": {"uv": [1, 8, 15, 16], "texture": "#2"},
+				"up": {"uv": [13, 1, 15, 15], "texture": "#3"},
+				"down": {"uv": [13, 1, 15, 15], "texture": "#0"}
+			}
+		}
+	]
+}
